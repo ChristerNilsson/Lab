@@ -67,25 +67,25 @@ loadFile = (filePath) ->
   if xmlhttp.status==200 then result = xmlhttp.responseText  
   result
 
-getTxt = (rkl,filename) ->
+getTxt = (rlk,filename) ->
 	data = if filename == 'data\\09.txt' then '' else loadFile filename 
-	dbName[rkl] = ''
-	dbTree[rkl] = {}
-	dbPartier[rkl] = {}
-	dbPersoner[rkl] = {}
+	dbName[rlk] = ''
+	dbTree[rlk] = {}
+	dbPartier[rlk] = {}
+	dbPersoner[rlk] = {}
 	lines = data.split '\n'
 	for line in lines
 		line = line.trim()
 		cells = line.split '|'
 		if cells[0]=='T' # T|Arjeplog
-			dbName[rkl] = cells[1]
+			dbName[rlk] = cells[1]
 		if cells[0]=='A' # kandidaturer # A|3|208509|208510|208511|208512|208513|208514
-			dbTree[rkl][cells[1]] = cells.slice 2
+			dbTree[rlk][cells[1]] = cells.slice 2
 		if cells[0]=='B' # partier # B|4|C|Centerpartiet
-			dbPartier[rkl][cells[1]] = cells.slice 2 
+			dbPartier[rlk][cells[1]] = cells.slice 2 
 		if cells[0]=='C' # personer # C|10552|53|K|Britta Flinkfeldt|53 år, Arjeplog
-			dbPersoner[rkl][cells[1]] = cells.slice 2 
-	print 'getTxt',rkl,filename, data.length, _.size dbPersoner[rkl]
+			dbPersoner[rlk][cells[1]] = cells.slice 2 
+	print 'getTxt',rlk,filename, data.length, _.size dbPersoner[rlk]
 
 getKommun = (filename) ->
 	data = loadFile filename 

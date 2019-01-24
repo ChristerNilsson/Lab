@@ -27,7 +27,7 @@ LetterPage = function (_Page) {
     }
   }, {
     key: "makeLetters",
-    value: function makeLetters(rkl, button, partikod, personer) {
+    value: function makeLetters(rlk, button, partikod, personer) {
       var _this2 = this;
 
       var N, h, i, key, letters, n, ref, results, title, w, words, x, y;
@@ -42,7 +42,7 @@ LetterPage = function (_Page) {
         results = [];
         for (j = 0, len = personer.length; j < len; j++) {
           key = personer[j];
-          results.push(dbPersoner[rkl][key][2]);
+          results.push(dbPersoner[rlk][key][2]);
         }
         return results;
       }();
@@ -56,7 +56,7 @@ LetterPage = function (_Page) {
         (function (letters, title) {
           return _this2.addButton(new LetterButton(title, x, y, w - 2, h - 2, n, function () {
             this.page.selected = this;
-            return pages.personer.clickLetterButton(rkl, this, partikod, letters, personer);
+            return pages.personer.clickLetterButton(rlk, this, partikod, letters, personer);
           }));
         })(letters, title);
         results.push(i++);

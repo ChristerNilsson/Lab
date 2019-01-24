@@ -23,14 +23,14 @@ PartiPage = function (_Page) {
   _createClass(PartiPage, [{
     key: 'render',
     value: function render() {
-      var namn, rkl, s;
+      var namn, rlk, s;
       this.bg(0);
       if (this.selected !== null) {
         push();
         textAlign(LEFT, CENTER);
         textSize(0.4 * pages.personer.h / 17);
-        rkl = pages.rlk.selected.rlk;
-        namn = dbPartier[rkl][this.selected.partikod][1];
+        rlk = pages.rlk.selected.rlk;
+        namn = dbPartier[rlk][this.selected.partikod][1];
         s = namn + ' (' + pages.personer.buttons.length + ' av ' + _.size(pages.personer.personer) + ')';
         text(s, pages.personer.x, pages.personer.y + pages.personer.h / 34);
         return pop();
@@ -38,7 +38,7 @@ PartiPage = function (_Page) {
     }
   }, {
     key: 'select',
-    value: function select(rkl, partier) {
+    value: function select(rlk, partier) {
       var _this2 = this;
 
       var N, h, i, j, len, partikod, partikoder, results, w, x, y;
@@ -60,14 +60,14 @@ PartiPage = function (_Page) {
         y = this.y + h * (1 + i % N);
         print(partikod);
         results.push(function (partikod) {
-          return _this2.addButton(new PartiButton(rkl, partikod, x, y, w - 2, h - 2, function () {
+          return _this2.addButton(new PartiButton(rlk, partikod, x, y, w - 2, h - 2, function () {
             this.page.selected = this;
             if (PERSONS_PER_PAGE < _.size(partier[partikod])) {
-              pages.letters.makeLetters(rkl, this, partikod, partier[partikod]);
+              pages.letters.makeLetters(rlk, this, partikod, partier[partikod]);
               pages.personer.buttons = [];
             } else {
               pages.letters.buttons = [];
-              pages.personer.makePersons(rkl, this, partikod, partier[partikod]);
+              pages.personer.makePersons(rlk, this, partikod, partier[partikod]);
             }
             pages.rlk.clickPartiButton(this);
             return pages.personer.personer = partier[partikod];
@@ -84,14 +84,14 @@ PartiPage = function (_Page) {
 PartiButton = function (_Button) {
   _inherits(PartiButton, _Button);
 
-  function PartiButton(rkl1, partikod1, x, y, w, h) {
+  function PartiButton(rlk1, partikod1, x, y, w, h) {
     var click = arguments.length > 6 && arguments[6] !== undefined ? arguments[6] : function () {};
 
     _classCallCheck(this, PartiButton);
 
     var _this3 = _possibleConstructorReturn(this, (PartiButton.__proto__ || Object.getPrototypeOf(PartiButton)).call(this, '', x, y, w, h, click));
 
-    _this3.rkl = rkl1;
+    _this3.rlk = rlk1;
     _this3.partikod = partikod1;
     return _this3;
   }
@@ -109,10 +109,10 @@ PartiButton = function (_Button) {
       } else {
         fc(1);
       }
-      //print @rkl,@partikod
-      partinamn = dbPartier[this.rkl][this.partikod][0];
+      //print @rlk,@partikod
+      partinamn = dbPartier[this.rlk][this.partikod][0];
       if (partinamn === '') {
-        partinamn = dbPartier[this.rkl][this.partikod][1];
+        partinamn = dbPartier[this.rlk][this.partikod][1];
       }
       return text(partinamn, this.x + this.w / 2, this.y + this.h / 2);
     }

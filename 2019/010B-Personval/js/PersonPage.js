@@ -29,7 +29,7 @@ PersonPage = function (_Page) {
     }
   }, {
     key: 'clickLetterButton',
-    value: function clickLetterButton(rkl, button, partikod, letters, knrs) {
+    value: function clickLetterButton(rlk, button, partikod, letters, knrs) {
       var _this2 = this;
 
       var N, h, i, j, knr, len, person, ref, results, w, x, y;
@@ -41,7 +41,7 @@ PersonPage = function (_Page) {
       button.pageNo = (button.pageNo + 1) % button.pages;
       this.buttons = [];
       knrs.sort(function (a, b) {
-        if (dbPersoner[rkl][a][2] < dbPersoner[rkl][b][2]) {
+        if (dbPersoner[rlk][a][2] < dbPersoner[rlk][b][2]) {
           return -1;
         } else {
           return 1;
@@ -51,14 +51,14 @@ PersonPage = function (_Page) {
       results = [];
       for (i = 0, len = knrs.length; i < len; i++) {
         knr = knrs[i];
-        person = dbPersoner[rkl][knr];
+        person = dbPersoner[rlk][knr];
         if (ref = person[2][0], indexOf.call(letters, ref) >= 0) {
           if (Math.floor(j / N) === button.pageNo) {
             x = Math.floor(j / Math.floor(N / 2)) * w / 2;
             x = x % w;
             y = 2 * h * (1 + j % Math.floor(N / 2));
             (function (knr) {
-              return _this2.addButton(new PersonButton(rkl, partikod, knr, _this2.x + x, _this2.y + y, w / 2 - 2, 2 * h - 2, function () {
+              return _this2.addButton(new PersonButton(rlk, partikod, knr, _this2.x + x, _this2.y + y, w / 2 - 2, 2 * h - 2, function () {
                 this.page.selected = this;
                 return pages.rlk.clickPersonButton([partikod, knr]);
               }));
@@ -73,7 +73,7 @@ PersonPage = function (_Page) {
     }
   }, {
     key: 'makePersons',
-    value: function makePersons(rkl, button, partikod, knrs) {
+    value: function makePersons(rlk, button, partikod, knrs) {
       var _this3 = this;
 
       // personer är en lista med knr
@@ -85,7 +85,7 @@ PersonPage = function (_Page) {
       this.selected = button;
       this.buttons = [];
       knrs.sort(function (a, b) {
-        if (dbPersoner[rkl][a][2] < dbPersoner[rkl][b][2]) {
+        if (dbPersoner[rlk][a][2] < dbPersoner[rlk][b][2]) {
           return -1;
         } else {
           return 1;
@@ -94,12 +94,12 @@ PersonPage = function (_Page) {
       results = [];
       for (j = i = 0, len = knrs.length; i < len; j = ++i) {
         knr = knrs[j];
-        //person = dbPersoner[rkl][knr] # [age,sex,name,uppgift]
+        //person = dbPersoner[rlk][knr] # [age,sex,name,uppgift]
         x = Math.floor(j / N) * w / 2;
         x = x % w;
         y = 2 * h * (1 + j % N);
         results.push(function (partikod, knr) {
-          return _this3.addButton(new PersonButton(rkl, partikod, knr, _this3.x + x, _this3.y + y, w / 2 - 2, 2 * h - 2, function () {
+          return _this3.addButton(new PersonButton(rlk, partikod, knr, _this3.x + x, _this3.y + y, w / 2 - 2, 2 * h - 2, function () {
             this.page.selected = this;
             return pages.rlk.clickPersonButton([this.partikod, this.knr]);
           }));
@@ -115,7 +115,7 @@ PersonPage = function (_Page) {
 PersonButton = function (_Button) {
   _inherits(PersonButton, _Button);
 
-  function PersonButton(rkl1, partikod1, knr, x, y, w, h) {
+  function PersonButton(rlk1, partikod1, knr, x, y, w, h) {
     var click = arguments.length > 7 && arguments[7] !== undefined ? arguments[7] : function () {};
 
     _classCallCheck(this, PersonButton);
@@ -124,10 +124,10 @@ PersonButton = function (_Button) {
 
     var _this4 = _possibleConstructorReturn(this, (PersonButton.__proto__ || Object.getPrototypeOf(PersonButton)).call(this, knr, x, y, w, h, click));
 
-    _this4.rkl = rkl1;
+    _this4.rlk = rlk1;
     _this4.partikod = partikod1;
     _this4.knr = knr;
-    person = dbPersoner[_this4.rkl][knr];
+    person = dbPersoner[_this4.rlk][knr];
     _this4.title0 = person[2];
     _this4.title1 = person[3];
     if (_this4.title1 === '') {
