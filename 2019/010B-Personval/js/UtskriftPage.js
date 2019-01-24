@@ -67,7 +67,6 @@ UtskriftPage = function (_Page) {
     key: 'render',
     value: function render() {
       var h, i, j, k, knr, l, len, len1, myNode, pair, partikod, partinamn, personnamn, ref, ref1, rlk, w, y;
-      print('UtskriftPage.render');
       myNode = document.getElementById('qrcode');
       myNode.style.position = 'absolute';
       myNode.style.left = int(0.02 * width) + 'px';
@@ -75,7 +74,6 @@ UtskriftPage = function (_Page) {
       textAlign(LEFT, CENTER);
       this.bg(1);
       fc(0);
-      // text pages.rlk.qr,20,0.9*height
       text('crc: ' + this.getCRC(pages.rlk.qr.slice(10)) + ' ' + ('tid: ' + this.cpu), 0.02 * width, 0.95 * height);
       push();
       sc();

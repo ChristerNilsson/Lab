@@ -68,7 +68,7 @@ loadFile = (filePath) ->
   result
 
 getTxt = (rlk,filename) ->
-	data = if filename == 'data\\09.txt' then '' else loadFile filename 
+	data = if filename == 'data\\09.txt' then '' else loadFile filename # Gotland har inget Landsting
 	dbName[rlk] = ''
 	dbTree[rlk] = {}
 	dbPartier[rlk] = {}
@@ -100,17 +100,6 @@ getKommun = (filename) ->
 			dbKommun[kod] = namn
 	print 'getKommun', _.size dbKommun
 
-preload = ->
-	{kommun} = getParameters()
-	if not kommun then kommun = '0180'
-	kommunkod = kommun
-	länskod = kommunkod.slice 0,2	
-
-	getTxt 'R','data\\00.txt'
-	getTxt 'L',"data\\#{länskod}.txt"
-	getTxt 'K',"data\\#{kommunkod}.txt"
-	getKommun 'data\\omraden.txt'
-
 fetchKommun = (kommun) -> # t ex '0180'
 	start = new Date().getTime()
 
@@ -126,24 +115,37 @@ fetchKommun = (kommun) -> # t ex '0180'
 
 	print 'time', new Date().getTime() - start
 
+preload = ->
+	{kommun} = getParameters()
+	if not kommun then kommun = '0180'
+	kommunkod = kommun
+	länskod = kommunkod.slice 0,2	
+
+	getTxt 'R','data\\00.txt'
+	getTxt 'L',"data\\#{länskod}.txt"
+	getTxt 'K',"data\\#{kommunkod}.txt"
+	getKommun 'data\\omraden.txt'
+
 setup = ->
 	createCanvas windowWidth,windowHeight-1
 	sc()
 	textAlign CENTER,CENTER
 	textSize 20
 
+	w = width
+	h = height
 	x0 = 0
-	x1 = 0.18*width
-	x2 = 0.28*width
-	x3 = 0.64*width
-	x4 = 1.00*width
+	x1 = 0.18*w
+	x2 = 0.28*w
+	x3 = 0.64*w
+	x4 = 1.00*w
 
-	pages.partier  = new PartiPage    0,0,x1-x0,height 
-	pages.letters  = new LetterPage  x1,0,x2-x1,height 
-	pages.personer = new PersonPage  x2,0,x3-x2,height 
-	pages.kommun   = new KommunPage   0,0,x4,height 
-	pages.rlk      = new RLKPage     x3,0,x4-x3,height 
-	pages.utskrift = new UtskriftPage 0,0,x4,height
+	pages.partier  = new PartiPage    0,0,x1-x0,h
+	pages.letters  = new LetterPage  x1,0,x2-x1,h
+	pages.personer = new PersonPage  x2,0,x3-x2,h
+	pages.kommun   = new KommunPage   0.1*w,0.1*h,0.8*w,0.8*h
+	pages.rlk      = new RLKPage     x3,0,x4-x3,h
+	pages.utskrift = new UtskriftPage 0,0,x4,h
 
 	pageStack.push pages.partier
 	pageStack.push pages.letters

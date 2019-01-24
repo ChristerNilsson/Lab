@@ -29,7 +29,6 @@ class UtskriftPage extends Page
 		res
 
 	render : ->
-		print 'UtskriftPage.render'
 		myNode = document.getElementById 'qrcode'
 		myNode.style.position = 'absolute' 
 		myNode.style.left = "#{int 0.02*width}px"
@@ -37,7 +36,6 @@ class UtskriftPage extends Page
 		textAlign LEFT,CENTER
 		@bg 1
 		fc 0
-		# text pages.rlk.qr,20,0.9*height
 		text "#{'crc: ' + @getCRC pages.rlk.qr.slice 10} #{'tid: '+@cpu}",0.02*width,0.95*height
 
 		push()

@@ -23,18 +23,7 @@ PartiPage = function (_Page) {
   _createClass(PartiPage, [{
     key: 'render',
     value: function render() {
-      var namn, rlk, s;
-      this.bg(0);
-      if (this.selected !== null) {
-        push();
-        textAlign(LEFT, CENTER);
-        textSize(0.4 * pages.personer.h / 17);
-        rlk = pages.rlk.selected.rlk;
-        namn = dbPartier[rlk][this.selected.partikod][1];
-        s = namn + ' (' + pages.personer.buttons.length + ' av ' + _.size(pages.personer.personer) + ')';
-        text(s, pages.personer.x, pages.personer.y + pages.personer.h / 34);
-        return pop();
-      }
+      return this.bg(0);
     }
   }, {
     key: 'select',
@@ -109,7 +98,6 @@ PartiButton = function (_Button) {
       } else {
         fc(1);
       }
-      //print @rlk,@partikod
       partinamn = dbPartier[this.rlk][this.partikod][0];
       if (partinamn === '') {
         partinamn = dbPartier[this.rlk][this.partikod][1];

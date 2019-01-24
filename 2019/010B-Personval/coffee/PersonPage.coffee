@@ -2,6 +2,19 @@ class PersonPage extends Page
 
 	render : ->
 		@bg 0	
+		selected = pages.partier.selected
+		pp = pages.personer
+		if selected != null
+			push()
+			textAlign LEFT,CENTER
+			textSize 0.4 * pp.h/17
+			rlk = pages.rlk.selected.rlk
+			namn = dbPartier[rlk][selected.partikod][1]
+			s = "#{namn} (#{pp.buttons.length} av #{_.size pp.personer})"
+			fc 1
+			print s, pp.x, pp.y + pp.h/34
+			text s, pp.x, pp.y + pp.h/34
+			pop()
 
 	clickLetterButton : (rlk,button,partikod,letters,knrs) ->
 		@personer = knrs
@@ -35,7 +48,6 @@ class PersonPage extends Page
 
 		knrs.sort (a,b) -> if dbPersoner[rlk][a][2] < dbPersoner[rlk][b][2] then -1 else 1
 		for knr,j in knrs
-			#person = dbPersoner[rlk][knr] # [age,sex,name,uppgift]
 			x = j//N * w/2
 			x = x % w
 			y = 2*h*(1 + j%N)

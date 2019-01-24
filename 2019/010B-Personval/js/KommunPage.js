@@ -20,7 +20,6 @@ KommunPage = function () {
     function KommunPage(x, y, w, h) {
       _classCallCheck(this, KommunPage);
 
-      //@active = true
       var _this = _possibleConstructorReturn(this, (KommunPage.__proto__ || Object.getPrototypeOf(KommunPage)).call(this, x, y, w, h));
 
       _this.grupper = gruppera(_.values(dbKommun), N * COLS);
@@ -35,9 +34,10 @@ KommunPage = function () {
 
         var index = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
 
-        var first, h, i, j, k, key, keys, last, len, len1, letters, namn, ref, ref1, w, x, y;
+        var first, h, i, j, k, key, keys, last, len, len1, letters, namn, ref, ref1, title, w, ww, x, y;
         this.buttons = [];
-        w = this.w / COLS;
+        ww = this.w / COLS;
+        w = ww / 2;
         h = this.h / (N + 1);
         keys = _.keys(dbKommun);
         keys.sort(function (a, b) {
@@ -55,8 +55,9 @@ KommunPage = function () {
           if (i === index) {
             letters = "" + first + last;
           }
+          title = first === last ? first : title = first + "-" + last;
           (function (i) {
-            return _this2.addButton(new Button(first + "-" + last, _this2.x + i * w, _this2.y, w - 1, h - 1, function () {
+            return _this2.addButton(new Button(title, _this2.x + i * w, _this2.y, w - 1, h - 1, function () {
               return this.page.init(i);
             }));
           })(i);
@@ -66,9 +67,9 @@ KommunPage = function () {
           key = keys[k];
           namn = dbKommun[key];
           if (letters[0] <= (ref1 = namn[0]) && ref1 <= letters[1]) {
-            x = Math.floor(i % (COLS * N) / N) * w;
+            x = Math.floor(i % (COLS * N) / N) * ww;
             y = (1 + i % N) * h;
-            this.addButton(new KommunButton(key, this.x + x, this.y + y, w - 1, h - 1, function () {
+            this.addButton(new KommunButton(key, this.x + x, this.y + y, ww - 1, h - 1, function () {
               rensa();
               fetchKommun(this.key);
               return pageStack.pop();
@@ -81,7 +82,12 @@ KommunPage = function () {
     }, {
       key: "render",
       value: function render() {
-        return bg(0);
+        this.bg(0);
+        push();
+        sc(1, 1, 1);
+        sw(1);
+        rect(this.x, this.y, this.w, this.h);
+        return pop();
       }
     }]);
 
@@ -90,9 +96,9 @@ KommunPage = function () {
 
   ;
 
-  N = 16;
+  N = 8;
 
-  COLS = 10;
+  COLS = 5;
 
   return KommunPage;
 }.call(undefined);

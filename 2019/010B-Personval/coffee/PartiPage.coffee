@@ -1,15 +1,6 @@
 class PartiPage extends Page
 	render : ->
 		@bg 0
-		if @selected != null
-			push()
-			textAlign LEFT,CENTER
-			textSize 0.4 * pages.personer.h/17
-			rlk = pages.rlk.selected.rlk
-			namn = dbPartier[rlk][@selected.partikod][1]
-			s = "#{namn} (#{pages.personer.buttons.length} av #{_.size pages.personer.personer})"
-			text s, pages.personer.x, pages.personer.y + pages.personer.h/34
-			pop()
 
 	select : (rlk,partier) ->
 		N = 16
@@ -47,7 +38,6 @@ class PartiButton extends Button
 		textSize @ts
 		textAlign CENTER,CENTER
 		if @page.selected == @ then fc 1,1,0 else fc 1
-		#print @rlk,@partikod
 		partinamn = dbPartier[@rlk][@partikod][0]
 		if partinamn == '' then partinamn = dbPartier[@rlk][@partikod][1]
 

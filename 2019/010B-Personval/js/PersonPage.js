@@ -25,7 +25,22 @@ PersonPage = function (_Page) {
   _createClass(PersonPage, [{
     key: 'render',
     value: function render() {
-      return this.bg(0);
+      var namn, pp, rlk, s, selected;
+      this.bg(0);
+      selected = pages.partier.selected;
+      pp = pages.personer;
+      if (selected !== null) {
+        push();
+        textAlign(LEFT, CENTER);
+        textSize(0.4 * pp.h / 17);
+        rlk = pages.rlk.selected.rlk;
+        namn = dbPartier[rlk][selected.partikod][1];
+        s = namn + ' (' + pp.buttons.length + ' av ' + _.size(pp.personer) + ')';
+        fc(1);
+        print(s, pp.x, pp.y + pp.h / 34);
+        text(s, pp.x, pp.y + pp.h / 34);
+        return pop();
+      }
     }
   }, {
     key: 'clickLetterButton',
@@ -94,7 +109,6 @@ PersonPage = function (_Page) {
       results = [];
       for (j = i = 0, len = knrs.length; i < len; j = ++i) {
         knr = knrs[j];
-        //person = dbPersoner[rlk][knr] # [age,sex,name,uppgift]
         x = Math.floor(j / N) * w / 2;
         x = x % w;
         y = 2 * h * (1 + j % N);
