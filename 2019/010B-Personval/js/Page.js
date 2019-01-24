@@ -20,10 +20,15 @@ Page = function () {
     this.cols = cols;
     this.selected = null; // anger vilken knapp man klickat på
     this.buttons = [];
-    this.active = true;
+    this.modal = false; // spärra underliggande fönster
   }
 
   _createClass(Page, [{
+    key: "inside",
+    value: function inside() {
+      return this.x < mouseX && mouseX < this.x + this.w && this.y < mouseY && mouseY < this.y + this.h;
+    }
+  }, {
     key: "clear",
     value: function clear() {
       this.selected = null;
@@ -39,32 +44,38 @@ Page = function () {
     key: "render",
     value: function render() {}
   }, {
+    key: "bg",
+    value: function bg() {
+      // klarar ett eller tre argument
+      fc.apply(null, arguments);
+      return rect(this.x, this.y, this.w, this.h);
+    }
+  }, {
     key: "draw",
     value: function draw() {
       var button, i, len, ref, results;
-      if (this.active) {
-        this.render();
-        ref = this.buttons;
-        results = [];
-        for (i = 0, len = ref.length; i < len; i++) {
-          button = ref[i];
-          results.push(button.draw());
-        }
-        return results;
+      this.render();
+      ref = this.buttons;
+      results = [];
+      for (i = 0, len = ref.length; i < len; i++) {
+        button = ref[i];
+        results.push(button.draw());
       }
+      return results;
     }
   }, {
     key: "mousePressed",
     value: function mousePressed() {
       var button, i, len, ref;
-      if (this.active) {
-        ref = this.buttons;
-        for (i = 0, len = ref.length; i < len; i++) {
-          button = ref[i];
-          if (button.inside(mouseX, mouseY)) {
-            button.click();
-            return true;
-          }
+      if (!this.inside()) {
+        return false;
+      }
+      ref = this.buttons;
+      for (i = 0, len = ref.length; i < len; i++) {
+        button = ref[i];
+        if (button.inside()) {
+          button.click();
+          return true;
         }
       }
       return false;

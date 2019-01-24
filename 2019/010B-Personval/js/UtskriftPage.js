@@ -30,16 +30,16 @@ UtskriftPage = function (_Page) {
       var myNode;
       myNode = document.getElementById("qrcode");
       myNode.innerHTML = '';
-      pages.utskrift.active = false;
-      return pages.typ.createSelectButtons();
+      pageStack.pop();
+      return pages.rlk.createSelectButtons();
     }));
     _this.addButton(new Button('Slump', 0.02 * width, 0.8 * height, 0.12 * w, 0.06 * h, function () {
       var myNode;
       myNode = document.getElementById("qrcode");
       myNode.innerHTML = '';
-      pages.utskrift.active = false;
-      pages.typ.slumpa();
-      return pages.typ.createSelectButtons();
+      pageStack.pop();
+      pages.rlk.slumpa();
+      return pages.rlk.createSelectButtons();
     }));
     return _this;
   }
@@ -47,8 +47,8 @@ UtskriftPage = function (_Page) {
   _createClass(UtskriftPage, [{
     key: 'stopMeasuringTime',
     value: function stopMeasuringTime() {
-      this.crc = this.getCRC(pages.typ.qr);
-      return this.cpu = new Date().getTime() - pages.typ.start;
+      this.crc = this.getCRC(pages.rlk.qr);
+      return this.cpu = new Date().getTime() - pages.rlk.start;
     }
   }, {
     key: 'getCRC',
@@ -66,24 +66,25 @@ UtskriftPage = function (_Page) {
   }, {
     key: 'render',
     value: function render() {
-      var h, i, j, k, knr, l, len, len1, myNode, pair, partikod, partinamn, personnamn, ref, ref1, typ, w, y;
+      var h, i, j, k, knr, l, len, len1, myNode, pair, partikod, partinamn, personnamn, ref, ref1, rlk, w, y;
+      print('UtskriftPage.render');
       myNode = document.getElementById('qrcode');
       myNode.style.position = 'absolute';
       myNode.style.left = int(0.02 * width) + 'px';
       myNode.style.top = int(0.02 * height) + 'px';
       textAlign(LEFT, CENTER);
-      bg(1);
+      this.bg(1);
       fc(0);
-      // text pages.typ.qr,20,0.9*height
-      text('crc: ' + this.getCRC(pages.typ.qr.slice(10)) + ' ' + ('tid: ' + this.cpu), 0.02 * width, 0.95 * height);
+      // text pages.rlk.qr,20,0.9*height
+      text('crc: ' + this.getCRC(pages.rlk.qr.slice(10)) + ' ' + ('tid: ' + this.cpu), 0.02 * width, 0.95 * height);
       push();
       sc();
       w = width;
       h = height;
       ref = 'RLK';
       for (i = k = 0, len = ref.length; k < len; i = ++k) {
-        typ = ref[i];
-        ref1 = pages.typ.selectedPersons[typ];
+        rlk = ref[i];
+        ref1 = pages.rlk.selectedPersons[rlk];
         for (j = l = 0, len1 = ref1.length; l < len1; j = ++l) {
           pair = ref1[j];
           var _pair = pair;
@@ -93,23 +94,23 @@ UtskriftPage = function (_Page) {
           partikod = _pair2[0];
           knr = _pair2[1];
 
-          partinamn = dbPartier[typ][partikod][1];
+          partinamn = dbPartier[rlk][partikod][1];
           if (knr === 0) {
             personnamn = '';
           } else {
-            personnamn = dbPersoner[typ][knr][2];
+            personnamn = dbPersoner[rlk][knr][2];
           }
           y = [0, 0.3 * h, 0.6 * h][i] + 0.04 * h + 0.05 * h * j;
           if (j === 0) {
             textSize(0.028 * h);
-            text(dbName[typ], 0.31 * width, y);
+            text(dbName[rlk], 0.31 * width, y);
           }
           textSize(0.020 * h);
           text(j + 1 + '  ' + partinamn + ' - ' + personnamn, 0.3 * w, y + 0.05 * h);
         }
       }
       pop();
-      return pages.typ.sbuttons = [];
+      return pages.rlk.sbuttons = [];
     }
   }]);
 

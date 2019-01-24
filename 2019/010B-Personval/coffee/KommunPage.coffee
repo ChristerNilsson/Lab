@@ -5,7 +5,7 @@ class KommunPage extends Page
 
 	constructor : (x,y,w,h) ->
 		super x,y,w,h
-		@active = true
+		#@active = true
 		@grupper = gruppera _.values(dbKommun), N*COLS
 		@init()
 
@@ -31,6 +31,26 @@ class KommunPage extends Page
 				@addButton new KommunButton key,@x+x,@y+y,w-1,h-1, -> 
 					rensa()
 					fetchKommun @key
+					pageStack.pop()
 				i++
 		@selected = @buttons[index] 
 
+	render : ->
+		bg 0
+
+class KommunButton extends Button 
+
+	constructor : (key, x,y,w,h,click = ->) ->
+		super dbKommun[key],x,y,w,h,click
+		@key = key 
+
+	draw : ->
+		fc 0.5
+		push()
+		sc()
+		rect @x,@y,@w,@h
+		pop()
+		textSize 0.65 * @ts
+		textAlign LEFT,CENTER
+		if @page.selected == @ then fc 1,1,0 else fc 1
+		text @title,@x+0.025*@w,@y+@h/2

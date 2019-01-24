@@ -13,7 +13,7 @@ WinMove A,, 0,0, A_ScreenWidth*xp, A_ScreenHeight
 
 Run, C:\Python27\python -m SimpleHTTPServer
 
-Run, http://127.0.0.1:8000
+Run, http://localhost:8000
 WinWait, ahk_class Chrome_WidgetWin_1
 WinActivate, ahk_class Chrome_WidgetWin_1
 WinMove A,, A_ScreenWidth*xp, A_ScreenHeight*(1-yp), A_ScreenWidth*(1-xp), A_ScreenHeight*yp

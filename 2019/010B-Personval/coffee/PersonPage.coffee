@@ -1,5 +1,8 @@
 class PersonPage extends Page
 
+	render : ->
+		@bg 0	
+
 	clickLetterButton : (rkl,button,partikod,letters,knrs) ->
 		@personer = knrs
 		N = PERSONS_PER_PAGE
@@ -19,7 +22,7 @@ class PersonPage extends Page
 					y = 2*h*(1+j%(N//2))
 					do (knr) => @addButton new PersonButton rkl, partikod, knr, @x+x,@y+y,w/2-2,2*h-2, -> 
 						@page.selected = @
-						pages.typ.clickPersonButton [partikod,knr]
+						pages.rlk.clickPersonButton [partikod,knr]
 				j++
 
 	makePersons : (rkl, button, partikod, knrs) -> # personer är en lista med knr
@@ -38,5 +41,22 @@ class PersonPage extends Page
 			y = 2*h*(1 + j%N)
 			do (partikod,knr) => @addButton new PersonButton rkl, partikod, knr, @x+x,@y+y,w/2-2,2*h-2, -> 
 				@page.selected = @
-				pages.typ.clickPersonButton [@partikod,@knr]
+				pages.rlk.clickPersonButton [@partikod,@knr]
 
+class PersonButton extends Button
+	constructor : (@rkl, @partikod, knr, x,y,w,h,click = ->) ->
+		super knr,x,y,w,h,click
+		@knr = knr 
+		person = dbPersoner[@rkl][knr]
+		@title0 = person[2]
+		@title1 = person[3]
+		if @title1 == '' then @title1 = "#{{M:'Man', K:'Kvinna'}[person[1]]} #{person[0]} år" 
+	draw : ->
+		fc 0.5
+		rect @x,@y,@w,@h
+		textSize @ts/2
+		textAlign LEFT,CENTER
+		fc 1
+		text @title0,@x+2,@y+2+0.3*@h
+		fc 0.75
+		text @title1,@x+2,@y+2+0.7*@h
