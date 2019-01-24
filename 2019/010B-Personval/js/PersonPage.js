@@ -40,7 +40,6 @@ PersonPage = function () {
           namn = dbPartier[rlk][selected.partikod][1];
           s = namn + ' (' + pp.buttons.length + ' av ' + _.size(pp.personer) + ')';
           fc(1);
-          //print s, pp.x, pp.y + pp.h/34
           text(s, pp.x, pp.y + pp.h / 34);
           return pop();
         }
@@ -72,7 +71,6 @@ PersonPage = function () {
           person = dbPersoner[rlk][knr];
           if (ref = person[2][0], indexOf.call(letters, ref) >= 0) {
             if (Math.floor(j / N) === button.pageNo) {
-              //x = j//(N//2) * w/2
               x = Math.floor(j / N) * w;
               x = x % w;
               y = h * (1 + j % N);
@@ -115,12 +113,12 @@ PersonPage = function () {
           x = Math.floor(j / N) * w;
           x = x % w;
           y = h * (1 + j % N);
-          results.push(function (partikod, knr) {
+          results.push(function (knr) {
             return _this3.addButton(new PersonButton(rlk, partikod, knr, _this3.x + x, _this3.y + y, w / 2 - 2, h - 2, function () {
               this.page.selected = this;
-              return pages.rlk.clickPersonButton([this.partikod, this.knr]);
+              return pages.rlk.clickPersonButton([partikod, knr]);
             }));
-          }(partikod, knr));
+          }(knr));
         }
         return results;
       }

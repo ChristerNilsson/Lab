@@ -11,15 +11,15 @@ class RLKPage extends Page # Riksdag, Landsting, Kommun
 
 		@selectedPersons = {R:[], L:[], K:[]}
 
-		@addButton new TypButton 'R', 'Riksdag',@x,@yoff[0],@w-0,3*h-3, -> 
+		@addButton new RLKButton 'R', 'Riksdag',@x,@yoff[0],@w-0,3*h-3, -> 
 			pages.partier.select 'R',dbTree.R
 			@page.selected = @
 
-		@addButton new TypButton 'L', dbName.L, @x,@yoff[1],@w-0,3*h-3, ->
+		@addButton new RLKButton 'L', dbName.L, @x,@yoff[1],@w-0,3*h-3, ->
 			pages.partier.select 'L',dbTree.L
 			@page.selected = @
 
-		@addButton new TypButton 'K', dbName.K, @x,@yoff[2],@w-0,3*h-3, ->
+		@addButton new RLKButton 'K', dbName.K, @x,@yoff[2],@w-0,3*h-3, ->
 			pages.partier.select 'K',dbTree.K
 			@page.selected = @
 
@@ -176,6 +176,6 @@ class RLKPage extends Page # Riksdag, Landsting, Kommun
 				return true
 		super()
 
-class TypButton extends Button
+class RLKButton extends Button
 	constructor : (@rlk, title,x,y,w,h,click = ->) ->
 		super title, x,y,w,h,click
