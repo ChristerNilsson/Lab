@@ -46,7 +46,7 @@ LetterPage = function (_Page) {
         }
         return results;
       }();
-      ref = gruppera(words, N + N);
+      ref = gruppera(words, N);
       results = [];
       for (letters in ref) {
         n = ref[letters];
@@ -105,11 +105,12 @@ LetterButton = function (_Button) {
   }, {
     key: "pageIndicator",
     value: function pageIndicator() {
-      var dx, i, j, len, ref, results;
+      var dx, i, j, len, r, ref, results;
       if (this.pages <= 1) {
         return;
       }
-      dx = Math.floor(this.w / (this.pages + 1));
+      r = 3;
+      dx = (this.w - 2 * r * this.pages) / (this.pages + 1);
       ref = range(this.pages);
       results = [];
       for (j = 0, len = ref.length; j < len; j++) {
@@ -119,7 +120,7 @@ LetterButton = function (_Button) {
         } else {
           fc(0);
         }
-        results.push(circle(this.x + (i + 1) * dx, this.y + 0.85 * this.h, 3));
+        results.push(circle(this.x - r + (i + 1) * (dx + 2 * r), this.y + 0.85 * this.h, r));
       }
       return results;
     }

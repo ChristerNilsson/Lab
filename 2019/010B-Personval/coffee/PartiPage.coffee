@@ -1,9 +1,10 @@
 class PartiPage extends Page
+	N = 16
+	
 	render : ->
 		@bg 0
 
 	select : (rlk,partier) ->
-		N = 16
 		w = @w/2
 		h = @h/(N+1)
 		partikoder = _.keys partier

@@ -13,118 +13,128 @@ var PersonButton,
     PersonPage,
     indexOf = [].indexOf;
 
-PersonPage = function (_Page) {
-  _inherits(PersonPage, _Page);
+PersonPage = function () {
+  var N;
 
-  function PersonPage() {
-    _classCallCheck(this, PersonPage);
+  var PersonPage = function (_Page) {
+    _inherits(PersonPage, _Page);
 
-    return _possibleConstructorReturn(this, (PersonPage.__proto__ || Object.getPrototypeOf(PersonPage)).apply(this, arguments));
-  }
+    function PersonPage() {
+      _classCallCheck(this, PersonPage);
 
-  _createClass(PersonPage, [{
-    key: 'render',
-    value: function render() {
-      var namn, pp, rlk, s, selected;
-      this.bg(0);
-      selected = pages.partier.selected;
-      pp = pages.personer;
-      if (selected !== null) {
-        push();
-        textAlign(LEFT, CENTER);
-        textSize(0.4 * pp.h / 17);
-        rlk = pages.rlk.selected.rlk;
-        namn = dbPartier[rlk][selected.partikod][1];
-        s = namn + ' (' + pp.buttons.length + ' av ' + _.size(pp.personer) + ')';
-        fc(1);
-        print(s, pp.x, pp.y + pp.h / 34);
-        text(s, pp.x, pp.y + pp.h / 34);
-        return pop();
-      }
+      return _possibleConstructorReturn(this, (PersonPage.__proto__ || Object.getPrototypeOf(PersonPage)).apply(this, arguments));
     }
-  }, {
-    key: 'clickLetterButton',
-    value: function clickLetterButton(rlk, button, partikod, letters, knrs) {
-      var _this2 = this;
 
-      var N, h, i, j, knr, len, person, ref, results, w, x, y;
-      this.personer = knrs;
-      N = PERSONS_PER_PAGE;
-      w = 0.36 * width;
-      h = height / (PERSONS_PER_PAGE + 2);
-      this.selected = button;
-      button.pageNo = (button.pageNo + 1) % button.pages;
-      this.buttons = [];
-      knrs.sort(function (a, b) {
-        if (dbPersoner[rlk][a][2] < dbPersoner[rlk][b][2]) {
-          return -1;
-        } else {
-          return 1;
+    _createClass(PersonPage, [{
+      key: 'render',
+      value: function render() {
+        var namn, pp, rlk, s, selected;
+        this.bg(0);
+        selected = pages.partier.selected;
+        pp = pages.personer;
+        if (selected !== null) {
+          push();
+          textAlign(LEFT, CENTER);
+          textSize(0.4 * pp.h / 17);
+          rlk = pages.rlk.selected.rlk;
+          namn = dbPartier[rlk][selected.partikod][1];
+          s = namn + ' (' + pp.buttons.length + ' av ' + _.size(pp.personer) + ')';
+          fc(1);
+          //print s, pp.x, pp.y + pp.h/34
+          text(s, pp.x, pp.y + pp.h / 34);
+          return pop();
         }
-      });
-      j = 0;
-      results = [];
-      for (i = 0, len = knrs.length; i < len; i++) {
-        knr = knrs[i];
-        person = dbPersoner[rlk][knr];
-        if (ref = person[2][0], indexOf.call(letters, ref) >= 0) {
-          if (Math.floor(j / N) === button.pageNo) {
-            x = Math.floor(j / Math.floor(N / 2)) * w / 2;
-            x = x % w;
-            y = 2 * h * (1 + j % Math.floor(N / 2));
-            (function (knr) {
-              return _this2.addButton(new PersonButton(rlk, partikod, knr, _this2.x + x, _this2.y + y, w / 2 - 2, 2 * h - 2, function () {
-                this.page.selected = this;
-                return pages.rlk.clickPersonButton([partikod, knr]);
-              }));
-            })(knr);
+      }
+    }, {
+      key: 'clickLetterButton',
+      value: function clickLetterButton(rlk, button, partikod, letters, knrs) {
+        var _this2 = this;
+
+        var h, i, j, knr, len, person, ref, results, w, x, y;
+        this.personer = knrs;
+        N = PERSONS_PER_PAGE;
+        w = 0.72 * width;
+        h = height / (PERSONS_PER_PAGE + 1);
+        this.selected = button;
+        button.pageNo = (button.pageNo + 1) % button.pages;
+        this.buttons = [];
+        knrs.sort(function (a, b) {
+          if (dbPersoner[rlk][a][2] < dbPersoner[rlk][b][2]) {
+            return -1;
+          } else {
+            return 1;
           }
-          results.push(j++);
-        } else {
-          results.push(void 0);
+        });
+        j = 0;
+        results = [];
+        for (i = 0, len = knrs.length; i < len; i++) {
+          knr = knrs[i];
+          person = dbPersoner[rlk][knr];
+          if (ref = person[2][0], indexOf.call(letters, ref) >= 0) {
+            if (Math.floor(j / N) === button.pageNo) {
+              //x = j//(N//2) * w/2
+              x = Math.floor(j / N) * w;
+              x = x % w;
+              y = h * (1 + j % N);
+              (function (knr) {
+                return _this2.addButton(new PersonButton(rlk, partikod, knr, _this2.x + x, _this2.y + y, w / 2 - 2, h - 2, function () {
+                  this.page.selected = this;
+                  return pages.rlk.clickPersonButton([partikod, knr]);
+                }));
+              })(knr);
+            }
+            results.push(j++);
+          } else {
+            results.push(void 0);
+          }
         }
+        return results;
       }
-      return results;
-    }
-  }, {
-    key: 'makePersons',
-    value: function makePersons(rlk, button, partikod, knrs) {
-      var _this3 = this;
+    }, {
+      key: 'makePersons',
+      value: function makePersons(rlk, button, partikod, knrs) {
+        var _this3 = this;
 
-      // personer är en lista med knr
-      var N, h, i, j, knr, len, results, w, x, y;
-      this.personer = knrs;
-      N = 16;
-      w = 0.36 * width;
-      h = height / (PERSONS_PER_PAGE + 2);
-      this.selected = button;
-      this.buttons = [];
-      knrs.sort(function (a, b) {
-        if (dbPersoner[rlk][a][2] < dbPersoner[rlk][b][2]) {
-          return -1;
-        } else {
-          return 1;
+        // personer är en lista med knr
+        var h, i, j, knr, len, results, w, x, y;
+        this.personer = knrs;
+        w = 0.72 * width;
+        h = height / (PERSONS_PER_PAGE + 1);
+        this.selected = button;
+        this.buttons = [];
+        knrs.sort(function (a, b) {
+          if (dbPersoner[rlk][a][2] < dbPersoner[rlk][b][2]) {
+            return -1;
+          } else {
+            return 1;
+          }
+        });
+        results = [];
+        for (j = i = 0, len = knrs.length; i < len; j = ++i) {
+          knr = knrs[j];
+          x = Math.floor(j / N) * w;
+          x = x % w;
+          y = h * (1 + j % N);
+          results.push(function (partikod, knr) {
+            return _this3.addButton(new PersonButton(rlk, partikod, knr, _this3.x + x, _this3.y + y, w / 2 - 2, h - 2, function () {
+              this.page.selected = this;
+              return pages.rlk.clickPersonButton([this.partikod, this.knr]);
+            }));
+          }(partikod, knr));
         }
-      });
-      results = [];
-      for (j = i = 0, len = knrs.length; i < len; j = ++i) {
-        knr = knrs[j];
-        x = Math.floor(j / N) * w / 2;
-        x = x % w;
-        y = 2 * h * (1 + j % N);
-        results.push(function (partikod, knr) {
-          return _this3.addButton(new PersonButton(rlk, partikod, knr, _this3.x + x, _this3.y + y, w / 2 - 2, 2 * h - 2, function () {
-            this.page.selected = this;
-            return pages.rlk.clickPersonButton([this.partikod, this.knr]);
-          }));
-        }(partikod, knr));
+        return results;
       }
-      return results;
-    }
-  }]);
+    }]);
+
+    return PersonPage;
+  }(Page);
+
+  ;
+
+  N = 16;
 
   return PersonPage;
-}(Page);
+}.call(undefined);
 
 PersonButton = function (_Button) {
   _inherits(PersonButton, _Button);
@@ -158,12 +168,14 @@ PersonButton = function (_Button) {
     value: function draw() {
       fc(0.5);
       rect(this.x, this.y, this.w, this.h);
-      textSize(this.ts / 2);
       textAlign(LEFT, CENTER);
+      textSize(1 * this.ts);
       fc(1);
       text(this.title0, this.x + 2, this.y + 2 + 0.3 * this.h);
-      fc(0.75);
-      return text(this.title1, this.x + 2, this.y + 2 + 0.7 * this.h);
+      textAlign(RIGHT, CENTER);
+      textSize(0.6 * this.ts);
+      fc(0.9);
+      return text(this.title1, this.x + this.w - 2, this.y + 3 + 0.75 * this.h);
     }
   }]);
 

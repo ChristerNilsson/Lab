@@ -1,4 +1,4 @@
-PERSONS_PER_PAGE = 32
+PERSONS_PER_PAGE = 16
 VOTES = 5
 
 kommunkod = null
@@ -41,6 +41,7 @@ gruppera = (words, n=32) -> # words är en lista med ord
 	res
 assert {abc:18}, gruppera 'cababbabcbcbabcbab'.split ''
 assert {AB:7,C:5,D:9}, gruppera 'DBDCDADBDADCDBDADCBCC'.split(''), 8
+assert {abcghij: 16, klmrswå: 11}, gruppera 'aaaabbbbcghiijjjkkllmmrrswå'.split(''),16
 
 rensa = ->
 	pages.rlk.selectedPersons = {R:[], L:[], K:[]}

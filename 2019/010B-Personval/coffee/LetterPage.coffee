@@ -12,7 +12,7 @@ class LetterPage extends Page
 
 		i = 0
 		words = (dbPersoner[rlk][key][2] for key in personer)
-		for letters,n of gruppera words,N+N
+		for letters,n of gruppera words,N
 			x = @x + w*(i//N)
 			y = @y + h*(1+i%N)
 			title = if letters.length == 1 then letters else "#{letters[0]}-#{_.last letters}"
@@ -22,11 +22,13 @@ class LetterPage extends Page
 			i++
 
 class LetterButton extends Button 
+
 	constructor : (title,x,y,w,h,@antal,click) ->
 		super title,x,y,w,h,click
 		@pageNo = -1
 		@pages = 1 + @antal // PERSONS_PER_PAGE
 		if @antal % PERSONS_PER_PAGE == 0 then @pages--
+
 	draw : ->
 		fc 0.5
 		rect @x,@y,@w,@h
@@ -37,10 +39,11 @@ class LetterButton extends Button
 		push()
 		@pageIndicator()
 		pop()
+
 	pageIndicator : ->
 		if @pages <= 1 then return 
-		dx = @w//(@pages+1)
+		r = 3
+		dx = (@w-2*r*@pages)/(@pages+1)
 		for i in range @pages
 			if i==@pageNo and @page.selected == @ then fc 1 else fc 0
-			circle @x + (i+1)*dx , @y+0.85*@h, 3  
-
+			circle @x - r + (i+1)*(dx+2*r) , @y+0.85*@h, r
