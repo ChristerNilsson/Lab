@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -28,7 +28,7 @@ KommunPage = function () {
     }
 
     _createClass(KommunPage, [{
-      key: "init",
+      key: 'init',
       value: function init() {
         var _this2 = this;
 
@@ -36,9 +36,9 @@ KommunPage = function () {
 
         var first, h, i, j, k, key, keys, last, len, len1, letters, namn, ref, ref1, title, w, ww, x, y;
         this.buttons = [];
-        ww = this.w / COLS;
-        w = ww / 2;
-        h = this.h / (N + 1);
+        ww = this.w / (COLS + 1);
+        w = ww; ///2
+        h = this.h / N;
         keys = _.keys(dbKommun);
         keys.sort(function (a, b) {
           if (dbKommun[a] < dbKommun[b]) {
@@ -53,22 +53,25 @@ KommunPage = function () {
           first = key[0];
           last = _.last(key);
           if (i === index) {
-            letters = "" + first + last;
+            letters = '' + first + last;
           }
-          title = first === last ? first : title = first + "-" + last;
+          title = first === last ? first : title = first + '-' + last;
           (function (i) {
-            return _this2.addButton(new Button(title, _this2.x + i * w, _this2.y, w - 1, h - 1, function () {
+            return _this2.addButton(new Button(title, _this2.x, _this2.y + i * h, w - 1, h - 1, function () {
               return this.page.init(i);
             }));
           })(i);
         }
+        this.addButton(new Button('Avbryt', this.x, this.y + (N - 1) * h, w - 1, h - 1, function () {
+          return pageStack.pop();
+        }));
         i = 0;
         for (k = 0, len1 = keys.length; k < len1; k++) {
           key = keys[k];
           namn = dbKommun[key];
           if (letters[0] <= (ref1 = namn[0]) && ref1 <= letters[1]) {
-            x = Math.floor(i % (COLS * N) / N) * ww;
-            y = (1 + i % N) * h;
+            x = w + Math.floor(i % (COLS * N) / N) * ww;
+            y = i % N * h;
             this.addButton(new KommunButton(key, this.x + x, this.y + y, ww - 1, h - 1, function () {
               rensa();
               fetchKommun(this.key);
@@ -80,7 +83,7 @@ KommunPage = function () {
         return this.selected = this.buttons[index];
       }
     }, {
-      key: "render",
+      key: 'render',
       value: function render() {
         this.bg(0);
         push();
@@ -96,7 +99,7 @@ KommunPage = function () {
 
   ;
 
-  N = 8;
+  N = 10;
 
   COLS = 5;
 
@@ -118,7 +121,7 @@ KommunButton = function (_Button) {
   }
 
   _createClass(KommunButton, [{
-    key: "draw",
+    key: 'draw',
     value: function draw() {
       fc(0.5);
       push();

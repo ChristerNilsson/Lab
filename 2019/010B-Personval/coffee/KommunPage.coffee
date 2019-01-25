@@ -1,6 +1,6 @@
 class KommunPage extends Page
 
-	N = 8
+	N = 10
 	COLS = 5
 
 	constructor : (x,y,w,h) ->
@@ -10,9 +10,9 @@ class KommunPage extends Page
 
 	init : (index=0) ->
 		@buttons  = [] 
-		ww = @w/COLS
-		w = ww/2
-		h = @h/(N+1)
+		ww = @w/(COLS+1)
+		w = ww#/2
+		h = @h/N
 		keys = _.keys dbKommun
 		keys.sort (a,b) -> if dbKommun[a] < dbKommun[b] then -1 else 1
 
@@ -21,14 +21,16 @@ class KommunPage extends Page
 			last  = _.last key
 			if i==index then letters = "#{first}#{last}"
 			title = if first==last then first else title = "#{first}-#{last}"
-			do (i) => @addButton new Button title,@x+i*w,@y,w-1,h-1, -> @page.init i
+			do (i) => @addButton new Button title,@x,@y+i*h,w-1,h-1, -> @page.init i
+
+		@addButton new Button 'Avbryt',@x,@y+(N-1)*h,w-1,h-1, -> pageStack.pop()
 
 		i = 0
 		for key in keys			
 			namn = dbKommun[key]
 			if letters[0] <= namn[0] <= letters[1]
-				x = i%(COLS*N)//N * ww
-				y = (1 + i%N) * h
+				x = w+i%(COLS*N)//N * ww
+				y = (i%N) * h
 				@addButton new KommunButton key,@x+x,@y+y,ww-1,h-1, -> 
 					rensa()
 					fetchKommun @key
