@@ -25,6 +25,8 @@ pDistance = (p,q,r) -> # q is the point
 	else s = createVector p.x + param * C, p.y + param * D
 	dist q.x,q.y,s.x,s.y
 
+simplereduce = (points) -> (p for p,i in points when i%8 == 0)
+
 reduce = (points,d) ->
 	res = []
 	res.push points[0] 
@@ -47,6 +49,7 @@ myround = (x,n) -> round(x*10**n)/10**n
 setup = () ->
 	createCanvas 800, 600
 	newpoints = reduce points, 0.1
+	print newpoints
 	newpoints = ({x:myround(p.x,2), y:myround(p.y,2)} for p in newpoints)
 	print JSON.stringify newpoints
 
@@ -81,7 +84,7 @@ draw = ->
 	beginShape()
 	for p in path
 		vertex p.x, p.y
-		point p.x,p.y
+		#point p.x,p.y
 	strokeWeight 1		
 	endShape()
 
