@@ -27,31 +27,32 @@ pDistance = (p,q,r) -> # q is the point
 
 simplereduce = (points) -> (p for p,i in points when i%8 == 0)
 
-reduce = (points,d) ->
+# d1 = maximum distance from q to pr
+# d2 = maximum line length pq
+reduce = (points,d1,d2) ->
 	res = []
 	res.push points[0] 
-
 	p = points[0]
 	q = points[1]
 	r = points[2]
 	for i in range 1,points.length-1
-		if d < pDistance p,q,r # keep
+		if d1 < pDistance(p,q,r) or dist(p.x,p.y,q.x,q.y) > d2 # keep
 			res.push q
 			p = q
 		q = r
 		r = points[i+2]			
-
 	res.push _.last points
 	res
 
 myround = (x,n) -> round(x*10**n)/10**n
 
 setup = () ->
-	createCanvas 800, 600
-	newpoints = reduce points, 0.1
-	print newpoints
-	newpoints = ({x:myround(p.x,2), y:myround(p.y,2)} for p in newpoints)
-	print JSON.stringify newpoints
+	createCanvas windowWidth, windowHeight
+	#newpoints = reduce points, 0.1185,1000 # 500 points
+	newpoints = reduce points, 0.182,20 # 500 points (slightly better)
+	print newpoints.length
+	#newpoints = ({x:myround(p.x,2), y:myround(p.y,2)} for p in newpoints)
+	#print JSON.stringify newpoints
 
 	x = (p.x for p in newpoints)
 	y = (p.y for p in newpoints)
@@ -73,19 +74,37 @@ epiCycles = (x, y, rotation, fourier) ->
 draw = ->
 	background 0
 	noFill()
+
 	stroke 255
+
+	translate -2300,-1300
+	scale 2.8
+
+	#translate -1900,-900
+	#scale 4
+
+	#translate -2300,-1500
+	#scale 5
 
 	vx = epiCycles width / 2 + 100, 100, 0, fourierX
 	vy = epiCycles 100, height / 2 + 100, HALF_PI, fourierY
 	v = createVector vx.x, vy.y
 	path.unshift v
 
-	strokeWeight 2
+	#strokeWeight 1/4
+	stroke 255,0,0
 	beginShape()
-	for p in path
+	for p,i in path
 		vertex p.x, p.y
-		#point p.x,p.y
-	strokeWeight 1		
+		if i%4==0 then stroke 255,0,0 
+		if i%4==1 then stroke 255,255,0 
+		if i%4==2 then stroke 0,255,0 
+		if i%4==3 then stroke 0,0,255 
+
+		rect p.x-1/2,p.y-1/2,1,1
+		#point p.x-1/2,p.y-1/2 # seems to be less accurate
+
+	stroke 255
 	endShape()
 
 	dt = TWO_PI / fourierY.length
