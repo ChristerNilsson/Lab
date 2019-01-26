@@ -51,9 +51,9 @@ setup = () ->
 	#newpoints = reduce points, 0.1185,1000 # 500 points
 	#newpoints = reduce points, 0.182,20 # 500 points (slightly better)
 
-	#newpoints = simplify points,0.39,false	# 500 really nice.
+	newpoints = simplify points,0.39,false	# 500 really nice.
 	#newpoints = simplify points,0.39,true	# 
-	newpoints = simplify points,1	# 333 acceptable
+	#newpoints = simplify points,1	# 333 acceptable
 
 	print newpoints.length
 	#newpoints = ({x:myround(p.x,2), y:myround(p.y,2)} for p in newpoints)
