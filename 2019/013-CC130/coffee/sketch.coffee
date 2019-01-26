@@ -49,7 +49,12 @@ myround = (x,n) -> round(x*10**n)/10**n
 setup = () ->
 	createCanvas windowWidth, windowHeight
 	#newpoints = reduce points, 0.1185,1000 # 500 points
-	newpoints = reduce points, 0.182,20 # 500 points (slightly better)
+	#newpoints = reduce points, 0.182,20 # 500 points (slightly better)
+
+	#newpoints = simplify points,0.39,false	# 500 really nice.
+	#newpoints = simplify points,0.39,true	# 
+	newpoints = simplify points,1	# 333 acceptable
+
 	print newpoints.length
 	#newpoints = ({x:myround(p.x,2), y:myround(p.y,2)} for p in newpoints)
 	#print JSON.stringify newpoints
@@ -77,8 +82,8 @@ draw = ->
 
 	stroke 255
 
-	translate -2300,-1300
-	scale 2.8
+	translate -2000,-1100
+	scale 2.5
 
 	#translate -1900,-900
 	#scale 4
