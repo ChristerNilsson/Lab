@@ -51,14 +51,15 @@ simplifyDPStep = (points, first, last, sqTolerance, simplified) ->
 	maxSqDist = sqTolerance
 	index = null
 
+	# find most distant point and keep it.
 	for i in range first + 1, last, 1
 		sqDist = getSqSegDist points[i], points[first], points[last]
-
-		if  sqDist > maxSqDist
+		if sqDist > maxSqDist
 			index = i
 			maxSqDist = sqDist
 
 	if maxSqDist > sqTolerance
+		print index,sqrt(maxSqDist),points[index]
 		if index - first > 1 then simplifyDPStep points, first, index, sqTolerance, simplified
 		simplified.push points[index]
 		if last - index > 1 then simplifyDPStep points, index, last, sqTolerance, simplified
@@ -76,4 +77,6 @@ simplify = (points, tolerance=1, highestQuality=false) ->
 	if points.length <= 2 then return points
 	sqTolerance = tolerance * tolerance
 	if highestQuality then points = simplifyRadialDist points, sqTolerance
-	simplifyDouglasPeucker points, sqTolerance
+	res = simplifyDouglasPeucker points, sqTolerance
+	print res
+	res 

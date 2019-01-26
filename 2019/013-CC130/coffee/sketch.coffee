@@ -11,6 +11,7 @@ fourierY = null
 time = 0
 path = []
 start = 0
+msg = ""
 
 pDistance = (p,q,r) -> # q is the point
 	A = q.x - p.x
@@ -50,8 +51,8 @@ setup = () ->
 	createCanvas windowWidth, windowHeight
 	#newpoints = reduce points, 0.1185,1000 # 500 points
 	#newpoints = reduce points, 0.182,20 # 500 points (slightly better)
-
-	newpoints = simplify points,0.39,false	# 500 really nice.
+	print points 
+	newpoints = simplify points,0.39	# 500 really nice.
 	#newpoints = simplify points,0.39,true	# 
 	#newpoints = simplify points,1	# 333 acceptable
 
@@ -121,3 +122,4 @@ draw = ->
 		path = []
 		print (new Date()) - start
 		start = new Date() 
+
