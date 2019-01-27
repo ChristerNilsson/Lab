@@ -13,6 +13,7 @@ setup = () ->
 	p2 = {x:max(xs), y:max(ys)}
 
 	newpoints = simplify points,0.39	
+	print chrono
 
 show = (p) -> 
 	xfactor = 1500/(p2.x-p1.x)

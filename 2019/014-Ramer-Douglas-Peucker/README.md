@@ -30,3 +30,5 @@ We are now making another recursive call, keeping the original starting point.
 The ending point is in the upper right. The point most distant from a virtual line between the ending points, can be found in front of the big wheel.
 
 Each time you press the Right Arrow one more point is included in the final set.
+
+Highest recursion depth is 16.
