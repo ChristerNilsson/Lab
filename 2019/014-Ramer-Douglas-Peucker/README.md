@@ -1,6 +1,6 @@
 # CC130 Ramer-Douglas-Peucker
 
-[Try it!](https://christernilsson.github.io/Lab/2019/014-Ramer-Douglas-Peucker\index.html)
+[Try it!](https://christernilsson.github.io/Lab/2019/014-Ramer-Douglas-Peucker/index.html)
 
 This program displays the inner workings of the recursive Ramer-Douglas-Peucker algorithm.
 
