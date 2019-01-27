@@ -1,12 +1,24 @@
 current=0
 fastKey=0
+p1 = null
+p2 = null
 
 setup = () ->
+	#createCanvas 1500,1000 
 	createCanvas windowWidth-20, windowHeight-20
-	newpoints = simplify points,0.39	
-	textSize 30
+	xs = (p.x for p in points)
+	ys = (p.y for p in points)
 
-show = (p) -> point 2.5*(300+p.x),2.5*(200+p.y)
+	p1 = {x:min(xs), y:min(ys)} 
+	p2 = {x:max(xs), y:max(ys)}
+
+	newpoints = simplify points,0.39	
+
+show = (p) -> 
+	xfactor = 1500/(p2.x-p1.x)
+	yfactor = 1000/(p2.y-p1.y)
+	factor = 0.9 * min xfactor,yfactor
+	point factor*(-1.1*p1.x+p.x), factor*(-1.1*p1.y+p.y)
 
 info = (title,x,y,r,g,b,sw) ->
 	noStroke()
@@ -17,39 +29,44 @@ info = (title,x,y,r,g,b,sw) ->
 	point x,y-10
 
 draw = ->
+	scale height/1000
 	background 0
 	noFill()
 
+	x1 = 0.05 * 1500
+	textSize 32
+
 	[pi,qi,ri,level] = chrono[current]
-	info 'current end points',300,800,255,0,0,10
+	info 'current end points',x1,750,255,0,0,10
 	show points[pi]
 	show points[ri]
-	info 'most distant point',300,900,255,255,0,10
+	info 'most distant point',x1,850,255,255,0,10
 	show points[qi]
 
-	info 'found points',300,950,0,255,0,7
+	info 'found points',x1,900,0,255,0,7
 	for i in range current
 		[pi,qi,ri,level] = chrono[i]
 		show points[qi]
 
-	info "simplified #{chrono.length} points",300,1000,0,255,0,3
+	info "simplified #{chrono.length} points",x1,950,0,255,0,3
 	show points[qi] for [pi,qi,ri,level] in chrono
 
-	info "original #{points.length} points",300,750,255,255,255,1
+	info "original #{points.length} points",x1,700,255,255,255,1
 	show p for p in points 
 
-	info 'current line',300,850,255,0,0,1
+	info 'current line',x1,800,255,0,0,1
 	[pi,qi,ri,level] = chrono[current]
 	show points[i] for i in range pi,ri
 
 	noStroke()
-	text 'Ramer-Douglas-Peucker',50,100	
-	text "#{current} current",1400-7,700	
-	text 'Up = Fast Forward',1400,800
-	text 'Left = Prev',1300,850
-	text 'Right = Next',1500,850
-	text 'Down = Fast Backward',1400,900
-	text "#{chrono[current][3]} recursion level",1400-7,1000
+	x2 = 1150
+	text 'Ramer-Douglas-Peucker',0.9*x2,100
+	text "current: #{current}",x2-7,600
+	text 'up = fast forward',x2,700
+	text 'left = prev',0.9*x2,750
+	text 'right = next',1.1*x2,750
+	text 'down = fast backward',x2,800
+	text "recursion level: #{chrono[current][3]}",x2-7,900
 
 	if fastKey == DOWN_ARROW then current--
 	if fastKey == UP_ARROW then current++
