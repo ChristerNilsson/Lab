@@ -5,6 +5,8 @@ This program displays the inner workings of the recursive Ramer-Douglas-Peucker 
 The purpose of the algorithm is to remove less needed points in a trail of points.
 Corner points are more needed than mid points on a straight line.
 
+![RDP](https://github.com/ChristerNilsson/Lab/blob/master/2019/014-Ramer-Douglas-Peucker/Capture.JPG)
+
 [Wikipedia](https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm)
 
 [Implementation](http://mourner.github.io/simplify-js/)
