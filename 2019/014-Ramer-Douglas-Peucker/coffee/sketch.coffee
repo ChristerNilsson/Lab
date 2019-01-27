@@ -2,7 +2,7 @@ current=0
 fastKey=0
 p1 = null
 p2 = null
-treshold = 0.39
+treshold = 0.385
 
 setup = () ->
 	#createCanvas 1500,1000 
@@ -37,7 +37,7 @@ draw = ->
 	background 0
 	noFill()
 
-	x1 = 0.05 * 1500
+	x1 = 75
 	textSize 32
 
 	[pi,qi,ri,level] = chrono[current]
