@@ -35,22 +35,29 @@ myround = (x,n) -> round(x*10**n) / 10**n
 block = ([level,i],r,g,b) ->
 	#if i==undefined or level == undefined then return 
 	fill r,g,b 
-	x = 1100+level*20
+	x = 1150+level*20
 	y = 25+1.9*i
-	rect x,y,20,1
+	rect x,y,20,2
+
+drawTreeBackGround = ->
+	for i in range -1,17
+		x = 1150+i*20
+		fc 0.75+0.05*(i%%4)
+		rect x, 0, 20,1000
 
 drawTree = ->
-	fill 128
+	drawTreeBackGround()
+	fill 0
 	hash = {}
 	hash[0] = [-1,-1]
 	hash[4999] = [-1,500]
 	for [pi,qi,ri,level],i in chrono
 		hash[qi] = [level,i]
-		x = 1100+level*20
+		x = 1150+level*20
 		y = 25+1.9*i
-		rect x,y,20,1
-	block hash[0],128,128,128
-	block hash[4999],128,128,128
+		rect x,y,20,2
+	block hash[0],0,0,0
+	block hash[4999],0,0,0
 
 	[pi,qi,ri,level] = chrono[current]
 	block hash[pi],255,0,0
@@ -102,9 +109,10 @@ draw = ->
 
 	noStroke()
 	x2 = 100
-	text 'Ramer-Douglas-Peucker',25,40
-	text "current: #{current}",x2,650
-	text "recursion level: #{chrono[current][3]}",x2,675
+	text 'Ramer-Douglas-Peucker 1973',25,40
+	text "current: #{current}",x2,625
+	text "recursion level: #{level}",x2,650
+	text "points in line: #{ri-pi+1}",x2,675
 	text "distance: #{myround chrono[current][4],2}",x2,700
 	text "treshold: #{treshold}",x2,725
 	text 'up = fast backward',x2,750
