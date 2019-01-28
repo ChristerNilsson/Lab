@@ -130,3 +130,7 @@ keyPressed = ->
 	fastKey = keyCode 
 
 keyReleased = -> fastKey = 0
+
+mousePressed = ->
+	current = round (mouseY-25)/1.9/(height/1000) - 2
+	current = constrain current,0,chrono.length-1
