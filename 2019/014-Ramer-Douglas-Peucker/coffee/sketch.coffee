@@ -110,6 +110,7 @@ draw = ->
 	noStroke()
 	x2 = 100
 	text 'Ramer-Douglas-Peucker 1973',25,40
+	text "step(#{pi},#{ri},#{level}) => #{qi}",x2,600
 	text "current: #{current}",x2,625
 	text "recursion level: #{level}",x2,650
 	text "points in line: #{ri-pi+1}",x2,675
