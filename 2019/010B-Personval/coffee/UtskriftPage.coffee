@@ -17,16 +17,7 @@ class UtskriftPage extends Page
 			pages.rlk.createSelectButtons()
 
 	stopMeasuringTime : ->
-		@crc = @getCRC pages.rlk.qr
 		@cpu = new Date().getTime() - pages.rlk.start
-
-	getCRC : (qr) ->
-		res = 0
-		for char,i in qr
-			index = '0123456789'.indexOf char
-			res += (i+1) * (index+1)
-			res %= 1000000
-		res
 
 	render : ->
 		myNode = document.getElementById 'qrcode'
@@ -36,7 +27,7 @@ class UtskriftPage extends Page
 		textAlign LEFT,CENTER
 		@bg 1
 		fc 0
-		text "#{'crc: ' + @getCRC pages.rlk.qr.slice 10} #{'tid: '+@cpu}",0.02*width,0.95*height
+		text "#{'crc: ' + pages.rlk.crc} #{'tid: '+@cpu}",0.02*width,0.95*height
 
 		push()
 		sc()

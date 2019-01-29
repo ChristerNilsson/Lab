@@ -47,21 +47,7 @@ UtskriftPage = function (_Page) {
   _createClass(UtskriftPage, [{
     key: 'stopMeasuringTime',
     value: function stopMeasuringTime() {
-      this.crc = this.getCRC(pages.rlk.qr);
       return this.cpu = new Date().getTime() - pages.rlk.start;
-    }
-  }, {
-    key: 'getCRC',
-    value: function getCRC(qr) {
-      var char, i, index, k, len, res;
-      res = 0;
-      for (i = k = 0, len = qr.length; k < len; i = ++k) {
-        char = qr[i];
-        index = '0123456789'.indexOf(char);
-        res += (i + 1) * (index + 1);
-        res %= 1000000;
-      }
-      return res;
     }
   }, {
     key: 'render',
@@ -74,7 +60,7 @@ UtskriftPage = function (_Page) {
       textAlign(LEFT, CENTER);
       this.bg(1);
       fc(0);
-      text('crc: ' + this.getCRC(pages.rlk.qr.slice(10)) + ' ' + ('tid: ' + this.cpu), 0.02 * width, 0.95 * height);
+      text('crc: ' + pages.rlk.crc + ' ' + ('tid: ' + this.cpu), 0.02 * width, 0.95 * height);
       push();
       sc();
       w = width;

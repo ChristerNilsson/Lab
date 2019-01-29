@@ -49,10 +49,12 @@ RLKPage = function (_Page) {
       return this.page.selected = this;
     }));
     _this.addButton(new Button('Utskrift', _this.x, _this.yoff[3], _this.w / 3 - 2, 3 * h - 3, function () {
-      var qrcode;
+      var qr, qrcode;
       pageStack.push(pages.utskrift);
       pages.utskrift.stopMeasuringTime();
-      this.page.qr = this.page.getQR();
+      qr = this.page.getQR();
+      this.page.crc = this.page.getCRC(qr);
+      this.page.qr = kommunkod + this.page.encrypt(qr);
       return qrcode = new QRCode(document.getElementById("qrcode"), {
         text: this.page.qr,
         width: 0.25 * width,
@@ -78,12 +80,78 @@ RLKPage = function (_Page) {
       return this.sbuttons.push(button);
     }
   }, {
+    key: 'getCRC',
+    value: function getCRC(qr) {
+      var char, i, index, k, len, res;
+      res = 0;
+      for (i = k = 0, len = qr.length; k < len; i = ++k) {
+        char = qr[i];
+        index = char;
+        if (i % 16 !== 15) {
+          res += (i + 1) * (index + 1);
+        }
+        res %= 1000000;
+      }
+      return res;
+    }
+  }, {
+    key: 'encryptBlock',
+    value: function encryptBlock(block) {
+      // 16 bytes
+      var i, k, key, len, ref;
+      key = new Array(32);
+      ref = range(32);
+      for (k = 0, len = ref.length; k < len; k++) {
+        i = ref[k];
+        key[i] = i;
+      }
+      AES_ExpandKey(key);
+      return AES_Encrypt(block, key);
+    }
+
+    // kryptering sker via server. Inga nycklar i javascriptkoden!
+
+  }, {
+    key: 'encrypt',
+    value: function encrypt(qr) {
+      // 48 bytes => string
+      var block, byte, i, k, len, ref, res;
+      AES_Init();
+      res = [];
+      ref = range(3);
+      for (k = 0, len = ref.length; k < len; k++) {
+        i = ref[k];
+        block = qr.slice(16 * i, 16);
+        this.encryptBlock(block);
+        res = res.concat(block);
+      }
+      AES_Done();
+      return function () {
+        var l, len1, results;
+        results = [];
+        for (l = 0, len1 = res.length; l < len1; l++) {
+          byte = res[l];
+          results.push(String.fromCharCode(byte));
+        }
+        return results;
+      }().join('');
+    }
+  }, {
     key: 'getQR',
     value: function getQR() {
-      var i, k, knr, len, partikod, persons, ref, rlk, s, slump;
-      s = kommunkod;
-      slump = int(random(1000000));
-      s += slump.toString().padStart(6, 0); // to increase probability of uniqueness 
+      var data, i, k, knr, len, partikod, persons, ref, rlk, save3;
+      save3 = function save3(nr) {
+        var i, k, len, ref, results;
+        ref = range(3);
+        results = [];
+        for (k = 0, len = ref.length; k < len; k++) {
+          i = ref[k];
+          data.push(nr % 256);
+          results.push(nr = Math.floor(nr / 256));
+        }
+        return results;
+      };
+      data = []; // contains 48 bytes
       for (rlk in this.selectedPersons) {
         persons = this.selectedPersons[rlk];
         ref = range(VOTES);
@@ -95,19 +163,35 @@ RLKPage = function (_Page) {
             partikod = _persons$i[0];
             knr = _persons$i[1];
 
-            if (knr === 0) {
-              s += '99' + partikod.padStart(4, '0');
-            } else {
-              s += knr.padStart(6, '0');
-            }
+            save3(knr === 0 ? 990000 + partikod : knr);
           } else {
-            s += '000000';
+            save3(0);
           }
         }
+        data.push(int(random(256)));
       }
-      assert(s.length, 4 + 6 + 15 * 6);
-      return s;
+      assert(data.length, 48);
+      return data;
     }
+
+    // getQR : ->
+    // 	s = kommunkod 
+    // 	slump = int random 1000000
+    // 	s += slump.toString().padStart 6,0 # to increase probability of uniqueness 
+    // 	for rlk of @selectedPersons
+    // 		persons = @selectedPersons[rlk]
+    // 		for i in range VOTES
+    // 			if i < persons.length 
+    // 				[partikod,knr] = persons[i]
+    // 				if knr == 0 
+    // 					s += '99' + partikod.padStart 4,'0'
+    // 				else
+    // 					s += knr.padStart 6,'0'
+    // 			else
+    // 				s += '000000'
+    // 	assert s.length,4+6+15*6
+    // 	s
+
   }, {
     key: 'render',
     value: function render() {

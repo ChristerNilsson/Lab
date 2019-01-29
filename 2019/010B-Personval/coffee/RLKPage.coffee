@@ -26,8 +26,9 @@ class RLKPage extends Page # Riksdag, Landsting, Kommun
 		@addButton new Button 'Utskrift', @x,@yoff[3],@w/3-2,3*h-3, ->
 			pageStack.push pages.utskrift
 			pages.utskrift.stopMeasuringTime()
-
-			@page.qr = @page.getQR()
+			qr = @page.getQR()
+			@page.crc = @page.getCRC qr
+			@page.qr = kommunkod + @page.encrypt qr
 			qrcode = new QRCode document.getElementById("qrcode"),
 				text: @page.qr
 				width: 0.25*width
@@ -46,23 +47,71 @@ class RLKPage extends Page # Riksdag, Landsting, Kommun
 		button.page = @
 		@sbuttons.push button
 
-	getQR : ->
-		s = kommunkod 
-		slump = int random 1000000
-		s += slump.toString().padStart 6,0 # to increase probability of uniqueness 
+	getCRC : (qr) ->
+		res = 0
+		for char,i in qr
+			index = char
+			if i%16 != 15 then res += (i+1) * (index+1)
+			res %= 1000000
+		res
+
+	encryptBlock : (block) -> # 16 bytes
+		key = new Array 32
+		for i in range 32
+			key[i] = i
+
+		AES_ExpandKey key
+		AES_Encrypt block, key
+
+		# kryptering sker via server. Inga nycklar i javascriptkoden!
+	encrypt : (qr) -> # 48 bytes => string
+		AES_Init()
+		res = []
+		for i in range 3
+			block = qr.slice 16*i,16
+			@encryptBlock block
+			res = res.concat block
+		AES_Done()
+		(String.fromCharCode byte for byte in res).join ''
+
+	getQR : -> 
+		save3 = (nr) ->
+			for i in range 3
+				data.push nr % 256
+				nr //= 256
+
+		data = [] # contains 48 bytes
+
 		for rlk of @selectedPersons
 			persons = @selectedPersons[rlk]
 			for i in range VOTES
 				if i < persons.length 
 					[partikod,knr] = persons[i]
-					if knr == 0 
-						s += '99' + partikod.padStart 4,'0'
-					else
-						s += knr.padStart 6,'0'
+					save3 if knr == 0 then 990000 + partikod else knr
 				else
-					s += '000000'
-		assert s.length,4+6+15*6
-		s
+					save3 0
+			data.push int random 256
+
+		assert data.length,48
+		data
+
+	# getQR : ->
+	# 	s = kommunkod 
+	# 	slump = int random 1000000
+	# 	s += slump.toString().padStart 6,0 # to increase probability of uniqueness 
+	# 	for rlk of @selectedPersons
+	# 		persons = @selectedPersons[rlk]
+	# 		for i in range VOTES
+	# 			if i < persons.length 
+	# 				[partikod,knr] = persons[i]
+	# 				if knr == 0 
+	# 					s += '99' + partikod.padStart 4,'0'
+	# 				else
+	# 					s += knr.padStart 6,'0'
+	# 			else
+	# 				s += '000000'
+	# 	assert s.length,4+6+15*6
+	# 	s
 
 	render : ->
 		@bg 0
