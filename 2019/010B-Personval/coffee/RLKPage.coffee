@@ -6,6 +6,12 @@ class RLKPage extends Page # Riksdag, Landsting, Kommun
 		@start = new Date().getTime()
 		@qr = '0000000000'
 
+		AES_Init()
+		@key = new Array 32
+		for i in range 32
+			@key[i] = i
+		AES_ExpandKey @key
+
 		h = height/51
 		@yoff = [@y+0,@y+16*h,@y+32*h,@y+48*h]
 
@@ -28,6 +34,10 @@ class RLKPage extends Page # Riksdag, Landsting, Kommun
 			pages.utskrift.stopMeasuringTime()
 			qr = @page.getQR()
 			@page.crc = @page.getCRC qr
+
+			kopia = qr.slice()
+			assert qr, @page.decrypt @page.encrypt kopia
+
 			@page.qr = kommunkod + @page.encrypt qr
 			qrcode = new QRCode document.getElementById("qrcode"),
 				text: @page.qr
@@ -55,24 +65,26 @@ class RLKPage extends Page # Riksdag, Landsting, Kommun
 			res %= 1000000
 		res
 
-	encryptBlock : (block) -> # 16 bytes
-		key = new Array 32
-		for i in range 32
-			key[i] = i
+	encryptBlock : (block,key) -> AES_Encrypt block, key
+	decryptBlock : (block,key) -> AES_Decrypt block, key
 
-		AES_ExpandKey key
-		AES_Encrypt block, key
-
-		# kryptering sker via server. Inga nycklar i javascriptkoden!
+	# kryptering sker via server. Inga nycklar i javascriptkoden!
 	encrypt : (qr) -> # 48 bytes => string
-		AES_Init()
 		res = []
 		for i in range 3
-			block = qr.slice 16*i,16
-			@encryptBlock block
+			block = qr.slice 16*i,16*(i+1)
+			@encryptBlock block,key
 			res = res.concat block
-		AES_Done()
 		(String.fromCharCode byte for byte in res).join ''
+
+	decrypt : (s) -> # 48 bytes => string
+		qr = (s.charCodeAt i for i in range s.length)
+		res = []
+		for i in range 3
+			block = qr.slice 16*i,16*(i+1)
+			@decryptBlock block,key
+			res = res.concat block.slice()
+		res
 
 	getQR : -> 
 		save3 = (nr) ->
@@ -94,24 +106,6 @@ class RLKPage extends Page # Riksdag, Landsting, Kommun
 
 		assert data.length,48
 		data
-
-	# getQR : ->
-	# 	s = kommunkod 
-	# 	slump = int random 1000000
-	# 	s += slump.toString().padStart 6,0 # to increase probability of uniqueness 
-	# 	for rlk of @selectedPersons
-	# 		persons = @selectedPersons[rlk]
-	# 		for i in range VOTES
-	# 			if i < persons.length 
-	# 				[partikod,knr] = persons[i]
-	# 				if knr == 0 
-	# 					s += '99' + partikod.padStart 4,'0'
-	# 				else
-	# 					s += knr.padStart 6,'0'
-	# 			else
-	# 				s += '000000'
-	# 	assert s.length,4+6+15*6
-	# 	s
 
 	render : ->
 		@bg 0

@@ -24,11 +24,21 @@ RLKPage = function (_Page) {
 
     _classCallCheck(this, RLKPage);
 
+    var i, k, len, ref;
+
     var _this = _possibleConstructorReturn(this, (RLKPage.__proto__ || Object.getPrototypeOf(RLKPage)).call(this, x, y, w, h, cols));
 
     _this.sbuttons = [];
     _this.start = new Date().getTime();
     _this.qr = '0000000000';
+    AES_Init();
+    _this.key = new Array(32);
+    ref = range(32);
+    for (k = 0, len = ref.length; k < len; k++) {
+      i = ref[k];
+      _this.key[i] = i;
+    }
+    AES_ExpandKey(_this.key);
     h = height / 51;
     _this.yoff = [_this.y + 0, _this.y + 16 * h, _this.y + 32 * h, _this.y + 48 * h];
     _this.selectedPersons = {
@@ -49,11 +59,13 @@ RLKPage = function (_Page) {
       return this.page.selected = this;
     }));
     _this.addButton(new Button('Utskrift', _this.x, _this.yoff[3], _this.w / 3 - 2, 3 * h - 3, function () {
-      var qr, qrcode;
+      var kopia, qr, qrcode;
       pageStack.push(pages.utskrift);
       pages.utskrift.stopMeasuringTime();
       qr = this.page.getQR();
       this.page.crc = this.page.getCRC(qr);
+      kopia = qr.slice();
+      assert(qr, this.page.decrypt(this.page.encrypt(kopia)));
       this.page.qr = kommunkod + this.page.encrypt(qr);
       return qrcode = new QRCode(document.getElementById("qrcode"), {
         text: this.page.qr,
@@ -96,17 +108,13 @@ RLKPage = function (_Page) {
     }
   }, {
     key: 'encryptBlock',
-    value: function encryptBlock(block) {
-      // 16 bytes
-      var i, k, key, len, ref;
-      key = new Array(32);
-      ref = range(32);
-      for (k = 0, len = ref.length; k < len; k++) {
-        i = ref[k];
-        key[i] = i;
-      }
-      AES_ExpandKey(key);
+    value: function encryptBlock(block, key) {
       return AES_Encrypt(block, key);
+    }
+  }, {
+    key: 'decryptBlock',
+    value: function decryptBlock(block, key) {
+      return AES_Decrypt(block, key);
     }
 
     // kryptering sker via server. Inga nycklar i javascriptkoden!
@@ -116,16 +124,14 @@ RLKPage = function (_Page) {
     value: function encrypt(qr) {
       // 48 bytes => string
       var block, byte, i, k, len, ref, res;
-      AES_Init();
       res = [];
       ref = range(3);
       for (k = 0, len = ref.length; k < len; k++) {
         i = ref[k];
-        block = qr.slice(16 * i, 16);
-        this.encryptBlock(block);
+        block = qr.slice(16 * i, 16 * (i + 1));
+        this.encryptBlock(block, key);
         res = res.concat(block);
       }
-      AES_Done();
       return function () {
         var l, len1, results;
         results = [];
@@ -135,6 +141,31 @@ RLKPage = function (_Page) {
         }
         return results;
       }().join('');
+    }
+  }, {
+    key: 'decrypt',
+    value: function decrypt(s) {
+      // 48 bytes => string
+      var block, i, k, len, qr, ref, res;
+      qr = function () {
+        var k, len, ref, results;
+        ref = range(s.length);
+        results = [];
+        for (k = 0, len = ref.length; k < len; k++) {
+          i = ref[k];
+          results.push(s.charCodeAt(i));
+        }
+        return results;
+      }();
+      res = [];
+      ref = range(3);
+      for (k = 0, len = ref.length; k < len; k++) {
+        i = ref[k];
+        block = qr.slice(16 * i, 16 * (i + 1));
+        this.decryptBlock(block, key);
+        res = res.concat(block.slice());
+      }
+      return res;
     }
   }, {
     key: 'getQR',
@@ -173,25 +204,6 @@ RLKPage = function (_Page) {
       assert(data.length, 48);
       return data;
     }
-
-    // getQR : ->
-    // 	s = kommunkod 
-    // 	slump = int random 1000000
-    // 	s += slump.toString().padStart 6,0 # to increase probability of uniqueness 
-    // 	for rlk of @selectedPersons
-    // 		persons = @selectedPersons[rlk]
-    // 		for i in range VOTES
-    // 			if i < persons.length 
-    // 				[partikod,knr] = persons[i]
-    // 				if knr == 0 
-    // 					s += '99' + partikod.padStart 4,'0'
-    // 				else
-    // 					s += knr.padStart 6,'0'
-    // 			else
-    // 				s += '000000'
-    // 	assert s.length,4+6+15*6
-    // 	s
-
   }, {
     key: 'render',
     value: function render() {
