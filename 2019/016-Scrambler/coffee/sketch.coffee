@@ -1,10 +1,10 @@
 hash = null
 korrekt = ''
 slumpad = ''
-message = ''
 buttons = []
 level = 3
 released = true
+hist = []
 
 normalize = (ord) -> 
 	arr = ord.split ''
@@ -13,7 +13,6 @@ normalize = (ord) ->
 
 createHash = (lvl) ->
 	hash = {}
-	buttons[0].title = 'Facit'
 	level = constrain lvl,2,25
 	for ord in ordlista.split ' '
 		if ord.length == level
@@ -33,25 +32,19 @@ newGame = ->
 	while true
 		slumpad = (_.shuffle korrekt.split '').join ''
 		if slumpad not in hash[normalize korrekt] then break
-	n = hash[normalize korrekt].length
-	if n > 1 then slumpad += " (#{n})"
-	message =  ''
 
 setup = ->
-	createCanvas windowWidth,windowHeight
+	createCanvas windowWidth-20,windowHeight-20
 	textAlign CENTER,CENTER
 	rectMode CENTER
 	textSize 50
 
-	buttons.push new Button 'Facit', width/2,100, width/2,50, ->
-		if @title == 'Slump'
-			newGame()
-		else
-			message = hash[normalize korrekt]
-		@title = if @title=='Slump' then 'Facit' else 'Slump'
+	buttons.push new Button '+', 100,100,100,50,-> createHash level+1
+	buttons.push new Button '-', 100,200,100,50,-> createHash level-1
 
-	buttons.push new Button '+', width/2+100,600,100,50,-> createHash level+1
-	buttons.push new Button '-', width/2-100,600,100,50,-> createHash level-1
+	buttons.push new Button 'Next', width/2,100, width/2,50, ->
+		hist.unshift "#{slumpad} : #{hash[normalize korrekt]}"
+		newGame()
 
 	createHash 3
 
@@ -59,27 +52,18 @@ draw = ->
 	bg 0.5
 	for button in buttons
 		button.draw()
-	text slumpad,width/2,200
-	text message,width/2,400
-	text level,width/2,600
+	if hash[normalize korrekt].length	== 1 then text slumpad,width/2,200
+	else text "#{slumpad} (#{hash[normalize korrekt].length})",width/2,200
+	text level,100,150
+	for line,i in hist
+		text line,width/2,300+100*i
 
-handleMousePressed = ->
+mousePressed = touchStarted = ->
 	if released then released = false else return # to make Android work 	
 	for button in buttons
 		if button.inside() then button.click()
-
-mousePressed = ->
-	handleMousePressed()
-	false
-
-touchStarted = ->
-	handleMousePressed()
 	false # to prevent double click on Android
 
-mouseReleased = ->
-	released = true
-	false
-
-touchEnded = ->
+mouseReleased = touchEnded = ->
 	released = true 
 	false # to prevent double click on Android	

@@ -5,11 +5,10 @@ var Button,
     buttons,
     createHash,
     draw,
-    handleMousePressed,
     hash,
+    hist,
     korrekt,
     level,
-    message,
     mousePressed,
     mouseReleased,
     newGame,
@@ -27,13 +26,13 @@ korrekt = '';
 
 slumpad = '';
 
-message = '';
-
 buttons = [];
 
 level = 3;
 
 released = true;
+
+hist = [];
 
 normalize = function (ord) {
   var arr;
@@ -43,13 +42,12 @@ normalize = function (ord) {
 };
 
 createHash = function (lvl) {
-  var i, key, len, ord, ref;
+  var j, key, len, ord, ref;
   hash = {};
-  buttons[0].title = 'Facit';
   level = constrain(lvl, 2, 25);
   ref = ordlista.split(' ');
-  for (i = 0, len = ref.length; i < len; i++) {
-    ord = ref[i];
+  for (j = 0, len = ref.length; j < len; j++) {
+    ord = ref[j];
     if (ord.length === level) {
       key = normalize(ord);
       if (hash[key]) {
@@ -84,67 +82,13 @@ Button = class Button {
 };
 
 newGame = function () {
-  var n;
+  var results;
   korrekt = _.sample(_.keys(hash));
+  results = [];
   while (true) {
     slumpad = _.shuffle(korrekt.split('')).join('');
     if (indexOf.call(hash[normalize(korrekt)], slumpad) < 0) {
       break;
-    }
-  }
-  n = hash[normalize(korrekt)].length;
-  if (n > 1) {
-    slumpad += ` (${n})`;
-  }
-  return message = '';
-};
-
-setup = function () {
-  createCanvas(windowWidth, windowHeight);
-  textAlign(CENTER, CENTER);
-  rectMode(CENTER);
-  textSize(50);
-  buttons.push(new Button('Facit', width / 2, 100, width / 2, 50, function () {
-    if (this.title === 'Slump') {
-      newGame();
-    } else {
-      message = hash[normalize(korrekt)];
-    }
-    return this.title = this.title === 'Slump' ? 'Facit' : 'Slump';
-  }));
-  buttons.push(new Button('+', width / 2 + 100, 600, 100, 50, function () {
-    return createHash(level + 1);
-  }));
-  buttons.push(new Button('-', width / 2 - 100, 600, 100, 50, function () {
-    return createHash(level - 1);
-  }));
-  return createHash(3);
-};
-
-draw = function () {
-  var button, i, len;
-  bg(0.5);
-  for (i = 0, len = buttons.length; i < len; i++) {
-    button = buttons[i];
-    button.draw();
-  }
-  text(slumpad, width / 2, 200);
-  text(message, width / 2, 400);
-  return text(level, width / 2, 600);
-};
-
-handleMousePressed = function () {
-  var button, i, len, results;
-  if (released) {
-    released = false; // to make Android work 	
-  } else {
-    return;
-  }
-  results = [];
-  for (i = 0, len = buttons.length; i < len; i++) {
-    button = buttons[i];
-    if (button.inside()) {
-      results.push(button.click());
     } else {
       results.push(void 0);
     }
@@ -152,22 +96,62 @@ handleMousePressed = function () {
   return results;
 };
 
-mousePressed = function () {
-  handleMousePressed();
-  return false;
+setup = function () {
+  createCanvas(windowWidth - 20, windowHeight - 20);
+  textAlign(CENTER, CENTER);
+  rectMode(CENTER);
+  textSize(50);
+  buttons.push(new Button('+', 100, 100, 100, 50, function () {
+    return createHash(level + 1);
+  }));
+  buttons.push(new Button('-', 100, 200, 100, 50, function () {
+    return createHash(level - 1);
+  }));
+  buttons.push(new Button('Next', width / 2, 100, width / 2, 50, function () {
+    hist.unshift(`${slumpad} : ${hash[normalize(korrekt)]}`);
+    return newGame();
+  }));
+  return createHash(3);
 };
 
-touchStarted = function () {
-  handleMousePressed();
+draw = function () {
+  var button, i, j, k, len, len1, line, results;
+  bg(0.5);
+  for (j = 0, len = buttons.length; j < len; j++) {
+    button = buttons[j];
+    button.draw();
+  }
+  if (hash[normalize(korrekt)].length === 1) {
+    text(slumpad, width / 2, 200);
+  } else {
+    text(`${slumpad} (${hash[normalize(korrekt)].length})`, width / 2, 200);
+  }
+  text(level, 100, 150);
+  results = [];
+  for (i = k = 0, len1 = hist.length; k < len1; i = ++k) {
+    line = hist[i];
+    results.push(text(line, width / 2, 300 + 100 * i));
+  }
+  return results;
+};
+
+mousePressed = touchStarted = function () {
+  var button, j, len;
+  if (released) {
+    released = false; // to make Android work 	
+  } else {
+    return;
+  }
+  for (j = 0, len = buttons.length; j < len; j++) {
+    button = buttons[j];
+    if (button.inside()) {
+      button.click();
+    }
+  }
   return false; // to prevent double click on Android
 };
 
-mouseReleased = function () {
-  released = true;
-  return false;
-};
-
-touchEnded = function () {
+mouseReleased = touchEnded = function () {
   released = true;
   return false; // to prevent double click on Android
 };
