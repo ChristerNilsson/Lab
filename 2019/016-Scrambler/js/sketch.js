@@ -129,31 +129,37 @@ draw = function () {
 };
 
 handleMousePressed = function () {
+  var button, i, len, results;
   if (released) {
-    return released = false; // to make Android work 	
-  } else {}
-};
-
-mousePressed = function () {
-  var button, i, len;
-  handleMousePressed();
+    released = false; // to make Android work 	
+  } else {
+    return;
+  }
+  results = [];
   for (i = 0, len = buttons.length; i < len; i++) {
     button = buttons[i];
     if (button.inside()) {
-      button.click();
+      results.push(button.click());
+    } else {
+      results.push(void 0);
     }
   }
-  return false;
+  return results;
 };
 
-mouseReleased = function () {
-  released = true;
+mousePressed = function () {
+  handleMousePressed();
   return false;
 };
 
 touchStarted = function () {
   handleMousePressed();
   return false; // to prevent double click on Android
+};
+
+mouseReleased = function () {
+  released = true;
+  return false;
 };
 
 touchEnded = function () {

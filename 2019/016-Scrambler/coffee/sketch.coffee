@@ -63,20 +63,20 @@ draw = ->
 
 handleMousePressed = ->
 	if released then released = false else return # to make Android work 	
+	for button in buttons
+		if button.inside() then button.click()
 
 mousePressed = ->
 	handleMousePressed()
-	for button in buttons
-		if button.inside() then button.click()
-	false
-
-mouseReleased = ->
-	released = true
 	false
 
 touchStarted = ->
 	handleMousePressed()
 	false # to prevent double click on Android
+
+mouseReleased = ->
+	released = true
+	false
 
 touchEnded = ->
 	released = true 
