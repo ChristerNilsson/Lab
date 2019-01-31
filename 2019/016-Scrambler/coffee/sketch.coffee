@@ -48,8 +48,8 @@ setup = ->
 			message = hash[normalize korrekt]
 		@title = if @title=='Slump' then 'Facit' else 'Slump'
 
-	buttons.push new Button '+', width/2+100,600,100,50,-> createHash level+1
-	buttons.push new Button '-', width/2-100,600,100,50,-> createHash level-1
+	buttons.push new Button '++', width/2+100,600,100,50,-> createHash level+1
+	buttons.push new Button '--', width/2-100,600,100,50,-> createHash level-1
 
 	createHash 3
 

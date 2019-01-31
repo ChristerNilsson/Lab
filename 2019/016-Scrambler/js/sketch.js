@@ -107,10 +107,10 @@ setup = function () {
     }
     return this.title = this.title === 'Slump' ? 'Facit' : 'Slump';
   }));
-  buttons.push(new Button('+', width / 2 + 100, 600, 100, 50, function () {
+  buttons.push(new Button('++', width / 2 + 100, 600, 100, 50, function () {
     return createHash(level + 1);
   }));
-  buttons.push(new Button('-', width / 2 - 100, 600, 100, 50, function () {
+  buttons.push(new Button('--', width / 2 - 100, 600, 100, 50, function () {
     return createHash(level - 1);
   }));
   return createHash(3);
