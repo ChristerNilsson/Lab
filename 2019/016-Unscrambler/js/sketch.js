@@ -31,6 +31,6 @@ setup = function () {
     unscrambled = hash[key];
     return div.html(unscrambled ? unscrambled : '');
   });
-  return div = createDiv('Mata in 4-9 bokstäver. T ex dunh');
+  return div = createDiv('Mata in ett ord. T ex airst');
 };
 //# sourceMappingURL=sketch.js.map

@@ -14,4 +14,4 @@ setup = ->
 		key = normalize @value()
 		unscrambled = hash[key]
 		div.html if unscrambled then unscrambled else ''
-	div = createDiv 'Mata in 4-9 bokstäver. T ex dunh'
+	div = createDiv 'Mata in ett ord. T ex airst'
