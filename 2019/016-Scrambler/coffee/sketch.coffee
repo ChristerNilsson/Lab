@@ -33,6 +33,8 @@ newGame = ->
 	while true
 		slumpad = (_.shuffle korrekt.split '').join ''
 		if slumpad not in hash[normalize korrekt] then break
+	n = hash[normalize korrekt].length
+	if n > 1 then slumpad += " (#{n})"
 	message =  ''
 
 setup = ->

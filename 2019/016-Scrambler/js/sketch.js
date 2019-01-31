@@ -84,12 +84,17 @@ Button = class Button {
 };
 
 newGame = function () {
+  var n;
   korrekt = _.sample(_.keys(hash));
   while (true) {
     slumpad = _.shuffle(korrekt.split('')).join('');
     if (indexOf.call(hash[normalize(korrekt)], slumpad) < 0) {
       break;
     }
+  }
+  n = hash[normalize(korrekt)].length;
+  if (n > 1) {
+    slumpad += ` (${n})`;
   }
   return message = '';
 };
