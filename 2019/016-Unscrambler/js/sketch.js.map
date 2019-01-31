@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "sketch.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\sketch.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA,IAAA,MAAA,WAAA;;AAAA,OAAO;;AAEP,YAAY,UAAC,AAAD,KACX;MAAA;AAAA,QAAM,AAAG,IAAC,AAAJ,MAAU,AAAV;AACN,AAAG,MAAC,AAAJ;SACA,AAAG,IAAC,AAAJ,KAAS,AAAT,AAHW;;;AAKZ,QAAQ,YACP;MAAA,KAAA,GAAA,KAAA,KAAA,KAAA,KAAA;;AAAA,OAAA,kCAAA;;AACC,UAAM,UAAU,AAAV;AACN,QAAG,AAAK,KAAA,AAAR;AAAkB,AAAK,WAAA,AAAI,KAAC,AAAV,KAAe,AAAf,AAAlB;AAAA,WAAA;AAA0C,AAAK,WAAA,AAAL,OAAY,CAAC,AAAD,AAAtD;AAFD;;AAGA,QAAM,YAAY,AAAZ;AACN,AAAG,MAAC,AAAJ,MAAU,YACT;QAAA;AAAA,UAAM,UAAU,AAAC,KAAA,AAAD,AAAV;AACN,kBAAc,AAAK,KAAA;WACnB,AAAG,IAAC,AAAJ,KAAY,AAAH,cAAoB,AAApB,cAAqC,AAA9C,AAHS;AAAV;SAIA,MAAM,UAAU,AAAV,AATC",
+  "sourcesContent": [
+    "hash = {}\r\n\r\nnormalize = (ord) -> \r\n\tarr = ord.split ''\r\n\tarr.sort()\r\n\tarr.join ''\r\n\r\nsetup = ->\r\n\tfor ord in ordlista.split ' '\r\n\t\tkey = normalize ord\r\n\t\tif hash[key] then hash[key].push ord else hash[key] = [ord] \r\n\tinp = createInput ''\r\n\tinp.input ->\r\n\t\tkey = normalize @value()\r\n\t\tunscrambled = hash[key]\r\n\t\tdiv.html if unscrambled then unscrambled else ''\r\n\tdiv = createDiv 'Mata in 4-9 bokstäver. T ex dunh'\r\n"
+  ]
+}
