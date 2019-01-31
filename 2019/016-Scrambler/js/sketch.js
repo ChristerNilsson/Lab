@@ -10,8 +10,10 @@ var Button,
     level,
     message,
     mousePressed,
+    mouseReleased,
     newGame,
     normalize,
+    released,
     setup,
     slumpad,
     indexOf = [].indexOf;
@@ -27,6 +29,8 @@ message = '';
 buttons = [];
 
 level = 3;
+
+released = true;
 
 normalize = function (ord) {
   var arr;
@@ -123,6 +127,10 @@ draw = function () {
 
 mousePressed = function () {
   var button, i, len, results;
+  if (released === false) {
+    return;
+  }
+  released = false;
   results = [];
   for (i = 0, len = buttons.length; i < len; i++) {
     button = buttons[i];
@@ -133,5 +141,9 @@ mousePressed = function () {
     }
   }
   return results;
+};
+
+mouseReleased = function () {
+  return released = true;
 };
 //# sourceMappingURL=sketch.js.map

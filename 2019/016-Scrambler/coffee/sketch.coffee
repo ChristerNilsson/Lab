@@ -4,6 +4,7 @@ slumpad = ''
 message = ''
 buttons = []
 level = 3
+released = true
 
 normalize = (ord) -> 
 	arr = ord.split ''
@@ -61,5 +62,10 @@ draw = ->
 	text level,width/2,600
 
 mousePressed = ->
+	if released == false then return
+	released = false 
 	for button in buttons
 		if button.inside() then button.click()
+
+mouseReleased = ->
+	released = true
