@@ -5,6 +5,7 @@ var Button,
     buttons,
     createHash,
     draw,
+    handleMousePressed,
     hash,
     korrekt,
     level,
@@ -16,6 +17,8 @@ var Button,
     released,
     setup,
     slumpad,
+    touchEnded,
+    touchStarted,
     indexOf = [].indexOf;
 
 hash = null;
@@ -125,25 +128,36 @@ draw = function () {
   return text(level, width / 2, 600);
 };
 
+handleMousePressed = function () {
+  if (released) {
+    return released = false; // to make Android work 	
+  } else {}
+};
+
 mousePressed = function () {
-  var button, i, len, results;
-  if (released === false) {
-    return;
-  }
-  released = false;
-  results = [];
+  var button, i, len;
+  handleMousePressed();
   for (i = 0, len = buttons.length; i < len; i++) {
     button = buttons[i];
     if (button.inside()) {
-      results.push(button.click());
-    } else {
-      results.push(void 0);
+      button.click();
     }
   }
-  return results;
+  return false;
 };
 
 mouseReleased = function () {
-  return released = true;
+  released = true;
+  return false;
+};
+
+touchStarted = function () {
+  handleMousePressed();
+  return false; // to prevent double click on Android
+};
+
+touchEnded = function () {
+  released = true;
+  return false; // to prevent double click on Android
 };
 //# sourceMappingURL=sketch.js.map

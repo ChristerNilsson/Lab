@@ -61,11 +61,23 @@ draw = ->
 	text message,width/2,400
 	text level,width/2,600
 
+handleMousePressed = ->
+	if released then released = false else return # to make Android work 	
+
 mousePressed = ->
-	if released == false then return
-	released = false 
+	handleMousePressed()
 	for button in buttons
 		if button.inside() then button.click()
+	false
 
 mouseReleased = ->
 	released = true
+	false
+
+touchStarted = ->
+	handleMousePressed()
+	false # to prevent double click on Android
+
+touchEnded = ->
+	released = true 
+	false # to prevent double click on Android	
