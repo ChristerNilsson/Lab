@@ -36,7 +36,7 @@ newGame = ->
 	message =  ''
 
 setup = ->
-	createCanvas 800,800
+	createCanvas windowWidth,windowHeight
 	textAlign CENTER,CENTER
 	rectMode CENTER
 	textSize 50
