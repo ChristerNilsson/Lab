@@ -13,7 +13,7 @@ normalize = (ord) ->
 
 createHash = (lvl) ->
 	hash = {}
-	level = constrain lvl,3,25
+	level = constrain lvl,3,28
 	for ord in ordlista.split ' '
 		if ord.length == level
 			key = normalize ord
@@ -61,6 +61,8 @@ draw = ->
 	textSize 60
 	if hash[normalize korrekt].length	== 1 then text slumpad,500,200
 	else text "#{slumpad} (#{hash[normalize korrekt].length})",500,200
+	fc 0.6
+	text _.size(hash),500,100
 	pop()
 
 	text level,800,100
