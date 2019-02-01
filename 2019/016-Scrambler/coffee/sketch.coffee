@@ -13,7 +13,7 @@ normalize = (ord) ->
 
 createHash = (lvl) ->
 	hash = {}
-	level = constrain lvl,2,25
+	level = constrain lvl,3,25
 	for ord in ordlista.split ' '
 		if ord.length == level
 			key = normalize ord
@@ -25,7 +25,10 @@ class Button
 	draw : ->
 		rect @x,@y,@w,@h
 		text @title,@x,@y
-	inside : -> @x-@w/2 < mouseX < @x+@w+2 and @y-@h/2 < mouseY < @y+@h+2
+	inside : -> 
+		mx = mouseX * 1000 / windowWidth
+		my = mouseY * 1000 / windowHeight
+		@x-@w/2 < mx < @x+@w+2 and @y-@h/2 < my < @y+@h+2
 
 newGame = ->
 	korrekt = _.sample _.keys hash 
@@ -34,29 +37,42 @@ newGame = ->
 		if slumpad not in hash[normalize korrekt] then break
 
 setup = ->
-	createCanvas windowWidth-20,windowHeight-20
+	createCanvas windowWidth-18,windowHeight-20
 	textAlign CENTER,CENTER
 	rectMode CENTER
-	textSize 50
 
-	buttons.push new Button '+', 100,100,100,50,-> createHash level+1
-	buttons.push new Button '-', 100,200,100,50,-> createHash level-1
+	buttons.push new Button '+', 900,100,100,50,-> createHash level+1
+	buttons.push new Button '-', 700,100,100,50,-> createHash level-1
 
-	buttons.push new Button 'Next', width/2,100, width/2,50, ->
-		hist.unshift "#{slumpad} : #{hash[normalize korrekt]}"
+	buttons.push new Button 'Next', 150,100, 200,50, ->
+		hist.unshift [slumpad, hash[normalize korrekt]]
 		newGame()
 
 	createHash 3
 
 draw = ->
+	scale windowWidth/1000,windowHeight/1000
 	bg 0.5
 	for button in buttons
 		button.draw()
-	if hash[normalize korrekt].length	== 1 then text slumpad,width/2,200
-	else text "#{slumpad} (#{hash[normalize korrekt].length})",width/2,200
-	text level,100,150
-	for line,i in hist
-		text line,width/2,300+100*i
+	textSize 50
+
+	push()
+	textSize 60
+	if hash[normalize korrekt].length	== 1 then text slumpad,500,200
+	else text "#{slumpad} (#{hash[normalize korrekt].length})",500,200
+	pop()
+
+	text level,800,100
+
+	push()
+	for pair,i in hist
+		[line0,line1] = pair
+		textAlign LEFT,CENTER
+		text line0,50,300+100*i
+		textAlign RIGHT,CENTER
+		text line1,900,350+100*i
+	pop()
 
 mousePressed = touchStarted = ->
 	if released then released = false else return # to make Android work 	
