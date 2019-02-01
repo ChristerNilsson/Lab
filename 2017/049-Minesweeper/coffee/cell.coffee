@@ -5,22 +5,19 @@ class Cell
 		@neighborCount = 0
 		@bee = false
 		@revealed = false
+		@flag = false 
 
 	show : ->
-		sc 0
-		fc()
-		rect @x, @y, @w, @w
-		if @revealed
+		if @flag 
+			image images.flag, @x, @y, w,w		
+		else if @revealed
 			if @bee
-				fc 0.5
-				circle @x, @y , @w * 0.25
+				image images.bomb, @x, @y, w,w
 			else
-				fc 0.75
-				rect @x, @y, @w, @w
-				if @neighborCount > 0
-					fc 0
-					#fill cc @neighborCount
-					text @neighborCount, @x, @y
+				if @neighborCount > 0 then image images[@neighborCount], @x, @y, w,w
+				else image images.tile_depressed, @x, @y, w,w
+		else
+			image images.tile, @x, @y, w,w
 
 	countBees : ->
 		if @bee
@@ -28,8 +25,8 @@ class Cell
 			return
 
 		total = 0
-		for xoff in range -1,2
-			for yoff in range -1,2
+		for xoff in [-1,0,1]
+			for yoff in [-1,0,1]
 				i = @i + xoff
 				j = @j + yoff
 				if -1 < i < cols and -1 < j < rows
@@ -38,14 +35,18 @@ class Cell
 		@neighborCount = total
 
 	contains : (x, y) -> @x < x < @x + @w and @y < y < @y + @w
+	toggle : -> 
+		@flag = not @flag
+		if @flag then count++ else count--
 
 	reveal : ->
 		@revealed = true
+		count++
 		if @neighborCount == 0 then	@floodFill()
 
 	floodFill : () ->
-		for xoff in range -1,2
-			for yoff in range -1,2
+		for xoff in [-1,0,1]
+			for yoff in [-1,0,1]
 				i = @i + xoff
 				j = @j + yoff
 				if -1 < i < cols and -1 < j < rows
