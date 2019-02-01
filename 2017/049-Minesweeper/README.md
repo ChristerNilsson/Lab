@@ -1,30 +1,11 @@
-# Mall
+# Minesweeper
 
-* Libraries innehåller bl a p5-filer.
-* index.html används när man vill köra programmet i Google Chrome.
-* katalogen coffee innehåller din kod. Redigera med Sublime.
-* js-filer skapas automatiskt av startProject.bat
+CodingTrain (54 minutes in Javascript, 156 lines, 220K views)
 
-## Detta gör du en enda gång
+* https://www.youtube.com/watch?v=LFU5ZlrR21E
 
-* Kopiera 000-Mall med Clone or Download
-* Välj Download .Zip 
-* Packa upp innehållet och spara i en egen katalog med namnet 000-Mall. Dvs inget -master
-* Flytta upp createProject.bat en nivå.
+Harvard CS50 (eight hours in lua, 410 lines, 1000 views)
 
-## Detta gör du när du skapar ett nytt projekt
-
-* Använda createProject för att skapa en kopia av mallen.
-* Byt namn på NewProject. T ex till 001-projektnamn.
-
-## Detta gör du när du utvecklar
-
-* Gå in i katalogen och starta startProject
-  * index.html startas i Chrome
-  * sublime startas. 
-  	* Stäng eventuellt befintligt projekt med Remove Folder from Project
-  * transpilern startas
-* Ändra i sketch.coffee. Spara med ctrl-S
-* Transpilering sker automatiskt. Ett pip hörs vid syntaxfel.
-* Refresha Chrome.
-
+* https://www.youtube.com/watch?v=iXskCHA8QCk
+* https://www.youtube.com/watch?v=bh69l16NTGU
+* https://www.youtube.com/watch?v=8dERjgPQq44
