@@ -1,9 +1,10 @@
 N = 100
+KEY = '015'
 buttons = []
 grid = null
 originalGrid = null
 current = 0
-level = 1
+level = null
 state = 0 # 0=Go 1=Solve 2=Go/Prev/Next
 
 class Button
@@ -21,9 +22,8 @@ class Button
 			fill 128
 		if @title != 0 then text @title,N*@x+@w/2,N*@y+@h/2
 	inside : -> 
-		#(width-4*N)/2,(height-5*N)/2
 		x = mouseX - (width-4*N)/2
-		y = mouseY - (height-5*N)/2
+		y = mouseY - (height-5.5*N)/2
 		@active and N*@x < x < N*@x+@w and N*@y < y < N*@y+@h
 
 randomMoveList = (grid, nMoves, moveList=[]) ->
@@ -66,6 +66,9 @@ windowResized = -> resizeCanvas windowWidth, windowHeight
 setup = ->
 	createCanvas windowWidth,windowHeight
 
+	level = localStorage[KEY]
+	level = if level? then parseInt level else 1
+
 	for i in range 16
 		x = i%4
 		y = i//4
@@ -105,7 +108,7 @@ setup = ->
 	transfer()
 
 draw = ->
-	translate (width-4*N)/2,(height-5*N)/2
+	translate (width-4*N)/2,(height-5.5*N)/2
 	background 128
 	for button in buttons
 		button.draw()
@@ -121,3 +124,4 @@ mousePressed = ->
 		if button.inside() 
 			if (state==1 and i<16) or i>=16
 				button.click()
+	localStorage[KEY] = level

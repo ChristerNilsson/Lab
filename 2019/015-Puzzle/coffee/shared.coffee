@@ -26,4 +26,3 @@ INIT_GRID = [
 
 print = console.log
 range = _.range
-
