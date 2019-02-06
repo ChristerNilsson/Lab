@@ -1,6 +1,6 @@
-XABOVE = 0 
-XRIGHT = 1 
-XLEFT  = 2 
+XABOVE = 0
+XRIGHT = 1
+XLEFT  = 2
 XBELOW = 3
 
 window.solution = []

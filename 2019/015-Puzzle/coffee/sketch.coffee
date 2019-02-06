@@ -12,7 +12,7 @@ class Button
 	draw : ->
 		textAlign CENTER,CENTER
 		textSize @textSize
-		if @title == 0 then fill 0 
+		if @title == 0 then fill 0
 		else if @title =='Go' and @active then fill 0,255,0 else fill 255
 		rect N*@x,N*@y,@w,@h
 		if @active
@@ -24,7 +24,7 @@ class Button
 		#(width-4*N)/2,(height-5*N)/2
 		x = mouseX - (width-4*N)/2
 		y = mouseY - (height-5*N)/2
-		@active and N*@x < x < N*@x+@w and N*@y < y < N*@y+@h 
+		@active and N*@x < x < N*@x+@w and N*@y < y < N*@y+@h
 
 randomMoveList = (grid, nMoves, moveList=[]) ->
 	if moveList.length == nMoves then return moveList
@@ -79,7 +79,7 @@ setup = ->
 						grid = grid.applyMoveFrom move
 						other = buttons[x0+4*y0]
 						[other.title,@title] = [@title,other.title]
-			if goalReached() 
+			if goalReached()
 				goState 0
 				level++
 

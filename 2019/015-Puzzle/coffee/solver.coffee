@@ -1,7 +1,7 @@
 class SolverState
 	constructor: (@grid, steps) ->
 		lowerSolutionBound = @grid.lowerSolutionBound()
-		@steps = steps.slice() 
+		@steps = steps.slice()
 		@solved = @grid.isSolved()
 		@val = lowerSolutionBound + steps.length
 

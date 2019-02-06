@@ -6,7 +6,7 @@ manhattanDist = (num, curRow, curCol) ->
 
 class Grid
 	constructor: (grid=INIT_GRID, emptyPos=[3,3]) ->
-		@emptyPos = emptyPos.slice() 
+		@emptyPos = emptyPos.slice()
 
 		@grid = []
 		for row in grid
