@@ -24,8 +24,13 @@ class Button
 		if @title != 0 then text @title,N*@x+@w/2,N*@y+@h/2
 	setxy : (@x,@y) ->
 	inside : -> 
-		x = mouseX / (width/N/4 )
-		y = mouseY / (height/N/5.5)
+		if deviceOrientation != LANDSCAPE
+			factor = min width/6/N,height/4/N
+		else # PORTRAIT or undefined
+			factor = min width/4/N,height/6/N
+
+		x = mouseX / factor
+		y = mouseY / factor
 		@active and N*@x < x < N*@x+@w and N*@y < y < N*@y+@h
 
 randomMoveList = (grid, nMoves, moveList=[]) ->
@@ -89,21 +94,21 @@ setup = ->
 				goState 0
 				level++
 
-	buttons.push new Button 'Go',0,5,N,N/2,50,->
+	buttons.push new Button 'Go',0,5,N,N,50,->
 		goState 1
 		window.solution = []
 		grid = grid.applyMoves randomMoveList grid,level
 		transfer()
 
-	buttons.push new Button 'Solve',1,5,N,N/2,50,->
+	buttons.push new Button 'Solve',1,5,N,N,50,->
 		if level > 1 then level--
 		window.solution = []
 		originalGrid = grid.copy()
 		solve grid
 		goState 2
 
-	buttons.push new Button 'Prev',2,5,N,N/2,50,-> update -1
-	buttons.push new Button 'Next',3,5,N,N/2,50,-> update +1
+	buttons.push new Button 'Prev',2,5,N,N,50,-> update -1
+	buttons.push new Button 'Next',3,5,N,N,50,-> update +1
 
 	goState 0
 
@@ -111,14 +116,15 @@ setup = ->
 	transfer()
 
 draw = ->
-	scale	width/N/4,height/N/5.5
 
 	if deviceOrientation == LANDSCAPE
+		scale min width/6/N,height/4/N
 		buttons[16].setxy 4,0 
 		buttons[17].setxy 5,0 
 		buttons[18].setxy 4,3 
 		buttons[19].setxy 5,3 
 	else # PORTRAIT or undefined
+		scale min width/4/N,height/6/N
 		buttons[16].setxy 0,5 
 		buttons[17].setxy 1,5 
 		buttons[18].setxy 2,5 

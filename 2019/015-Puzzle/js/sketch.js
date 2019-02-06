@@ -83,9 +83,14 @@ Button = class Button {
   }
 
   inside() {
-    var x, y;
-    x = mouseX / (width / N / 4);
-    y = mouseY / (height / N / 5.5);
+    var factor, x, y;
+    if (deviceOrientation !== LANDSCAPE) {
+      factor = min(width / 6 / N, height / 4 / N); // PORTRAIT or undefined
+    } else {
+      factor = min(width / 4 / N, height / 6 / N);
+    }
+    x = mouseX / factor;
+    y = mouseY / factor;
     return this.active && N * this.x < x && x < N * this.x + this.w && N * this.y < y && y < N * this.y + this.h;
   }
 
@@ -185,13 +190,13 @@ setup = function () {
       }
     }));
   }
-  buttons.push(new Button('Go', 0, 5, N, N / 2, 50, function () {
+  buttons.push(new Button('Go', 0, 5, N, N, 50, function () {
     goState(1);
     window.solution = [];
     grid = grid.applyMoves(randomMoveList(grid, level));
     return transfer();
   }));
-  buttons.push(new Button('Solve', 1, 5, N, N / 2, 50, function () {
+  buttons.push(new Button('Solve', 1, 5, N, N, 50, function () {
     if (level > 1) {
       level--;
     }
@@ -200,10 +205,10 @@ setup = function () {
     solve(grid);
     return goState(2);
   }));
-  buttons.push(new Button('Prev', 2, 5, N, N / 2, 50, function () {
+  buttons.push(new Button('Prev', 2, 5, N, N, 50, function () {
     return update(-1);
   }));
-  buttons.push(new Button('Next', 3, 5, N, N / 2, 50, function () {
+  buttons.push(new Button('Next', 3, 5, N, N, 50, function () {
     return update(+1);
   }));
   goState(0);
@@ -213,13 +218,14 @@ setup = function () {
 
 draw = function () {
   var button, j, len;
-  scale(width / N / 4, height / N / 5.5);
   if (deviceOrientation === LANDSCAPE) {
+    scale(min(width / 6 / N, height / 4 / N));
     buttons[16].setxy(4, 0);
     buttons[17].setxy(5, 0);
     buttons[18].setxy(4, 3);
     buttons[19].setxy(5, 3); // PORTRAIT or undefined
   } else {
+    scale(min(width / 4 / N, height / 6 / N));
     buttons[16].setxy(0, 5);
     buttons[17].setxy(1, 5);
     buttons[18].setxy(2, 5);
