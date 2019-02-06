@@ -6,6 +6,7 @@ originalGrid = null
 current = 0
 level = null
 state = 0 # 0=Go 1=Solve 2=Go/Prev/Next
+released = true 
 
 class Button
 	constructor : (@title,@x,@y,@w,@h,@textSize,@click) ->
@@ -119,9 +120,16 @@ draw = ->
 	fill 255
 	text level,N,4.5*N
 
+mouseReleased = ->
+	released = true
+	false
 mousePressed = ->
+	if not released then return false
+	released = false 
+
 	for button,i in buttons
 		if button.inside() 
 			if (state==1 and i<16) or i>=16
 				button.click()
 	localStorage[KEY] = level
+	false 

@@ -12,8 +12,10 @@ var Button,
     grid,
     level,
     mousePressed,
+    mouseReleased,
     originalGrid,
     randomMoveList,
+    released,
     setup,
     state,
     transfer,
@@ -38,6 +40,8 @@ current = 0;
 level = null;
 
 state = 0; // 0=Go 1=Solve 2=Go/Prev/Next
+
+released = true;
 
 Button = class Button {
   constructor(title, x1, y1, w, h, textSize1, click) {
@@ -214,8 +218,17 @@ draw = function () {
   return text(level, N, 4.5 * N);
 };
 
+mouseReleased = function () {
+  released = true;
+  return false;
+};
+
 mousePressed = function () {
   var button, i, j, len;
+  if (!released) {
+    return false;
+  }
+  released = false;
   for (i = j = 0, len = buttons.length; j < len; i = ++j) {
     button = buttons[i];
     if (button.inside()) {
@@ -224,6 +237,7 @@ mousePressed = function () {
       }
     }
   }
-  return localStorage[KEY] = level;
+  localStorage[KEY] = level;
+  return false;
 };
 //# sourceMappingURL=sketch.js.map
