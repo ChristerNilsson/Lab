@@ -16,8 +16,8 @@ Click on Solve to see the solution with Prev and Next
 
 Clicking on Solve will decrease your level
 
-Solve will not always show the shortest solution
-
 Click Go to see the next problem
 
 There is no final level
+
+Works in both Portrait and Landscape

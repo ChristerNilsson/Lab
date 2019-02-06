@@ -34,7 +34,9 @@ class Button
 		@active and N*@x < x < N*@x+@w and N*@y < y < N*@y+@h
 
 randomMoveList = (grid, nMoves, moveList=[]) ->
-	if moveList.length == nMoves then return moveList
+	if moveList.length == nMoves 
+		print moveList
+		return moveList
 
 	validMoves = grid.validMoves()
 
@@ -96,6 +98,7 @@ setup = ->
 
 	buttons.push new Button 'Go',0,5,N,N,50,->
 		goState 1
+		grid = new Grid INIT_GRID, [3,3]
 		window.solution = []
 		grid = grid.applyMoves randomMoveList grid,level
 		transfer()
@@ -105,6 +108,7 @@ setup = ->
 		window.solution = []
 		originalGrid = grid.copy()
 		solve grid
+		current = 0
 		goState 2
 
 	buttons.push new Button 'Prev',2,5,N,N,50,-> update -1

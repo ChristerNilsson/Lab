@@ -99,6 +99,7 @@ Button = class Button {
 randomMoveList = function (grid, nMoves, moveList = []) {
   var last, ldc, ldr, nextGrid, sourceDirection, validMoves;
   if (moveList.length === nMoves) {
+    print(moveList);
     return moveList;
   }
   validMoves = grid.validMoves();
@@ -192,6 +193,7 @@ setup = function () {
   }
   buttons.push(new Button('Go', 0, 5, N, N, 50, function () {
     goState(1);
+    grid = new Grid(INIT_GRID, [3, 3]);
     window.solution = [];
     grid = grid.applyMoves(randomMoveList(grid, level));
     return transfer();
@@ -203,6 +205,7 @@ setup = function () {
     window.solution = [];
     originalGrid = grid.copy();
     solve(grid);
+    current = 0;
     return goState(2);
   }));
   buttons.push(new Button('Prev', 2, 5, N, N, 50, function () {
