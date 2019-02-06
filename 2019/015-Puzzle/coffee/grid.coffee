@@ -87,4 +87,3 @@ class Grid
 		console.log "Empty: #{@emptyPos}"
 		for row in @grid
 			console.log row
-
