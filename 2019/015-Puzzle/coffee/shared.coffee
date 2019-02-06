@@ -1,7 +1,7 @@
-XABOVE = 0 # "A" #BOVE"
-XRIGHT = 1 # "R" #IGHT"
-XLEFT  = 2 # "L" #EFT"
-XBELOW = 3 # "B" #ELOW"
+XABOVE = 0 
+XRIGHT = 1 
+XLEFT  = 2 
+XBELOW = 3
 
 window.solution = []
 

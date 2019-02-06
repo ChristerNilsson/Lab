@@ -108,7 +108,7 @@ solve = function (startGrid, frontier = null) {
     if (curState.solved) {
       window.solution = curState.steps;
       current = 0;
-      prevNext(true);
+      goState(2);
       return;
     }
     grid = curState.grid;

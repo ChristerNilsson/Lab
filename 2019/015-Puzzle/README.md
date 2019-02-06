@@ -2,8 +2,22 @@
 
 https://github.com/jlfwong/fifteen-puzzle
 
-Shuffle makes 25 random moves
+https://en.wikipedia.org/wiki/15_puzzle
 
-Making many shuffles might take minutes to solve.
+https://sv.wikipedia.org/wiki/Femtonspel
 
-The program is using a priority heap measuring the Manhattan distance to target position for all tiles.
+Try to get the tiles in the correct order 1 to 15
+
+Click Go to get started
+
+Click on 12 or 15 to solve Level 1
+
+Click on Solve to see the solution with Prev and Next
+
+Clicking on Solve will decrease your level
+
+Solve will not always show the shortest solution
+
+Click Go to see the next problem
+
+There is no final level
