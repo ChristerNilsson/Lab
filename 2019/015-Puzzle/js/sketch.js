@@ -6,6 +6,7 @@ var Button,
     N,
     buttons,
     current,
+    deviceTurned,
     draw,
     goState,
     goalReached,
@@ -25,7 +26,7 @@ var Button,
   return (+a % (b = +b) + b) % b;
 };
 
-N = 100;
+N = 150;
 
 KEY = '015';
 
@@ -78,8 +79,8 @@ Button = class Button {
 
   inside() {
     var x, y;
-    x = mouseX - (width - 4 * N) / 2;
-    y = mouseY - (height - 5.5 * N) / 2;
+    x = mouseX / (width / N / 4);
+    y = mouseY / (height / N / 5.5);
     return this.active && N * this.x < x && x < N * this.x + this.w && N * this.y < y && y < N * this.y + this.h;
   }
 
@@ -143,6 +144,10 @@ windowResized = function () {
   return resizeCanvas(windowWidth, windowHeight);
 };
 
+deviceTurned = function () {
+  return resizeCanvas(windowWidth, windowHeight);
+};
+
 setup = function () {
   var i, j, len, ref, x, y;
   createCanvas(windowWidth, windowHeight);
@@ -153,7 +158,7 @@ setup = function () {
     i = ref[j];
     x = i % 4;
     y = Math.floor(i / 4);
-    buttons.push(new Button(i, x, y, N, N, 60, function () {
+    buttons.push(new Button(i, x, y, N, N, 100, function () {
       var dx, dy, k, len1, move, other, ref1, x0, y0;
       [y0, x0] = grid.emptyPos;
       ref1 = grid.validMoves();
@@ -175,13 +180,13 @@ setup = function () {
       }
     }));
   }
-  buttons.push(new Button('Go', 0, 5, N, N / 2, 30, function () {
+  buttons.push(new Button('Go', 0, 5, N, N / 2, 50, function () {
     goState(1);
     window.solution = [];
     grid = grid.applyMoves(randomMoveList(grid, level));
     return transfer();
   }));
-  buttons.push(new Button('Solve', 1, 5, N, N / 2, 30, function () {
+  buttons.push(new Button('Solve', 1, 5, N, N / 2, 50, function () {
     if (level > 1) {
       level--;
     }
@@ -190,10 +195,10 @@ setup = function () {
     solve(grid);
     return goState(2);
   }));
-  buttons.push(new Button('Prev', 2, 5, N, N / 2, 30, function () {
+  buttons.push(new Button('Prev', 2, 5, N, N / 2, 50, function () {
     return update(-1);
   }));
-  buttons.push(new Button('Next', 3, 5, N, N / 2, 30, function () {
+  buttons.push(new Button('Next', 3, 5, N, N / 2, 50, function () {
     return update(+1);
   }));
   goState(0);
@@ -203,7 +208,7 @@ setup = function () {
 
 draw = function () {
   var button, j, len;
-  translate((width - 4 * N) / 2, (height - 5.5 * N) / 2);
+  scale(width / N / 4, height / N / 5.5);
   background(128);
   for (j = 0, len = buttons.length; j < len; j++) {
     button = buttons[j];

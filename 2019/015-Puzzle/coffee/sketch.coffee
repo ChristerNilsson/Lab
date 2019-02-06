@@ -1,4 +1,4 @@
-N = 100
+N = 150
 KEY = '015'
 buttons = []
 grid = null
@@ -23,8 +23,8 @@ class Button
 			fill 128
 		if @title != 0 then text @title,N*@x+@w/2,N*@y+@h/2
 	inside : -> 
-		x = mouseX - (width-4*N)/2
-		y = mouseY - (height-5.5*N)/2
+		x = mouseX / (width/N/4 )
+		y = mouseY / (height/N/5.5)
 		@active and N*@x < x < N*@x+@w and N*@y < y < N*@y+@h
 
 randomMoveList = (grid, nMoves, moveList=[]) ->
@@ -63,6 +63,7 @@ goState = (newState) ->
 		button.active = values[state][i] == '1'
 
 windowResized = -> resizeCanvas windowWidth, windowHeight
+deviceTurned  = -> resizeCanvas windowWidth, windowHeight
 
 setup = ->
 	createCanvas windowWidth,windowHeight
@@ -73,7 +74,7 @@ setup = ->
 	for i in range 16
 		x = i%4
 		y = i//4
-		buttons.push new Button i,x,y,N,N,60,->
+		buttons.push new Button i,x,y,N,N,100,->
 			[y0,x0] = grid.emptyPos
 			for move in grid.validMoves()
 				dx = x0-@x
@@ -87,21 +88,21 @@ setup = ->
 				goState 0
 				level++
 
-	buttons.push new Button 'Go',0,5,N,N/2,30,->
+	buttons.push new Button 'Go',0,5,N,N/2,50,->
 		goState 1
 		window.solution = []
 		grid = grid.applyMoves randomMoveList grid,level
 		transfer()
 
-	buttons.push new Button 'Solve',1,5,N,N/2,30,->
+	buttons.push new Button 'Solve',1,5,N,N/2,50,->
 		if level > 1 then level--
 		window.solution = []
 		originalGrid = grid.copy()
 		solve grid
 		goState 2
 
-	buttons.push new Button 'Prev',2,5,N,N/2,30,-> update -1
-	buttons.push new Button 'Next',3,5,N,N/2,30,-> update +1
+	buttons.push new Button 'Prev',2,5,N,N/2,50,-> update -1
+	buttons.push new Button 'Next',3,5,N,N/2,50,-> update +1
 
 	goState 0
 
@@ -109,7 +110,8 @@ setup = ->
 	transfer()
 
 draw = ->
-	translate (width-4*N)/2,(height-5.5*N)/2
+	scale	width/N/4,height/N/5.5
+
 	background 128
 	for button in buttons
 		button.draw()
