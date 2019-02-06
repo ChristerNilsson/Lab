@@ -80,7 +80,7 @@ solve = (startGrid, frontier=null) ->
 
 		lastStep = _.last steps
 		if lastStep?
-			candidates = _(candidates).filter (x) ->
+			candidates = _(candidates).filter (x) ->  # why _ ?
 				not directionsAreOpposites x, lastStep
 
 		for sourceDirection in candidates

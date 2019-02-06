@@ -61,7 +61,7 @@ Button = class Button {
     } else {
       fill(255);
     }
-    rect(N * this.x, N * this.y, this.w, this.h);
+    rect(N * this.x + 2, N * this.y + 2, this.w - 4, this.h - 4);
     if (this.active) {
       fill(0);
     } else {

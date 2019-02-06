@@ -117,6 +117,7 @@ solve = function (startGrid, frontier = null) {
     lastStep = _.last(steps);
     if (lastStep != null) {
       candidates = _(candidates).filter(function (x) {
+        // why _ ?
         return !directionsAreOpposites(x, lastStep);
       });
     }
