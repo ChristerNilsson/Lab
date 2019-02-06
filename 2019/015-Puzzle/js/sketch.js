@@ -84,7 +84,7 @@ Button = class Button {
 
   inside() {
     var factor, x, y;
-    if (deviceOrientation !== LANDSCAPE) {
+    if (deviceOrientation === LANDSCAPE) {
       factor = min(width / 6 / N, height / 4 / N); // PORTRAIT or undefined
     } else {
       factor = min(width / 4 / N, height / 6 / N);

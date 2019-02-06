@@ -24,7 +24,7 @@ class Button
 		if @title != 0 then text @title,N*@x+@w/2,N*@y+@h/2
 	setxy : (@x,@y) ->
 	inside : -> 
-		if deviceOrientation != LANDSCAPE
+		if deviceOrientation == LANDSCAPE
 			factor = min width/6/N,height/4/N
 		else # PORTRAIT or undefined
 			factor = min width/4/N,height/6/N
