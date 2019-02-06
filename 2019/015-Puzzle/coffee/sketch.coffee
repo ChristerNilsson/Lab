@@ -64,7 +64,7 @@ goState = (newState) ->
 windowResized = -> resizeCanvas windowWidth, windowHeight
 
 setup = ->
-	canvas = createCanvas windowWidth,windowHeight
+	createCanvas windowWidth,windowHeight
 
 	for i in range 16
 		x = i%4

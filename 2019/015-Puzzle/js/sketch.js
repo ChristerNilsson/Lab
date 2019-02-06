@@ -139,8 +139,8 @@ windowResized = function () {
 };
 
 setup = function () {
-  var canvas, i, j, len, ref, x, y;
-  canvas = createCanvas(windowWidth, windowHeight);
+  var i, j, len, ref, x, y;
+  createCanvas(windowWidth, windowHeight);
   ref = range(16);
   for (j = 0, len = ref.length; j < len; j++) {
     i = ref[j];
