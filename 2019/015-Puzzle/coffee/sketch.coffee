@@ -22,6 +22,7 @@ class Button
 		else
 			fill 128
 		if @title != 0 then text @title,N*@x+@w/2,N*@y+@h/2
+	setxy : (@x,@y) ->
 	inside : -> 
 		x = mouseX / (width/N/4 )
 		y = mouseY / (height/N/5.5)
@@ -112,15 +113,33 @@ setup = ->
 draw = ->
 	scale	width/N/4,height/N/5.5
 
+	if deviceOrientation == LANDSCAPE
+		buttons[16].setxy 4,0 
+		buttons[17].setxy 5,0 
+		buttons[18].setxy 4,3 
+		buttons[19].setxy 5,3 
+	else # PORTRAIT or undefined
+		buttons[16].setxy 0,5 
+		buttons[17].setxy 1,5 
+		buttons[18].setxy 2,5 
+		buttons[19].setxy 3,5 
+
 	background 128
 	for button in buttons
 		button.draw()
 	if solution.length > 0
 		textAlign CENTER,CENTER
 		fill 255
-		text "#{current} of #{solution.length}", 3*N,4.5*N
+		if deviceOrientation == LANDSCAPE
+			text "#{current} of #{solution.length}", 5*N,2.5*N
+		else # PORTRAIT or undefined
+			text "#{current} of #{solution.length}", 3*N,4.5*N
 	fill 255
-	text level,N,4.5*N
+	if deviceOrientation == LANDSCAPE
+		text level,5*N,1.5*N
+	else # PORTRAIT or undefined
+		text level,N,4.5*N
+	fill 0
 
 mouseReleased = ->
 	released = true

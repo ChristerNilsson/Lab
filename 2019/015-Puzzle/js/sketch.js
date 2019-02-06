@@ -77,6 +77,11 @@ Button = class Button {
     }
   }
 
+  setxy(x1, y1) {
+    this.x = x1;
+    this.y = y1;
+  }
+
   inside() {
     var x, y;
     x = mouseX / (width / N / 4);
@@ -209,6 +214,17 @@ setup = function () {
 draw = function () {
   var button, j, len;
   scale(width / N / 4, height / N / 5.5);
+  if (deviceOrientation === LANDSCAPE) {
+    buttons[16].setxy(4, 0);
+    buttons[17].setxy(5, 0);
+    buttons[18].setxy(4, 3);
+    buttons[19].setxy(5, 3); // PORTRAIT or undefined
+  } else {
+    buttons[16].setxy(0, 5);
+    buttons[17].setxy(1, 5);
+    buttons[18].setxy(2, 5);
+    buttons[19].setxy(3, 5);
+  }
   background(128);
   for (j = 0, len = buttons.length; j < len; j++) {
     button = buttons[j];
@@ -217,10 +233,19 @@ draw = function () {
   if (solution.length > 0) {
     textAlign(CENTER, CENTER);
     fill(255);
-    text(`${current} of ${solution.length}`, 3 * N, 4.5 * N);
+    if (deviceOrientation === LANDSCAPE) {
+      text(`${current} of ${solution.length}`, 5 * N, 2.5 * N); // PORTRAIT or undefined
+    } else {
+      text(`${current} of ${solution.length}`, 3 * N, 4.5 * N);
+    }
   }
   fill(255);
-  return text(level, N, 4.5 * N);
+  if (deviceOrientation === LANDSCAPE) {
+    text(level, 5 * N, 1.5 * N); // PORTRAIT or undefined
+  } else {
+    text(level, N, 4.5 * N);
+  }
+  return fill(0);
 };
 
 mouseReleased = function () {
