@@ -19,6 +19,7 @@ var Button,
     released,
     setup,
     state,
+    toggleFullscreen,
     transfer,
     update,
     windowResized,
@@ -67,11 +68,7 @@ Button = class Button {
       fill(255);
     }
     rect(N * this.x + 2, N * this.y + 2, this.w - 4, this.h - 4, 15);
-    if (this.active) {
-      fill(0);
-    } else {
-      fill(128);
-    }
+    fill(this.active ? 0 : 128);
     if (this.title !== 0) {
       return text(this.title, N * this.x + this.w / 2, N * this.y + this.h / 2);
     }
@@ -159,6 +156,18 @@ deviceTurned = function () {
   return resizeCanvas(windowWidth, windowHeight);
 };
 
+toggleFullscreen = function () {
+  var elem;
+  elem = document.querySelector("#fullscreen");
+  if (!document.fullscreenElement) {
+    return elem.requestFullscreen().then({}).catch(err => {
+      return alert(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
+    });
+  } else {
+    return document.exitFullscreen();
+  }
+};
+
 setup = function () {
   var i, j, len, ref, x, y;
   createCanvas(windowWidth, windowHeight);
@@ -192,8 +201,10 @@ setup = function () {
       }
     }));
   }
+  //buttons.push new Button 'Toggle',3,4,N,N,50,->
+  //document.documentElement.webkitRequestFullScreen()
+  //Document.exitFullscreen()
   buttons.push(new Button('Go', 0, 5, N, N, 50, function () {
-    document.documentElement.webkitRequestFullScreen();
     goState(1);
     grid = new Grid(INIT_GRID, [3, 3]);
     window.solution = [];
@@ -273,12 +284,16 @@ mousePressed = function () {
   for (i = j = 0, len = buttons.length; j < len; i = ++j) {
     button = buttons[i];
     if (button.inside()) {
+      if (button.title === 0) {
+        toggleFullscreen();
+      }
       if (state === 1 && i < 16 || i >= 16) {
         button.click();
+        localStorage[KEY] = level;
+        return false;
       }
     }
   }
-  localStorage[KEY] = level;
   return false;
 };
 //# sourceMappingURL=sketch.js.map

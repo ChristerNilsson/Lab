@@ -17,11 +17,9 @@ class Button
 		if @title == 0 then fill 0
 		else if @title =='Go' and @active then fill 0,255,0 else fill 255
 		rect N*@x+2,N*@y+2,@w-4,@h-4,15
-		if @active
-			fill 0
-		else
-			fill 128
-		if @title != 0 then text @title,N*@x+@w/2,N*@y+@h/2
+		fill if @active then 0 else 128
+		if @title != 0 
+			text @title,N*@x+@w/2,N*@y+@h/2
 	setxy : (@x,@y) ->
 	inside : -> 
 		if deviceOrientation == LANDSCAPE
@@ -73,6 +71,17 @@ goState = (newState) ->
 windowResized = -> resizeCanvas windowWidth, windowHeight
 deviceTurned  = -> resizeCanvas windowWidth, windowHeight
 
+toggleFullscreen = ->
+	elem = document.querySelector "#fullscreen"
+
+	if !document.fullscreenElement
+		elem.requestFullscreen()
+			.then {}
+			.catch (err) => 
+				alert "Error attempting to enable full-screen mode: #{err.message} (#{err.name})"
+	else 
+		document.exitFullscreen()
+
 setup = ->
 	createCanvas windowWidth,windowHeight
 
@@ -97,8 +106,11 @@ setup = ->
 				goState 0
 				level++
 
+	#buttons.push new Button 'Toggle',3,4,N,N,50,->
+		#document.documentElement.webkitRequestFullScreen()
+		#Document.exitFullscreen()
+
 	buttons.push new Button 'Go',0,5,N,N,50,->
-		document.documentElement.webkitRequestFullScreen()
 		goState 1
 		grid = new Grid INIT_GRID, [3,3]
 		window.solution = []
@@ -162,7 +174,12 @@ mousePressed = ->
 
 	for button,i in buttons
 		if button.inside() 
+			if button.title == 0 then toggleFullscreen()
 			if (state==1 and i<16) or i>=16
 				button.click()
-	localStorage[KEY] = level
+				localStorage[KEY] = level
+				return false 
 	false 
+
+
+
