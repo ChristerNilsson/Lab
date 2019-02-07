@@ -172,6 +172,3 @@ mousePressed = ->
 				localStorage[KEY] = level
 				return false 
 	false 
-
-
-
