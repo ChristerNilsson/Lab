@@ -156,18 +156,6 @@ deviceTurned = function () {
   return resizeCanvas(windowWidth, windowHeight);
 };
 
-toggleFullscreen = function () {
-  var elem;
-  elem = document.querySelector("#fullscreen");
-  if (!document.fullscreenElement) {
-    return elem.requestFullscreen().then({}).catch(err => {
-      return alert(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
-    });
-  } else {
-    return document.exitFullscreen();
-  }
-};
-
 setup = function () {
   var i, j, len, ref, x, y;
   createCanvas(windowWidth, windowHeight);
@@ -268,6 +256,18 @@ draw = function () {
     text(level, N, 4.5 * N);
   }
   return fill(0);
+};
+
+toggleFullscreen = function () {
+  var elem;
+  elem = document.querySelector("#fullscreen");
+  if (!document.fullscreenElement) {
+    return elem.requestFullscreen().then().catch(function (err) {
+      return alert(`Error: ${err.message} (${err.name})`);
+    });
+  } else {
+    return document.exitFullscreen();
+  }
 };
 
 mouseReleased = function () {
