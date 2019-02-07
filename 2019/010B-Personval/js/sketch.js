@@ -39,7 +39,7 @@ pageStack = new PageStack();
 
 pressed = false;
 
-makeFreq = function makeFreq(words) {
+makeFreq = function (words) {
   // personer är en lista
   var i, len, letter, res, word;
   res = {};
@@ -58,8 +58,7 @@ assert({
   c: 4
 }, makeFreq('ababcbabcbcbabcbab'.split('')));
 
-gruppera = function gruppera(words) {
-  var n = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 32;
+gruppera = function (words, n = 32) {
   // words är en lista med ord
   var count, group, letter, letters, m, res;
   letters = makeFreq(words);
@@ -100,7 +99,7 @@ assert({
   klmrswå: 11
 }, gruppera('aaaabbbbcghiijjjkkllmmrrswå'.split(''), 16));
 
-rensa = function rensa() {
+rensa = function () {
   pages.rlk.selectedPersons = {
     R: [],
     L: [],
@@ -115,9 +114,7 @@ rensa = function rensa() {
   return pages.rlk.start = new Date().getTime();
 };
 
-getParameters = function getParameters() {
-  var h = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : window.location.href;
-
+getParameters = function (h = window.location.href) {
   var arr, f;
   h = decodeURI(h);
   arr = h.split('?');
@@ -139,7 +136,7 @@ getParameters = function getParameters() {
   }());
 };
 
-loadFile = function loadFile(filePath) {
+loadFile = function (filePath) {
   var result, xmlhttp;
   result = null;
   xmlhttp = new XMLHttpRequest();
@@ -151,7 +148,7 @@ loadFile = function loadFile(filePath) {
   return result;
 };
 
-getTxt = function getTxt(rlk, filename) {
+getTxt = function (rlk, filename) {
   var cells, data, i, len, line, lines;
   data = filename === 'data\\09.txt' ? '' : loadFile(filename); // Gotland har inget Landsting
   dbName[rlk] = '';
@@ -183,7 +180,7 @@ getTxt = function getTxt(rlk, filename) {
   return print('getTxt', rlk, filename, data.length, _.size(dbPersoner[rlk]));
 };
 
-getKommun = function getKommun(filename) {
+getKommun = function (filename) {
   var cells, data, i, kod, len, line, lines, namn;
   data = loadFile(filename);
   dbKommun = {};
@@ -201,42 +198,38 @@ getKommun = function getKommun(filename) {
   return print('getKommun', _.size(dbKommun));
 };
 
-fetchKommun = function fetchKommun(kommun) {
+fetchKommun = function (kommun) {
   // t ex '0180'
   var start;
   start = new Date().getTime();
   if (länskod !== kommun.slice(0, 2)) {
     länskod = kommun.slice(0, 2);
-    getTxt('L', 'data\\' + länskod + '.txt');
+    getTxt('L', `data\\${länskod}.txt`);
   }
   if (kommunkod !== kommun) {
     kommunkod = kommun;
-    getTxt('K', 'data\\' + kommunkod + '.txt');
+    getTxt('K', `data\\${kommunkod}.txt`);
   }
   pages.rlk.buttons[1].title = dbName.L;
   pages.rlk.buttons[2].title = dbName.K;
   return print('time', new Date().getTime() - start);
 };
 
-preload = function preload() {
+preload = function () {
   var kommun;
-
-  var _getParameters = getParameters();
-
-  kommun = _getParameters.kommun;
-
+  ({ kommun } = getParameters());
   if (!kommun) {
     kommun = '0180';
   }
   kommunkod = kommun;
   länskod = kommunkod.slice(0, 2);
   getTxt('R', 'data\\00.txt');
-  getTxt('L', 'data\\' + länskod + '.txt');
-  getTxt('K', 'data\\' + kommunkod + '.txt');
+  getTxt('L', `data\\${länskod}.txt`);
+  getTxt('K', `data\\${kommunkod}.txt`);
   return getKommun('data\\omraden.txt');
 };
 
-setup = function setup() {
+setup = function () {
   var gap, h, w;
   createCanvas(windowWidth, windowHeight - 1);
   sc();
@@ -262,12 +255,12 @@ setup = function setup() {
   return print(_.keys(pages));
 };
 
-draw = function draw() {
+draw = function () {
   bg(0);
   return pageStack.draw();
 };
 
-mousePressed = function mousePressed() {
+mousePressed = function () {
   return pageStack.mousePressed();
 };
 //# sourceMappingURL=sketch.js.map
