@@ -95,10 +95,6 @@ setup = ->
 				goState 0
 				level++
 
-	#buttons.push new Button 'Toggle',3,4,N,N,50,->
-		#document.documentElement.webkitRequestFullScreen()
-		#Document.exitFullscreen()
-
 	buttons.push new Button 'Go',0,5,N,N,50,->
 		goState 1
 		grid = new Grid INIT_GRID, [3,3]
@@ -155,9 +151,12 @@ draw = ->
 	fill 0
 
 toggleFullscreen = ->
+	#document.documentElement.webkitRequestFullScreen()
+	#Document.exitFullscreen()
+
 	elem = document.querySelector "#fullscreen"
 	if !document.fullscreenElement
-		elem.requestFullscreen().then(->).catch (err) -> alert "Error: #{err.message} (#{err.name})"
+		elem.requestFullscreen() #.catch (err) -> alert "Error: #{err.message} (#{err.name})"
 	else 
 		document.exitFullscreen()
 
