@@ -262,7 +262,7 @@ toggleFullscreen = function () {
   var elem;
   elem = document.querySelector("#fullscreen");
   if (!document.fullscreenElement) {
-    return elem.requestFullscreen().then().catch(function (err) {
+    return elem.requestFullscreen().then(function () {}).catch(function (err) {
       return alert(`Error: ${err.message} (${err.name})`);
     });
   } else {
