@@ -164,6 +164,7 @@ setup = function () {
   createCanvas(windowWidth, windowHeight);
   level = localStorage[KEY];
   level = level != null ? parseInt(level) : 1;
+  level = 75;
   ref = range(16);
   for (j = 0, len = ref.length; j < len; j++) {
     i = ref[j];

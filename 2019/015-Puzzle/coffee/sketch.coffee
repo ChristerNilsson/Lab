@@ -78,6 +78,7 @@ setup = ->
 
 	level = localStorage[KEY]
 	level = if level? then parseInt level else 1
+	level = 75
 
 	for i in range 16
 		x = i%4

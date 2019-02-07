@@ -62,6 +62,7 @@ class Grid
 		nextGrid = @
 		for dir in sourceDirections
 			nextGrid = nextGrid.applyMoveFrom dir
+			#nextGrid.log()
 		nextGrid
 
 	lowerSolutionBound: ->
@@ -82,8 +83,6 @@ class Grid
 		return @_lowerSolutionBound
 
 	isSolved: -> @lowerSolutionBound() == 0
-
-	log: ->
-		console.log "Empty: #{@emptyPos}"
-		for row in @grid
-			console.log row
+	log: -> 
+		print ''
+		print row for row in @grid			
