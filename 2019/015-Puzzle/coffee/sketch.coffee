@@ -151,9 +151,6 @@ draw = ->
 	fill 0
 
 toggleFullscreen = ->
-	#document.documentElement.webkitRequestFullScreen()
-	#Document.exitFullscreen()
-
 	elem = document.querySelector "#fullscreen"
 	if !document.fullscreenElement
 		elem.requestFullscreen() #.catch (err) -> alert "Error: #{err.message} (#{err.name})"

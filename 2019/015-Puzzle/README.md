@@ -21,3 +21,8 @@ Click Go to see the next problem
 There is no final level
 
 Works in both Portrait and Landscape
+
+The black tile toggles Full Screen using Chrome
+* Windows: works
+* Android: tap twice
+* iOS: does not work

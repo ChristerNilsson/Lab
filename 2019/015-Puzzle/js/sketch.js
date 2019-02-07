@@ -257,8 +257,6 @@ draw = function () {
 
 toggleFullscreen = function () {
   var elem;
-  //document.documentElement.webkitRequestFullScreen()
-  //Document.exitFullscreen()
   elem = document.querySelector("#fullscreen");
   if (!document.fullscreenElement) {
     return elem.requestFullscreen(); //.catch (err) -> alert "Error: #{err.message} (#{err.name})"
