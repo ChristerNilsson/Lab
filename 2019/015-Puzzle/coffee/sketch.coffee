@@ -98,6 +98,7 @@ setup = ->
 				level++
 
 	buttons.push new Button 'Go',0,5,N,N,50,->
+		document.documentElement.webkitRequestFullScreen()
 		goState 1
 		grid = new Grid INIT_GRID, [3,3]
 		window.solution = []
