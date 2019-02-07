@@ -16,7 +16,7 @@ class Button
 		textSize @textSize
 		if @title == 0 then fill 0
 		else if @title =='Go' and @active then fill 0,255,0 else fill 255
-		rect N*@x+2,N*@y+2,@w-4,@h-4
+		rect N*@x+2,N*@y+2,@w-4,@h-4,15
 		if @active
 			fill 0
 		else
@@ -78,7 +78,7 @@ setup = ->
 
 	level = localStorage[KEY]
 	level = if level? then parseInt level else 1
-	level = 75
+	#level = 15
 
 	for i in range 16
 		x = i%4

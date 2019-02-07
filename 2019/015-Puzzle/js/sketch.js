@@ -66,7 +66,7 @@ Button = class Button {
     } else {
       fill(255);
     }
-    rect(N * this.x + 2, N * this.y + 2, this.w - 4, this.h - 4);
+    rect(N * this.x + 2, N * this.y + 2, this.w - 4, this.h - 4, 15);
     if (this.active) {
       fill(0);
     } else {
@@ -164,8 +164,8 @@ setup = function () {
   createCanvas(windowWidth, windowHeight);
   level = localStorage[KEY];
   level = level != null ? parseInt(level) : 1;
-  level = 75;
   ref = range(16);
+  //level = 15
   for (j = 0, len = ref.length; j < len; j++) {
     i = ref[j];
     x = i % 4;
