@@ -1,12 +1,15 @@
-from queue import Queue
+from heapq import heappush,heappop
 from random import randint
 
 MAX_COL = 4
 MAX_ROW = 4
-SHUFFLE_MAGNITUDE = 19
-ALFA = '•123456789ABCDEF'
+SHUFFLE_MAGNITUDE = 30
+ALFA = '•ABCDEFGHIJKLMNO'
 MOVES = [-4,1,4,-1] # up, right, down, left   INDEX
 GOAL = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0]
+
+def manhattan(i, j): return abs(i//4-j//4) + abs(i%4-j%4)
+def pretty(path): return "".join(["URDL"[p] for p in path])
 
 class Board:
 	def __init__(self, board=GOAL, loc=MAX_ROW * MAX_COL - 1, path=[]):
@@ -15,6 +18,8 @@ class Board:
 		self.path = list(path)
 
 	def copy(self): return Board(self.board,self.loc,self.path)
+	def key(self): return ''.join([ALFA[i] for i in self.board])
+	def __gt__(self, other): return self.value() > other.value()
 
 	def __repr__(self):
 		s = ''
@@ -23,7 +28,12 @@ class Board:
 			if i%4==3: s += "\n"
 		return s
 
-	def key(self): return ''.join([ALFA[i] for i in self.board])
+	def value(self):
+		res = 0
+		for i in range(16):
+			if self.board[i] != 0 :
+				res += manhattan(i,[15,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14][self.board[i]])
+		return res + len(self.path)
 
 	def move(self, m):
 		i = MOVES[m]
@@ -40,10 +50,7 @@ class Board:
 
 	def refresh(self):
 		print(self)
-		if GOAL == self.board:
-			print("Congrats! You won! ")
-			#return False
-		#return True
+		if GOAL == self.board: print("You solved it!")
 
 	def inside(self,m):
 		i = MOVES[m]
@@ -61,7 +68,10 @@ class Board:
 			last = cands[i]
 			self.move(last)
 
-	def solve(self): # breadth first
+	def push(self,obj): heappush(self.frontier, obj)
+	def pop(self): return heappop(self.frontier)
+
+	def solve(self):
 
 		def successors(node):
 			res = []
@@ -72,14 +82,14 @@ class Board:
 			return res
 
 		searched = {}
-		frontier = Queue() # contains nodes
+		self.frontier = []
 		self.path = []
-		frontier.put(self)
+		self.push(self)
 
-		while not frontier.empty():
-			node = frontier.get()
-			if node.board == GOAL: return node.path
+		while len(self.frontier) > 0:
+			node = self.pop()
+			if node.key() == 'ABCDEFGHIJKLMNO•': return node.path
 			for child in successors(node):
-				if child.key() not in searched: frontier.put(child)
+				if child.key() not in searched: self.push(child)
 			searched[node.key()] = True
 		return []

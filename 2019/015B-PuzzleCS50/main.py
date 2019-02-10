@@ -1,12 +1,12 @@
 from pynput import keyboard
 from time import perf_counter
-from Board import Board
+from Board import Board,pretty
 
 b = Board()
 
 def main():
 	b.shuffle()
-	print(b.path)
+	print(pretty(b.path))
 	b.refresh()
 	with keyboard.Listener(on_press=on_press) as listener:
 		listener.join()
@@ -21,7 +21,7 @@ def on_press(key):
 		print("Thinking...")
 		start = perf_counter()
 		moves = b.solve()
-		print(moves)
+		print(pretty(moves),len(moves))
 		print(perf_counter() - start)
 
 		for m in moves:
