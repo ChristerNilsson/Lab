@@ -1,22 +1,30 @@
 from heapq import heappush,heappop
 from random import randint
-from queue import Queue
+
+#                             max solve millis
+PROBLEMA = 'ABCDEFGHIJKLMN•O' #  1   1  1.3 ms
+PROBLEMB = 'ABCDEFGHIJKL•MNO' #  3   3  2.2 ms
+PROBLEMC = 'ABCDIEKGMFJHN•OL' # 10  10  1.6 ms OK
+PROBLEMD = 'CGHDABL•EFKOIMJN' # 20  20  3.7 ms OK
+PROBLEME = 'ABDGNMECOIFHJ•KL' # 30  26  34 ms
+PROBLEMF = 'GEDHBCKFAJ•ONIML' #     38  27.013 s OK
+PROBLEMG = 'IEADMCF•GKLBNOJH' # 40  36  5191 ms
 
 N = 4
 NN = N*N
-SHUFFLE_MAGNITUDE = 20
+SHUFFLE_MAGNITUDE = 40
 ALFA = 'ABCDEFGHIJKLMNO•'
 MOVES = [-N,1,N,-1] # Up Right Down Left
 
 class Board:
-	def __init__(self, board=range(NN), loc=NN-1, path=''):
-		self.board = list(board)
-		self.loc = loc
+	def __init__(self, key=PROBLEMG, path=''):
+		self.setKey(key)
 		self.path = path + ''
-		self.cachedValue = 0
-		self.cachedKey = ''
+		self.cachedValue = self.value()
+		self.cachedKey = self.key()
 
-	def copy(self): return Board(self.board,self.loc,self.path)
+	def setKey(self,key): self.board = [ALFA.index(ch) for ch in key]
+	def copy(self): return Board(self.key(),self.path)
 	def key(self):	return ''.join([ALFA[i] for i in self.board])
 	def __gt__(self, other): return self.cachedValue > other.cachedValue
 
@@ -25,7 +33,7 @@ class Board:
 		for i in range(NN):
 			if i%N == 0: result += "\n"
 			result += ' ' + ALFA[self.board[i]]
-		result += '  ' + str(len(self.path)) + ' ' + self.path + ' value=' + str(self.cachedValue)
+		result += '  ' + self.key() + ' ' + str(len(self.path)) + ' ' + self.path + ' value=' + str(self.cachedValue)
 		if self.cachedKey == ALFA: result += "  Solved!"
 		return result
 
@@ -35,10 +43,10 @@ class Board:
 
 	def move(self, m):
 		if not self.inside(m): return False
-		newloc = self.loc + MOVES[m]
+		loc1 = self.board.index(15)
+		loc2 = loc1 + MOVES[m]
 		sb = self.board
-		sb[self.loc], sb[newloc] = sb[newloc], sb[self.loc]
-		self.loc = newloc
+		sb[loc1], sb[loc2] = sb[loc2], sb[loc1]
 		self.path += "URDL"[m]
 		self.cachedValue = self.value()
 		self.cachedKey = self.key()
@@ -46,14 +54,16 @@ class Board:
 
 	def inside(self,m):
 		i = MOVES[m]
-		if i == -N and self.loc // N == 0:   return False
-		if i == +N and self.loc // N == N-1: return False
-		if i == -1 and self.loc %  N == 0:   return False
-		if i == +1 and self.loc %  N == N-1: return False
+		loc = self.board.index(15)
+		if i == -N and loc // N == 0:   return False
+		if i == +N and loc // N == N-1: return False
+		if i == -1 and loc %  N == 0:   return False
+		if i == +1 and loc %  N == N-1: return False
 		return True
 
 	def shuffle(self):
 		last = 99
+		self.setKey(ALFA)
 		self.path = ''
 		for i in range(SHUFFLE_MAGNITUDE):
 			cands = [m for m in range(N) if self.inside(m) and abs(m-last) != 2]
@@ -84,14 +94,20 @@ class Board:
 		self.path = ''
 		self.cachedValue = self.value()
 		self.cachedKey = self.key()
-		searched = {}
+		searched = {} # {} set() []
 
 		push(self)
 
 		while not empty():
 			node = pop()
-			if node.cachedKey == ALFA: return node.path
+			if node.cachedKey == ALFA:
+				print(len(searched))
+				return node.path
 			for child in successors(node):
 				if child.cachedKey not in searched: push(child)
+
 			searched[node.cachedKey] = True
+			#searched.add(node.cachedKey)
+			#searched.append(node.cachedKey)
+
 		return []

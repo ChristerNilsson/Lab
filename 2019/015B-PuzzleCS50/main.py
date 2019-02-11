@@ -1,11 +1,17 @@
 from pynput import keyboard
 from time import perf_counter
-from Board import Board
+from Board import Board,SHUFFLE_MAGNITUDE,ALFA
 
 b = Board()
+print(b.board)
+print(b.key())
 
 def main():
-	b.shuffle()
+	# while b.value() < SHUFFLE_MAGNITUDE + 20:
+	# 	b.setKey(ALFA)
+	# 	b.shuffle()
+	# 	print(b.board)
+
 	print(b.display())
 	with keyboard.Listener(on_press=on_press) as listener: listener.join()
 
