@@ -5,9 +5,7 @@ from Board import Board
 b = Board()
 
 def main():
-	while b.value() < 30 + 57:
-		b.path = []
-		b.shuffle()
+	b.shuffle()
 	print(b.display())
 	with keyboard.Listener(on_press=on_press) as listener: listener.join()
 
@@ -25,7 +23,7 @@ def on_press(key):
 
 		for m in path:
 			print(b.display())
-			b.move(m)
+			b.move("URDL".index(m))
 
 	print(b.display())
 	return True

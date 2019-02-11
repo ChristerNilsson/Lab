@@ -3,29 +3,28 @@ from random import randint
 
 N = 4
 NN = N*N
-SHUFFLE_MAGNITUDE = 30
+SHUFFLE_MAGNITUDE = 80
 ALFA = 'ABCDEFGHIJKLMNO•'
 MOVES = [-N,1,N,-1] # Up Right Down Left
 
 class Board:
-	def __init__(self, board=range(NN), loc=NN-1, path=[]):
+	def __init__(self, board=range(NN), loc=NN-1, path=''):
 		self.board = list(board)
 		self.loc = loc
-		self.path = list(path)
+		self.path = path + ''
 		self.cachedValue = 0
 		self.cachedKey = ''
 
 	def copy(self): return Board(self.board,self.loc,self.path)
 	def key(self):	return ''.join([ALFA[i] for i in self.board])
 	def __gt__(self, other): return self.cachedValue > other.cachedValue
-	def showPath(self,path): return f"{len(path)} " + "".join(["URDL"[p] for p in path])
 
 	def display(self):
 		result = ''
 		for i in range(NN):
 			if i%N == 0: result += "\n"
 			result += ' ' + ALFA[self.board[i]]
-		result += '  ' + self.showPath(self.path) + ' value=' + str(self.cachedValue)
+		result += '  ' + str(len(self.path)) + ' ' + self.path + ' value=' + str(self.cachedValue)
 		if self.cachedKey == ALFA: result += "  Solved!"
 		return result
 
@@ -39,7 +38,7 @@ class Board:
 		sb = self.board
 		sb[self.loc], sb[newloc] = sb[newloc], sb[self.loc]
 		self.loc = newloc
-		self.path.append(m)
+		self.path += "URDL"[m]
 		self.cachedValue = self.value()
 		self.cachedKey = self.key()
 		return True
@@ -54,6 +53,7 @@ class Board:
 
 	def shuffle(self):
 		last = 99
+		self.path = ''
 		for i in range(SHUFFLE_MAGNITUDE):
 			cands = [m for m in range(N) if self.inside(m) and abs(m-last) != 2]
 			i = randint(0, len(cands)-1)
@@ -73,7 +73,7 @@ class Board:
 					if child.move(m):	result.append(child)
 			return result
 
-		self.path = []
+		self.path = ''
 		self.cachedValue = self.value()
 		self.cachedKey = self.key()
 		searched = {}
