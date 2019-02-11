@@ -1,9 +1,10 @@
 from heapq import heappush,heappop
 from random import randint
+from queue import Queue
 
 N = 4
 NN = N*N
-SHUFFLE_MAGNITUDE = 80
+SHUFFLE_MAGNITUDE = 20
 ALFA = 'ABCDEFGHIJKLMNO•'
 MOVES = [-N,1,N,-1] # Up Right Down Left
 
@@ -62,8 +63,15 @@ class Board:
 
 	def solve(self):
 
-		def push(obj): heappush(heap, obj)
-		def pop(): return heappop(heap)
+		queue = [] # Priority Queue
+		def push(obj): heappush(queue, obj)
+		def pop(): return heappop(queue)
+		def empty(): return len(queue)==0
+
+		# queue = Queue() # FIFO
+		# def push(obj): queue.put(obj)
+		# def pop(): return queue.get()
+		# def empty(): return queue.empty()
 
 		def successors(node):
 			result = []
@@ -77,15 +85,12 @@ class Board:
 		self.cachedValue = self.value()
 		self.cachedKey = self.key()
 		searched = {}
-		heap = []
+
 		push(self)
 
-		while len(heap) > 0:
+		while not empty():
 			node = pop()
-			if node.cachedKey == ALFA:
-				print('searched',len(searched))
-				print('heap',len(heap))
-				return node.path
+			if node.cachedKey == ALFA: return node.path
 			for child in successors(node):
 				if child.cachedKey not in searched: push(child)
 			searched[node.cachedKey] = True

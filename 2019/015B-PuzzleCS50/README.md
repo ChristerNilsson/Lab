@@ -44,3 +44,11 @@
 
 * Using letters A-O instead of 1-15
 
+## Sample timings
+
+~~~~
+N        10  12   14   16    18     20
+Without 240 930 3109 1944 20704 298869 ms
+With A*   2   4    4    6     8     11 ms   
+~~~~
+
