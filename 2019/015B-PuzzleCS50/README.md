@@ -38,6 +38,8 @@
 
 * Binary tree shown in video is not relevant for explaining a simple queue. No heap used.
 
+* There is no reason to store the constant goal in each and every Board instance.
+
 ## Changes:
 
 * Using letters A-O instead of 1-15

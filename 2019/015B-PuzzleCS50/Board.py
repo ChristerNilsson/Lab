@@ -1,95 +1,92 @@
 from heapq import heappush,heappop
 from random import randint
 
-MAX_COL = 4
-MAX_ROW = 4
+N = 4
+NN = N*N
 SHUFFLE_MAGNITUDE = 30
-ALFA = '•ABCDEFGHIJKLMNO'
-MOVES = [-4,1,4,-1] # up, right, down, left   INDEX
-GOAL = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0]
-
-def manhattan(i, j): return abs(i//4-j//4) + abs(i%4-j%4)
-def pretty(path): return "".join(["URDL"[p] for p in path])
+ALFA = 'ABCDEFGHIJKLMNO•'
+MOVES = [-N,1,N,-1] # Up Right Down Left
 
 class Board:
-	def __init__(self, board=GOAL, loc=MAX_ROW * MAX_COL - 1, path=[]):
+	def __init__(self, board=range(NN), loc=NN-1, path=[]):
 		self.board = list(board)
 		self.loc = loc
 		self.path = list(path)
+		self.cachedValue = 0
+		self.cachedKey = ''
 
 	def copy(self): return Board(self.board,self.loc,self.path)
-	def key(self): return ''.join([ALFA[i] for i in self.board])
-	def __gt__(self, other): return self.value() > other.value()
+	def key(self):	return ''.join([ALFA[i] for i in self.board])
+	def __gt__(self, other): return self.cachedValue > other.cachedValue
+	def showPath(self,path): return f"{len(path)} " + "".join(["URDL"[p] for p in path])
 
-	def __repr__(self):
-		s = ''
-		for i in range(16):
-			s += ' ' + ALFA[self.board[i]]
-			if i%4==3: s += "\n"
-		return s
+	def display(self):
+		result = ''
+		for i in range(NN):
+			if i%N == 0: result += "\n"
+			result += ' ' + ALFA[self.board[i]]
+		result += '  ' + self.showPath(self.path) + ' value=' + str(self.cachedValue)
+		if self.cachedKey == ALFA: result += "  Solved!"
+		return result
 
 	def value(self):
-		res = 0
-		for i in range(16):
-			if self.board[i] != 0 :
-				res += manhattan(i,[15,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14][self.board[i]])
-		return res + len(self.path)
+		def manhattan(i, j): return abs(i // N - j // N) + abs(i % N - j % N)
+		return len(self.path) + sum([manhattan(i, self.board[i]) for i in range(NN) if self.board[i] != 15])
 
 	def move(self, m):
-		i = MOVES[m]
-		index = self.loc
-		indexi = index+i
-		if i==-1 and index%4==0: return False
-		if i== 1 and (index+1)%4==0: return False
-		if not (0 <= indexi and indexi <= 15): return False
+		if not self.inside(m): return False
+		newloc = self.loc + MOVES[m]
 		sb = self.board
-		sb[index], sb[indexi] = sb[indexi], sb[index]
-		self.loc = indexi
+		sb[self.loc], sb[newloc] = sb[newloc], sb[self.loc]
+		self.loc = newloc
 		self.path.append(m)
+		self.cachedValue = self.value()
+		self.cachedKey = self.key()
 		return True
-
-	def refresh(self):
-		print(self)
-		if GOAL == self.board: print("You solved it!")
 
 	def inside(self,m):
 		i = MOVES[m]
-		index = self.loc
-		indexi = index+i
-		if i==-1 and index%4==0: return False
-		if i== 1 and (index+1)%4==0: return False
-		return 0 <= indexi and indexi <= 15
+		if i == -N and self.loc // N == 0:   return False
+		if i == +N and self.loc // N == N-1: return False
+		if i == -1 and self.loc %  N == 0:   return False
+		if i == +1 and self.loc %  N == N-1: return False
+		return True
 
 	def shuffle(self):
 		last = 99
 		for i in range(SHUFFLE_MAGNITUDE):
-			cands = [m for m in range(4) if self.inside(m) and abs(m-last) != 2]
+			cands = [m for m in range(N) if self.inside(m) and abs(m-last) != 2]
 			i = randint(0, len(cands)-1)
 			last = cands[i]
 			self.move(last)
 
-	def push(self,obj): heappush(self.frontier, obj)
-	def pop(self): return heappop(self.frontier)
-
 	def solve(self):
 
+		def push(obj): heappush(heap, obj)
+		def pop(): return heappop(heap)
+
 		def successors(node):
-			res = []
-			for m in range(4):
+			result = []
+			for m in range(N):
 				if node.inside(m):
 					child = node.copy()
-					if child.move(m):	res.append(child)
-			return res
+					if child.move(m):	result.append(child)
+			return result
 
-		searched = {}
-		self.frontier = []
 		self.path = []
-		self.push(self)
+		self.cachedValue = self.value()
+		self.cachedKey = self.key()
+		searched = {}
+		heap = []
+		push(self)
 
-		while len(self.frontier) > 0:
-			node = self.pop()
-			if node.key() == 'ABCDEFGHIJKLMNO•': return node.path
+		while len(heap) > 0:
+			node = pop()
+			if node.cachedKey == ALFA:
+				print('searched',len(searched))
+				print('heap',len(heap))
+				return node.path
 			for child in successors(node):
-				if child.key() not in searched: self.push(child)
-			searched[node.key()] = True
+				if child.cachedKey not in searched: push(child)
+			searched[node.cachedKey] = True
 		return []
