@@ -4,6 +4,10 @@
 
 [Github](https://github.com/coderigo17/game_of_fifteen)
 
+[Korf](https://www.cs.helsinki.fi/u/bmmalone/heuristic-search-fall-2013/Korf2008.pdf)
+
+[Gasser](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.39.6069&rep=rep1&type=pdf)
+
 ## Keys
 
 * ESC = quit
