@@ -1,9 +1,0 @@
-things we need:
-    a 2D array representing the board
-    a solved 1-15 2D array representing the goal state
-    a variable keeping track of the location of the empty space in the board
-    a function to display the board on the screen
-    board functions to make "moves"
-    a keyboard listener so the user can interact with the game
-    a function that solves the game for us
-    a "game over" screen
