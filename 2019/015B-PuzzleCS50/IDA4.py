@@ -1,8 +1,24 @@
 from time import perf_counter
+import numpy as np
 
 ALFA = '_ABCDEFGHIJKLMNO' # enbart for indexkonvertering. Ej goal i Borowski!
-tilePositions = [-1, 0, 0, 1, 2, 1, 2, 0, 1, 3, 4, 2, 3, 5, 4, 5]
-tileSubsets   = [-1, 1, 0, 0, 0, 1, 1, 2, 2, 1, 1, 2, 2, 1, 2, 2]
+
+#                     A  B  C  D  E  F  G  H  I  J  K  L  M  N  O
+#                 0   1  2  3  4  5  6  7  8  9 10 11 12 13 14 15
+#tileSubsets   = [-1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1] # ABCDEFGH IJKLMNO
+#tilePositions = [-1, 0, 1, 2, 3, 4, 5, 6, 7, 0, 1, 2, 3, 4, 5, 6]
+
+#tileSubsets   = [-1, 0, 0, 0, 1, 0, 0, 1, 1, 2, 2, 1, 1, 2, 2, 2] # ABCEF DGHKL IJMNO
+#tilePositions = [-1, 0, 1, 2, 0, 3, 4, 1, 2, 0, 1, 3, 4, 2, 3, 4]
+
+#                    A  B  C  D  E  F  G  H  I  J  K  L  M  N  O
+#                 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15
+#tileSubsets   = [-1, 2, 2, 2, 2, 2, 2, 0, 0, 1, 1, 1, 0, 1, 1, 1] # GHL AEFIJM GHKLNO
+#tilePositions = [-1, 0, 1, 2, 3, 4, 5, 0, 1, 0, 1, 2, 2, 3, 4, 5] #
+
+tileSubsets   = [-1, 1, 0, 0, 0, 1, 1, 2, 2, 1, 1, 2, 2, 1, 2, 2] # BCD AEFIJM GHKLNO
+tilePositions = [-1, 0, 0, 1, 2, 1, 2, 0, 1, 3, 4, 2, 3, 5, 4, 5] #
+
 GOAL = 'ABCDEFGHIJKLMNO_'
 
 N = 4
@@ -10,11 +26,15 @@ nodeCount = 0
 nodes = {}
 db = {}
 
+costTable0 = None
+costTable1 = None
+costTable2 = None
+
 def loadCostTable(filename, n):
 	with open(filename, "rb") as f: return f.read(n)
-costTable0 = loadCostTable('db/15-puzzle-663-0.db',4096)
-costTable1 = loadCostTable('db/15-puzzle-663-1.db',16777216)
-costTable2 = loadCostTable('db/15-puzzle-663-2.db',16777216)
+costTable0 = loadCostTable('db/15-puzzle-663-0.db',4096)     # BCD
+costTable1 = loadCostTable('db/15-puzzle-663-1.db',16777216) # AEFIJM
+costTable2 = loadCostTable('db/15-puzzle-663-2.db',16777216) # GHKLNO
 
 class Node:
 
@@ -26,19 +46,44 @@ class Node:
 
 	def is_goal(self): return self.state == GOAL
 
-	def successors(self):
+	def successors(self): # 0 moves
 		def swap(m):
 			if self.move == -m: return
 			sk = list(self.state)
 			sk[loc], sk[loc+m] = sk[loc+m], sk[loc]
 			ret.append(Node(''.join(sk),m))
 		ret = []
-		loc = self.state.index('0')
+		loc = self.state.index('_')
 		if loc % N != 0:   swap(-1) # Left
 		if loc % N != N-1: swap(+1) # Right
 		if loc//N != 0:    swap(-N) # Up
 		if loc//N != N-1:  swap(+N) # Down
 		return ret
+
+	def succ(self): # builds pattern database
+		def swap(i,j):
+			if self.state[j] == '.':
+				sk = list(self.state)
+				sk[i], sk[j] = sk[j], sk[i]
+				state = ''.join(sk)
+				if state not in nodes: ret.append(Node(state))
+		ret = []
+		for i,tile in enumerate(self.state):
+			if tile != '.':
+				if i % N != 0:      swap(i,i-1)  # Left
+				if i % N != N - 1:  swap(i,i+1)  # Right
+				if i // N != 0:     swap(i,i-N)  # Up
+				if i // N != N - 1: swap(i,i+N)  # Down
+		return ret
+
+	def dbindex(self,sn): # builds pattern database
+		result = 0
+		for pos in range(16):
+			if self.state[pos] == '.': continue
+			tile = ALFA.index(self.state[pos])
+			if tile != 0 and sn == tileSubsets[tile]:
+				result |= pos << (tilePositions[tile] << 2)
+		return result
 
 	def display(self):
 		result = ''
@@ -62,19 +107,52 @@ class Node:
 				if subsetNumber == 2: index2 |= pos << (tilePositions[tile] << 2)
 		return costTable0[index0] + costTable1[index1] + costTable2[index2]
 
-def string2long(state): return int(state, 16)
+def makeCostTable(sn,state,n): # builds pattern database
+	print('')
+	global nodes
+	result = [255]*n
+
+	nodes = {}
+	node = Node(state)
+	q = [node]
+	level = 0
+	while True:
+		r = []
+		if len(q)==0: break
+		for node in q:
+			if node.state in nodes: continue
+			index = node.dbindex(sn)
+			nodes[node.state] = True
+			result[index] = level
+			for child in node.succ():
+				if child.state not in nodes: r.append(child)
+		level += 1
+		print(f'moves : {level:2} {(perf_counter() - start):10.3}')
+		q = r
+	return result
+
+start = perf_counter()
+#costTable1 = makeCostTable(1,"........IJKLMNO.",16**7) # IJKLMNO
+# print(perf_counter() - start)
+# costTable0 = makeCostTable(0,"ABCDEFGH........",16**8) # ABCDEFGH
+# print(perf_counter() - start)
+
+# costTable0 = makeCostTable(0,"ABC.EF..........",16**5) # ABCEF 16 sec
+# costTable1 = makeCostTable(1,"...D..GH..KL....",16**5) # DGHKL 16 sec
+# costTable2 = makeCostTable(2,"........IJ..MNO.",16**5) # IJMNO 16 sec
+
+# costTable0 = makeCostTable(0,"......GH...L....",16**3) # GHL      0.059 sec
+# costTable1 = makeCostTable(0,"ABCDEF..........",16**6) # ABCDEF   180 sec
+# costTable2 = makeCostTable(0,"........IJK.MNO.",16**6) # IJKMNO   184 sec
+
+# costTable0 = makeCostTable(0,".BCD............",16**3) # BCD      0 sec
+# costTable1 = makeCostTable(1,"A...EF..IJ..M...",16**6) # AEFIJM 200 sec
+# costTable2 = makeCostTable(2,"......GH..KL.NO.",16**6) # GHKLNO 200 sec
+print(perf_counter() - start)
 
 def dfs(node, limit, path=[]):
-	# if node.state in db: # and len(path) + db[node.state][0] <= limit:
-	# 	#print('found',len(path),db[node.state][0],limit)
-	# 	return path
-	#if node.state in nodes and len(path) >= nodes[node.state]: return []
-	#nodes[node.state] = len(path)
-
-	long = string2long(node.state)
-	if long in nodes and len(path) >= nodes[long]: return []
-	nodes[long] = len(path)
-
+	if node.state in nodes and len(path) >= nodes[node.state]: return []
+	nodes[node.state] = len(path)
 	if node.is_goal(): return path
 	if len(path) == limit: return []
 	for child in node.successors():
@@ -147,17 +225,17 @@ print(nodeCount, perf_counter() - start)
 #korf([11,14,13,1,2,3,12,4,15,7,9,5,10,6,8,0]) # _HJFKGIALDMNOCBE 66 OK! 87.986 sek (java 703ms)
 #korf([15,14,8,12,10,11,9,13,2,6,5,1,3,7,4,0]) # _LIMOKJNCGEFDHBA 80 OK!     22 h   (java 255sek) (Gasser)
 
-def convert(state):
-	res = ''
-	for ch in state:
-		i = '_ABCDEFGHIJKLMNO'.index(ch)
-		res += '0123456789ABCDEF'[i]
-	return res
+# def convert(state):
+# 	res = ''
+# 	for ch in state:
+# 		i = '_ABCDEFGHIJKLMNO'.index(ch)
+# 		res += '0123456789ABCDEF'[i]
+# 	return res
 
 start = perf_counter()
-ALFA = convert(ALFA)
-GOAL = convert(GOAL)
-startNode = Node(convert('_HKIDNJMLFGOCBAE'))
+#ALFA = convert(ALFA)
+#GOAL = convert(GOAL)
+startNode = Node('IHCF_MADEBOGJKLN')
 
 for limit in range(99):
 	nodes = {}
