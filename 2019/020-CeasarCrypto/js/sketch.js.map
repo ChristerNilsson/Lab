@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "sketch.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\sketch.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA,IAAA;IAAA;IAAA;;;;AAAA,OAAO;;AACP,SAAS,UAAA,AAAC,GAAD,AAAG,GAAM;MAAA;;gBAA4C;;AAAA,SAAA,gCAAA;;mBAA3C,AAAK,YAAC,IAAI,AAAI,KAAJ,AAAK,QAAL,AAAa,KAAO,AAAI,KAA7B,AAA8B,AAAQ;AAAA;;AAA5C,AAAwD,KAAxD,CAAA,AAAyD,KAAlE,AAAS,AAA8D;;;AAEhF,OAAA,AAAO,YAAY,OAAA,AAAO,YAAW,CAArC,AAAmB,AAAmB;;AACtC,OAAA,AAAO,YAAY,OAAA,AAAO,YAAW,CAArC,AAAmB,AAAmB;;AAEtC,OAAA,AAAO,YAAY,OAAA,AAAO,YAAW,CAArC,AAAmB,AAAmB;;AACtC,OAAA,AAAO,YAAY,OAAA,AAAO,YAAW,CAArC,AAAmB,AAAmB;;AAPtC",
+  "sourcesContent": [
+    "ALFA = 'ABCDEFHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'\r\ncaesar = (s,n) -> (ALFA[(n + ALFA.indexOf ch) %% ALFA.length] for ch in s).join ''\r\n\r\nassert 'Disjtufs', caesar 'Christer',+1\r\nassert 'Christer', caesar 'Disjtufs',-1\r\n\r\nassert 'zeofpqbo', caesar 'Christer',-3\r\nassert 'Christer', caesar 'zeofpqbo',+3\r\n\r\n### 48 loc in Java:\r\n\r\npublic class CaesarCipher {\r\n\tpublic static String encrypt(String plainText, char charKey) {\r\n    StringBuilder cipherText = new StringBuilder();\r\n    int intKey;\r\n    if (Character.isUpperCase(charKey)) {\r\n    \tintKey = charKey - 65;\r\n\t\t\t} else {\r\n      intKey = charKey - 97;\r\n    }\r\n    \r\n    for (int i = 0; i < plainText.length(); i++) {\r\n      char letter = plainText.charAt(i);\r\n      int intLetter = (int) letter;\r\n      char cipherLetter;\r\n      if (Character.isUpperCase(letter)) {\r\n        cipherLetter = (char)(65+((intLetter-65+intKey)%26));\r\n      } else {\r\n        cipherLetter = (char)(97+((intLetter-97+intKey)%26));\r\n      }\r\n      cipherText.append(cipherLetter);\r\n    }\r\n    return cipherText.toString();\r\n\t}\r\n\r\n  public static String decrypt(String cipherText, char charKey) {\r\n    StringBuilder plainText = new StringBuilder();\r\n    int intKey;\r\n    if (Character.isUpperCase(charKey)) {\r\n      intKey = charKey - 65;\r\n    } else {\r\n      intKey = charKey - 97;\r\n    }\r\n    \r\n    for (int i = 0; i < cipherText.length(); i++) {\r\n      char letter = cipherText.charAt(i);\r\n      int intLetter = (int) letter;\r\n      char plainLetter;\r\n\r\n      if(Character.isUpperCase(letter)) {\r\n        plainLetter = (char)(65+((intLetter-65)-intKey));\r\n      } else {\r\n        plainLetter = (char)(97+((intLetter-97)-intKey));\r\n      }\r\n      plainText.append(plainLetter);\r\n    }\r\n    return plainText.toString();\r\n  }\r\n}\r\n###\r\n"
+  ]
+}
