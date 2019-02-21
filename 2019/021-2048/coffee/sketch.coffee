@@ -33,9 +33,8 @@ class Board
 		@grid[index]=1 for index in _.sample range(16),2			
 
 	mv : (indices) ->
-		lst = (@grid[index] for index in indices)
-		lst = move lst
-		@grid[index]=lst[i] for index,i in indices
+		lst = move (@grid[index] for index in indices)
+		@grid[index] = lst[i] for index,i in indices
 
 	addTile : () ->
 		cands = (index for tile,index in @grid when tile==0)

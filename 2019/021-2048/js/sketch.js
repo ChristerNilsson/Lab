@@ -89,7 +89,7 @@ Board = class Board {
 
   mv(indices) {
     var i, index, j, len, lst, results;
-    lst = function () {
+    lst = move(function () {
       var j, len, results;
       results = [];
       for (j = 0, len = indices.length; j < len; j++) {
@@ -97,8 +97,7 @@ Board = class Board {
         results.push(this.grid[index]);
       }
       return results;
-    }.call(this);
-    lst = move(lst);
+    }.call(this));
     results = [];
     for (i = j = 0, len = indices.length; j < len; i = ++j) {
       index = indices[i];
