@@ -1,17 +1,20 @@
+SIZES = [0,64,64,64,64,64,64,36,36,36,36,36]
+COLORS = '0 FF0 F65 5C6 29C 96A FC0 F65 FCF 000 2FC A6B'.split ' '
+
+ts = null
+board = null
+
 move = (lst)->
-	res = lst
-	i = res.length-1
+	i = lst.length-1
 	while i>=0
-		if res[i]==0 then res.splice i,1 else i--
-	i = res.length-1
-	while i > 0
-		if res[i] == res[i-1] 
-			value = res[i] + 1
-			res.splice i,1 
-			res[i-1] = value
-		i--
-	res.unshift 0 for i in range 4 - res.length		
-	res
+		if lst[i]==0 then lst.splice i,1 else i--
+	for i in range lst.length-1,0,-1
+		if lst[i] == lst[i-1] 
+			value = lst[i] + 1
+			lst.splice i,1 
+			lst[i-1] = value	
+	lst.unshift 0 for i in range 4 - lst.length		
+	lst
 assert [0,0,0,2], move [1,0,0,1]
 assert [0,0,2,1], move [0,2,0,1]
 assert [1,2,3,4], move [1,2,3,4]
@@ -34,37 +37,34 @@ class Board
 		index = _.sample cands
 		@grid[index]=1
 		true
-
-	make : (lst,d) ->	item+d*i for item,k in lst for i in range 4
 			
 	move : (m) -> 
 		if m not in [0,1,2,3] then return 
-		ts = []
-		ts.push @make [12,8,4,0], 1
-		ts.push @make [0,1,2,3], 4 
-		ts.push @make [0,4,8,12], 1 
-		ts.push @make [3,2,1,0], 4 
-		lst = ts[m]
-		@mv t for t in lst
-		@addTile (t[0] for t in lst)
+		@mv t for t in ts[m]
+		@addTile (t[0] for t in ts[m]) 
 
 	draw : ->
-		textSize 64
-		textAlign CENTER,CENTER
-		rectMode CENTER
 		for cell,i in @grid
 			x = 100 + 200*(i%%4)
 			y = 100 + 200*(i//4)
-			fc 1,1,cell*0.1
+			fill "##{COLORS[cell]}" 
 			rect x,y,180,180,4
-			fc if cell<5 then 0 else 0
+			textSize SIZES[cell]
+			fill 0
 			if cell != 0 then text 2**cell,x,y+3
 
-board = null
+make = (lst,d) ->	item+d*i for item,k in lst for i in range 4
 
 setup = ->
 	createCanvas 801,801
+	textAlign CENTER,CENTER
+	rectMode CENTER
 	board = new Board()
+	ts = []
+	ts.push make [12,8,4,0], 1
+	ts.push make [0,1,2,3], 4 
+	ts.push make [0,4,8,12], 1 
+	ts.push make [3,2,1,0], 4 
 
 draw = ->
 	bg 0.5
