@@ -8,11 +8,14 @@ move = (lst)->
 	i = lst.length-1
 	while i>=0
 		if lst[i]==0 then lst.splice i,1 else i--
-	for i in range lst.length-1,0,-1
+	i = lst.length-1		
+	while i>0
 		if lst[i] == lst[i-1] 
 			value = lst[i] + 1
 			lst.splice i,1 
 			lst[i-1] = value	
+			i--
+		i--
 	lst.unshift 0 for i in range 4 - lst.length		
 	lst
 assert [0,0,0,2], move [1,0,0,1]
@@ -20,6 +23,9 @@ assert [0,0,2,1], move [0,2,0,1]
 assert [1,2,3,4], move [1,2,3,4]
 assert [0,1,3,1], move [1,2,2,1]
 assert [0,0,2,2], move [1,1,1,1]
+assert [0,0,2,2], move [0,2,1,1]
+assert [0,0,0,2], move [1,1,0,0]
+assert [0,0,0,2], move [0,1,1,0]
 
 class Board
 	constructor : ->
@@ -31,17 +37,18 @@ class Board
 		lst = move lst
 		@grid[index]=lst[i] for index,i in indices
 
-	addTile : (lst) ->
-		cands = (index for index in lst when @grid[index]==0)
+	addTile : () ->
+		cands = (index for tile,index in @grid when tile==0)
 		if cands.length == 0 then return false	
 		index = _.sample cands
-		@grid[index]=1
+		@grid[index] = 1
 		true
 			
 	move : (m) -> 
+		original = @grid.slice()
 		if m not in [0,1,2,3] then return 
 		@mv t for t in ts[m]
-		@addTile (t[0] for t in ts[m]) 
+		if not _.isEqual @grid,original then @addTile() 
 
 	draw : ->
 		for cell,i in @grid

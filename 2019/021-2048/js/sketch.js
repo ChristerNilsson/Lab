@@ -24,7 +24,7 @@ ts = null;
 board = null;
 
 move = function (lst) {
-  var i, j, l, len, len1, ref, ref1, value;
+  var i, j, len, ref, value;
   i = lst.length - 1;
   while (i >= 0) {
     if (lst[i] === 0) {
@@ -33,18 +33,19 @@ move = function (lst) {
       i--;
     }
   }
-  ref = range(lst.length - 1, 0, -1);
-  for (j = 0, len = ref.length; j < len; j++) {
-    i = ref[j];
+  i = lst.length - 1;
+  while (i > 0) {
     if (lst[i] === lst[i - 1]) {
       value = lst[i] + 1;
       lst.splice(i, 1);
       lst[i - 1] = value;
+      i--;
     }
+    i--;
   }
-  ref1 = range(4 - lst.length);
-  for (l = 0, len1 = ref1.length; l < len1; l++) {
-    i = ref1[l];
+  ref = range(4 - lst.length);
+  for (j = 0, len = ref.length; j < len; j++) {
+    i = ref[j];
     lst.unshift(0);
   }
   return lst;
@@ -59,6 +60,12 @@ assert([1, 2, 3, 4], move([1, 2, 3, 4]));
 assert([0, 1, 3, 1], move([1, 2, 2, 1]));
 
 assert([0, 0, 2, 2], move([1, 1, 1, 1]));
+
+assert([0, 0, 2, 2], move([0, 2, 1, 1]));
+
+assert([0, 0, 0, 2], move([1, 1, 0, 0]));
+
+assert([0, 0, 0, 2], move([0, 1, 1, 0]));
 
 Board = class Board {
   constructor() {
@@ -100,14 +107,15 @@ Board = class Board {
     return results;
   }
 
-  addTile(lst) {
-    var cands, index;
+  addTile() {
+    var cands, index, tile;
     cands = function () {
-      var j, len, results;
+      var j, len, ref, results;
+      ref = this.grid;
       results = [];
-      for (j = 0, len = lst.length; j < len; j++) {
-        index = lst[j];
-        if (this.grid[index] === 0) {
+      for (index = j = 0, len = ref.length; j < len; index = ++j) {
+        tile = ref[index];
+        if (tile === 0) {
           results.push(index);
         }
       }
@@ -122,7 +130,8 @@ Board = class Board {
   }
 
   move(m) {
-    var j, len, ref, t;
+    var j, len, original, ref, t;
+    original = this.grid.slice();
     if (m !== 0 && m !== 1 && m !== 2 && m !== 3) {
       return;
     }
@@ -131,16 +140,9 @@ Board = class Board {
       t = ref[j];
       this.mv(t);
     }
-    return this.addTile(function () {
-      var l, len1, ref1, results;
-      ref1 = ts[m];
-      results = [];
-      for (l = 0, len1 = ref1.length; l < len1; l++) {
-        t = ref1[l];
-        results.push(t[0]);
-      }
-      return results;
-    }());
+    if (!_.isEqual(this.grid, original)) {
+      return this.addTile();
+    }
   }
 
   draw() {
