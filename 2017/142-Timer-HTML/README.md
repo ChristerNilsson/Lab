@@ -1,4 +1,4 @@
-# 142-Timer
+# 142 Timer HTML
 
 [Try it!](https://christernilsson.github.io/Lab/2017/142-Timer-HTML/index.html)
 
