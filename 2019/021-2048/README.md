@@ -1,6 +1,6 @@
 # 2048
 
-[Try it!](https://christernilsson.github.io/Lab/2019/021-2048\index.html)
+[Try it!](https://christernilsson.github.io/Lab/2019/021-2048/index.html)
 
 https://www.youtube.com/watch?v=vtMKeEGpMI4
 
