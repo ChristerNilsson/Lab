@@ -6,7 +6,7 @@
     "coffee\\play.coffee"
   ],
   "names": [],
-  "mappings": ";;;;;;;AAAA,IAAA;;AAAM,AAAN;AACC,AAAc,gBAAA,KAAA;;;AAAC,AAAC,SAAA;AAAK,AAAC,SAAA,MAAR;AACd,AAAO;;;;;AAAG,aAAG,AAAC,KAAA,AAAJ,AAAQ,AAAR,YAAW,AAAC,KAAA,AAAZ,AAAH;AAFR",
+  "mappings": ";;;AAAA,IAAA;;AAAM,OAAN,MAAA;AACC,AAAc,cAAA,KAAA;AAAC,AAAC,SAAA;AAAK,AAAC,SAAA,MAAR;;;AACd,AAAO;AAAG,WAAA,GAAG,AAAC,KAAJ,AAAI,GAAJ,AAAQ,IAAG,AAAC,KAAZ,AAAY,GAAf,AAAG;AAFX;;AAAA",
   "sourcesContent": [
     "class Play \r\n\tconstructor : (@row, @col) ->\r\n\thash : -> \"#{@row},#{@col}\"\r\n"
   ]

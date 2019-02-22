@@ -11,7 +11,7 @@ state = null;
 
 winner = null;
 
-setup = function setup() {
+setup = function () {
   createCanvas(200, 200);
   game = new Game();
   mcts = new MonteCarlo(game);
@@ -20,7 +20,7 @@ setup = function setup() {
   return computerMove();
 };
 
-computerMove = function computerMove() {
+computerMove = function () {
   var play, stats;
   mcts.runSearch(state, 10); // 0.05 second
   stats = mcts.getStats(state);
@@ -29,7 +29,7 @@ computerMove = function computerMove() {
   return winner = game.winner(state);
 };
 
-humanMove = function humanMove() {
+humanMove = function () {
   var i, index, k, len, play, ref, row;
   index = Math.floor((mouseX - 10) / 20);
   ref = range(6);
@@ -44,7 +44,7 @@ humanMove = function humanMove() {
   return winner = game.winner(state);
 };
 
-mousePressed = function mousePressed() {
+mousePressed = function () {
   humanMove();
   if (winner) {
     return draw();
@@ -52,7 +52,7 @@ mousePressed = function mousePressed() {
   return computerMove();
 };
 
-draw = function draw() {
+draw = function () {
   var col, i, item, j, k, l, len, len1, ref;
   bg(0.5);
   ref = state.board;

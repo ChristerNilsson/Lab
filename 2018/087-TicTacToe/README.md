@@ -1,5 +1,7 @@
 # Tic Tac Toe
 
+[Try it!](https://christernilsson.github.io/Lab/2018/087-TicTacToe/index.html)
+
 Inspiration: 
 * https://www.youtube.com/watch?v=1iNp85N-36Y
 * https://github.com/coltonoscopy/tictactoe50/blob/master/main.lua

@@ -1,5 +1,7 @@
 # Four in a row
 
+[Try it!](https://christernilsson.github.io/Lab/2018/088-FourInARow/index.html)
+
 Inspiration: 
 * https://www.youtube.com/watch?v=1iNp85N-36Y
 * https://github.com/coltonoscopy/tictactoe50/blob/master/main.lua

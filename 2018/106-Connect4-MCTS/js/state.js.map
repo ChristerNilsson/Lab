@@ -6,7 +6,7 @@
     "coffee\\state.coffee"
   ],
   "names": [],
-  "mappings": ";;;;;;;AAAA,IAAA;;AAAM,AAAN;AACC,AAAc,iBAAA,aAAA,OAAA;;;AAAC,AAAC,SAAA;AAAa,AAAC,SAAA;AAAO,AAAC,SAAA,SAAxB;AACd,AAAW;;;;6BAAC,AAAD;aAAY,WAAU,AAAC,KAAA,AAAvB;AACX,AAAO;;;;aAAG,AAAC,KAAA,AAAJ;AAHR",
+  "mappings": ";;;AAAA,IAAA;;AAAM,QAAN,MAAA;AACC,AAAc,cAAA,aAAA,OAAA;AAAC,AAAC,SAAA;AAAa,AAAC,SAAA;AAAO,AAAC,SAAA,SAAxB;;;AACd,AAAW,WAAA,AAAC;WAAW,WAAU,AAAC,KAAvB,AAAuB;;;AAClC,AAAO;WAAG,AAAC,KAAJ,AAAI;AAHZ;;AAAA",
   "sourcesContent": [
     "class State \r\n\tconstructor : (@playHistory, @board, @player) ->\r\n\tisPlayer : (player) -> player == @player\r\n\thash : -> @playHistory\r\n"
   ]
