@@ -1,5 +1,7 @@
 # 142-Timer
 
+[Try it!](https://christernilsson.github.io/Lab/2017/142-Timer-HTML/index.html)
+
 Improvements compared with iOS:
 
 * No wheels. Just click on a digit to make it increment.

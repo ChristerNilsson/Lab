@@ -1,5 +1,7 @@
 # 143-Timer
 
+[Try it!](https://christernilsson.github.io/Lab/2017/143-Timer-Graphic/index.html)
+
 Using more buttons to keep clicks down
 
 ## Comparison
