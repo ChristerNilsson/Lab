@@ -1,4 +1,4 @@
-# 143-Timer
+# 143 Timer Graphic
 
 [Try it!](https://christernilsson.github.io/Lab/2017/143-Timer-Graphic/index.html)
 
