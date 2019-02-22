@@ -1,5 +1,7 @@
 # Snake
 
+[Try it!](https://christernilsson.github.io/Lab/2017/027-snake/index.html)
+
 ## Javascript till Coffeescript
 
 ### Steg 1. Nödvändiga ändringar
