@@ -1,5 +1,7 @@
 # RubikSquare9
 
+[Try it!](https://christernilsson.github.io/Lab/2017/060-RubikSquare9/index.html)
+
 * Tiles move vertically or horizontally and wraps.
   * First Click marks the tile you want to move.
   * Second Click marks where you want to move it.
