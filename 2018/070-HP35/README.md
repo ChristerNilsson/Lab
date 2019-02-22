@@ -1,5 +1,7 @@
 # HP-35
 
+[Try it!](https://christernilsson.github.io/Lab/2018/070-HP35/index.html)
+
 ![HP-35](http://www.hpmuseum.org/35last.jpg)
 
 Legendarisk kalkylator från Hewlett-Packard 1972. 

@@ -1,5 +1,7 @@
 # Twine
 
+[Try it!](https://christernilsson.github.io/Lab/2018/059-TwineFray/index.html)
+
 * Från http://www.ohiofi.com/blog/twine-battle/
 * Testa att spela orignalet: http://www.ohiofi.com/battlegame.html
 

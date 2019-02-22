@@ -1,5 +1,7 @@
 # Shortcut GPS
 
+[Try it!](https://christernilsson.github.io/Lab/2018/037-Shortcut-GPS/index.html)
+
 ![Karusell](karusell.jpg)
 
 Spelet går ut på att ta sig från det röda talet till det gröna.

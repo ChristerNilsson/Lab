@@ -1,5 +1,7 @@
 # 008-Kalkyl
 
+[Try it!](https://christernilsson.github.io/Lab/2018/008-Kalkyl/index.html)
+
 Här kan man testa sina one-liners!
 Även lämplig som kalkylator.
 Man kan namnge sina uttryck.

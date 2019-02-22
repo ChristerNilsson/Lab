@@ -14,7 +14,7 @@
       <file leaf-file-name="037.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/037.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="152">
               <caret line="6" column="124" lean-forward="false" selection-start-line="6" selection-start-column="124" selection-end-line="6" selection-end-column="124" />
               <folding />
             </state>
@@ -24,22 +24,9 @@
       <file leaf-file-name="20.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/20.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
+            <state relative-caret-position="54">
               <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding>
-                <marker date="1527511513348" expanded="false" signature="89:103" ph="..." />
-                <marker date="1527511513348" expanded="true" signature="104:7910" ph="..." />
-                <marker date="1527511513348" expanded="true" signature="109:846" ph="..." />
-                <marker date="1527511513348" expanded="true" signature="851:1612" ph="..." />
-                <marker date="1527511513348" expanded="true" signature="1617:2370" ph="..." />
-                <marker date="1527511513348" expanded="true" signature="2375:3136" ph="..." />
-                <marker date="1527511513348" expanded="true" signature="3141:3886" ph="..." />
-                <marker date="1527511513348" expanded="true" signature="3891:4692" ph="..." />
-                <marker date="1527511513348" expanded="true" signature="4697:5490" ph="..." />
-                <marker date="1527511513348" expanded="true" signature="5495:6288" ph="..." />
-                <marker date="1527511513348" expanded="true" signature="6293:7078" ph="..." />
-                <marker date="1527511513348" expanded="true" signature="7083:7901" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -47,11 +34,9 @@
       <file leaf-file-name="Shortcut-GPS.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Shortcut-GPS.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
+            <state relative-caret-position="135">
               <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-              <folding>
-                <marker date="1527511513363" expanded="false" signature="93:107" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,7 +57,6 @@
             <state relative-caret-position="0">
               <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
               <folding>
-                <marker date="1527511513332" expanded="false" signature="89:103" ph="..." />
                 <marker date="1527511513332" expanded="true" signature="7041:7837" ph="..." />
               </folding>
             </state>
@@ -108,7 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="18" />
     <option name="y" value="220" />
     <option name="width" value="1885" />
@@ -129,6 +113,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,13 +125,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../042-median" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -198,10 +182,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="18" y="220" width="1885" height="944" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2199037" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21979167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -231,6 +215,56 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/037.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shortcut-GPS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shortcut-GPS2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding>
+            <marker date="1527511513332" expanded="true" signature="7041:7837" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shortcut.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/037.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
           <folding />
@@ -241,9 +275,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-          <folding>
-            <marker date="1527511513363" expanded="false" signature="93:107" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -252,7 +284,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
           <folding>
-            <marker date="1527511513332" expanded="false" signature="89:103" ph="..." />
             <marker date="1527511513332" expanded="true" signature="7041:7837" ph="..." />
           </folding>
         </state>
@@ -379,32 +410,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/20.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
+        <state relative-caret-position="54">
           <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <marker date="1527511513348" expanded="false" signature="89:103" ph="..." />
-            <marker date="1527511513348" expanded="true" signature="104:7910" ph="..." />
-            <marker date="1527511513348" expanded="true" signature="109:846" ph="..." />
-            <marker date="1527511513348" expanded="true" signature="851:1612" ph="..." />
-            <marker date="1527511513348" expanded="true" signature="1617:2370" ph="..." />
-            <marker date="1527511513348" expanded="true" signature="2375:3136" ph="..." />
-            <marker date="1527511513348" expanded="true" signature="3141:3886" ph="..." />
-            <marker date="1527511513348" expanded="true" signature="3891:4692" ph="..." />
-            <marker date="1527511513348" expanded="true" signature="4697:5490" ph="..." />
-            <marker date="1527511513348" expanded="true" signature="5495:6288" ph="..." />
-            <marker date="1527511513348" expanded="true" signature="6293:7078" ph="..." />
-            <marker date="1527511513348" expanded="true" signature="7083:7901" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Shortcut-GPS.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
+        <state relative-caret-position="135">
           <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <marker date="1527511513363" expanded="false" signature="93:107" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -413,7 +429,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
           <folding>
-            <marker date="1527511513332" expanded="false" signature="89:103" ph="..." />
             <marker date="1527511513332" expanded="true" signature="7041:7837" ph="..." />
           </folding>
         </state>
@@ -421,7 +436,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/037.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="152">
           <caret line="6" column="124" lean-forward="false" selection-start-line="6" selection-start-column="124" selection-end-line="6" selection-end-column="124" />
           <folding />
         </state>

@@ -1,5 +1,7 @@
 # Calculator for Resistors in Series and Parallel
 
+[Try it!](https://christernilsson.github.io/Lab/2018/080-Resistor%20Calculator/index.html)
+
 https://www.electronics-tutorials.ws/resistor/res_5.html
 
 Use RPN, Reverse Polish Notation
