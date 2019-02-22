@@ -62,14 +62,6 @@ move = function (lst) {
   return lst;
 };
 
-// assert [0,0,0,2], move [1,0,0,1]
-// assert [0,0,2,1], move [0,2,0,1]
-// assert [1,2,3,4], move [1,2,3,4]
-// assert [0,1,3,1], move [1,2,2,1]
-// assert [0,0,2,2], move [1,1,1,1]
-// assert [0,0,2,2], move [0,2,1,1]
-// assert [0,0,0,2], move [1,1,0,0]
-// assert [0,0,0,2], move [0,1,1,0]
 Board = class Board {
   constructor() {
     var i;
@@ -152,7 +144,7 @@ Board = class Board {
       cell = ref[i];
       x = 100 + 200 * modulo(i, 4);
       y = 100 + 200 * Math.floor(i / 4);
-      fill(`#${COLORS[cell]}8`);
+      fill(`#${COLORS[cell]}`);
       rect(x, y, 180, 180, 4);
       value = 2 ** cell;
       textSize(SIZES[value.toString().length]);

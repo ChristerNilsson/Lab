@@ -11,14 +11,6 @@ move = (lst)->
 	lst = (item for item in lst when item>0)
 	lst.unshift 0 for i in range 4 - lst.length		
 	lst
-# assert [0,0,0,2], move [1,0,0,1]
-# assert [0,0,2,1], move [0,2,0,1]
-# assert [1,2,3,4], move [1,2,3,4]
-# assert [0,1,3,1], move [1,2,2,1]
-# assert [0,0,2,2], move [1,1,1,1]
-# assert [0,0,2,2], move [0,2,1,1]
-# assert [0,0,0,2], move [1,1,0,0]
-# assert [0,0,0,2], move [0,1,1,0]
 
 class Board
 	constructor : ->
@@ -43,7 +35,7 @@ class Board
 		for cell,i in @grid
 			x = 100 + 200*(i%%4)
 			y = 100 + 200*(i//4)
-			fill "##{COLORS[cell]}8"
+			fill "##{COLORS[cell]}"
 			rect x,y,180,180,4
 			value = 2**cell
 			textSize SIZES[value.toString().length]
@@ -62,7 +54,6 @@ setup = ->
 	ts.push make [0,1,2,3], 4 
 	ts.push make [0,4,8,12], 1 
 	ts.push make [3,2,1,0], 4 
-
 draw = ->
 	bg 0.5
 	board.draw()
