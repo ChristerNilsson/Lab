@@ -1,5 +1,7 @@
 # 059-RubikSquare30
 
+[Try it!](https://christernilsson.github.io/Lab/2017/059-RubikSquare30/index.html)
+
   a b c 
 d e f g h
 i j k l m 
