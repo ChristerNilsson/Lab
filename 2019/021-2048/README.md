@@ -2,7 +2,9 @@
 
 [Try it!](https://christernilsson.github.io/Lab/2019/021-2048/index.html)
 
-https://www.youtube.com/watch?v=vtMKeEGpMI4
+[CodingTrain](https://www.youtube.com/watch?v=vtMKeEGpMI4)
+
+[Wikipedia](https://en.wikipedia.org/wiki/2048_(video_game))
 
 Keys: Left, Right, Up, Down
 
