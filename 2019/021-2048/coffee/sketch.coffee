@@ -1,48 +1,38 @@
-SIZES = [0,64,64,64,64,64,64,36,36,36,36,36]
-COLORS = '0 FF0 F65 5C6 29C 96A FC0 F65 FCF 000 2FC A6B'.split ' '
+SIZES = [0,128,96,80,64]
+COLORS = '0 F00 0F0 FF0 0FF F0F FFF 08F 0F8 800 808 80F 00F 080'.split ' '
 
 ts = null
 board = null
 
 move = (lst)->
-	i = lst.length-1
-	while i>=0
-		if lst[i]==0 then lst.splice i,1 else i--
-	i = lst.length-1		
-	while i>0
-		if lst[i] == lst[i-1] 
-			value = lst[i] + 1
-			lst.splice i,1 
-			lst[i-1] = value	
-			i--
-		i--
+	lst = (item for item in lst when item>0)
+	for i in range lst.length-1 
+		if lst[i] == lst[i+1] then [lst[i], lst[i+1]] = [lst[i]+1, 0]	
+	lst = (item for item in lst when item>0)
 	lst.unshift 0 for i in range 4 - lst.length		
 	lst
-assert [0,0,0,2], move [1,0,0,1]
-assert [0,0,2,1], move [0,2,0,1]
-assert [1,2,3,4], move [1,2,3,4]
-assert [0,1,3,1], move [1,2,2,1]
-assert [0,0,2,2], move [1,1,1,1]
-assert [0,0,2,2], move [0,2,1,1]
-assert [0,0,0,2], move [1,1,0,0]
-assert [0,0,0,2], move [0,1,1,0]
+# assert [0,0,0,2], move [1,0,0,1]
+# assert [0,0,2,1], move [0,2,0,1]
+# assert [1,2,3,4], move [1,2,3,4]
+# assert [0,1,3,1], move [1,2,2,1]
+# assert [0,0,2,2], move [1,1,1,1]
+# assert [0,0,2,2], move [0,2,1,1]
+# assert [0,0,0,2], move [1,1,0,0]
+# assert [0,0,0,2], move [0,1,1,0]
 
 class Board
 	constructor : ->
 		@grid = (0 for i in range 16)
-		@grid[index]=1 for index in _.sample range(16),2			
+		@addTile 2
 
 	mv : (indices) ->
 		lst = move (@grid[index] for index in indices)
 		@grid[index] = lst[i] for index,i in indices
 
-	addTile : () ->
+	addTile : (n=1) ->
 		cands = (index for tile,index in @grid when tile==0)
-		if cands.length == 0 then return false	
-		index = _.sample cands
-		@grid[index] = 1
-		true
-			
+		@grid[index] = 1 for index in _.sample cands,n
+						
 	move : (m) -> 
 		original = @grid.slice()
 		if m not in [0,1,2,3] then return 
@@ -53,11 +43,12 @@ class Board
 		for cell,i in @grid
 			x = 100 + 200*(i%%4)
 			y = 100 + 200*(i//4)
-			fill "##{COLORS[cell]}" 
+			fill "##{COLORS[cell]}8"
 			rect x,y,180,180,4
-			textSize SIZES[cell]
+			value = 2**cell
+			textSize SIZES[value.toString().length]
 			fill 0
-			if cell != 0 then text 2**cell,x,y+3
+			if cell > 0 then text value,x,y+3
 
 make = (lst,d) ->	item+d*i for item,k in lst for i in range 4
 

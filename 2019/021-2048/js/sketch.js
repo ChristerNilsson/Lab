@@ -15,61 +15,64 @@ var Board,
   return (+a % (b = +b) + b) % b;
 };
 
-SIZES = [0, 64, 64, 64, 64, 64, 64, 36, 36, 36, 36, 36];
+SIZES = [0, 128, 96, 80, 64];
 
-COLORS = '0 FF0 F65 5C6 29C 96A FC0 F65 FCF 000 2FC A6B'.split(' ');
+COLORS = '0 F00 0F0 FF0 0FF F0F FFF 08F 0F8 800 808 80F 00F 080'.split(' ');
 
 ts = null;
 
 board = null;
 
 move = function (lst) {
-  var i, j, len, ref, value;
-  i = lst.length - 1;
-  while (i >= 0) {
-    if (lst[i] === 0) {
-      lst.splice(i, 1);
-    } else {
-      i--;
+  var i, item, j, l, len, len1, ref, ref1;
+  lst = function () {
+    var j, len, results;
+    results = [];
+    for (j = 0, len = lst.length; j < len; j++) {
+      item = lst[j];
+      if (item > 0) {
+        results.push(item);
+      }
     }
-  }
-  i = lst.length - 1;
-  while (i > 0) {
-    if (lst[i] === lst[i - 1]) {
-      value = lst[i] + 1;
-      lst.splice(i, 1);
-      lst[i - 1] = value;
-      i--;
-    }
-    i--;
-  }
-  ref = range(4 - lst.length);
+    return results;
+  }();
+  ref = range(lst.length - 1);
   for (j = 0, len = ref.length; j < len; j++) {
     i = ref[j];
+    if (lst[i] === lst[i + 1]) {
+      [lst[i], lst[i + 1]] = [lst[i] + 1, 0];
+    }
+  }
+  lst = function () {
+    var l, len1, results;
+    results = [];
+    for (l = 0, len1 = lst.length; l < len1; l++) {
+      item = lst[l];
+      if (item > 0) {
+        results.push(item);
+      }
+    }
+    return results;
+  }();
+  ref1 = range(4 - lst.length);
+  for (l = 0, len1 = ref1.length; l < len1; l++) {
+    i = ref1[l];
     lst.unshift(0);
   }
   return lst;
 };
 
-assert([0, 0, 0, 2], move([1, 0, 0, 1]));
-
-assert([0, 0, 2, 1], move([0, 2, 0, 1]));
-
-assert([1, 2, 3, 4], move([1, 2, 3, 4]));
-
-assert([0, 1, 3, 1], move([1, 2, 2, 1]));
-
-assert([0, 0, 2, 2], move([1, 1, 1, 1]));
-
-assert([0, 0, 2, 2], move([0, 2, 1, 1]));
-
-assert([0, 0, 0, 2], move([1, 1, 0, 0]));
-
-assert([0, 0, 0, 2], move([0, 1, 1, 0]));
-
+// assert [0,0,0,2], move [1,0,0,1]
+// assert [0,0,2,1], move [0,2,0,1]
+// assert [1,2,3,4], move [1,2,3,4]
+// assert [0,1,3,1], move [1,2,2,1]
+// assert [0,0,2,2], move [1,1,1,1]
+// assert [0,0,2,2], move [0,2,1,1]
+// assert [0,0,0,2], move [1,1,0,0]
+// assert [0,0,0,2], move [0,1,1,0]
 Board = class Board {
   constructor() {
-    var i, index, j, len, ref;
+    var i;
     this.grid = function () {
       var j, len, ref, results;
       ref = range(16);
@@ -80,11 +83,7 @@ Board = class Board {
       }
       return results;
     }();
-    ref = _.sample(range(16), 2);
-    for (j = 0, len = ref.length; j < len; j++) {
-      index = ref[j];
-      this.grid[index] = 1;
-    }
+    this.addTile(2);
   }
 
   mv(indices) {
@@ -106,8 +105,8 @@ Board = class Board {
     return results;
   }
 
-  addTile() {
-    var cands, index, tile;
+  addTile(n = 1) {
+    var cands, index, j, len, ref, results, tile;
     cands = function () {
       var j, len, ref, results;
       ref = this.grid;
@@ -120,12 +119,13 @@ Board = class Board {
       }
       return results;
     }.call(this);
-    if (cands.length === 0) {
-      return false;
+    ref = _.sample(cands, n);
+    results = [];
+    for (j = 0, len = ref.length; j < len; j++) {
+      index = ref[j];
+      results.push(this.grid[index] = 1);
     }
-    index = _.sample(cands);
-    this.grid[index] = 1;
-    return true;
+    return results;
   }
 
   move(m) {
@@ -145,19 +145,20 @@ Board = class Board {
   }
 
   draw() {
-    var cell, i, j, len, ref, results, x, y;
+    var cell, i, j, len, ref, results, value, x, y;
     ref = this.grid;
     results = [];
     for (i = j = 0, len = ref.length; j < len; i = ++j) {
       cell = ref[i];
       x = 100 + 200 * modulo(i, 4);
       y = 100 + 200 * Math.floor(i / 4);
-      fill(`#${COLORS[cell]}`);
+      fill(`#${COLORS[cell]}8`);
       rect(x, y, 180, 180, 4);
-      textSize(SIZES[cell]);
+      value = 2 ** cell;
+      textSize(SIZES[value.toString().length]);
       fill(0);
-      if (cell !== 0) {
-        results.push(text(2 ** cell, x, y + 3));
+      if (cell > 0) {
+        results.push(text(value, x, y + 3));
       } else {
         results.push(void 0);
       }
