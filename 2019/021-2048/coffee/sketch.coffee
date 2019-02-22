@@ -1,6 +1,6 @@
 N = 4
-SIZES = [0,128,128,80,64]
-COLORS = '0 #F00 #0F0 #FF0 #0FF #F0F #FFF #08F #0F8 #800 #808 #80F'.split ' '
+SIZES = [0,128,128,80,64,48,42]
+COLORS = '0 #F00 #0F0 #FF0 #0FF #F0F #FFF #08F #0F8 #800 #808 #80F #FFF #08F #0F8 #800 #808 #80F'.split ' '
 [WIN,LOSE] =  [1,2]
 
 ts = board = null
@@ -34,8 +34,7 @@ class Board
 		tmp.grid = @grid.slice()
 		for m in range N
 			tmp.mv t for t in ts[m]
-		if 11 in @grid then state = WIN # 2**11 = 2048
-		else if _.isEqual tmp.grid,@grid then state = LOSE
+		if _.isEqual tmp.grid,@grid then state = LOSE
 					
 	move : (m) -> 
 		if m not in [0,1,2,3] or state > 0 then return 
@@ -55,7 +54,7 @@ class Board
 			fill 0
 			if cell > 0 then text value,x,y+3
 			textSize 64
-			text score,100,850
+			text score,200,850
 			text ['','You Win','Game Over'][state],600,850
 
 make = (lst,d) ->	item + d*i for item,k in lst for i in range N

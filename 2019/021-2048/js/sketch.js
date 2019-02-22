@@ -16,16 +16,15 @@ var Board,
     setup,
     state,
     ts,
-    indexOf = [].indexOf,
     modulo = function (a, b) {
   return (+a % (b = +b) + b) % b;
 };
 
 N = 4;
 
-SIZES = [0, 128, 128, 80, 64];
+SIZES = [0, 128, 128, 80, 64, 48, 42];
 
-COLORS = '0 #F00 #0F0 #FF0 #0FF #F0F #FFF #08F #0F8 #800 #808 #80F'.split(' ');
+COLORS = '0 #F00 #0F0 #FF0 #0FF #F0F #FFF #08F #0F8 #800 #808 #80F #FFF #08F #0F8 #800 #808 #80F'.split(' ');
 
 [WIN, LOSE] = [1, 2];
 
@@ -142,9 +141,7 @@ Board = class Board {
         tmp.mv(t);
       }
     }
-    if (indexOf.call(this.grid, 11) >= 0) {
-      return state = WIN; // 2**11 = 2048
-    } else if (_.isEqual(tmp.grid, this.grid)) {
+    if (_.isEqual(tmp.grid, this.grid)) {
       return state = LOSE;
     }
   }
@@ -183,7 +180,7 @@ Board = class Board {
         text(value, x, y + 3);
       }
       textSize(64);
-      text(score, 100, 850);
+      text(score, 200, 850);
       results.push(text(['', 'You Win', 'Game Over'][state], 600, 850));
     }
     return results;
