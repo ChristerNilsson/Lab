@@ -25,7 +25,7 @@ N = 4;
 
 SIZES = [0, 128, 128, 80, 64];
 
-COLORS = '0 F00 0F0 FF0 0FF F0F FFF 08F 0F8 800 808 80F 00F 080'.split(' ');
+COLORS = '0 #F00 #0F0 #FF0 #0FF #F0F #FFF #08F #0F8 #800 #808 #80F'.split(' ');
 
 [WIN, LOSE] = [1, 2];
 
@@ -174,7 +174,7 @@ Board = class Board {
       cell = ref[i];
       x = 100 + modulo(i, N) * 200;
       y = 100 + Math.floor(i / N) * 200;
-      fill(`#${COLORS[cell]}`);
+      fill(COLORS[cell]);
       rect(x, y, 180, 180, 4);
       value = 2 ** cell;
       textSize(SIZES[value.toString().length]);

@@ -2,6 +2,6 @@
 
 https://www.youtube.com/watch?v=vtMKeEGpMI4
 
-Left, Right, Up, Down
+Keys: Left, Right, Up, Down
 
-Make a high sum.
+Try to reach 2048 or make a high sum.
