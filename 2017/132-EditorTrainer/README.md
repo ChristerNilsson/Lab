@@ -1,5 +1,7 @@
 # 132-EditorTrainer
 
+[Try it!](https://christernilsson.github.io/Lab/2017/132-EditorTrainer/index.html)
+
 * Programmet hjälper användaren att upptäcka genvägar via tangentbordet.
 * Mus eller touchpad kan **ej** användas.
 * Orsaken är att det går **mycket** snabbare med tangentbordet.

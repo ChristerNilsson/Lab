@@ -1,5 +1,7 @@
 # 134-SublimeCheatSheet
 
+[Try it!](https://christernilsson.github.io/Lab/2017/134-SublimeCheatSheet/index.html)
+
 Snabbkommandon för Sublime Text 3
 
 Dessa gäller för Windows.
