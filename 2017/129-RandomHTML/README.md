@@ -1,5 +1,7 @@
 # 129-RandomHTML
 
+[Try it!](https://christernilsson.github.io/Lab/2017/129-RandomHTML/index.html)
+
 Exempel:
 
 * krona klave
