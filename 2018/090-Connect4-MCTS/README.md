@@ -1,5 +1,7 @@
 # Connect Four - MCTS
 
+[Try it!](https://christernilsson.github.io/Lab/2018/090-Connect4-MCTS/index.html)
+
 * The computer plays weak in the beginning, but loosing doubles the thinking time.
 * The AI is based on Monte Carlo Tree Search.
 * Parts of the Tree is reused every move. If the player plays as expected maybe half of the tree is reused.

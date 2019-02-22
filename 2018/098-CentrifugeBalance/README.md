@@ -1,5 +1,7 @@
 # Centrifuge Balance
 
+[Try it!](https://christernilsson.github.io/Lab/2018/098-CentrifugeBalance/index.html)
+
 https://www.youtube.com/watch?v=7DHE8RnsCQ8
 
 Make all slots yellow.
