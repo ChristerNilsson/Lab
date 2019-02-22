@@ -1,5 +1,7 @@
 # 15 Puzzle
 
+[Try it!](https://christernilsson.github.io/Lab/2019/015-Puzzle/index.html)
+
 https://github.com/jlfwong/fifteen-puzzle
 
 https://en.wikipedia.org/wiki/15_puzzle
