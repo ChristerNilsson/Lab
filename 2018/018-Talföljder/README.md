@@ -1,5 +1,7 @@
 # 018-Talföljder
 
+[Try it!](https://christernilsson.github.io/Lab/2018/018-Talföljder/index.html)
+
 Man skriver in en talföljd separerad med mellanslag.
 
 Någon försöker räkna ut formeln och matar in den.
