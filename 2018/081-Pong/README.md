@@ -1,5 +1,5 @@
 # Pong
 
-CS50 Game Programming
+[Try it!](https://christernilsson.github.io/Lab/2018/081-Pong/index.html)
 
-https://www.youtube.com/watch?v=GfwpRU0cT10
+[CS50 Game Programming](https://www.youtube.com/watch?v=GfwpRU0cT10)
