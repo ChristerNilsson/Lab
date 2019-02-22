@@ -2,9 +2,11 @@
 
 [Try it!](https://christernilsson.github.io/Lab/2019/021-2048/index.html)
 
-[CodingTrain](https://www.youtube.com/watch?v=vtMKeEGpMI4)
+[CodingTrain](https://www.youtube.com/watch?v=JSn-DJU8qf0)
 
 [Wikipedia](https://en.wikipedia.org/wiki/2048_(video_game))
+
+[2048 Cirulli](https://play2048.co)
 
 Keys: Left, Right, Up, Down
 
