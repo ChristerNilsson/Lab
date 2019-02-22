@@ -1,5 +1,7 @@
 # Nytt valsystem
 
+[Try it!](https://christernilsson.github.io/Lab/2019/010B-Personval/index.html)
+
 Datainläsningen har minskat från 29M till cirka 0.5M genom att använda .txt-filer skapade av 010.py
 * 00.txt   Riksdagen
 * 01.txt   Stockholms län
