@@ -2,11 +2,13 @@
 
 [Try it!](https://christernilsson.github.io/Lab/2018/080-Resistor%20Calculator/index.html)
 
+![Network](res54.gif)
+
 https://www.electronics-tutorials.ws/resistor/res_5.html
 
 Use RPN, Reverse Polish Notation
 
-Separate numbers and operations with at least one space character.
+Separate numbers and operations with one space character.
 
 * Serial: 10 20 +
 * Parallel: 10 20 p
