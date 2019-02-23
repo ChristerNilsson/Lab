@@ -1,10 +1,10 @@
-f = (s) ->
+f = (dag) ->
 	res = []
 	total = {k:0,f:0,c:0,p:0,price:0,amount:0,n:'TOTAL'}
-	for item in s.split '|'
-		arr = item.split ' '
-		key = arr[0]
-		amount = parseInt arr[1]
+	for key,amount of dag
+		#arr = item.split ' '
+		#key = arr[0]
+		#amount = parseInt arr[1]
 		data = db[key]
 
 		n = data.n # name
@@ -31,50 +31,55 @@ fmt = (value,width,decs=0) -> value.toFixed(decs).padStart width
 
 db = {}
 buildDb = ->
-	db.K0 = {n:'bacon',   k:308, f:28, c:3.5, p:14,   weight:125, price:13}
-	db.K1 = {n:'chorizo', k:273, f:23, c:3.5, p:13,   weight:540, price:40}
-	db.K2 = {n:'ägg',     k:140, f:10, c:0,   p:12.5, weight:630, price:33}
-	db.K3 = {n:'musslor', k:100, f:2.8, c:3.1,p:15,   weight:250, price:32}
-	db.K4 = {n:'fläsklägg', k:120, f:5.2, c:2.1,p:16, weight:1000, price:35}
-	db.K5 = {n:'blodpudding', k:200, f:8.5, c:22,p:7.2, weight:500, price:9}
-	db.K6 = {n:'kycklingklubba', k:200, f:14, c:0,p:19, weight:1000, price:27}
-	db.K7 = {n:'ananas', k:60, f:0.4, c:12,p:0, weight:225, price:0}
-	db.K8 = {n:'mango', k:70, f:0, c:15,p:0, weight:250, price:10.00}
-	db.K9 = {n:'blåbär', k:53, f:1, c:9,p:1, weight:125, price:17.95}
-	db.K10 = {n:'banan', k:101, f:0.5, c:22,p:1, weight:1000, price:22}
-	db.K11 = {n:'glass', k:234, f:16, c:18,p:4, weight:250, price:10}
-
+	db.K1  = {n:'paulun', k:405, f:13, c:53,p:12, weight:500, price:50}
+	db.K2  = {n:'banan', k:101, f:0.5, c:22,p:1, weight:1000, price:22}
+	db.K3  = {n:'blåbär', k:53, f:1, c:9,p:1, weight:125, price:30}
+	db.K4  = {n:'avocado', k:197, f:20, c:6.5,p:1.9, weight:55, price:10}
+	db.K5  = {n:'lammkorv', k:190, f:10, c:7,p:17, weight:250, price:32}
+	db.K6  = {n:'spaghetti', k:360, f:2, c:71,p:12, weight:500, price:15}
+	db.K7  = {n:'tomat', k:22, f:0, c:5,p:0, weight:350, price:25}
+	db.K8  = {n:'rödbetsjuice', k:40, f:0, c:8,p:1, weight:750, price:38} # ok
+	db.K9  = {n:'morot', k:36, f:0, c:6.6,p:0.7, weight:1000, price:30}
+	db.K10 = {n:'lök', k:39, f:0, c:7.3,p:1.2, weight:1000, price:10}
+	db.K11 = {n:'potatis', k:83, f:0, c:17.5,p:1.8, weight:1000, price:13}
+	db.K12 = {n:'köttfärs', k:205, f:15, c:0,p:19, weight:300, price:30}
+	db.K13 = {n:'ägg',     k:140, f:10, c:0,   p:12.5, weight:600, price:33}
+	db.K14 = {n:'sill', k:210, f:11, c:17.5, p:9.6, weight:110, price:16}
+	db.K15 = {n:'havregryn', k:370, f:7, c:58, p:13, weight:650, price:26}
+	db.K16 = {n:'borlottibönor', k:290, f:0.8, c:35,p:24, weight:500, price:23}
+	db.K17 = {n:'råris', k:359, f:2.5, c:74,p:7.4, weight:1000, price:0}
+	db.K18 = {n:'svarta bönor', k:300, f:2.4, c:35,p:24, weight:400, price:23}
+	db.K19 = {n:'sallad', k:23, f:0.3, c:3.6,p:1.5, weight:150, price:23}
 
 setup = ->
 	createCanvas 200,200
 	buildDb()
 
-	# fläsklägg 984
-	# kaffegrädde 1714
-	# kalvlever 1441
-	# kokhöna 1161
-	# kycklinghjärta 1452
-	# kycklinglever 1453
-	# köttfärs 963
-	# lammhjärta 1435
-	# makrill 1279
-	# mozarella
-	# märgben 956
-	# nötstek 950
-	# pasta 2226
-	# pollock 4615
-	# räkor 1395 # OBS! Hälften går bort som skal
-	# torsk 1246
-
-	söndag = 'K0 125|K1 360|K2 120|K3 125'
-	måndag = 'K6 500|K7 225|K8 250'
-	tisdag = 'K5 350|K9 250|K10 320|K11 250'
+	dag = 
+		K1: 25
+		K2: 150
+		K3: 25
+		K4: 50
+		#K5: 0 #125
+		K6: 100
+		K7: 40
+		K8: 100
+		K9: 60
+		K10: 40
+		K11: 100
+		#K12: 0
+		K13: 60
+		K14: 110
+		K15: 25
+		#K16: 0
+		K19: 75
 
 	print ' kcal fat carb prot price amount name'
-	for item in f tisdag
+	for item in f dag 
 		print "#{fmt item.k,5} #{fmt item.f,3} #{fmt item.c,4} #{fmt item.p,4} #{fmt item.price,5,2} #{fmt item.amount,6} #{item.n}" #  #{fmt 50*item.f/item.p,4}%
-	print '       75    5   20              Keto Std'
-	print '       60    5   35              Keto HP'
+
+	print '        8   80   12              McDougall'
+	print '       40   40   20              Std Am Diet'
 
 #######
 
