@@ -4,26 +4,12 @@ COLORS = '0 #F00 #0F0 #FF0 #0FF #F0F #FFF #08F #0F8 #800 #808 #80F #FFF #08F #0F
 [WIN,LOSE] =  [1,2]
 
 ts = board = null
-score = state = 0
-
-move = (lst)->
-	lst = (item for item in lst when item > 0)
-	for i in range lst.length
-		if i < lst.length-1 and lst[i] == lst[i+1] 
-			[lst[i], lst[i+1]] = [lst[i]+1, 0]	
-			score += 2**lst[i]
-	lst = (item for item in lst when item > 0)
-	lst.unshift 0 for i in range N - lst.length		
-	lst
 
 class Board
 	constructor : ->
 		@grid = (0 for i in range N * N)
 		@addTile() for i in range 2
-
-	mv : (indices) ->
-		lst = move (@grid[index] for index in indices)
-		@grid[index] = lst[i] for index,i in indices
+		@counter = @score = @state = 0
 
 	addTile : ->
 		index = _.sample (index for tile,index in @grid when tile == 0)
@@ -34,13 +20,27 @@ class Board
 		tmp.grid = @grid.slice()
 		for m in range N
 			tmp.mv t for t in ts[m]
-		if _.isEqual tmp.grid,@grid then state = LOSE
+		if _.isEqual tmp.grid,@grid then @state = LOSE
 					
+	move4 : (a) ->
+		a = (item for item in a when item > 0)
+		for i in range a.length-2,-1,-1
+			if a[i] == a[i+1] then [a[i], a[i+1], @score] = [0, a[i]+1, @score + 2**a[i]]	
+		a = (item for item in a when item > 0)
+		a.unshift 0 for i in range N - a.length		
+		a
+
+	mv : (indices) ->
+		lst = @move4 (@grid[index] for index in indices)
+		@grid[index] = lst[i] for index,i in indices
+
 	move : (m) -> 
-		if m not in [0,1,2,3] or state > 0 then return 
+		if m not in [0,1,2,3] or @state > 0 then return 
 		original = @grid.slice()
 		@mv t for t in ts[m]
-		if not _.isEqual @grid,original then @addTile() 
+		if not _.isEqual @grid,original
+			@addTile() 
+			@counter++
 		@updateState()
 
 	draw : ->
@@ -53,9 +53,11 @@ class Board
 			textSize SIZES[value.toString().length]
 			fill 0
 			if cell > 0 then text value,x,y+3
-			textSize 64
-			text score,200,850
-			text ['','You Win','Game Over'][state],600,850
+			textSize 50
+			sc()
+			text @score,200,850
+			text @counter,400,850
+			text ['','You Win','Game Over'][@state],600,850
 
 make = (lst,d) ->	item + d*i for item,k in lst for i in range N
 
@@ -70,7 +72,6 @@ setup = ->
 	ts.push make [0,1,2,3], N
 	ts.push make [0,4,8,12], 1 
 	ts.push make [3,2,1,0], N 
-	score = 0
 
 draw = ->
 	bg 0.5

@@ -11,10 +11,7 @@ var Board,
     draw,
     keyPressed,
     make,
-    move,
-    score,
     setup,
-    state,
     ts,
     modulo = function (a, b) {
   return (+a % (b = +b) + b) % b;
@@ -29,48 +26,6 @@ COLORS = '0 #F00 #0F0 #FF0 #0FF #F0F #FFF #08F #0F8 #800 #808 #80F #FFF #08F #0F
 [WIN, LOSE] = [1, 2];
 
 ts = board = null;
-
-score = state = 0;
-
-move = function (lst) {
-  var i, item, j, l, len, len1, ref, ref1;
-  lst = function () {
-    var j, len, results;
-    results = [];
-    for (j = 0, len = lst.length; j < len; j++) {
-      item = lst[j];
-      if (item > 0) {
-        results.push(item);
-      }
-    }
-    return results;
-  }();
-  ref = range(lst.length);
-  for (j = 0, len = ref.length; j < len; j++) {
-    i = ref[j];
-    if (i < lst.length - 1 && lst[i] === lst[i + 1]) {
-      [lst[i], lst[i + 1]] = [lst[i] + 1, 0];
-      score += 2 ** lst[i];
-    }
-  }
-  lst = function () {
-    var l, len1, results;
-    results = [];
-    for (l = 0, len1 = lst.length; l < len1; l++) {
-      item = lst[l];
-      if (item > 0) {
-        results.push(item);
-      }
-    }
-    return results;
-  }();
-  ref1 = range(N - lst.length);
-  for (l = 0, len1 = ref1.length; l < len1; l++) {
-    i = ref1[l];
-    lst.unshift(0);
-  }
-  return lst;
-};
 
 Board = class Board {
   constructor() {
@@ -90,25 +45,7 @@ Board = class Board {
       i = ref[j];
       this.addTile();
     }
-  }
-
-  mv(indices) {
-    var i, index, j, len, lst, results;
-    lst = move(function () {
-      var j, len, results;
-      results = [];
-      for (j = 0, len = indices.length; j < len; j++) {
-        index = indices[j];
-        results.push(this.grid[index]);
-      }
-      return results;
-    }.call(this));
-    results = [];
-    for (i = j = 0, len = indices.length; j < len; i = ++j) {
-      index = indices[i];
-      results.push(this.grid[index] = lst[i]);
-    }
-    return results;
+    this.counter = this.score = this.state = 0;
   }
 
   addTile() {
@@ -142,13 +79,71 @@ Board = class Board {
       }
     }
     if (_.isEqual(tmp.grid, this.grid)) {
-      return state = LOSE;
+      return this.state = LOSE;
     }
+  }
+
+  move4(a) {
+    var i, item, j, l, len, len1, ref, ref1;
+    a = function () {
+      var j, len, results;
+      results = [];
+      for (j = 0, len = a.length; j < len; j++) {
+        item = a[j];
+        if (item > 0) {
+          results.push(item);
+        }
+      }
+      return results;
+    }();
+    ref = range(a.length - 2, -1, -1);
+    for (j = 0, len = ref.length; j < len; j++) {
+      i = ref[j];
+      if (a[i] === a[i + 1]) {
+        [a[i], a[i + 1], this.score] = [0, a[i] + 1, this.score + 2 ** a[i]];
+      }
+    }
+    a = function () {
+      var l, len1, results;
+      results = [];
+      for (l = 0, len1 = a.length; l < len1; l++) {
+        item = a[l];
+        if (item > 0) {
+          results.push(item);
+        }
+      }
+      return results;
+    }();
+    ref1 = range(N - a.length);
+    for (l = 0, len1 = ref1.length; l < len1; l++) {
+      i = ref1[l];
+      a.unshift(0);
+    }
+    return a;
+  }
+
+  mv(indices) {
+    var i, index, j, len, lst, results;
+    lst = this.move4(function () {
+      var j, len, results;
+      results = [];
+      for (j = 0, len = indices.length; j < len; j++) {
+        index = indices[j];
+        results.push(this.grid[index]);
+      }
+      return results;
+    }.call(this));
+    results = [];
+    for (i = j = 0, len = indices.length; j < len; i = ++j) {
+      index = indices[i];
+      results.push(this.grid[index] = lst[i]);
+    }
+    return results;
   }
 
   move(m) {
     var j, len, original, ref, t;
-    if (m !== 0 && m !== 1 && m !== 2 && m !== 3 || state > 0) {
+    if (m !== 0 && m !== 1 && m !== 2 && m !== 3 || this.state > 0) {
       return;
     }
     original = this.grid.slice();
@@ -159,6 +154,7 @@ Board = class Board {
     }
     if (!_.isEqual(this.grid, original)) {
       this.addTile();
+      this.counter++;
     }
     return this.updateState();
   }
@@ -179,9 +175,11 @@ Board = class Board {
       if (cell > 0) {
         text(value, x, y + 3);
       }
-      textSize(64);
-      text(score, 200, 850);
-      results.push(text(['', 'You Win', 'Game Over'][state], 600, 850));
+      textSize(50);
+      sc();
+      text(this.score, 200, 850);
+      text(this.counter, 400, 850);
+      results.push(text(['', 'You Win', 'Game Over'][this.state], 600, 850));
     }
     return results;
   }
@@ -217,8 +215,7 @@ setup = function () {
   ts.push(make([12, 8, 4, 0], 1));
   ts.push(make([0, 1, 2, 3], N));
   ts.push(make([0, 4, 8, 12], 1));
-  ts.push(make([3, 2, 1, 0], N));
-  return score = 0;
+  return ts.push(make([3, 2, 1, 0], N));
 };
 
 draw = function () {
