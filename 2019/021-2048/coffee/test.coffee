@@ -10,3 +10,5 @@ test = ->
 	assert [0,0,0,2], b.move4 [1,1,0,0]
 	assert [0,0,0,2], b.move4 [0,1,1,0]
 	assert [0,0,4,5], b.move4 [4,4,4,0]
+
+	fixColor [1]
