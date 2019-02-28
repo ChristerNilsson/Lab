@@ -94,6 +94,6 @@ def execute(filename):
 
 #print(execute('a'))
 #print(execute('b'))
-#print(execute('c'))
-print(execute('d'))
+print(execute('c'))
+#print(execute('d'))
 
