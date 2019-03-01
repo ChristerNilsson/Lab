@@ -1,9 +1,3 @@
-# 4
-# H 3 cat beach sun
-# V 2 selfie smile
-# V 2 garden selfie
-# H 2 garden cat
-
 import random
 
 class Photo:
@@ -70,48 +64,58 @@ class Problem:
 			self.slides.append(slide)
 
 		self.cands = []
-		print(len(self.slides))
 		for i in range(len(self.slides)):
-			self.cands.append(i)
+			self.cands.append([i])
 
 		total = 0
-		for i in range(1000):
-			r1 = random.randint(1,len(self.slides)-2)
-			a = self.cands[r1-1]
-			b = self.cands[r1]
-			c = self.cands[r1+1]
-			r2 = random.randint(1,len(self.slides)-2)
-			d = self.cands[r2-1]
-			e = self.cands[r2]
-			f = self.cands[r2+1]
-			ab = self.score(self.slides[a],self.slides[b])
-			bc = self.score(self.slides[b],self.slides[c])
-			de = self.score(self.slides[d],self.slides[e])
-			ef = self.score(self.slides[e],self.slides[f])
+		#n = len(self.slides)
+		for i in range(900):
+			lst = []
+			if len(self.cands)==0: continue
+			indexa = random.randint(0,len(self.cands)-1)
+			for indexb in range(len(self.cands)):
+				lista = self.cands[indexa]
+				listb = self.cands[indexb]
+				a1 = lista[0]
+				a2 = lista[-1]
+				b1 = listb[0]
+				b2 = listb[-1]
 
-			ae = self.score(self.slides[a],self.slides[e])
-			ec = self.score(self.slides[e],self.slides[c])
-			db = self.score(self.slides[d],self.slides[b])
-			bf = self.score(self.slides[b],self.slides[f])
+				scorea1b1 = self.score(self.slides[a1], self.slides[b1])
+				a1b1 = lista + list(reversed(listb))
+				scorea1b2 = self.score(self.slides[a1], self.slides[b2])
+				a1b2 = list(reversed(lista)) + list(reversed(listb))
+				scorea2b1 = self.score(self.slides[a2], self.slides[b1])
+				a2b1 = lista + listb
+				scorea2b2 = self.score(self.slides[a2], self.slides[b2])
+				a2b2 = list(reversed(lista)) + listb
 
-			old = ab+bc+de+ef
-			new = ae+ec+db+bf
-			if new > old:
-				total += new - old
-				print('better', new-old,r1,r2,total)
-				self.cands[r1],self.cands[r2] = self.cands[r2],self.cands[r1]
+				lst.append([scorea1b1, indexa, indexb,a1b1])
+				lst.append([scorea1b2, indexa, indexb,a1b2])
+				lst.append([scorea2b1, indexa, indexb,a2b1])
+				lst.append([scorea2b2, indexa, indexb,a2b2])
+			score,a,b,newlist = max(lst)
+			print('better', score,a,b)
+
+			self.cands[a]= newlist
+			print(len(self.cands),self.cands)
+			if a!=b:
+				del self.cands[b]
+
+		print(self.cands)
 
 	def write(self):
 		with open(self.letter + '.out', 'w') as f:
 			print(f"{len(self.cands)}", file=f)
-			for cand in self.cands:
+			cands = self.cands[0]
+			for cand in cands:
 				slide = self.slides[cand]
 				if len(slide.photos)==1:
 					print(f"{slide.photos[0].index}", file=f)
 				else:
 					print(f"{slide.photos[0].index} {slide.photos[1].index}", file=f)
 
-problem = Problem('e')
+problem = Problem('c')
 print(len(problem.vphotos))
 print(len(problem.hphotos))
 
