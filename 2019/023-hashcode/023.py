@@ -1,6 +1,5 @@
-import sys
-import time
 import random
+import time
 
 FILE = ''
 PROBES = 0
@@ -50,6 +49,7 @@ class Problem:
 
 		self.vphotos.sort()
 		self.hphotos.sort()
+		#self.sortPhotos()
 
 		if len(self.vphotos) > 0:
 			print('v',self.vphotos[0])
@@ -58,11 +58,10 @@ class Problem:
 			print('h',self.hphotos[0])
 			print('h',self.hphotos[-1])
 
-	def score(self,slide1,slide2):
-		a = slide1.set.intersection(slide2.set)
-		b = slide1.set.difference(slide2.set)
-		c = slide2.set.difference(slide1.set)
-		#if len(a)>0: print('score',len(a),len(b),len(c))
+	def score(self,set1,set2):
+		a = set1.intersection(set2)
+		b = set1.difference(set2)
+		c = set2.difference(set1)
 		return min(len(a),len(b),len(c))
 
 	def combineV(self, prevSlide=None):
@@ -80,33 +79,31 @@ class Problem:
 
 		n = len(photos)
 
-		best = [-1,-1,-1]
-		for i in range(PROBES):
-			slide = Slide()
+		def findBest():
+			best = [-1] * 100
+			bestSoFar = [-1,-1,-1]
+			for summa in range(len(best)):
+				for i in range(summa//2):
+					j = summa - i - 1
+					if i>=n or j>=n:continue
+					#print(summa,i,j)
+					photo1 = photos[i]
+					photo2 = photos[j]
+					#maxScore = min(len(photo1.set) // 2, len(photo2.set) // 2)
+					set12 = photo1.set.union(photo2.set)
+					score = self.score(prevSlide.set, set12)
+					if score > bestSoFar[0]: bestSoFar = [score,i,j]
+					#if self.score(photo1.set,photo2.set) == maxScore:
+					#	maxScore = min(len(prevSlide.set) // 2, len(set12) // 2)
+					#	if score == maxScore: return maxScore,i,j
+					#best[summa] = score
+			#print('fallback')
+			return bestSoFar
 
-			if self.letter in 'c':
-				index0 = index1 = 0
-				while index0 == index1:
-					index0 = random.randint(0,n-1)
-					index1 = random.randint(0,n-1)
-			if self.letter in 'd':
-				index0 = i % n
-				index1 = (i + 1) % n
-			if self.letter in 'e':
-				index0 = (2*i) % n
-				index1 = (2*i+1) % n
-
-			slide.add(photos[index0])
-			slide.add(photos[index1])
-			score = self.score(prevSlide, slide)
-			if score > best[0]: best = [score,index0,index1]
-
-		score,index0,index1 = best
-		slide = Slide()
-		photo0 = photos[index0]
-		photo1 = photos[index1]
-		slide.add(photo0)
-		slide.add(photo1)
+		score,index0,index1 = findBest()
+		slide=Slide()
+		slide.add(photos[index0])
+		slide.add(photos[index1])
 		return score,slide,index0,index1
 
 	def combineH(self,prevSlide=None):
@@ -125,16 +122,43 @@ class Problem:
 			slide = Slide()
 			index = i % n
 			slide.add(photos[index])
-			scores.append([self.score(prevSlide, slide),index])
+			scores.append([self.score(prevSlide.set, slide.set),index])
 		score,index = max(scores)
 		slide = Slide()
 		photo = photos[index]
 		slide.add(photo)
 		return score,slide,index
 
+
+	# def sortPhotos(self): # enligt antal forst. Inom antalsgrupperna alla med alla.
+	# 	def findFriend(i, n, lst):
+	# 		for j in range(n):
+	# 			score = self.score(lst[i], lst[j])
+	# 			if score == index // 2:  # done
+	# 				return j
+	# 		return -1
+	# 			#key = f"{index} {score}"
+	# 			#if key not in stats: stats[key] = 0
+	# 			#if score != 0: stats[key] += 1
+	#
+	# 	arr = [[] for i in range(50)]
+	# 	stats = {}
+	# 	for photo in self.vphotos:
+	# 		index = len(photo.set)
+	# 		arr[index].append(photo)
+	# 	for index in range(len(arr)):
+	# 		lst = arr[index]
+	# 		n = len(lst)
+	# 		print(index,n)
+	# 		for i in range(n):
+	# 			print(i,findFriend(i,n,lst))
+	# 			break
+	# 	z=99
+
+
 	def findPair(self,photo1):
 		for i,photo in enumerate(self.hphotos):
-			s = self.score(photo1,photo)
+			s = self.score(photo1.set,photo.set)
 			if s > 0: return i
 		return -1
 
@@ -207,8 +231,8 @@ class Problem:
 
 print('FILE PROBES')
 
-FILE = 'd'
-PROBES = 20000
+FILE = 'e'
+PROBES = 10
 
 print(FILE,PROBES)
 problem = Problem(FILE)
@@ -217,3 +241,5 @@ start = clock()
 result = problem.combine()
 print(clock()-start)
 problem.write(result)
+
+
