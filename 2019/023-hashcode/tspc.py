@@ -1,4 +1,4 @@
-import time
+import time,random
 
 clock = time.perf_counter
 
@@ -77,6 +77,10 @@ def swapscore(i,j): # in:index out:integer improvement
 
 		old = score4(i-2,i-1,i+0,i+1) + score4(j-2,j-1,j+0,j+1)
 		new = score4(i-2,i-1,j-1,j-2) + score4(i+1,i+0,j+0,j+1) # even
+		# print(calc(),old)
+		# swap(i,j)
+		# print(calc(),new)
+		# swap(i,j)
 		return new - old
 	else: # odd
 		# slides: a0b0 c0d0 e0f0
@@ -113,21 +117,19 @@ def calc1(i): # i is always even
 def calc(): return sum([calc1(i) for i in range(0,80000-2,2)])
 
 def swap(i,j): route[i:j] = route[j-1:i-1:-1]
+# route = [0,1,2,3,4,5,6,7,8,9]
+# assert [0,1,3,2,4,5,6,7,8,9] == swap(2,4)
+# assert [0,1,2,3,4,5,6,7,8,9] == swap(2,4)
+# assert [0,1,2,5,4,3,6,7,8,9] == swap(3,6)
 
 def opt(i,j):
 	global swaps,totalScore
 	score = swapscore(i, j)
 	if score > 0:
 		swaps += 1
-
-		# print('before',self.totalScore, self.calc())
-		# assert self.totalScore == self.calc()
-
 		totalScore += score
 		swap(i, j)
-
-		# print('after',self.totalScore, self.calc())
-		# assert self.totalScore == self.calc()
+	return score
 
 def two_opt():
 	swaps = 1
@@ -138,6 +140,23 @@ def two_opt():
 			for j in range(i+4, len(route)-2,2):
 				opt(i,j)
 				opt(i+1,j+1)
+		#self.save('eee')
+
+def two_opt_random():
+	global swaps
+	swaps = 0
+	while True:
+
+		i = random.randint(2,len(route)-6)
+		if i>=79998-4: continue
+		j = random.randint(i+4,len(route)-3)
+		if (j-i)%2==1: continue
+		#print(i,j)
+		score = opt(i,j)
+		if score > 0:
+			print(i,j,swaps, totalScore, score, round(clock() - start)) #, self.route[:64])
+			#print(calc())
+			#z=99
 		#self.save('eee')
 
 def init():	return list(range(80000))
@@ -151,5 +170,5 @@ route = init()
 totalScore = calc()
 start = clock()
 swaps = 0
-two_opt()
+two_opt_random()
 #save(letter)

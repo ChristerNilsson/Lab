@@ -44,26 +44,26 @@ vector<string> split(string s) {
 }
 
 vector<string> setdifference (vector<string> first, vector<string> second) {
-  vector<string> v(first.size()+second.size());                   
+  vector<string> v(first.size()+second.size());
   vector<string>::iterator it;
   it = std::set_difference (first.begin(), first.end(), second.begin(), second.end(), v.begin());
-  v.resize(it-v.begin());                      
+  v.resize(it-v.begin());
   return v;
 }
 
 vector<string> setunion (vector<string> first, vector<string> second) {
-  vector<string> v(first.size()+second.size());                   
+  vector<string> v(first.size()+second.size());
   vector<string>::iterator it;
   it = std::set_union (first.begin(), first.end(), second.begin(), second.end(), v.begin());
-  v.resize(it-v.begin());                      
+  v.resize(it-v.begin());
   return v;
 }
 
 vector<string> setintersection (vector<string> first, vector<string> second) {
-  vector<string> v(first.size()+second.size());                   
+  vector<string> v(first.size()+second.size());
   vector<string>::iterator it;
   it = std::set_intersection (first.begin(), first.end(), second.begin(), second.end(), v.begin());
-  v.resize(it-v.begin());                      
+  v.resize(it-v.begin());
   return v;
 }
 
