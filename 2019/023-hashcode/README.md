@@ -12,9 +12,9 @@ Please note: 2-opt does not warrant global optimum.
 
 Timings for e. First row of 80.000. 
 
-C++ -O3: 5 secs
-Python: 10 secs
-Nim:    27 secs
+C++ -O3: 5 secs  c++ -O3 tspc.cpp
+Python: 10 secs  python tspc.py
+Nim:    27 secs  nim c --checks:off --boundChecks:off --opt:speed -r tspc.nim
 
 
 Problem set:
