@@ -10,17 +10,20 @@ tsp.py uses 2-opt to improve the result by greedy neighbours
 Estimated execution time: 2.5 hours per round.
 Please note: 2-opt does not warrant global optimum.
 
-Timings for e. First row of 80.000. 
+## Timings for e
 
-C++ -O3: 5 secs  c++ -O3 tspc.cpp
-Python: 10 secs  python tspc.py
-Nim:    27 secs  nim c --checks:off --boundChecks:off --opt:speed -r tspc.nim
+First row of 80.000. 
 
-
-Problem set:
+```code
+C++:     6 secs  c++ -O3 tspc.cpp
+Python: 11 secs  python tspc.py
+Nim:    23 secs  nim c --checks:off --opt:speed -r tspc.nim
+```
+## Problem set:
 Average number of tags per photo
 Frequency statistics of number of tags per photo.
 
+```code
 b:
 18.0
 9 4002
@@ -53,7 +56,7 @@ c:
 14 92
 
 d:
-10.025066666666667
+10.025
 1 1
 2 241
 3 5503
@@ -75,7 +78,7 @@ d:
 19 313
 
 e:
-19.0997625
+19.1
 8 6
 9 358
 10 4066
@@ -98,3 +101,4 @@ e:
 27 4035
 28 3422
 29 1721
+```

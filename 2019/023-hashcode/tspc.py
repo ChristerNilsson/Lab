@@ -1,4 +1,5 @@
-import time,random
+import random
+import time
 
 clock = time.perf_counter
 
@@ -25,8 +26,8 @@ def read(letter):
 			tags = arr[2:]
 			PHOTOS.append(Photo(id, orientation, tags))
 
-def save(letter):
-	with open(letter + '.out', 'w') as f:
+def save(filename):
+	with open(filename, 'w') as f:
 		print(f"{len(route)}", file=f)
 		for line in route: print(f"{line}", file=f)
 
@@ -161,62 +162,57 @@ def two_opt_random():
 				assert calc() == totalScore
 				limit += 10000
 				print(swaps, totalScore, round(clock() - start)) #, self.route[:64])
-			#print(calc())
-			#z=99
-		#self.save('eee')
+				save('e.py')
 
+def init(limit,antal):
+	print(limit,antal)
+	global route
+	route = [-1] * 80000
+	cands = [i for i in range(80000)]
+	random.shuffle(cands)
+	route[0] = cands.pop()
+	route[1] = cands.pop()
 
-def bfs(width,depth,total,path):
-	#if depth == 0: return [total,path]
-	best = []
-	while len(best) < width:
+	start = clock()
+	total = 0
+	for base in range(2,80000,2):
+		# find best candidate
+		best = [-1, -1, -1]
+		for k in range(antal):
+			i = random.randint(0,len(cands)-1)
+			j = i
+			while i==j:
+				j = random.randint(0,len(cands)-1)
+			route[base] = cands[i]
+			route[base+1] = cands[j]
+			score = score1(set2(base-2,base-1),set2(base,base+1))
+			if score > best[0]:
+				best = [score,i,j]
+				if score >= limit: break
+		score,i,j = best
+		total+= score
+		if base % 2000 == 0 or base <= 20:
+			print(base//2,total,round(total/(base//2),2),round((clock()-start)/(base//2),2))
+		route[base]= cands[i]
+		route[base+1]= cands[j]
+		cands.remove(route[base])
+		cands.remove(route[base+1])
 
-		i = random.randint(2,len(route)-6)
-		if i>=79998-4: continue
-		j=i+1
-		while (j-i)%2==1:
-			j = random.randint(i+4,len(route)-3)
-
-		score = swapscore(i,j)
-		if score > 0:
-			if depth == 1:
-				best.append([total+score, path+[[score,i,j]]])
-			else:
-				swap(i,j)
-				best.append(bfs(width, depth-1, total+score, path+[[score,i,j]]))
-				swap(i,j)
-
-	return max(best)
-
-def bfs_forever(width,depth):
-	global swaps,totalScore
-	limit = totalScore//10000*10000
-	print('width,depth',width, depth)
-	while True:
-		result = bfs(width,depth,0,[])
-		total,path = result
-		score,i,j = path[0]
-		if score > 0:
-			swaps += 1
-			totalScore += score
-			swap(i,j)
-			if totalScore >= limit:
-				assert calc() == totalScore
-				limit += 10000
-				print(totalScore,round(clock() - start))
-
-def init():	return list(range(80000))
+	return route
 
 letter = 'e'
 #solver = Solver('e')
 n = 0 # number of photos
 result = [] # contains output strings
 read(letter)
-route = init()
+route = init(18,50000)
 totalScore = calc()
 start = clock()
 swaps = 0
 two_opt_random()
+
+# GRAVEYARD #
+
 #bfs_forever(1024,1)
 #bfs_forever(32,2)
 #bfs_forever(4,5)
@@ -224,7 +220,45 @@ two_opt_random()
 #bfs_forever(2,9)
 #bfs_forever(2,6)
 #bfs_forever(2,5)
-
 #bfs_forever(2,2)
-
 #save(letter)
+
+# def bfs(width,depth,total,path):
+# 	#if depth == 0: return [total,path]
+# 	best = []
+# 	while len(best) < width:
+#
+# 		i = random.randint(2,len(route)-6)
+# 		if i>=79998-4: continue
+# 		j=i+1
+# 		while (j-i)%2==1:
+# 			j = random.randint(i+4,len(route)-3)
+#
+# 		score = swapscore(i,j)
+# 		if score > 0:
+# 			if depth == 1:
+# 				best.append([total+score, path+[[score,i,j]]])
+# 			else:
+# 				swap(i,j)
+# 				best.append(bfs(width, depth-1, total+score, path+[[score,i,j]]))
+# 				swap(i,j)
+#
+# 	return max(best)
+#
+# def bfs_forever(width,depth):
+# 	global swaps,totalScore
+# 	limit = totalScore//10000*10000
+# 	print('width,depth',width, depth)
+# 	while True:
+# 		result = bfs(width,depth,0,[])
+# 		total,path = result
+# 		score,i,j = path[0]
+# 		if score > 0:
+# 			swaps += 1
+# 			totalScore += score
+# 			swap(i,j)
+# 			if totalScore >= limit:
+# 				assert calc() == totalScore
+# 				limit += 10000
+# 				print(totalScore,round(clock() - start))
+
