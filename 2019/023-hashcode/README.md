@@ -1,14 +1,16 @@
-# Basis for this code can be found here: https://github.com/danieleratti/hashcode-2019
+# Hash Code
 
-bb.out contains all photos with their neighbours
-Is used to improve the solution for b. 
-Normal value before 2opt is 205.000.
-Maximum is 240.000 - 3.
+Inspiration for this code can be found here: https://github.com/danieleratti/hashcode-2019
 
-tsp.py reads bb.out and writes bbb.out
-tsp.py uses 2-opt to improve the result by greedy neighbours
-Estimated execution time: 2.5 hours per round.
-Please note: 2-opt does not warrant global optimum.
+* bb.out contains all photos with their neighbours
+* Is used to improve the solution for b. 
+* Normal value before 2opt is 205.000.
+* Maximum is 240.000 - 3.
+
+* tsp.py reads bb.out and writes bbb.out
+* tsp.py uses 2-opt to improve the result by greedy neighbours
+* Estimated execution time: 2.5 hours per round.
+* Please note: 2-opt does not warrant global optimum.
 
 ## Timings for e
 
