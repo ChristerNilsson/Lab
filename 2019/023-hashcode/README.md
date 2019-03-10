@@ -22,8 +22,8 @@ Python: 11 secs  python tspc.py
 Nim:    23 secs  nim c --checks:off --opt:speed -r tspc.nim
 ```
 ## Problem set:
-Average number of tags per photo
-Frequency statistics of number of tags per photo.
+* Average number of tags per photo
+* Frequency statistics of number of tags per photo.
 
 ```code
 b:
