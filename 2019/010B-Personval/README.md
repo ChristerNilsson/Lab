@@ -8,21 +8,22 @@ Datainläsningen har minskat från 29M till cirka 0.5M genom att använda .txt-f
 * 0180.txt Stockholms kommun
 * omraden.txt (namn på kommuner och landsting)
 
-00.txt 01.txt 0180.txt har alla samma struktur:
-
+## Filbeskrivning
 * T|Stockholm                                    Riksdagen, Landstinget eller Kommunens namn
 * A|1475|123456|355151                           PARTIKOD|KANDIDATNUMMER|KANDIDATNUMMER|...
 * B|1013|C|Centerpartiet                         PARTIKOD|PARTIFÖRKORTNING|PARTIBETECKNING
 * C|355151|28|K|Jessica Ohlson|jurist, Nyköping  KANDIDATNUMMER|ÅLDER_PÅ_VALDAGEN|KÖN|NAMN|VALSEDELSUPPGIFT
 
-* 00.txt    388K Riksdag
-* 01.txt    100K Landsting
-* 0180.txt   52K Kommun
+## Dessa filer har alla samma struktur
+* 00.txt    388K Riksdagen
+* 01.txt    100K Stockholms län
+* 0180.txt   52K Stockholms kommun
 
-* Totalt:   540K (Stockholm)
-* Minsta:   411K (Arjeplog)
+## Exempel på total filstorlek
+* Största:   Stockholm 540K (388+100+52)
+* Minsta:   Arjeplog 411K 
 
-Beskrivning av kolumner i kandidaturer.js:
+## Beskrivning av kolumner i kandidaturer.js:
 
 * VALTYP = 0
 * VALOMRÅDESKOD = 1
