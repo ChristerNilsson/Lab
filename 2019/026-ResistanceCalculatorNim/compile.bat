@@ -1,0 +1,1 @@
+nim cpp -r %1.nim

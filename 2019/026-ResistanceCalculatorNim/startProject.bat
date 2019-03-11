@@ -1,0 +1,2 @@
+subl -a .
+cmd
