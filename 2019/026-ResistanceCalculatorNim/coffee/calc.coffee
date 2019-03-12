@@ -57,8 +57,8 @@ build = (voltage, s) ->
 
 setup = ->
 	start = clock()
-	for i in range 1000000
-		node = build 18.0, "10 2 s 6 p 8 s 6 p 4 s 8 p 4 s 8 p 6 s"
+	#for i in range 1000000
+	node = build 18.0, "10 2 s 6 p 8 s 6 p 4 s 8 p 4 s 8 p 6 s"
 	print clock()-start
 
 	print "     Ohm     Volt   Ampere     Watt Network tree"

@@ -141,7 +141,8 @@ Resistance, Voltage, Current and Effect will be calculated for all levels.
 
 ```code
 Coffeescript  1.171 μs
-Nim           1.955 μs
+Nim static    1.195 μs
+Nim dynamic   1.955 μs
 C++ static    4.941 μs
 C++ dynamic  10.866 μs
 Python       23.280 μs

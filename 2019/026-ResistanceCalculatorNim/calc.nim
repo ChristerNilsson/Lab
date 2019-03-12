@@ -32,8 +32,9 @@ proc setVoltage(node : Node, voltage : float) =
 	if node.kind == 's':
 		let ra = node.a.resistance 
 		let rb = node.b.resistance 
-		node.a.setVoltage ra/(ra+rb) * voltage
-		node.b.setVoltage rb/(ra+rb) * voltage
+		let total = voltage/(ra+rb)
+		node.a.setVoltage ra * total #/(ra+rb) * voltage
+		node.b.setVoltage rb * total #/(ra+rb) * voltage
 	if node.kind == 'p': 
 		node.a.setVoltage voltage
 		node.b.setVoltage voltage
