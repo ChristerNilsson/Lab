@@ -69,7 +69,7 @@ proc build(voltage : float, s : string) : Node =
 	for word in s.split ' ':
 		nodestop.inc
 		let node : Node = nodes[nodestop]
-		if word == "s":   node.update('s', stack.pop, stack.pop)
+		if   word == "s": node.update('s', stack.pop, stack.pop)
 		elif word == "p": node.update('p', stack.pop, stack.pop)
 		else: 			      node.update('r', parseFloat(word))
 		stack.add nodestop 

@@ -35,6 +35,11 @@ Resistance, Voltage, Current and Effect will be calculated for all levels.
 ```
 
 ### Output
+
+The line below the header shows the total numbers and is the root of the tree.
+Execution starts with the leaves, marked r for resistor.
+The s line is the father of the r lines, but is actually produced after the sons.
+
 ```code
      Ohm    Volt  Ampere    Watt Network tree
   12.000  12.000   1.000  12.000 s
@@ -51,6 +56,8 @@ Resistance, Voltage, Current and Effect will be calculated for all levels.
 12 V
 200 470 220 p p
 ```
+
+```code 200 470 p 220 p``` would produce the same result, but a different tree.
 
 ### Output
 ```code
