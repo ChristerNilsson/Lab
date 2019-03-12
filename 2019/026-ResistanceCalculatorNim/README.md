@@ -1,12 +1,14 @@
-# Resistance Calculator in Nim
+# Resistance Calculator
 
-* Enter the resistor network using RPN
-* s = serial
-* p = parallel
+* Enter the resistor network using RPN, Reverse Polish Notation
+* s = two serial resistors
+* p = two parallel resistors
+
+Resistance, Voltage, Current and Effect will be calculated for all levels.
 
 ## Example 1
 
-![Network](res1.gif)
+![Example 1](res1.gif)
 
 ### Input
 
@@ -23,7 +25,7 @@
 ```
 
 ## Example 2
-![Network](res2.gif)
+![Example 2](res2.gif)
 
 ### Input
 
@@ -41,7 +43,7 @@
 ```
 
 ## Example 3
-![Network](res3.gif)
+![Example 3](res3.gif)
 
 ### Input
 
@@ -61,7 +63,7 @@
 ```
 
 ## Example 3B
-![Network](res3B.gif)
+![Example 3B](res3B.gif)
 
 ### Input
 
@@ -80,7 +82,7 @@
 ```
 
 ## Example 4
-![Network](res4.gif)
+![Example 4](res4.gif)
 
 ### Input
 
@@ -101,7 +103,7 @@
 ```
 
 ## Example 5
-![Network](res5.gif)
+![Example 5](res5.gif)
 
 ### Input
 
@@ -135,12 +137,12 @@
   10.000   0.333   0.033   0.011 | | | | | | | | | r
 ```
 
-### Performance
+### Performance (Example 5)
 
 ```code
-Coffeescript  1.171 micros
-Nim           1.955 micros    
-C++           4.941 micros static
-C++          10.866 micros dynamic
-Python       23.280 micros
+Coffeescript  1.171 μs
+Nim           1.955 μs
+C++ static    4.941 μs
+C++ dynamic  10.866 μs
+Python       23.280 μs
 ```
