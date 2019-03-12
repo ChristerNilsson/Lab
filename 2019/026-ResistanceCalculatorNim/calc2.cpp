@@ -125,17 +125,18 @@ Node build(float voltage, string s) {
 	return nodes[index];
 }
 
-//let node = build(12.0, "8")
-//let node = build(12.0, "8 10 s")
-//let node = build(12.0, "3 12 p")
-//let node = build(12.0, "8 4 s 12 p 6 s")
 
 int main() {
 	for (int i=0; i<50; i++) nodes[i] = Node();
 	Node node;
 	std::chrono::steady_clock::time_point time_begin = std::chrono::steady_clock::now();
-	for (int i=0; i<1000000; i++) {
-		node = build(18.0, "10 2 s 6 p 8 s 6 p 4 s 8 p 4 s 8 p 6 s");
+	for (int i=0; i<1; i++) {
+		//node = build(12.0, "12"); // 1
+		//node = build(12.0, "6 6 s"); // 2
+		//node = build(12.0, "200 470 220 p p"); // 3
+		//node = build(12.0, "12 12 p 6 s"); // 3B
+		//node = build(12.0, "8 4 s 12 p 6 s"); // 4
+		node = build(12.0, "10 2 s 6 p 8 s 6 p 4 s 8 p 4 s 8 p 6 s"); // 5
 	}
 	std::chrono::steady_clock::time_point time_end = std::chrono::steady_clock::now();
 	int diff = std::chrono::duration_cast<std::chrono::microseconds>(time_end - time_begin).count();
