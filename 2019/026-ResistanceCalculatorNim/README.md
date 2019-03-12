@@ -52,12 +52,12 @@ The s line is the father of the r lines, but is actually produced after the sons
 
 ### Input
 
-```code
+```
 12 V
 200 470 220 p p
 ```
 
-```code 200 470 p 220 p``` would produce the same result, but a different tree.
+```200 470 p 220 p``` would produce the same result, but a different tree.
 
 ### Output
 ```code
