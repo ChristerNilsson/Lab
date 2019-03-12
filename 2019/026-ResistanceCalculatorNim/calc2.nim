@@ -31,7 +31,7 @@ proc current(node : Node) : float = return node.voltage / node.resistance
 proc effect (node : Node) : float = return node.current * node.voltage
 
 proc report(node : Node, level : string = "") =
-	echo fmt"{node.resistance:8.3f} {node.voltage:8.3f} {node.current:8.3f} {node.effect:8.3f} {level}{node.kind}"
+	echo fmt"{node.resistance:8.3f} {node.voltage:8.3f} {node.current:8.3f} {node.effect:8.3f}  {level}{node.kind}"
 	if node.kind in "sp":
 		nodes[node.a].report level & "| "
 		nodes[node.b].report level & "| "
@@ -92,7 +92,7 @@ proc main =
 		node = build(18.0, "10 2 s 6 p 8 s 6 p 4 s 8 p 4 s 8 p 6 s")
 	echo clock()-start
 
-	echo "     Ohm     Volt   Ampere     Watt Network tree"
+	echo "     Ohm     Volt   Ampere     Watt  Network tree"
 	node.report
 
 main()

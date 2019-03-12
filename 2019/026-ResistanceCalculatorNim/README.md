@@ -4,7 +4,7 @@
 * s = two serial resistors
 * p = two parallel resistors
 
-Resistance, Voltage, Current and Effect will be calculated for all levels.
+Resistance, Voltage, Current and Effect will be calculated for all resistors and groups of resistors.
 
 ## Example 1
 

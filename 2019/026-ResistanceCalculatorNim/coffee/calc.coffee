@@ -7,7 +7,7 @@ class Node
 	current : -> @voltage / @resistance
 	effect : -> @current() * @voltage
 	report : (level = "") ->
-		print "#{nd @resistance,8,3} #{nd @voltage,8,3} #{nd @current(),8,3} #{nd @effect(),8,3} #{level}#{@kind}"
+		print "#{nd @resistance,8,3} #{nd @voltage,8,3} #{nd @current(),8,3} #{nd @effect(),8,3}  #{level}#{@kind}"
 
 class Resistor extends Node
 	constructor : (@resistance) -> super 'r'
@@ -61,5 +61,5 @@ setup = ->
 	node = build 18.0, "10 2 s 6 p 8 s 6 p 4 s 8 p 4 s 8 p 6 s"
 	print clock()-start
 
-	print "     Ohm     Volt   Ampere     Watt Network tree"
+	print "     Ohm     Volt   Ampere     Watt  Network tree"
 	node.report()

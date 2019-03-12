@@ -6,7 +6,7 @@ class Node:
 	def current(self) : return self.voltage / self.resistance
 	def effect(self): return self.current() * self.voltage
 	def report(self, level = "") :
-		print(f"{self.resistance:8.3f} {self.voltage:8.3f} {self.current():8.3f} {self.effect():8.3f} {level}{self.kind}")
+		print(f"{self.resistance:8.3f} {self.voltage:8.3f} {self.current():8.3f} {self.effect():8.3f}  {level}{self.kind}")
 
 class Resistor(Node):
 	def __init__(self,resistance):
@@ -74,5 +74,5 @@ for i in range(1000000):
 	node = build(18.0, "10 2 s 6 p 8 s 6 p 4 s 8 p 4 s 8 p 6 s")
 print(clock()-start)
 
-print("     Ohm     Volt   Ampere     Watt Network tree")
+print("     Ohm     Volt   Ampere     Watt  Network tree")
 node.report()

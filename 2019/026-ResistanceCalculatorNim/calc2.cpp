@@ -61,13 +61,13 @@ public:
 	}
 
 	void dump(int nodestop) {
-		cout << nodestop << setw(8) << resistance << setw(8) << voltage << setw(8) << current() << setw(8) << effect() << ' ' << kind << "\n";
+		cout << nodestop << setw(8) << resistance << setw(8) << voltage << setw(8) << current() << setw(8) << effect() << '  ' << kind << "\n";
 	}
 
 	void report(string level="") {
 		cout << fixed;
 		cout.precision(3);
-		cout << setw(8) << resistance << setw(8) << voltage << setw(8) << current() << setw(8) << effect() << ' ' << level << kind << "\n";
+		cout << setw(8) << resistance << setw(8) << voltage << setw(8) << current() << setw(8) << effect() << '  ' << level << kind << "\n";
 		if (kind=='s' || kind=='p') {
 			nodes[a].report(level + "| ");
 			nodes[b].report(level + "| ");
@@ -142,6 +142,6 @@ int main() {
 	int diff = std::chrono::duration_cast<std::chrono::microseconds>(time_end - time_begin).count();
 	cout << ' ' << ' ' << diff/1000000.0 << "\n"; 
 
-	cout << "     Ohm    Volt  Ampere    Watt Network tree\n";
+	cout << "     Ohm    Volt  Ampere    Watt  Network tree\n";
 	node.report();
 }
