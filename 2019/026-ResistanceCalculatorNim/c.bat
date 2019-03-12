@@ -1,2 +1,2 @@
 cls
-c++ %1.cpp
+c++ -O3 %1.cpp

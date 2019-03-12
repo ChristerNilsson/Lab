@@ -68,6 +68,7 @@ s   12.000   12.000    1.000   12.000
 ```code
 Coffeescript  1.171 micros
 Nim           1.955 micros    
-C++          11.006 micros 
+C++           4.941 micros not dyn
+C++          10.866 micros dynamic
 Python       23.280 micros
 ```
