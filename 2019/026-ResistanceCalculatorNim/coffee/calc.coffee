@@ -2,21 +2,19 @@ clock = Date.now
 
 nd = (num) -> num.toFixed(3).padStart 8
 
-class Node # abstract class
+class Resistor
+	constructor : (@resistance) -> 
+	evalR : -> @resistance
+	setVoltage : (@voltage) ->
 	current : -> @voltage / @resistance
 	effect : -> @current() * @voltage
-	report : (kind,level) ->
+	report : (level) ->
+		kind = @constructor.name[0].toLowerCase()
 		print "#{nd @resistance} #{nd @voltage} #{nd @current()} #{nd @effect()}  #{level}#{kind}"
 		if @a then @a.report level + "| "
 		if @b then @b.report level + "| "
 
-class Resistor extends Node
-	constructor : (@resistance) -> super()
-	evalR : -> @resistance
-	setVoltage : (@voltage) ->
-	report : (level) -> super 'r',level
-
-class Serial extends Node
+class Serial extends Resistor
 	constructor : (@a,@b) -> super()
 	evalR : -> @resistance = @a.evalR() + @b.evalR()
 	setVoltage : (@voltage) ->
@@ -24,15 +22,15 @@ class Serial extends Node
 		rb = @b.resistance
 		@a.setVoltage ra/(ra+rb) * @voltage
 		@b.setVoltage rb/(ra+rb) * @voltage
-	report : (level) -> super 's',level
+	report : (level) -> super level
 
-class Parallel extends Node
+class Parallel extends Resistor
 	constructor : (@a,@b) -> super()
 	evalR : -> @resistance = 1 / (1 / @a.evalR() + 1 / @b.evalR())
 	setVoltage : (@voltage) ->
 		@a.setVoltage @voltage
 		@b.setVoltage @voltage
-	report : (level) -> super 'p',level
+	report : (level) -> super level
 
 build = (voltage, s) ->
 	stack = []

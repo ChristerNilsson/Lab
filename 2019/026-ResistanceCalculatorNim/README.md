@@ -147,7 +147,7 @@ The s line is the father of the r lines, but is actually produced after the sons
 ### Performance (Example 5)
 
 ```code
-Coffeescript  1.104 μs
+Coffeescript  1.104 μs  calc.coffee
 Nim static    1.250 μs
 Nim dynamic   1.955 μs  nim cpp -r calc4
 C++ static    4.941 μs
@@ -157,4 +157,13 @@ Python       23.280 μs
 
 * Quite remarkable that Coffeescript/Javascript is the fastest.
 * It has no type info and no integers.
-* It is also shortest and most object oriented with four classes.
+* It is also shortest and most object oriented with three classes.
+
+### Nim
+
+The OOP of Nim is quite rudimentary. 
+Nim is using both ```proc``` and ```method```. It is also necessary to use ```{.base.}```
+Compare calc4.nim and calc.coffee to see the differences.
+Although the parent class is stated, the concept of ```super``` does not exist in Nim.
+
+On the plus side: typing really helps to spot thought errors.
