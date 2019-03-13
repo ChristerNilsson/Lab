@@ -147,10 +147,14 @@ The s line is the father of the r lines, but is actually produced after the sons
 ### Performance (Example 5)
 
 ```code
-Coffeescript  1.171 μs
+Coffeescript  1.104 μs
 Nim static    1.250 μs
 Nim dynamic   1.955 μs
 C++ static    4.941 μs
 C++ dynamic  10.866 μs
 Python       23.280 μs
 ```
+
+* Quite remarkable that Coffeescript/Javascript is the fastest.
+* It has no type info and no integers.
+* It is also shortest and most object oriented with four classes.
