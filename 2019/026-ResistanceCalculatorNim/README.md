@@ -20,8 +20,8 @@ Resistance, Voltage, Current and Effect will be calculated for all resistors and
 ### Output
 
 ```code
-     Ohm    Volt  Ampere    Watt Network tree
-  12.000  12.000   1.000  12.000 r
+     Ohm    Volt  Ampere    Watt  Network tree
+  12.000  12.000   1.000  12.000  r
 ```
 
 ## Example 2
@@ -41,10 +41,10 @@ Execution starts with the leaves, marked r for resistor.
 The s line is the father of the r lines, but is actually produced after the sons.
 
 ```code
-     Ohm    Volt  Ampere    Watt Network tree
-  12.000  12.000   1.000  12.000 s
-   6.000   6.000   1.000   6.000 | r
-   6.000   6.000   1.000   6.000 | r
+     Ohm    Volt  Ampere    Watt  Network tree
+  12.000  12.000   1.000  12.000  s
+   6.000   6.000   1.000   6.000  | r
+   6.000   6.000   1.000   6.000  | r
 ```
 
 ## Example 3
@@ -61,12 +61,12 @@ The s line is the father of the r lines, but is actually produced after the sons
 
 ### Output
 ```code
-     Ohm    Volt  Ampere    Watt Network tree
-  85.667  12.000   0.140   1.681 p
- 149.855  12.000   0.080   0.961 | p
- 220.000  12.000   0.055   0.655 | | r
- 470.000  12.000   0.026   0.306 | | r
- 200.000  12.000   0.060   0.720 | r
+     Ohm    Volt  Ampere    Watt  Network tree
+  85.667  12.000   0.140   1.681  p
+ 149.855  12.000   0.080   0.961  | p
+ 220.000  12.000   0.055   0.655  | | r
+ 470.000  12.000   0.026   0.306  | | r
+ 200.000  12.000   0.060   0.720  | r
 ```
 
 ## Example 3B
@@ -80,12 +80,12 @@ The s line is the father of the r lines, but is actually produced after the sons
 ```
 ### Output
 ```code
-     Ohm    Volt  Ampere    Watt Network tree
-  12.000  12.000   1.000  12.000 s
-   6.000   6.000   1.000   6.000 | r
-   6.000   6.000   1.000   6.000 | p
-  12.000   6.000   0.500   3.000 | | r
-  12.000   6.000   0.500   3.000 | | r
+     Ohm    Volt  Ampere    Watt  Network tree
+  12.000  12.000   1.000  12.000  s
+   6.000   6.000   1.000   6.000  | r
+   6.000   6.000   1.000   6.000  | p
+  12.000   6.000   0.500   3.000  | | r
+  12.000   6.000   0.500   3.000  | | r
 ```
 
 ## Example 4
@@ -99,14 +99,14 @@ The s line is the father of the r lines, but is actually produced after the sons
 ```
 ### Output
 ```code
-    Ohm    Volt  Ampere    Watt Network tree
-  12.000  12.000   1.000  12.000 s
-   6.000   6.000   1.000   6.000 | r
-   6.000   6.000   1.000   6.000 | p
-  12.000   6.000   0.500   3.000 | | r
-  12.000   6.000   0.500   3.000 | | s
-   4.000   2.000   0.500   1.000 | | | r
-   8.000   4.000   0.500   2.000 | | | r
+     Ohm    Volt  Ampere    Watt  Network tree
+  12.000  12.000   1.000  12.000  s
+   6.000   6.000   1.000   6.000  | r
+   6.000   6.000   1.000   6.000  | p
+  12.000   6.000   0.500   3.000  | | r
+  12.000   6.000   0.500   3.000  | | s
+   4.000   2.000   0.500   1.000  | | | r
+   8.000   4.000   0.500   2.000  | | | r
 ```
 
 ## Example 5
@@ -122,33 +122,33 @@ The s line is the father of the r lines, but is actually produced after the sons
 ### Output
 
 ```code
-     Ohm    Volt  Ampere    Watt Network tree
-  10.000  12.000   1.200  14.400 s
-   6.000   7.200   1.200   8.640 | r
-   4.000   4.800   1.200   5.760 | p
-   8.000   4.800   0.600   2.880 | | r
-   8.000   4.800   0.600   2.880 | | s
-   4.000   2.400   0.600   1.440 | | | r
-   4.000   2.400   0.600   1.440 | | | p
-   8.000   2.400   0.300   0.720 | | | | r
-   8.000   2.400   0.300   0.720 | | | | s
-   4.000   1.200   0.300   0.360 | | | | | r
-   4.000   1.200   0.300   0.360 | | | | | p
-   6.000   1.200   0.200   0.240 | | | | | | r
-  12.000   1.200   0.100   0.120 | | | | | | s
-   8.000   0.800   0.100   0.080 | | | | | | | r
-   4.000   0.400   0.100   0.040 | | | | | | | p
-   6.000   0.400   0.067   0.027 | | | | | | | | r
-  12.000   0.400   0.033   0.013 | | | | | | | | s
-   2.000   0.067   0.033   0.002 | | | | | | | | | r
-  10.000   0.333   0.033   0.011 | | | | | | | | | r
+     Ohm    Volt  Ampere    Watt  Network tree
+  10.000  12.000   1.200  14.400  s
+   6.000   7.200   1.200   8.640  | r
+   4.000   4.800   1.200   5.760  | p
+   8.000   4.800   0.600   2.880  | | r
+   8.000   4.800   0.600   2.880  | | s
+   4.000   2.400   0.600   1.440  | | | r
+   4.000   2.400   0.600   1.440  | | | p
+   8.000   2.400   0.300   0.720  | | | | r
+   8.000   2.400   0.300   0.720  | | | | s
+   4.000   1.200   0.300   0.360  | | | | | r
+   4.000   1.200   0.300   0.360  | | | | | p
+   6.000   1.200   0.200   0.240  | | | | | | r
+  12.000   1.200   0.100   0.120  | | | | | | s
+   8.000   0.800   0.100   0.080  | | | | | | | r
+   4.000   0.400   0.100   0.040  | | | | | | | p
+   6.000   0.400   0.067   0.027  | | | | | | | | r
+  12.000   0.400   0.033   0.013  | | | | | | | | s
+   2.000   0.067   0.033   0.002  | | | | | | | | | r
+  10.000   0.333   0.033   0.011  | | | | | | | | | r
 ```
 
 ### Performance (Example 5)
 
 ```code
 Coffeescript  1.171 μs
-Nim static    1.195 μs
+Nim static    1.250 μs
 Nim dynamic   1.955 μs
 C++ static    4.941 μs
 C++ dynamic  10.866 μs

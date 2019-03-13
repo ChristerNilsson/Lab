@@ -1,8 +1,10 @@
 #? replace(sub = "\t", by = "  ")
 
-# static version. Just 50 allocations initially.
+# Iterative, static version. 
+# Just 50 allocations initially.
+# The iterative method is almost twice as slow (2.2 μsecs) than the recursive
 
-import strutils,strformat
+import strutils,strformat,algorithm
 from times import cpuTime
 
 proc clock() : float = cpuTime()
@@ -14,6 +16,7 @@ type
 		voltage : float
 		a : int 
 		b : int 
+		level : int
 
 var nodes : array[50,Node]
 
@@ -21,6 +24,10 @@ proc update(node : Node, kind : char, b : int, a : int) = # b,a
 	node.kind = kind
 	node.a = a
 	node.b = b
+	let ra = nodes[a].resistance
+	let rb = nodes[b].resistance
+	if kind == 's': node.resistance = ra+rb
+	if kind == 'p': node.resistance = 1/(1/ra+1/rb)
 
 proc update(node : Node, kind : char, resistance : float) =
 	node.kind = kind
@@ -35,47 +42,37 @@ proc report(node : Node, level : string = "") =
 		nodes[node.a].report level & "| "
 		nodes[node.b].report level & "| "
 
-proc evalR(node : Node) : float =
-	if node.kind == 's' : 
-		let a : Node = nodes[node.a]
-		let b : Node = nodes[node.b]
-		node.resistance = a.evalR + b.evalR
-	if node.kind == 'p' : 
-		let a : Node = nodes[node.a]
-		let b : Node = nodes[node.b]
-		node.resistance = 1/(1/a.evalR + 1/b.evalR)
-	return node.resistance
-
-proc setVoltage(node : Node, voltage : float) =
-	node.voltage = voltage
-	if node.kind == 's':
-		let a : Node = nodes[node.a]
-		let b : Node = nodes[node.b]
-		let ra = a.resistance 
-		let rb = b.resistance 
-		let total = voltage/(ra+rb)
-		a.setVoltage ra * total #/(ra+rb) * voltage
-		b.setVoltage rb * total #/(ra+rb) * voltage
-	if node.kind == 'p': 
-		let a : Node = nodes[node.a]
-		let b : Node = nodes[node.b]
-		a.setVoltage voltage
-		b.setVoltage voltage
-
 proc build(voltage : float, s : string) : Node =
 	var stack : seq[int]
-	var i : int
-	for word in s.split ' ':
-		let node : Node = nodes[i]
-		if   word == "s": node.update 's', stack.pop, stack.pop
-		elif word == "p": node.update 'p', stack.pop, stack.pop
-		else: 			      node.update 'r', parseFloat word
-		stack.add i
-		i.inc
-	let node : Node = nodes[stack.pop]
-	discard node.evalR
-	node.setVoltage voltage
-	node
+	let arr = s.split ' '
+	let n = arr.len
+	for i,word in arr:
+		let node = nodes[i]
+		if   word == "s": node.update('s', stack.pop, stack.pop)
+		elif word == "p": node.update('p', stack.pop, stack.pop)
+		else: 			      node.update('r', parseFloat(word))
+		stack.add i 
+
+	nodes[n-1].voltage = voltage	 
+	nodes[n-1].level = 0
+	for i in countdown(n-1,0):
+		let node = nodes[i]
+		let a = nodes[node.a] 
+		let b = nodes[node.b] 
+		if node.kind == 'r': continue
+		a.level = node.level + 1
+	  b.level = node.level + 1
+		if node.kind == 'p':
+			a.voltage = node.voltage
+			b.voltage = node.voltage
+		else: # 's'
+			let ra = a.resistance
+			let rb = b.resistance
+			let total = node.voltage/(ra+rb)
+			a.voltage = ra * total
+			b.voltage = rb * total
+
+	nodes[stack.pop]
 
 #let node = build(12.0, "8")
 #let node = build(12.0, "8 10 s")
