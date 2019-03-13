@@ -149,7 +149,7 @@ The s line is the father of the r lines, but is actually produced after the sons
 ```code
 Coffeescript  1.104 μs
 Nim static    1.250 μs
-Nim dynamic   1.955 μs
+Nim dynamic   1.955 μs  nim cpp -r calc4
 C++ static    4.941 μs
 C++ dynamic  10.866 μs
 Python       23.280 μs
