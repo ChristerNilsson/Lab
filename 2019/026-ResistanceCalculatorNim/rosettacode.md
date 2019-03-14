@@ -1,11 +1,13 @@
-# Introduction
+# Parallel Resistor Calculator
 
-Calculate the resistance of a network of resistors. 
-The resistors can be connected in series or parallel. 
-Use infix or RPN to state the network.
-Calculate resistance, voltage, current and power for every resistor and operation.
+### Introduction
 
-# Background
+* Calculate the resistance of a network of resistors. 
+* The resistors can be connected in series or parallel. 
+* Use infix or RPN to state the network.
+* Calculate resistance, voltage, current and power for every resistor and operation.
+
+### Background
 
 * Serial Resistors: the sum of the resistors gives the equivalent resistor
 * Parallel Resistors: the inverse of the sum of the inverse of the resistors
@@ -13,13 +15,13 @@ Calculate resistance, voltage, current and power for every resistor and operatio
 * Current = Resistance / Voltage
 * Power = Current * Voltage
 
-# Input
+### Input
 
 ![Resistor Network](res5.gif)
-  * Infix  ((((R8 + R10) * R9 + R7) * R6 + R5) * R4 + R3) * R2 + R1
-  * RPN    10 2 + 6 * 8 + 6 * 4 + 8 * 4 + 8 * 6 +  
+* Infix  ((((R8 + R10) * R9 + R7) * R6 + R5) * R4 + R3) * R2 + R1
+* RPN    10 2 + 6 * 8 + 6 * 4 + 8 * 4 + 8 * 6 +  
   
-# Output for voltage 18.0 V
+### Output for voltage 18.0 V
 ```
      Ohm     Volt   Ampere     Watt  Network tree
   10.000   18.000    1.800   32.400  +
@@ -43,5 +45,5 @@ Calculate resistance, voltage, current and power for every resistor and operatio
    6.000   10.800    1.800   19.440  | r
 ```
 
-10.000 ohms in the upper left corner is the equivalent resistance.
-The first operation is 10 + 2 = 12 which can be found in the middle rows.
+* 10.000 ohms in the upper left corner is the equivalent resistance.
+* The first operation is 10 + 2 = 12 which can be found in the middle rows.
