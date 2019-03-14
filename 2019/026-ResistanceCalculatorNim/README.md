@@ -147,22 +147,23 @@ The s line is the father of the r lines, but is actually produced after the sons
 ### Performance (Example 5)
 
 ```code
+Nim infix     1.033 μs  nim cpp -d:release --opt:speed -r calc_infix.nim
 Coffeescript  1.104 μs  calc.coffee
 Nim static    1.250 μs
 Nim dynamic   1.955 μs  nim cpp -d:release --opt:speed -r calc4.nim
 C++ static    4.941 μs  c++ -O3 calc.cpp
 C++ dynamic  10.866 μs  c++ -O3 calc2.cpp
-Python infix 20.227 μs
-Python rpn   21.745 μs
+Python infix 20.227 μs  python calc_infix.py
+Python rpn   21.745 μs  python calc_rpn.py
 ```
 
-* Quite remarkable that Coffeescript/Javascript is the fastest.
-* It has no type info and no integers.
+* Quite remarkable that Coffeescript/Javascript is so fast.
+* It has no type info and uses floats instead of integers.
 * Coffeescript is faster, shorter and more object oriented than Nim.
 
 ### Nim
 
-The OOP of Nim is quite rudimentary. 
+The OOP of Nim is quite rudimentary. Inheritance and Polymorphism is weak.
 Nim is using both ```proc``` and ```method```. It is also necessary to use ```{.base.}``` for all methods in a base class.
 Compare calc4.nim and calc.coffee to see the differences.
 Although the parent class is stated, the concept of ```super``` does not exist in Nim.
