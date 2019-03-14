@@ -1,58 +1,41 @@
-clock = Date.now
-
 nd = (num) -> num.toFixed(3).padStart 8
 
 class Resistor
-	constructor : (@resistance) -> 
-	evalR : -> @resistance
+	constructor : (@resistance,@a=null,@b=null,@symbol='r') -> 
+	res : -> @resistance
 	setVoltage : (@voltage) ->
-	current : -> @voltage / @resistance
+	current : -> @voltage / @res()
 	effect : -> @current() * @voltage
 	report : (level) ->
-		kind = @constructor.name[0].toLowerCase()
-		print "#{nd @resistance} #{nd @voltage} #{nd @current()} #{nd @effect()}  #{level}#{kind}"
+		print "#{nd @res()} #{nd @voltage} #{nd @current()} #{nd @effect()}  #{level}#{@symbol}"
 		if @a then @a.report level + "| "
 		if @b then @b.report level + "| "
 
 class Serial extends Resistor
-	constructor : (@a,@b) -> super()
-	evalR : -> @resistance = @a.evalR() + @b.evalR()
+	constructor : (a,b) -> super 0,a,b,'+'
+	res : -> @a.res() + @b.res()
 	setVoltage : (@voltage) ->
-		ra = @a.resistance
-		rb = @b.resistance
+		ra = @a.res()
+		rb = @b.res()
 		@a.setVoltage ra/(ra+rb) * @voltage
 		@b.setVoltage rb/(ra+rb) * @voltage
-	report : (level) -> super level
 
 class Parallel extends Resistor
-	constructor : (@a,@b) -> super()
-	evalR : -> @resistance = 1 / (1 / @a.evalR() + 1 / @b.evalR())
+	constructor : (a,b) -> super 0,a,b,'*'
+	res : -> 1 / (1 / @a.res() + 1 / @b.res())
 	setVoltage : (@voltage) ->
 		@a.setVoltage @voltage
 		@b.setVoltage @voltage
-	report : (level) -> super level
 
-build = (voltage, s) ->
+build = (s) ->
 	stack = []
 	for word in s.split ' '
-		if      word == "s" then stack.push new Serial stack.pop(), stack.pop()
-		else if word == "p" then stack.push new Parallel stack.pop(), stack.pop()
+		if      word == '+' then stack.push new Serial stack.pop(), stack.pop()
+		else if word == '*' then stack.push new Parallel stack.pop(), stack.pop()
 		else                     stack.push new Resistor parseFloat word
-	node = stack.pop()
-	node.evalR()
-	node.setVoltage voltage
-	node
+	stack.pop()
 
-#let node = build(12.0, "8")
-#let node = build(12.0, "8 10 s")
-#let node = build(12.0, "3 12 p")
-#let node = build(12.0, "8 4 s 12 p 6 s")
-
-setup = ->
-	start = clock()
-	for i in range 1000000
-		node = build 18.0, "10 2 s 6 p 8 s 6 p 4 s 8 p 4 s 8 p 6 s"
-	print clock()-start
-
-	print "     Ohm     Volt   Ampere     Watt  Network tree"
-	node.report ""
+node = build "10 2 + 6 * 8 + 6 * 4 + 8 * 4 + 8 * 6 +"
+node.setVoltage 18.0
+print "     Ohm     Volt   Ampere     Watt  Network tree"
+node.report ""
