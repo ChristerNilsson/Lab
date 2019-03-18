@@ -1,26 +1,25 @@
 from atomic_mass import ATOMIC_MASS
 
-def parse(s): # 'H2O' => H 2 O and 'A1A'
+def parse(s): # H2O => H 2 O and 'A1A'
 	result = []
 	pattern = ''
 	i = 0
-	while i<len(s):
+	while i < len(s):
 		if s[i].isupper():
-			if i+1<len(s) and s[i+1].islower():
-				result.append(s[i]+s[i+1])
-				pattern += 'A'
-				i+=2
-			else:
-				result.append(s[i])
-				pattern += 'A'
-				i+=1
+			name = s[i]
+			i += 1
+			while i < len(s) and s[i].islower():
+				name += s[i]
+				i += 1
+			result.append(name)
+			pattern += 'A'
 		elif s[i].isdigit():
-			antal = int(s[i])
-			i+=1
-			while i<len(s) and s[i].isdigit():
-				antal = antal*10 + int(s[i])
-				i+=1
-			result.append(str(antal))
+			count = s[i]
+			i += 1
+			while i < len(s) and s[i].isdigit():
+				count += s[i]
+				i += 1
+			result.append(count)
 			pattern += '1'
 		else:
 			result.append(s[i])
@@ -139,4 +138,5 @@ assert 84.162 == molar_mass('C6H12')
 assert 186.29499999999996 == molar_mass('COOH(C(CH3)2)3CH3') # See details above.
 assert 176.124 == molar_mass('C6H4O2(OH)4') # Vitamin C
 assert 386.664 == molar_mass('C27H46O') # Cholesterol
+assert 315 == molar_mass('Uue')
 

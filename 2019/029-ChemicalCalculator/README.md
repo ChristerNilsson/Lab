@@ -12,3 +12,4 @@
 * assert 186.29499999999996 == molar_mass('COOH(C(CH3)2)3CH3') # See details above.
 * assert 176.124 == molar_mass('C6H4O2(OH)4') # Vitamin C
 * assert 386.664 == molar_mass('C27H46O') # Cholesterol
+* assert 315 == molar_mass('Uue')
