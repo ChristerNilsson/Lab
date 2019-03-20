@@ -2,6 +2,27 @@
 
 # http://www.rosettacode.org/wiki/Chemical_Calculator
 
+# Nim has no eval.
+# parseStmt not available at runTime.
+# proc mul(match, p1, offset, string): string = '*' + p1 
+# proc add(match, p1, offset, string): string = 
+# 	if p1 == '(' then return '+' + p1 
+# 	"+#{ATOMIC_MASS[p1]}"
+# proc molar_mass(s) =
+# 	s = s.replace /(\d+)/g, mul
+# 	s = s.replace /([A-Z][a-z]{0,2}|\()/g, add
+# 	parseFloat(eval(s).toFixed(3))
+
+
+Negativt:
+
+Stökigt med att representera både heltal och hash i stacken samtidigt.
+Därav "factor" i koden.
+
+För elva beräkningar.
+	Nim    tar 0.296 ms
+	Python tar 0.222 ms  
+
 * assert 1.008 == molar_mass('H')
 * assert 2.016 == molar_mass('H2')
 * assert 18.015 == molar_mass('H2O')

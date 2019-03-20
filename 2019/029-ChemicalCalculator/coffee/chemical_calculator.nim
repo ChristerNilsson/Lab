@@ -1,3 +1,5 @@
+import atomic_mass
+
 mul = (match, p1, offset, string) -> '*' + p1 
 add = (match, p1, offset, string) -> 
 	if p1 == '(' then return '+' + p1 
