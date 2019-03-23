@@ -1,6 +1,6 @@
 DIFF_THRESHOLD = 1e-40
 
-N = 2
+N = 3
 
 class Fixed:
 	FREE = 0
