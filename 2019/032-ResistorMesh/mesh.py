@@ -1,54 +1,36 @@
-import copy
 from fractions import Fraction
 
-def argmax(a,k):
-	col = [abs(row[k]) for row in a]
+def argmax(m,i):
+	col = [abs(row[i]) for row in m]
 	return col.index(max(col))
 
-def gauss(a, b):
-	n, p = len(a), len(a[0])
+def gauss(m):
+	n, p = len(m), len(m[0])
 	for i in range(n):
-		t = abs(a[i][i])
-		k = i
+		k = i + argmax(m[i:n],i)
+		m[i], m[k] = m[k], m[i]
+		t = 1 / m[i][i]
+		for j in range(i + 1, p): m[i][j] *= t
 		for j in range(i + 1, n):
-			if abs(a[j][i]) > t:
-				t = abs(a[j][i])
-				k = j
-		if k != i:
-			a[i], a[k] = a[k], a[i]
-			b[i], b[k] = b[k], b[i]
-		t = 1 / a[i][i]
-		for j in range(i + 1, n):
-			a[i][j] *= t
-		b[i] *= t
-		for j in range(i + 1, n):
-			t = a[j][i]
-			for k in range(i + 1, n):
-				a[j][k] -= t * a[i][k]
-			b[j] -= t * b[i]
+			t = m[j][i]
+			for k in range(i + 1, p): m[j][k] -= t * m[i][k]
 	for i in range(n - 1, -1, -1):
-		for j in range(i):
-			b[j] -= a[j][i] * b[i]
-	return b
+		for j in range(i): m[j][-1] -= m[j][i] * m[i][-1]
+	return [row[-1] for row in m]
 
 def network(n,k0,k1,s):
-	I = Fraction(1, 1)
-	v = [0*I] * n
-	a = [copy.copy(v) for i in range(n)]
-	arr = s.split('|')
-	for resistor in arr:
-		n1,n2,r = resistor.split(' ')
-		n1 = int(n1)
-		n2 = int(n2)
-		r = Fraction(1,int(r))
-		a[n1][n1] += r
-		a[n2][n2] += r
-		if n1>0: a[n1][n2] += -r
-		if n2>0: a[n2][n1] += -r
-	a[k0][k0] = I
-	b = [0*I] * n
-	b[k1] = I
-	return gauss(a,b)[k1]
+	m = [[0] * (n+1) for i in range(n)]
+	resistors = s.split('|')
+	for resistor in resistors:
+		a,b,r = resistor.split(' ')
+		a,b,r = int(a), int(b), Fraction(1,int(r))
+		m[a][a] += r
+		m[b][b] += r
+		if a > 0: m[a][b] -= r
+		if b > 0: m[b][a] -= r
+	m[k0][k0] = Fraction(1, 1)
+	m[k1][-1] = Fraction(1, 1)
+	return gauss(m)[k1]
 
 assert 10             == network(7,0,1,"0 2 6|2 3 4|3 4 10|4 5 2|5 6 8|6 1 4|3 5 6|3 6 6|3 1 8|2 1 8")
 assert 3/2            == network(3*3,0,3*3-1,"0 1 1|1 2 1|3 4 1|4 5 1|6 7 1|7 8 1|0 3 1|3 6 1|1 4 1|4 7 1|2 5 1|5 8 1")

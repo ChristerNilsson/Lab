@@ -20,7 +20,7 @@ def eliminate(a):
 				for j in range(k+1, n): a[i][j] -= a[h][j] * f
 			h += 1
 			k += 1
-	return a
+	return [row[-1] for row in a]
 
 a = []
 a.append([1,3,1,9])
@@ -33,7 +33,7 @@ assert 2 == argmax(a,2)
 assert 2 == argmax(a,3)
 
 b = eliminate(a)
-assert [3, 11, 5, 35] == b[0]
-assert [0, -2.6666666666666665, -2.6666666666666665, -10.666666666666666] == b[1]
-assert [0, 0, 0, 0] == b[2]
+assert 35 == b[0]
+assert -10.666666666666666 == b[1]
+assert 0 == b[2]
 
