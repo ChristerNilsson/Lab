@@ -18,8 +18,8 @@ SWAPS =
 	B: 'lnpj moqk euAY fvBZ gwCS'
 	Y: 'GECA HFDB nsJS otKT puLU'
 	G: 'PNLJ QOMK EyaU FzbV GscW'
-	O: 'suwy tvxz ajGJ hqHQ gpAP' 
-	R: 'YWUS ZXVT LClc MDmd NEne'
+	R: 'suwy tvxz LClc MDmd NEne'  
+	O: 'YWUS ZXVT ajGJ hqHQ gpAP'
 
 cube = (i//9 for i in range 54)
 backup = cube.slice()
@@ -34,10 +34,8 @@ turn = (letters) ->
 		words = SWAPS[LETTER].split ' '
 		for word in words
 			[i,j,k,l] = (ALPHABET.indexOf w for w in word)
-			if LETTER == letter
-				[cube[l],cube[i],cube[j],cube[k]] = [cube[i],cube[j],cube[k],cube[l]]
-			else
-				[cube[j],cube[k],cube[l],cube[i]] = [cube[i],cube[j],cube[k],cube[l]]
+			[a,b,c,d] = if LETTER == letter then [l,i,j,k] else [j,k,l,i]
+			[cube[a],cube[b],cube[c],cube[d]] = [cube[i],cube[j],cube[k],cube[l]]
 
 setup = -> createCanvas 800,800, WEBGL
 
@@ -60,7 +58,7 @@ draw = ->
 			vertex +R,R,-R
 			vertex +R,R,+R
 			vertex -R,R,+R
-			endShape()
+			endShape(CLOSE)
 
 			pop()
 			index += 1
