@@ -15,7 +15,7 @@ https://www.youtube.com/watch?v=277611ExU9A
 ## Small letters are anti-clockwise. 
 
 ## Internal representation
-
+```
         U T S
         V   Z                       Orange
         W X Y 
@@ -25,3 +25,4 @@ https://www.youtube.com/watch?v=277611ExU9A
         y x w
         z   v                       Red
         s t u 
+```
