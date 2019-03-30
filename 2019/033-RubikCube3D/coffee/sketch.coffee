@@ -28,6 +28,7 @@ change = (letters) ->
 setup = -> createCanvas 800,800, WEBGL
 
 draw = ->
+	change txt.value
 	rotateX -rot[1] * 0.01
 	rotateY -rot[0] * 0.01
 	background 0
