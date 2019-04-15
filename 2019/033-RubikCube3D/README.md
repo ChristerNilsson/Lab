@@ -2,9 +2,7 @@
 
 [Try it!](https://christernilsson.github.io/Lab/2019/033-RubikCube3D/index.html)
 
-[Youtube](https://www.youtube.com/watch?v=277611ExU9A)
-
-[GitHub](https://github.com/CodingTrain/website/tree/master/CodingChallenges/CC_142_Rubiks_Cube_2/Processing/CC_142_Rubiks_Cube_2)
+[Coding Train](https://thecodingtrain.com/CodingChallenges/142.2-rubiks-cube.html)
 
 ## Clockwise moves
 * W = White
