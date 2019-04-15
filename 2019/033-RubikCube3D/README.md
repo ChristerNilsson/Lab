@@ -31,8 +31,8 @@
 
 ## Data storage for the cube
 
-* Coding Train: circa 4050 bytes.
-* Coffeescript:         27 bytes.
+* Coding Train: 27 * 154 = 4158 bytes
+* Coffeescript: 27 bytes
 
 ## Lines of Code
 
