@@ -31,12 +31,12 @@
 
 # Comparison between Coding Train and Coffeescript
 
-## Data storage 
+## Data storage for the cube
 
 * Coding Train: circa 4050 bytes.
 * Coffeescript:         27 bytes.
 
 ## Lines of Code
 
-* Coding Train: 258 lines
+* Coding Train: 239 lines
 * Coffeescript:  46 lines
