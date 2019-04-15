@@ -25,13 +25,14 @@ change = (letters) ->
 			[a,b,c,d] = if LETTER == letter then [l,i,j,k] else [j,k,l,i]
 			[cube[a],cube[b],cube[c],cube[d]] = [cube[i],cube[j],cube[k],cube[l]]
 
-setup = -> createCanvas 800,800, WEBGL
+setup = -> 
+	createCanvas 800,800, WEBGL
 
 draw = ->
 	change txt.value
-	rotateX -rot[1] * 0.01
-	rotateY -rot[0] * 0.01
 	background 0
+
+	orbitControl 4,4
 
 	index = 0
 	for side in range 6
@@ -52,8 +53,3 @@ draw = ->
 			pop()
 			index += 1
 
-mousePressed = -> last = [mouseX,mouseY]
-
-mouseDragged = ->
-	rot = [rot[0] + mouseX-last[0], rot[1] + mouseY-last[1]]
-	last = [mouseX,mouseY]

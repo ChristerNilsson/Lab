@@ -2,7 +2,9 @@
 
 [Try it!](https://christernilsson.github.io/Lab/2019/033-RubikCube3D/index.html)
 
-https://www.youtube.com/watch?v=277611ExU9A
+[Youtube](https://www.youtube.com/watch?v=277611ExU9A)
+
+[GitHub](https://github.com/CodingTrain/website/tree/master/CodingChallenges/CC_142_Rubiks_Cube_2/Processing/CC_142_Rubiks_Cube_2)
 
 ## Clockwise moves
 * W = White
@@ -26,3 +28,15 @@ https://www.youtube.com/watch?v=277611ExU9A
         z   v                       Red
         s t u 
 ```
+
+# Comparison between Coding Train and Coffeescript
+
+## Data storage 
+
+* Coding Train: circa 4050 bytes.
+* Coffeescript:         27 bytes.
+
+## Lines of Code
+
+* Coding Train: 258 lines
+* Coffeescript:  46 lines
