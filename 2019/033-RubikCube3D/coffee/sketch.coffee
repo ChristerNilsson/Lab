@@ -1,7 +1,7 @@
 COLORS = "#FFF #00F #FF0 #0F0 #FA5 #F00".split ' ' # W B Y G O R
 ALPHABET = 'abcdefgh jklmnopq ABCDEFGH JKLMNOPQ STUVWXYZ stuvwxyz' 
-SWAPS = 
-	W: 'aceg bdfh wjWN xkXO ylYP' 
+SWAPS = # See README.md
+	W: 'aceg bdfh wjWN xkXO ylYP'
 	B: 'lnpj moqk euAY fvBZ gwCS'
 	Y: 'GECA HFDB nsJS otKT puLU'
 	G: 'PNLJ QOMK EyaU FzbV GscW'
@@ -23,11 +23,11 @@ draw = ->
 
 	background 0
 	orbitControl 4,4 # speed
-	for side in range 6
+	for side in range 6 # cube
 		rotateX HALF_PI * [1,1,1,1,0,0][side]
 		rotateZ HALF_PI * [0,0,0,0,1,2][side]
-		for [i,j],k in [[0,0],[2,0],[4,0],[4,2],[4,4],[2,4],[0,4],[0,2],[2,2]]
+		for [i,j],k in [[0,0],[2,0],[4,0],[4,2],[4,4],[2,4],[0,4],[0,2],[2,2]] # side
 			beginShape()
 			fill COLORS[cube[9*side+k]]
-			vertex R*(i+x-3), 3*R, R*(j+z-3) for [x,z] in [[0,0],[2,0],[2,2],[0,2]]				
+			vertex R*(i+x-3), 3*R, R*(j+z-3) for [x,z] in [[0,0],[2,0],[2,2],[0,2]]	# tile		
 			endShape()
