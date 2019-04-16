@@ -38,3 +38,7 @@
 
 * Coding Train: 239 lines
 * Coffeescript:  30 lines
+
+### Shortcomings
+
+The Coffeescript version does not handle smooth turns.
