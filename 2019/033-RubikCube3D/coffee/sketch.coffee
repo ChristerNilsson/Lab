@@ -9,23 +9,18 @@ SWAPS =
 	R: 'suwy tvxz LClc MDmd NEne'  
 R = 60
 
-cube = null
+setup = -> createCanvas 800,800, WEBGL
 
-change = (letters) -> 
+draw = ->
 	cube = (i//9 for i in range 54)
-	for letter in letters
+	for letter in txt.value
 		LETTER = letter.toUpperCase() 
 		if LETTER not of SWAPS then return 
-		words = SWAPS[LETTER].split ' '
-		for word in words
+		for word in SWAPS[LETTER].split ' '
 			[i,j,k,l] = (ALPHABET.indexOf w for w in word)
 			[a,b,c,d] = if LETTER == letter then [l,i,j,k] else [j,k,l,i]
 			[cube[a],cube[b],cube[c],cube[d]] = [cube[i],cube[j],cube[k],cube[l]]
 
-setup = -> createCanvas 800,800, WEBGL
-
-draw = ->
-	change txt.value
 	background 0
 	orbitControl 4,4
 	for side in range 6

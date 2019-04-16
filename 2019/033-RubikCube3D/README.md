@@ -37,4 +37,4 @@
 ### Lines of Code
 
 * Coding Train: 239 lines
-* Coffeescript:  36 lines
+* Coffeescript:  30 lines
