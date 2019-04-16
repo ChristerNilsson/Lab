@@ -3,7 +3,6 @@
 // https://thecodingtrain.com/CodingChallenges/142.2-rubiks-cube.html
 // https://youtu.be/EGmVulED_4M
 
-
 import peasy.*;
 
 PeasyCam cam;
@@ -59,9 +58,6 @@ String flipCase(char c) {
   }
 }
 
-
-
-
 void turnZ(int index, int dir) {
   for (int i = 0; i < cube.length; i++) {
     Cubie qb = cube[i];
@@ -100,9 +96,6 @@ void turnX(int index, int dir) {
     }
   }
 }
-
-
-
 
 void draw() {
   background(51); 

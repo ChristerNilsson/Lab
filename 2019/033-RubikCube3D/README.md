@@ -27,14 +27,14 @@
         s t u 
 ```
 
-# Comparison between Coding Train and Coffeescript
+## Comparison between Coding Train and this Coffeescript version
 
-## Data storage for the cube
+### Data storage for one cubie
 
-* Coding Train: 27 * 154 = 4158 bytes
-* Coffeescript: 27 bytes
+* Coding Train: 154 bytes
+* Coffeescript: 1 byte
 
-## Lines of Code
+### Lines of Code
 
 * Coding Train: 239 lines
 * Coffeescript:  38 lines

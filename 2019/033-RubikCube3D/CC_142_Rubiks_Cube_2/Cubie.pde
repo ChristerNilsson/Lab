@@ -44,8 +44,6 @@ class Cubie {
     }
   }
   
-  
-  
   void update(int x, int y, int z) {
     matrix.reset(); 
     matrix.translate(x, y, z);

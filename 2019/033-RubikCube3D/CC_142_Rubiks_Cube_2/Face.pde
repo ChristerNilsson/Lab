@@ -12,7 +12,6 @@ class Face {
     this.c = c;
   }
 
-
   void turnZ(float angle) {
     PVector v2 = new PVector();
     v2.x = round(normal.x * cos(angle) - normal.y * sin(angle));
