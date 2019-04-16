@@ -9,10 +9,8 @@ SWAPS =
 	R: 'suwy tvxz LClc MDmd NEne'  
 R = 60
 
-cube = (i//9 for i in range 54)
-backup = cube.slice()
-rot = [50,50]
-last = [0,0]
+backup = (i//9 for i in range 54)
+cube = null
 
 change = (letters) -> 
 	cube = backup.slice()
@@ -25,31 +23,20 @@ change = (letters) ->
 			[a,b,c,d] = if LETTER == letter then [l,i,j,k] else [j,k,l,i]
 			[cube[a],cube[b],cube[c],cube[d]] = [cube[i],cube[j],cube[k],cube[l]]
 
-setup = -> 
-	createCanvas 800,800, WEBGL
+setup = -> createCanvas 800,800, WEBGL
 
 draw = ->
 	change txt.value
 	background 0
-
 	orbitControl 4,4
-
-	index = 0
 	for side in range 6
 		rotateX HALF_PI * [1,1,1,1,0,0][side]
 		rotateZ HALF_PI * [0,0,0,0,1,2][side]
-		for [i,j] in [[-1,-1],[0,-1],[1,-1],[1,0],[1,1],[0,1],[-1,1],[-1,0],[0,0]]
+		for [i,j],k in [[-1,-1],[0,-1],[1,-1],[1,0],[1,1],[0,1],[-1,1],[-1,0],[0,0]]
 			push()
 			translate 2*R*i, 2*R, 2*R*j
-
 			beginShape()
-			fill COLORS[cube[index]]
-			vertex -R,R,-R
-			vertex +R,R,-R
-			vertex +R,R,+R
-			vertex -R,R,+R
+			fill COLORS[cube[9*side+k]]
+			vertex x,R,z for [x,z] in [[-R,-R],[R,-R],[R,R],[-R,R]]				
 			endShape(CLOSE)
-
 			pop()
-			index += 1
-
