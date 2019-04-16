@@ -22,12 +22,12 @@ draw = ->
 			[cube[a],cube[b],cube[c],cube[d]] = [cube[i],cube[j],cube[k],cube[l]]
 
 	background 0
-	orbitControl 4,4
+	orbitControl 4,4 # speed
 	for side in range 6
 		rotateX HALF_PI * [1,1,1,1,0,0][side]
 		rotateZ HALF_PI * [0,0,0,0,1,2][side]
-		for [i,j],k in [[-1,-1],[0,-1],[1,-1],[1,0],[1,1],[0,1],[-1,1],[-1,0],[0,0]]
+		for [i,j],k in [[0,0],[2,0],[4,0],[4,2],[4,4],[2,4],[0,4],[0,2],[2,2]]
 			beginShape()
 			fill COLORS[cube[9*side+k]]
-			vertex 2*R*i+x,2*R+R,2*R*j+z for [x,z] in [[-R,-R],[R,-R],[R,R],[-R,R]]				
+			vertex R*(i+x-3), 3*R, R*(j+z-3) for [x,z] in [[0,0],[2,0],[2,2],[0,2]]				
 			endShape()
