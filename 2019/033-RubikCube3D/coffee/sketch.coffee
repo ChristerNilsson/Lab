@@ -32,9 +32,7 @@ draw = ->
 		rotateX HALF_PI * [1,1,1,1,0,0][side]
 		rotateZ HALF_PI * [0,0,0,0,1,2][side]
 		for [i,j],k in [[-1,-1],[0,-1],[1,-1],[1,0],[1,1],[0,1],[-1,1],[-1,0],[0,0]]
-			translate 2*R*i, 2*R, 2*R*j
 			beginShape()
 			fill COLORS[cube[9*side+k]]
-			vertex x,R,z for [x,z] in [[-R,-R],[R,-R],[R,R],[-R,R]]				
+			vertex 2*R*i+x,2*R+R,2*R*j+z for [x,z] in [[-R,-R],[R,-R],[R,R],[-R,R]]				
 			endShape()
-			translate -2*R*i, -2*R, -2*R*j
