@@ -22,3 +22,5 @@ Denna omvandlas till (x,y) mha GPS.gps2bmp()
 Därefter kan positionen ritas in på kartan.
 
 Distanskalkylator: http://edwilliams.org/gccalc.htm
+
+Högupplösta orienteringskartor: https://www.omaps.net

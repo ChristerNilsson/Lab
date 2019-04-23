@@ -1,12 +1,18 @@
-FILENAME = '2019-Vinter.jpg'
+FILENAME = '2019-Sommar.jpg'
 
 spara = (lat,lon, x,y) -> {lat,lon, x,y}
 
 # Vinterpasset 2019
-A = spara 59.285607,18.150687, 178,442   # Norra brofästet
-B = spara 59.284808,18.180402, 3222,338  # Shooting Range, mitt i huset
-C = spara 59.270078,18.150334, 359,3488  # Östra brofästet
-D = spara 59.269380,18.169612, 2303,3494 # Kolarängsvägen/Klisätravägen
+# A = spara 59.285607,18.150687, 178,442   # Norra brofästet
+# B = spara 59.284808,18.180402, 3222,338  # Shooting Range, mitt i huset
+# C = spara 59.270078,18.150334, 359,3488  # Östra brofästet
+# D = spara 59.269380,18.169612, 2303,3494 # Kolarängsvägen/Klisätravägen
+
+# Sommarpasset 2019
+A = spara 59.300751, 18.125673, 223, 168  # Lilla halvön
+B = spara 59.300588, 18.163454, 2680, 126  # Huset Hästhagen
+C = spara 59.281980, 18.124751, 311, 2598  # Vägkorsning
+D = spara 59.269734, 18.167462, 3165, 3915 # Vändplan Klisätravägen
 
 DATA = "gpsKarta"
 WIDTH = null
