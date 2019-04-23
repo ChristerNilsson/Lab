@@ -1,12 +1,13 @@
 0 Se till att kameran har maximal upplösning.
 * Kan ställas in med: Superresolution till 9216*6912 (Asus 64 MP)
-1 Fotografera av kartan.
-2 Välj fyra hörnpunkter som syns bra i Google Maps
-3 Tag reda på deras lat och long mha högerklick|"What's here"
-4 Tag reda på x och y mha measure.coffee
+1 SE TILL ATT NORD/SYD linjer är aligned med bitmappen!
+2 Fotografera av kartan.
+3 Välj fyra hörnpunkter som syns bra i Google Maps
+4 Tag reda på deras lat och long mha högerklick|"What's here"
+5 Tag reda på x och y mha measure.coffee
   Byt sketch.js mot measure.js i index.html
   Byt kartnamn i measure.coffee
-5 Lägg in dessa 4x4 värden i A,B,C och D
+6 Lägg in dessa 4x4 värden i A,B,C och D
 
 Se även bildfilen Construction.jpg
 

@@ -9,10 +9,15 @@ spara = (lat,lon, x,y) -> {lat,lon, x,y}
 # D = spara 59.269380,18.169612, 2303,3494 # Kolarängsvägen/Klisätravägen
 
 # Sommarpasset 2019
-A = spara 59.300751, 18.125673, 223, 168  # Lilla halvön
-B = spara 59.300588, 18.163454, 2680, 126  # Huset Hästhagen
-C = spara 59.281980, 18.124751, 311, 2598  # Vägkorsning
-D = spara 59.269734, 18.167462, 3165, 3915 # Vändplan Klisätravägen
+# A = spara 59.300751, 18.125673, 223, 168  # Lilla halvön
+# B = spara 59.300588, 18.163454, 2680, 126  # Huset Hästhagen
+# C = spara 59.281980, 18.124751, 311, 2598  # Vägkorsning
+# D = spara 59.269734, 18.167462, 3165, 3915 # Vändplan Klisätravägen
+
+A = spara 59.300636, 18.125728, 126,258 # Lilla halvön
+B = spara 59.299235, 18.169492, 3048,174 # Kranglans väg/Östervägen
+C = spara 59.281980, 18.124749, 276,2700 # Vägkorsning
+D = spara 59.275129, 18.169582, 3414,3308 # Huset Vändplan Ulvsjön
 
 DATA = "gpsKarta"
 WIDTH = null
@@ -78,12 +83,15 @@ makeCorners = ->
 	gps = new GPS nw,ne,se,sw,WIDTH,HEIGHT
 
 locationUpdate = (p) ->
+	#print 
 	lat = p.coords.latitude
-	lon = p.coords.longitude
+	lon = p.coords.longitude #+0.000500
+	#print 'locationUpdate',lat,lon,gps
 	position = gps.gps2bmp lat,lon
 	track.push position
 	if track.length > TRACKED then track.shift()
 	xdraw()
+	position
 
 locationUpdateFail = (error) ->	if error.code == error.PERMISSION_DENIED then messages = ['Check location permissions']
 
@@ -148,6 +156,30 @@ setup = ->
 			if button.contains touch.pageX,touch.pageY then button.click()
 		xdraw()
 
+	# test 
+	# 	lat: 59.279170
+	# 	lon: 18.149327 # +0.000500
+	# 	x: 1932
+	# 	y: 2923
+
+	# test 
+	# 	lat:59.285496
+	# 	lon: 18.150525 # +0.000500
+	# 	x: 1978
+	# 	y: 2074
+	# # test A
+	# # test B
+	# test C
+	# test D
+
+test = ({lat,lon,x,y}) ->
+	print 'test'
+	hash =
+		coords:
+			latitude:  lat
+			longitude: lon
+	print x,y,locationUpdate hash
+
 drawTrack = ->
 	push()
 	fc()
@@ -199,11 +231,11 @@ xdraw = ->
 	for message,i in messages
 		text message,width/2,50*(i+1)
 
-# mousePressed = -> # For use on PC during development only.
-# 	x = cx + mouseX/SCALE - width/2
-# 	y = cy + mouseY/SCALE - height/2
-# 	print {mouseX,mouseY,cx,cy,SCALE,x,y}
-# 	print gps.bmp2gps mouseX,mouseY
-# 	for button in buttons
-# 		if button.contains mouseX,mouseY then button.click()
-# 	xdraw()
+mousePressed = -> # For use on PC during development only.
+	x = cx + mouseX/SCALE - width/2
+	y = cy + mouseY/SCALE - height/2
+	print {mouseX,mouseY,cx,cy,SCALE,x,y}
+	print gps.bmp2gps mouseX,mouseY
+	for button in buttons
+		if button.contains mouseX,mouseY then button.click()
+	xdraw()

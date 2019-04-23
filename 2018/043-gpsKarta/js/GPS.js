@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
@@ -20,36 +20,41 @@ GPS = function () {
     this.sw = sw;
     this.w = w;
     this.h = h;
+    print('constructor');
   }
 
   _createClass(GPS, [{
-    key: "map_lon",
+    key: 'map_lon',
     value: function map_lon(mlat, mlon, a, b) {
       var lat, lon, x, y;
       x = map(mlon, a.lon, b.lon, a.x, b.x);
       y = map(mlon, a.lon, b.lon, a.y, b.y);
       lat = map(mlon, a.lon, b.lon, a.lat, b.lat);
       lon = mlon;
+      //print {lat,lon,x,y} 	
       return { lat: lat, lon: lon, x: x, y: y };
     }
   }, {
-    key: "map_lat",
+    key: 'map_lat',
     value: function map_lat(mlat, mlon, a, b) {
       var lat, lon, x, y;
       x = map(mlat, a.lat, b.lat, a.x, b.x);
       y = map(mlat, a.lat, b.lat, a.y, b.y);
       lat = mlat;
       lon = map(mlat, a.lat, b.lat, a.lon, b.lon);
+      //print {lat,lon,x,y} 	
       return { lat: lat, lon: lon, x: x, y: y };
     }
   }, {
-    key: "gps2bmp",
+    key: 'gps2bmp',
     value: function gps2bmp(mlat, mlon) {
       var q1, q2, x, y;
+      //console.log 'gps2bmp'
       q1 = this.map_lon(mlat, mlon, this.nw, this.ne);
       q2 = this.map_lon(mlat, mlon, this.sw, this.se);
       x = round(map(mlat, q1.lat, q2.lat, q1.x, q2.x));
       y = round(map(mlat, q1.lat, q2.lat, q1.y, q2.y));
+      //print [x,y]
       return [x, y];
     }
 
@@ -60,7 +65,7 @@ GPS = function () {
     //[int(x1),int(y1)]
 
   }, {
-    key: "assert_gps2bmp",
+    key: 'assert_gps2bmp',
     value: function assert_gps2bmp(p, error) {
       var x, y;
 
@@ -74,32 +79,38 @@ GPS = function () {
       return assert(error, [x - p.x, y - p.y]);
     }
   }, {
-    key: "map_x",
+    key: 'map_x',
     value: function map_x(x, y, a, b) {
       var lat, lon;
       lon = map(x, a.x, b.x, a.lon, b.lon);
       lat = map(x, a.x, b.x, a.lat, b.lat);
+
+      //print {lat,lon,x,y} 	
       return { lat: lat, lon: lon, x: x, y: y };
     }
   }, {
-    key: "map_y",
+    key: 'map_y',
     value: function map_y(x, y, a, b) {
       var lat, lon;
       lon = map(y, a.y, b.y, a.lon, b.lon);
       lat = map(y, a.y, b.y, a.lat, b.lat);
+
+      //print {lat,lon,x,y} 	
       return { lat: lat, lon: lon, x: x, y: y };
     }
   }, {
-    key: "bmp2gps",
+    key: 'bmp2gps',
     value: function bmp2gps(mx, my) {
       var q, q1, q2;
+      //console.log 'bmp2gps'
       q1 = this.map_x(mx, 0, this.nw, this.ne);
       q2 = this.map_x(mx, HEIGHT, this.sw, this.se);
       q = this.map_y(mx, my, q1, q2);
+      //print [myround(q.lat,6),myround(q.lon,6)]
       return [myround(q.lat, 6), myround(q.lon, 6)];
     }
   }, {
-    key: "assert_bmp2gps",
+    key: 'assert_bmp2gps',
     value: function assert_bmp2gps(p, error) {
       var lat, lon;
 
