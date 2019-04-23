@@ -1,7 +1,6 @@
-0 Se till att kameran har maximal upplösning.
-* Kan ställas in med: Superresolution till 9216*6912 (Asus 64 MP)
-1 SE TILL ATT NORD/SYD linjer är aligned med bitmappen!
-2 Fotografera av kartan.
+Använd ej kamera. Scanna ger mycket brättre resultat. Högre upplösning, inget parallaxfel.
+* Brother: ställ in Scanning färg, 600 dpi, maxmiakl filstorlek.
+1 (SE TILL ATT NORD/SYD linjer är aligned med bitmappen!)
 3 Välj fyra hörnpunkter som syns bra i Google Maps
 4 Tag reda på deras lat och long mha högerklick|"What's here"
 5 Tag reda på x och y mha measure.coffee

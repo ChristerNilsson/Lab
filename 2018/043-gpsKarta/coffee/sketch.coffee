@@ -1,4 +1,4 @@
-FILENAME = '2019-Sommar.jpg'
+FILENAME = '2019-Sommar1.jpg'
 
 spara = (lat,lon, x,y) -> {lat,lon, x,y}
 
@@ -14,10 +14,10 @@ spara = (lat,lon, x,y) -> {lat,lon, x,y}
 # C = spara 59.281980, 18.124751, 311, 2598  # Vägkorsning
 # D = spara 59.269734, 18.167462, 3165, 3915 # Vändplan Klisätravägen
 
-A = spara 59.300636, 18.125728, 126,258 # Lilla halvön
-B = spara 59.299235, 18.169492, 3048,174 # Kranglans väg/Östervägen
-C = spara 59.281980, 18.124749, 276,2700 # Vägkorsning
-D = spara 59.275129, 18.169582, 3414,3308 # Huset Vändplan Ulvsjön
+A = spara 59.300716, 18.125680, 217,138 # Lilla halvön
+B = spara 59.299235, 18.169492, 4326,241 # Kranglans väg/Östervägen
+C = spara 59.285443, 18.124585, 238,2940 # Spelplan
+D = spara 59.287806, 18.170784, 4536,2328 # Mittenhus t v
 
 DATA = "gpsKarta"
 WIDTH = null
@@ -156,21 +156,28 @@ setup = ->
 			if button.contains touch.pageX,touch.pageY then button.click()
 		xdraw()
 
+
 	# test 
 	# 	lat: 59.279170
-	# 	lon: 18.149327 # +0.000500
+	# 	lon: 18.149327 
 	# 	x: 1932
 	# 	y: 2923
 
-	# test 
-	# 	lat:59.285496
-	# 	lon: 18.150525 # +0.000500
-	# 	x: 1978
-	# 	y: 2074
-	# # test A
-	# # test B
-	# test C
-	# test D
+	test # Bron Ö om golfstugan
+		lat:59.285496
+		lon: 18.150525 
+		x: 2662
+		y: 2830
+	# test A
+	# test B
+	#test C
+	#test D
+
+	# test # Brotorpsbron
+	# 	lat: 59.270066 
+	# 	lon: 18.150228
+	# 	x: 2171
+	# 	y: 4124
 
 test = ({lat,lon,x,y}) ->
 	print 'test'

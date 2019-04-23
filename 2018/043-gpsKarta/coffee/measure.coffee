@@ -5,7 +5,7 @@
 
 img = null 
 
-preload = -> img = loadImage '2019-Sommar.jpg'
+preload = -> img = loadImage '2019-Sommar1.jpg'
 
 setup = ->
 	createCanvas img.width, img.height

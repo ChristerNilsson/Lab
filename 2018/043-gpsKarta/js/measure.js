@@ -10,7 +10,7 @@ var img, mousePressed, preload, setup;
 img = null;
 
 preload = function preload() {
-  return img = loadImage('2019-Sommar.jpg');
+  return img = loadImage('2019-Sommar1.jpg');
 };
 
 setup = function setup() {
