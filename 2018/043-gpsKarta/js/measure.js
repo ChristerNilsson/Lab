@@ -9,8 +9,9 @@ var img, mousePressed, preload, setup;
 
 img = null;
 
+//preload = -> img = loadImage '2019-SommarN.jpg'
 preload = function preload() {
-  return img = loadImage('2019-Sommar1.jpg');
+  return img = loadImage('2019-SommarS.jpg');
 };
 
 setup = function setup() {
