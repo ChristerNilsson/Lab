@@ -231,11 +231,11 @@ xdraw = ->
 	for message,i in messages
 		text message,width/2,50*(i+1)
 
-mousePressed = -> # For use on PC during development only.
-	x = cx + mouseX/SCALE - width/2
-	y = cy + mouseY/SCALE - height/2
-	print {mouseX,mouseY,cx,cy,SCALE,x,y}
-	print gps.bmp2gps mouseX,mouseY
-	for button in buttons
-		if button.contains mouseX,mouseY then button.click()
-	xdraw()
+# mousePressed = -> # For use on PC during development only.
+# 	x = cx + mouseX/SCALE - width/2
+# 	y = cy + mouseY/SCALE - height/2
+# 	print {mouseX,mouseY,cx,cy,SCALE,x,y}
+# 	print gps.bmp2gps mouseX,mouseY
+# 	for button in buttons
+# 		if button.contains mouseX,mouseY then button.click()
+# 	xdraw()
