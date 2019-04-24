@@ -46,8 +46,7 @@ img = null
 bearing = 360
 messages = []
 
-preload = -> 
-	img = loadImage FILENAME
+preload = -> img = loadImage FILENAME
 
 myround = (x,dec=6) ->
 	x *= 10**dec
@@ -117,8 +116,8 @@ setup = ->
 	#document.documentElement.requestFullScreen();
 	#screen.orientation.lock "natural"
 	#screen.orientation.lock "natural"
-	if ANDROID
-		window.screen.lockOrientation 'portrait'
+	#if ANDROID
+	#	window.screen.lockOrientation 'portrait'
 
 	createCanvas windowWidth,windowHeight
 

@@ -168,9 +168,8 @@ setup = function setup() {
   //document.documentElement.requestFullScreen();
   //screen.orientation.lock "natural"
   //screen.orientation.lock "natural"
-  if (ANDROID) {
-    window.screen.lockOrientation('portrait');
-  }
+  //if ANDROID
+  //	window.screen.lockOrientation 'portrait'
   createCanvas(windowWidth, windowHeight);
   WIDTH = img.width;
   HEIGHT = img.height;
