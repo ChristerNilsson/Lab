@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
@@ -71,7 +71,9 @@ bearing = 360;
 messages = [];
 
 preload = function preload() {
-  return img = loadImage(FILENAME);
+  img = loadImage(FILENAME);
+  document.documentElement.requestFullScreen();
+  return screen.orientation.lock("natural");
 };
 
 myround = function myround(x) {
@@ -83,7 +85,7 @@ myround = function myround(x) {
 };
 
 show = function show(prompt, p) {
-  return print(prompt, 'http://maps.google.com/maps?q=' + p.lat + ',' + p.lon);
+  return print(prompt, "http://maps.google.com/maps?q=" + p.lat + "," + p.lon);
 };
 
 vercal = function vercal(a, b, y) {
@@ -167,7 +169,7 @@ fetchData = function fetchData() {
 setup = function setup() {
   var x, x1, x2, y, y1, y2;
   createCanvas(windowWidth, windowHeight);
-  screen.orientation.lock("natural");
+  //screen.orientation.lock "natural"
   WIDTH = img.width;
   HEIGHT = img.height;
   cx = WIDTH / 2;

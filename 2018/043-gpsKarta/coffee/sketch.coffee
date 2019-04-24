@@ -44,7 +44,10 @@ img = null
 bearing = 360
 messages = []
 
-preload = -> img = loadImage FILENAME
+preload = -> 
+	img = loadImage FILENAME
+	document.documentElement.requestFullScreen();
+	screen.orientation.lock "natural"
 
 myround = (x,dec=6) ->
 	x *= 10**dec
@@ -113,7 +116,7 @@ fetchData = -> if localStorage[DATA] then points = JSON.parse localStorage[DATA]
 setup = ->
 	createCanvas windowWidth,windowHeight
 
-	screen.orientation.lock "natural"
+	#screen.orientation.lock "natural"
 
 	WIDTH = img.width
 	HEIGHT = img.height
