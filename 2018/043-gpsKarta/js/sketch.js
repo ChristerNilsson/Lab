@@ -221,7 +221,7 @@ setup = function setup() {
   });
   setupCompass();
   xdraw();
-  addEventListener('touchstart', function (evt) {
+  return addEventListener('touchstart', function (evt) {
     var button, j, len, touch, touches;
     touches = evt.changedTouches;
     touch = touches[touches.length - 1];
@@ -233,22 +233,23 @@ setup = function setup() {
     }
     return xdraw();
   });
-  // test 
-  // 	lat: 59.279170
-  // 	lon: 18.149327 
-  // 	x: 1932
-  // 	y: 2923
-
-  // test # Bron Ö om golfstugan
-  // 	lat:59.285496
-  // 	lon: 18.150525 
-  // 	x: 2662
-  // 	y: 2830
-  // test A
-  // test B
-  test(C);
-  return test(D);
 };
+
+// test 
+// 	lat: 59.279170
+// 	lon: 18.149327 
+// 	x: 1932
+// 	y: 2923
+
+// test # Bron Ö om golfstugan
+// 	lat:59.285496
+// 	lon: 18.150525 
+// 	x: 2662
+// 	y: 2830
+// test A
+// test B
+// test C
+// test D
 
 // test # Brotorpsbron
 // 	lat: 59.270066 
@@ -277,7 +278,7 @@ drawTrack = function drawTrack() {
   push();
   fc();
   sw(2);
-  sc(0, 1, 0); // GREEN
+  sc(0); // BLACK
   translate(width / 2, height / 2);
   scale(SCALE);
   for (i = j = 0, len = track.length; j < len; i = ++j) {
@@ -286,7 +287,7 @@ drawTrack = function drawTrack() {
     x = _track$i[0];
     y = _track$i[1];
 
-    circle(x - cx, y - cy, 10 * (track.length - i));
+    circle(x - cx, y - cy, 20 * (track.length - i));
   }
   return pop();
 };
@@ -336,7 +337,7 @@ drawCompass = function drawCompass() {
 
 xdraw = function xdraw() {
   var i, j, len, message, results;
-  bg(0);
+  bg(1, 1, 0);
   fc();
   image(img, 0, 0, width, height, cx - width / SCALE / 2, cy - height / SCALE / 2, width / SCALE, height / SCALE);
   drawTrack();

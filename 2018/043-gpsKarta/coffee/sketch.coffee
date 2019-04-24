@@ -177,8 +177,8 @@ setup = ->
 	# 	y: 2830
 	# test A
 	# test B
-	test C
-	test D
+	# test C
+	# test D
 
 	# test # Brotorpsbron
 	# 	lat: 59.270066 
@@ -198,11 +198,11 @@ drawTrack = ->
 	push()
 	fc()
 	sw 2
-	sc 0,1,0 # GREEN
+	sc 0 # BLACK
 	translate width/2, height/2
 	scale SCALE
 	for [x,y],i in track
-		circle x-cx, y-cy, 10 * (track.length-i)
+		circle x-cx, y-cy, 20 * (track.length-i)
 	pop()
 
 drawPoints = ->
@@ -234,7 +234,7 @@ drawCompass = ->
 	pop()
 
 xdraw = ->
-	bg 0
+	bg 1,1,0
 	fc()
 	image img, 0,0, width,height, cx-width/SCALE/2, cy-height/SCALE/2, width/SCALE, height/SCALE
 	drawTrack()
