@@ -1,5 +1,7 @@
 FILENAME = '2019-SommarS.jpg' # S eller N
 
+ANDROID = true
+
 spara = (lat,lon, x,y) -> {lat,lon, x,y}
 
 # Vinterpasset 2019
@@ -46,8 +48,6 @@ messages = []
 
 preload = -> 
 	img = loadImage FILENAME
-	document.documentElement.requestFullScreen();
-	screen.orientation.lock "natural"
 
 myround = (x,dec=6) ->
 	x *= 10**dec
@@ -114,9 +114,13 @@ storeData = -> localStorage[DATA] = JSON.stringify points
 fetchData = -> if localStorage[DATA] then points = JSON.parse localStorage[DATA]
 
 setup = ->
-	createCanvas windowWidth,windowHeight
-
+	#document.documentElement.requestFullScreen();
 	#screen.orientation.lock "natural"
+	#screen.orientation.lock "natural"
+	if ANDROID
+		window.screen.lockOrientation 'portrait'
+
+	createCanvas windowWidth,windowHeight
 
 	WIDTH = img.width
 	HEIGHT = img.height
@@ -146,7 +150,7 @@ setup = ->
 	buttons.push new Button 'C',x,y, ->	[cx,cy] = position
 	buttons.push new Button 'R',x2,y, -> cx += 0.5*width/SCALE
 	buttons.push new Button 'D',x,y2, -> cy += 0.5*height/SCALE
-	buttons.push new Button '-',x1,y2, -> SCALE /= 1.5
+	buttons.push new Button 'M',x1,y2, -> SCALE /= 1.5
 	buttons.push new Button '+',x2,y2, ->	SCALE *= 1.5
 
 	makeCorners()
