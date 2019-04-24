@@ -21,7 +21,7 @@ Kontrollernas diameter är cirka 75 meter.
 
 Praktisk noggrannhet tycks ligga kring 10 meter.
 
-Den egna positionen visas med fem gula cirklar. Den minsta cirkeln är den senaste.
+Den egna positionen visas med fem svarta cirklar. Den minsta cirkeln är den senaste.
 
 Hindra skärmrotation på din mobil (Android) :
 * Settings

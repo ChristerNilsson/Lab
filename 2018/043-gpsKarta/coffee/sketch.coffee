@@ -1,6 +1,6 @@
 FILENAME = '2019-SommarS.jpg' # S eller N
 
-ANDROID = true
+#ANDROID = true
 
 spara = (lat,lon, x,y) -> {lat,lon, x,y}
 
