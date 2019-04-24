@@ -210,7 +210,7 @@ setup = function setup() {
   buttons.push(new Button('D', x, y2, function () {
     return cy += 0.5 * height / SCALE;
   }));
-  buttons.push(new Button('M', x1, y2, function () {
+  buttons.push(new Button('-', x1, y2, function () {
     return SCALE /= 1.5;
   }));
   buttons.push(new Button('+', x2, y2, function () {

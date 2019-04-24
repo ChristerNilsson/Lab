@@ -149,7 +149,7 @@ setup = ->
 	buttons.push new Button 'C',x,y, ->	[cx,cy] = position
 	buttons.push new Button 'R',x2,y, -> cx += 0.5*width/SCALE
 	buttons.push new Button 'D',x,y2, -> cy += 0.5*height/SCALE
-	buttons.push new Button 'M',x1,y2, -> SCALE /= 1.5
+	buttons.push new Button '-',x1,y2, -> SCALE /= 1.5
 	buttons.push new Button '+',x2,y2, ->	SCALE *= 1.5
 
 	makeCorners()
