@@ -3,8 +3,8 @@ class Button
 	contains : (mx,my) -> @radius > dist mx,my,@x,@y
 	draw : ->
 		sw 3
-		sc 1,1,0,0.5
-		fc()
+		sc 0,0,0,0.5
+		fc 0,0,0,0.1
 		circle @x,@y,@radius
 		textAlign CENTER,CENTER
 		textSize 100

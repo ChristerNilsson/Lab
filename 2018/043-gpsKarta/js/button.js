@@ -29,8 +29,8 @@ Button = function () {
     key: "draw",
     value: function draw() {
       sw(3);
-      sc(1, 1, 0, 0.5);
-      fc();
+      sc(0, 0, 0, 0.5);
+      fc(0, 0, 0, 0.1);
       circle(this.x, this.y, this.radius);
       textAlign(CENTER, CENTER);
       textSize(100);

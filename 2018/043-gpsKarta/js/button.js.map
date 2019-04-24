@@ -6,8 +6,8 @@
     "coffee\\button.coffee"
   ],
   "names": [],
-  "mappings": ";;;;;;;AAAA,IAAA;;AAAM,AAAN;AACC,AAAc,kBAAA,QAAA,GAAA;oFAAwB,YAAA,CAAxB;;;;AAAC,AAAC,SAAA;AAAO,AAAC,SAAA;AAAE,AAAC,SAAA;AAAE,AAAC,SAAA;AAAe,AAAC,SAAA,AAAD,SAAU,AAAzC;AACd,AAAW;;;;6BAAC,AAAD,IAAI,AAAJ;aAAW,AAAC,KAAA,AAAD,SAAU,KAAK,AAAL,IAAQ,AAAR,IAAW,AAAC,KAAA,AAAZ,GAAc,AAAC,KAAA,AAAf,AAArB;AACX,AAAO;;;;AACN,SAAG,AAAH;AACA,SAAG,AAAH,GAAK,AAAL,GAAO,AAAP,GAAS,AAAT;AACA;AACA,aAAO,AAAC,KAAA,AAAR,GAAU,AAAC,KAAA,AAAX,GAAa,AAAC,KAAA,AAAd;AACA,gBAAU,AAAV,QAAiB,AAAjB;AACA,eAAS,AAAT;AACA,SAAG,AAAH,GAAK,AAAL,GAAO,AAAP,GAAS,AAAT;AACA,SAAG,AAAH;aACA,KAAK,AAAC,KAAA,AAAN,QAAa,AAAC,KAAA,AAAd,GAAgB,AAAC,KAAA,AAAjB,AATM;AAHR",
+  "mappings": ";;;;;;;AAAA,IAAA;;AAAM,AAAN;AACC,AAAc,kBAAA,QAAA,GAAA;oFAAwB,YAAA,CAAxB;;;;AAAC,AAAC,SAAA;AAAO,AAAC,SAAA;AAAE,AAAC,SAAA;AAAE,AAAC,SAAA;AAAe,AAAC,SAAA,AAAD,SAAU,AAAzC;AACd,AAAW;;;;6BAAC,AAAD,IAAI,AAAJ;aAAW,AAAC,KAAA,AAAD,SAAU,KAAK,AAAL,IAAQ,AAAR,IAAW,AAAC,KAAA,AAAZ,GAAc,AAAC,KAAA,AAAf,AAArB;AACX,AAAO;;;;AACN,SAAG,AAAH;AACA,SAAG,AAAH,GAAK,AAAL,GAAO,AAAP,GAAS,AAAT;AACA,SAAG,AAAH,GAAK,AAAL,GAAO,AAAP,GAAS,AAAT;AACA,aAAO,AAAC,KAAA,AAAR,GAAU,AAAC,KAAA,AAAX,GAAa,AAAC,KAAA,AAAd;AACA,gBAAU,AAAV,QAAiB,AAAjB;AACA,eAAS,AAAT;AACA,SAAG,AAAH,GAAK,AAAL,GAAO,AAAP,GAAS,AAAT;AACA,SAAG,AAAH;aACA,KAAK,AAAC,KAAA,AAAN,QAAa,AAAC,KAAA,AAAd,GAAgB,AAAC,KAAA,AAAjB,AATM;AAHR",
   "sourcesContent": [
-    "class Button\r\n\tconstructor : (@prompt,@x,@y,@click = ->) -> @radius = 100\r\n\tcontains : (mx,my) -> @radius > dist mx,my,@x,@y\r\n\tdraw : ->\r\n\t\tsw 3\r\n\t\tsc 1,1,0,0.5\r\n\t\tfc()\r\n\t\tcircle @x,@y,@radius\r\n\t\ttextAlign CENTER,CENTER\r\n\t\ttextSize 100\r\n\t\tfc 1,1,0,0.5\r\n\t\tsc 0\r\n\t\ttext @prompt,@x,@y"
+    "class Button\r\n\tconstructor : (@prompt,@x,@y,@click = ->) -> @radius = 100\r\n\tcontains : (mx,my) -> @radius > dist mx,my,@x,@y\r\n\tdraw : ->\r\n\t\tsw 3\r\n\t\tsc 0,0,0,0.5\r\n\t\tfc 0,0,0,0.1\r\n\t\tcircle @x,@y,@radius\r\n\t\ttextAlign CENTER,CENTER\r\n\t\ttextSize 100\r\n\t\tfc 1,1,0,0.5\r\n\t\tsc 0\r\n\t\ttext @prompt,@x,@y"
   ]
 }
