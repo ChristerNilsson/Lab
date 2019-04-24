@@ -6,8 +6,8 @@
     "coffee\\GlobalMercator.coffee"
   ],
   "names": [],
-  "mappings": ";AAAA",
+  "mappings": "",
   "sourcesContent": [
-    "# http://www.maptiler.org/google-maps-coordinates-tile-bounds-projection/\r\n\r\n# class GlobalMercator\r\n# \tconstructor : (@tileSize=256) ->\r\n# \t\t@initialResolution = 2 * Math.PI * 6378137 / @tileSize\r\n# \t\t# 156543.03392804062 for tileSize 256 pixels\r\n# \t\t@originShift = 2 * Math.PI * 6378137 / 2.0\r\n# \t\t# 20037508.342789244\r\n\r\n# \tLatLonToMeters : (lat, lon) ->\r\n# \t\t# \"Converts given lat/lon in WGS84 Datum to XY in Spherical Mercator EPSG:900913\"\r\n\r\n# \t\tmx = lon * @originShift / 180.0\r\n# \t\tmy = Math.log(Math.tan((90 + lat) * Math.PI / 360.0)) / (Math.PI / 180.0)\r\n# \t\tmy = my * @originShift / 180.0\r\n# \t\t[mx, my]\r\n\r\n# \tMetersToLatLon : (mx, my) ->\r\n# \t\t# \"Converts XY point from Spherical Mercator EPSG:900913 to lat/lon in WGS84 Datum\"\r\n# \t\tlon = (mx / @originShift) * 180.0\r\n# \t\tlat = (my / @originShift) * 180.0\r\n# \t\tlat = 180 / Math.PI * (2 * Math.atan(Math.exp(lat * Math.PI / 180.0)) - Math.PI / 2.0)\r\n# \t\t[lat, lon] \r\n"
+    ""
   ]
 }

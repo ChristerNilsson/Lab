@@ -163,7 +163,6 @@ setup = ->
 			if button.contains touch.pageX,touch.pageY then button.click()
 		xdraw()
 
-
 	# test 
 	# 	lat: 59.279170
 	# 	lon: 18.149327 
@@ -186,13 +185,13 @@ setup = ->
 	# 	x: 2171
 	# 	y: 4124
 
-test = ({lat,lon,x,y}) ->
-	print 'test'
-	hash =
-		coords:
-			latitude:  lat
-			longitude: lon
-	print x,y,locationUpdate hash
+# test = ({lat,lon,x,y}) ->
+# 	print 'test'
+# 	hash =
+# 		coords:
+# 			latitude:  lat
+# 			longitude: lon
+# 	print x,y,locationUpdate hash
 
 drawTrack = ->
 	push()
@@ -221,17 +220,17 @@ drawButtons = ->
 	for button in buttons
 		button.draw()
 
-drawCompass = ->
-	push()
-	strokeCap SQUARE
-	translate width/2, height/2
-	rotate radians bearing
-	sw 10
-	sc 1,0,0
-	line 0,-100,0,-150
-	sc 1
-	line 0,100,0,150
-	pop()
+# drawCompass = ->
+# 	push()
+# 	strokeCap SQUARE
+# 	translate width/2, height/2
+# 	rotate radians bearing
+# 	sw 10
+# 	sc 1,0,0
+# 	line 0,-100,0,-150
+# 	sc 1
+# 	line 0,100,0,150
+# 	pop()
 
 xdraw = ->
 	bg 1,1,0

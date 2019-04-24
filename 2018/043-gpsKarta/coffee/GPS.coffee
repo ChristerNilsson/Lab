@@ -60,4 +60,3 @@ class GPS # hanterar GPS konvertering
 	assert_bmp2gps : (p,error) ->
 		[lat,lon] = @bmp2gps p.x,p.y 
 		assert error, [myround(100000*(lat-p.lat),6), myround(50000*(lon-p.lon),6)]
-
