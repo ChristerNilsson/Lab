@@ -198,7 +198,7 @@ drawTrack = ->
 	push()
 	fc()
 	sw 2
-	sc 1,1,0 # YELLOW
+	sc 0,1,0 # GREEN
 	translate width/2, height/2
 	scale SCALE
 	for [x,y],i in track
@@ -239,7 +239,7 @@ xdraw = ->
 	image img, 0,0, width,height, cx-width/SCALE/2, cy-height/SCALE/2, width/SCALE, height/SCALE
 	drawTrack()
 	drawPoints()
-	drawCompass()
+	#drawCompass()
 	drawButtons()
 	textSize 50
 	for message,i in messages
