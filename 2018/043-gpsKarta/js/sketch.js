@@ -167,6 +167,7 @@ fetchData = function fetchData() {
 setup = function setup() {
   var x, x1, x2, y, y1, y2;
   createCanvas(windowWidth, windowHeight);
+  screen.orientation.lock("natural");
   WIDTH = img.width;
   HEIGHT = img.height;
   cx = WIDTH / 2;

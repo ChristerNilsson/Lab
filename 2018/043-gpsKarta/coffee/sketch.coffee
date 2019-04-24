@@ -113,6 +113,8 @@ fetchData = -> if localStorage[DATA] then points = JSON.parse localStorage[DATA]
 setup = ->
 	createCanvas windowWidth,windowHeight
 
+	screen.orientation.lock "natural"
+
 	WIDTH = img.width
 	HEIGHT = img.height
 
