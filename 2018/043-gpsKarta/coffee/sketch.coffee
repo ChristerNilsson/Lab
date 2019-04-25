@@ -142,7 +142,7 @@ setup = ->
 			storeData()
 
 	buttons.push new Button 'L',x1,y, -> cx -= 0.25*width/SCALE
-	buttons.push new Button 'C',x,y, ->	[cx,cy] = position
+	buttons.push new Button ' ',x,y, ->	[cx,cy] = position
 	buttons.push new Button 'R',x2,y, -> cx += 0.25*width/SCALE
 	buttons.push new Button 'D',x,y2, -> cy += 0.25*height/SCALE
 	buttons.push new Button '-',x1,y2, -> SCALE /= 1.2

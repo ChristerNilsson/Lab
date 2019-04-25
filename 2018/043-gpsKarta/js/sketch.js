@@ -195,7 +195,7 @@ setup = function setup() {
   buttons.push(new Button('L', x1, y, function () {
     return cx -= 0.25 * width / SCALE;
   }));
-  buttons.push(new Button('C', x, y, function () {
+  buttons.push(new Button(' ', x, y, function () {
     var _position, _position2;
 
     return _position = position, _position2 = _slicedToArray(_position, 2), cx = _position2[0], cy = _position2[1], _position;
