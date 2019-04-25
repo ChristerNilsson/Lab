@@ -104,28 +104,24 @@ locationUpdate = (p) ->
 
 locationUpdateFail = (error) ->	if error.code == error.PERMISSION_DENIED then messages = ['Check location permissions']
 
-# setupCompass = ->
-# 	window.addEventListener "deviceorientation", (event) ->
-# 		bearing = round event.alpha 
-# 		xdraw()
+setupCompass = ->
+	window.addEventListener "deviceorientation", (event) ->
+		bearing = round event.alpha 
+		xdraw()
 
 storeData = -> localStorage[DATA] = JSON.stringify points	
 fetchData = -> if localStorage[DATA] then points = JSON.parse localStorage[DATA]
 
 setup = ->
-	#document.documentElement.requestFullScreen();
-	#screen.orientation.lock "natural"
-	#screen.orientation.lock "natural"
-	#if ANDROID
-	#	window.screen.lockOrientation 'portrait'
 
 	createCanvas windowWidth,windowHeight
 
 	WIDTH = img.width
 	HEIGHT = img.height
 
-	[cx,cy] = [WIDTH/2,HEIGHT/2] 
-
+	SCALE = 1 
+	[cx,cy] = [width,height] 
+	
 	fetchData()
 
 	x = width/2
@@ -139,18 +135,18 @@ setup = ->
 		points.push position
 		storeData()
 
-	buttons.push new Button 'U',x,y1, -> cy -= 0.5*height/SCALE
+	buttons.push new Button 'U',x,y1, -> cy -= 0.25*height/SCALE
 	buttons.push new Button '0',x2,y1, -> 
 		if points.length > 0 
 			points.pop()
 			storeData()
 
-	buttons.push new Button 'L',x1,y, -> cx -= 0.5*width/SCALE
+	buttons.push new Button 'L',x1,y, -> cx -= 0.25*width/SCALE
 	buttons.push new Button 'C',x,y, ->	[cx,cy] = position
-	buttons.push new Button 'R',x2,y, -> cx += 0.5*width/SCALE
-	buttons.push new Button 'D',x,y2, -> cy += 0.5*height/SCALE
-	buttons.push new Button '-',x1,y2, -> SCALE /= 1.5
-	buttons.push new Button '+',x2,y2, ->	SCALE *= 1.5
+	buttons.push new Button 'R',x2,y, -> cx += 0.25*width/SCALE
+	buttons.push new Button 'D',x,y2, -> cy += 0.25*height/SCALE
+	buttons.push new Button '-',x1,y2, -> SCALE /= 1.2
+	buttons.push new Button '+',x2,y2, ->	SCALE *= 1.2
 
 	makeCorners()
 
@@ -161,7 +157,7 @@ setup = ->
 		maximumAge: 30000
 		timeout: 27000
 
-	#setupCompass()
+	setupCompass()
 	xdraw()
 
 	addEventListener 'touchstart', (evt) ->	
@@ -243,7 +239,9 @@ drawButtons = ->
 xdraw = ->
 	bg 1,1,0
 	fc()
+	#imageMode CENTER
 	image img, 0,0, width,height, cx-width/SCALE/2, cy-height/SCALE/2, width/SCALE, height/SCALE
+	#image img, cx, cy, width/SCALE/2, height/SCALE/2
 	drawTrack()
 	drawPoints()
 	#drawCompass()
