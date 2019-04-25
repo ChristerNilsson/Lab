@@ -30,7 +30,7 @@ Button = function () {
     value: function draw() {
       sw(3);
       sc(0, 0, 0, 0.5);
-      fc(0, 0, 0, 0.1);
+      fc(0, 0, 0, 0.2);
       circle(this.x, this.y, this.radius);
       textAlign(CENTER, CENTER);
       textSize(100);

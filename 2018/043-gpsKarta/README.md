@@ -7,9 +7,9 @@ Köp kartan [här](http://www.skogsluffarna.se/Arrangemang/Naturpasset)
 # Funktionalitet
 
 Man ser karta, kontroller samt egen position hela tiden.
-Kontrollernas diameter är cirka 75 meter.
+Kontrollernas diameter är cirka 100 meter.
 
-* C : Centrerar aktuell position
+*   : Centrerar aktuell position
 * L : Flyttar vänster
 * R : Flyttar höger
 * U : Flyttar upp

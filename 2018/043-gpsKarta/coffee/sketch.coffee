@@ -200,7 +200,7 @@ setup = ->
 drawTrack = ->
 	push()
 	fc()
-	sw 2
+	sw 4
 	sc 0 # BLACK
 	translate width/2, height/2
 	scale SCALE

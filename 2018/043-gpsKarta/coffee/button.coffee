@@ -4,7 +4,7 @@ class Button
 	draw : ->
 		sw 3
 		sc 0,0,0,0.5
-		fc 0,0,0,0.1
+		fc 0,0,0,0.2
 		circle @x,@y,@radius
 		textAlign CENTER,CENTER
 		textSize 100

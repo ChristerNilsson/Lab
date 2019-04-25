@@ -268,7 +268,7 @@ drawTrack = function drawTrack() {
   var i, j, len, x, y;
   push();
   fc();
-  sw(2);
+  sw(4);
   sc(0); // BLACK
   translate(width / 2, height / 2);
   scale(SCALE);
