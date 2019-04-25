@@ -231,7 +231,7 @@ drawButtons = ->
 # 	rotate radians bearing
 # 	sw 10
 # 	sc 1,0,0
-# 	line 0,-100,0,-150
+# 	line 0,-100,0,-1502
 # 	sc 1
 # 	line 0,100,0,150
 # 	pop()
@@ -250,11 +250,9 @@ xdraw = ->
 	for message,i in messages
 		text message,width/2,50*(i+1)
 
-# mousePressed = -> # For use on PC during development only.
-# 	x = cx + mouseX/SCALE - width/2
-# 	y = cy + mouseY/SCALE - height/2
-# 	print {mouseX,mouseY,cx,cy,SCALE,x,y}
-# 	print gps.bmp2gps mouseX,mouseY
-# 	for button in buttons
-# 		if button.contains mouseX,mouseY then button.click()
-# 	xdraw()
+keyPressed = ->
+	#         S  U  P  L SP  R  D   -   +
+	index = [83,85,80,76,32,82,68,189,187].indexOf keyCode
+	if index != -1 
+		buttons[index].click()
+		xdraw()

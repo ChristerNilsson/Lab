@@ -4,7 +4,7 @@ Underlättar orientering.
 
 Köp kartan [här](http://www.skogsluffarna.se/Arrangemang/Naturpasset)
 
-# Funktionalitet
+## Funktionalitet
 
 Man ser karta, kontroller samt egen position hela tiden.
 Kontrollernas diameter är cirka 100 meter.
@@ -17,7 +17,7 @@ Kontrollernas diameter är cirka 100 meter.
 * Minus : Zoomar ut
 * Plus : Zoomar in
 * S : Sparar aktuell position. Visas med rött.
-* 0 : Droppar senast sparad position. Visar antalet sparade.
+* P : Droppar senast sparad position. Visar antalet sparade.
 
 Praktisk noggrannhet tycks ligga kring 10 meter.
 
@@ -28,7 +28,12 @@ Hindra skärmrotation på din mobil (Android) :
 * Display
 * When device is rotated: Stay in portrait view
 
-# ToDo:
+## Arbetsgång
+* Tag ut kompassriktning till kontrollen
+* Gå i den riktningen eller gå runt hinder
+* Justera riktningen genom att iaktta de fem cirklarna
+
+## ToDo:
 
 *	Begränsa zoom
 *	Drag och pinch istf knappar
