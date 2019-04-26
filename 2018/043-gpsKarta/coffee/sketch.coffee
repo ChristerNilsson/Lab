@@ -1,20 +1,6 @@
 FILENAME = '2019-SommarS.jpg' # S eller N
 
-#ANDROID = true
-
 spara = (lat,lon, x,y) -> {lat,lon, x,y}
-
-# Vinterpasset 2019
-# A = spara 59.285607,18.150687, 178,442   # Norra brofästet
-# B = spara 59.284808,18.180402, 3222,338  # Shooting Range, mitt i huset
-# C = spara 59.270078,18.150334, 359,3488  # Östra brofästet
-# D = spara 59.269380,18.169612, 2303,3494 # Kolarängsvägen/Klisätravägen
-
-# Sommarpasset 2019
-# A = spara 59.300751, 18.125673, 223, 168  # Lilla halvön
-# B = spara 59.300588, 18.163454, 2680, 126  # Huset Hästhagen
-# C = spara 59.281980, 18.124751, 311, 2598  # Vägkorsning
-# D = spara 59.269734, 18.167462, 3165, 3915 # Vändplan Klisätravägen
 
 # 2019-SommarN
 # A = spara 59.300716, 18.125680, 197,278 # Lilla halvön
@@ -33,8 +19,6 @@ WIDTH = null
 HEIGHT = null
 [cx,cy] = [0,0] # center (image coordinates)
 SCALE = 1
-
-# released = true # to make Android work
 
 gps = null
 TRACKED = 5 # circles shows the player's position
@@ -92,10 +76,8 @@ makeCorners = ->
 	gps = new GPS nw,ne,se,sw,WIDTH,HEIGHT
 
 locationUpdate = (p) ->
-	#print 
 	lat = p.coords.latitude
 	lon = p.coords.longitude #+0.000500
-	#print 'locationUpdate',lat,lon,gps
 	position = gps.gps2bmp lat,lon
 	track.push position
 	if track.length > TRACKED then track.shift()
@@ -205,7 +187,7 @@ drawTrack = ->
 	translate width/2, height/2
 	scale SCALE
 	for [x,y],i in track
-		circle x-cx, y-cy, 20 * (track.length-i)
+		circle x-cx, y-cy, 10 * (track.length-i)
 	pop()
 
 drawPoints = ->
@@ -220,7 +202,6 @@ drawPoints = ->
 
 drawButtons = ->
 	buttons[2].prompt = points.length
-	#buttons[4].prompt = 360 - bearing
 	for button in buttons
 		button.draw()
 
@@ -239,9 +220,7 @@ drawButtons = ->
 xdraw = ->
 	bg 1,1,0
 	fc()
-	#imageMode CENTER
 	image img, 0,0, width,height, cx-width/SCALE/2, cy-height/SCALE/2, width/SCALE, height/SCALE
-	#image img, cx, cy, width/SCALE/2, height/SCALE/2
 	drawTrack()
 	drawPoints()
 	#drawCompass()
