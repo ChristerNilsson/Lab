@@ -3,16 +3,16 @@ FILENAME = '2019-SommarS.jpg' # S eller N
 spara = (lat,lon, x,y) -> {lat,lon, x,y}
 
 # 2019-SommarN
-# A = spara 59.300716, 18.125680, 197,278 # Lilla halvön
-# B = spara 59.299235, 18.169492, 4306,367 # Kranglans väg/Östervägen
-# C = spara 59.285443, 18.124585, 236,3082 # Ishockeyrink Mitten
-# D = spara 59.287806, 18.170784, 4525,2454 # Mittenhus t v
+A = spara 59.300716, 18.125680, 197,278 # Lilla halvön
+B = spara 59.299235, 18.169492, 4306,367 # Kranglans väg/Östervägen
+C = spara 59.285443, 18.124585, 236,3082 # Ishockeyrink Mitten
+D = spara 59.287806, 18.170784, 4525,2454 # Mittenhus t v
 
 # 2019-SommarS
-A = spara 59.279157, 18.149313, 2599,676 # Mellanbron
-B = spara 59.275129, 18.169590, 4531,1328 # Ulvsjön Vändplan Huset
-C = spara 59.270072, 18.150229, 2763,2334 # Brotorpsbron
-D = spara 59.267894, 18.167087, 4339,2645 # Älta huset
+# A = spara 59.279157, 18.149313, 2599,676 # Mellanbron
+# B = spara 59.275129, 18.169590, 4531,1328 # Ulvsjön Vändplan Huset
+# C = spara 59.270072, 18.150229, 2763,2334 # Brotorpsbron
+# D = spara 59.267894, 18.167087, 4339,2645 # Älta huset
 
 DATA = "gpsKarta"
 WIDTH = null
