@@ -1,4 +1,4 @@
-FILENAME = '2019-SommarS.jpg' # S eller N
+FILENAME = '2019-SommarN.jpg' # S eller N
 
 spara = (lat,lon, x,y) -> {lat,lon, x,y}
 
