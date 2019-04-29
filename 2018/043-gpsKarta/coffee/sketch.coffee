@@ -139,14 +139,19 @@ makeCorners = ->
 locationUpdate = (p) ->
 	gpsLat = p.coords.latitude
 	gpsLon = p.coords.longitude
-	lastLatLon = currLatLon
+
 	currLatLon = LatLon gpsLat,gpsLon
-	position = gps.gps2bmp gpsLat,gpsLon
-	if lastLatLon != null and currLatLon != null
+	if lastLatLon.distanceTo(currLatLon) > 2
 		heading = lastLatLon.bearingTo currLatLon
-		if isNaN heading then heading = null
-	else
-		heading = null
+		lastLatLon = currLatLon
+
+	position = gps.gps2bmp gpsLat,gpsLon
+	# if lastLatLon != null and currLatLon != null
+	# 	heading = lastLatLon.bearingTo currLatLon
+	# 	if isNaN heading then heading = null
+	# else
+	# 	heading = null
+
 	track.push position
 	if track.length > TRACKED then track.shift()
 	xdraw()
