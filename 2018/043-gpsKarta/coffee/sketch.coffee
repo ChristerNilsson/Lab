@@ -143,7 +143,7 @@ locationUpdate = (p) ->
 	currLatLon = LatLon gpsLat,gpsLon
 	position = gps.gps2bmp gpsLat,gpsLon
 	if lastLatLon != null and currLatLon != null
-		heading = lastLatLon.bearingto currLatLon
+		heading = lastLatLon.bearingTo currLatLon
 		if isNan heading then heading = null
 	else
 		heading = null

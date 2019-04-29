@@ -186,7 +186,7 @@ locationUpdate = function locationUpdate(p) {
   currLatLon = LatLon(gpsLat, gpsLon);
   position = gps.gps2bmp(gpsLat, gpsLon);
   if (lastLatLon !== null && currLatLon !== null) {
-    heading = lastLatLon.bearingto(currLatLon);
+    heading = lastLatLon.bearingTo(currLatLon);
     if (isNan(heading)) {
       heading = null;
     }
