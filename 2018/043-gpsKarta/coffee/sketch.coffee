@@ -256,7 +256,7 @@ drawControl = ->
 	# else
 	# 	buttons[5].prompt = int distance
 		
-	buttons[1].prompt = lat
+	buttons[1].prompt = gpsLat
 
 	push()
 	sc()

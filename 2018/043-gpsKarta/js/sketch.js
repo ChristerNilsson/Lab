@@ -352,7 +352,7 @@ drawControl = function drawControl() {
 
   lat = _gps$bmp2gps2[0];
   lon = _gps$bmp2gps2[1];
-  buttons[1].prompt = lat;
+  buttons[1].prompt = gpsLat;
   push();
   sc();
   fc(0, 0, 0, 0.5);
