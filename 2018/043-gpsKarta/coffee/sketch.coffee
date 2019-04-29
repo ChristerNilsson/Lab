@@ -242,9 +242,10 @@ drawControl = ->
 	latLon2 = LatLon lat,lon
 	latLon1 = LatLon gpsLat,gpsLon
 	distance = latLon1.distanceTo latLon2
-	# bearing = latLon1.bearingTo latLon2
-	# buttons[3].prompt = currentControl
-	# buttons[4].prompt = int bearing
+
+	bearing = latLon1.bearingTo latLon2
+	buttons[3].prompt = currentControl
+	buttons[4].prompt = int bearing
 
 	# if heading == null or isNaN heading
 	# 	buttons[1].prompt = ''
@@ -255,8 +256,8 @@ drawControl = ->
 	# if distance == null
 	# 	buttons[5].prompt = ''
 	# else
-	buttons[5].prompt = int distance
-		
+
+	buttons[5].prompt = int distance		
 	buttons[1].prompt = gpsLat
 
 	push()

@@ -324,7 +324,7 @@ drawPoints = function drawPoints() {
 };
 
 drawControl = function drawControl() {
-  var control, distance, lat, latLon1, latLon2, lon, x, y;
+  var bearing, control, distance, lat, latLon1, latLon2, lon, x, y;
   control = controls[currentControl];
   x = control[0];
   y = control[1];
@@ -339,10 +339,9 @@ drawControl = function drawControl() {
   latLon2 = LatLon(lat, lon);
   latLon1 = LatLon(gpsLat, gpsLon);
   distance = latLon1.distanceTo(latLon2);
-  // bearing = latLon1.bearingTo latLon2
-  // buttons[3].prompt = currentControl
-  // buttons[4].prompt = int bearing
-
+  bearing = latLon1.bearingTo(latLon2);
+  buttons[3].prompt = currentControl;
+  buttons[4].prompt = int(bearing);
   // if heading == null or isNaN heading
   // 	buttons[1].prompt = ''
   // 	buttons[7].prompt = ''
