@@ -187,7 +187,7 @@ locationUpdate = function locationUpdate(p) {
   position = gps.gps2bmp(gpsLat, gpsLon);
   if (lastLatLon !== null && currLatLon !== null) {
     heading = lastLatLon.bearingTo(currLatLon);
-    if (isNan(heading)) {
+    if (isNaN(heading)) {
       heading = null;
     }
   } else {
@@ -207,10 +207,6 @@ locationUpdateFail = function locationUpdateFail(error) {
   }
 };
 
-// setupCompass = ->
-// 	window.addEventListener "deviceorientation", (event) ->
-// 		bearing = round event.alpha 
-// 		xdraw()
 storeData = function storeData() {
   return localStorage[DATA] = JSON.stringify(points);
 };
@@ -279,7 +275,6 @@ setup = function setup() {
     maximumAge: 30000,
     timeout: 27000
   });
-  //setupCompass()
   xdraw();
   return addEventListener('touchstart', function (evt) {
     var mx, my, touch, touches;
@@ -291,35 +286,6 @@ setup = function setup() {
   });
 };
 
-// test 
-// 	lat: 59.279170
-// 	lon: 18.149327 
-// 	x: 1932
-// 	y: 2923
-
-// test # Bron Ö om golfstugan
-// 	lat:59.285496
-// 	lon: 18.150525 
-// 	x: 2662
-// 	y: 2830
-// test A
-// test B
-// test C
-// test D
-
-// test # Brotorpsbron
-// 	lat: 59.270066 
-// 	lon: 18.150228
-// 	x: 2171
-// 	y: 4124
-
-// test = ({lat,lon,x,y}) ->
-// 	print 'test'
-// 	hash =
-// 		coords:
-// 			latitude:  lat
-// 			longitude: lon
-// 	print x,y,locationUpdate hash
 drawTrack = function drawTrack() {
   var i, j, len, x, y;
   push();
@@ -360,7 +326,6 @@ drawPoints = function drawPoints() {
 drawControl = function drawControl() {
   var bearing, control, distance, lat, latLon1, latLon2, lon, x, y;
   control = controls[currentControl];
-  //print control
   x = control[0];
   y = control[1];
 
@@ -389,6 +354,7 @@ drawControl = function drawControl() {
   } else {
     buttons[5].prompt = int(distance);
   }
+  buttons[1].prompt = lat;
   push();
   sc();
   fc(0, 0, 0, 0.5);
@@ -409,17 +375,6 @@ drawButtons = function drawButtons() {
   return results;
 };
 
-// drawCompass = ->
-// 	push()
-// 	strokeCap SQUARE
-// 	translate width/2, height/2
-// 	rotate radians bearing
-// 	sw 10
-// 	sc 1,0,0
-// 	line 0,-100,0,-1502
-// 	sc 1
-// 	line 0,100,0,150
-// 	pop()
 xdraw = function xdraw() {
   var i, j, len, message, results;
   bg(1, 1, 0);
@@ -428,7 +383,6 @@ xdraw = function xdraw() {
   drawTrack();
   drawPoints();
   drawControl();
-  //drawCompass()
   drawButtons();
   textSize(50);
   results = [];
@@ -439,12 +393,6 @@ xdraw = function xdraw() {
   return results;
 };
 
-// keyPressed = ->
-// 	#         S  U  P  L SP  R  D   -   +
-// 	index = [83,85,80,76,32,82,68,189,187].indexOf keyCode
-// 	if index != -1 
-// 		buttons[index].click()
-// 		xdraw()
 myMousePressed = function myMousePressed(mx, my) {
   var arr, button, closestControl, control, d, j, key, len;
   for (j = 0, len = buttons.length; j < len; j++) {

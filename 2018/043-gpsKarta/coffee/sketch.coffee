@@ -144,7 +144,7 @@ locationUpdate = (p) ->
 	position = gps.gps2bmp gpsLat,gpsLon
 	if lastLatLon != null and currLatLon != null
 		heading = lastLatLon.bearingTo currLatLon
-		if isNan heading then heading = null
+		if isNaN heading then heading = null
 	else
 		heading = null
 	track.push position
@@ -153,11 +153,6 @@ locationUpdate = (p) ->
 	position
 
 locationUpdateFail = (error) ->	if error.code == error.PERMISSION_DENIED then messages = ['Check location permissions']
-
-# setupCompass = ->
-# 	window.addEventListener "deviceorientation", (event) ->
-# 		bearing = round event.alpha 
-# 		xdraw()
 
 storeData = -> localStorage[DATA] = JSON.stringify points	
 fetchData = -> if localStorage[DATA] then points = JSON.parse localStorage[DATA]
@@ -207,7 +202,6 @@ setup = ->
 		maximumAge: 30000
 		timeout: 27000
 
-	#setupCompass()
 	xdraw()
 
 	addEventListener 'touchstart', (evt) ->
@@ -216,36 +210,6 @@ setup = ->
 		mx = touch.pageX
 		my = touch.pageY
 		myMousePressed mx,my
-
-	# test 
-	# 	lat: 59.279170
-	# 	lon: 18.149327 
-	# 	x: 1932
-	# 	y: 2923
-
-	# test # Bron Ö om golfstugan
-	# 	lat:59.285496
-	# 	lon: 18.150525 
-	# 	x: 2662
-	# 	y: 2830
-	# test A
-	# test B
-	# test C
-	# test D
-
-	# test # Brotorpsbron
-	# 	lat: 59.270066 
-	# 	lon: 18.150228
-	# 	x: 2171
-	# 	y: 4124
-
-# test = ({lat,lon,x,y}) ->
-# 	print 'test'
-# 	hash =
-# 		coords:
-# 			latitude:  lat
-# 			longitude: lon
-# 	print x,y,locationUpdate hash
 
 drawTrack = ->
 	push()
@@ -270,7 +234,6 @@ drawPoints = ->
 
 drawControl = ->
 	control = controls[currentControl]
-	#print control
 	x = control[0]
 	y = control[1]
 
@@ -292,6 +255,8 @@ drawControl = ->
 		buttons[5].prompt = ''
 	else
 		buttons[5].prompt = int distance
+		
+	buttons[1].prompt = lat
 
 	push()
 	sc()
@@ -306,18 +271,6 @@ drawButtons = ->
 	for button in buttons
 		button.draw()
 
-# drawCompass = ->
-# 	push()
-# 	strokeCap SQUARE
-# 	translate width/2, height/2
-# 	rotate radians bearing
-# 	sw 10
-# 	sc 1,0,0
-# 	line 0,-100,0,-1502
-# 	sc 1
-# 	line 0,100,0,150
-# 	pop()
-
 xdraw = ->
 	bg 1,1,0
 	fc()
@@ -325,18 +278,10 @@ xdraw = ->
 	drawTrack()
 	drawPoints()
 	drawControl()
-	#drawCompass()
 	drawButtons()
 	textSize 50
 	for message,i in messages
 		text message,width/2,50*(i+1)
-
-# keyPressed = ->
-# 	#         S  U  P  L SP  R  D   -   +
-# 	index = [83,85,80,76,32,82,68,189,187].indexOf keyCode
-# 	if index != -1 
-# 		buttons[index].click()
-# 		xdraw()
 
 myMousePressed = (mx,my) ->
 	for button in buttons
