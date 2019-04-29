@@ -342,12 +342,14 @@ drawControl = function drawControl() {
   bearing = latLon1.bearingTo(latLon2);
   buttons[3].prompt = currentControl;
   buttons[4].prompt = int(bearing);
-  // if heading == null or isNaN heading
-  // 	buttons[1].prompt = ''
-  // 	buttons[7].prompt = ''
-  // else
-  // 	buttons[1].prompt = int heading
-  // 	buttons[7].prompt = int bearing - heading
+  if (heading === null || isNaN(heading)) {
+    buttons[1].prompt = '';
+    buttons[7].prompt = '';
+  } else {
+    buttons[1].prompt = int(heading);
+    buttons[7].prompt = int(bearing - heading);
+  }
+
   // if distance == null
   // 	buttons[5].prompt = ''
   // else
