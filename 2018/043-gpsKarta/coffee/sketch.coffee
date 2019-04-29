@@ -303,4 +303,4 @@ myMousePressed = (mx,my) ->
 		currentControl = key
 		xdraw()
 
-mousePressed = -> myMousePressed mouseX,mouseY
+#mousePressed = -> myMousePressed mouseX,mouseY
