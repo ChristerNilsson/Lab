@@ -183,7 +183,7 @@ locationUpdate = function locationUpdate(p) {
   gpsLat = p.coords.latitude;
   gpsLon = p.coords.longitude;
   currLatLon = LatLon(gpsLat, gpsLon);
-  if (lastLatLon.distanceTo(currLatLon) > 2) {
+  if (lastLatLon !== null && lastLatLon.distanceTo(currLatLon) > 2) {
     heading = lastLatLon.bearingTo(currLatLon);
     lastLatLon = currLatLon;
   }

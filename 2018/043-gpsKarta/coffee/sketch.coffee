@@ -141,7 +141,7 @@ locationUpdate = (p) ->
 	gpsLon = p.coords.longitude
 
 	currLatLon = LatLon gpsLat,gpsLon
-	if lastLatLon.distanceTo(currLatLon) > 2
+	if lastLatLon != null and lastLatLon.distanceTo(currLatLon) > 2
 		heading = lastLatLon.bearingTo currLatLon
 		lastLatLon = currLatLon
 
