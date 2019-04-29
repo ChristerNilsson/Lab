@@ -142,7 +142,7 @@ locationUpdate = (p) ->
 
 	currLatLon = LatLon gpsLat,gpsLon
 	if lastLatLon == null then lastLatLon = currLatLon
-	if lastLatLon.distanceTo(currLatLon) > 2
+	if lastLatLon.distanceTo(currLatLon) > 5 # meter
 		heading = lastLatLon.bearingTo currLatLon
 		lastLatLon = currLatLon
 
@@ -254,6 +254,9 @@ drawControl = ->
 		buttons[7].prompt = ''
 	else
 		buttons[1].prompt = int heading
+		diff = int bearing - heading
+		if diff < -180 then diff += 360
+		if diff > 180 then diff -= 360
 		buttons[7].prompt = int bearing - heading
 
 	# if distance == null
@@ -264,7 +267,7 @@ drawControl = ->
 
 	push()
 	sc()
-	fc 0,0,0,0.5
+	fc 0,0,0,0.25
 	translate width/2, height/2
 	scale SCALE
 	circle x-cx, y-cy, 75
@@ -300,4 +303,4 @@ myMousePressed = (mx,my) ->
 		currentControl = key
 		xdraw()
 
-#mousePressed = -> myMousePressed mouseX,mouseY
+mousePressed = -> myMousePressed mouseX,mouseY

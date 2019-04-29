@@ -28,15 +28,22 @@ Button = function () {
   }, {
     key: "draw",
     value: function draw() {
-      sw(3);
-      sc(0, 0, 0, 0.5);
-      fc(0, 0, 0, 0.2);
+      var n, ts;
+      sw(1);
+      sc(0);
+      fc(1, 1, 1, 0.8);
       circle(this.x, this.y, this.radius);
       textAlign(CENTER, CENTER);
-      textSize(100);
-      fc(1, 1, 0, 0.5);
-      sc(0);
-      return text(this.prompt, this.x, this.y);
+      //textSize 100
+      fc(0);
+      sc();
+      n = str(this.prompt).length;
+      if (n > 5) {
+        n = 5;
+      }
+      ts = [0, 200, 150, 100, 75, 50][n];
+      textSize(ts);
+      return text(this.prompt, this.x, this.y + ts * 0.07);
     }
   }]);
 
