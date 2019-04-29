@@ -109,7 +109,7 @@ points = []; // remembers e.g. car/bike position
 
 img = null;
 
-heading = 360;
+heading = null;
 
 messages = [];
 
@@ -183,16 +183,14 @@ locationUpdate = function locationUpdate(p) {
   gpsLat = p.coords.latitude;
   gpsLon = p.coords.longitude;
   currLatLon = LatLon(gpsLat, gpsLon);
-  if (lastLatLon !== null && lastLatLon.distanceTo(currLatLon) > 2) {
+  if (lastLatLon === null) {
+    lastLatLon = currLatLon;
+  }
+  if (lastLatLon.distanceTo(currLatLon) > 2) {
     heading = lastLatLon.bearingTo(currLatLon);
     lastLatLon = currLatLon;
   }
   position = gps.gps2bmp(gpsLat, gpsLon);
-  // if lastLatLon != null and currLatLon != null
-  // 	heading = lastLatLon.bearingTo currLatLon
-  // 	if isNaN heading then heading = null
-  // else
-  // 	heading = null
   track.push(position);
   if (track.length > TRACKED) {
     track.shift();
