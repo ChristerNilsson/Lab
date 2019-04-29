@@ -238,23 +238,23 @@ drawControl = ->
 	y = control[1]
 
 	[lat,lon] = gps.bmp2gps x,y
-	latLon2 = LatLon lat,lon
-	latLon1 = LatLon gpsLat,gpsLon
-	distance = latLon1.distanceTo latLon2
-	bearing = latLon1.bearingTo latLon2
-	buttons[3].prompt = currentControl
-	buttons[4].prompt = int bearing
+	# latLon2 = LatLon lat,lon
+	# latLon1 = LatLon gpsLat,gpsLon
+	# distance = latLon1.distanceTo latLon2
+	# bearing = latLon1.bearingTo latLon2
+	# buttons[3].prompt = currentControl
+	# buttons[4].prompt = int bearing
 
-	if heading == null
-		buttons[1].prompt = ''
-		buttons[7].prompt = ''
-	else
-		buttons[1].prompt = int heading
-		buttons[7].prompt = int bearing - heading
-	if distance == null
-		buttons[5].prompt = ''
-	else
-		buttons[5].prompt = int distance
+	# if heading == null
+	# 	buttons[1].prompt = ''
+	# 	buttons[7].prompt = ''
+	# else
+	# 	buttons[1].prompt = int heading
+	# 	buttons[7].prompt = int bearing - heading
+	# if distance == null
+	# 	buttons[5].prompt = ''
+	# else
+	# 	buttons[5].prompt = int distance
 		
 	buttons[1].prompt = lat
 

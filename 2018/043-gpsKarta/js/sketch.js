@@ -324,36 +324,34 @@ drawPoints = function drawPoints() {
 };
 
 drawControl = function drawControl() {
-  var bearing, control, distance, lat, latLon1, latLon2, lon, x, y;
+  var control, lat, lon, x, y;
   control = controls[currentControl];
   x = control[0];
   y = control[1];
 
+  // latLon2 = LatLon lat,lon
+  // latLon1 = LatLon gpsLat,gpsLon
+  // distance = latLon1.distanceTo latLon2
+  // bearing = latLon1.bearingTo latLon2
+  // buttons[3].prompt = currentControl
+  // buttons[4].prompt = int bearing
+
+  // if heading == null
+  // 	buttons[1].prompt = ''
+  // 	buttons[7].prompt = ''
+  // else
+  // 	buttons[1].prompt = int heading
+  // 	buttons[7].prompt = int bearing - heading
+  // if distance == null
+  // 	buttons[5].prompt = ''
+  // else
+  // 	buttons[5].prompt = int distance
   var _gps$bmp2gps = gps.bmp2gps(x, y);
 
   var _gps$bmp2gps2 = _slicedToArray(_gps$bmp2gps, 2);
 
   lat = _gps$bmp2gps2[0];
   lon = _gps$bmp2gps2[1];
-
-  latLon2 = LatLon(lat, lon);
-  latLon1 = LatLon(gpsLat, gpsLon);
-  distance = latLon1.distanceTo(latLon2);
-  bearing = latLon1.bearingTo(latLon2);
-  buttons[3].prompt = currentControl;
-  buttons[4].prompt = int(bearing);
-  if (heading === null) {
-    buttons[1].prompt = '';
-    buttons[7].prompt = '';
-  } else {
-    buttons[1].prompt = int(heading);
-    buttons[7].prompt = int(bearing - heading);
-  }
-  if (distance === null) {
-    buttons[5].prompt = '';
-  } else {
-    buttons[5].prompt = int(distance);
-  }
   buttons[1].prompt = lat;
   push();
   sc();
