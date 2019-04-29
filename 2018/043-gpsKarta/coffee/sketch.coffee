@@ -85,6 +85,8 @@ points = [] # remembers e.g. car/bike position
 img = null 
 heading = 360
 messages = []
+lastLatLon = null
+currLatLon = null
 
 [gpsLat,gpsLon] = [0,0]
 currentControl = "1"
@@ -137,8 +139,14 @@ makeCorners = ->
 locationUpdate = (p) ->
 	gpsLat = p.coords.latitude
 	gpsLon = p.coords.longitude
+	lastLatLon = currLatLon
+	currLatLon = LatLon gpsLat,gpsLon
 	position = gps.gps2bmp gpsLat,gpsLon
-	heading = p.coords.heading
+	if lastLatLon != null and currLatLon != null
+		heading = lastLatLon.bearingto currLatLon
+		if isNan heading then heading = null
+	else
+		heading = null
 	track.push position
 	if track.length > TRACKED then track.shift()
 	xdraw()
@@ -274,7 +282,7 @@ drawControl = ->
 	buttons[3].prompt = currentControl
 	buttons[4].prompt = int bearing
 
-	if heading == null or isNan heading
+	if heading == null
 		buttons[1].prompt = ''
 		buttons[7].prompt = ''
 	else
