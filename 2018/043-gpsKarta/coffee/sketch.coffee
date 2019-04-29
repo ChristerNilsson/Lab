@@ -274,7 +274,7 @@ drawControl = ->
 	buttons[3].prompt = currentControl
 	buttons[4].prompt = int bearing
 
-	if heading == null
+	if heading == null or isNan heading
 		buttons[1].prompt = ''
 		buttons[7].prompt = ''
 	else
