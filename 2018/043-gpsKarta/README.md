@@ -28,6 +28,10 @@ Hindra skärmrotation på din mobil (Android) :
 * Display
 * When device is rotated: Stay in portrait view
 
+## Klicka på kontroll
+Genom att klicka på en kontroll kan man nu se bäringen till kontrollen.
+Underlättar användning av analog kompass.
+
 ## Arbetsgång
 * Tag ut kompassriktning till kontrollen
 * Gå i den riktningen eller gå runt hinder
@@ -35,6 +39,5 @@ Hindra skärmrotation på din mobil (Android) :
 
 ## ToDo:
 
-*	Begränsa zoom
 *	Drag och pinch istf knappar
 * Få kompassen att visa rätt

@@ -83,7 +83,7 @@ track = [] # five latest GPS positions (pixels)
 buttons = []
 points = [] # remembers e.g. car/bike position
 img = null 
-bearing = 360
+heading = 360
 messages = []
 
 [gpsLat,gpsLon] = [0,0]
@@ -138,6 +138,7 @@ locationUpdate = (p) ->
 	gpsLat = p.coords.latitude
 	gpsLon = p.coords.longitude
 	position = gps.gps2bmp gpsLat,gpsLon
+	heading = p.coords.heading
 	track.push position
 	if track.length > TRACKED then track.shift()
 	xdraw()
@@ -185,8 +186,8 @@ setup = ->
 	buttons.push new Button 'L',x1,y, -> cx -= 0.25*width/SCALE
 	buttons.push new Button ' ',x,y, ->	[cx,cy] = position
 	buttons.push new Button 'R',x2,y, -> cx += 0.25*width/SCALE
-	buttons.push new Button 'D',x,y2, -> cy += 0.25*height/SCALE
 	buttons.push new Button '-',x1,y2, -> if SCALE > 0.5 then SCALE /= 1.2
+	buttons.push new Button 'D',x,y2, -> cy += 0.25*height/SCALE
 	buttons.push new Button '+',x2,y2, ->	SCALE *= 1.2
 
 	makeCorners()
@@ -268,8 +269,21 @@ drawControl = ->
 	[lat,lon] = gps.bmp2gps x,y
 	latLon2 = LatLon lat,lon
 	latLon1 = LatLon gpsLat,gpsLon
-	#print latLon1.distanceTo latLon2
-	buttons[4].prompt = int latLon1.bearingTo latLon2
+	distance = latLon1.distanceTo latLon2
+	bearing = latLon1.bearingTo latLon2
+	buttons[3].prompt = currentControl
+	buttons[4].prompt = int bearing
+
+	if heading == null
+		buttons[1].prompt = ''
+		buttons[7].prompt = ''
+	else
+		buttons[1].prompt = int heading
+		buttons[7].prompt = int bearing - heading
+	if distance == null
+		buttons[5].prompt = ''
+	else
+		buttons[5].prompt = int distance
 
 	push()
 	sc()
@@ -329,4 +343,4 @@ myMousePressed = (mx,my) ->
 		currentControl = key
 		xdraw()
 
-# mousePressed = -> myMousePressed mouseX,mouseY
+#mousePressed = -> myMousePressed mouseX,mouseY
