@@ -4,7 +4,7 @@ class Button
 	draw : ->
 		sw 2
 		sc 0
-		fc 1,1,1,0.8
+		fc 1,1,0,0.5
 		if @prompt == '' then fc()
 		circle @x,@y,@radius
 		textAlign CENTER,CENTER

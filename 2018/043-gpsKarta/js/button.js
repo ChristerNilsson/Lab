@@ -31,7 +31,7 @@ Button = function () {
       var n, ts;
       sw(2);
       sc(0);
-      fc(1, 1, 1, 0.8);
+      fc(1, 1, 0, 0.5);
       if (this.prompt === '') {
         fc();
       }
