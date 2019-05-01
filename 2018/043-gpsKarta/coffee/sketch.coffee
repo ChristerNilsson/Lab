@@ -89,10 +89,6 @@ soundDown = null
 
 messages = []
 
-#heading = null
-#lastLatLon = null
-#currLatLon = null
-
 [gpsLat,gpsLon] = [0,0]
 [trgLat,trgLon] = [0,0]
 currentControl = "1"
@@ -196,8 +192,8 @@ setup = ->
 	buttons.push new Button 'S',x1,y1, -> 
 		soundUp = loadSound 'soundUp.wav'
 		soundDown = loadSound 'soundDown.wav'
-		#soundUp.setVolume 0.1
-		#soundDown.setVolume 0.1
+		soundUp.setVolume 0.1
+		soundDown.setVolume 0.1
 
 		points.push position
 		storeData()
@@ -330,4 +326,4 @@ myMousePressed = (mx,my) ->
 
 		xdraw()
 
-mousePressed = -> myMousePressed mouseX,mouseY
+#mousePressed = -> myMousePressed mouseX,mouseY
