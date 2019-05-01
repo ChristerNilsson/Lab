@@ -238,6 +238,7 @@ setup = function setup() {
   cy = height;
 
   fetchData();
+  makeCorners();
   setTarget(_.keys(controls)[0]);
   x = width / 2;
   y = height / 2;
@@ -284,7 +285,6 @@ setup = function setup() {
   buttons.push(new Button('+', x2, y2, function () {
     return SCALE *= 1.2;
   }));
-  makeCorners();
   position = [WIDTH / 2, HEIGHT / 2];
   navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
     enableHighAccuracy: true,

@@ -184,6 +184,7 @@ setup = ->
 	
 	fetchData()
 
+	makeCorners()
 	setTarget _.keys(controls)[0]
 
 	x = width/2
@@ -217,8 +218,6 @@ setup = ->
 	buttons.push new Button '-',x1,y2, -> if SCALE > 0.5 then SCALE /= 1.2
 	buttons.push new Button 'D',x,y2, -> cy += 0.25*height/SCALE
 	buttons.push new Button '+',x2,y2, ->	SCALE *= 1.2
-
-	makeCorners()
 
 	position = [WIDTH/2,HEIGHT/2]
 
