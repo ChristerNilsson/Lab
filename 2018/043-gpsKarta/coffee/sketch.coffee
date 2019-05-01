@@ -147,6 +147,8 @@ soundIndicator = (p) ->
 	dista = round a.distanceTo c
 	distb = round b.distanceTo c
 
+	buttons[5].prompt = dista
+	
 	if dista < distb  
 		if soundDown != null then soundDown.play()
 	if dista > distb  
@@ -259,12 +261,10 @@ drawControl = ->
 
 	latLon2 = LatLon trgLat,trgLon
 	latLon1 = LatLon gpsLat,gpsLon
-	distance = round latLon1.distanceTo latLon2
 
 	bearing = latLon1.bearingTo latLon2
 	buttons[1].prompt = int bearing
 	buttons[3].prompt = currentControl
-	buttons[5].prompt = distance		
 
 	control = controls[currentControl]
 	x = control[0]

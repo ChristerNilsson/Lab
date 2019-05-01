@@ -186,6 +186,7 @@ soundIndicator = function soundIndicator(p) {
   c = LatLon(trgLat, trgLon); // target
   dista = round(a.distanceTo(c));
   distb = round(b.distanceTo(c));
+  buttons[5].prompt = dista;
   if (dista < distb) {
     if (soundDown !== null) {
       soundDown.play();
@@ -339,14 +340,12 @@ drawPoints = function drawPoints() {
 };
 
 drawControl = function drawControl() {
-  var bearing, control, distance, latLon1, latLon2, x, y;
+  var bearing, control, latLon1, latLon2, x, y;
   latLon2 = LatLon(trgLat, trgLon);
   latLon1 = LatLon(gpsLat, gpsLon);
-  distance = round(latLon1.distanceTo(latLon2));
   bearing = latLon1.bearingTo(latLon2);
   buttons[1].prompt = int(bearing);
   buttons[3].prompt = currentControl;
-  buttons[5].prompt = distance;
   control = controls[currentControl];
   x = control[0];
   y = control[1];
