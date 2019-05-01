@@ -82,13 +82,19 @@ position = null # gps position (pixels)
 track = [] # five latest GPS positions (pixels)
 buttons = []
 points = [] # remembers e.g. car/bike position
+
 img = null 
-heading = null
+soundUp = null
+soundDown = null
+
 messages = []
-lastLatLon = null
-currLatLon = null
+
+#heading = null
+#lastLatLon = null
+#currLatLon = null
 
 [gpsLat,gpsLon] = [0,0]
+[trgLat,trgLon] = [0,0]
 currentControl = "1"
 
 preload = -> img = loadImage FILENAME
@@ -136,15 +142,25 @@ makeCorners = ->
 
 	gps = new GPS nw,ne,se,sw,WIDTH,HEIGHT
 
+soundIndicator = (p) ->
+
+	a = LatLon p.coords.latitude,p.coords.longitude
+	b = LatLon gpsLat, gpsLon
+	c = LatLon trgLat, trgLon # target
+
+	dista = round a.distanceTo c
+	distb = round b.distanceTo c
+
+	if dista < distb  
+		if soundDown != null then soundDown.play()
+	if dista > distb  
+		if soundUp != null then soundUp.play()	
+
 locationUpdate = (p) ->
+	soundIndicator p
+
 	gpsLat = p.coords.latitude
 	gpsLon = p.coords.longitude
-
-	currLatLon = LatLon gpsLat,gpsLon
-	if lastLatLon == null then lastLatLon = currLatLon
-	if lastLatLon.distanceTo(currLatLon) > 5 # meter
-		heading = lastLatLon.bearingTo currLatLon
-		lastLatLon = currLatLon
 
 	position = gps.gps2bmp gpsLat,gpsLon
 
@@ -178,6 +194,11 @@ setup = ->
 	y2 = height-100
 
 	buttons.push new Button 'S',x1,y1, -> 
+		soundUp = loadSound 'soundUp.wav'
+		soundDown = loadSound 'soundDown.wav'
+		#soundUp.setVolume 0.1
+		#soundDown.setVolume 0.1
+
 		points.push position
 		storeData()
 
@@ -188,7 +209,10 @@ setup = ->
 			storeData()
 
 	buttons.push new Button 'L',x1,y, -> cx -= 0.25*width/SCALE
-	buttons.push new Button ' ',x,y, ->	[cx,cy] = position
+	buttons.push new Button '', x,y, ->	
+		[cx,cy] = position
+
+
 	buttons.push new Button 'R',x2,y, -> cx += 0.25*width/SCALE
 	buttons.push new Button '-',x1,y2, -> if SCALE > 0.5 then SCALE /= 1.2
 	buttons.push new Button 'D',x,y2, -> cy += 0.25*height/SCALE
@@ -234,36 +258,34 @@ drawPoints = ->
 	pop()
 
 drawControl = ->
-	control = controls[currentControl]
-	x = control[0]
-	y = control[1]
 
-	[lat,lon] = gps.bmp2gps x,y
-
-	latLon2 = LatLon lat,lon
+	latLon2 = LatLon trgLat,trgLon
 	latLon1 = LatLon gpsLat,gpsLon
 	distance = latLon1.distanceTo latLon2
 
 	bearing = latLon1.bearingTo latLon2
+	buttons[1].prompt = int bearing
 	buttons[3].prompt = currentControl
-	buttons[4].prompt = int bearing
 	buttons[5].prompt = int distance		
 
-	if heading == null or isNaN heading
-		buttons[1].prompt = ''
-		buttons[7].prompt = ''
-	else
-		buttons[1].prompt = int heading
-		diff = int bearing - heading
-		if diff < -180 then diff += 360
-		if diff > 180 then diff -= 360
-		buttons[7].prompt = int bearing - heading
+	# if heading == null or isNaN heading
+	# 	buttons[1].prompt = ''
+#		buttons[7].prompt = ''
+	# else
+	# 	buttons[1].prompt = int heading
+#		diff = int bearing - heading
+#		if diff < -180 then diff += 360
+#		if diff > 180 then diff -= 360
+#		buttons[7].prompt = int bearing - heading
 
 	# if distance == null
 	# 	buttons[5].prompt = ''
 	# else
 
 	#buttons[1].prompt = gpsLat
+	control = controls[currentControl]
+	x = control[0]
+	y = control[1]
 
 	push()
 	sc()
@@ -301,6 +323,11 @@ myMousePressed = (mx,my) ->
 	[d,key] = closestControl
 	if d < 85 
 		currentControl = key
+		control = controls[currentControl]
+		x = control[0]
+		y = control[1]
+		[trgLat,trgLon] = gps.bmp2gps x,y
+
 		xdraw()
 
-#mousePressed = -> myMousePressed mouseX,mouseY
+mousePressed = -> myMousePressed mouseX,mouseY

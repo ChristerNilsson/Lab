@@ -31,7 +31,6 @@ GPS = function () {
       y = map(mlon, a.lon, b.lon, a.y, b.y);
       lat = map(mlon, a.lon, b.lon, a.lat, b.lat);
       lon = mlon;
-      //print {lat,lon,x,y} 	
       return { lat: lat, lon: lon, x: x, y: y };
     }
   }, {
@@ -42,28 +41,18 @@ GPS = function () {
       y = map(mlat, a.lat, b.lat, a.y, b.y);
       lat = mlat;
       lon = map(mlat, a.lat, b.lat, a.lon, b.lon);
-      //print {lat,lon,x,y} 	
       return { lat: lat, lon: lon, x: x, y: y };
     }
   }, {
     key: 'gps2bmp',
     value: function gps2bmp(mlat, mlon) {
       var q1, q2, x, y;
-      //console.log 'gps2bmp'
       q1 = this.map_lon(mlat, mlon, this.nw, this.ne);
       q2 = this.map_lon(mlat, mlon, this.sw, this.se);
       x = round(map(mlat, q1.lat, q2.lat, q1.x, q2.x));
       y = round(map(mlat, q1.lat, q2.lat, q1.y, q2.y));
-      //print [x,y]
       return [x, y];
     }
-
-    // q3 = calcLat mlat,mlon,N,Q
-    // q4 = calcLat mlat,mlon,O,P
-    // x2 = map mlon, q3.lon,q4.lon, q3.x, q4.x
-    // y2 = map mlon, q3.lon,q4.lon, q3.y, q4.y
-    //[int(x1),int(y1)]
-
   }, {
     key: 'assert_gps2bmp',
     value: function assert_gps2bmp(p, error) {
@@ -84,8 +73,6 @@ GPS = function () {
       var lat, lon;
       lon = map(x, a.x, b.x, a.lon, b.lon);
       lat = map(x, a.x, b.x, a.lat, b.lat);
-
-      //print {lat,lon,x,y} 	
       return { lat: lat, lon: lon, x: x, y: y };
     }
   }, {
@@ -94,19 +81,15 @@ GPS = function () {
       var lat, lon;
       lon = map(y, a.y, b.y, a.lon, b.lon);
       lat = map(y, a.y, b.y, a.lat, b.lat);
-
-      //print {lat,lon,x,y} 	
       return { lat: lat, lon: lon, x: x, y: y };
     }
   }, {
     key: 'bmp2gps',
     value: function bmp2gps(mx, my) {
       var q, q1, q2;
-      //console.log 'bmp2gps'
       q1 = this.map_x(mx, 0, this.nw, this.ne);
       q2 = this.map_x(mx, HEIGHT, this.sw, this.se);
       q = this.map_y(mx, my, q1, q2);
-      //print [myround(q.lat,6),myround(q.lon,6)]
       return [myround(q.lat, 6), myround(q.lon, 6)];
     }
   }, {

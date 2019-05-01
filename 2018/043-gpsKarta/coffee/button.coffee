@@ -2,12 +2,12 @@ class Button
 	constructor : (@prompt,@x,@y,@click = ->) -> @radius = 100
 	contains : (mx,my) -> @radius > dist mx,my,@x,@y
 	draw : ->
-		sw 1
+		sw 2
 		sc 0
 		fc 1,1,1,0.8
+		if @prompt == '' then fc()
 		circle @x,@y,@radius
 		textAlign CENTER,CENTER
-		#textSize 100
 		fc 0
 		sc()
 		n = str(@prompt).length

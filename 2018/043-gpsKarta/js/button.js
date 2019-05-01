@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -21,20 +21,22 @@ Button = function () {
   }
 
   _createClass(Button, [{
-    key: "contains",
+    key: 'contains',
     value: function contains(mx, my) {
       return this.radius > dist(mx, my, this.x, this.y);
     }
   }, {
-    key: "draw",
+    key: 'draw',
     value: function draw() {
       var n, ts;
-      sw(1);
+      sw(2);
       sc(0);
       fc(1, 1, 1, 0.8);
+      if (this.prompt === '') {
+        fc();
+      }
       circle(this.x, this.y, this.radius);
       textAlign(CENTER, CENTER);
-      //textSize 100
       fc(0);
       sc();
       n = str(this.prompt).length;
