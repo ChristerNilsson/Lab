@@ -182,6 +182,8 @@ setup = ->
 	
 	fetchData()
 
+	setTarget _.keys(controls)[0]
+
 	x = width/2
 	y = height/2
 	x1 = 100
@@ -257,28 +259,13 @@ drawControl = ->
 
 	latLon2 = LatLon trgLat,trgLon
 	latLon1 = LatLon gpsLat,gpsLon
-	distance = latLon1.distanceTo latLon2
+	distance = round latLon1.distanceTo latLon2
 
 	bearing = latLon1.bearingTo latLon2
 	buttons[1].prompt = int bearing
 	buttons[3].prompt = currentControl
-	buttons[5].prompt = int distance		
+	buttons[5].prompt = distance		
 
-	# if heading == null or isNaN heading
-	# 	buttons[1].prompt = ''
-#		buttons[7].prompt = ''
-	# else
-	# 	buttons[1].prompt = int heading
-#		diff = int bearing - heading
-#		if diff < -180 then diff += 360
-#		if diff > 180 then diff -= 360
-#		buttons[7].prompt = int bearing - heading
-
-	# if distance == null
-	# 	buttons[5].prompt = ''
-	# else
-
-	#buttons[1].prompt = gpsLat
 	control = controls[currentControl]
 	x = control[0]
 	y = control[1]
@@ -308,6 +295,13 @@ xdraw = ->
 	for message,i in messages
 		text message,width/2,50*(i+1)
 
+setTarget = (key) ->
+	currentControl = key
+	control = controls[currentControl]
+	x = control[0]
+	y = control[1]
+	[trgLat,trgLon] = gps.bmp2gps x,y	
+
 myMousePressed = (mx,my) ->
 	for button in buttons
 		if button.contains mx,my
@@ -318,11 +312,7 @@ myMousePressed = (mx,my) ->
 	closestControl = _.min arr, (item) -> item[0]
 	[d,key] = closestControl
 	if d < 85 
-		currentControl = key
-		control = controls[currentControl]
-		x = control[0]
-		y = control[1]
-		[trgLat,trgLon] = gps.bmp2gps x,y
+		setTarget key
 
 		xdraw()
 
