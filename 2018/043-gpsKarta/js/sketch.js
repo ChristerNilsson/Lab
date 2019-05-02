@@ -194,14 +194,13 @@ soundIndicator = function soundIndicator(p) {
 };
 
 _playSound = function playSound() {
-  if (soundQueue > 0 && soundDown !== null) {
+  if (soundQueue < 0 && soundDown !== null) {
     soundDown.play();
-    soundQueue--;
-  } else if (soundQueue < 0 && soundUp !== null) {
-    soundUp.play();
     soundQueue++;
+  } else if (soundQueue > 0 && soundUp !== null) {
+    soundUp.play();
+    soundQueue--;
   }
-  print(soundQueue);
   buttons[7].prompt = soundQueue;
   setTimeout(_playSound, 500); // twice per second
   return xdraw();
@@ -226,19 +225,15 @@ locationUpdateFail = function locationUpdateFail(error) {
   }
 };
 
-//storeData = -> localStorage[DATA] = JSON.stringify points	
-//fetchData = -> if localStorage[DATA] then points = JSON.parse localStorage[DATA]
 setup = function setup() {
   var x, x1, x2, y, y1, y2;
   createCanvas(windowWidth, windowHeight);
   WIDTH = img.width;
   HEIGHT = img.height;
   SCALE = 1;
-
-
-  //fetchData()
   cx = width;
   cy = height;
+
   makeCorners();
   setTarget(_.keys(controls)[0]);
   x = width / 2;
@@ -321,15 +316,6 @@ drawTrack = function drawTrack() {
   return pop();
 };
 
-// drawPoints = ->
-// 	push()
-// 	sc()
-// 	fc 1,0,0,0.5 # RED
-// 	translate width/2, height/2
-// 	scale SCALE
-// 	for [x,y],i in points
-// 		circle x-cx, y-cy, 20
-// 	pop()
 drawControl = function drawControl() {
   var bearing, control, latLon1, latLon2, x, y;
   latLon2 = LatLon(trgLat, trgLon);
@@ -351,7 +337,6 @@ drawControl = function drawControl() {
 
 drawButtons = function drawButtons() {
   var button, j, len, results;
-  //buttons[2].prompt = points.length
   results = [];
   for (j = 0, len = buttons.length; j < len; j++) {
     button = buttons[j];
@@ -366,7 +351,6 @@ xdraw = function xdraw() {
   fc();
   image(img, 0, 0, width, height, cx - width / SCALE / 2, cy - height / SCALE / 2, width / SCALE, height / SCALE);
   drawTrack();
-  //drawPoints()
   drawControl();
   drawButtons();
   textSize(50);

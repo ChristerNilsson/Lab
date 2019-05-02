@@ -153,13 +153,12 @@ soundIndicator = (p) ->
 	buttons[7].prompt	= soundQueue
 
 playSound = ->
-	if soundQueue > 0 and soundDown != null
+	if soundQueue < 0 and soundDown != null
 		soundDown.play()
-		soundQueue--
-	else if soundQueue < 0 and soundUp != null
-		soundUp.play()
 		soundQueue++
-	print soundQueue
+	else if soundQueue > 0 and soundUp != null
+		soundUp.play()
+		soundQueue--
 	buttons[7].prompt	= soundQueue
 	setTimeout playSound, 500 # twice per second
 	xdraw()
@@ -179,9 +178,6 @@ locationUpdate = (p) ->
 
 locationUpdateFail = (error) ->	if error.code == error.PERMISSION_DENIED then messages = ['Check location permissions']
 
-#storeData = -> localStorage[DATA] = JSON.stringify points	
-#fetchData = -> if localStorage[DATA] then points = JSON.parse localStorage[DATA]
-
 setup = ->
 
 	createCanvas windowWidth,windowHeight
@@ -192,8 +188,6 @@ setup = ->
 	SCALE = 1 
 	[cx,cy] = [width,height] 
 	
-	#fetchData()
-
 	makeCorners()
 	setTarget _.keys(controls)[0]
 
@@ -253,16 +247,6 @@ drawTrack = ->
 		circle x-cx, y-cy, 10 * (track.length-i)
 	pop()
 
-# drawPoints = ->
-# 	push()
-# 	sc()
-# 	fc 1,0,0,0.5 # RED
-# 	translate width/2, height/2
-# 	scale SCALE
-# 	for [x,y],i in points
-# 		circle x-cx, y-cy, 20
-# 	pop()
-
 drawControl = ->
 
 	latLon2 = LatLon trgLat,trgLon
@@ -284,17 +268,13 @@ drawControl = ->
 	circle x-cx, y-cy, 75
 	pop()
 
-drawButtons = ->
-	#buttons[2].prompt = points.length
-	for button in buttons
-		button.draw()
+drawButtons = -> button.draw() for button in buttons
 
 xdraw = ->
 	bg 1,1,0
 	fc()
 	image img, 0,0, width,height, cx-width/SCALE/2, cy-height/SCALE/2, width/SCALE, height/SCALE
 	drawTrack()
-	#drawPoints()
 	drawControl()
 	drawButtons()
 	textSize 50
