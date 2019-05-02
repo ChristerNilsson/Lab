@@ -81,7 +81,6 @@ TRACKED = 5 # circles shows the player's position
 position = null # gps position (pixels)
 track = [] # five latest GPS positions (pixels)
 buttons = []
-points = [] # remembers e.g. car/bike position
 
 img = null 
 soundUp = null
@@ -169,8 +168,8 @@ locationUpdate = (p) ->
 
 locationUpdateFail = (error) ->	if error.code == error.PERMISSION_DENIED then messages = ['Check location permissions']
 
-storeData = -> localStorage[DATA] = JSON.stringify points	
-fetchData = -> if localStorage[DATA] then points = JSON.parse localStorage[DATA]
+#storeData = -> localStorage[DATA] = JSON.stringify points	
+#fetchData = -> if localStorage[DATA] then points = JSON.parse localStorage[DATA]
 
 setup = ->
 
@@ -182,7 +181,7 @@ setup = ->
 	SCALE = 1 
 	[cx,cy] = [width,height] 
 	
-	fetchData()
+	#fetchData()
 
 	makeCorners()
 	setTarget _.keys(controls)[0]
@@ -194,25 +193,18 @@ setup = ->
 	y1 = 100
 	y2 = height-100
 
-	buttons.push new Button 'S',x1,y1, -> 
+	buttons.push new Button 'S',x1,y1, -> # Store Bike Position
 		soundUp = loadSound 'soundUp.wav'
 		soundDown = loadSound 'soundDown.wav'
 		soundUp.setVolume 0.1
 		soundDown.setVolume 0.1
+		controls['bike'] = position
 
-		points.push position
-		storeData()
-
-	buttons.push new Button 'U',x,y1, -> cy -= 0.25*height/SCALE
-	buttons.push new Button '0',x2,y1, -> 
-		if points.length > 0 
-			points.pop()
-			storeData()
-
+	buttons.push new Button 'U',x,y1, -> cy -= 0.25*height/SCALE 
+	buttons.push new Button 'R',x2,y1, -> setTarget 'bike'
 	buttons.push new Button 'L',x1,y, -> cx -= 0.25*width/SCALE
 	buttons.push new Button '', x,y, ->	
 		[cx,cy] = position
-
 
 	buttons.push new Button 'R',x2,y, -> cx += 0.25*width/SCALE
 	buttons.push new Button '-',x1,y2, -> if SCALE > 0.5 then SCALE /= 1.2
@@ -246,15 +238,15 @@ drawTrack = ->
 		circle x-cx, y-cy, 10 * (track.length-i)
 	pop()
 
-drawPoints = ->
-	push()
-	sc()
-	fc 1,0,0,0.5 # RED
-	translate width/2, height/2
-	scale SCALE
-	for [x,y],i in points
-		circle x-cx, y-cy, 20
-	pop()
+# drawPoints = ->
+# 	push()
+# 	sc()
+# 	fc 1,0,0,0.5 # RED
+# 	translate width/2, height/2
+# 	scale SCALE
+# 	for [x,y],i in points
+# 		circle x-cx, y-cy, 20
+# 	pop()
 
 drawControl = ->
 
@@ -278,7 +270,7 @@ drawControl = ->
 	pop()
 
 drawButtons = ->
-	buttons[2].prompt = points.length
+	#buttons[2].prompt = points.length
 	for button in buttons
 		button.draw()
 
@@ -287,7 +279,7 @@ xdraw = ->
 	fc()
 	image img, 0,0, width,height, cx-width/SCALE/2, cy-height/SCALE/2, width/SCALE, height/SCALE
 	drawTrack()
-	drawPoints()
+	#drawPoints()
 	drawControl()
 	drawButtons()
 	textSize 50
@@ -295,6 +287,7 @@ xdraw = ->
 		text message,width/2,50*(i+1)
 
 setTarget = (key) ->
+	if controls[currentControl] == null then return
 	currentControl = key
 	control = controls[currentControl]
 	x = control[0]
@@ -308,11 +301,12 @@ myMousePressed = (mx,my) ->
 			xdraw()
 			return
 	arr = ([dist(cx-width/SCALE/2 + mx/SCALE, cy-height/SCALE/2+my/SCALE, control[0], control[1]), key] for key,control of controls)
+	print 2
 	closestControl = _.min arr, (item) -> item[0]
 	[d,key] = closestControl
-	if d < 85 
+	if d < 85
+		print 3 
 		setTarget key
-
 		xdraw()
 
 #mousePressed = -> myMousePressed mouseX,mouseY
