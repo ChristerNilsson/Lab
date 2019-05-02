@@ -199,9 +199,11 @@ setup = ->
 		soundUp.setVolume 0.1
 		soundDown.setVolume 0.1
 		controls['bike'] = position
+		buttons[2].prompt = 'bike'
 
 	buttons.push new Button 'U',x,y1, -> cy -= 0.25*height/SCALE 
-	buttons.push new Button 'R',x2,y1, -> setTarget 'bike'
+	buttons.push new Button '',x2,y1, -> setTarget 'bike'
+
 	buttons.push new Button 'L',x1,y, -> cx -= 0.25*width/SCALE
 	buttons.push new Button '', x,y, ->	
 		[cx,cy] = position
@@ -309,4 +311,4 @@ myMousePressed = (mx,my) ->
 		setTarget key
 		xdraw()
 
-#mousePressed = -> myMousePressed mouseX,mouseY
+mousePressed = -> myMousePressed mouseX,mouseY
