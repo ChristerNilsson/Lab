@@ -188,12 +188,12 @@ soundIndicator = function soundIndicator(p) {
   distb = round(b.distanceTo(c));
   buttons[5].prompt = dista;
   if (abs(dista - distb) < 10) {
-    return soundQueue += dista - distb; // ett antal meter
+    soundQueue += dista - distb; // ett antal meter
   }
+  return buttons[7].prompt = soundQueue;
 };
 
 _playSound = function playSound() {
-  var soundFunction;
   if (soundQueue > 0 && soundDown !== null) {
     soundDown.play();
     soundQueue--;
@@ -201,7 +201,10 @@ _playSound = function playSound() {
     soundUp.play();
     soundQueue++;
   }
-  return soundFunction = setTimeout(_playSound, 500); // twice per second
+  print(soundQueue);
+  buttons[7].prompt = soundQueue;
+  setTimeout(_playSound, 500); // twice per second
+  return xdraw();
 };
 
 locationUpdate = function locationUpdate(p) {

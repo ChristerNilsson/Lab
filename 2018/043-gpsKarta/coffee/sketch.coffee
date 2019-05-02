@@ -150,7 +150,8 @@ soundIndicator = (p) ->
 	buttons[5].prompt = dista
 
 	if abs(dista - distb) < 10 then soundQueue += dista - distb # ett antal meter
-	
+	buttons[7].prompt	= soundQueue
+
 playSound = ->
 	if soundQueue > 0 and soundDown != null
 		soundDown.play()
@@ -158,7 +159,10 @@ playSound = ->
 	else if soundQueue < 0 and soundUp != null
 		soundUp.play()
 		soundQueue++
-	soundFunction = setTimeout playSound, 500 # twice per second
+	print soundQueue
+	buttons[7].prompt	= soundQueue
+	setTimeout playSound, 500 # twice per second
+	xdraw()
 
 locationUpdate = (p) ->
 	soundIndicator p
