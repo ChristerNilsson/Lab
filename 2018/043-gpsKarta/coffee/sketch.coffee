@@ -85,6 +85,7 @@ buttons = []
 img = null 
 soundUp = null
 soundDown = null
+soundQueue = 0 # neg=minskat avstånd pos=ökat avstånd
 
 messages = []
 
@@ -147,11 +148,17 @@ soundIndicator = (p) ->
 	distb = round b.distanceTo c
 
 	buttons[5].prompt = dista
+
+	if abs(dista - distb) < 10 then soundQueue += dista - distb # ett antal meter
 	
-	if dista < distb  
-		if soundDown != null then soundDown.play()
-	if dista > distb  
-		if soundUp != null then soundUp.play()	
+playSound = ->
+	if soundQueue > 0 and soundDown != null
+		soundDown.play()
+		soundQueue--
+	else if soundQueue < 0 and soundUp != null
+		soundUp.play()
+		soundQueue++
+	soundFunction = setTimeout playSound, 500 # twice per second
 
 locationUpdate = (p) ->
 	soundIndicator p
@@ -228,6 +235,8 @@ setup = ->
 		mx = touch.pageX
 		my = touch.pageY
 		myMousePressed mx,my
+	
+	setTimeout playSound, 500
 
 drawTrack = ->
 	push()
@@ -303,11 +312,9 @@ myMousePressed = (mx,my) ->
 			xdraw()
 			return
 	arr = ([dist(cx-width/SCALE/2 + mx/SCALE, cy-height/SCALE/2+my/SCALE, control[0], control[1]), key] for key,control of controls)
-	print 2
 	closestControl = _.min arr, (item) -> item[0]
 	[d,key] = closestControl
 	if d < 85
-		print 3 
 		setTarget key
 		xdraw()
 
