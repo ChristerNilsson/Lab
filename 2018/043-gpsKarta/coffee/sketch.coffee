@@ -318,4 +318,4 @@ myMousePressed = (mx,my) ->
 		setTarget key
 		xdraw()
 
-mousePressed = -> myMousePressed mouseX,mouseY
+#mousePressed = -> myMousePressed mouseX,mouseY
