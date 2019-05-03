@@ -158,13 +158,10 @@ playSound = ->
 	if soundQueue < 0 and soundDown != null
 		soundDown.play()
 		soundQueue++
-		#print Date.now()
 	else if soundQueue > 0 and soundUp != null
 		soundUp.play()
 		soundQueue--
-		#print Date.now()
 	buttons[7].prompt	= soundQueue
-	#timeout = setInterval playSound, DELAY # twice per second
 	if soundQueue==0 then xdraw()
 
 locationUpdate = (p) ->
@@ -185,8 +182,6 @@ locationUpdateFail = (error) ->	if error.code == error.PERMISSION_DENIED then me
 setup = ->
 
 	createCanvas windowWidth,windowHeight
-
-	print 'setup'
 
 	WIDTH = img.width
 	HEIGHT = img.height
@@ -211,7 +206,6 @@ setup = ->
 		soundDown.setVolume 0.1
 		controls['bike'] = position
 		buttons[2].prompt = 'bike'
-		#clearTimeout timeout
 		clearInterval timeout
 		timeout = setInterval playSound, DELAY		
 		soundQueue = 0
@@ -220,18 +214,12 @@ setup = ->
 	buttons.push new Button '',x2,y1, -> setTarget 'bike'
 
 	buttons.push new Button 'L',x1,y, -> cx -= 0.25*width/SCALE
-	buttons.push new Button '', x,y, ->	
-		[cx,cy] = position
+	buttons.push new Button '', x,y, ->	[cx,cy] = position
 
 	buttons.push new Button 'R',x2,y, -> cx += 0.25*width/SCALE
-	buttons.push new Button '-',x1,y2, -> 
-		soundQueue += -10
-		#if SCALE > 0.5 then SCALE /= 1.2
+	buttons.push new Button '-',x1,y2, -> if SCALE > 0.5 then SCALE /= 1.2
 	buttons.push new Button 'D',x,y2, -> cy += 0.25*height/SCALE
-	buttons.push new Button '+',x2,y2, ->	
-		print '+'
-		soundQueue += 10
-		#SCALE *= 1.2
+	buttons.push new Button '+',x2,y2, ->	SCALE *= 1.2
 
 	position = [WIDTH/2,HEIGHT/2]
 
@@ -304,7 +292,6 @@ setTarget = (key) ->
 	[trgLat,trgLon] = gps.bmp2gps x,y	
 
 myMousePressed = (mx,my) ->
-	#print 'mousePressed'
 	for button in buttons
 		if button.contains mx,my
 			button.click()

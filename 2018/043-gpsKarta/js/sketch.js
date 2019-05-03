@@ -201,14 +201,11 @@ playSound = function playSound() {
   if (soundQueue < 0 && soundDown !== null) {
     soundDown.play();
     soundQueue++;
-    //print Date.now()
   } else if (soundQueue > 0 && soundUp !== null) {
     soundUp.play();
     soundQueue--;
   }
-  //print Date.now()
   buttons[7].prompt = soundQueue;
-  //timeout = setInterval playSound, DELAY # twice per second
   if (soundQueue === 0) {
     return xdraw();
   }
@@ -236,7 +233,6 @@ locationUpdateFail = function locationUpdateFail(error) {
 setup = function setup() {
   var x, x1, x2, y, y1, y2;
   createCanvas(windowWidth, windowHeight);
-  print('setup');
   WIDTH = img.width;
   HEIGHT = img.height;
   SCALE = 1;
@@ -259,7 +255,6 @@ setup = function setup() {
     soundDown.setVolume(0.1);
     controls['bike'] = position;
     buttons[2].prompt = 'bike';
-    //clearTimeout timeout
     clearInterval(timeout);
     timeout = setInterval(playSound, DELAY);
     return soundQueue = 0;
@@ -282,17 +277,16 @@ setup = function setup() {
     return cx += 0.25 * width / SCALE;
   }));
   buttons.push(new Button('-', x1, y2, function () {
-    return soundQueue += -10;
+    if (SCALE > 0.5) {
+      return SCALE /= 1.2;
+    }
   }));
-  //if SCALE > 0.5 then SCALE /= 1.2
   buttons.push(new Button('D', x, y2, function () {
     return cy += 0.25 * height / SCALE;
   }));
   buttons.push(new Button('+', x2, y2, function () {
-    print('+');
-    return soundQueue += 10;
+    return SCALE *= 1.2;
   }));
-  //SCALE *= 1.2
   position = [WIDTH / 2, HEIGHT / 2];
   navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
     enableHighAccuracy: true,
@@ -392,7 +386,6 @@ setTarget = function setTarget(key) {
 
 myMousePressed = function myMousePressed(mx, my) {
   var arr, button, closestControl, control, d, j, key, len;
-  //print 'mousePressed'
   for (j = 0, len = buttons.length; j < len; j++) {
     button = buttons[j];
     if (button.contains(mx, my)) {
