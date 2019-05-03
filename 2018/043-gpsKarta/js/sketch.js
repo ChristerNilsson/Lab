@@ -198,6 +198,9 @@ soundIndicator = function soundIndicator(p) {
 };
 
 playSound = function playSound() {
+  if (soundQueue === 0) {
+    return;
+  }
   if (soundQueue < 0 && soundDown !== null) {
     soundDown.play();
     soundQueue++;

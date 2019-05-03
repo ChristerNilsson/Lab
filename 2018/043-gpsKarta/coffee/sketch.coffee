@@ -155,6 +155,7 @@ soundIndicator = (p) ->
 	buttons[7].prompt	= soundQueue
 
 playSound = ->
+	if soundQueue == 0 then return 
 	if soundQueue < 0 and soundDown != null
 		soundDown.play()
 		soundQueue++
