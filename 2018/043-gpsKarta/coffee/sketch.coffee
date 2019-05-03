@@ -75,7 +75,7 @@ WIDTH = null
 HEIGHT = null
 [cx,cy] = [0,0] # center (image coordinates)
 SCALE = 1
-DELAY = 250 # ms, sound
+DELAY = 100 # ms, sound
 
 gps = null
 TRACKED = 5 # circles shows the player's position
@@ -158,9 +158,11 @@ playSound = ->
 	if soundQueue < 0 and soundDown != null
 		soundDown.play()
 		soundQueue++
+		print Date.now()
 	else if soundQueue > 0 and soundUp != null
 		soundUp.play()
 		soundQueue--
+		print Date.now()
 	buttons[7].prompt	= soundQueue
 	clearTimeout timeout
 	timeout = setTimeout playSound, DELAY # twice per second
@@ -222,9 +224,14 @@ setup = ->
 		[cx,cy] = position
 
 	buttons.push new Button 'R',x2,y, -> cx += 0.25*width/SCALE
-	buttons.push new Button '-',x1,y2, -> if SCALE > 0.5 then SCALE /= 1.2
+	buttons.push new Button '-',x1,y2, -> 
+		soundQueue += -10
+		#if SCALE > 0.5 then SCALE /= 1.2
 	buttons.push new Button 'D',x,y2, -> cy += 0.25*height/SCALE
-	buttons.push new Button '+',x2,y2, ->	SCALE *= 1.2
+	buttons.push new Button '+',x2,y2, ->	
+		print '+'
+		soundQueue += 10
+		#SCALE *= 1.2
 
 	position = [WIDTH/2,HEIGHT/2]
 

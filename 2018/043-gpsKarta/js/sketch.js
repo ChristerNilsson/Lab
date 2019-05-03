@@ -95,7 +95,7 @@ cy = 0 // center (image coordinates)
 
 SCALE = 1;
 
-DELAY = 250; // ms, sound
+DELAY = 100; // ms, sound
 
 gps = null;
 
@@ -201,9 +201,11 @@ _playSound = function playSound() {
   if (soundQueue < 0 && soundDown !== null) {
     soundDown.play();
     soundQueue++;
+    print(Date.now());
   } else if (soundQueue > 0 && soundUp !== null) {
     soundUp.play();
     soundQueue--;
+    print(Date.now());
   }
   buttons[7].prompt = soundQueue;
   clearTimeout(timeout);
@@ -278,16 +280,17 @@ setup = function setup() {
     return cx += 0.25 * width / SCALE;
   }));
   buttons.push(new Button('-', x1, y2, function () {
-    if (SCALE > 0.5) {
-      return SCALE /= 1.2;
-    }
+    return soundQueue += -10;
   }));
+  //if SCALE > 0.5 then SCALE /= 1.2
   buttons.push(new Button('D', x, y2, function () {
     return cy += 0.25 * height / SCALE;
   }));
   buttons.push(new Button('+', x2, y2, function () {
-    return SCALE *= 1.2;
+    print('+');
+    return soundQueue += 10;
   }));
+  //SCALE *= 1.2
   position = [WIDTH / 2, HEIGHT / 2];
   navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
     enableHighAccuracy: true,
