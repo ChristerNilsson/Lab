@@ -75,6 +75,7 @@ WIDTH = null
 HEIGHT = null
 [cx,cy] = [0,0] # center (image coordinates)
 SCALE = 1
+DELAY = 250 # ms, sound
 
 gps = null
 TRACKED = 5 # circles shows the player's position
@@ -92,6 +93,7 @@ messages = []
 [gpsLat,gpsLon] = [0,0]
 [trgLat,trgLon] = [0,0]
 currentControl = "1"
+timeout = null
 
 preload = -> img = loadImage FILENAME
 
@@ -160,7 +162,8 @@ playSound = ->
 		soundUp.play()
 		soundQueue--
 	buttons[7].prompt	= soundQueue
-	setTimeout playSound, 500 # twice per second
+	clearTimeout timeout
+	timeout = setTimeout playSound, DELAY # twice per second
 	xdraw()
 
 locationUpdate = (p) ->
@@ -181,6 +184,8 @@ locationUpdateFail = (error) ->	if error.code == error.PERMISSION_DENIED then me
 setup = ->
 
 	createCanvas windowWidth,windowHeight
+
+	print 'setup'
 
 	WIDTH = img.width
 	HEIGHT = img.height
@@ -205,6 +210,9 @@ setup = ->
 		soundDown.setVolume 0.1
 		controls['bike'] = position
 		buttons[2].prompt = 'bike'
+		clearTimeout timeout
+		timeout = setTimeout playSound, DELAY
+		soundQueue = 0
 
 	buttons.push new Button 'U',x,y1, -> cy -= 0.25*height/SCALE 
 	buttons.push new Button '',x2,y1, -> setTarget 'bike'
@@ -234,8 +242,6 @@ setup = ->
 		my = touch.pageY
 		myMousePressed mx,my
 	
-	setTimeout playSound, 500
-
 drawTrack = ->
 	push()
 	fc()
@@ -283,6 +289,7 @@ xdraw = ->
 
 setTarget = (key) ->
 	if controls[currentControl] == null then return
+	soundQueue = 0
 	currentControl = key
 	control = controls[currentControl]
 	x = control[0]
@@ -290,6 +297,7 @@ setTarget = (key) ->
 	[trgLat,trgLon] = gps.bmp2gps x,y	
 
 myMousePressed = (mx,my) ->
+	#print 'mousePressed'
 	for button in buttons
 		if button.contains mx,my
 			button.click()
