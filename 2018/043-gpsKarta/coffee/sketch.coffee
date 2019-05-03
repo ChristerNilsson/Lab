@@ -93,7 +93,7 @@ messages = []
 [gpsLat,gpsLon] = [0,0]
 [trgLat,trgLon] = [0,0]
 currentControl = "1"
-#timeout = null
+timeout = null
 
 preload = -> img = loadImage FILENAME
 
@@ -164,7 +164,6 @@ playSound = ->
 		soundQueue--
 		print Date.now()
 	buttons[7].prompt	= soundQueue
-	#clearTimeout timeout
 	#timeout = setInterval playSound, DELAY # twice per second
 	xdraw()
 
@@ -213,7 +212,8 @@ setup = ->
 		controls['bike'] = position
 		buttons[2].prompt = 'bike'
 		#clearTimeout timeout
-		setInterval playSound, DELAY
+		clearInterval timeout
+		timeout = setInterval playSound, DELAY		
 		soundQueue = 0
 
 	buttons.push new Button 'U',x,y1, -> cy -= 0.25*height/SCALE 
@@ -248,7 +248,7 @@ setup = ->
 		mx = touch.pageX
 		my = touch.pageY
 		myMousePressed mx,my
-	
+
 drawTrack = ->
 	push()
 	fc()
