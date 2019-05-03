@@ -201,15 +201,17 @@ playSound = function playSound() {
   if (soundQueue < 0 && soundDown !== null) {
     soundDown.play();
     soundQueue++;
-    print(Date.now());
+    //print Date.now()
   } else if (soundQueue > 0 && soundUp !== null) {
     soundUp.play();
     soundQueue--;
-    print(Date.now());
   }
+  //print Date.now()
   buttons[7].prompt = soundQueue;
   //timeout = setInterval playSound, DELAY # twice per second
-  return xdraw();
+  if (soundQueue === 0) {
+    return xdraw();
+  }
 };
 
 locationUpdate = function locationUpdate(p) {

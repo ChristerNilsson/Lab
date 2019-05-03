@@ -158,14 +158,14 @@ playSound = ->
 	if soundQueue < 0 and soundDown != null
 		soundDown.play()
 		soundQueue++
-		print Date.now()
+		#print Date.now()
 	else if soundQueue > 0 and soundUp != null
 		soundUp.play()
 		soundQueue--
-		print Date.now()
+		#print Date.now()
 	buttons[7].prompt	= soundQueue
 	#timeout = setInterval playSound, DELAY # twice per second
-	xdraw()
+	if soundQueue==0 then xdraw()
 
 locationUpdate = (p) ->
 	soundIndicator p
