@@ -40,4 +40,7 @@ Underlättar användning av analog kompass.
 ## ToDo:
 
 *	Drag och pinch istf knappar
-* Få kompassen att visa rätt
+
+## Intern info
+
+* playSound måste göra ett minimum för att hinna med 10 Hz.
