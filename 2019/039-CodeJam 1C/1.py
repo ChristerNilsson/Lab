@@ -43,16 +43,13 @@ def solve(players):
 	res = ''
 	for i in range(1000):
 		bits = 0 # 4+2+1 SPR (used characters)
-		for p in players:
-			letter = p[i % len(p)]
-			bits |= '-RP-S'.index(letter)
+		for p in players: bits |= '-RP-S'.index(p[i % len(p)])
 		if bits == 0: return res # Success
 		elif bits == 7: return 'IMPOSSIBLE'
 		else: res += '-PSPRRS'[bits]
-		players = [p for p in players if p[i % len(p)] == res[-1]]
+		players = [p for p in players if p[i % len(p)] == res[-1]] # keep ties
 
 for t in range(int(input())):
 	A = int(input())
 	players = [input() for i in range(A)]
-	arr = solve(players)
-	print('Case #%d:' % (t+1), arr)
+	print('Case #%d:' % (t+1), solve(players))
