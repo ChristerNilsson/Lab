@@ -14,54 +14,45 @@ RS
 RS
 RS
 RS
-'''
-'''
+###
+# Case #1: RSRSRSP
+# Case #2: IMPOSSIBLE
+# Case #3: P
+###
 1
 3
 RSP
 PR
 PS
+###
+# Case #1: PRS
 '''
 
-# Case #1: RSRSRSP
-# Case #2: IMPOSSIBLE
-# Case #3: P
+#   421
+#   SPR  command (win or tie)
+# 0 ---  Success
+# 1 --R  P
+# 2 -P-  S
+# 3 -PR  P
+# 4 S--  R
+# 5 S-R  R
+# 6 SP-  S
+# 7 SPR  IMPOSSIBLE
 
 def solve(players):
 	res = ''
-	i = 0
-	while True:
-		result = 0
-		#print(i,players)
-		for player in players:
-			letter = player[i%len(player)]
-			if letter=='R': result |= 1
-			if letter=='P': result |= 2
-			if letter=='S': result |= 4
-		# result contains possible letters
-		if result==0: return res
-		elif result==1: res+= 'P'
-		elif result==2: res+= 'S'
-		elif result==3: res+= 'P'
-		elif result==4: res+= 'R'
-		elif result==5: res+= 'R'
-		elif result==6: res+= 'S'
-		elif result==7: return 'IMPOSSIBLE'
-
-		# behåll lika
-		players1 = []
-		for player in players:
-			if player[i%len(player)]==res[-1]: players1.append(player)
-		players = players1
-		i+=1
-
-	return res
+	for i in range(1000):
+		bits = 0 # 4+2+1 SPR (used characters)
+		for p in players:
+			letter = p[i % len(p)]
+			bits |= '-RP-S'.index(letter)
+		if bits == 0: return res # Success
+		elif bits == 7: return 'IMPOSSIBLE'
+		else: res += '-PSPRRS'[bits]
+		players = [p for p in players if p[i % len(p)] == res[-1]]
 
 for t in range(int(input())):
-	print('Case #%d: ' % (t+1), end='')
 	A = int(input())
-	players = []
-	for i in range(A):
-		players.append(input())
+	players = [input() for i in range(A)]
 	arr = solve(players)
-	print(arr)
+	print('Case #%d:' % (t+1), arr)
