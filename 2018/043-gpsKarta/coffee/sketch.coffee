@@ -75,7 +75,9 @@ WIDTH = null
 HEIGHT = null
 [cx,cy] = [0,0] # center (image coordinates)
 SCALE = 1
-DELAY = 100 # ms, sound
+
+DELAY = 200 # ms, delay between sounds
+DIST = 2 # meter. Movement less than DIST makes no sound
 
 gps = null
 TRACKED = 5 # circles shows the player's position
@@ -146,16 +148,17 @@ soundIndicator = (p) ->
 	b = LatLon gpsLat, gpsLon
 	c = LatLon trgLat, trgLon # target
 
-	dista = round a.distanceTo c
-	distb = round b.distanceTo c
+	dista = a.distanceTo c
+	distb = b.distanceTo c
+	distance = round (dista - distb)/DIST
 
 	buttons[5].prompt = dista
 
-	if abs(dista - distb) < 10 then soundQueue += dista - distb # ett antal meter
+	if abs(dista - distb) < 10 then soundQueue += distance # ett antal DIST
 	buttons[7].prompt	= soundQueue
 
 playSound = ->
-	if soundQueue == 0 then return 
+	if soundQueue == 0 then return
 	if soundQueue < 0 and soundDown != null
 		soundDown.play()
 		soundQueue++
