@@ -153,6 +153,10 @@ soundIndicator = (p) ->
 	distance = round((dista - distb)/DIST)
 	buttons[5].prompt = round dista
 
+	if distance != 0 # update only if DIST detected. Otherwise some beeps will be lost.
+		gpsLat = p.coords.latitude
+		gpsLon = p.coords.longitude
+
 	if abs(distance) < 10 then soundQueue += distance # ett antal DIST
 	buttons[7].prompt	= soundQueue
 
@@ -169,9 +173,6 @@ playSound = ->
 
 locationUpdate = (p) ->
 	soundIndicator p
-
-	gpsLat = p.coords.latitude
-	gpsLon = p.coords.longitude
 
 	position = gps.gps2bmp gpsLat,gpsLon
 

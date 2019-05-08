@@ -194,6 +194,11 @@ soundIndicator = function soundIndicator(p) {
   distb = b.distanceTo(c);
   distance = round((dista - distb) / DIST);
   buttons[5].prompt = round(dista);
+  if (distance !== 0) {
+    // update only if DIST detected. Otherwise some beeps will be lost.
+    gpsLat = p.coords.latitude;
+    gpsLon = p.coords.longitude;
+  }
   if (abs(distance) < 10) {
     soundQueue += distance; // ett antal DIST
   }
@@ -219,8 +224,6 @@ playSound = function playSound() {
 
 locationUpdate = function locationUpdate(p) {
   soundIndicator(p);
-  gpsLat = p.coords.latitude;
-  gpsLon = p.coords.longitude;
   position = gps.gps2bmp(gpsLat, gpsLon);
   track.push(position);
   if (track.length > TRACKED) {
