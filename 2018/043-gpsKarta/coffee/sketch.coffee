@@ -1,3 +1,6 @@
+DELAY = 200 # ms, delay between sounds
+DIST = 1 # meter. Movement less than DIST makes no sound 1=walk. 5=bike
+
 spara = (lat,lon, x,y) -> {lat,lon, x,y}
 
 # 2019-SommarN
@@ -75,9 +78,6 @@ WIDTH = null
 HEIGHT = null
 [cx,cy] = [0,0] # center (image coordinates)
 SCALE = 1
-
-DELAY = 200 # ms, delay between sounds
-DIST = 2 # meter. Movement less than DIST makes no sound
 
 gps = null
 TRACKED = 5 # circles shows the player's position
@@ -308,4 +308,5 @@ myMousePressed = (mx,my) ->
 		setTarget key
 		xdraw()
 
-#mousePressed = -> myMousePressed mouseX,mouseY
+# only for debug on laptop
+# mousePressed = -> myMousePressed mouseX,mouseY
