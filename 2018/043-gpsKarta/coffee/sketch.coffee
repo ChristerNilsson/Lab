@@ -150,10 +150,10 @@ soundIndicator = (p) ->
 
 	dista = a.distanceTo c
 	distb = b.distanceTo c
-	distance = round(dista - distb)
-	buttons[5].prompt = distance
+	distance = round((dista - distb)/DIST)
+	buttons[5].prompt = round dista
 
-	if abs(distance) < 10 then soundQueue += round(distance/DIST) # ett antal DIST
+	if abs(distance) < 10 then soundQueue += distance # ett antal DIST
 	buttons[7].prompt	= soundQueue
 
 playSound = ->

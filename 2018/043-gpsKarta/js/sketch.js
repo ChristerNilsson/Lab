@@ -192,10 +192,10 @@ soundIndicator = function soundIndicator(p) {
   c = LatLon(trgLat, trgLon); // target
   dista = a.distanceTo(c);
   distb = b.distanceTo(c);
-  distance = round(dista - distb);
-  buttons[5].prompt = distance;
+  distance = round((dista - distb) / DIST);
+  buttons[5].prompt = round(dista);
   if (abs(distance) < 10) {
-    soundQueue += round(distance / DIST); // ett antal DIST
+    soundQueue += distance; // ett antal DIST
   }
   return buttons[7].prompt = soundQueue;
 };
