@@ -200,7 +200,7 @@ soundIndicator = function soundIndicator(p) {
     gpsLon = p.coords.longitude;
   }
   if (abs(distance) < 10) {
-    soundQueue += distance; // ett antal DIST
+    soundQueue = distance; // ett antal DIST
   }
   return buttons[7].prompt = soundQueue;
 };
@@ -269,13 +269,13 @@ setup = function setup() {
     return soundQueue = 0;
   }));
   buttons.push(new Button('U', x, y1, function () {
-    return cy -= 0.25 * height / SCALE;
+    return cy -= 0.33 * height / SCALE;
   }));
   buttons.push(new Button('', x2, y1, function () {
     return setTarget('bike');
   }));
   buttons.push(new Button('L', x1, y, function () {
-    return cx -= 0.25 * width / SCALE;
+    return cx -= 0.33 * width / SCALE;
   }));
   buttons.push(new Button('', x, y, function () {
     var _position, _position2;
@@ -283,18 +283,18 @@ setup = function setup() {
     return _position = position, _position2 = _slicedToArray(_position, 2), cx = _position2[0], cy = _position2[1], _position;
   }));
   buttons.push(new Button('R', x2, y, function () {
-    return cx += 0.25 * width / SCALE;
+    return cx += 0.33 * width / SCALE;
   }));
   buttons.push(new Button('-', x1, y2, function () {
     if (SCALE > 0.5) {
-      return SCALE /= 1.2;
+      return SCALE /= 1.5;
     }
   }));
   buttons.push(new Button('D', x, y2, function () {
-    return cy += 0.25 * height / SCALE;
+    return cy += 0.33 * height / SCALE;
   }));
   buttons.push(new Button('+', x2, y2, function () {
-    return SCALE *= 1.2;
+    return SCALE *= 1.5;
   }));
   position = [WIDTH / 2, HEIGHT / 2];
   navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {

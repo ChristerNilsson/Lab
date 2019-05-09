@@ -157,7 +157,7 @@ soundIndicator = (p) ->
 		gpsLat = p.coords.latitude
 		gpsLon = p.coords.longitude
 
-	if abs(distance) < 10 then soundQueue += distance # ett antal DIST
+	if abs(distance) < 10 then soundQueue = distance # ett antal DIST
 	buttons[7].prompt	= soundQueue
 
 playSound = ->
@@ -214,16 +214,16 @@ setup = ->
 		timeout = setInterval playSound, DELAY		
 		soundQueue = 0
 
-	buttons.push new Button 'U',x,y1, -> cy -= 0.25*height/SCALE 
+	buttons.push new Button 'U',x,y1, -> cy -= 0.33*height/SCALE 
 	buttons.push new Button '',x2,y1, -> setTarget 'bike'
 
-	buttons.push new Button 'L',x1,y, -> cx -= 0.25*width/SCALE
+	buttons.push new Button 'L',x1,y, -> cx -= 0.33*width/SCALE
 	buttons.push new Button '', x,y, ->	[cx,cy] = position
 
-	buttons.push new Button 'R',x2,y, -> cx += 0.25*width/SCALE
-	buttons.push new Button '-',x1,y2, -> if SCALE > 0.5 then SCALE /= 1.2
-	buttons.push new Button 'D',x,y2, -> cy += 0.25*height/SCALE
-	buttons.push new Button '+',x2,y2, ->	SCALE *= 1.2
+	buttons.push new Button 'R',x2,y, -> cx += 0.33*width/SCALE
+	buttons.push new Button '-',x1,y2, -> if SCALE > 0.5 then SCALE /= 1.5
+	buttons.push new Button 'D',x,y2, -> cy += 0.33*height/SCALE
+	buttons.push new Button '+',x2,y2, ->	SCALE *= 1.5
 
 	position = [WIDTH/2,HEIGHT/2]
 
