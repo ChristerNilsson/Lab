@@ -20,7 +20,10 @@ class Button
 	click : ->
 		j = board.h-1
 		for i in range board.n
-			if board.m[j][i] != board.facit[j][i] then return 
+			if board.m[j][i] != board.facit[j][i] 
+				level = 3
+				board = new Board level
+				return 
 		level += 1
 		board = new Board level
 
