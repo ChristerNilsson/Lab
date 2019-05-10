@@ -250,7 +250,7 @@ sayBearing = function sayBearing(a, b) {
 };
 
 showSpeed = function showSpeed(sp) {
-  return text(sp, 100, 100);
+  return buttons[0].prompt = sp;
 };
 
 soundIndicator = function soundIndicator(p) {

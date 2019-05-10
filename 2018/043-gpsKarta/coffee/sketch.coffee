@@ -181,7 +181,7 @@ sayBearing = (a,b) -> # a is newer
 		say s[0] + ' ' + s[1]
 
 showSpeed = (sp) ->
-	text sp,100,100
+	buttons[0].prompt = sp
 
 soundIndicator = (p) ->
 
