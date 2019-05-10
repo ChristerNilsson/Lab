@@ -97,6 +97,22 @@ messages = []
 currentControl = "1"
 timeout = null
 
+say = (m) ->
+	print 'touch'
+	speechSynthesis.cancel()
+	msg = new SpeechSynthesisUtterance()
+	voices = speechSynthesis.getVoices()
+	
+	msg.voice = voices[5] 	# 5 = british male
+	
+	msg.voiceURI = "native"
+	msg.volume = 1
+	msg.rate = 1
+	msg.pitch = 0.8
+	msg.text = m
+	msg.lang = 'en-US'
+	speechSynthesis.speak msg
+
 preload = -> img = loadImage FILENAME
 
 myround = (x,dec=6) ->
@@ -296,6 +312,7 @@ setTarget = (key) ->
 	[trgLat,trgLon] = gps.bmp2gps x,y	
 
 myMousePressed = (mx,my) ->
+	say 'touch'
 	for button in buttons
 		if button.contains mx,my
 			button.click()
@@ -309,4 +326,4 @@ myMousePressed = (mx,my) ->
 		xdraw()
 
 # only for debug on laptop
-# mousePressed = -> myMousePressed mouseX,mouseY
+#mousePressed = -> myMousePressed mouseX,mouseY
