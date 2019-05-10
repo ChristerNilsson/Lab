@@ -1,7 +1,7 @@
-DELAY = 200 # ms, delay between sounds
+DELAY = 100 # ms, delay between sounds
 DIST = 1 # meter. Movement less than DIST makes no sound 1=walk. 5=bike
 
-DISTANCES = [2,4,6,8,10,20,30,40,50,60,70,80,90,100,200,300,400,500,600,700,800,900,1000,2000,3000,4000,5000]
+DISTANCES = [1,2,3,4,5,6,7,8,9,10,20,30,40,50,60,70,80,90,100,200,300,400,500,600,700,800,900,1000,2000,3000,4000,5000]
 
 spara = (lat,lon, x,y) -> {lat,lon, x,y}
 
@@ -87,6 +87,8 @@ position = null # gps position (pixels)
 track = [] # five latest GPS positions (pixels)
 buttons = []
 
+speaker = null
+
 img = null 
 soundUp = null
 soundDown = null
@@ -99,21 +101,10 @@ messages = []
 currentControl = "1"
 timeout = null
 
-say = (m,index=5) ->
-	print 'touch'
+say = (m) ->
 	speechSynthesis.cancel()
-	msg = new SpeechSynthesisUtterance()
-	voices = speechSynthesis.getVoices()
-	
-	msg.voice = voices[index % 15]
-	
-	msg.voiceURI = "native"
-	msg.volume = 1
-	msg.rate = 1
-	msg.pitch = 0.8
-	msg.text = m
-	msg.lang = 'en-US'
-	speechSynthesis.speak msg
+	speaker.text = m
+	speechSynthesis.speak speaker
 
 preload = -> img = loadImage FILENAME
 
@@ -175,17 +166,17 @@ sayBearing = (a,b) -> # a is newer
 	a = round(a) // 10
 	b = round(b) // 10
 	if a != b # 0..35
-		if a==0 then a=36
+		if a == 0 then a = 36
 		s = a.toString()  
-		if s.length==1 then s='0'+s
-		say s[0] + ' ' + s[1]
+		if s.length == 1 then s = '0' + s
+		say 'bearing ' + s[0] + ' ' + s[1]
 
 showSpeed = (sp) ->
 	buttons[0].prompt = sp
 
 soundIndicator = (p) ->
 
-	a = LatLon p.coords.latitude,p.coords.longitude
+	a = LatLon p.coords.latitude,p.coords.longitude # newest
 	b = LatLon gpsLat, gpsLon
 	c = LatLon trgLat, trgLon # target
 
@@ -197,7 +188,7 @@ soundIndicator = (p) ->
 	sayDistance dista,distb
 	bearinga = a.bearingTo c
 	bearingb = b.bearingTo c
-	sayBearing bearinga,bearingb
+	if dista >= 10 sayBearing bearinga,bearingb
 
 	showSpeed abs dista-distb
 
@@ -211,11 +202,11 @@ soundIndicator = (p) ->
 playSound = ->
 	if soundQueue == 0 then return
 	if soundQueue < 0 and soundDown != null
-		soundDown.play()
 		soundQueue++
+		soundDown.play()
 	else if soundQueue > 0 and soundUp != null
-		soundUp.play()
 		soundQueue--
+		soundUp.play()
 	buttons[7].prompt	= soundQueue
 	if soundQueue==0 then xdraw()
 
@@ -231,6 +222,17 @@ locationUpdate = (p) ->
 
 locationUpdateFail = (error) ->	if error.code == error.PERMISSION_DENIED then messages = ['Check location permissions']
 
+initSpeaker = ->
+	speaker = new SpeechSynthesisUtterance()
+	voices = speechSynthesis.getVoices()
+	speaker.voice = voices[5]	
+	speaker.voiceURI = "native"
+	speaker.volume = 1
+	speaker.rate = 1
+	speaker.pitch = 0.8
+	speaker.text = 'speaker'
+	speaker.lang = 'en-US'
+
 setup = ->
 
 	createCanvas windowWidth,windowHeight
@@ -238,8 +240,8 @@ setup = ->
 	WIDTH = img.width
 	HEIGHT = img.height
 
-	SCALE = 1 
-	[cx,cy] = [width,height] 
+	SCALE = 1
+	[cx,cy] = [width,height]
 	
 	makeCorners()
 	setTarget _.keys(controls)[0]
@@ -252,6 +254,7 @@ setup = ->
 	y2 = height-100
 
 	buttons.push new Button 'S',x1,y1, -> # Store Bike Position
+		initSpeaker()
 		soundUp = loadSound 'soundUp.wav'
 		soundDown = loadSound 'soundDown.wav'
 		soundUp.setVolume 0.1
@@ -259,7 +262,7 @@ setup = ->
 		controls['bike'] = position
 		buttons[2].prompt = 'bike'
 		clearInterval timeout
-		timeout = setInterval playSound, DELAY		
+		timeout = setInterval playSound, DELAY
 		soundQueue = 0
 
 	buttons.push new Button 'U',x,y1, -> cy -= 0.33*height/SCALE 
@@ -275,7 +278,7 @@ setup = ->
 
 	position = [WIDTH/2,HEIGHT/2]
 
-	navigator.geolocation.watchPosition locationUpdate, locationUpdateFail, 
+	navigator.geolocation.watchPosition locationUpdate, locationUpdateFail,
 		enableHighAccuracy: true
 		maximumAge: 30000
 		timeout: 27000

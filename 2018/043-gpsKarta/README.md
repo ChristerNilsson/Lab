@@ -29,13 +29,17 @@ Hindra skärmrotation på din mobil (Android) :
 * When device is rotated: Stay in portrait view
 
 ## Klicka på kontroll
-Genom att klicka på en kontroll kan man nu se bäringen till kontrollen.
-Underlättar användning av analog kompass.
+Genom att klicka på en kontroll kan man se bäring och avstånd till kontrollen.
 
 ## Arbetsgång
-* Tag ut kompassriktning till kontrollen
-* Gå i den riktningen eller gå runt hinder
-* Justera riktningen genom att iaktta de fem cirklarna
+* Koppla in hörlurarna.
+* Avläs bäring till kontrollen
+* Ställ in den på kompassen
+* Gå i den bäringen eller gå runt hinder
+* Justera bäringen då rösten säger t ex "bearing 2 7" (270 grader = västerut)
+* Avstånd läses upp som t ex "distance 100" (meter)
+* Då avståndet < 10 meter ges ingen bäring. Utnyttja eventuellt bildskärmen för finlir på slutet.
+* Om hastigheten mot målet minskar till noll, gör en 90-graders sväng. Behövs ej om man följer rätt bäring.
 
 ## ToDo:
 
