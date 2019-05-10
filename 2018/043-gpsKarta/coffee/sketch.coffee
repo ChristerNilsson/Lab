@@ -1,7 +1,7 @@
 DELAY = 200 # ms, delay between sounds
 DIST = 1 # meter. Movement less than DIST makes no sound 1=walk. 5=bike
 
-DISTANCES = [10,20,50,100,200,500,1000,2000,5000]
+DISTANCES = [2,4,6,8,10,20,30,40,50,60,70,80,90,100,200,300,400,500,600,700,800,900,1000,2000,3000,4000,5000]
 
 spara = (lat,lon, x,y) -> {lat,lon, x,y}
 
@@ -99,13 +99,13 @@ messages = []
 currentControl = "1"
 timeout = null
 
-say = (m) ->
+say = (m,index=5) ->
 	print 'touch'
 	speechSynthesis.cancel()
 	msg = new SpeechSynthesisUtterance()
 	voices = speechSynthesis.getVoices()
 	
-	msg.voice = voices[5] 	# 5 = british male
+	msg.voice = voices[index % 15]
 	
 	msg.voiceURI = "native"
 	msg.volume = 1
@@ -160,13 +160,28 @@ makeCorners = ->
 
 	gps = new GPS nw,ne,se,sw,WIDTH,HEIGHT
 
-voiceDistance = (a,b) ->
+sayDistance = (a,b) ->
 	# if a border is crossed, play a sound
 	for distance in DISTANCES
 		count = 0
 		if a<distance then count += 1
 		if b<distance then count += 1
-		if count==1 then say distance
+		if count==1
+			if distance >= 10 then distance = 'distance ' + distance
+			say distance, round(distance)//100
+
+sayBearing = (a,b) -> # a is newer
+	# if a border is crossed, play a sound
+	a = round(a) // 10
+	b = round(b) // 10
+	if a != b # 0..35
+		if a==0 then a=36
+		s = a.toString()  
+		if s.length==1 then s='0'+s
+		say s[0] + ' ' + s[1]
+
+showSpeed = (sp) ->
+	text sp,100,100
 
 soundIndicator = (p) ->
 
@@ -179,7 +194,12 @@ soundIndicator = (p) ->
 	distance = round((dista - distb)/DIST)
 	buttons[5].prompt = round dista
 
-	voiceDistance dista,distb
+	sayDistance dista,distb
+	bearinga = a.bearingTo c
+	bearingb = b.bearingTo c
+	sayBearing bearinga,bearingb
+
+	showSpeed abs dista-distb
 
 	if distance != 0 # update only if DIST detected. Otherwise some beeps will be lost.
 		gpsLat = p.coords.latitude
@@ -337,4 +357,4 @@ myMousePressed = (mx,my) ->
 		xdraw()
 
 # only for debug on laptop
-#mousePressed = -> myMousePressed mouseX,mouseY
+# mousePressed = -> myMousePressed mouseX,mouseY
