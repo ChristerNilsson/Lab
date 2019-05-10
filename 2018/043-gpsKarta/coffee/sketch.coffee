@@ -1,6 +1,8 @@
 DELAY = 200 # ms, delay between sounds
 DIST = 1 # meter. Movement less than DIST makes no sound 1=walk. 5=bike
 
+DISTANCES = [10,20,50,100,200,500,1000,2000,5000]
+
 spara = (lat,lon, x,y) -> {lat,lon, x,y}
 
 # 2019-SommarN
@@ -158,6 +160,14 @@ makeCorners = ->
 
 	gps = new GPS nw,ne,se,sw,WIDTH,HEIGHT
 
+voiceDistance = (a,b) ->
+	# if a border is crossed, play a sound
+	for distance in DISTANCES
+		count = 0
+		if a<distance then count += 1
+		if b<distance then count += 1
+		if count==1 then say distance
+
 soundIndicator = (p) ->
 
 	a = LatLon p.coords.latitude,p.coords.longitude
@@ -168,6 +178,8 @@ soundIndicator = (p) ->
 	distb = b.distanceTo c
 	distance = round((dista - distb)/DIST)
 	buttons[5].prompt = round dista
+
+	voiceDistance dista,distb
 
 	if distance != 0 # update only if DIST detected. Otherwise some beeps will be lost.
 		gpsLat = p.coords.latitude
@@ -312,7 +324,6 @@ setTarget = (key) ->
 	[trgLat,trgLon] = gps.bmp2gps x,y	
 
 myMousePressed = (mx,my) ->
-	say 'touch'
 	for button in buttons
 		if button.contains mx,my
 			button.click()
