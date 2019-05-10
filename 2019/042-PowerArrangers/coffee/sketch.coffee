@@ -24,7 +24,8 @@ class Button
 				level = 3
 				board = new Board level
 				return 
-		level += 1
+		if board.counter == board.optimum then level += 1
+		else level = 3
 		board = new Board level
 
 	inside : (mx,my) ->	@x < mx+board.size/2 < @x+board.w*board.size and @y < my+board.size/2 < @y+board.h*board.size
@@ -38,7 +39,8 @@ class Board
 		@size = height/@h
 		@facit = @generate range @n
 		@m = ((-1 for i in range @n) for j in range @h)
-		@counter = [0,0,1,1+5,1+5+23,1+5+23+119][@n]
+		@counter = 0
+		@optimum = [0,0,0,6,29,148][@n]
 
 	generate : (arr) ->
 		result = []
@@ -92,9 +94,9 @@ class Board
 					@m[j][i] = (@m[j][i] + 1) % @n
 		else
 			if j<@h-1 and i<@w
-				if @counter>0 and @m[j][i] != REVEALED
+				if @m[j][i] != REVEALED
 					@m[j][i] = REVEALED
-					@counter -= 1
+					@counter += 1
 
 setup = ->
 	createCanvas windowWidth,windowHeight
