@@ -188,7 +188,7 @@ soundIndicator = (p) ->
 	sayDistance dista,distb
 	bearinga = a.bearingTo c
 	bearingb = b.bearingTo c
-	if dista >= 10 sayBearing bearinga,bearingb
+	if dista >= 10 then sayBearing bearinga,bearingb
 
 	showSpeed abs dista-distb
 
@@ -231,7 +231,8 @@ initSpeaker = ->
 	speaker.rate = 1
 	speaker.pitch = 0.8
 	speaker.text = 'speaker'
-	speaker.lang = 'en-US'
+	#speaker.lang = 'en-US'
+	speaker.lang = 'sv-SE'
 
 setup = ->
 
