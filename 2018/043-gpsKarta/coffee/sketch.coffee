@@ -158,7 +158,7 @@ sayDistance = (a,b) ->
 		if a<distance then count += 1
 		if b<distance then count += 1
 		if count==1
-			if distance >= 10 then distance = 'distance ' + distance
+			if distance >= 10 then distance = 'distans ' + distance
 			say distance, round(distance)//100
 
 sayBearing = (a,b) -> # a is newer
@@ -169,7 +169,7 @@ sayBearing = (a,b) -> # a is newer
 		if a == 0 then a = 36
 		s = a.toString()  
 		if s.length == 1 then s = '0' + s
-		say 'bearing ' + s[0] + ' ' + s[1]
+		say 'bäring ' + s[0] + ' ' + s[1]
 
 showSpeed = (sp) ->
 	buttons[0].prompt = sp
@@ -230,7 +230,7 @@ initSpeaker = ->
 	speaker.volume = 1
 	speaker.rate = 1
 	speaker.pitch = 0.8
-	speaker.text = 'speaker'
+	speaker.text = 'Välkommen!'
 	#speaker.lang = 'en-US'
 	speaker.lang = 'sv-SE'
 

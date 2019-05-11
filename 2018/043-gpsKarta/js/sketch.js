@@ -210,7 +210,7 @@ sayDistance = function sayDistance(a, b) {
     }
     if (count === 1) {
       if (distance >= 10) {
-        distance = 'distance ' + distance;
+        distance = 'distans ' + distance;
       }
       results.push(say(distance, Math.floor(round(distance) / 100)));
     } else {
@@ -235,7 +235,7 @@ sayBearing = function sayBearing(a, b) {
     if (s.length === 1) {
       s = '0' + s;
     }
-    return say('bearing ' + s[0] + ' ' + s[1]);
+    return say('bäring ' + s[0] + ' ' + s[1]);
   }
 };
 
@@ -313,7 +313,7 @@ initSpeaker = function initSpeaker() {
   speaker.volume = 1;
   speaker.rate = 1;
   speaker.pitch = 0.8;
-  speaker.text = 'speaker';
+  speaker.text = 'Välkommen!';
   //speaker.lang = 'en-US'
   return speaker.lang = 'sv-SE';
 };
