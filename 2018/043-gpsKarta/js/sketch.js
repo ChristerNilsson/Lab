@@ -240,7 +240,7 @@ sayBearing = function sayBearing(a, b) {
 };
 
 showSpeed = function showSpeed(sp) {
-  return buttons[0].prompt = sp;
+  return buttons[0].prompt = myround(sp, 1);
 };
 
 soundIndicator = function soundIndicator(p) {

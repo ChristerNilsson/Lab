@@ -171,8 +171,7 @@ sayBearing = (a,b) -> # a is newer
 		if s.length == 1 then s = '0' + s
 		say 'bäring ' + s[0] + ' ' + s[1]
 
-showSpeed = (sp) ->
-	buttons[0].prompt = sp
+showSpeed = (sp) -> buttons[0].prompt = myround sp, 1
 
 soundIndicator = (p) ->
 
