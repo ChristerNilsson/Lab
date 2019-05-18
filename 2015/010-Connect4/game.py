@@ -22,24 +22,24 @@ x = Human('Christer')
 o = Player('MonteCarlo')
 
 board = board.Board()
-print board.display()
+print(board.display())
 
 while True:
     m = x.move(board)
     board.move(m)
-    print board.display()
+    print(board.display())
     if board.calc():
-        print x.name + " vann!"
+        print(x.name + " vann!")
         break
 
     m = o.move(board)
     board.move(m)
-    print board.display()
+    print(board.display())
     if board.calc():
-        print o.name + " vann!"
+        print(o.name + " vann!")
         break
 
     if len(board.moves) == 42:
-        print 'remi!'
+        print('remi!')
         break
 

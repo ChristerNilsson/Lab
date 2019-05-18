@@ -3,8 +3,9 @@
 # Nim lacks runtime eval, that's the reason for so much code.
 # Also, seqs can't contain mixed types.
 
-from atomicMass import ATOMIC_MASS
 import tables, strutils, sequtils,math
+
+let ATOMIC_MASS = {"H":1.008, "C":12.011, "O":15.999, "Na":22.98976928, "S":32.06, "Uue":315.0}.toTable
 
 proc pass1(s:string): seq[string] = # "H2O" => @["H","*","2","+","O"]
 	result.add "0"
@@ -57,7 +58,7 @@ proc pass2(s:string): seq[string] = # "H2O" => @["H", "2", "*", "O", "+"]
  
 	while stack.len > 0: result.add stack.pop()
 
-proc pass3(s:string): Table[string,int] = # H 2 * O + => { H:2, O:1 }
+proc pass3(s:string): Table[string,int] = # "H2O" => { H:2, O:1 }
 	let rpn: seq[string] = pass2 s
 	var stack: seq[Table[string,int]] = @[]
 	for item in rpn:
@@ -94,7 +95,7 @@ proc pass3(s:string): Table[string,int] = # H 2 * O + => { H:2, O:1 }
 			stack.add res
 	return stack.pop()
 
-proc pass4(s: string) : float = # { H:2, O:1 } => 18.015
+proc pass4(s: string) : float = # "H2O" => 18.015
 	let atoms: Table[string,int] = pass3 s
 	for key in atoms.keys:
 		let count : int = atoms[key]

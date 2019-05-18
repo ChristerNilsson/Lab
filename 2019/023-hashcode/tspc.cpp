@@ -6,6 +6,7 @@
 #include <string>
 #include <sstream>
 #include <ctime>
+#include <chrono>
 
 using namespace std;
 
@@ -33,7 +34,13 @@ vector<int> route = vector<int> {};
 int totalScore = 0;
 int start = 0;
 int swaps = 0;
-clock_t time_req = clock();
+
+
+//clock = std::chrono::steady_clock::now
+//std::chrono::steady_clock::time_point begin = std::chrono::steady_clock::now();
+//std::chrono::steady_clock::time_point end= std::chrono::steady_clock::now();
+//std::cout << "Time difference = " << std::chrono::duration_cast<std::chrono::microseconds>(end - begin).count() <<std::endl;
+//std::cout << "Time difference = " << std::chrono::duration_cast<std::chrono::nanoseconds> (end - begin).count() <<std::endl;
 
 vector<string> split(string s) {
 	stringstream ss(s);
@@ -228,11 +235,15 @@ void opt(int i, int j) {
 }
 
 void two_opt() {
+	std::chrono::steady_clock::time_point time_begin = std::chrono::steady_clock::now();
 	swaps = 1;
 	while (swaps > 0) {
 		swaps = 0;
 		for (int i=2; i < route.size()-4; i++) {
-			cout << i << ' ' << totalScore << ' ' << (clock() - time_req)/CLOCKS_PER_SEC << "\n"; //, self.route[:64])
+			std::chrono::steady_clock::time_point time_end = std::chrono::steady_clock::now();
+			int diff = std::chrono::duration_cast<std::chrono::microseconds>(time_end - time_begin).count();
+
+			cout << i << ' ' << totalScore << ' ' << diff/1000000.0 << "\n"; 
 			for (int j=i+4; j < route.size()-2; j+=2) {
 				opt(i,j);
 				opt(i+1,j+1);

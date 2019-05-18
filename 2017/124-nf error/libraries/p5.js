@@ -27731,7 +27731,7 @@ p5.prototype.nf = function () {
 
 function doNf() {
   var num = arguments[0];
-  num = num.toFixed(arguments[2]);  
+  //num = num.toFixed(arguments[2]);  
   var neg = num < 0;
   var n = neg ? num.toString().substring(1) : num.toString();
   var decimalInd = n.indexOf('.');

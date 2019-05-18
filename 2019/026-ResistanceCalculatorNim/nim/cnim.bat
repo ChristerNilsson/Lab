@@ -1,1 +1,1 @@
-nim cpp -d:release --opt:speed -r %1.nim
+nim cpp -r %1.nim

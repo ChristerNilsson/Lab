@@ -4,21 +4,28 @@ from times import cpuTime
 
 proc clock() : float = cpuTime()
 
+proc fib(n: uint64): uint64 = 
+	#if n < 2.uint64: 1.uint64 else: fib(n - 1) + fib(n - 2)
+	if n < 2:
+		1.uint64
+	else: 
+		fib(n-1) + fib(n-2)
 
-# proc fib(n: uint64): uint64 = 
-# 	if n < 2.uint64: 1.uint64 else: fib(n - 1) + fib(n - 2)
+# proc fib(n: int): uint64 = 
+# 	var a,b : uint64 
+# 	(a,b) = (1.uint64, 1.uint64)
 
-proc fib(n: int): uint64 = 
-	var a,b : uint64 
-	(a,b) = (1.uint64, 1.uint64)
+# 	for i in 1..<n:
+# 		(a,b) = (b,a+b)
+# 	b
 
-	for i in 1..<n:
-		(a,b) = (b,a+b)
-	b
+proc main() =
 
-let start = clock()
-var z : uint64
-for i in 0..<100000000:
+	let start = clock()
+	var z : uint64
+	#for i in 0..<1000000000:
 	z = fib 46
-echo z
-echo clock()-start
+	echo z
+	echo clock()-start
+
+main()

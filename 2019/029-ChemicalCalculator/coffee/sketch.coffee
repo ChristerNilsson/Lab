@@ -1,3 +1,5 @@
+ATOMIC_MASS = {H:1.008,C:12.011,O:15.999,Na:22.98976928,S:32.06,Uue:315}
+
 mul = (match, p1, offset, string) -> '*' + p1 
 add = (match, p1, offset, string) -> 
 	if p1 == '(' then return '+' + p1 

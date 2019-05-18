@@ -21,7 +21,7 @@ from pyglet.graphics import TextureGroup
 TICKS_PER_SEC = 60
 SECTOR_SIZE = 16
 
-CPU = True  # Eftersom min laptop och min CPU uppför sig olika. Symptomet är att programmet hänger sig vid start.
+CPU = False  # Eftersom min laptop och min CPU uppför sig olika. Symptomet är att programmet hänger sig vid start.
 
 MAX_SPEED = 5.0  # boxar/sekund
 
@@ -280,7 +280,7 @@ class Model(object):
         self.add_block((0, -1, 1), STONE, immediate=False)
         self.add_block((0, -1, 0), STONE, immediate=False)
         self.add_block((1, -1, 0), STONE, immediate=False)
-        self.add_targets(10)
+        self.add_targets(20)
 
     def add_targets(self,n):
         for i in range(n):
@@ -307,6 +307,9 @@ class Model(object):
             self.check_neighbors(position)
 
     def remove_block(self, position, immediate=True):
+        x,y,z = position
+        self.add_block((x, -1, z), STONE, immediate)
+
         del self.world[position]
         self.sectors[sectorize(position)].remove(position)
         if immediate:

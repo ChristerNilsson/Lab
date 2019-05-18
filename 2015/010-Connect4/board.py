@@ -6,11 +6,12 @@ N = 7  # antal kolumner
 
 DOT = '.'
 
+
 def ass(a, b):
     if a != b:
-        print "Assert failed"
-        print a
-        print b
+        print("Assert failed")
+        print(a)
+        print(b)
         assert a == b
 
 
@@ -32,7 +33,7 @@ class Board(object):
         while len(self.board[m]) >= M:
             m = random.randrange(N)
         if len(self.board[m]) >= M:
-            print self.board
+            print(self.board)
         return m
 
     def clear(self):

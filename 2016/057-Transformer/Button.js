@@ -14,9 +14,10 @@ Button = (function() {
   Button.prototype.draw = function() {
     g.push();
     g.translate(width * this.x / 60, height * this.y / 60);
-    g.dump(this.txt);
     this.x0 = g.x;
     this.y0 = g.y;
+    this.w0 = g.s * width * this.w / 60 - 2;
+    this.h0 = g.s * height * this.h / 60 - 2;
     fill(255, 255, 0);
     rect(0, 0, width * this.w / 60 - 2, height * this.h / 60 - 2);
     fill(0);
@@ -26,7 +27,7 @@ Button = (function() {
   };
 
   Button.prototype.mousePressed = function() {
-    if ((this.x0 - 50 <= mouseX && mouseX <= this.x0 + 50) && (this.y0 - 30 <= mouseY && mouseY <= this.y0 + 30)) {
+    if ((this.x0 - this.w0 / 2 <= mouseX && mouseX <= this.x0 + this.w0 / 2) && (this.y0 - this.h0 / 2 <= mouseY && mouseY <= this.y0 + this.h0 / 2)) {
       return console.log(this.txt);
     }
   };

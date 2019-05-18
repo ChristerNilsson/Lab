@@ -13,7 +13,7 @@ boolean gameOver;
 
 void setup() {
   size(600,600);
-  arduino = new Arduino(this, Arduino.list()[2], 57600);
+  arduino = new Arduino(this, Arduino.list()[1], 57600);
   player1 = new Player(      10,height/2,10,100,1,color(255,0,0));
   player2 = new Player(width-20,height/2,10,100,0,color(0,0,255));
   gameOver = true;

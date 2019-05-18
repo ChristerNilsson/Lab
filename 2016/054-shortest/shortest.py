@@ -11,7 +11,7 @@ def solve(start,target):
     tree = {start: 0}
     q = deque([start])
     while True:
-        a = q.popleft()
+        a = q.pop(0) #popleft()
         if expand(a, a+2): break
         if expand(a, a*2): break
         if a%2 == 0 and expand(a, a/2): break
@@ -25,7 +25,7 @@ start = time.clock()
 # assert solve(3000,2000) == [3000, 1500, 750, 752, 376, 188, 94, 96, 48, 50, 25, 27, 29, 31, 62, 124, 248, 250, 500, 1000, 2000]
 # assert solve(3000,25) == [3000, 1500, 750, 752, 376, 188, 94, 96, 48, 50, 25]
 # assert solve(25,2000) == [25, 27, 29, 31, 62, 124, 248, 250, 500, 1000, 2000]
-print solve(2002,3000)
+print solve(2000,3000)
 print time.clock()-start
 
 

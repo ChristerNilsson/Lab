@@ -94,7 +94,14 @@ class Node:
 		if self.state == GOAL: result += "  Solved!"
 		return result
 
+
 	def h(self):
+		# def manhattan(i, j):
+		# 	return abs(i // N - j // N) + abs(i % N - j % N)
+		# def manhattanTotal():
+		# 	return 1.0 * sum([manhattan(i, GOAL.index(self.state[i])) for i in range(N * N) if self.state[i] != '_'])
+		# return manhattanTotal()
+
 		index0 = 0
 		index1 = 0
 		index2 = 0
@@ -216,6 +223,7 @@ print(nodeCount, perf_counter() - start)
 #boro([9,8,3,6,0,13,1,4,5,2,15,7,10,11,12,14]) # IHCF_MADEBOGJKLN 41 OK!  0.065 sek (java 15ms)
 #korf([3,14,9,11,5,4,8,2,13,12,6,7,10,1,15,0]) # _AOFIJDCNHLKEGBM 46 OK!  0.298 sek (java 15ms)
 #boro([9,7,5,2,0,3,1,13,11,4,6,10,15,12,14,8]) # IGEB_CAMKDFJOLNH 51 OK!  0.596 sek (java 31ms)
+                                               # ONAFIKDL_JGCMHEB 52 PDB663 = 3.208 sek  MD = 160.8 sek
 #boro([15,6,7,3,2,5,1,10,4,0,9,13,12,11,8,14]) # OFGCBEAJD_IMLKHN 53 OK!  1.232 sek (java 46ms)
 #boro([10,3,12,5,6,15,13,7,14,11,9,2,0,4,1,8]) # JCLEFOMGNKIB_DAH 57 OK!  1.981 sek (java 31ms)
 #boro([14,15,7,9,5,2,8,6,10,4,1,0,12,11,3,13]) # NOGIEBHFJDA_LKCM 61 OK! 76.166 sek (java 989ms)
@@ -235,7 +243,10 @@ print(nodeCount, perf_counter() - start)
 start = perf_counter()
 #ALFA = convert(ALFA)
 #GOAL = convert(GOAL)
-startNode = Node('IHCF_MADEBOGJKLN')
+startNode = Node('ONAFIKDL_JGCMHEB')
+
+#fe169b4c0a73d852
+#ONAFIKDL_JGCMHEB
 
 for limit in range(99):
 	nodes = {}

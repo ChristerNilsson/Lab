@@ -27,6 +27,15 @@ class Tile:
 						antal += 1
 		return antal if ts >= packer.L and ms >= packer.L else 0
 
+	def countT(self,packer,r,c):
+		ts = 0
+		for i in range(c, c + 3):
+			if i < packer.C:
+				for j in range(r, r + 1):
+					if j < packer.R:
+						if packer.grid[j][i]=='T': ts+=1
+		return ts
+
 	def fit(self,packer):
 		if not self.ok(packer,self.r,self.c): return False
 		for i in range(self.w):
@@ -36,6 +45,9 @@ class Tile:
 				if y >= packer.R or x >= packer.C: return False
 				if packer.used[y][x] == 1: return False
 		return True
+
+	def __str__(self):
+		return f"{self.r} {self.c} {self.w} {self.h}"
 
 class Packer:
 	def __init__(self,filename):
@@ -88,20 +100,21 @@ class Packer:
 	# 		self.tiles.append([1,5])
 
 			# c 4-12
-			self.tiles.append([12,1]) # 49437
-			self.tiles.append([11,1])
-			self.tiles.append([10,1])
-			self.tiles.append([9,1])
-			self.tiles.append([8,1])
 			self.tiles.append([6,2])
-			self.tiles.append([4,3])
+			#self.tiles.append([11,1])
+			#self.tiles.append([10,1])
+			#self.tiles.append([9,1])
+			#self.tiles.append([8,1])
+			#self.tiles.append([4,3])
 			self.tiles.append([3,4])
 			self.tiles.append([2,6])
-			self.tiles.append([1,12])
-			self.tiles.append([1,11])
-			self.tiles.append([1,10])
-			self.tiles.append([1,9])
-			self.tiles.append([1,8])
+			self.tiles.append([12,1]) # 49437
+			self.tiles.append([3,3])
+			#self.tiles.append([1,12])
+			#self.tiles.append([1,11])
+			#self.tiles.append([1,10])
+			#self.tiles.append([1,9])
+			#self.tiles.append([1,8])
 
 	# d 6-14
 	# 		self.tiles.append([14,1]) # 894217
@@ -158,7 +171,7 @@ class Packer:
 		self.slices = []
 		value = 0
 		for r in range(self.R):
-			for c in range(self.C):
+			for c in range(0,self.C,3):
 				if self.used[r][c] == 0:
 					tile = self.findTile(r,c)
 					if tile != None:
@@ -171,10 +184,23 @@ class Packer:
 		self.json()
 		return self.slices
 
+	# schackrutor om 2x6. Hur många är ej ok?
+	def check2x6(self):
+		self.slices = []
+		countT = []
+		for r in range(0,self.R,1):
+			row = []
+			for c in range(0,self.C,3):
+				tile = Tile(r,c,3,1,0)
+				row.append(tile.countT(self,r,c))
+			countT.append(row)
+		self.dump(countT)
+		return countT
+
 	def dump(self,a):
 		print('')
 		for row in a:
-			print(''.join([str(item) for item in row]))
+			print(' '.join([str(item) for item in row]))
 
 	def dump2(self):
 		print('')
@@ -191,7 +217,8 @@ class Packer:
 
 packer = Packer('c')
 packer.slices = packer.execute()
-#packer.dump2()
+#packer.check2x6()
+packer.dump2()
 print('')
 # for slice in packer.slices:
 # 	print(slice.r,slice.c,slice.r+slice.w-1,slice.c+slice.h-1)

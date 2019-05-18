@@ -5,7 +5,7 @@ from algorithm import reverse
 from strutils import split
 import sets 
 
-# nim c --checks:off --boundChecks:off --opt:speed -r tspc.nim
+# nim c -d:release --opt:speed -r tspc.nim
 
 type 
 	StringSet = HashSet[string]
@@ -85,10 +85,13 @@ proc two_opt() =
 proc init() = 
 	for i in countup(0,80000-1): route[i] = i
 
-read()
-init()
-totalScore = calc()
-start = cpuTime()
-echo start
-swaps = 0
-two_opt()
+proc main =
+	read()
+	init()
+	totalScore = calc()
+	start = cpuTime()
+	echo start
+	swaps = 0
+	two_opt()
+
+main()

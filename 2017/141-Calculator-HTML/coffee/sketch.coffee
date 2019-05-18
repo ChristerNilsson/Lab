@@ -45,6 +45,12 @@ class State
 			div id:'dz', @z
 			div id:'dy', @y
 			div id:'dx', @x
+			
+			div {},
+				button onclick: "state.calculate('sqrt')", "sqrt"
+				button onclick: "state.calculate('swap')", "swap"
+				button onclick: "state.calculate('%')",   "."
+				button onclick: "state.calculate('÷')",   "."
 			div {},
 				button onclick: "state.calculate('clr')", "clr"
 				button onclick: "state.calculate('chs')", "chs"
@@ -76,6 +82,8 @@ class State
 		if buttonName == 'clr' then @fix {x:"0", y:"0", "z":0, t:"0", entering:false}
 		if buttonName == 'enter' then @fix {x:@x, y:@x, z:@y, t:@z, entering:false }
 		if buttonName == 'chs' then	@x = -@x
+		if buttonName == 'sqrt' then @x = Math.sqrt @x
+		if buttonName == 'swap' then [@x,@y] = [@y,@x]
 		if buttonName in "+-x÷%"
 			x = parseFloat @x
 			y = parseFloat @y

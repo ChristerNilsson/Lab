@@ -17,9 +17,9 @@ Inspiration for this code can be found here: https://github.com/danieleratti/has
 First row of 80.000. 
 
 ```code
-C++:     6 secs  c++ -O3 tspc.cpp
+C++:     5.306 secs  c++ -O3 tspc.cpp
+Nim:     5.867 secs  nim c -d:release --opt:speed -r tspc.nim  (put code in main)
 Python: 11 secs  python tspc.py
-Nim:    23 secs  nim c --checks:off --opt:speed -r tspc.nim
 ```
 ## Problem set:
 * Average number of tags per photo

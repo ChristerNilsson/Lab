@@ -2,7 +2,10 @@ say = (m) ->
 	speechSynthesis.cancel()
 	msg = new SpeechSynthesisUtterance()
 	voices = speechSynthesis.getVoices()
-	msg.voice = voices[5]
+	
+	msg.voice = voices[5] 
+	# 5 = british male
+	
 	msg.voiceURI = "native"
 	msg.volume = 1
 	msg.rate = 1

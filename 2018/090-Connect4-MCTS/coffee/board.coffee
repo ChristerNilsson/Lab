@@ -46,6 +46,7 @@ class Board
 			res = 0
 			while 0 <= r < M and 0 <= c < N and r < @board[c].length and @board[c][r] == marker
 				res++
+				#console.log 'helper',row,col,r,c,res
 				r += dr
 				c += dc
 			res

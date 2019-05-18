@@ -15060,7 +15060,19 @@ p5.Renderer2D.prototype.rect = function(x, y, w, h, tl, tr, br, bl) {
 
   if (typeof tl === 'undefined') {
     // No rounded corners
-    ctx.rect(vals.x, vals.y, vals.w, vals.h);
+    //ctx.rect(vals.x, vals.y, vals.w, vals.h);
+    ctx.beginPath();
+    var _x = vals.x;
+    var _y = vals.y;
+    var _w = vals.w;
+    var _h = vals.h;
+    ctx.moveTo(_x, _y);
+    ctx.lineTo(_x + _w, _y, _x + _w, _y + _h);
+    ctx.lineTo(_x + _w, _y + _h, _x, _y + _h);
+    ctx.lineTo(_x, _y + _h, _x, _y);
+    ctx.lineTo(_x, _y, _x + _w, _y);
+    ctx.closePath();
+
   } else {
     // At least one rounded corner
     // Set defaults when not specified

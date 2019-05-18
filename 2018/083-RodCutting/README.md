@@ -1,6 +1,7 @@
 # Rod Cutting
 
 [Try it!](https://christernilsson.github.io/Lab/2018/083-RodCutting)
+
 [Instructions](https://github.com/ChristerNilsson/Lab/tree/master/2018/084-RodCuttingInstructions#rod-cutting-instructions)
 
 Dynamisk programmering handlar om att beräkna rekursiv data med lookup-tabeller. Jämför rekursiv fibonacci. 

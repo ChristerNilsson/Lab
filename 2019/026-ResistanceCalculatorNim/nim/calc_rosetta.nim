@@ -43,18 +43,23 @@ proc build(tokens : seq[string]) : Node =
 		else: 	      	   stack.add Node(kind : 'r', resistance : parseFloat(token))
 	stack.pop
 
-proc calculate(voltage:float, tokens:seq[string]) = 
+proc calculate(voltage:float, tokens:seq[string]) : Node = 
 	echo ""
 	echo "     Ohm     Volt   Ampere     Watt  Network tree"
 	let node = build tokens
 	node.setVoltage voltage
 	node.report
+	node
 
 ################## RPN
 
-proc rpn(voltage:float, s:string) = calculate(voltage, s.split ' ')
-
-rpn 18.0,"10 2 + 6 * 8 + 6 * 4 + 8 * 4 + 8 * 6 +"
+proc rpn(voltage:float, s:string) : Node = calculate(voltage, s.split ' ')
+var node = rpn(18.0,"10 2 + 6 * 8 + 6 * 4 + 8 * 4 + 8 * 6 +")
+assert 10 == node.res
+assert 18 == node.voltage
+assert 1.8 == node.current()
+assert 32.4 == node.effect()
+assert '+' == node.kind
 
 ################## Infix
 
@@ -99,5 +104,10 @@ proc shuntRPN(s:string): seq[string] =
  
 	while stack.len > 0: result.add stack.pop()
 
-proc infix(voltage:float, s:string) = calculate(voltage, shuntRPN s)
-infix 18.0,"((((10+2)*6+8)*6+4)*8+4)*8+6" 
+proc infix(voltage:float, s:string): Node = calculate(voltage, shuntRPN s)
+node = infix(18.0,"((((10+2)*6+8)*6+4)*8+4)*8+6")
+assert 10 == node.res
+assert 18 == node.voltage
+assert 1.8 == node.current()
+assert 32.4 == node.effect()
+assert '+' == node.kind

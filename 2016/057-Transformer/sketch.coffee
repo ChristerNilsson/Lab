@@ -1,10 +1,8 @@
 g = 0
+players = []
 
-class Game
+class Transformer
 	constructor : ->
-		@players = []
-		@players.push new Player "WASD",color(255,0,0)
-		@players.push new Player "&%('",color(0,255,0)
 		@x = 0
 		@y = 0
 		@a = 0
@@ -17,29 +15,32 @@ class Game
 		[@x,@y,@a,@s] = @stack.pop()
 		pop()
 	rotate : (d) ->
-		rotate radians d
 		@a += d
+		rotate d
 	scale : (ds) ->
-		scale ds
 		@s *= ds
+		scale ds
 	translate : (dx,dy) ->
-		v = radians @a
-		@x += @s * dx * cos(v) - @s * dy * sin(v)
-		@y += @s * dy * cos(v) + @s * dx * sin(v)
+		@x += @s * dx * cos(@a) - @s * dy * sin(@a)
+		@y += @s * dy * cos(@a) + @s * dx * sin(@a)
 		translate dx,dy
-	dump : (txt) ->
-		console.log [txt, @x,@y]
+
+dump = (txt) ->
+	console.log [txt, @x,@y]
 
 setup = ->
 	createCanvas 600,300
 	textAlign CENTER,CENTER
 	rectMode CENTER
-	g = new Game()
+	g = new Transformer()
+	players.push new Player "WASD",color(255,0,0)
+	players.push new Player "&%('",color(0,255,0)
 	xdraw()
 
 xdraw = ->
+	g.push()
 	g.translate width/2, height/2
-	for player,i in g.players
+	for player,i in players
 		g.push()
 		if i==0
 			g.translate -width/4, 0
@@ -47,12 +48,13 @@ xdraw = ->
 		if i==1
 			g.translate width/4, 0
 			g.rotate -90
-			g.scale 0.5
+			g.scale 1
 		player.draw()
 		g.pop()
-
+	g.pop()
+	
 mousePressed = ->
 	console.log [mouseX,mouseY]
-	for player in g.players
+	for player in players
 		player.mousePressed()
 

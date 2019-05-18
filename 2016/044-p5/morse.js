@@ -1,7 +1,7 @@
 // Morse
 
 var lst = []
-var unit = 200
+var unit = 500
 //             012345678901234567890123456789
 var alfabet = "  etianmsurwdkgohvf l pjbxcyzq";
 var osc
@@ -44,7 +44,7 @@ function sendSentence(letters) {
 }
 
 function morse() {
-  sendSentence("sos")
+  sendSentence("rotmos")
 }
 
 function setup() { 

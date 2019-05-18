@@ -30,7 +30,7 @@ drawx = ->
 	circle N/2,N/2,N/2
 
 	sc 1,0,0
-	sw 5
+	sw 1
 	for i in range 100
 		a = i * 2*PI/100
 		x = N/2 * safeExp cos(a), 2/2.4 # 2.4 is closer than 2.5 of Piet Hein

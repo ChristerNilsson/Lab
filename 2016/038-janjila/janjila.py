@@ -125,8 +125,8 @@ class Janjila:
             else:
                 self.board.move(command)
 
-#janjila = Janjila('janjila.txt')
-janjila = Janjila('kalaha.txt')
+janjila = Janjila('janjila.txt')
+#janjila = Janjila('kalaha.txt')
 janjila.run()
 
 #janjila.board.move('defgh')

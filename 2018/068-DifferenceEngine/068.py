@@ -6,11 +6,10 @@
 # måste omstart ske vid 1.200, 1.400 osv om sex decimaler ska vara korrekta.
 # Med 13 differenser räcker det med omstart vid 1.500, 2.000 osv
 
-import math
 from decimal import *
 getcontext().prec = 31
 lst = []
-n = 8
+n = 15
 
 for i in range(n):
 	lst.append((Decimal(1)+Decimal(i)/Decimal(1000)).log10())
@@ -20,7 +19,10 @@ for k in range(n-1):
 		lst[n-1-i] -= lst[n-2-i]
 print(lst)
 
-for i in range(301):
-	print("%.3f " % (1+i/1000),format("%.6f " % (lst[0])), "%.6f " % math.log10(1+i/1000))
+for i in range(501):
+	a = lst[0]
+	b = (Decimal(1)+Decimal(i)/Decimal(1000)).log10()
+	print("%.3f " % (1+i/1000), "%.6f " % (a), "%.6f " % (b),  (a-b))
 	for k in range(n-1):
 		lst[k] += lst[k+1]
+print(lst)
