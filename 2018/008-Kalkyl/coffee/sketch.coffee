@@ -102,7 +102,7 @@ setup = ->
 
 		if JS == "" 
 			memory = """
-# Coffeescript
+language = 'Coffeescript'
 2+3
 
 sträcka = 150
@@ -174,7 +174,7 @@ fib = (x) -> if x<=0 then 1 else fib(x-1) + fib(x-2)
 """
 		else
 			memory = """
-// Javascript
+language = 'Javascript'
 2+3
 
 sträcka = 150
