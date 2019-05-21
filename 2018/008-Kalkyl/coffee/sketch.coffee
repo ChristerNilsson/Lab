@@ -1,5 +1,8 @@
 KEY = '008B'
 
+JS = '`' 
+#JS = ''
+
 memory = null
 page = null
 digits = 3
@@ -9,7 +12,7 @@ assert = (a, b) ->
 		chai.assert.deepEqual a, b
 		''
 	catch
-		'*** ASSERT FAILED ***'
+		"#{a} != #{b}"
 
 makeAnswer = ->
 	answers = []
@@ -19,13 +22,13 @@ makeAnswer = ->
 	for line in memory.split "\n"
 		cs = line.trim() 
 		if cs=='' or cs[0]=='#'
-			js += transpile 'answers.push ""' + "\n"
+			js += transpile JS + 'answers.push("")'  + JS + "\n"
 		else
 			try
-				js += transpile 'answers.push ' + cs + "\n"
+				js += transpile JS + 'answers.push(' + cs + ")"  + JS + "\n"
 			catch e
-				js += transpile "answers.push 'ERROR: " + e.message + "'\n"
-			
+				js += transpile JS + "answers.push('ERROR: " + e.message + "')"  + JS + "\n"
+
 	try
 		eval js
 	catch e 
@@ -96,7 +99,9 @@ setup = ->
 		storeAndGoto memory,page
 
 	page.addAction 'Samples', ->
-		memory = """
+
+		if JS == "" # Coffeescript
+			memory = """
 2+3
 
 sträcka = 150
@@ -116,7 +121,7 @@ a = "Volvo"
 
 # Date
 c = new Date() 
-2018 == c.getFullYear()
+c.getFullYear()
 c.getHours()
 
 # Array
@@ -166,6 +171,78 @@ fib = (x) -> if x<=0 then 1 else fib(x-1) + fib(x-2)
 21 == fib 6
 
 """
+		else # Javascript
+			memory = """
+2+3
+
+sträcka = 150
+tid = 6
+tid
+sträcka/tid
+25 == sträcka/tid 
+30 == sträcka/tid
+
+# String
+a = "Volvo" 
+5 == a.length
+'l' == a[2]
+
+# Math
+5 == sqrt(25)
+
+# Date
+c = new Date() 
+c.getFullYear()
+c.getHours()
+
+# Array
+numbers = [1,2,3] 
+2 == numbers[1]
+numbers.push(47)
+4 == numbers.length
+numbers 
+47 == numbers.pop()
+3 == numbers.length
+numbers
+assert([0,1,4,9,16,25,36,49,64,81], range(10).map(x => x*x))
+
+# Object
+person = {fnamn:'David', enamn:'Larsson'}
+'David' == person['fnamn']
+'Larsson' == person.enamn
+
+# functions (enbart one liners tillåtna!)
+kvadrat = (x) => x*x
+25 == kvadrat(5)
+
+# feluppskattning vid användande av bäring och avstånd
+area = (b1,b2,r1,r2) => (r2*r2 - r1*r1) * Math.PI * (b2-b1)/360  
+17.671458676442587 == area(90,91,200,205)
+35.12475119638588  == area(90,91,400,405)
+69.81317007977317  == area(90,92,195,205)
+139.62634015954634 == area(90,92,395,405)
+
+serial = (a,b) => a+b
+2 == serial(1,1)
+5 == serial(2,3)
+
+parallel = (a,b) => a*b/(a+b)
+0.5 == parallel(1,1)
+1.2 == parallel(2,3)
+
+fak = (x) => x==0 ? 1 : x * fak(x-1)
+3628800 == fak(10)
+
+fib = (x) => x<=0 ? 1 : fib(x-1) + fib(x-2) 
+1 == fib(0)
+2 == fib(1)
+5 == fib(3)
+8 == fib(4)
+13 == fib(5)
+21 == fib(6)
+
+"""
+
 		storeAndGoto memory,page
 
 	page.addAction 'Reference', -> window.open "https://www.w3schools.com/jsref/default.asp"

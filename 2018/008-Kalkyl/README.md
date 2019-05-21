@@ -100,6 +100,8 @@ fib = (x) -> if x<=0 then 1 else fib(x-1) + fib(x-2)
 
 ## Todo
 
+För att kunna köra Javascript-kod måste man manuellt kommentera ut 'use strict' i sketch.js efter varje kompilering
+
 Notera den stora marginalen längst ner.
 Beror på problem med Android.
 https://stackoverflow.com/questions/10610743/android-browsers-screen-width-screen-height-window-innerwidth-window-inner
