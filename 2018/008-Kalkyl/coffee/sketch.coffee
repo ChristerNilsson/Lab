@@ -21,7 +21,7 @@ makeAnswer = ->
 	js = ''
 	for line in memory.split "\n"
 		cs = line.trim() 
-		if cs=='' or cs[0]=='#'
+		if cs=='' or cs.indexOf('#')==0 or cs.indexOf('//')==0
 			js += transpile JS + 'answers.push("")'  + JS + "\n"
 		else
 			try
@@ -100,8 +100,9 @@ setup = ->
 
 	page.addAction 'Samples', ->
 
-		if JS == "" # Coffeescript
+		if JS == "" 
 			memory = """
+# Coffeescript
 2+3
 
 sträcka = 150
@@ -171,8 +172,9 @@ fib = (x) -> if x<=0 then 1 else fib(x-1) + fib(x-2)
 21 == fib 6
 
 """
-		else # Javascript
+		else
 			memory = """
+// Javascript
 2+3
 
 sträcka = 150
@@ -182,20 +184,20 @@ sträcka/tid
 25 == sträcka/tid 
 30 == sträcka/tid
 
-# String
+// String
 a = "Volvo" 
 5 == a.length
 'l' == a[2]
 
-# Math
+// Math
 5 == sqrt(25)
 
-# Date
+// Date
 c = new Date() 
 c.getFullYear()
 c.getHours()
 
-# Array
+// Array
 numbers = [1,2,3] 
 2 == numbers[1]
 numbers.push(47)
@@ -206,16 +208,16 @@ numbers
 numbers
 assert([0,1,4,9,16,25,36,49,64,81], range(10).map(x => x*x))
 
-# Object
+// Object
 person = {fnamn:'David', enamn:'Larsson'}
 'David' == person['fnamn']
 'Larsson' == person.enamn
 
-# functions (enbart one liners tillåtna!)
+// functions (enbart one liners tillåtna!)
 kvadrat = (x) => x*x
 25 == kvadrat(5)
 
-# feluppskattning vid användande av bäring och avstånd
+// feluppskattning vid användande av bäring och avstånd
 area = (b1,b2,r1,r2) => (r2*r2 - r1*r1) * Math.PI * (b2-b1)/360  
 17.671458676442587 == area(90,91,200,205)
 35.12475119638588  == area(90,91,400,405)
