@@ -5,12 +5,21 @@ http://api.texttv.nu/api/get/100-104?app=apiexempelsidan
 * []
 	* sort
 	* filter
+* ""
+	* toLowerCase
+	* includes
 * document
+	* body
 	* createElement
+* Date
+	* toLocaleString
 * element
 	* innerText
 	* innerHTML
 	* onclick
 	* appendChild
-* Date
-	* toLocaleString
+	* (firstChild)
+	* (removeChild)
+* (input)
+	* (value)
+	* (onkeyup)
