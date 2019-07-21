@@ -33,3 +33,9 @@ http://api.texttv.nu/api/get/100-104?app=apiexempelsidan
 1. display time
 1. sort using time
 1. filter on title
+
+# strcmp
+
+* assert strcmp('a','a') == 0
+* assert strcmp('a','b') == 1
+* assert strcmp('b','a') == -1
