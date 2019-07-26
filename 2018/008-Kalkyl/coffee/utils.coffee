@@ -119,3 +119,19 @@ getField = (name) ->
 	element = document.getElementById name
 	if element then element.value else null
 
+engineering = (x) ->
+	if x == '' then return x
+	if x < 0 then return "-" + engineering -x
+	digits = 3
+	a = Math.log10(x)/3  
+	b = a
+	c = Math.floor b 
+	d = b - c
+	e = 3 * c
+	f = 3 * d 
+	x = 10 ** f
+	factor = 10 ** (digits - 1 - Math.floor f)
+	if e==0 
+		Math.round(x * factor) / factor 
+	else
+		Math.round(x * factor) / factor + 'E' + e

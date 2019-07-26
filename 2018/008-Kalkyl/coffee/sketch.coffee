@@ -19,7 +19,6 @@ makeAnswer = ->
 	res = ''
 	cs = ''
 	js = ''
-	# console.log encodeURI memory
 	for line in memory.split "\n"
 		pos = line.lastIndexOf('#')
 		if pos >=0 then line = line.slice 0,pos
@@ -44,7 +43,7 @@ makeAnswer = ->
 		else if 'object' == typeof answer
 			res += JSON.stringify(answer) + "\n" 
 		else if 'number' == typeof answer
-			res += answer + "\n"
+			res += engineering(answer) + "\n"
 		else
 			res += answer + "\n"
 	res
@@ -56,6 +55,7 @@ setup = ->
 	if '?' in window.location.href
 		memory = decodeURI getParameters()['content']
 		memory = memory.replace /%3D/g,'='
+		memory = memory.replace /%3F/g,'?'
 
 	page = new Page 0, ->
 		@table.innerHTML = "" 
@@ -184,12 +184,12 @@ fib = (x) -> if x<=0 then 1 else fib(x-1) + fib(x-2)
 language = 'Javascript'
 2+3
 
-sträcka = 150
-tid = 6
-tid
-sträcka/tid
-25 == sträcka/tid 
-30 == sträcka/tid
+distance = 150
+seconds = 6
+seconds
+distance/seconds
+25 == distance/seconds
+30 == distance/seconds
 
 // String
 a = "Volvo" 
@@ -220,16 +220,9 @@ person = {fnamn:'David', enamn:'Larsson'}
 'David' == person['fnamn']
 'Larsson' == person.enamn
 
-// functions (enbart one liners tillåtna!)
+// functions (only one liners)
 kvadrat = (x) => x*x
 25 == kvadrat(5)
-
-// feluppskattning vid användande av bäring och avstånd
-area = (b1,b2,r1,r2) => (r2*r2 - r1*r1) * Math.PI * (b2-b1)/360  
-17.671458676442587 == area(90,91,200,205)
-35.12475119638588  == area(90,91,400,405)
-69.81317007977317  == area(90,92,195,205)
-139.62634015954634 == area(90,92,395,405)
 
 serial = (a,b) => a+b
 2 == serial(1,1)
@@ -239,10 +232,10 @@ parallel = (a,b) => a*b/(a+b)
 0.5 == parallel(1,1)
 1.2 == parallel(2,3)
 
-fak = (x) => x==0 ? 1 : x * fak(x-1)
+fak = (x) => (x==0 ? 1 : x * fak(x-1))
 3628800 == fak(10)
 
-fib = (x) => x<=0 ? 1 : fib(x-1) + fib(x-2) 
+fib = (x) => x<=0 ? 1 : fib(x-1) + fib(x-2)
 1 == fib(0)
 2 == fib(1)
 5 == fib(3)
@@ -251,8 +244,11 @@ fib = (x) => x<=0 ? 1 : fib(x-1) + fib(x-2)
 21 == fib(6)
 
 """
-
-		storeAndGoto memory,page
+		# storeAndGoto memory,page
+		s = encodeURI memory
+		s = s.replace /=/g,'%3D'
+		s = s.replace /\?/g,'%3F'
+		window.open '?content=' + s
 
 	page.addAction 'Reference', -> window.open "https://www.w3schools.com/jsref/default.asp"
 
@@ -262,6 +258,7 @@ fib = (x) => x<=0 ? 1 : fib(x-1) + fib(x-2)
 	page.addAction 'URL', -> 
 		s = encodeURI memory
 		s = s.replace /=/g,'%3D'
-		console.log '?content=' + s
+		s = s.replace /\?/g,'%3F'
+		window.open '?content=' + s
 
 	page.display()
