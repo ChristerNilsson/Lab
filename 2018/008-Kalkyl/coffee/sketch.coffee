@@ -101,11 +101,6 @@ setup = ->
 	# 	if digits>1 then digits--
 	# 	storeAndGoto memory,page
 
-	page.addAction 'URL', -> 
-		s = encodeURI memory
-		s = s.replace /=/g,'%3D'
-		console.log '?content=' + s
-
 	page.addAction 'Clear', -> 
 		memory = ""
 		storeAndGoto memory,page
@@ -263,5 +258,10 @@ fib = (x) => x<=0 ? 1 : fib(x-1) + fib(x-2)
 
 	page.addAction 'Hide', -> 
 		page.display()
+
+	page.addAction 'URL', -> 
+		s = encodeURI memory
+		s = s.replace /=/g,'%3D'
+		console.log '?content=' + s
 
 	page.display()

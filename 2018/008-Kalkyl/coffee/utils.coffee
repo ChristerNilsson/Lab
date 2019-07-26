@@ -36,7 +36,7 @@ class Page
 # fetchData = -> JSON.parse if localStorage[KEY] then localStorage[KEY] else '""'
 
 storeAndGoto = (data,page) ->
-	storeData data
+	#storeData data
 	page.display()
 
 isNumeric = (val) -> val == Number parseFloat val
