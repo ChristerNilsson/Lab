@@ -1,24 +1,24 @@
 # 008-Kalkyl
 
-[Try it!](https://christernilsson.github.io/Lab/2018/008-Kalkyl/index.html)
+[Try it!](https://christernilsson.github.io/Lab/2018/008-Kalkyl/index.html?content=x%3D=1)
 
-Här kan man testa sina one-liners!
-Även lämplig som kalkylator.
-Man kan namnge sina uttryck.
-Dessutom kan man skapa funktioner.
+Here you can test your one-liners!
+Also suitable as a calculator.
+Give name to your expressions.
+Create your own functions
 Syntax: Coffeescript
 
 ## Hide
-Döljer tangentbordet på smartphones
+Hides the keyboard on smartphones
 
 ## Clear
-Tömmer kalkylatorn
+Clears the calculator
 
 ## Samples
-Visar nedanstående exempel.
+Show the following example.
 
 ## Reference
-Länk till relevant Javascriptdokumentation
+Link to relevant Javascript documentation
 
 ## Exempel
 

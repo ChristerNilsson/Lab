@@ -14,12 +14,15 @@ assert = (a, b) ->
 	catch
 		"#{a} != #{b}"
 
-makeAnswer = ->
+makeAnswer = -> 
 	answers = []
 	res = ''
 	cs = ''
 	js = ''
+	# console.log encodeURI memory
 	for line in memory.split "\n"
+		pos = line.lastIndexOf('#')
+		if pos >=0 then line = line.slice 0,pos
 		cs = line.trim() 
 		if cs=='' or cs.indexOf('#')==0 or cs.indexOf('//')==0
 			js += transpile JS + 'answers.push("")'  + JS + "\n"
@@ -48,7 +51,11 @@ makeAnswer = ->
 
 setup = ->
 
-	memory = fetchData()
+	# memory = fetchData()
+	memory = ''
+	if '?' in window.location.href
+		memory = decodeURI getParameters()['content']
+		memory = memory.replace /%3D/g,'='
 
 	page = new Page 0, ->
 		@table.innerHTML = "" 
@@ -84,7 +91,7 @@ setup = ->
 			if event.keyCode not in [33..40]
 				memory = enter.value
 				answer.value = makeAnswer()
-				storeData memory
+				# storeData memory
 
 	# page.addAction 'More', -> 
 	# 	digits++
@@ -93,6 +100,11 @@ setup = ->
 	# page.addAction 'Less', -> 
 	# 	if digits>1 then digits--
 	# 	storeAndGoto memory,page
+
+	page.addAction 'URL', -> 
+		s = encodeURI memory
+		s = s.replace /=/g,'%3D'
+		console.log '?content=' + s
 
 	page.addAction 'Clear', -> 
 		memory = ""

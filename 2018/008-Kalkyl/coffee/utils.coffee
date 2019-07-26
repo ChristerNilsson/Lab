@@ -32,8 +32,8 @@ class Page
 		else addCell tr,a
 		@table.appendChild tr
 
-storeData = (data) -> localStorage[KEY] = JSON.stringify data
-fetchData = -> JSON.parse if localStorage[KEY] then localStorage[KEY] else '""'
+# storeData = (data) -> localStorage[KEY] = JSON.stringify data
+# fetchData = -> JSON.parse if localStorage[KEY] then localStorage[KEY] else '""'
 
 storeAndGoto = (data,page) ->
 	storeData data
