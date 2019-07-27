@@ -1,6 +1,6 @@
 # 008-Kalkyl
 
-[Try it!](https://christernilsson.github.io/Lab/2018/008-Kalkyl/index.html?content=x%3D=1)
+[Try it!](https://christernilsson.github.io/Lab/2018/008-Kalkyl)
 
 * Here you can test your one-liners!
 * Also suitable as a calculator
@@ -8,18 +8,8 @@
 * Create your own functions
 * Syntax: Coffeescript or Javascript
 * Results are displayed with engineering notation:
-	* E-12 pico
-	* E-9 nano
-	* E-6 mikro
-	* E-3 milli
-	* 
-	* E3 kilo
-	* E6 mega 
-	* E9 giga
-	* E12 tera
-
-## Hide
-Hides the keyboard on smartphones
+	* E-3 milli, E-6 mikro, E-9 nano, E-12 pico ...
+	* E3  kilo,  E6  mega,  E9  giga, E12  tera ...
 
 ## Clear
 Clears the calculator
@@ -29,6 +19,9 @@ Show the following example.
 
 ## Reference
 Link to relevant Javascript documentation
+
+## Hide
+Hides the keyboard on smartphones
 
 ## URL
 
