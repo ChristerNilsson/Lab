@@ -119,10 +119,9 @@ getField = (name) ->
 	element = document.getElementById name
 	if element then element.value else null
 
-engineering = (x) ->
+engineering = (x,digits) ->
 	if x == '' then return x
 	if x < 0 then return "-" + engineering -x
-	digits = 3
 	a = Math.log10(x)/3  
 	b = a
 	c = Math.floor b 

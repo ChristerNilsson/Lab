@@ -43,7 +43,7 @@ makeAnswer = ->
 		else if 'object' == typeof answer
 			res += JSON.stringify(answer) + "\n" 
 		else if 'number' == typeof answer
-			res += engineering(answer) + "\n"
+			res += engineering(answer, digits) + "\n"
 		else
 			res += answer + "\n"
 	res
@@ -92,14 +92,6 @@ setup = ->
 				memory = enter.value
 				answer.value = makeAnswer()
 				# storeData memory
-
-	# page.addAction 'More', -> 
-	# 	digits++
-	# 	storeAndGoto memory,page
-
-	# page.addAction 'Less', -> 
-	# 	if digits>1 then digits--
-	# 	storeAndGoto memory,page
 
 	page.addAction 'Clear', -> 
 		memory = ""
@@ -260,5 +252,13 @@ fib = (x) => x<=0 ? 1 : fib(x-1) + fib(x-2)
 		s = s.replace /=/g,'%3D'
 		s = s.replace /\?/g,'%3F'
 		window.open '?content=' + s
+
+	page.addAction 'Less', -> 
+		if digits>1 then digits--
+		storeAndGoto memory,page
+
+	page.addAction 'More', -> 
+		if digits<17 then digits++
+		storeAndGoto memory,page
 
 	page.display()

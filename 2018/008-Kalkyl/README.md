@@ -2,11 +2,21 @@
 
 [Try it!](https://christernilsson.github.io/Lab/2018/008-Kalkyl/index.html?content=x%3D=1)
 
-Here you can test your one-liners!
-Also suitable as a calculator.
-Give name to your expressions.
-Create your own functions
-Syntax: Coffeescript
+* Here you can test your one-liners!
+* Also suitable as a calculator
+* Give name to your expressions
+* Create your own functions
+* Syntax: Coffeescript or Javascript
+* Results are displayed with engineering notation:
+	* E-12 pico
+	* E-9 nano
+	* E-6 mikro
+	* E-3 milli
+	* 
+	* E3 kilo
+	* E6 mega 
+	* E9 giga
+	* E12 tera
 
 ## Hide
 Hides the keyboard on smartphones
@@ -20,31 +30,43 @@ Show the following example.
 ## Reference
 Link to relevant Javascript documentation
 
-## Exempel
+## URL
 
-Skriv t ex in 
+Makes a copy of this tab. The link can be copied and sent to a friend.
+
+## Less
+
+Shows less digits
+
+## More
+
+Shows more digits
+
+## Examples
+
+For example, write
 
 ```javascript
-sträcka=12
-tid=5
-hastighet=sträcka/tid
+distance = 12
+time = 5
+speed = distnace / time
 ```
 
-Ändra därefter sträcka till 20
+Change distance to 20
 
-Klarar även String, Array, Object, funktioner
+Also handles strings, lists, objects, functions
 
-## Fler exempel
+## More examples
 
 ```javascript
 2+3
 
-sträcka = 150
-tid = 6
-tid
-sträcka/tid
-25 == sträcka/tid 
-30 == sträcka/tid
+distance = 150
+time = 6
+time
+distance/time
+25 == distance/time
+30 == distance/time
 
 # String
 a = "Volvo" 
@@ -74,9 +96,9 @@ person = {fnamn:'David', enamn:'Larsson'}
 'David' == person['fnamn']
 'Larsson' == person.enamn
 
-# functions (enbart one liners tillåtna!)
-kvadrat = (x) -> x*x
-25 == kvadrat 5
+# functions (only one liners allowed!)
+square = (x) -> x*x
+25 == square 5
 
 serial = (a,b) -> a+b
 2 == serial 1,1
@@ -86,8 +108,8 @@ parallel = (a,b) -> a*b/(a+b)
 0.5 == parallel 1,1
 1.2 == parallel 2,3
 
-fak = (x) -> if x==0 then 1 else x * fak(x-1)
-3628800 == fak 10
+factorial = (x) -> if x==0 then 1 else x * factorial(x-1)
+3628800 == factorial 10
 
 fib = (x) -> if x<=0 then 1 else fib(x-1) + fib(x-2) 
 1 == fib 0
