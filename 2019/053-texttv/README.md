@@ -1,6 +1,10 @@
-http://api.texttv.nu/api/get/105-187?app=apiexempelsidan
+# Text TV
+
+Which pages on Text TV havent I read?
 
 Shows Text TV pages in reverse chronological order.
+
+http://api.texttv.nu/api/get/105-187?app=apiexempelsidan
 
 ## Keywords
 
@@ -31,14 +35,6 @@ Shows Text TV pages in reverse chronological order.
 
 1. Show the data in the debugger
 1. Show num and title using html
-1. sort
-1. sort using title
 1. display time
 1. sort using time
 1. filter on title
-
-# strcmp
-
-* assert strcmp('a','a') == 0
-* assert strcmp('a','b') == 1
-* assert strcmp('b','a') == -1
