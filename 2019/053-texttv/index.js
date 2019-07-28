@@ -2,7 +2,7 @@
 
 let pages
 
-Util.fetchJSON('http://api.texttv.nu/api/get/106-187?app=apiexempelsidan')
+Util.fetchJSON('https://api.texttv.nu/api/get/106-187?app=apiexempelsidan')
 	.then( result => {
 		pages = result.filter(page => page.title.length > 0)
 		pages.sort((a,b) => b.date_updated_unix - a.date_updated_unix)

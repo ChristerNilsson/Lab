@@ -1,10 +1,12 @@
 # Text TV
 
+[Try it!](https://christernilsson.github.io/Lab/2019/053-texttv/index.html)
+
 Which pages on Text TV havent I read?
 
 Shows Text TV pages in reverse chronological order.
 
-http://api.texttv.nu/api/get/105-187?app=apiexempelsidan
+https://api.texttv.nu/api/get/105-187?app=apiexempelsidan
 
 ## Keywords
 
