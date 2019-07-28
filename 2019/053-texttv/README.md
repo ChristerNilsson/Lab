@@ -1,7 +1,12 @@
-http://api.texttv.nu/api/get/100-104?app=apiexempelsidan
+http://api.texttv.nu/api/get/105-187?app=apiexempelsidan
+
+Shows Text TV pages in reverse chronological order.
 
 ## Keywords
 
+* Promise
+* XMLHttpRequest
+* JSON
 * []
 	* sort
 	* filter
@@ -18,11 +23,9 @@ http://api.texttv.nu/api/get/100-104?app=apiexempelsidan
 	* innerHTML
 	* onclick
 	* appendChild
-	* (firstChild)
-	* (removeChild)
-* (input)
-	* (value)
-	* (onkeyup)
+* input
+	* value
+	* onkeyup
 
 ## Steps
 
