@@ -3,7 +3,7 @@ const links = createAndAppend(document.body,'div')
 const link  = createAndAppend(document.body,'div')
 
 const xhr = new XMLHttpRequest()
-xhr.open('GET', 'http://api.texttv.nu/api/get/106-187')
+xhr.open('GET', 'https://api.texttv.nu/api/get/106-187')
 xhr.onload = evt => addPagesListToDOM(JSON.parse(evt.currentTarget.response))
 xhr.send()
 
