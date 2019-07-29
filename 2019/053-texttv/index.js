@@ -9,21 +9,9 @@ Util.fetchJSON('https://api.texttv.nu/api/get/106-187?app=apiexempelsidan')
 		showPages()
 	})
 
-const input = Util.createAndAppend('input',document.body)
+const input = Util.wrap(document.body,'input')
 input.onkeyup = () => showPages(input.value)
-const divList = Util.createAndAppend('div',document.body)
-
-function displayPage(time,page) {
-	const p = Util.createAndAppend('p',divList)
-	p.innerText =  time + ' ' + page.num + ' '
-	const a = Util.createAndAppend('a',p)
-	a.href = page.permalink
-	a.innerText = page.title
-	a.target = '_blank'
-}
-
-const unixTime2sv = (seconds) => new Date(seconds * 1000).toLocaleString('sv')
-const showPage = (page) => displayPage(unixTime2sv(page.date_updated_unix),page)	
+const divList = Util.wrap(document.body,'div')
 
 function showPages(pattern='') {
 	pattern = pattern.toLowerCase()
@@ -31,4 +19,16 @@ function showPages(pattern='') {
 	for (const page of pages) {
 		if (page.title.toLowerCase().includes(pattern)) showPage(page)
 	}
+}
+
+const showPage = (page) => displayPage(unixTime2sv(page.date_updated_unix),page)	
+const unixTime2sv = (seconds) => new Date(seconds * 1000).toLocaleString('sv')
+
+function displayPage(time,page) {
+	const p = Util.wrap(divList,'div')
+	p.innerText =  time + ' ' + page.num + ' '
+	const a = Util.wrap(p,'a')
+	a.href = page.permalink
+	a.innerText = page.title
+	a.target = '_blank'
 }

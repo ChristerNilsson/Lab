@@ -1,7 +1,7 @@
 'use strict'
 
 class Util {
-  static createAndAppend(name, parent, options = {}) {
+  static wrap(parent, name, options = {}) {
     const elem = document.createElement(name)
     parent.appendChild(elem)
     Object.keys(options).forEach(key => {
