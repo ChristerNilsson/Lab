@@ -6,8 +6,8 @@ function wrap(parent, typ, attributes = {}) { // createAndAppend
 	return elem
 }
 
-// const links = wrap(document.body,'div')
-// const link  = wrap(document.body,'div')
+const links = wrap(document.body,'div')
+const link  = wrap(document.body,'div')
 
 const xhr = new XMLHttpRequest()
 xhr.open('GET', 'https://api.texttv.nu/api/get/106-187')

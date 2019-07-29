@@ -4,7 +4,7 @@ let pages
 
 Util.fetchJSON('https://api.texttv.nu/api/get/106-187?app=apiexempelsidan')
 	.then( result => {
-		pages = result.filter(page => page.title.length > 0)
+		pages = result.filter(page => page.title)
 		pages.sort((a,b) => b.date_updated_unix - a.date_updated_unix)
 		showPages()
 	})
@@ -25,7 +25,7 @@ const showPage = (page) => displayPage(unixTime2sv(page.date_updated_unix),page)
 const unixTime2sv = (seconds) => new Date(seconds * 1000).toLocaleString('sv')
 
 function displayPage(time,page) {
-	const p = Util.wrap(divList,'div')
+	const p = Util.wrap(divList,'p')
 	p.innerText =  time + ' ' + page.num + ' '
 	const a = Util.wrap(p,'a')
 	a.href = page.permalink
