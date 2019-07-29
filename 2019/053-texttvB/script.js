@@ -1,7 +1,8 @@
 'use strict'
-function wrap(parent,typ) { // createAndAppend
+function wrap(parent, typ, attributes = {}) { // createAndAppend
 	const elem = document.createElement(typ)
 	parent.appendChild(elem)
+	for (const key in attributes) { elem.setAttribute(key,attributes[key]) }
 	return elem
 }
 
@@ -16,8 +17,7 @@ xhr.send()
 function addPages(pages) {
 	pages.sort((a,b) => b.date_updated_unix - a.date_updated_unix)
 	pages.filter(page => page.title).forEach(page => {
-		const a = wrap(wrap(links,'div'),'a')
-		a.href = '#'
+		const a = wrap(wrap(links,'div'),'a', {href:'#'})
 		a.textContent = `${page.num} - ${page.title}`
 		a.onclick = () => link.innerHTML = '<br>' + page.content
   })
