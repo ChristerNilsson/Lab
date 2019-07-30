@@ -1,5 +1,11 @@
 SIZE = 2
 
+cars = []
+start = new Date()
+bestScore = 999999999
+lastX = null
+lastY = null
+
 class Point 
 	constructor : (@x,@y) ->
 
@@ -76,10 +82,21 @@ class Car
 
 	update : ->
 		if @active != 1 then return
-		gs = navigator.getGamepads()
-		if gs and gs[0] then @speed = -2 * gs[0].axes[1] 
-		if gs and gs[0] then @steering = 10 * gs[0].axes[0] 
+		if lastX in [null,undefined] then return
+		if lastY in [null,undefined] then return
+
+		# gs = navigator.getGamepads()
+		# if gs and gs[0] then @speed = -2 * gs[0].axes[1] 
+		# if gs and gs[0] then @steering = 10 * gs[0].axes[0] 
+		# @steering = constrain @steering,-30,30
+
+		@steering += (mouseX-lastX)/50
+		@speed += (lastY-mouseY)/50
+		lastX = mouseX
+		lastY = mouseY
+
 		@steering = constrain @steering,-30,30
+		@speed = constrain @speed,-30,30
 
 		@x += @speed * cos @direction
 		@y += @speed * sin @direction
@@ -93,23 +110,25 @@ class Car
 				if intersecting @polygon, car.polygon 
 					@active = 0
 
-cars = []
-start = new Date()
-bestScore = 999999999
 
 setup = ->
-	gs = navigator.getGamepads()
+	#gs = navigator.getGamepads()
 	createCanvas SIZE*800,1000
 	angleMode DEGREES
 	textSize 100
+
+init = ->
+	cars = []
+	start = new Date()
+	bestScore = 999999999
+	lastX = mouseX
+	lastY = mouseY
 	for i in range 5
 		for j in range 2
 			x = 400+i*50*SIZE
 			y = 100+j*300*SIZE
 			cars.push new Car x,y,SIZE*100,SIZE*40,0,if j==0 then 90 else 270
-
 	cars[7].active = 2 # target parking lot
-
 	cars.push new Car SIZE*100,SIZE*200,SIZE*100,SIZE*40,1
 
 	# car = new Car 100,100,100,40,false,0
@@ -122,7 +141,10 @@ setup = ->
 	# assert car.polygon, [new Point(100, 71.7157287525381), new Point(170.71067811865476, 142.42640687119285), new Point(142.42640687119285, 170.71067811865476), new Point(71.7157287525381, 100)]
 	# console.log 'ready'
 
+mousePressed = -> init()
+
 draw = ->
+	if cars.length == 0 then return 
 	bg 0.5
 	for car in cars
 		car.draw()
@@ -152,7 +174,6 @@ intersecting = (a, b) => # polygons
 
 			minA = null
 			maxA = null
-
 			for p in a
 				projected = normal.x * p.x + normal.y * p.y
 				if minA == null or projected < minA then minA = projected
