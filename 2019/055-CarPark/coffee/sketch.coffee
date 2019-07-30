@@ -95,8 +95,8 @@ class Car
 		lastX = mouseX
 		lastY = mouseY
 
-		@steering = constrain @steering,-30,30
-		@speed = constrain @speed,-30,30
+		@steering = constrain @steering,-10,10
+		@speed = constrain @speed,-10,10
 
 		@x += @speed * cos @direction
 		@y += @speed * sin @direction
