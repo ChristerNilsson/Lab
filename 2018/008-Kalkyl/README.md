@@ -27,6 +27,18 @@ Hides the keyboard on smartphones
 
 Makes a copy of this tab. The link can be copied and sent to a friend.
 
+## Coffeescript/Javascript
+
+Selects Language
+
+## Degrees/Radians
+
+Selects AngleMode
+
+## Fixed/Engineering
+
+Selects Display mode
+
 ## Less
 
 Shows less digits

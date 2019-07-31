@@ -1,11 +1,17 @@
 KEY = '008B'
 
-JS = '`' 
-#JS = ''
+ANGLE_MODE = ['Degrees','Radians']
+LANGUAGE = ['Coffeescript','Javascript']
+DISPLAY_MODE = ['Fixed','Engineering']
 
 memory = null
 page = null
-digits = 3
+
+config = 
+	angleMode : 0
+	language : 0 
+	displayMode : 0 
+	digits : 3
 
 assert = (a, b) ->
 	try
@@ -19,6 +25,10 @@ makeAnswer = ->
 	res = ''
 	cs = ''
 	js = ''
+	JS = if config.language == 0 then '' else '`' 
+
+	angleMode [DEGREES,RADIANS][config.angleMode]
+
 	for line in memory.split "\n"
 		pos = line.lastIndexOf('#')
 		if pos >=0 then line = line.slice 0,pos
@@ -43,19 +53,33 @@ makeAnswer = ->
 		else if 'object' == typeof answer
 			res += JSON.stringify(answer) + "\n" 
 		else if 'number' == typeof answer
-			res += engineering(answer, digits) + "\n"
+			if config.displayMode == 0 then res += fixed(answer, config.digits) + "\n"
+			if config.displayMode == 1 then res += engineering(answer, config.digits) + "\n"
 		else
 			res += answer + "\n"
 	res
 
-setup = ->
+encode = ->
+	s = encodeURI memory
+	s = s.replace /=/g,'%3D'
+	s = s.replace /\?/g,'%3F'
+	window.open '?content=' + s + '&config=' + JSON.stringify config
 
-	# memory = fetchData()
+decode = ->
+	console.log 'decode'
 	memory = ''
+	console.log window.location.href
 	if '?' in window.location.href
 		memory = decodeURI getParameters()['content']
 		memory = memory.replace /%3D/g,'='
 		memory = memory.replace /%3F/g,'?'
+		config = JSON.parse decodeURI getParameters()['config']
+		console.log config
+
+setup = ->
+
+	# memory = fetchData()
+	decode()
 
 	page = new Page 0, ->
 		@table.innerHTML = "" 
@@ -98,10 +122,9 @@ setup = ->
 		storeAndGoto memory,page
 
 	page.addAction 'Samples', ->
-
-		if JS == "" 
+		if config.language == 0 
 			memory = """
-language = 'Coffeescript'
+# Coffeescript
 2+3
 
 sträcka = 150
@@ -171,9 +194,9 @@ fib = (x) -> if x<=0 then 1 else fib(x-1) + fib(x-2)
 21 == fib 6
 
 """
-		else
-			memory = """
-language = 'Javascript'
+		else # Javascript
+			memory = """ 
+// Javascript
 2+3
 
 distance = 150
@@ -237,10 +260,7 @@ fib = (x) => x<=0 ? 1 : fib(x-1) + fib(x-2)
 
 """
 		# storeAndGoto memory,page
-		s = encodeURI memory
-		s = s.replace /=/g,'%3D'
-		s = s.replace /\?/g,'%3F'
-		window.open '?content=' + s
+		encode()
 
 	page.addAction 'Reference', -> window.open "https://www.w3schools.com/jsref/default.asp"
 
@@ -248,17 +268,30 @@ fib = (x) => x<=0 ? 1 : fib(x-1) + fib(x-2)
 		page.display()
 
 	page.addAction 'URL', -> 
-		s = encodeURI memory
-		s = s.replace /=/g,'%3D'
-		s = s.replace /\?/g,'%3F'
-		window.open '?content=' + s
+		encode()
+
+	page.addAction ANGLE_MODE[config.angleMode], -> 
+		config.angleMode = 1 - config.angleMode
+		page.actions[5][0] = ANGLE_MODE[config.angleMode]
+		makeAnswer()
+		storeAndGoto memory,page
+
+	page.addAction LANGUAGE[config.language], -> 
+		config.language = 1 - config.language
+		page.actions[6][0] = LANGUAGE[config.language]
+		storeAndGoto memory,page
+
+	page.addAction DISPLAY_MODE[config.displayMode], ->
+		config.displayMode = 1 - config.displayMode
+		page.actions[7][0] = DISPLAY_MODE[config.displayMode]
+		storeAndGoto memory,page
 
 	page.addAction 'Less', -> 
-		if digits>1 then digits--
+		if config.digits>1 then config.digits--
 		storeAndGoto memory,page
 
 	page.addAction 'More', -> 
-		if digits<17 then digits++
+		if config.digits<17 then config.digits++
 		storeAndGoto memory,page
 
 	page.display()

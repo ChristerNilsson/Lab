@@ -119,6 +119,12 @@ getField = (name) ->
 	element = document.getElementById name
 	if element then element.value else null
 
+fixed = (x,digits) ->
+	if x == '' then return x
+	if x < 0 then return "-" + fixed -x
+	factor = 10 ** digits
+	Math.round(x * factor) / factor 
+
 engineering = (x,digits) ->
 	if x == '' then return x
 	if x < 0 then return "-" + engineering -x
