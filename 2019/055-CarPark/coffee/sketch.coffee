@@ -6,6 +6,9 @@ bestScore = 999999999
 lastX = null
 lastY = null
 
+active = null
+parkinglot = null
+
 class Point 
 	constructor : (@x,@y) ->
 
@@ -14,7 +17,7 @@ class Car
 	#   0 = passive car
 	#   1 = moving car 
 	#   2 = target parking spot
-	# @x,@y anger bakaxelns mittpunkt
+	# @x,@y is the middle point of the read axis
 	constructor : (@x,@y,@length,@width, @active=0, @direction=0, @speed=0, @steering=0) ->
 		@makePolygon()
 
@@ -50,8 +53,8 @@ class Car
 		point 0,0
 		sw 1
 
-		@x0 = 0                 # bakaxel
-		@x1 = 0 + 0.6 * @length # framaxel
+		@x0 = 0                 # read axis
+		@x1 = 0 + 0.6 * @length # front axis
 		@y0 = 0 - 0.4 * @width
 		@y1 = 0 + 0.4 * @width
 
@@ -60,18 +63,18 @@ class Car
 		fc 0
 		rectMode CENTER
 
-		# rita bakhjul
+		# draw rear wheels
 		rect @x0,@y0,0.2*@length,0.2*@width
 		rect @x0,@y1,0.2*@length,0.2*@width
 
-		# rita VF
+		# draw front left wheel
 		push()
 		translate @x1,@y0
 		rotate @steering
 		rect 0,0,0.2*@length,0.2*@width
 		pop()
 
-		# rita HF
+		# draw front right wheel
 		push()
 		translate @x1,@y1
 		rotate @steering
@@ -125,19 +128,40 @@ setup = ->
 	createCanvas SIZE*800,1000
 	textSize 100
 
+problem1 = ->
+	for i in range 5
+		for j in range 2
+			x = 400+i*50*SIZE
+			y = 100+j*300*SIZE
+			cars.push new Car x,y,SIZE*100,SIZE*40,0,if j==0 then 90 else 270
+	parkinglot = cars[7]
+	parkinglot.active = 2 
+	active = new Car SIZE*100,SIZE*200,SIZE*100,SIZE*40,1
+	cars.push active
+
+problem2 = ->
+	for i in range 2
+		for j in range 3
+			x = 400+i*150*SIZE
+			y = 200+j*120*SIZE
+			cars.push new Car x,y,SIZE*100,SIZE*40,0,if i==0 then 90 else 270
+	parkinglot = cars[4]
+	parkinglot.active = 2 # target parking lot
+	x = 400+1*95*SIZE
+	y = 200+3*120*SIZE
+	active = new Car x,y,SIZE*100,SIZE*40,1,270
+	cars.push active
+
 init = ->
 	cars = []
 	start = new Date()
 	bestScore = 999999999
 	lastX = mouseX
 	lastY = mouseY
-	for i in range 5
-		for j in range 2
-			x = 400+i*50*SIZE
-			y = 100+j*300*SIZE
-			cars.push new Car x,y,SIZE*100,SIZE*40,0,if j==0 then 90 else 270
-	cars[7].active = 2 # target parking lot
-	cars.push new Car SIZE*100,SIZE*200,SIZE*100,SIZE*40,1
+	if random() < 0.5 
+		problem1()
+	else
+		problem2()
 
 	# car = new Car 100,100,100,40,false,0
 	# assert car.polygon, [new Point(80,80),new Point(180,80),new Point(180,120),new Point(80,120)]
@@ -156,9 +180,9 @@ draw = ->
 	bg 0.5
 	for car in cars
 		car.draw()
-	cars[10].update()
+	active.update()
 	stopp = new Date()
-	temp = score(cars[10], cars[7]) + (stopp - start)/1000
+	temp = score(parkinglot, active) + (stopp - start)/1000
 	if temp < bestScore then bestScore = temp
 	text round(bestScore),100,100
 
