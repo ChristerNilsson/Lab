@@ -69,10 +69,13 @@ encode = ->
 decode = ->
 	memory = ''
 	if '?' in window.location.href
-		memory = decodeURI getParameters()['content']
-		memory = memory.replace /%3D/g,'='
-		memory = memory.replace /%3F/g,'?'
-		config = JSON.parse decodeURI getParameters()['config']
+		parameters = getParameters()
+		if parameters.content
+			memory = decodeURI parameters.content
+			memory = memory.replace /%3D/g,'='
+			memory = memory.replace /%3F/g,'?'
+		if parameters.config
+			config = JSON.parse decodeURI parameters.config
 
 setup = ->
 
