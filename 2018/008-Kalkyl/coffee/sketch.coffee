@@ -33,10 +33,11 @@ makeAnswer = ->
 		pos = line.lastIndexOf('#')
 		if pos >=0 then line = line.slice 0,pos
 		cs = line.trim() 
-		if cs=='' or cs.indexOf('#')==0 or cs.indexOf('//')==0
+		if cs == '' # or cs.indexOf('#')==0 or cs.indexOf('//')==0
 			js += transpile JS + 'answers.push("")'  + JS + "\n"
 		else
 			try
+				if cs[cs.length-1]=='=' then cs += 'undefined'
 				js += transpile JS + 'answers.push(' + cs + ")"  + JS + "\n"
 			catch e
 				js += transpile JS + "answers.push('ERROR: " + e.message + "')"  + JS + "\n"
@@ -66,15 +67,12 @@ encode = ->
 	window.open '?content=' + s + '&config=' + JSON.stringify config
 
 decode = ->
-	console.log 'decode'
 	memory = ''
-	console.log window.location.href
 	if '?' in window.location.href
 		memory = decodeURI getParameters()['content']
 		memory = memory.replace /%3D/g,'='
 		memory = memory.replace /%3F/g,'?'
 		config = JSON.parse decodeURI getParameters()['config']
-		console.log config
 
 setup = ->
 

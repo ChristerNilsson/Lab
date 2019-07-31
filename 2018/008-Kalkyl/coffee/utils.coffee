@@ -121,13 +121,13 @@ getField = (name) ->
 
 fixed = (x,digits) ->
 	if x == '' then return x
-	if x < 0 then return "-" + fixed -x
+	if x < 0 then return "-" + fixed(-x,digits)
 	factor = 10 ** digits
 	Math.round(x * factor) / factor 
 
 engineering = (x,digits) ->
 	if x == '' then return x
-	if x < 0 then return "-" + engineering -x
+	if x < 0 then return "-" + engineering(-x,digits)
 	a = Math.log10(x)/3  
 	b = a
 	c = Math.floor b 
