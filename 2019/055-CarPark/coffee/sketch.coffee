@@ -50,8 +50,8 @@ class Car
 		point 0,0
 		sw 1
 
-		@x0 = 0                  # bakaxel
-		@x1 = 0 + 0.60 * @length # framaxel
+		@x0 = 0                 # bakaxel
+		@x1 = 0 + 0.6 * @length # framaxel
 		@y0 = 0 - 0.4 * @width
 		@y1 = 0 + 0.4 * @width
 
@@ -67,14 +67,14 @@ class Car
 		# rita VF
 		push()
 		translate @x1,@y0
-		rotate 5*@steering
+		rotate @steering
 		rect 0,0,0.2*@length,0.2*@width
 		pop()
 
 		# rita HF
 		push()
 		translate @x1,@y1
-		rotate 5*@steering
+		rotate @steering
 		rect 0,0,0.2*@length,0.2*@width
 		pop()
 
@@ -90,17 +90,16 @@ class Car
 		# if gs and gs[0] then @steering = 10 * gs[0].axes[0] 
 		# @steering = constrain @steering,-30,30
 
-		@steering += (mouseX-lastX)/50
-		@speed += (lastY-mouseY)/50
+		@steering += (mouseX-lastX)/10
+		@speed    += (lastY-mouseY)/50
 		lastX = mouseX
 		lastY = mouseY
 
-		@steering = constrain @steering,-10,10
+		@steering = constrain @steering,-90,90
 		@speed = constrain @speed,-10,10
 
-		@x += @speed * cos @direction
-		@y += @speed * sin @direction
-		@direction += @speed/10 * @steering
+		[@x,@y,@direction] = calc @x,@y,@length,@direction,@speed,@steering
+
 		@makePolygon()
 		@checkCollision()
 
@@ -110,11 +109,20 @@ class Car
 				if intersecting @polygon, car.polygon 
 					@active = 0
 
+calc = (x,y,length,direction,speed,steering) ->
+	len = 0.6 * length
+	xc = x + len * cos(direction) + speed * cos(direction+steering)
+	yc = y + len * sin(direction) + speed * sin(direction+steering)
+	distance = dist x,y,xc,yc
+	d = distance - len
+	direction = atan2 yc-y, xc-x			
+	[x + d * cos(direction), y + d * sin(direction), direction]
 
 setup = ->
+	angleMode DEGREES
+	#assert [], calc 0,0,3,90,1,45
 	#gs = navigator.getGamepads()
 	createCanvas SIZE*800,1000
-	angleMode DEGREES
 	textSize 100
 
 init = ->

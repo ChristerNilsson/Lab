@@ -16,4 +16,4 @@ Measurements:
 	* Left
 	* Right
 
-	
+https://stackoverflow.com/questions/10962379/how-to-check-intersection-between-2-rotated-rectangles
