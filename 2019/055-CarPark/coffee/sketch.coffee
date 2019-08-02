@@ -3,8 +3,8 @@ SIZE = 2
 cars = []
 start = new Date()
 bestScore = 999999999
-lastX = null
-lastY = null
+centerX = null
+centerY = null
 
 active = null
 parkinglot = null
@@ -51,9 +51,8 @@ class Car
 		if n<2 then return 
 		[p1,p2,p3,p4] = @tracks[n-1]
 		[q1,q2,q3,q4] = @tracks[n-2]
-		if 20 > dist p1.x,p1.y,q1.x,q1.y then @tracks.pop()
-		# console.log n, dist p1.x,p1.y,q1.x,q1.y
-
+		if 10 > dist p1.x,p1.y,q1.x,q1.y then @tracks.pop()
+		if n > 50 then @tracks.shift()
 
 	transform : (d,a) => new Point @x + d*cos(@direction+a),  @y+d*sin(@direction+a)
 
@@ -61,15 +60,12 @@ class Car
 		if @tracks.length < 1 then return 
 		sw 12
 		for i in range @tracks.length-1
+			sc 0.5 - i * 0.01
 			[p1,p2,p3,p4] = @tracks[i]
 			[q1,q2,q3,q4] = @tracks[i+1]
-			sc 1,0,0,0.5
 			line p1.x,p1.y,q1.x,q1.y
-			sc 1,1,0,0.5
 			line p2.x,p2.y,q2.x,q2.y
-			sc 0,1,0,0.5
 			line p3.x,p3.y,q3.x,q3.y
-			sc 0,0,1,0.5
 			line p4.x,p4.y,q4.x,q4.y
 		sw 1
 
@@ -125,19 +121,17 @@ class Car
 
 	update : ->
 		if @active != 1 then return
-		if lastX in [null,undefined] then return
-		if lastY in [null,undefined] then return
+		if centerX in [null,undefined] then return
+		if centerY in [null,undefined] then return
 
 		# gs = navigator.getGamepads()
 		# if gs and gs[0] then @speed = -2 * gs[0].axes[1] 
 		# if gs and gs[0] then @steering = 10 * gs[0].axes[0] 
 		# @steering = constrain @steering,-30,30
 
-		@steering += (mouseX-lastX)/10
-		@speed    += (lastY-mouseY)/50
-		lastX = mouseX
-		lastY = mouseY
-
+		@steering = (mouseX-centerX)/10
+		@speed    = (centerY-mouseY)/100
+		
 		@steering = constrain @steering,-90,90
 		@speed = constrain @speed,-10,10
 
@@ -197,12 +191,9 @@ init = ->
 	cars = []
 	start = new Date()
 	bestScore = 999999999
-	lastX = mouseX
-	lastY = mouseY
-	if random() < 0.5 
-		problem1()
-	else
-		problem2()
+	centerX = mouseX
+	centerY = mouseY
+	if random() < 0.5 then problem1() else problem2()
 
 	# car = new Car 100,100,100,40,false,0
 	# assert car.polygon, [new Point(80,80),new Point(180,80),new Point(180,120),new Point(80,120)]
@@ -219,6 +210,10 @@ mousePressed = -> init()
 draw = ->
 	if cars.length == 0 then return 
 	bg 0.5
+
+	line 0,centerY,width,centerY
+	line centerX,height,centerX,0
+
 	for car in cars
 		car.draw()
 	active.update()
