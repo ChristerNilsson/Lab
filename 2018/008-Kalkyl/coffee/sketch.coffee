@@ -9,7 +9,7 @@ page = null
 
 config = 
 	angleMode : 0
-	language : 0 
+	language : 1 
 	displayMode : 0 
 	digits : 3
 
