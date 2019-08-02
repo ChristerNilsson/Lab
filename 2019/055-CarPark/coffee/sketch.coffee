@@ -19,6 +19,7 @@ class Car
 	#   2 = target parking spot
 	# @x,@y is the middle point of the read axis
 	constructor : (@x,@y,@length,@width, @active=0, @direction=0, @speed=0, @steering=0) ->
+		@tracks = []
 		@makePolygon()
 
 	clone : -> JSON.parse JSON.stringify @
@@ -34,10 +35,47 @@ class Car
 		@polygon.push @transform d2,-a2
 		@polygon.push @transform d1,-a1 
 
+	makeTrack : () =>
+		a1 = atan2 -1,0   # degrees 
+		a2 = atan2 -1,4   # degrees
+		d1 = SIZE * sqrt 15*15
+		d2 = SIZE * sqrt 60*60+15*15
+		polygon = []
+		polygon.push @transform d2,-a2
+		polygon.push @transform d1,-a1 
+		polygon.push @transform d1,a1  
+		polygon.push @transform d2,a2 
+		@tracks.push polygon
+
+		n = @tracks.length
+		if n<2 then return 
+		[p1,p2,p3,p4] = @tracks[n-1]
+		[q1,q2,q3,q4] = @tracks[n-2]
+		if 20 > dist p1.x,p1.y,q1.x,q1.y then @tracks.pop()
+		# console.log n, dist p1.x,p1.y,q1.x,q1.y
+
+
 	transform : (d,a) => new Point @x + d*cos(@direction+a),  @y+d*sin(@direction+a)
+
+	drawTracks : ->
+		if @tracks.length < 1 then return 
+		sw 12
+		for i in range @tracks.length-1
+			[p1,p2,p3,p4] = @tracks[i]
+			[q1,q2,q3,q4] = @tracks[i+1]
+			sc 1,0,0,0.5
+			line p1.x,p1.y,q1.x,q1.y
+			sc 1,1,0,0.5
+			line p2.x,p2.y,q2.x,q2.y
+			sc 0,1,0,0.5
+			line p3.x,p3.y,q3.x,q3.y
+			sc 0,0,1,0.5
+			line p4.x,p4.y,q4.x,q4.y
+		sw 1
 
 	draw : ->
 		if @active == 2 then return  
+		@drawTracks()
 		push()
 		translate @x,@y
 		rotate @direction
@@ -53,6 +91,8 @@ class Car
 		point 0,0
 		sw 1
 
+		ww = 0.15*@width
+
 		@x0 = 0                 # read axis
 		@x1 = 0 + 0.6 * @length # front axis
 		@y0 = 0 - 0.4 * @width
@@ -64,21 +104,21 @@ class Car
 		rectMode CENTER
 
 		# draw rear wheels
-		rect @x0,@y0,0.2*@length,0.2*@width
-		rect @x0,@y1,0.2*@length,0.2*@width
+		rect @x0,@y0,0.2*@length,ww
+		rect @x0,@y1,0.2*@length,ww
 
 		# draw front left wheel
 		push()
 		translate @x1,@y0
 		rotate @steering
-		rect 0,0,0.2*@length,0.2*@width
+		rect 0,0,0.2*@length,ww
 		pop()
 
 		# draw front right wheel
 		push()
 		translate @x1,@y1
 		rotate @steering
-		rect 0,0,0.2*@length,0.2*@width
+		rect 0,0,0.2*@length,ww
 		pop()
 
 		pop()
@@ -104,6 +144,7 @@ class Car
 		[@x,@y,@direction] = calc @x,@y,@length,@direction,@speed,@steering
 
 		@makePolygon()
+		@makeTrack()
 		@checkCollision()
 
 	checkCollision : () ->
