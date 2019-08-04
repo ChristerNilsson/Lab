@@ -20,3 +20,5 @@ Click the mouse in the middle of the screen to start.
 * Minimize Elapsed Time + Distance from Parking Lot
 
 https://stackoverflow.com/questions/10962379/how-to-check-intersection-between-2-rotated-rectangles
+
+https://en.wikipedia.org/wiki/Ackermann_steering_geometry

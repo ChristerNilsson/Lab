@@ -121,8 +121,8 @@ class Car
 
 	update : ->
 		if @active != 1 then return
-		if centerX in [null,undefined] then return
-		if centerY in [null,undefined] then return
+		if centerX == null then return
+		if centerY == null then return
 
 		# gs = navigator.getGamepads()
 		# if gs and gs[0] then @speed = -2 * gs[0].axes[1] 
