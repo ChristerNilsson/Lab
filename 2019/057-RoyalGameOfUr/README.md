@@ -10,6 +10,8 @@ Original rules are forgotten.
 * [British Museum](https://www.youtube.com/watch?v=WZskjLq040I) Simpler rules discovered by Dr Finkel.
 * [Forgotten Game of Ur](https://play.google.com/store/apps/details?id=net.runserver.ur&hl=en) These are the more complex rules being used in this game
 
+[Advanced rules] https://www.ancientgames.org/royal-game-ur-game-20-squares/
+
 ```
     0 1 2     0 1 2
 
