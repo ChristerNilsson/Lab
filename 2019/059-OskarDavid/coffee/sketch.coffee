@@ -66,7 +66,7 @@ init = ->
 randbutton = create 'button',"50%","Randomize","#000","60px"
 randbutton.onclick = -> init()
 
-undo = create 'button',"50%","Undo","#000", "60px"
+undo = create 'button',"50%","Undo","#000", "5px"
 undo.onclick = -> 
 	if hist.length > 0
 		a.textContent = hist.pop()
