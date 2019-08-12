@@ -1,5 +1,7 @@
 # The Forgotten Game Of Ur
 
+[Try it!](https://christernilsson.github.io/Lab/2019/057-RoyalGameOfUr/)
+
 Board Game, 4.500 years old, from Mesapotamia.
 
 Precursor to Ludo and Backgammon.
