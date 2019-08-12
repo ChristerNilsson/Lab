@@ -66,35 +66,19 @@ class Tile
 		n = target.markers.length
 		letter = target.letter
 
-		if letter == 'P'
-			if n == 0 then return true
-			return marker.player != target.markers[0].player
+		if letter == 'S' and n == 4 then return false
 
-		if letter == 'R'
+		if letter in 'PRAS'
 			if n == 0 then return true
 			return marker.player != target.markers[0].player
 
 		if letter == 'I'
 			if n == 0 then return true
-			if marker.player == target.markers[0].player
-				return false
-			else
-				return marker.promoted == target.markers[0].promoted
+			if marker.player == target.markers[0].player then return false
+			else return marker.promoted == target.markers[0].promoted
 
-		if letter == 'S'
-			if n == 4 then return false
-			if n == 0 then return true
-			return marker.player == target.markers[0].player
-
-		if letter == 'M'
-			return n < 4 
-
-		if letter == 'A'
-			if n == 0 then return true
-			return marker.player != target.markers[0].player
-
-		if letter == 'X'
-			return true
+		if letter == 'M' then return n < 4 
+		if letter == 'X' then return true
 
 		assert 0,1
 
