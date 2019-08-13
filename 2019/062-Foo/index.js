@@ -11,8 +11,8 @@ function addPages(pages) {
 	console.log(pages)
 	const links = createAndAppend(document.body,'div')
 
-	// pages.sort((a, b) => b.date_updated_unix - a.date_updated_unix)	
-	pages.sort((a, b) => a.title.localeCompare(b.title))
+	pages.sort((a, b) => b.date_updated_unix - a.date_updated_unix)	
+	//pages.sort((a, b) => a.title.localeCompare(b.title, 'sv'))
 	
 	pages.filter(page => page.title != '')
 	     .forEach(page => {
