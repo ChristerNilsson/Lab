@@ -25,5 +25,6 @@ function addPages(pages) {
 
 		const div = createAndAppend(links,'div', {innerText: page.num + ' ' + s + ' '})
 		const a   = createAndAppend(div,  'a',   {innerText: page.title, href : page.permalink,target : '_blank'})
-  })
+	})
+	console.log(links)
 }
