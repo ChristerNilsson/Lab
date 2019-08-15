@@ -27,3 +27,4 @@ document.body.onload = () => {
 		createAndAppend('img', li, {src : book.cover, height:84})
   }
 }
+
