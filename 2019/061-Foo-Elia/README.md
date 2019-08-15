@@ -1,7 +1,10 @@
 # An alternative way of building a DOM tree
 
-* You don't have to state the parent
-* You don't have use variables
+* No need to state the parent
+* No need to use variables
+* No need to call createAndAppend
+* No need to call document.createElement 
+* No need to call appendChild
 
 Compare Coffeescript and Javascript below.
 
@@ -22,10 +25,10 @@ for (const book of books) {
 ## Javascript
 
 ```
-head( () => {
+head({}, () => {
 	title({innerText: 'Elia Books'});
 });
-body( () => {
+body({}, () => {
 	h1({innerText: 'My Must Read Books'});
 	ul({}, () => { 
 		for (const book of books) {
@@ -43,13 +46,13 @@ body( () => {
 ## CoffeeScript
 
 ```
-head -> 
+head {}, -> 
 	title {innerText: 'Elia Books'}
-body ->
+body {}, ->
 	h1 {innerText: 'My Must Read Books'}
-	ul -> 
+	ul {}, -> 
 		for book in books
-			li ->
+			li {}, ->
 				h2 {innerText: book.title}
 				h3 {innerText: 'Author: ' + book.author}
 				h3 {innerText: 'Language: ' + book.language}
