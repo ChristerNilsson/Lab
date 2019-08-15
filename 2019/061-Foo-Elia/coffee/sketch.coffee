@@ -1,3 +1,5 @@
+'use strict'
+
 createAndAppend = (type, parent, attributes = {}) =>
 	elem = document.createElement type
 	parent.appendChild elem
@@ -32,6 +34,8 @@ books = [
   {title: 'The Outsiders',       author: 'S.E Hinton',      language: 'English', cover: '7.jpg', },
   {title: 'Little Women',        author: 'Louisa May',      language: 'English', cover: '8.jpg', },
 ]
+
+lis = [] # Just to show how elements in a loop can be accessed afterwards.
  
 head =>
 	title {innerText: 'Elia Books'}
@@ -39,8 +43,12 @@ body =>
 	h1 {innerText: 'My Must Read Books', style: 'background:red'}
 	ul {style: 'background:yellow'}, => 
 		for book in books
-			li {style: 'background:gray'}, =>
+			lis.push li {style: 'background:gray'}, =>
 				h2 {innerText: book.title, style: 'background:green; color:yellow'}
 				h3 {innerText: 'Author: ' + book.author, style: 'background:orange'}
 				h3 {innerText: 'Language: ' + book.language}
 				img {src: book.cover, height: 42}
+
+document.body.children[4].children[0].children[0].style.background = 'red'
+
+lis[2].style.background = 'white'
