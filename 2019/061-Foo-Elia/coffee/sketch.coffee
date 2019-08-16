@@ -1,3 +1,7 @@
+print = () ->
+	console.log arguments[0]
+	arguments[0]
+
 createAndAppend = (type, parent, attributes = {}) =>
 	elem = document.createElement type
 	parent.appendChild elem
@@ -23,14 +27,25 @@ li =    (attributes, f = =>) => crap attributes, f, 'li'
 img =   (attributes, f = =>) => crap attributes, f, 'img'
 div =   (attributes, f = =>) => crap attributes, f, 'div'
 
+# saves space in defining an object array
+fmt = (titles,data,sep='|') => print data.map (lst) => _.object titles.split(sep), lst.split sep
+
 ###############################################################
 
-books = [
-	{title: 'The Kite Runner',     author: 'Khaled Hosseini',	language: 'English', cover: '3.jpg', },
-	{title: 'Number the Stars',    author: 'lois Lowry',      language: 'English', cover: '4.jpg', },
-	{title: 'Pride and Prejudice', author: 'Jane Austen',     language: 'English', cover: '5.jpg', },
-	{title: 'The Outsiders',       author: 'S.E Hinton',      language: 'English', cover: '7.jpg', },
-	{title: 'Little Women',        author: 'Louisa May',      language: 'English', cover: '8.jpg', },
+# books = [
+# 	{title: 'The Kite Runner',     author: 'Khaled Hosseini',	language: 'English', cover: '3.jpg', },
+# 	{title: 'Number the Stars',    author: 'lois Lowry',      language: 'English', cover: '4.jpg', },
+# 	{title: 'Pride and Prejudice', author: 'Jane Austen',     language: 'English', cover: '5.jpg', },
+# 	{title: 'The Outsiders',       author: 'S.E Hinton',      language: 'English', cover: '7.jpg', },
+# 	{title: 'Little Women',        author: 'Louisa May',      language: 'English', cover: '8.jpg', },
+# ]
+
+books = fmt 'title|author|language|cover',[
+	'The Kite Runner|Khaled Hosseini|English|3.jpg',
+	'Number the Stars|lois Lowry|English|4.jpg',
+	'Pride and Prejudice|Jane Austen|English|5.jpg',
+	'The Outsiders|S.E Hinton|English|7.jpg',
+	'Little Women|Louisa May|English|8.jpg',
 ]
 
 lis = [] # Just to show how elements in a loop can be accessed afterwards.
