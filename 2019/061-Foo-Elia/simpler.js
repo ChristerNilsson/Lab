@@ -3,8 +3,8 @@
 const stack = []
 
 function createAndAppend(typ, parent, attributes = {}) {
-  const elem = document.createElement(typ)
-  parent.appendChild(elem)
+	const elem = document.createElement(typ)
+	parent.appendChild(elem)
 	for (const key in attributes) elem[key] = attributes[key]
 	return elem
 }
@@ -33,11 +33,11 @@ const div =   (attributes = {}, f) => crap(attributes, f, 'div')
 /////////////////////////////////////////////////
 
 const books = [
-  {title: 'The Kite Runner',     author: 'Khaled Hosseini',	language: 'English', cover: '3.jpg', },
-  {title: 'Number the Stars',    author: 'lois Lowry',      language: 'English', cover: '4.jpg', },
-  {title: 'Pride and Prejudice', author: 'Jane Austen',     language: 'English', cover: '5.jpg', },
-  {title: 'The Outsiders',       author: 'S.E Hinton',      language: 'English', cover: '7.jpg', },
-  {title: 'Little Women',        author: 'Louisa May',      language: 'English', cover: '8.jpg', },
+	{title: 'The Kite Runner',     author: 'Khaled Hosseini',	language: 'English', cover: '3.jpg', },
+	{title: 'Number the Stars',    author: 'lois Lowry',      language: 'English', cover: '4.jpg', },
+	{title: 'Pride and Prejudice', author: 'Jane Austen',     language: 'English', cover: '5.jpg', },
+	{title: 'The Outsiders',       author: 'S.E Hinton',      language: 'English', cover: '7.jpg', },
+	{title: 'Little Women',        author: 'Louisa May',      language: 'English', cover: '8.jpg', },
 ]
 
 head( () => {
@@ -45,7 +45,7 @@ head( () => {
 });
 body( () => {
 	h1({innerText: 'My Must Read Books'});
-	ul({}, () => { 
+	ul({}, () => {
 		for (const book of books) {
 			li({}, () => {
 				h2({innerText: book.title});

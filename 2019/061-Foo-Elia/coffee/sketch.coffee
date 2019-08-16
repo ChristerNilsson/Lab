@@ -1,9 +1,7 @@
-'use strict'
-
 createAndAppend = (type, parent, attributes = {}) =>
 	elem = document.createElement type
 	parent.appendChild elem
-	elem[key] = value for key,value of attributes 
+	elem[key] = value for key,value of attributes
 	elem
 
 stack = []
@@ -21,27 +19,27 @@ h1 =    (attributes, f = =>) => crap attributes, f, 'h1'
 h2 =    (attributes, f = =>) => crap attributes, f, 'h2'
 h3 =    (attributes, f = =>) => crap attributes, f, 'h3'
 ul =    (attributes, f = =>) => crap attributes, f, 'ul'
-li =    (attributes, f = =>) => crap attributes, f, 'li' 
+li =    (attributes, f = =>) => crap attributes, f, 'li'
 img =   (attributes, f = =>) => crap attributes, f, 'img'
 div =   (attributes, f = =>) => crap attributes, f, 'div'
 
 ###############################################################
 
 books = [
-  {title: 'The Kite Runner',     author: 'Khaled Hosseini',	language: 'English', cover: '3.jpg', },
-  {title: 'Number the Stars',    author: 'lois Lowry',      language: 'English', cover: '4.jpg', },
-  {title: 'Pride and Prejudice', author: 'Jane Austen',     language: 'English', cover: '5.jpg', },
-  {title: 'The Outsiders',       author: 'S.E Hinton',      language: 'English', cover: '7.jpg', },
-  {title: 'Little Women',        author: 'Louisa May',      language: 'English', cover: '8.jpg', },
+	{title: 'The Kite Runner',     author: 'Khaled Hosseini',	language: 'English', cover: '3.jpg', },
+	{title: 'Number the Stars',    author: 'lois Lowry',      language: 'English', cover: '4.jpg', },
+	{title: 'Pride and Prejudice', author: 'Jane Austen',     language: 'English', cover: '5.jpg', },
+	{title: 'The Outsiders',       author: 'S.E Hinton',      language: 'English', cover: '7.jpg', },
+	{title: 'Little Women',        author: 'Louisa May',      language: 'English', cover: '8.jpg', },
 ]
 
 lis = [] # Just to show how elements in a loop can be accessed afterwards.
- 
+
 head =>
 	title {innerText: 'Elia Books'}
 body =>
 	h1 {innerText: 'My Must Read Books', style: 'background:red'}
-	ul {style: 'background:yellow'}, => 
+	ul {style: 'background:yellow'}, =>
 		for book in books
 			lis.push li {style: 'background:gray'}, =>
 				h2 {innerText: book.title, style: 'background:green; color:yellow'}

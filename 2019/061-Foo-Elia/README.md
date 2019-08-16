@@ -62,10 +62,10 @@ for (const book of books) {
 ## Javascript
 
 ```
-head({}, () => {
+head( () => {
   title({innerText: 'Elia Books'});
 });
-body({}, () => {
+body( () => {
   h1({innerText: 'My Must Read Books'});
   ul({}, () => {
     for (const book of books) {
@@ -83,9 +83,9 @@ body({}, () => {
 ## CoffeeScript
 
 ```
-head {}, ->
+head ->
   title {innerText: 'Elia Books'}
-body {}, ->
+body ->
   h1 {innerText: 'My Must Read Books'}
   ul {}, ->
     for book in books
