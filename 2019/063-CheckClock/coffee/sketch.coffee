@@ -12,17 +12,15 @@ DIGITS = [
 ]
 
 class Digit
-	render : () ->
-		@a = div {style:"float:left; clear:none"}, =>
-			for i in range 7
-				div {style:"width:120px"}, =>
-					for j in range 5
-						chkBox {checked: false}
+	render : ->
+		@dots = div {style:"float:left; width:119px"}, =>
+			for i in range 35
+				chkBox {checked: false}
 	update : (digit) ->
 		for d,i in DIGITS[digit]
-			@a.children[i//5].children[i%5].checked = d == '1'
-	toString : () ->
-		result = range(35).map (i) => if @a.children[i//5].children[i%5].checked then '1' else '0'
+			@dots.children[i].checked = d == '1'
+	toString : ->
+		result = range(35).map (i) => if @dots.children[i].checked then '1' else '0'
 		result.join ''
 
 digits = []
