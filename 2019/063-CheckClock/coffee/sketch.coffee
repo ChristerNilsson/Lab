@@ -11,7 +11,7 @@ DIGITS = [
 	'01110100011000101111000011000101110'
 ]
 
-class Digit
+class Digit 
 	render : ->
 		@dots = div {style:"float:left; width:119px"}, =>
 			for i in range 35
