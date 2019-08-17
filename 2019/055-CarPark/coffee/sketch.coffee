@@ -160,7 +160,9 @@ setup = ->
 	angleMode DEGREES
 	#assert [], calc 0,0,3,90,1,45
 	#gs = navigator.getGamepads()
-	createCanvas SIZE*800,1000
+	createCanvas windowWidth,windowHeight
+	centerX = width/2
+	centerY = height/2
 	textSize 100
 
 problem1 = ->
@@ -208,13 +210,14 @@ init = ->
 keyPressed = -> init()
 
 draw = ->
-	if cars.length == 0 then return 
 	bg 0.5
 
 	sc 0
 
 	line 0,centerY,width,centerY
 	line centerX,height,centerX,0
+
+	if cars.length == 0 then return 
 
 	for car in cars
 		car.draw()
