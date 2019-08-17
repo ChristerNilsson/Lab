@@ -191,8 +191,8 @@ init = ->
 	cars = []
 	start = new Date()
 	bestScore = 999999999
-	centerX = mouseX
-	centerY = mouseY
+	centerX = width/2
+	centerY = height/2
 	if random() < 0.5 then problem1() else problem2()
 
 	# car = new Car 100,100,100,40,false,0
@@ -205,11 +205,13 @@ init = ->
 	# assert car.polygon, [new Point(100, 71.7157287525381), new Point(170.71067811865476, 142.42640687119285), new Point(142.42640687119285, 170.71067811865476), new Point(71.7157287525381, 100)]
 	# console.log 'ready'
 
-mousePressed = -> init()
+keyPressed = -> init()
 
 draw = ->
 	if cars.length == 0 then return 
 	bg 0.5
+
+	sc 0
 
 	line 0,centerY,width,centerY
 	line centerX,height,centerX,0
