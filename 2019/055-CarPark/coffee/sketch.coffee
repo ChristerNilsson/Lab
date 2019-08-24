@@ -221,12 +221,13 @@ draw = ->
 
 	for car in cars
 		car.draw()
+
 	active.update()
 	stopp = new Date()
 	temp = score(parkinglot, active) + (stopp - start)/1000
 	if temp < bestScore then bestScore = temp
 	text round(score(parkinglot, active)),100,100
-	text round(stopp - start)/1000,500,100
+	text round((stopp - start)/1000),500,100
 	text round(bestScore),1000,100
 
 
