@@ -106,14 +106,14 @@ class Car
 		# draw front left wheel
 		push()
 		translate @x1,@y0
-		rotate @steering
+		rotate @steering*1.2 # fake Ackermann
 		rect 0,0,0.2*@length,ww
 		pop()
 
 		# draw front right wheel
 		push()
 		translate @x1,@y1
-		rotate @steering
+		rotate @steering*0.8  # fake Ackermann
 		rect 0,0,0.2*@length,ww
 		pop()
 
@@ -124,15 +124,10 @@ class Car
 		if centerX == null then return
 		if centerY == null then return
 
-		# gs = navigator.getGamepads()
-		# if gs and gs[0] then @speed = -2 * gs[0].axes[1] 
-		# if gs and gs[0] then @steering = 10 * gs[0].axes[0] 
-		# @steering = constrain @steering,-30,30
-
 		@steering = (mouseX-centerX)/10
 		@speed    = (centerY-mouseY)/100
 		
-		@steering = constrain @steering,-90,90
+		@steering = constrain @steering,-45,45
 		@speed = constrain @speed,-10,10
 
 		[@x,@y,@direction] = calc @x,@y,@length,@direction,@speed,@steering
@@ -158,8 +153,6 @@ calc = (x,y,length,direction,speed,steering) ->
 
 setup = ->
 	angleMode DEGREES
-	#assert [], calc 0,0,3,90,1,45
-	#gs = navigator.getGamepads()
 	createCanvas windowWidth,windowHeight
 	centerX = width/2
 	centerY = height/2
@@ -196,16 +189,6 @@ init = ->
 	centerX = width/2
 	centerY = height/2
 	if random() < 0.5 then problem1() else problem2()
-
-	# car = new Car 100,100,100,40,false,0
-	# assert car.polygon, [new Point(80,80),new Point(180,80),new Point(180,120),new Point(80,120)]
-	# car.direction = 90
-	# car.makePolygon()
-	# assert car.polygon, [new Point(120,80),new Point(120.00000000000001,180),new Point(80,180), new Point(80,80)]
-	# car.direction = 45
-	# car.makePolygon()
-	# assert car.polygon, [new Point(100, 71.7157287525381), new Point(170.71067811865476, 142.42640687119285), new Point(142.42640687119285, 170.71067811865476), new Point(71.7157287525381, 100)]
-	# console.log 'ready'
 
 keyPressed = -> init()
 

@@ -24,3 +24,7 @@
 
 * https://stackoverflow.com/questions/10962379/how-to-check-intersection-between-2-rotated-rectangles
 * https://en.wikipedia.org/wiki/Ackermann_steering_geometry
+
+## History
+
+* 2019-08-24 Added fake Ackermann
