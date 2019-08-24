@@ -77,7 +77,7 @@ class Car
 		rotate @direction
 
 		fc 1
-		if @active == 1 then fc 1,1,0
+		if @active == 1 then fc 1,1,0,0.5
 
 		rectMode CORNER
 		rect -0.2*@length,-0.5*@width,@length,@width
@@ -106,18 +106,24 @@ class Car
 		# draw front left wheel
 		push()
 		translate @x1,@y0
-		rotate @steering*1.2 # fake Ackermann
+		rotate @ackermann 0 # fake Ackermann
 		rect 0,0,0.2*@length,ww
 		pop()
 
 		# draw front right wheel
 		push()
 		translate @x1,@y1
-		rotate @steering*0.8  # fake Ackermann
+		rotate @ackermann 1 # fake Ackermann
 		rect 0,0,0.2*@length,ww
 		pop()
 
 		pop()
+
+	ackermann : (wheel) -> 
+		if @steering < 0 # anti clock wise
+			@steering * [1.12,0.75][wheel] 
+		else # clock wise
+			@steering * [0.75,1.12][wheel]
 
 	update : ->
 		if @active != 1 then return
