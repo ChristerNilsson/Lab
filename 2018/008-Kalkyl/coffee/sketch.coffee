@@ -24,28 +24,33 @@ makeAnswer = ->
 	answers = []
 	res = ''
 	cs = ''
-	js = ''
+	js = []
 	JS = if config.language == 0 then '' else '`' 
 
 	angleMode [DEGREES,RADIANS][config.angleMode]
 
 	for line in memory.split "\n"
-		pos = line.lastIndexOf('#')
+		pos = line.lastIndexOf if config.language == 0 then '#' else '//'
 		if pos >=0 then line = line.slice 0,pos
 		cs = line.trim() 
-		if cs == '' # or cs.indexOf('#')==0 or cs.indexOf('//')==0
-			js += transpile JS + 'answers.push("")'  + JS + "\n"
+		if cs == ''
+			js.push transpile JS + 'answers.push("")'  + JS 
 		else
 			try
 				if cs[cs.length-1]=='=' then cs += 'undefined'
-				js += transpile JS + 'answers.push(' + cs + ")"  + JS + "\n"
+				js.push transpile JS + 'answers.push(' + cs + ")"  + JS 
 			catch e
-				js += transpile JS + "answers.push('ERROR: " + e.message + "')"  + JS + "\n"
+				js.push transpile JS + "answers.push('ERROR: " + e.message + "')"  + JS 
 
 	try
-		eval js
+		eval js.join("\n")
 	catch e 
-		return 'ERROR: ' + e.message
+		console.log e.stack
+		arr = e.stack.split '\n'
+		lineNo = arr[1].split(':')[1]
+		lineNo = (lineNo-1)/3
+		vertical = (range(lineNo).map (x) => '\n').join('')
+		return vertical + 'ERROR: ' + e.message
 
 	res = ""
 	for answer in answers
