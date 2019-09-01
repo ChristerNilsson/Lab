@@ -26,6 +26,8 @@ Hides the keyboard on smartphones
 ## URL
 
 Makes a copy of this tab. The link can be copied and sent to a friend.
+Please note: Some environments corrupts the link. E.g. MarkDown links. 
+In these cases, using a url shortener helps.
 
 ## Coffeescript/Javascript
 

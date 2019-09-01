@@ -58,13 +58,13 @@ makeAnswer = ->
 			if config.displayMode == 1 then res += engineering(answer, config.digits) + "\n"
 		else
 			res += answer + "\n"
-	res
+	res 
 
 encode = ->
 	s = encodeURI memory
 	s = s.replace /=/g,'%3D'
 	s = s.replace /\?/g,'%3F'
-	window.open '?content=' + s + '&config=' + JSON.stringify config
+	window.open '?content=' + s + '&config=' + encodeURI JSON.stringify config
 
 decode = ->
 	memory = ''
