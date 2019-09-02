@@ -14,11 +14,11 @@ config =
 	digits : 3
 
 assert = (a, b) ->
-	try
-		chai.assert.deepEqual a, b
-		''
-	catch
-		"#{a} != #{b}"
+	#try
+	chai.assert.deepEqual a, b
+	#	''
+	#catch
+	#	"#{a} != #{b}"
 
 makeAnswer = -> 
 	answers = []
