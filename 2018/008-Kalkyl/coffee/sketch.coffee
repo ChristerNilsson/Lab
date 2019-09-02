@@ -7,18 +7,22 @@ DISPLAY_MODE = ['Fixed','Engineering']
 memory = null
 page = null
 
-config = 
+config =
 	angleMode : 0
-	language : 1 
-	displayMode : 0 
+	language : 1
+	displayMode : 0
 	digits : 3
 
-assert = (a, b) ->
-	#try
-	chai.assert.deepEqual a, b
-	#	''
-	#catch
-	#	"#{a} != #{b}"
+assert = (a,b,msg='') =>
+	chai.assert.deepEqual a,b,msg
+	'ok'
+
+findLineNo = (e) =>
+	lines = e.stack.split '\n'
+	for line in lines
+		if 0 <= line.indexOf '<anonymous>'
+			return line.split(':')[1] - 1
+	0
 
 makeAnswer = -> 
 	answers = []
@@ -47,9 +51,7 @@ makeAnswer = ->
 		console.dir js
 		eval js.join("\n")
 	catch e 
-		arr = e.stack.split '\n'
-		console.dir arr
-		lineNo = arr[1].split(':')[1] - 1
+		lineNo = findLineNo e
 		pre = (range(lineNo).map (x) => '\n').join('')
 		post = (range(js.length-lineNo).map (x) => '\n').join('')
 		return pre + 'ERROR: ' + e.message + post
