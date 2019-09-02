@@ -45,16 +45,19 @@ makeAnswer = ->
 				if cs[cs.length-1]=='=' then cs += 'undefined'
 				js.push transpile JS + 'answers.push(' + cs + ")"  + JS 
 			catch e
-				js.push transpile JS + "answers.push('ERROR: " + e.message + "')"  + JS 
+				stack = e.stack.split('\n')
+				js.push transpile JS + "answers.push('" + stack[0] + "')"  + JS 
 
 	try
 		console.dir js
 		eval js.join("\n")
 	catch e 
+		console.dir e.stack
 		lineNo = findLineNo e
 		pre = (range(lineNo).map (x) => '\n').join('')
 		post = (range(js.length-lineNo).map (x) => '\n').join('')
-		return pre + 'ERROR: ' + e.message + post
+		lines = e.stack.split('\n')
+		return pre + lines[0] + post
 
 	res = ""
 	for answer in answers
