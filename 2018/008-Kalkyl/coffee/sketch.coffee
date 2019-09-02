@@ -45,10 +45,10 @@ makeAnswer = ->
 	try
 		eval js.join("\n")
 	catch e 
-		console.log e.stack
 		arr = e.stack.split '\n'
+		console.dir arr
 		lineNo = arr[1].split(':')[1]
-		lineNo = (lineNo-1)/3
+		lineNo = if config.language == 0 then (lineNo-3)/2 else (lineNo-1)/3
 		vertical = (range(lineNo).map (x) => '\n').join('')
 		return vertical + 'ERROR: ' + e.message
 
