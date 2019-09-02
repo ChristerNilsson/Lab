@@ -29,7 +29,8 @@ makeAnswer = ->
 
 	angleMode [DEGREES,RADIANS][config.angleMode]
 
-	for line in memory.split "\n"
+	lines = memory.split "\n"
+	for line in lines
 		pos = line.lastIndexOf if config.language == 0 then '#' else '//'
 		if pos >=0 then line = line.slice 0,pos
 		cs = line.trim() 
@@ -43,14 +44,15 @@ makeAnswer = ->
 				js.push transpile JS + "answers.push('ERROR: " + e.message + "')"  + JS 
 
 	try
+		console.dir js
 		eval js.join("\n")
 	catch e 
 		arr = e.stack.split '\n'
 		console.dir arr
-		lineNo = arr[1].split(':')[1]
-		lineNo = if config.language == 0 then (lineNo-3)/2 else (lineNo-1)/3
-		vertical = (range(lineNo).map (x) => '\n').join('')
-		return vertical + 'ERROR: ' + e.message
+		lineNo = arr[1].split(':')[1] - 1
+		pre = (range(lineNo).map (x) => '\n').join('')
+		post = (range(js.length-lineNo).map (x) => '\n').join('')
+		return pre + 'ERROR: ' + e.message + post
 
 	res = ""
 	for answer in answers
