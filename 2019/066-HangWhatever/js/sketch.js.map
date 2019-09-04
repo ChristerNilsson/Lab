@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "sketch.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\sketch.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA,IAAA,MAAA;;AAAA,QAAQ;SACP,aAAa,AAAb,KAAiB,AAAjB,AADO;;;AAER,OAAO;SACN,GAAG,AAAH,AADM",
+  "sourcesContent": [
+    "setup = ->\r\n\tcreateCanvas 200,200\r\ndraw = ->\r\n\tbg 0.5"
+  ]
+}
