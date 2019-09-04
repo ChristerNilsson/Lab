@@ -21,7 +21,6 @@ class Hangman
 		@history.push letter
 		for ltr,i in @secret 
 			if ltr == letter then @guessed[i] = letter
-		@guessed
 
 	read : -> Object.assign @, JSON.parse fs.readFileSync PATH,'utf-8'
 	write : -> fs.writeFileSync PATH,JSON.stringify @
