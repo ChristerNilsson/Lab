@@ -1,9 +1,5 @@
 _ = require 'lodash'
-chai = require 'chai'
 fs = require 'fs'
-
-range = _.range
-assert = chai.assert.deepEqual
 
 WORDS = 'words.txt'
 PATH = 'data.json'
@@ -12,7 +8,7 @@ class Hangman
 	constructor : ->
 		words = fs.readFileSync(WORDS, 'utf8').split '\r\n'
 		@secret = words[_.random words.length]
-		@guessed = @secret.split('').map (word) => '_'
+		@guessed = @secret.split('').map => '_'
 		@history = []
 
 	show : -> @guessed.join ' '
@@ -22,17 +18,16 @@ class Hangman
 		for ltr,i in @secret 
 			if ltr == letter then @guessed[i] = letter
 
-	read : -> Object.assign @, JSON.parse fs.readFileSync PATH,'utf-8'
+	read : -> Object.assign @, JSON.parse fs.readFileSync PATH,'utf8'
 	write : -> fs.writeFileSync PATH,JSON.stringify @
 
-hangman = new Hangman
-hangman.read()
+hm = new Hangman
+hm.read()
 
-if process.argv.length == 2
-	hangman = new Hangman
-else
-	hangman.guess process.argv[2]
+args = process.argv
 
-if '_' not in hangman.guessed then console.log hangman.history.join()
-console.log hangman.show()
-hangman.write()
+if args.length == 2 then hm = new Hangman else hm.guess args[2]
+
+if '_' not in hm.guessed then console.log hm.history.join()
+console.log hm.show()
+hm.write()
