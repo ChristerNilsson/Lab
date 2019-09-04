@@ -11,7 +11,7 @@ PATH = 'data.json'
 class Hangman
 	constructor : ->
 		words = fs.readFileSync(WORDS, 'utf8').split '\r\n'
-		@secret = words[_.random 200]
+		@secret = words[_.random words.length]
 		@guessed = @secret.split('').map (word) => '_'
 		@history = []
 
