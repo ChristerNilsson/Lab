@@ -1,5 +1,11 @@
 'use strict'
 
+//     Secret = 82 
+//     low   nr    high    Next Interval
+//     1     64    127  => 65-127
+//     65    96    127  => 65-95
+//     65    80     95
+
 const {question} = require('readline-sync')
 
 let guess = {}
@@ -15,25 +21,14 @@ const reset = (level) => {
 
 reset(2) 
 
-//     Secret = 82 
-//     low   nr    high    Next Interval
-//     1     64    127  => 65-127
-//     65    96    127  => 65-95
-//     65    80     95
-
 while (true) {
 	const nr = JSON.parse(question(`${guess.low}-${guess.high} > `))
 	guess.history.push(nr)
 
-	if (nr == 0) break
 	if (nr < guess.secret) guess.low = nr + 1
 	if (nr > guess.secret) guess.high = nr - 1 
 	if (nr == guess.secret) {
 		console.log('Correct!')
-		if (guess.history.length > guess.level) {
-			reset(guess.level-1)
-		} else {
-			reset(guess.level+1)
-		}
+		reset(guess.level + (guess.history.length > guess.level ? -1 : 1))
 	}
 }
