@@ -1,0 +1,7 @@
+h1 HangPerson
+form(action="/" method="post")
+	each letter in LETTERS
+		input(type="submit" value=letter onclick="letter.value = this.value")
+	input(type="text" name="letter" hidden)
+h1(style='color:red')= red.join('')
+h1(style='color:green')= green.join(' ')
