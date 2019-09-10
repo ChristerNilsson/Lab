@@ -2,6 +2,8 @@
 
 npm install -g express
 
+## start
+
 node index
 
 * [express.urlencoded](https://stackoverflow.com/questions/23259168/what-are-express-json-and-express-urlencoded/51844327)
@@ -10,7 +12,7 @@ node index
 
 # Communication
 
-## Request: \ GET
+## Request: / GET
 localhost:3000
 
 ## Response:
@@ -21,7 +23,7 @@ localhost:3000
 	<input type="submit" value="Submit"/>
 </form>
 ```
-## Request: \ POST
+## Request: / POST
 ```
 nr=2
 ```
