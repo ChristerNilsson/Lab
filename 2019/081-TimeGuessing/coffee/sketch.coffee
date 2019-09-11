@@ -1,4 +1,4 @@
-{render, h1, button, select, option} = teacup
+{render, h1, button, select, option, title, script} = teacup
 
 startingTime = null 
 duration = 1000 # ms
@@ -26,6 +26,7 @@ stopp = ->
 pluralize = (n,word) -> n + ' ' + word + if n==1 then '' else 's'
 
 document.body.innerHTML = render ->
+	title 'Time Guessing'
 	style1 = 'width:100%; font-size:100px; text-align:center; text-align-last:center'
 	select style:style1, onchange:'selectDuration(this)', ->
 		for item in [1,2,3,4,5,6,7,8,9,10,20,30,40,50,60]
