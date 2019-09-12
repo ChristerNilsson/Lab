@@ -37,7 +37,7 @@ document.body.innerHTML = render ->
 			for item in [1,2,3,4,5,6,7,8,9,10,20,30,40,50,60]
 				option value:item, style:style1, pluralize(item,'second')
 	p ->
-		button '#btn', style:style1, 'Start', onclick:'toggle()'
+		button '#btn', 'Start', style:style1, onclick:'toggle()'
 	div '#text1', style:style1, 'duration'
 	div '#text2', style:style1, 'difference'
 	div '#text3', style:style1, '%'
