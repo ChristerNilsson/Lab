@@ -12,7 +12,7 @@ clear = ->
 	text2.innerText = ''
 	text3.innerText = ''
 
-myRound = (x,decs) -> Math.round(10**decs * x)/10**decs
+myRound = (x,decs=0) -> Math.round(10**decs * x)/10**decs
 
 toggle = ->
 	if btn.innerText == 'Start'
@@ -22,10 +22,10 @@ toggle = ->
 	else
 		btn.innerText = 'Start'
 		stoppingTime = new Date()
-		delta = myRound stoppingTime - startingTime - duration, 2
+		delta = stoppingTime - startingTime - duration # ms
 		text1.innerText = myRound((stoppingTime - startingTime)/1000, 2) + ' seconds'
-		text2.innerText = myRound(delta/1000,2) + ' seconds'
-		text3.innerText = Math.round(100*delta/duration)+'%'
+		text2.innerText = myRound(delta/1000, 2) + ' seconds'
+		text3.innerText = myRound(100*delta/duration) + '%'
 
 pluralize = (n,word) -> n + ' ' + word + if n==1 then '' else 's'
 
