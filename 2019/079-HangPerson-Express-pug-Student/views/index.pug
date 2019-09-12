@@ -1,0 +1,9 @@
+body(style="font-family: monospace; font-size:50")
+	div HangPerson
+	form(action="/" method="post")
+		p
+			input(type="submit" name="new" value='new' style="font-size:50; width:100%")
+		each letter in LETTERS
+			input(type="submit" name="letter" value=letter style="font-size:50; width:10%")
+	div(style='color:red')= red.join('')
+	div(style='color:green')= green.join(' ')
