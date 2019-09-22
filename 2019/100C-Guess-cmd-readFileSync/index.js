@@ -1,7 +1,7 @@
 'use strict'
 
 const fs = require('fs')
-const Game = require('./game')
+const Game = require('../100-Guess-Library/node/gamejs.js')
 const game = new Game(2) 
 const PATH = 'data.txt'
 

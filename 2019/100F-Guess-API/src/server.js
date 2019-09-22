@@ -1,7 +1,7 @@
 'use strict'
 
 const http = require('http')
-const Game = require ('./game')
+const Game = require('../../100-Guess-Library/gamejs.js')
 
 function createServer() {
 	const game = new Game(2)

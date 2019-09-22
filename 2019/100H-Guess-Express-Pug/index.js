@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const Game = require('./game')
+const Game = require('../100-Guess-Library/gamejs.js')
 
 const game = new Game(2)
 

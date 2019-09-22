@@ -1,7 +1,8 @@
 'use strict'
 
 const express = require('express')
-const Game = require('./game')
+const Game = require('../100-Guess-Library/gamejs.js')
+
 const app = express()
 
 const game = new Game(2)

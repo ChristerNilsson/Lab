@@ -1,5 +1,5 @@
 express = require 'express'
-Game = require '../js/game'
+const Game = require('../../100-Guess-Library/game.js')
 
 app = express()
 {renderable,h1,form,input} = require 'teacup'
