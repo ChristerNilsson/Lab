@@ -1,3 +1,5 @@
+_ = require 'lodash'
+
 class Game  
 	constructor : (level) -> @init level
 
