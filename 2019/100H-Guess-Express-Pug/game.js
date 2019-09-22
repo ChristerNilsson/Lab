@@ -6,7 +6,7 @@ class Game {
 	}
 
 	init (level) {
-		this.level =- level
+		this.level = level
 		if (this.level < 2) {
 			this.level = 2
 		}

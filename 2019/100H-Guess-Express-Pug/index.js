@@ -1,34 +1,20 @@
 const express = require('express')
-const _ = require('lodash')
 const app = express()
+const Game = require('./game')
 
-let game = {level:2}
-
-reset = (level) => {
-	if (level<2) level = 2
-	game = {level:level, low:1, high:2**level-1, history:[]}
-	game.secret = _.random(game.low,game.high)
-}
-
-guess = (nr) => {
-	game.history.push(nr)
-	if (nr < game.secret) game.low  = nr + 1
-	if (nr > game.secret) game.high = nr - 1
-	if (nr == game.secret) reset(game.level + 1)
-}
+const game = new Game(2)
 
 app.use(express.urlencoded({ extended: false }))
-app.set('view engine', 'pug') // PUG
+app.set('view engine', 'pug') 
 
 app.get('/', (req, res) => {
-	reset(2)
-  res.render('index', { game }) // PUG
+	game.init(0)
+  res.render('index', { game }) 
 })
 
 app.post('/', (req, res) => {
-	const nr = parseInt(req.body.nr)
-	guess(nr)
-  res.render('index', { game }) // PUG
+	game.action(req.body.nr)
+  res.render('index', { game }) 
 })
 
 const PORT = process.env.PORT || 3000
