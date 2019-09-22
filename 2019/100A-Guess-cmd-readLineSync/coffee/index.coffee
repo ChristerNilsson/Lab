@@ -1,5 +1,5 @@
 { question } = require 'readline-sync'
-Game = require '../../100-Guess-Library/node/gamejs.js'
+Game = require '../../100-Guess-Library/game.js'
 
 game = new Game 2
 
