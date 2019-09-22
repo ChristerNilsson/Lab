@@ -1,9 +1,5 @@
-# HangWhatever readline-sync
+# Guess My Number 
 
-* node js/index
+This is a library file used by node projects in the 100 series.
 
-[readline-sync](https://www.npmjs.com/package/readline-sync)
-
-# Credits
-
-[Mariana Bocoi](https://github.com/nicevo/Node.js/tree/example-week-2/week2/example)
+The original file for html is in project 100E-Guess-SPA.
