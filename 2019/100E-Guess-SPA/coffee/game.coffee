@@ -15,4 +15,3 @@ class Game
 		if value > @secret and value <= @high then @high = value - 1
 		if value == @secret 
 			@init @level + if @hist.length <= @level then 1 else -1
-
