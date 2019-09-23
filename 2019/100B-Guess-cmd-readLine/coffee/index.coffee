@@ -1,4 +1,3 @@
-{ question } = require 'readline'
 Game = require '../../100-Guess-Library/game.js'
 
 game = new Game 2
