@@ -16,15 +16,11 @@ class App extends React.Component {
 	}
 
 	handleKeyUp(evt) {
-		if (evt.key === 'Enter') {
-			if (evt.target.value === '') {
-				this.state.game.init(2)
-			} else {
-				this.state.game.action(evt.target.value)
-			}
-			evt.target.value = ''
-			this.setState(state => ({game: state.game}))
-		}
+		if (evt.key !== 'Enter') return
+		if (evt.target.value === '') this.state.game.init(2)
+		else this.state.game.action(evt.target.value)
+		evt.target.value = ''
+		this.setState(state => ({game: state.game}))
 	}
 }
 
