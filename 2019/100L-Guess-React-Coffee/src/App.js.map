@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "App.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\App.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;;;AAAA,IAAA,IAAA,EAAA,aAAA,EAAA,GAAA,EAAA,KAAA,EAAA,MAAA,EAAA;;AAIA,KAAA,GAAQ;;AAER,aAAA,GAAgB,QAAA,CAAC,IAAD,EAAM,KAAN,EAAY,QAAZ,CAAA;SAAyB,IAAI,CAAC,SAAL,CAAe,CAAC,IAAD,EAAO,KAAP,EAAc,QAAd,CAAf;AAAzB;;AAEhB,IAAA,GAAO,QAAA,CAAC,IAAD,EAAM,QAAM,CAAA,CAAZ,EAAe,WAAS,EAAxB,EAA2B,IAAE,IAA7B,CAAA;AACN,MAAA;EAAA,KAAK,CAAC,IAAN,CAAW,IAAX;EACA,IAAG,CAAH;IACC,KAAA,GAAQ,CAAA,CAAA;IACR,IAAG,KAAH;MAAc,MAAM,CAAC,IAAP,CAAY,KAAZ,EAAd;KAFD;;EAGA,KAAK,CAAC,GAAN,CAAA;SACA,aAAA,CAAc,IAAd,EAAoB,KAApB,EAA2B,QAA3B;AANM;;AAQP,GAAA,GAAQ,CAAC,KAAD,EAAQ,QAAR,EAAkB,CAAlB,CAAA,GAAA;SAAwB,IAAA,CAAK,KAAL,EAAa,KAAb,EAAmB,QAAnB,EAA4B,CAA5B;AAAxB;;AACR,KAAA,GAAQ,CAAC,KAAD,EAAQ,QAAR,EAAkB,CAAlB,CAAA,GAAA;SAAwB,IAAA,CAAK,OAAL,EAAa,KAAb,EAAmB,QAAnB,EAA4B,CAA5B;AAAxB;;AAER,MAAA,GAAS,CAAA,CAAA,GAAA;SACR,GAAA,CAAI;IAAC,CAAA,EAAE;EAAH,CAAJ,EAAY,CAAC,EAAD,CAAZ,EAAkB,CAAA,CAAA,GAAA;IACjB,GAAA,CAAA;WACA,KAAA,CAAA;EAFiB,CAAlB;AADQ;;AAKT,MAAA,CAAA;;AAxBA",
+  "sourcesContent": [
+    "# import React from 'react'\n# import ReactDOM from 'react-dom'\n# import Game from './game.js'\n\nstack = []\n\ncreateElement = (type,props,children) -> JSON.stringify {type, props, children}\n\ncrap = (type,props={},children=[],f=null) ->\n\tstack.push type\n\tif f \n\t\tchild = f()\n\t\tif child then parent.push child\n\tstack.pop()\n\tcreateElement type, props, children\n\ndiv   = (props, children, f) =>\tcrap 'div',  props,children,f\ninput = (props, children, f) => crap 'input',props,children,f\n\nrender = =>\n\tdiv {a:11}, [12], =>\n\t\tdiv()\n\t\tinput()\n\nrender()\n\n# class App extends React.Component \n# \tconstructor : (props={}) ->\n# \t\tsuper props\n# \t\tthis.state = {game: new Game 2 }\n# \t\tconsole.log this.state\n# \t\tthis.handleKeyUp = this.handleKeyUp.bind this\n\n# \trender : =>\n# \t\tx = div {}, [], =>\n# \t\t\tdiv {}, [1,'-',3], =>\n# \t\t\tinput {onKeyUp : this.handleKeyUp}, [], =>\n# \t\tconsole.log x\n# \t\tx\n\n# \thandleKeyUp : (evt) =>\n# \t\tif evt.key != 'Enter' then return\n# \t\tif evt.target.value == '' then this.state.game.init 2\n# \t\telse this.state.game.action evt.target.value\n# \t\tevt.target.value = ''\n# \t\tthis.setState((state) => {game: state.game})\n\n# ReactDOM.render(<App />, document.getElementById(\"root\"))\n\n# export default App\n"
+  ]
+}
