@@ -1,5 +1,5 @@
 _ = require 'lodash'
-stack = [{'x', children:[]}]
+stack = [{key:'x',children:[]}]
 #stack = []
 
 #createElement = (key, children) -> {key, children}
@@ -8,9 +8,15 @@ crap = (key='x',f= ->) ->
 	stack.push {key, children:[]}
 	f()
 	children = stack.pop().children
-	#if _.last(stack).key != key
 	_.last(stack).children.push { key, children }
 	_.last(stack).children
+
+# crap = (key='x',f= ->) ->
+# 	stack.push []
+# 	f()
+# 	children = stack.pop()
+# 	_.last(stack).push children
+# 	{key, children:_.last(stack)}
 
 render = =>
 	crap 'root', =>
