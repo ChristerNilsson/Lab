@@ -8,10 +8,17 @@ import Game from './game.js';
 
 import _ from 'lodash';
 
-var App, crap, div, input, stack;
+var App, crap, div, input, stack,
+  boundMethodCheck = function(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new Error('Bound instance method accessed before binding'); } };
+// stack = [{element : null, children:[]}]
+// crap = (type='x',props,arr,f= ->) ->
+// 	stack.push {element: React.createElement(type, props, ...arr), children:[]}
+// 	f()
+// 	children = stack.pop().children
+// 	_.last(stack).children.push {element:React.createElement(type, props, ...arr, ...children)} 
+// 	_.last(stack).children
 stack = [
   {
-    element: null,
     children: []
   }
 ];
@@ -19,18 +26,14 @@ stack = [
 crap = function(type = 'x', props, arr, f = function() {}) {
   var children;
   stack.push({
-    element: React.createElement(type, props, ...arr),
     children: []
   });
   f();
   children = stack.pop().children;
-  _.last(stack).children.push({
-    element: React.createElement(type, props, ...arr, ...children)
-  });
+  _.last(stack).children.push(React.createElement(type, props, ...arr, ...children));
   return _.last(stack).children;
 };
 
-// p     = (props,arr,f= =>) => crap 'p',props,arr,f
 div = (props = {}, arr = [], f = () => {}) => {
   return crap('div', props, arr, f);
 };
@@ -42,19 +45,30 @@ input = (props = {}, arr = [], f = () => {}) => {
 App = class App extends React.Component {
   constructor(props) {
     super(props);
+    this.render = this.render.bind(this);
+    this.handleKeyUp = this.handleKeyUp.bind(this);
     this.state = {
       game: new Game(2)
     };
-    this.handleKeyUp = this.handleKeyUp.bind(this);
   }
 
   render() {
-    return div({}, [4712], function() {});
+    boundMethodCheck(this, App);
+    stack = [
+      {
+        children: []
+      }
+    ];
+    return div({}, [], () => {
+      div({}, [this.state.game.low, '-', this.state.game.high]);
+      return input({
+        onKeyUp: this.handleKeyUp
+      }, []);
+    });
   }
 
-  //div {}, [this.state.game.low,'-',this.state.game.high]
-  //input {onKeyUp:this.handleKeyUp},[]
   handleKeyUp(evt) {
+    boundMethodCheck(this, App);
     if (evt.key !== 'Enter') {
       return;
     }
@@ -77,77 +91,3 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
 export default App;
 
-// import React from 'react'
-// import ReactDOM from 'react-dom'
-//React = require 'react'
-//ReactDOM = require 'react-dom'
-
-//stack = []
-
-//createElement = (type, props, ...children) -> {type, props, children}
-
-// stack = [{element : null, children:[]}]
-// crap = (type='x',props,arr,f= ->) ->
-// 	stack.push {element: React.createElement(type, props, ...arr), children:[]}
-// 	f()
-// 	children = stack.pop().children
-// 	_.last(stack).children.push {element:React.createElement(type, props, ...arr, ...children)} 
-// 	_.last(stack).children
-
-// p     = (props,arr,f= =>) => crap 'p',props,arr,f
-// div   = (props,arr,f= =>) => crap 'div',props,arr,f
-// input = (props,arr,f= =>) => crap 'input',props,arr,f
-
-// render = =>
-// 	div {}, [], =>
-// 		div {}, [1,'-',3]
-// 		input {onKeyUp : 'handleKeyUp'}, []
-
-// console.log ''
-// console.log JSON.stringify render()
-
-// console.log JSON.stringify createElement('a', createElement('b'), createElement('c'))
-
-// import Game from './game.js'
-
-// createAndAppend = (type, parent, attributes = {}) =>
-// 	elem = document.createElement type
-// 	parent.appendChild elem
-// 	elem[key] = value for key,value of attributes
-// 	elem
-
-// stack = []
-
-// crap = (attributes, f, type) =>
-// 	if typeof type == 'object' then stack.push type
-// 	else stack.push createAndAppend type, _.last(stack), attributes
-// 	f()
-// 	stack.pop()
-
-// class App extends React.Component 
-// 	constructor : (props={}) ->
-// 		super props
-// 		this.state = {game: new Game 2 }
-// 		console.log this.state
-// 		this.handleKeyUp = this.handleKeyUp.bind this
-
-// 	render : =>
-// 		x = div {}, [], =>
-// 			div {}, [1,'-',3], =>
-// 			input {onKeyUp : this.handleKeyUp}, [], =>
-// 		console.log x
-// 		x
-
-// 	handleKeyUp : (evt) =>
-// 		if evt.key != 'Enter' then return
-// 		if evt.target.value == '' then this.state.game.init 2
-// 		else this.state.game.action evt.target.value
-// 		evt.target.value = ''
-// 		this.setState((state) => {game: state.game})
-
-// ReactDOM.render(<App />, document.getElementById("root"))
-
-// export default App
-
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQXBwLmpzIiwic291cmNlUm9vdCI6Ii4uIiwic291cmNlcyI6WyJjb2ZmZWVcXEFwcC5jb2ZmZWUiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBLElBQUEsR0FBQSxFQUFBLElBQUEsRUFBQSxHQUFBLEVBQUEsS0FBQSxFQUFBOztBQUFBLE9BQU8sS0FBUCxNQUFBOztBQUNBLE9BQU8sUUFBUCxNQUFBOztBQUNBLE9BQU8sSUFBUCxNQUFBOztBQUNBLE9BQU8sQ0FBUCxNQUFBOztBQUVBLEtBQUEsR0FBUTtFQUFDO0lBQUMsT0FBQSxFQUFVLElBQVg7SUFBaUIsUUFBQSxFQUFTO0VBQTFCLENBQUQ7OztBQUNSLElBQUEsR0FBTyxRQUFBLENBQUMsT0FBSyxHQUFOLEVBQVUsS0FBVixFQUFnQixHQUFoQixFQUFvQixJQUFHLFFBQUEsQ0FBQSxDQUFBLEVBQUEsQ0FBdkIsQ0FBQTtBQUNOLE1BQUE7RUFBQSxLQUFLLENBQUMsSUFBTixDQUFXO0lBQUMsT0FBQSxFQUFTLEtBQUssQ0FBQyxhQUFOLENBQW9CLElBQXBCLEVBQTBCLEtBQTFCLEVBQWlDLEdBQUcsR0FBcEMsQ0FBVjtJQUFvRCxRQUFBLEVBQVM7RUFBN0QsQ0FBWDtFQUNBLENBQUEsQ0FBQTtFQUNBLFFBQUEsR0FBVyxLQUFLLENBQUMsR0FBTixDQUFBLENBQVcsQ0FBQztFQUN2QixDQUFDLENBQUMsSUFBRixDQUFPLEtBQVAsQ0FBYSxDQUFDLFFBQVEsQ0FBQyxJQUF2QixDQUE0QjtJQUFDLE9BQUEsRUFBUSxLQUFLLENBQUMsYUFBTixDQUFvQixJQUFwQixFQUEwQixLQUExQixFQUFpQyxHQUFHLEdBQXBDLEVBQXlDLEdBQUcsUUFBNUM7RUFBVCxDQUE1QjtTQUNBLENBQUMsQ0FBQyxJQUFGLENBQU8sS0FBUCxDQUFhLENBQUM7QUFMUixFQU5QOzs7QUFjQSxHQUFBLEdBQVEsQ0FBQyxRQUFNLENBQUEsQ0FBUCxFQUFVLE1BQUksRUFBZCxFQUFpQixJQUFHLENBQUEsQ0FBQSxHQUFBLEVBQUEsQ0FBcEIsQ0FBQSxHQUFBO1NBQTJCLElBQUEsQ0FBSyxLQUFMLEVBQVcsS0FBWCxFQUFpQixHQUFqQixFQUFxQixDQUFyQjtBQUEzQjs7QUFDUixLQUFBLEdBQVEsQ0FBQyxRQUFNLENBQUEsQ0FBUCxFQUFVLE1BQUksRUFBZCxFQUFpQixJQUFHLENBQUEsQ0FBQSxHQUFBLEVBQUEsQ0FBcEIsQ0FBQSxHQUFBO1NBQTJCLElBQUEsQ0FBSyxPQUFMLEVBQWEsS0FBYixFQUFtQixHQUFuQixFQUF1QixDQUF2QjtBQUEzQjs7QUFFRixNQUFOLE1BQUEsSUFBQSxRQUFrQixLQUFLLENBQUMsVUFBeEI7RUFDQyxXQUFjLENBQUMsS0FBRCxDQUFBO1NBQ2IsQ0FBTSxLQUFOO0lBQ0EsSUFBSSxDQUFDLEtBQUwsR0FBYTtNQUFDLElBQUEsRUFBTSxJQUFJLElBQUosQ0FBUyxDQUFUO0lBQVA7SUFDYixJQUFJLENBQUMsV0FBTCxHQUFtQixJQUFJLENBQUMsV0FBVyxDQUFDLElBQWpCLENBQXNCLElBQXRCO0VBSE47O0VBS2QsTUFBUyxDQUFBLENBQUE7V0FDUixHQUFBLENBQUksQ0FBQSxDQUFKLEVBQU8sQ0FBQyxJQUFELENBQVAsRUFBYyxRQUFBLENBQUEsQ0FBQSxFQUFBLENBQWQ7RUFEUSxDQUxUOzs7O0VBVUEsV0FBYyxDQUFDLEdBQUQsQ0FBQTtJQUNiLElBQUksR0FBRyxDQUFDLEdBQUosS0FBVyxPQUFmO0FBQTZCLGFBQTdCOztJQUNBLElBQUksR0FBRyxDQUFDLE1BQU0sQ0FBQyxLQUFYLEtBQW9CLEVBQXhCO01BQWlDLElBQUksQ0FBQyxLQUFLLENBQUMsSUFBSSxDQUFDLElBQWhCLENBQXFCLENBQXJCLEVBQWpDO0tBQUEsTUFBQTtNQUNLLElBQUksQ0FBQyxLQUFLLENBQUMsSUFBSSxDQUFDLE1BQWhCLENBQXVCLEdBQUcsQ0FBQyxNQUFNLENBQUMsS0FBbEMsRUFETDs7SUFFQSxHQUFHLENBQUMsTUFBTSxDQUFDLEtBQVgsR0FBbUI7V0FDbkIsSUFBSSxDQUFDLFFBQUwsQ0FBYyxDQUFDLEtBQUQsQ0FBQSxHQUFBO2FBQVk7UUFBQyxJQUFBLEVBQU0sS0FBSyxDQUFDO01BQWI7SUFBWixDQUFkO0VBTGE7O0FBWGY7O0FBa0JBLFFBQVEsQ0FBQyxNQUFULENBQWlCLENBQUEsR0FBQSxHQUFqQixFQUF3QixRQUFRLENBQUMsY0FBVCxDQUF3QixNQUF4QixDQUF4Qjs7QUFFQSxPQUFBLFFBQWU7O0FBckNmIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xuaW1wb3J0IFJlYWN0RE9NIGZyb20gJ3JlYWN0LWRvbSdcbmltcG9ydCBHYW1lIGZyb20gJy4vZ2FtZS5qcydcbmltcG9ydCBfIGZyb20gJ2xvZGFzaCdcblxuc3RhY2sgPSBbe2VsZW1lbnQgOiBudWxsLCBjaGlsZHJlbjpbXX1dXG5jcmFwID0gKHR5cGU9J3gnLHByb3BzLGFycixmPSAtPikgLT5cblx0c3RhY2sucHVzaCB7ZWxlbWVudDogUmVhY3QuY3JlYXRlRWxlbWVudCh0eXBlLCBwcm9wcywgLi4uYXJyKSwgY2hpbGRyZW46W119XG5cdGYoKVxuXHRjaGlsZHJlbiA9IHN0YWNrLnBvcCgpLmNoaWxkcmVuXG5cdF8ubGFzdChzdGFjaykuY2hpbGRyZW4ucHVzaCB7ZWxlbWVudDpSZWFjdC5jcmVhdGVFbGVtZW50KHR5cGUsIHByb3BzLCAuLi5hcnIsIC4uLmNoaWxkcmVuKX0gXG5cdF8ubGFzdChzdGFjaykuY2hpbGRyZW5cblxuIyBwICAgICA9IChwcm9wcyxhcnIsZj0gPT4pID0+IGNyYXAgJ3AnLHByb3BzLGFycixmXG5kaXYgICA9IChwcm9wcz17fSxhcnI9W10sZj0gPT4pID0+IGNyYXAgJ2RpdicscHJvcHMsYXJyLGZcbmlucHV0ID0gKHByb3BzPXt9LGFycj1bXSxmPSA9PikgPT4gY3JhcCAnaW5wdXQnLHByb3BzLGFycixmXG5cbmNsYXNzIEFwcCBleHRlbmRzIFJlYWN0LkNvbXBvbmVudCBcblx0Y29uc3RydWN0b3IgOiAocHJvcHMpIC0+XG5cdFx0c3VwZXIocHJvcHMpXG5cdFx0dGhpcy5zdGF0ZSA9IHtnYW1lOiBuZXcgR2FtZSgyKX1cblx0XHR0aGlzLmhhbmRsZUtleVVwID0gdGhpcy5oYW5kbGVLZXlVcC5iaW5kKHRoaXMpXG5cdFxuXHRyZW5kZXIgOiAoKSAtPlxuXHRcdGRpdiB7fSxbNDcxMl0sLT5cblx0XHRcdCNkaXYge30sIFt0aGlzLnN0YXRlLmdhbWUubG93LCctJyx0aGlzLnN0YXRlLmdhbWUuaGlnaF1cblx0XHRcdCNpbnB1dCB7b25LZXlVcDp0aGlzLmhhbmRsZUtleVVwfSxbXVxuXG5cdGhhbmRsZUtleVVwIDogKGV2dCkgLT5cblx0XHRpZiAoZXZ0LmtleSAhPSAnRW50ZXInKSB0aGVuIHJldHVyblxuXHRcdGlmIChldnQudGFyZ2V0LnZhbHVlID09ICcnKSB0aGVuIHRoaXMuc3RhdGUuZ2FtZS5pbml0KDIpXG5cdFx0ZWxzZSB0aGlzLnN0YXRlLmdhbWUuYWN0aW9uKGV2dC50YXJnZXQudmFsdWUpXG5cdFx0ZXZ0LnRhcmdldC52YWx1ZSA9ICcnXG5cdFx0dGhpcy5zZXRTdGF0ZSgoc3RhdGUpID0+ICh7Z2FtZTogc3RhdGUuZ2FtZX0pKVxuXHRcblJlYWN0RE9NLnJlbmRlcig8QXBwLz4sIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKFwicm9vdFwiKSlcblxuZXhwb3J0IGRlZmF1bHQgQXBwXG5cblxuXG5cbiMgaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xuIyBpbXBvcnQgUmVhY3RET00gZnJvbSAncmVhY3QtZG9tJ1xuI1JlYWN0ID0gcmVxdWlyZSAncmVhY3QnXG4jUmVhY3RET00gPSByZXF1aXJlICdyZWFjdC1kb20nXG5cbiNzdGFjayA9IFtdXG5cbiNjcmVhdGVFbGVtZW50ID0gKHR5cGUsIHByb3BzLCAuLi5jaGlsZHJlbikgLT4ge3R5cGUsIHByb3BzLCBjaGlsZHJlbn1cblxuIyBzdGFjayA9IFt7ZWxlbWVudCA6IG51bGwsIGNoaWxkcmVuOltdfV1cbiMgY3JhcCA9ICh0eXBlPSd4Jyxwcm9wcyxhcnIsZj0gLT4pIC0+XG4jIFx0c3RhY2sucHVzaCB7ZWxlbWVudDogUmVhY3QuY3JlYXRlRWxlbWVudCh0eXBlLCBwcm9wcywgLi4uYXJyKSwgY2hpbGRyZW46W119XG4jIFx0ZigpXG4jIFx0Y2hpbGRyZW4gPSBzdGFjay5wb3AoKS5jaGlsZHJlblxuIyBcdF8ubGFzdChzdGFjaykuY2hpbGRyZW4ucHVzaCB7ZWxlbWVudDpSZWFjdC5jcmVhdGVFbGVtZW50KHR5cGUsIHByb3BzLCAuLi5hcnIsIC4uLmNoaWxkcmVuKX0gXG4jIFx0Xy5sYXN0KHN0YWNrKS5jaGlsZHJlblxuXG4jIHAgICAgID0gKHByb3BzLGFycixmPSA9PikgPT4gY3JhcCAncCcscHJvcHMsYXJyLGZcbiMgZGl2ICAgPSAocHJvcHMsYXJyLGY9ID0+KSA9PiBjcmFwICdkaXYnLHByb3BzLGFycixmXG4jIGlucHV0ID0gKHByb3BzLGFycixmPSA9PikgPT4gY3JhcCAnaW5wdXQnLHByb3BzLGFycixmXG5cbiMgcmVuZGVyID0gPT5cbiMgXHRkaXYge30sIFtdLCA9PlxuIyBcdFx0ZGl2IHt9LCBbMSwnLScsM11cbiMgXHRcdGlucHV0IHtvbktleVVwIDogJ2hhbmRsZUtleVVwJ30sIFtdXG5cbiMgY29uc29sZS5sb2cgJydcbiMgY29uc29sZS5sb2cgSlNPTi5zdHJpbmdpZnkgcmVuZGVyKClcblxuXG4jIGNvbnNvbGUubG9nIEpTT04uc3RyaW5naWZ5IGNyZWF0ZUVsZW1lbnQoJ2EnLCBjcmVhdGVFbGVtZW50KCdiJyksIGNyZWF0ZUVsZW1lbnQoJ2MnKSlcblxuXG4jIGltcG9ydCBHYW1lIGZyb20gJy4vZ2FtZS5qcydcblxuIyBjcmVhdGVBbmRBcHBlbmQgPSAodHlwZSwgcGFyZW50LCBhdHRyaWJ1dGVzID0ge30pID0+XG4jIFx0ZWxlbSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQgdHlwZVxuIyBcdHBhcmVudC5hcHBlbmRDaGlsZCBlbGVtXG4jIFx0ZWxlbVtrZXldID0gdmFsdWUgZm9yIGtleSx2YWx1ZSBvZiBhdHRyaWJ1dGVzXG4jIFx0ZWxlbVxuXG4jIHN0YWNrID0gW11cblxuIyBjcmFwID0gKGF0dHJpYnV0ZXMsIGYsIHR5cGUpID0+XG4jIFx0aWYgdHlwZW9mIHR5cGUgPT0gJ29iamVjdCcgdGhlbiBzdGFjay5wdXNoIHR5cGVcbiMgXHRlbHNlIHN0YWNrLnB1c2ggY3JlYXRlQW5kQXBwZW5kIHR5cGUsIF8ubGFzdChzdGFjayksIGF0dHJpYnV0ZXNcbiMgXHRmKClcbiMgXHRzdGFjay5wb3AoKVxuXG4jIGNsYXNzIEFwcCBleHRlbmRzIFJlYWN0LkNvbXBvbmVudCBcbiMgXHRjb25zdHJ1Y3RvciA6IChwcm9wcz17fSkgLT5cbiMgXHRcdHN1cGVyIHByb3BzXG4jIFx0XHR0aGlzLnN0YXRlID0ge2dhbWU6IG5ldyBHYW1lIDIgfVxuIyBcdFx0Y29uc29sZS5sb2cgdGhpcy5zdGF0ZVxuIyBcdFx0dGhpcy5oYW5kbGVLZXlVcCA9IHRoaXMuaGFuZGxlS2V5VXAuYmluZCB0aGlzXG5cbiMgXHRyZW5kZXIgOiA9PlxuIyBcdFx0eCA9IGRpdiB7fSwgW10sID0+XG4jIFx0XHRcdGRpdiB7fSwgWzEsJy0nLDNdLCA9PlxuIyBcdFx0XHRpbnB1dCB7b25LZXlVcCA6IHRoaXMuaGFuZGxlS2V5VXB9LCBbXSwgPT5cbiMgXHRcdGNvbnNvbGUubG9nIHhcbiMgXHRcdHhcblxuIyBcdGhhbmRsZUtleVVwIDogKGV2dCkgPT5cbiMgXHRcdGlmIGV2dC5rZXkgIT0gJ0VudGVyJyB0aGVuIHJldHVyblxuIyBcdFx0aWYgZXZ0LnRhcmdldC52YWx1ZSA9PSAnJyB0aGVuIHRoaXMuc3RhdGUuZ2FtZS5pbml0IDJcbiMgXHRcdGVsc2UgdGhpcy5zdGF0ZS5nYW1lLmFjdGlvbiBldnQudGFyZ2V0LnZhbHVlXG4jIFx0XHRldnQudGFyZ2V0LnZhbHVlID0gJydcbiMgXHRcdHRoaXMuc2V0U3RhdGUoKHN0YXRlKSA9PiB7Z2FtZTogc3RhdGUuZ2FtZX0pXG5cbiMgUmVhY3RET00ucmVuZGVyKDxBcHAgLz4sIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKFwicm9vdFwiKSlcblxuIyBleHBvcnQgZGVmYXVsdCBBcHBcbiJdfQ==
-//# sourceURL=c:\Lab\2019\100L-Guess-React-Coffee\coffee\App.coffee
