@@ -9,14 +9,25 @@ class App extends React.Component
 		@state =
 			game: new Game 2
 
+	# render : =>
+	# 	div style: {fontSize: 100+'px'} ,
+	# 		div {}, @state.game.low, '-', @state.game.high
+	# 		div {}, "#{@state.game.low}-#{@state.game.high}"
+	# 		input 
+	# 			style: 
+	# 				fontSize: 100+'px'
+	# 			onKeyUp: @handleKeyUp
+
 	render : =>
 		div style: {fontSize: 100+'px'} ,
 			div {}, @state.game.low, '-', @state.game.high
-			div {}, "#{@state.game.low}-#{@state.game.high}"
-			input 
-				style: 
-					fontSize: 100+'px'
-				onKeyUp: @handleKeyUp
+			input style: {fontSize: 100+'px'}, onKeyUp: @handleKeyUp
+
+	# render : =>
+	# 	<div style={fontSize:100+'px'}> 
+	# 		<div>{@state.game.low}-{@state.game.high}</div>
+	# 		<input style={fontSize:100+'px'} onKeyUp={@handleKeyUp}></input>
+	# 	</div>
 
 	handleKeyUp : (evt) =>
 		if evt.key != 'Enter' then return
