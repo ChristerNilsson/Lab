@@ -10,35 +10,22 @@ import _ from 'lodash';
 
 var App, crap, div, input, stack,
   boundMethodCheck = function(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new Error('Bound instance method accessed before binding'); } };
-// stack = [{element : null, children:[]}]
-// crap = (type='x',props,arr,f= ->) ->
-// 	stack.push {element: React.createElement(type, props, ...arr), children:[]}
-// 	f()
-// 	children = stack.pop().children
-// 	_.last(stack).children.push {element:React.createElement(type, props, ...arr, ...children)} 
-// 	_.last(stack).children
-stack = [
-  {
-    children: []
-  }
-];
+stack = [[]];
 
-crap = function(type = 'x', props, arr, f = function() {}) {
+crap = function(type, props = {}, arr = [], f = () => {}) {
   var children;
-  stack.push({
-    children: []
-  });
+  stack.push([]);
   f();
-  children = stack.pop().children;
-  _.last(stack).children.push(React.createElement(type, props, ...arr, ...children));
-  return _.last(stack).children;
+  children = stack.pop();
+  _.last(stack).push(React.createElement(type, props, ...arr, ...children));
+  return _.last(stack);
 };
 
-div = (props = {}, arr = [], f = () => {}) => {
+div = (props, arr, f) => {
   return crap('div', props, arr, f);
 };
 
-input = (props = {}, arr = [], f = () => {}) => {
+input = (props, arr, f) => {
   return crap('input', props, arr, f);
 };
 
@@ -54,16 +41,12 @@ App = class App extends React.Component {
 
   render() {
     boundMethodCheck(this, App);
-    stack = [
-      {
-        children: []
-      }
-    ];
+    stack = [[]];
     return div({}, [], () => {
       div({}, [this.state.game.low, '-', this.state.game.high]);
       return input({
         onKeyUp: this.handleKeyUp
-      }, []);
+      });
     });
   }
 
