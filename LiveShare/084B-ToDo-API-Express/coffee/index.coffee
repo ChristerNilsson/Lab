@@ -11,10 +11,10 @@ class Database
 
 	read : -> Object.assign @, JSON.parse fs.readFileSync PATH,'utf-8'
 	write : -> fs.writeFileSync PATH, JSON.stringify @
-	
-	add : (text) =>	
-	delete : (id) => 
-	demo : => 
+
+	add : (text) ->
+	delete : (id) ->
+	demo : ->
 		@add text for text in 'buy food|fetch lamps|walk dog|feed cat|köp räksmörgåsar'.split '|'
 
 db = new Database()
