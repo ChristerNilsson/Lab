@@ -1,0 +1,30 @@
+{
+	"last": 5,
+	"todos": [
+		{
+			"id": 1,
+			"text": "buy food",
+			"done": false
+		},
+		{
+			"id": 2,
+			"text": "fetch lamps",
+			"done": false
+		},
+		{
+			"id": 3,
+			"text": "walk dog",
+			"done": false
+		},
+		{
+			"id": 4,
+			"text": "feed cat",
+			"done": false
+		},
+		{
+			"id": 5,
+			"text": "köp räksmörgåsar",
+			"done": false
+		}
+	]
+}
