@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "..\\src\\App002.svelte",
+    "..\\src\\Button2.svelte",
+    "..\\src\\Button.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\t\n\timport _ from 'lodash'\n\timport Button from './Button.svelte'\n\n\tlet a \n\tlet b \n\tlet hist = []\n\n\tconst operation = (newa) => {\n\t\tif (Math.ceil(newa) != newa) return\n\t\thist.push(a)\n\t\thist = hist\n\t\ta = newa\n\t}\n\n\tconst newGame = () => {\n\t\ta = _.random(1,20)\n\t\tb = _.random(1,20)\n\t\thist = []\n\t}\n\n\tconst undo = () => {\n\t\ta = hist.pop()\n\t\thist = hist \n\t}\n\n\tnewGame()\n\n</script> \n \n<style>\n\th2,div {\n\t\tfont-size: 30px;\n\t\tfont-family: 'Courier New', Courier, monospace;\n\t}\n</style>\n\n<h2>From: {a}</h2>\n<h2>To: {b}</h2>\n<Button title='+2'   click = {() => operation(a+2)} disabled = {a==b} />\n<Button title='*2'   click = {() => operation(a*2)} disabled = {a==b} />\n<Button title='/2'   click = {() => operation(a/2)} disabled = {a==b} />\n<Button title='New'  click = {newGame} disabled = {a!=b} />\n<Button title='Undo' click = {undo}    disabled = {hist.length==0 || a==b} />\n<div>{hist}</div>\n",
+    "<script>\r\n\texport let click\r\n\texport let disabled\r\n\texport let title\r\n</script>\r\n\r\n<style>\r\n\tbutton {\r\n\t\tfont-size: 30px;\r\n\t\tfont-family: 'Courier New', Courier, monospace;\r\n\t}\r\n</style>\r\n\r\n<button on:click={click} disabled={disabled}>{title}</button>",
+    "<script>\r\n\texport let click\r\n\texport let disabled\r\n\texport let title\r\n</script>\r\n\r\n<style>\r\n\tbutton {\r\n\t\tfont-size: 30px;\r\n\t\tfont-family: 'Courier New', Courier, monospace;\r\n\t}\r\n</style>\r\n\r\n<button on:click={click} disabled={disabled}>{title}</button>"
+  ],
+  "names": [],
+  "mappings": "AA+BC,gBAAE,CAAC,GAAG,cAAC,CAAC,AACP,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,aAAa,CAAC,CAAC,OAAO,CAAC,CAAC,SAAS,AAC/C,CAAC;AC3BD,MAAM,cAAC,CAAC,AACP,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,aAAa,CAAC,CAAC,OAAO,CAAC,CAAC,SAAS,AAC/C,CAAC;ACHD,MAAM,cAAC,CAAC,AACP,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,aAAa,CAAC,CAAC,OAAO,CAAC,CAAC,SAAS,AAC/C,CAAC"
+}

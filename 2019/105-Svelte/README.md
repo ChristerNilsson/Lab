@@ -1,6 +1,10 @@
 Using callbacks for data makes dispatch obsolete sometimes
 
-[Try it!](https://christernilsson.github.io/Lab/2019/105-Svelte/public)
+[001](https://christernilsson.github.io/Lab/2019/105-Svelte/public001)
+[002](https://christernilsson.github.io/Lab/2019/105-Svelte/public002)
+[003](https://christernilsson.github.io/Lab/2019/105-Svelte/public003)
+[004](https://christernilsson.github.io/Lab/2019/105-Svelte/public004)
+
 
 ## Start
 
