@@ -1,0 +1,14 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "..\\src\\FindPage.svelte",
+    "..\\src\\EditPage.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\r\n\texport let pattern\r\n\texport let lines \r\n\texport let click\r\n\texport let keyup \r\n\r\n\t$: showLines = lines.split('\\n').filter((line) => line.toLowerCase().includes(pattern))\t\r\n</script> \r\n\r\n<style>\r\n\tul,input,button {\r\n\t\tfont-size: 30px;\r\n\t\tline-height: 1.2;\r\n\t}\r\n</style>\r\n\r\n<button on:click={click}>Edit</button>\r\n<input on:keyup={()=>keyup(pattern)} type=\"text\" placeholder='Search' bind:value={pattern}>\r\n<ul>\r\n\t{#each showLines as line}\r\n\t\t<li>{line}</li>\r\n\t{/each}\r\n</ul>\r\n",
+    "<script>\r\n\texport let lines\r\n\texport let click\r\n</script>\r\n\r\n<style>\r\n\ttextarea,button {\r\n\t\tfont-size: 30px;\r\n\t\tline-height: 1.2;\r\n\t}\r\n</style>\r\n\r\n<button on:click={()=>click(lines)}>Save</button>\r\n<textarea rows=70 bind:value={lines}></textarea>\r\n"
+  ],
+  "names": [],
+  "mappings": "AAUC,iBAAE,CAAC,oBAAK,CAAC,MAAM,eAAC,CAAC,AAChB,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,GAAG,AACjB,CAAC;ACPD,uBAAQ,CAAC,MAAM,eAAC,CAAC,AAChB,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,GAAG,AACjB,CAAC"
+}
