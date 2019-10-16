@@ -3,12 +3,14 @@
   "file": "bundle.css",
   "sources": [
     "..\\src\\EditPage.svelte",
-    "..\\src\\FindPage.svelte"
+    "..\\src\\FindPage.svelte",
+    "..\\src\\Player.svelte"
   ],
   "sourcesContent": [
     "<script>\r\n\texport let lines\r\n\texport let click\r\n</script>\r\n\r\n<style>\r\n\ttextarea,button {\r\n\t\tfont-size: 30px;\r\n\t\tline-height: 1.2;\r\n\t}\r\n</style>\r\n\r\n<button on:click={()=>click(lines)}>Save</button>\r\n<textarea rows=70 bind:value={lines}></textarea>\r\n",
-    "<script>\r\n\texport let pattern\r\n\texport let lines \r\n\texport let click\r\n\texport let keyup \r\n\r\n\t$: showLines = lines.split('\\n').filter((line) => line.toLowerCase().includes(pattern))\t\r\n</script> \r\n\r\n<style>\r\n\tul,input,button {\r\n\t\tfont-size: 30px;\r\n\t\tline-height: 1.2;\r\n\t}\r\n</style>\r\n\r\n<button on:click={click}>Edit</button>\r\n<input on:keyup={()=>keyup(pattern)} type=\"text\" placeholder='Search' bind:value={pattern}>\r\n<ul>\r\n\t{#each showLines as line}\r\n\t\t<li>{line}</li>\r\n\t{/each}\r\n</ul>\r\n"
+    "<script>\r\n\texport let pattern\r\n\texport let lines \r\n\texport let click\r\n\texport let keyup \r\n\r\n\t$: showLines = lines.split('\\n').filter((line) => line.toLowerCase().includes(pattern))\t\r\n</script> \r\n\r\n<style>\r\n\tul,input,button {\r\n\t\tfont-size: 30px;\r\n\t\tline-height: 1.2;\r\n\t}\r\n</style>\r\n\r\n<button on:click={click}>Edit</button>\r\n<input on:keyup={()=>keyup(pattern)} type=\"text\" placeholder='Search' bind:value={pattern}>\r\n<ul>\r\n\t{#each showLines as line}\r\n\t\t<li>{line}</li>\r\n\t{/each}\r\n</ul>\r\n",
+    "<script>\r\n\timport {createEventDispatcher} from 'svelte'\r\n\tconst dispatch = createEventDispatcher()\r\n\r\n\texport let name\r\n\texport let points\r\n\tlet showControls = false\r\n\tconst deletePlayer = () => dispatch('deleteplayer',name)\r\n\r\n</script>\r\n\r\n<style>\r\n\th1 {\r\n\t\tcolor: purple\r\n\t}\r\n</style>\r\n\r\n<div class=\"card\">\r\n\t<h1>\r\n\t\t{name}\r\n\t\t<button class=\"btn btn-sm\" on:click={()=>showControls=!showControls}>\r\n\t\t\t{#if showControls}-{:else}+{/if}\r\n\t\t</button>\r\n\t\t<button on:click={deletePlayer}>x</button>\r\n\t</h1>\r\n\t<h3>Points: {points}</h3>\r\n\t{#if showControls}\r\n\t\t<button class=\"btn\" on:click={()=>points+=1}>+1</button>\r\n\t\t<button class=\"btn\" on:click={()=>points-=1}>-1</button>\r\n\t\t<input type=\"number\" bind:value={points}>\r\n\t{/if}\r\n</div>\r\n"
   ],
   "names": [],
-  "mappings": "AAMC,uBAAQ,CAAC,MAAM,eAAC,CAAC,AAChB,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,GAAG,AACjB,CAAC;ACCD,iBAAE,CAAC,oBAAK,CAAC,MAAM,eAAC,CAAC,AAChB,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,GAAG,AACjB,CAAC"
+  "mappings": "AAMC,uBAAQ,CAAC,MAAM,eAAC,CAAC,AAChB,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,GAAG,AACjB,CAAC;ACCD,iBAAE,CAAC,oBAAK,CAAC,MAAM,eAAC,CAAC,AAChB,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,GAAG,AACjB,CAAC;ACDD,EAAE,eAAC,CAAC,AACH,KAAK,CAAE,MAAM;CACd,CAAC"
 }
