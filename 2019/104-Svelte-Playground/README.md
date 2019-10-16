@@ -16,10 +16,10 @@ This means small and fast. Svelte does not use a Virtual DOM. Instead, it tries,
 * [svelte.dev](https://svelte.dev)
 * [Rich Harris - Rethinking reactivity](https://www.youtube.com/watch?v=AdNJ3fydeao)
 
-* [001 Organizer](https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public001)
-* [002 Shortcut](https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public002)
+* [001 Organizer](        https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public001)
+* [002 Shortcut](         https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public002)
 * [003 Player Scoreboard](https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public003)
-* [004 Guess My Number](https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public004)
+* [004 Guess My Number](  https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public004)
 
 ## .\get 001
 
