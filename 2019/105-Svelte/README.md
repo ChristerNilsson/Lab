@@ -1,9 +1,9 @@
 Using callbacks for data makes dispatch obsolete sometimes
 
-[001](https://christernilsson.github.io/Lab/2019/105-Svelte/public001)
-[002](https://christernilsson.github.io/Lab/2019/105-Svelte/public002)
-[003](https://christernilsson.github.io/Lab/2019/105-Svelte/public003)
-[004](https://christernilsson.github.io/Lab/2019/105-Svelte/public004)
+* [001 Organizer](https://christernilsson.github.io/Lab/2019/105-Svelte/public001)
+* [002 Shortcut](https://christernilsson.github.io/Lab/2019/105-Svelte/public002)
+* [003 Player Scoreboard](https://christernilsson.github.io/Lab/2019/105-Svelte/public003)
+* [004 Guess My Number](https://christernilsson.github.io/Lab/2019/105-Svelte/public004)
 
 
 ## Start
@@ -15,13 +15,6 @@ npm run dev
 npm run build
 
 ## Publish
-
-## Content
-
-* 001 Organizer
-* 002 -free-
-* 003 Player Scoreboard (video)
-* 004 Guess My Number
 
 # Single node_modules
 
