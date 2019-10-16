@@ -1,5 +1,7 @@
 Using callbacks for data makes dispatch obsolete sometimes
 
+[Try it!](https://christernilsson.github.io/Lab/2019/105-Svelte/public)
+
 ## Start
 
 npm run dev
