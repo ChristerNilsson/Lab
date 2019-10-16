@@ -1,11 +1,6 @@
 <script>
-	import {createEventDispatcher} from 'svelte'
-	const dispatch = createEventDispatcher()
-
 	export let lines
-
-	const save = () => dispatch('changepage',lines)
-
+	export let click
 </script>
 
 <style>
@@ -15,5 +10,5 @@
 	}
 </style>
 
-<button on:click={save}>Save</button>
+<button on:click={()=>click(lines)}>Save</button>
 <textarea rows=70 bind:value={lines}></textarea>

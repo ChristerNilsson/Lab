@@ -1,13 +1,10 @@
 <script>
-	import {createEventDispatcher} from 'svelte'
-	const dispatch = createEventDispatcher()
-
 	export let pattern
 	export let lines 
+	export let click
+	export let keyup 
 
 	$: showLines = lines.split('\n').filter((line) => line.toLowerCase().includes(pattern))	
-
-	const edit = () => dispatch('changepage',lines)
 </script> 
 
 <style>
@@ -17,8 +14,8 @@
 	}
 </style>
 
-<button on:click={edit}>Edit</button>
-<input type="text" placeholder='Search' bind:value={pattern}>
+<button on:click={click}>Edit</button>
+<input on:keyup={()=>keyup(pattern)} type="text" placeholder='Search' bind:value={pattern}>
 <ul>
 	{#each showLines as line}
 		<li>{line}</li>
