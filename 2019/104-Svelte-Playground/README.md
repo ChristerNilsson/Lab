@@ -21,6 +21,21 @@ This means small and fast. Svelte does not use a Virtual DOM. Instead, it tries,
 * [003 Player Scoreboard](https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public003)
 * [004 Guess My Number](  https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public004)
 
+## Work like this
+
+* Make sure you are in arkiv mode, otherwise put current sub project.
+* create 099
+* get 099
+* Make public/index.html active in Code.
+* Start Go Live
+* Loop until ready
+	* edit src
+	* ctrl-s
+* Stop server 
+* Stop Go Live
+* put 099
+* commit
+
 ## .\create 099
 
 Makes a new sub project. You must be in arkiv mode
