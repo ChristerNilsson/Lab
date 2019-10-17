@@ -1,4 +1,5 @@
 <script>	
+	document.title = 'Shortcut'
 	import _ from 'lodash'
 	import Button from './Button.svelte'
 
@@ -42,4 +43,4 @@
 <Button title='/2'   click = {() => operation(a/2)} disabled = {a==b} />
 <Button title='New'  click = {newGame} disabled = {a!=b} />
 <Button title='Undo' click = {undo}    disabled = {hist.length==0 || a==b} />
-<div>{hist}</div>
+<div>Hist:{hist}</div>

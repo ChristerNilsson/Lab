@@ -1,4 +1,5 @@
 <script>
+	document.title = 'Guess My Number'
 	import Game from './game.js'
 	let game = new Game(2)
 	const onkeyup = (e) => {
