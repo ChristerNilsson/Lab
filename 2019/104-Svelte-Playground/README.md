@@ -60,9 +60,7 @@ npm run dev
 
 npm run build
 
-## Publish
-
-## Keywords
+## Svelte Keywords
 
 * dispatch - Sends a message, with data, to a component.
 * Implicit state. obj = obj touches
@@ -77,19 +75,3 @@ npm run build
 ## Knowledge Nuggets
 
 Using callbacks for data makes dispatch obsolete sometimes
-
-## Single node_modules
-
-Shrinks disk space from 20 Mb to 0.1 Mb per project.
-
-Solving this by using several App.svelte
-* src/App2.svelte
-* Make a small change in main.js
-  * import App from './App2.svelte'
-  * They share the same bundle.js
-  * To publish, copy the public directory
-
-Common files
-* main.js
-* index.html
-* global.css

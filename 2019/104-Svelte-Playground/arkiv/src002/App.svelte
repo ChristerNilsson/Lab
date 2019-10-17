@@ -29,17 +29,17 @@
 </script> 
  
 <style>
-	h2,div {
+	div,h1 {
 		font-size: 30px;
-		font-family: 'Courier New', Courier, monospace;
+		text-align: center;
 	}
 </style>
 
-<h2>From: {a}</h2>
-<h2>To: {b}</h2>
-<Button title='+2'   click = {() => operation(a+2)} disabled = {a==b} />
-<Button title='*2'   click = {() => operation(a*2)} disabled = {a==b} />
-<Button title='/2'   click = {() => operation(a/2)} disabled = {a==b} />
-<Button title='New'  click = {newGame} disabled = {a!=b} />
-<Button title='Undo' click = {undo}    disabled = {hist.length==0 || a==b} />
-<div>Hist:{hist}</div>
+<h1 class='col2' style='font-size: 60px; color:red;'>{a}</h1>
+<h1 class='col2' style='font-size: 60px; color:green;'>{b}</h1>
+<Button klass='col3' title='+2'   click = {() => operation(a+2)} disabled = {a==b} />
+<Button klass='col3' title='*2'   click = {() => operation(a*2)} disabled = {a==b} />
+<Button klass='col3' title='/2'   click = {() => operation(a/2)} disabled = {a==b} />
+<Button klass='col2' title='New'  click = {newGame} disabled = {a!=b} />
+<Button klass='col2' title='Undo' click = {undo}    disabled = {hist.length==0} />  <!--|| a==b -->
+<div>{hist.join(' ')}</div>

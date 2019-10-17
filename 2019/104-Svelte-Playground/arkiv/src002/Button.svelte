@@ -2,13 +2,15 @@
 	export let click
 	export let disabled
 	export let title
+	export let klass
+	if (window.innerWidth < 600) klass='col1'
 </script>
 
 <style>
 	button {
 		font-size: 30px;
-		font-family: 'Courier New', Courier, monospace;
+		/* float: left; */
 	}
 </style>
 
-<button on:click={click} disabled={disabled}>{title}</button>
+<button class={klass} on:click={click} disabled={disabled}>{title}</button>
