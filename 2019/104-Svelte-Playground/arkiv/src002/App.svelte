@@ -1,7 +1,7 @@
 <script>	
-	import _ from 'lodash'
+	import random from 'lodash/random'
 	import Button from './Button.svelte'
-
+ 
 	let a 
 	let b 
 	let hist = []
@@ -14,8 +14,8 @@
 	}
 
 	const newGame = () => {
-		a = _.random(1,20)
-		b = _.random(1,20)
+		a = random(1,20)
+		b = random(1,20)
 		hist = []
 	}
 
