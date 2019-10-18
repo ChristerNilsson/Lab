@@ -25,7 +25,11 @@ This means small and fast. Svelte does not use a Virtual DOM. Instead, like Exce
 * [002 Shortcut](          https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public002)
 * [003 Player Scoreboard]( https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public003)
 * [004 Guess My Number](   https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public004)
-* [005 RPN Calculator](    https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public005)
+* [005 RPN Calculator](    https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public005) 
+
+* 005
+RPN in [React](https://github.com/t-eckert/react-rpn): 525 loc 
+RPN in [React](https://github.com/slinke/react-rpn-calculator) Fourbanger
 
 ## Work like this
 
@@ -90,3 +94,7 @@ Increases the size of bundle.js
 * body {margin: 0 0}
 * lodash/random increased the size of bundle.js with 600 lines.
 * styles.js (emotion) increases bundle.js from 6kb to 21kb
+
+## Bootstrap
+
+* @import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css);

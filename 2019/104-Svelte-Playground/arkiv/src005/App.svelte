@@ -1,7 +1,7 @@
 <script>
 	document.title = 'RPN Calculator'
 
-let stack = []
+	let stack = []
 	let history = []
 	let commands = ''
 
@@ -13,27 +13,33 @@ let stack = []
 	par0['pi']   = () => stack.push(Math.PI)
 	par0['e']    = () => stack.push(Math.E)
 	par0['swap'] = () => stack.push(stack.pop(), stack.pop() )
-	par0['clr'] = () => stack = []
+	par0['clr']  = () => stack = []
 	
-	par1['abs']  = (x) => Math.abs(x)
-	par1['x^2']  = (x) => x * x
-	par1['10^x'] = (x) => 10 ** x
-	par1['log']  = (x) => Math.log10(x)
-	par1['exp']  = (x) => Math.exp(x)
-	par1['ln']   = (x) => Math.log(x)
-	par1['sqrt'] = (x) => Math.sqrt(x)
-	par1['chs']  = (x) => -x
-	par1['1/x']  = (x) => 1/x
-	par1['sin']  = (x) => Math.sin(x / 180 * Math.PI)
+	par1['x^2']  = x => x * x
+	par1['sqrt'] = x => Math.sqrt(x)
+	par1['chs']  = x => -x
+	par1['1/x']  = x => 1/x
+	par1['abs']  = x => Math.abs(x)
+	par1['10^x'] = x => 10 ** x
+	par1['log']  = x => Math.log10(x)
+	par1['exp']  = x => Math.exp(x)
+	par1['ln']   = x => Math.log(x)
+	par1['sin']  = x => Math.sin(x / 180 * Math.PI)
+	par1['cos']  = x => Math.cos(x / 180 * Math.PI)
+	par1['tan']  = x => Math.tan(x / 180 * Math.PI)
+	par1['asin'] = x => Math.asin(x) * 180 / Math.PI
+	par1['acos'] = x => Math.acos(x) * 180 / Math.PI 
+	par1['atan'] = x => Math.atan(x) * 180  / Math.PI
 
 	par2['+']    = (x,y) => y + x
 	par2['*']    = (x,y) => y * x
 	par2['-']    = (x,y) => y - x
 	par2['/']    = (x,y) => y / x
 	par2['y^x']  = (x,y) => y ** x
-	par2['pyth'] = (x,y) => Math.sqrt(x * x + y * y)
+	par2['atan2']= (x,y) => Math.atan2(y,x) * 180 / Math.PI
+	par2['hypot']= (x,y) => Math.sqrt(x * x + y * y)
 	par2['s']    = (x,y) => y + x
-	par2['p']    = (x,y) => x*y/(x+y)
+	par2['p']    = (x,y) => x*y/(x+y)  // parallel resistors
 
 	const calc = (cmd) => {
 		if (cmd in par0) par0[cmd]()
