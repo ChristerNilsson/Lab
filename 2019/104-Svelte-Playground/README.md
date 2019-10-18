@@ -69,6 +69,7 @@ npm run build
 
 This file contains css code to be shared between components, while storing in a common file.
 This file can't be a .css file.
+Increases the size of bundle.js
 
 ## Svelte Keywords
 
@@ -86,3 +87,5 @@ This file can't be a .css file.
 
 * Using callbacks for data makes dispatch obsolete sometimes
 * body {margin: 0 0}
+* lodash/random increased the size of bundle.js with 600 lines.
+* styles.js (emotion) increases bundle.js from 6kb to 21kb

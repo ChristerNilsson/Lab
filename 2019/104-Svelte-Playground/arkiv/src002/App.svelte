@@ -1,26 +1,27 @@
 <script>	
 	import { col1,col2,col3 } from '../styles.js'
-	import random from 'lodash/random'
 	import Button from './Button.svelte'
-	
-	let a
-	let b
+
+	let a = null
+	let b = null
 	let hist = []
 
-	const operation = (newa) => {
+	function operation (newa) {
 		if (Math.ceil(newa) != newa) return
 		hist.push(a)
 		hist = hist
 		a = newa
 	}
 
-	const newGame = () => {
+	const random = (a,b) => a+Math.floor((b-a+1)*Math.random())
+
+	function newGame () {
 		a = random(1,20)
 		b = random(1,20)
 		hist = []
 	}
 
-	const undo = () => {
+	function undo () {
 		a = hist.pop()
 		hist = hist 
 	}
