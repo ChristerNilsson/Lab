@@ -21,16 +21,17 @@ This means small and fast. Svelte does not use a Virtual DOM. Instead, like Exce
 
 ## Sub Projects
 
-* [001 Organizer](        https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public001)
-* [002 Shortcut](         https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public002)
-* [003 Player Scoreboard](https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public003)
-* [004 Guess My Number](  https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public004)
+* [001 Organizer](         https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public001)
+* [002 Shortcut](          https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public002)
+* [003 Player Scoreboard]( https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public003)
+* [004 Guess My Number](   https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public004)
+* [005 RPN Calculator](    https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public005)
 
 ## Work like this
 
 * Make sure you are in arkiv mode, otherwise put current sub project.
-* create 099
-* get 099
+* .\create 099
+* .\get 099
 * Make public/index.html active in Code.
 * Start Go Live
 * Loop until ready
@@ -38,7 +39,7 @@ This means small and fast. Svelte does not use a Virtual DOM. Instead, like Exce
 	* ctrl-s
 * Stop server 
 * Stop Go Live
-* put 099
+* .\put 099
 * commit
 
 ## .\create 099
