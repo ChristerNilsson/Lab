@@ -1,20 +1,25 @@
 # Svelte
 
 Svelte is a modern alternative to React. It is a compiler, not a framework.
-This means small and fast. Svelte does not use a Virtual DOM. Instead, it tries, like Excel, to find out the dependencies between variables and GUI.
+This means small and fast. Svelte does not use a Virtual DOM. Instead, like Excel, it finds out the dependencies between variables and GUI components.
 
-# Pros
+## Pros
 
 * Small
 * Fast
 * Few slocs
 
-# Cons
+## Cons
 
-* Small user base. 2019 about 1/1000 of React.
+* Small user base. 
+  * 2019-10-17: 24775/5878791 = 0.4% of React
+
+## Links
 
 * [svelte.dev](https://svelte.dev)
 * [Rich Harris - Rethinking reactivity](https://www.youtube.com/watch?v=AdNJ3fydeao)
+
+## Sub Projects
 
 * [001 Organizer](        https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public001)
 * [002 Shortcut](         https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public002)
@@ -60,6 +65,11 @@ npm run dev
 
 npm run build
 
+## styles.js
+
+This file contains css code to be shared between components, while storing in a common file.
+This file can't be a .css file.
+
 ## Svelte Keywords
 
 * dispatch - Sends a message, with data, to a component.
@@ -74,4 +84,5 @@ npm run build
 
 ## Knowledge Nuggets
 
-Using callbacks for data makes dispatch obsolete sometimes
+* Using callbacks for data makes dispatch obsolete sometimes
+* body {margin: 0 0}

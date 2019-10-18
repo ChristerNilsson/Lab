@@ -1,9 +1,10 @@
 <script>	
+	import { col1,col2,col3 } from '../styles.js'
 	import random from 'lodash/random'
 	import Button from './Button.svelte'
- 
-	let a 
-	let b 
+	
+	let a
+	let b
 	let hist = []
 
 	const operation = (newa) => {
@@ -35,11 +36,11 @@
 	}
 </style>
 
-<h1 class='col2' style='font-size: 60px; color:red;'>{a}</h1>
-<h1 class='col2' style='font-size: 60px; color:green;'>{b}</h1>
-<Button klass='col3' title='+2'   click = {() => operation(a+2)} disabled = {a==b} />
-<Button klass='col3' title='*2'   click = {() => operation(a*2)} disabled = {a==b} />
-<Button klass='col3' title='/2'   click = {() => operation(a/2)} disabled = {a==b} />
-<Button klass='col2' title='New'  click = {newGame} disabled = {a!=b} />
-<Button klass='col2' title='Undo' click = {undo}    disabled = {hist.length==0} />  <!--|| a==b -->
+<h1 class={col2} style='font-size: 60px; color:red;'>{a}</h1>
+<h1 class={col2} style='font-size: 60px; color:green;'>{b}</h1>
+<Button klass={col3} title='+2'   click = {() => operation(a+2)} disabled = {a==b} />
+<Button klass={col3} title='*2'   click = {() => operation(a*2)} disabled = {a==b} />
+<Button klass={col3} title='/2'   click = {() => operation(a/2)} disabled = {a==b} />
+<Button klass={col2} title='New'  click = {newGame} disabled = {a!=b} />
+<Button klass={col2} title='Undo' click = {undo}    disabled = {hist.length==0} />  <!--|| a==b -->
 <div>{hist.join(' ')}</div>

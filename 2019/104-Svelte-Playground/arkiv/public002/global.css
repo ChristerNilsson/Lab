@@ -1,20 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-/* Global Styles */
-
-.col1 { float: left; width: 100%;}
-.col2 { float: left; width: 50%;}
-.col3 { float: left; width: 33.333333%;}
-
-/* Clear floats after the columns */
-/* .row:after {
-  content: "";
-  display: table;
-  clear: both;
-} */
-
-/*  */
-
 :root {
   --primary-color: #204f6e;
   --dark-color: #333333;

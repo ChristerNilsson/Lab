@@ -32,6 +32,6 @@ class Game {
 
 };
 
-export default Game 
+//export default Game 
 
-//module.exports = Game;
+module.exports = Game;
