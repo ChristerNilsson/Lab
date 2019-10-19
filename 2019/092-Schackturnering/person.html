@@ -1,0 +1,157 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta charset="utf-8" />
+	<meta name="robots" content="nofollow">
+	<meta name="googlebot" content="noindex">
+	<link href="resources/memdb.css?time=1568664784967" rel="stylesheet" type="text/css">
+	<script type='text/javascript' charset='UTF-8' src="resources/jquery.js"></script>
+	<script type='text/javascript' charset='UTF-8' src="resources/memdb.js?time=1568664784967"></script>
+	<link href="resources/jquery-ui.min.css" rel="stylesheet" type="text/css">
+	<script type='text/javascript' src='resources/sorttable.js'></script>
+
+<body class="showpage" onLoad="setTimeout('location.reload(true);',300000);">
+	<div id="content">
+		<center>
+			<form name="viewplayerdiagramform" id="viewplayerdiagramform" action="./ViewPlayerRatingDiagram" method="post">
+				<input name="memberid" type="hidden" value='585742'><input name="sortorder" type="hidden" value='lastname'>
+				<input name="listingtype" type="hidden" value="1">
+			</form>
+			<table class="listtable" cellpadding="0" cellspacing="0">
+				<tr>
+					<td style="vertical-align: top;position:relative;">
+						<h4 class="header">Turneringsresultat för Felix Olofsson<h4 class="header">
+					</td>
+					<table class="menuclass" cellpadding="0" cellspacing="0">
+						<tr>
+							<td style="vertical-align: top;position:relative;">
+								<table class="menuclass" cellpadding="0" cellspacing="0">
+									<tr>
+										<td style="vertical-align: top;position:relative;"><img src=getPlayerPhoto?id=585742 width=400
+												height=400></td>
+										<td style="vertical-align: top;position:relative;" class="emptycellstyle"></td>
+									</tr>
+								</table>
+							</td>
+							<td style="vertical-align: top;position:relative;">
+								<table class="menuclass" cellpadding="0" cellspacing="0">
+									<tr>
+										<td style="vertical-align: top;position:relative;">SSF id</td>
+										<td style="vertical-align: top;position:relative;">&nbsp;&nbsp;&nbsp;
+										<td style="vertical-align: top;position:relative;" class="listtext"><span><a
+													href='./ViewPlayerRatingDiagram?memberid=585742'>585742</a></span></td>
+							</td>
+						</tr>
+						<tr>
+							<td style="vertical-align: top;position:relative;">Huvudklubb</td>
+							<td style="vertical-align: top;position:relative;">&nbsp;&nbsp;&nbsp;</td>
+							<td style="vertical-align: top;position:relative;" class="listtext"><span><a
+										href='./ShowClubRatingServlet?clubid=38464'>SK Rockaden, Sthlm</a></span></td>
+						</tr>
+						<tr>
+							<td style="vertical-align: top;position:relative;">Födelseår</td>
+							<td style="vertical-align: top;position:relative;"></td>
+							<td style="vertical-align: top;position:relative;">2011</td>
+						</tr>
+					</table>
+					</td>
+				</tr>
+			</table>
+			<div id="placeholder"
+				style="width: 750px; height: 400px; position: static; background-image: url(resources/SSFlogo_light.png); background-repeat: no-repeat; background-position: center center;">
+			</div><input id="enableTooltip" type="hidden" value="true" /><input id="lasks" type="hidden" value=" []" /><input
+				id="elos" type="hidden" value=" []" /><input id="rapidelos" type="hidden" value=" []" /><input id="blitzelos"
+				type="hidden" value=" []" /><br>
+			<script type='text/javascript' src='resources/sorttable.js'></script>
+			<link href="resources/ratinglayout.css" rel="stylesheet" type="text/css">
+			</link>
+			<script language="javascript" type="text/javascript" src="resources/jquery.js"></script>
+			<script language="javascript" type="text/javascript" src="resources/jquery.flot.js"></script>
+			<script language="javascript" type="text/javascript" src="resources/jquery.flot.time.js"></script>
+			<!--[if IE]><script language="javascript" type="text/javascript" src="resources/excanvas.min.js"></script><![endif]-->
+			<script
+				id="source">$(function () { var lasks = []; var elos = []; var rapidelos = []; var blitzelos = []; $.plot($("#placeholder"), [{ data: lasks, label: "LASK" }, { data: elos, label: "ELO" }, { data: rapidelos, label: "Snabb-ELO" }, { data: blitzelos, label: "Blixt-ELO" }], { series: { lines: { show: true }, points: { show: true } }, xaxis: { mode: "time" }, grid: { hoverable: true, clickable: false }, legend: { position: "nw" } }); function showTooltip(x, y, contents) { $('<div id="tooltip">' + contents + '</div>').css({ position: 'absolute', display: 'none', top: y + 5, left: x + 5, border: '1px solid #fdd', padding: '2px', 'background-color': '#fee', opacity: 0.80 }).appendTo("body").fadeIn(200); } var previousPoint = null; $("#placeholder").bind("plothover", function (event, pos, item) { $("#x").text(pos.x.toFixed(2)); $("#y").text(pos.y.toFixed(2)); if (item) { if (previousPoint != item.datapoint) { previousPoint = item.datapoint; $("#tooltip").remove(); var x = item.datapoint[0].toFixed(0), y = item.datapoint[1].toFixed(0); var nd = new Date(); nd.setTime(x); var monthPrint = nd.getMonth() + 1; if (monthPrint < 10) monthPrint = "0" + monthPrint; var dayPrint = nd.getDate(); if (dayPrint < 10) dayPrint = "0" + dayPrint; var yearPrint = nd.getYear(); if (yearPrint < 1900) yearPrint = (1900 + yearPrint); showTooltip(item.pageX - 75, item.pageY, yearPrint + "-" + monthPrint + "-" + dayPrint + " " + item.series.label + " " + y); } } else { $("#tooltip").remove(); previousPoint = null; } }) });</script>
+			<table class="listtable" cellpadding="0" cellspacing="0">
+				<tr>
+					<td style="vertical-align: top;position:relative;"><button name="postviewplayerdiagram5857421"
+							onclick="postviewplayerdiagram('585742','1')" type="button" class="selbigbtn ui-corner-all "
+							value='Individuella turnerneringsresultat<br> '>Individuella turnerneringsresultat<br> </button></td>
+					<td style="vertical-align: top;position:relative;"><button name="postviewplayerdiagram5857422"
+							onclick="postviewplayerdiagram('585742','2')" type="button" class="bigbutton ui-corner-all "
+							value='Lagturneringsresultat<br> '>Lagturneringsresultat<br> </button></td>
+					<td style="vertical-align: top;position:relative;"><button name="postviewplayerdiagram5857423"
+							onclick="postviewplayerdiagram('585742','3')" type="button" class="bigbutton ui-corner-all "
+							value='Visa motståndare<br>'>Visa motståndare<br></button></td>
+				</tr>
+			</table>
+			<table class="listtable" cellpadding="0" cellspacing="0">
+				<tr class="memberrow_neutral" onmouseover="this.className='marked'"
+					onmouseout="this.className='memberrow_neutral'">
+					<td style="vertical-align: top;position:relative;"
+						onclick="document.location.href='./ShowTournamentServlet?id=7470'" class="listtext" colspan="1"><span>Anmäld
+							till KSK:s JGP 2019 kl D 2010-och senare</span></td>
+				</tr>
+			</table>
+			</table>
+		</center>
+		<tr>
+			<td style="vertical-align: top;position:relative;">
+				<center>&nbsp;
+				</center>
+			</td>
+		</tr>
+		<tr>
+			<td style="vertical-align: top;position:relative;">
+				<center>&nbsp;
+				</center>
+			</td>
+		</tr>
+		<tr>
+			<td style="vertical-align: top;position:relative;">
+				<center>&nbsp;
+				</center>
+			</td>
+		</tr>
+		<tr>
+			<td style="vertical-align: top;position:relative;">
+				<center>&nbsp;
+				</center>
+			</td>
+		</tr>
+		<tr>
+			<td style="vertical-align: top;position:relative;">
+				<center>&nbsp;
+				</center>
+			</td>
+		</tr>
+		<tr>
+			<td style="vertical-align: top;position:relative;">
+				<center>&nbsp;
+				</center>
+			</td>
+		</tr>
+		<tr>
+			<td style="vertical-align: top;position:relative;">
+				<center>&nbsp;
+				</center>
+			</td>
+		</tr>
+		<tr>
+			<td style="vertical-align: top;position:relative;">
+				<center>&nbsp;
+				</center>
+			</td>
+		</tr>
+		<tr>
+			<td style="vertical-align: top;position:relative;">
+				<center>&nbsp;
+				</center>
+			</td>
+		</tr>
+		</center>
+	</div>
+</body>
+
+</html>
