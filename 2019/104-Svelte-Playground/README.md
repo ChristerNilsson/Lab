@@ -97,4 +97,5 @@ Increases the size of bundle.js
 
 ## Bootstrap
 
-* @import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css);
+* @import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css)
+* [HackerThemes Cheat Sheet](https://hackerthemes.com/bootstrap-cheatsheet/)
