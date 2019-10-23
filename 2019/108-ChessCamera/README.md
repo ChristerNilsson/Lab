@@ -1,1 +1,10 @@
-Denna ansetts överges temporärt för att undersöka om StockFish kan användas istället.
+StockFish bÃ¶r anvÃ¤ndas istÃ¤llet.
+1) Skapa alla mÃ¶jliga drag.
+2) Skapa analys som ger feedback till spelarna.
+
+VÃ¤nta inte pÃ¥ Google Photos. Skicka videon som mail istÃ¤llet.
+
+Android ASUS skapar filer som tar cirka 17 MB per minut.
+
+Google Photos krymper mp4 till ca 2.5MB per minut. (640x360)
+
