@@ -1,31 +1,18 @@
-<!-- <style>
+<style>
 	* {box-sizing: border-box}
+</style>
 
-	.alignleft {
-		float: left;
-	}
-
-	.alignright {
-		float: right;
-	}	
-
-	p {
-		 opacity: 0.6;
-		 filter: alpha(opacity=60);
-	}
-
-</style> -->
-
-<!-- <script>
+<script>
 	export let title
 	export let value
 	export let bg
-</script> -->
+</script>
 
-<!-- <div style="width:100%;"> 
-	<div style="width:{value}%; background-color:#{bg};">
-		<!-- <p class="alignleft">{title}</p>
-		<p class="alignright">{value}%</p> -->
-		<!-- x
-	</div>
-</div> -->
+<tr style="width:110%">
+	<td style="width:10%">{title}</td>
+	<td style="width:100%; background-color:#f0f0f0;">
+		<div style="width:{value}%; background-color:#{bg};text-align:right; color:white">
+			{value}%
+		</div>
+	</td>
+</tr>
