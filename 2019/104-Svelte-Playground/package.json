@@ -15,6 +15,7 @@
     "svelte-preprocess": "^3.1.2"
   },
   "dependencies": {
+    "d3-scale": "^3.2.0",
     "emotion": "^10.0.17",
     "lodash": "^4.17.15",
     "pug": "^2.0.4",

@@ -3,8 +3,8 @@
 	import Projects from './projects.svelte'
 	import Educations from './educations.svelte'
 	import Experiences from './experiences.svelte'
-	import Skills from './skills.svelte'
 	import Feedback from './feedback.svelte'
+	import BarChart from './barchart.svelte'
 	let page = 0
 </script> 
 
@@ -19,5 +19,5 @@
 {#if page==1}<Projects/>{/if}
 {#if page==2}<Educations/>{/if}
 {#if page==3}<Experiences/>{/if}
-{#if page==4}<Skills/>{/if}
+{#if page==4}<BarChart/>{/if}
 {#if page==5}<Feedback/>{/if}

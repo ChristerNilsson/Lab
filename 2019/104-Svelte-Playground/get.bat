@@ -1,8 +1,8 @@
 @echo off
 rem .\get 001
 
-move arkiv\src%1\*.* src > nul
-move arkiv\public%1\*.* public > nul
+move arkiv\%1\src\*.* src > nul
+move arkiv\%1\public\*.* public > nul
 
 ren arkiv arkiv%1 > nul
 

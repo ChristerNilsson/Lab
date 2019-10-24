@@ -21,11 +21,13 @@ This means small and fast. Svelte does not use a Virtual DOM. Instead, like Exce
 
 ## Sub Projects
 
-* [001 Organizer](         https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public001)
-* [002 Shortcut](          https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public002)
-* [003 Player Scoreboard]( https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public003)
-* [004 Guess My Number](   https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public004)
-* [005 RPN Calculator](    https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/public005) 
+* [001 Organizer](         https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/001/public)
+* [002 Shortcut](          https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/002/public)
+* [003 Player Scoreboard]( https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/003/public)
+* [004 Guess My Number](   https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/004/public)
+* [005 RPN Calculator](    https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/005/public) 
+* [008 Bootstrap](    https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/008/public) 
+
 
 * 005
 RPN in [React](https://github.com/t-eckert/react-rpn): 525 loc 
