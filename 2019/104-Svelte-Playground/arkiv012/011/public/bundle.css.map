@@ -1,0 +1,14 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "..\\src\\TodoList.svelte",
+    "..\\src\\Todo.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\r\n\timport Todo from './Todo.svelte'\r\n \r\n\tlet lastId = 0\r\n \r\n\tconst createTodo = (text, done = false) => ({id: ++lastId, text, done})\r\n \r\n\tlet todoText = ''\r\n \r\n\tlet todos = [\r\n\t\tcreateTodo('learn Svelte', true),\r\n\t\tcreateTodo('build a Svelte app')\r\n\t]\r\n\r\n\tfunction addTodo() {\r\n\t\ttodos = todos.concat(createTodo(todoText))\r\n\t\ttodoText = '' \r\n\t}\r\n\r\n\tconst archiveCompleted = () => todos = todos.filter(t => !t.done)\r\n\tconst deleteTodo = id => todos = todos.filter(t => t.id !== id)\r\n\tconst toggleDone = id => todos = todos.map(t => (t.id === id ? {...t, done: !t.done} : t))\r\n\r\n</script>\r\n\r\n<style>\r\n\tbutton {\r\n\t\tmargin-left: 10px;\r\n\t}\r\n \r\n\t/* This removes the bullets from a bulleted list. */\r\n\tul.unstyled {\r\n\t\tlist-style: none;\r\n\t\tmargin-left: 0;\r\n\t\tpadding-left: 0;\r\n\t}\r\n</style>\r\n \r\n<div>\r\n\t<h2>To Do List</h2>\r\n\t<div>\r\n\t\tstatus = {todos.filter(t => !t.done).length} of {todos.length} remaining\r\n\t\t<button on:click={archiveCompleted}>Archive Completed</button>\r\n\t</div>\r\n\t<br />\r\n\t<form on:submit|preventDefault>\r\n\t\t<input\r\n\t\t\ttype=\"text\"\r\n\t\t\tsize=\"30\"\r\n\t\t\tautofocus\r\n\t\t\tplaceholder=\"enter new todo here\"\r\n\t\t\tbind:value={todoText}\r\n\t\t/>\r\n\t\t<button disabled={!todoText} on:click={addTodo}>\r\n\t\t\tAdd\r\n\t\t</button>\r\n\t</form>\r\n\r\n\t<ul class=\"unstyled\">\r\n\t\t{#each todos as todo}\r\n\t\t\t<Todo\r\n\t\t\t\ttext = {todo.text}\r\n\t\t\t\tdone = {todo.done}\r\n\t\t\t\ton:toggleDone={() => toggleDone(todo.id)}\r\n\t\t\t\ton:delete={() => deleteTodo(todo.id)}\r\n\t\t\t/>\r\n\t\t{/each}\r\n\t</ul>\r\n</div>",
+    "<script>\r\n\timport {createEventDispatcher} from 'svelte'\r\n\tconst dispatch = createEventDispatcher()\r\n\texport let text\r\n\texport let done\r\n</script>\r\n \r\n<style>\r\n\t.done-true {\r\n\t\tcolor: gray;\r\n\t\ttext-decoration: line-through;\r\n\t}\r\n\tli {\r\n\t\tmargin-top: 5px;\r\n\t}\r\n</style>\r\n \r\n<li>\r\n\t<input\r\n\t\ttype=\"checkbox\"\r\n\t\tchecked={done}\r\n\t\ton:change={() => dispatch('toggleDone')}\r\n\t/>\r\n\t<span class={'done-' + done}>{text}</span>\r\n\t<button on:click={() => dispatch('delete')}>Delete</button>\r\n</li>"
+  ],
+  "names": [],
+  "mappings": "AA0BC,MAAM,cAAC,CAAC,AACP,WAAW,CAAE,IAAI,AAClB,CAAC,AAGD,EAAE,SAAS,cAAC,CAAC,AACZ,UAAU,CAAE,IAAI,CAChB,WAAW,CAAE,CAAC,CACd,YAAY,CAAE,CAAC,AAChB,CAAC;AC3BD,UAAU,eAAC,CAAC,AACX,KAAK,CAAE,IAAI,CACX,eAAe,CAAE,YAAY,AAC9B,CAAC,AACD,EAAE,eAAC,CAAC,AACH,UAAU,CAAE,GAAG,AAChB,CAAC"
+}

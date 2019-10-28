@@ -15,11 +15,13 @@
     "svelte-preprocess": "^3.1.2"
   },
   "dependencies": {
+    "@datorama/akita": "^4.10.9",
     "d3-scale": "^3.2.0",
     "emotion": "^10.0.17",
     "lodash": "^4.17.15",
     "pug": "^2.0.4",
-    "sirv-cli": "^0.4.4"
+    "sirv-cli": "^0.4.4",
+    "svelte-routing": "^1.4.0"
   },
   "scripts": {
     "build": "rollup -c",

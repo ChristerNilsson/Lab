@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "..\\src\\Player.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\r\n\timport {createEventDispatcher} from 'svelte'\r\n\tconst dispatch = createEventDispatcher()\r\n\r\n\texport let name\r\n\texport let points\r\n\tlet showControls = false\r\n\tconst deletePlayer = () => dispatch('deleteplayer',name)\r\n\r\n</script>\r\n\r\n<style>\r\n\th1 {\r\n\t\tcolor: purple\r\n\t}\r\n</style>\r\n\r\n<div class=\"card\">\r\n\t<h1>\r\n\t\t{name}\r\n\t\t<button class=\"btn btn-sm\" on:click={()=>showControls=!showControls}>\r\n\t\t\t{#if showControls}-{:else}+{/if}\r\n\t\t</button>\r\n\t\t<button on:click={deletePlayer}>x</button>\r\n\t</h1>\r\n\t<h3>Points: {points}</h3>\r\n\t{#if showControls}\r\n\t\t<button class=\"btn\" on:click={()=>points+=1}>+1</button>\r\n\t\t<button class=\"btn\" on:click={()=>points-=1}>-1</button>\r\n\t\t<input type=\"number\" bind:value={points}>\r\n\t{/if}\r\n</div>\r\n"
+  ],
+  "names": [],
+  "mappings": "AAYC,EAAE,eAAC,CAAC,AACH,KAAK,CAAE,MAAM;CACd,CAAC"
+}

@@ -27,11 +27,18 @@ This means small and fast. Svelte does not use a Virtual DOM. Instead, like Exce
 * [004 Guess My Number](   https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/004/public)
 * [005 RPN Calculator](    https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/005/public) 
 * [008 Bootstrap](    https://christernilsson.github.io/Lab/2019/104-Svelte-Playground/arkiv/008/public) 
+* 009 p5
+* 012 Shortcut with "redux" type timeline
 
 
 * 005
 RPN in [React](https://github.com/t-eckert/react-rpn): 525 loc 
 RPN in [React](https://github.com/slinke/react-rpn-calculator) Fourbanger
+
+* 010 akita
+  * * npm install @datorama/akita
+
+
 
 ## Work like this
 
@@ -47,6 +54,7 @@ RPN in [React](https://github.com/slinke/react-rpn-calculator) Fourbanger
 * Stop Go Live
 * .\put 099
 * commit
+
 
 ## .\create 099
 
