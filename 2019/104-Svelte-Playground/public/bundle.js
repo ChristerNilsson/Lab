@@ -543,20 +543,20 @@ var app = (function () {
     const file$1 = "src\\State.svelte";
 
     function create_fragment$1(ctx) {
-    	var button, t0_value = ctx.state.type + "", t0, t1, t2_value = ctx.state.state.a + "", t2, t3, t4_value = ctx.state.state.b + "", t4, t5, t6_value = ctx.state.state.hist + "", t6, dispose;
+    	var button, t0_value = ctx.state.action + "", t0, t1, t2_value = ctx.state.a + "", t2, t3, t4_value = ctx.state.b + "", t4, t5, t6_value = ctx.state.hist + "", t6, dispose;
 
     	const block = {
     		c: function create() {
     			button = element("button");
     			t0 = text(t0_value);
-    			t1 = space();
+    			t1 = text(" a:");
     			t2 = text(t2_value);
     			t3 = text(" b:");
     			t4 = text(t4_value);
     			t5 = text(" hist:");
     			t6 = text(t6_value);
     			attr_dev(button, "class", "col1");
-    			add_location(button, file$1, 13, 0, 270);
+    			add_location(button, file$1, 13, 0, 262);
     			dispose = listen_dev(button, "click", ctx.fixState);
     		},
 
@@ -576,19 +576,19 @@ var app = (function () {
     		},
 
     		p: function update(changed, ctx) {
-    			if ((changed.state) && t0_value !== (t0_value = ctx.state.type + "")) {
+    			if ((changed.state) && t0_value !== (t0_value = ctx.state.action + "")) {
     				set_data_dev(t0, t0_value);
     			}
 
-    			if ((changed.state) && t2_value !== (t2_value = ctx.state.state.a + "")) {
+    			if ((changed.state) && t2_value !== (t2_value = ctx.state.a + "")) {
     				set_data_dev(t2, t2_value);
     			}
 
-    			if ((changed.state) && t4_value !== (t4_value = ctx.state.state.b + "")) {
+    			if ((changed.state) && t4_value !== (t4_value = ctx.state.b + "")) {
     				set_data_dev(t4, t4_value);
     			}
 
-    			if ((changed.state) && t6_value !== (t6_value = ctx.state.state.hist + "")) {
+    			if ((changed.state) && t6_value !== (t6_value = ctx.state.hist + "")) {
     				set_data_dev(t6, t6_value);
     			}
     		},
@@ -613,7 +613,7 @@ var app = (function () {
     	const dispatch = createEventDispatcher();
     	let { state } = $$props;
     	const fixState = () => {
-    		dispatch('fixstate',{state:state});
+    		dispatch('fixstate',state);
     	};
 
     	const writable_props = ['state'];
@@ -944,11 +944,11 @@ var app = (function () {
     			attr_dev(h10, "class", "" + col2 + " svelte-1of37l2");
     			set_style(h10, "font-size", "60px");
     			set_style(h10, "color", "red");
-    			add_location(h10, file$3, 64, 0, 1052);
+    			add_location(h10, file$3, 73, 0, 1196);
     			attr_dev(h11, "class", "" + col2 + " svelte-1of37l2");
     			set_style(h11, "font-size", "60px");
     			set_style(h11, "color", "green");
-    			add_location(h11, file$3, 65, 0, 1114);
+    			add_location(h11, file$3, 74, 0, 1258);
     		},
 
     		l: function claim(nodes) {
@@ -1099,55 +1099,64 @@ var app = (function () {
     	let b = null;
     	let hist = [];
     	const states = [];
-    	const action = (type) => {
-    		if (type == ADD) {
+
+    	const op = (action) => {
+    		if (states.length > 0) {
+    			let state = states[states.length-1];
+    			$$invalidate('a', a = state.a);
+    			$$invalidate('b', b = state.b);
+    			$$invalidate('hist', hist = state.hist.slice());
+
+    		}
+    		if (action == ADD) {
     			hist.push(a);
     			$$invalidate('hist', hist);
     			$$invalidate('a', a += 2);
     		}
-    		if (type == MUL) {
+    		if (action == MUL) {
     			hist.push(a);
     			$$invalidate('hist', hist);
     			$$invalidate('a', a *= 2);
     		}
-    		if (type == DIV) {
+    		if (action == DIV) {
     			hist.push(a);
     			$$invalidate('hist', hist);
     			$$invalidate('a', a /= 2);
     		}
-    		if (type == NEW) {
+    		if (action == NEW) {
     			$$invalidate('a', a = random(1,20));
     			$$invalidate('b', b = random(1,20));
     			$$invalidate('hist', hist = []);
     		}
-    		if (type == UNDO) {
+    		if (action == UNDO) {
     			$$invalidate('a', a = hist.pop());
     			$$invalidate('hist', hist); 
     		}
-    		let state = {a:a,b:b,hist:hist.slice()};
-    		states.push({type, state});
+    		let state = {action:action,a:a,b:b,hist:hist.slice()};
+    		states.push(state);
     		$$invalidate('states', states);
     	};
 
     	const random = (a,b) => a+Math.floor((b-a+1)*Math.random());
 
-    	action(NEW);
+    	op(NEW);
 
     	const fixState = (event) => {
-    		$$invalidate('a', a = event.detail.state.state.a);
-    		$$invalidate('b', b = event.detail.state.state.b);
-    		$$invalidate('hist', hist = event.detail.state.state.hist);
+    		console.log('fixState',event.detail);
+    		$$invalidate('a', a = event.detail.a);
+    		$$invalidate('b', b = event.detail.b);
+    		$$invalidate('hist', hist = event.detail.hist);
     	};
 
-    	const func = () => action(ADD);
+    	const func = () => op(ADD);
 
-    	const func_1 = () => action(MUL);
+    	const func_1 = () => op(MUL);
 
-    	const func_2 = () => action(DIV);
+    	const func_2 = () => op(DIV);
 
-    	const func_3 = () => action(NEW);
+    	const func_3 = () => op(NEW);
 
-    	const func_4 = () => action(UNDO);
+    	const func_4 = () => op(UNDO);
 
     	$$self.$capture_state = () => {
     		return {};
@@ -1164,7 +1173,7 @@ var app = (function () {
     		b,
     		hist,
     		states,
-    		action,
+    		op,
     		fixState,
     		func,
     		func_1,

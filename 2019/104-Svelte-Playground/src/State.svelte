@@ -4,7 +4,7 @@
 	const dispatch = createEventDispatcher()
 	export let state
 	const fixState = () => {
-		dispatch('fixstate',{state:state})
+		dispatch('fixstate',state)
 	}
 </script>
 
@@ -12,5 +12,5 @@
 </style>
 
 <button class=col1 on:click={fixState}>
-	{state.type} {state.state.a} b:{state.state.b} hist:{state.state.hist}
+	{state.action} a:{state.a} b:{state.b} hist:{state.hist}
 </button>
