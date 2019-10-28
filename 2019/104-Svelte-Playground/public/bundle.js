@@ -52,6 +52,9 @@ var app = (function () {
     function space() {
         return text(' ');
     }
+    function empty() {
+        return text('');
+    }
     function listen(node, event, handler, options) {
         node.addEventListener(event, handler, options);
         return () => node.removeEventListener(event, handler, options);
@@ -543,7 +546,7 @@ var app = (function () {
     const file$1 = "src\\State.svelte";
 
     function create_fragment$1(ctx) {
-    	var button, t0_value = ctx.state.action + "", t0, t1, t2_value = ctx.state.a + "", t2, t3, t4_value = ctx.state.b + "", t4, t5, t6_value = ctx.state.hist + "", t6, dispose;
+    	var button, t0_value = ctx.state.action + "", t0, t1, t2_value = ctx.state.a + "", t2, t3, t4_value = ctx.state.b + "", t4, t5, t6_value = ctx.state.hist + "", t6, t7, dispose;
 
     	const block = {
     		c: function create() {
@@ -553,10 +556,11 @@ var app = (function () {
     			t2 = text(t2_value);
     			t3 = text(" b:");
     			t4 = text(t4_value);
-    			t5 = text(" hist:");
+    			t5 = text(" hist:[");
     			t6 = text(t6_value);
+    			t7 = text("]");
     			attr_dev(button, "class", "col1");
-    			add_location(button, file$1, 13, 0, 262);
+    			add_location(button, file$1, 11, 0, 253);
     			dispose = listen_dev(button, "click", ctx.fixState);
     		},
 
@@ -573,6 +577,7 @@ var app = (function () {
     			append_dev(button, t4);
     			append_dev(button, t5);
     			append_dev(button, t6);
+    			append_dev(button, t7);
     		},
 
     		p: function update(changed, ctx) {
@@ -612,9 +617,7 @@ var app = (function () {
     	
     	const dispatch = createEventDispatcher();
     	let { state } = $$props;
-    	const fixState = () => {
-    		dispatch('fixstate',state);
-    	};
+    	const fixState = () => dispatch('fixstate',state);
 
     	const writable_props = ['state'];
     	Object.keys($$props).forEach(key => {
@@ -863,8 +866,54 @@ var app = (function () {
 
     const file$3 = "src\\App.svelte";
 
+    // (91:0) {#if USE_TIME_MACHINE}
+    function create_if_block(ctx) {
+    	var current;
+
+    	var timemachine = new TimeMachine({
+    		props: { states: ctx.states },
+    		$$inline: true
+    	});
+    	timemachine.$on("fixstate", ctx.fixState);
+
+    	const block = {
+    		c: function create() {
+    			timemachine.$$.fragment.c();
+    		},
+
+    		m: function mount(target, anchor) {
+    			mount_component(timemachine, target, anchor);
+    			current = true;
+    		},
+
+    		p: function update(changed, ctx) {
+    			var timemachine_changes = {};
+    			if (changed.states) timemachine_changes.states = ctx.states;
+    			timemachine.$set(timemachine_changes);
+    		},
+
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(timemachine.$$.fragment, local);
+
+    			current = true;
+    		},
+
+    		o: function outro(local) {
+    			transition_out(timemachine.$$.fragment, local);
+    			current = false;
+    		},
+
+    		d: function destroy(detaching) {
+    			destroy_component(timemachine, detaching);
+    		}
+    	};
+    	dispatch_dev("SvelteRegisterBlock", { block, id: create_if_block.name, type: "if", source: "(91:0) {#if USE_TIME_MACHINE}", ctx });
+    	return block;
+    }
+
     function create_fragment$3(ctx) {
-    	var h10, t0, t1, h11, t2, t3, t4, t5, t6, t7, t8, current;
+    	var h10, t0, t1, h11, t2, t3, t4, t5, t6, t7, t8, if_block_anchor, current;
 
     	var button0 = new Button({
     		props: {
@@ -916,11 +965,7 @@ var app = (function () {
     		$$inline: true
     	});
 
-    	var timemachine = new TimeMachine({
-    		props: { states: ctx.states },
-    		$$inline: true
-    	});
-    	timemachine.$on("fixstate", ctx.fixState);
+    	var if_block =  create_if_block(ctx);
 
     	const block = {
     		c: function create() {
@@ -940,15 +985,16 @@ var app = (function () {
     			t7 = space();
     			button4.$$.fragment.c();
     			t8 = space();
-    			timemachine.$$.fragment.c();
+    			if (if_block) if_block.c();
+    			if_block_anchor = empty();
     			attr_dev(h10, "class", "" + col2 + " svelte-1of37l2");
     			set_style(h10, "font-size", "60px");
     			set_style(h10, "color", "red");
-    			add_location(h10, file$3, 73, 0, 1196);
+    			add_location(h10, file$3, 82, 0, 1446);
     			attr_dev(h11, "class", "" + col2 + " svelte-1of37l2");
     			set_style(h11, "font-size", "60px");
     			set_style(h11, "color", "green");
-    			add_location(h11, file$3, 74, 0, 1258);
+    			add_location(h11, file$3, 83, 0, 1508);
     		},
 
     		l: function claim(nodes) {
@@ -972,7 +1018,8 @@ var app = (function () {
     			insert_dev(target, t7, anchor);
     			mount_component(button4, target, anchor);
     			insert_dev(target, t8, anchor);
-    			mount_component(timemachine, target, anchor);
+    			if (if_block) if_block.m(target, anchor);
+    			insert_dev(target, if_block_anchor, anchor);
     			current = true;
     		},
 
@@ -1005,9 +1052,7 @@ var app = (function () {
     			if (changed.hist) button4_changes.disabled = ctx.hist.length==0;
     			button4.$set(button4_changes);
 
-    			var timemachine_changes = {};
-    			if (changed.states) timemachine_changes.states = ctx.states;
-    			timemachine.$set(timemachine_changes);
+    			if_block.p(changed, ctx);
     		},
 
     		i: function intro(local) {
@@ -1022,8 +1067,7 @@ var app = (function () {
 
     			transition_in(button4.$$.fragment, local);
 
-    			transition_in(timemachine.$$.fragment, local);
-
+    			transition_in(if_block);
     			current = true;
     		},
 
@@ -1033,7 +1077,7 @@ var app = (function () {
     			transition_out(button2.$$.fragment, local);
     			transition_out(button3.$$.fragment, local);
     			transition_out(button4.$$.fragment, local);
-    			transition_out(timemachine.$$.fragment, local);
+    			transition_out(if_block);
     			current = false;
     		},
 
@@ -1075,7 +1119,11 @@ var app = (function () {
     				detach_dev(t8);
     			}
 
-    			destroy_component(timemachine, detaching);
+    			if (if_block) if_block.d(detaching);
+
+    			if (detaching) {
+    				detach_dev(if_block_anchor);
+    			}
     		}
     	};
     	dispatch_dev("SvelteRegisterBlock", { block, id: create_fragment$3.name, type: "component", source: "", ctx });
@@ -1098,43 +1146,50 @@ var app = (function () {
     	let a = null;
     	let b = null;
     	let hist = [];
-    	const states = [];
+    	let states = [];
 
-    	const op = (action) => {
-    		if (states.length > 0) {
+    	const resetState = () => {
+    		if ( states.length > 0) {
     			let state = states[states.length-1];
     			$$invalidate('a', a = state.a);
     			$$invalidate('b', b = state.b);
     			$$invalidate('hist', hist = state.hist.slice());
-
     		}
+    	};
+
+    	const saveState = (action) => {
+    		{
+    			let state = {action,a,b,hist:hist.slice()};
+    			states.push(state);
+    			$$invalidate('states', states);
+    		}
+    	};
+
+    	const op = (action) => {
+    		resetState();
     		if (action == ADD) {
     			hist.push(a);
     			$$invalidate('hist', hist);
     			$$invalidate('a', a += 2);
-    		}
-    		if (action == MUL) {
+    		} else if (action == MUL) {
     			hist.push(a);
     			$$invalidate('hist', hist);
     			$$invalidate('a', a *= 2);
-    		}
-    		if (action == DIV) {
+    		} else if (action == DIV) {
     			hist.push(a);
     			$$invalidate('hist', hist);
     			$$invalidate('a', a /= 2);
-    		}
-    		if (action == NEW) {
+    		} else if (action == NEW) {
     			$$invalidate('a', a = random(1,20));
     			$$invalidate('b', b = random(1,20));
     			$$invalidate('hist', hist = []);
-    		}
-    		if (action == UNDO) {
+    		} else if (action == UNDO) {
     			$$invalidate('a', a = hist.pop());
     			$$invalidate('hist', hist); 
+    		} else {
+    			console.log('Missing action: ' + action);
     		}
-    		let state = {action:action,a:a,b:b,hist:hist.slice()};
-    		states.push(state);
-    		$$invalidate('states', states);
+    		saveState(action);
     	};
 
     	const random = (a,b) => a+Math.floor((b-a+1)*Math.random());
@@ -1145,7 +1200,7 @@ var app = (function () {
     		console.log('fixState',event.detail);
     		$$invalidate('a', a = event.detail.a);
     		$$invalidate('b', b = event.detail.b);
-    		$$invalidate('hist', hist = event.detail.hist);
+    		$$invalidate('hist', hist = event.detail.hist.slice());
     	};
 
     	const func = () => op(ADD);
@@ -1166,6 +1221,7 @@ var app = (function () {
     		if ('a' in $$props) $$invalidate('a', a = $$props.a);
     		if ('b' in $$props) $$invalidate('b', b = $$props.b);
     		if ('hist' in $$props) $$invalidate('hist', hist = $$props.hist);
+    		if ('states' in $$props) $$invalidate('states', states = $$props.states);
     	};
 
     	return {

@@ -3,6 +3,8 @@
 	import Button from './Button.svelte'
 	import TimeMachine from './TimeMachine.svelte'
 
+	const USE_TIME_MACHINE = true
+
 	let a = null
 	let b = null
 	let hist = []
@@ -12,43 +14,50 @@
 	const DIV = 'DIV'
 	const NEW = 'NEW'
 	const UNDO = 'UNDO'
-	const states = []
+	let states = []
 
-	const op = (action) => {
-		if (states.length > 0) {
+	const resetState = () => {
+		if (USE_TIME_MACHINE && states.length > 0) {
 			let state = states[states.length-1]
 			a = state.a
 			b = state.b
 			hist = state.hist.slice()
-
 		}
+	}
+
+	const saveState = (action) => {
+		if (USE_TIME_MACHINE) {
+			let state = {action,a,b,hist:hist.slice()}
+			states.push(state)
+			states = states
+		}
+	}
+
+	const op = (action) => {
+		resetState()
 		if (action == ADD) {
 			hist.push(a)
 			hist=hist
 			a += 2
-		}
-		if (action == MUL) {
+		} else if (action == MUL) {
 			hist.push(a)
 			hist=hist
 			a *= 2
-		}
-		if (action == DIV) {
+		} else if (action == DIV) {
 			hist.push(a)
 			hist=hist
 			a /= 2
-		}
-		if (action == NEW) {
+		} else if (action == NEW) {
 			a = random(1,20)
 			b = random(1,20)
 			hist = []
-		}
-		if (action == UNDO) {
+		} else if (action == UNDO) {
 			a = hist.pop()
 			hist = hist 
+		} else {
+			console.log('Missing action: ' + action)
 		}
-		let state = {action:action,a:a,b:b,hist:hist.slice()}
-		states.push(state)
-		states = states
+		saveState(action)
 	}
 
 	const random = (a,b) => a+Math.floor((b-a+1)*Math.random())
@@ -59,7 +68,7 @@
 		console.log('fixState',event.detail)
 		a = event.detail.a
 		b = event.detail.b
-		hist = event.detail.hist
+		hist = event.detail.hist.slice()
 	}
 
 </script> 
@@ -79,4 +88,6 @@
 <Button klass={col2} title='New'  click = {() => op(NEW)}  disabled = {a!=b} />
 <Button klass={col2} title='Undo' click = {() => op(UNDO)} disabled = {hist.length==0} /> 
 
-<TimeMachine on:fixstate = {fixState} states={states} />
+{#if USE_TIME_MACHINE}
+	<TimeMachine on:fixstate = {fixState} states={states} />
+{/if}
