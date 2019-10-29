@@ -33,11 +33,6 @@ var app = (function () {
         const unsub = store.subscribe(callback);
         return unsub.unsubscribe ? () => unsub.unsubscribe() : unsub;
     }
-    function get_store_value(store) {
-        let value;
-        subscribe(store, _ => value = _)();
-        return value;
-    }
     function component_subscribe(component, store, callback) {
         component.$$.on_destroy.push(subscribe(store, callback));
     }
@@ -97,29 +92,6 @@ var app = (function () {
     let current_component;
     function set_current_component(component) {
         current_component = component;
-    }
-    function createEventDispatcher() {
-        const component = current_component;
-        return (type, detail) => {
-            const callbacks = component.$$.callbacks[type];
-            if (callbacks) {
-                // TODO are there situations where events could be dispatched
-                // in a server (non-DOM) environment?
-                const event = custom_event(type, detail);
-                callbacks.slice().forEach(fn => {
-                    fn.call(component, event);
-                });
-            }
-        };
-    }
-    // TODO figure out if we still want to support
-    // shorthand events, or if we want to implement
-    // a real bubbling mechanism
-    function bubble(component, event) {
-        const callbacks = component.$$.callbacks[event.type];
-        if (callbacks) {
-            callbacks.slice().forEach(fn => fn(event));
-        }
     }
 
     const dirty_components = [];
@@ -435,33 +407,7 @@ var app = (function () {
         return { set, update, subscribe };
     }
 
-    // import {createEventDispatcher} from 'svelte'
-    // const dispatch = createEventDispatcher()
-
-    // const ADD = 'ADD'
-    // const MUL = 'MUL'
-    // const DIV = 'DIV'
-    // const NEW = 'NEW'
-    // const UNDO = 'UNDO'
-    // const USE_TIME_MACHINE = true
-
-    // let states
-
-    const store = writable({a:17,b:1,hist:[]});
-    // console.log(store)
-
-    // let operation = () => {}
-    // const register = (oper) => {
-    // 	operation = oper
-    // }
-
-    var store$1 = {  
-    	subscribe : store.subscribe,
-    	// register : register,
-    	update : store.update,
-    	set: store.set,
-    	// states : states
-    };
+    var store = writable({});
 
     var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
 
@@ -508,9 +454,9 @@ var app = (function () {
     		c: function create() {
     			button = element("button");
     			t = text(ctx.title);
-    			attr_dev(button, "class", button_class_value = "" + null_to_empty(ctx.klass) + " svelte-hrvg8g");
+    			attr_dev(button, "class", button_class_value = "" + null_to_empty(ctx.klass) + " svelte-1qjpvcz");
     			button.disabled = ctx.disabled;
-    			add_location(button, file, 17, 0, 254);
+    			add_location(button, file, 15, 0, 247);
     			dispose = listen_dev(button, "click", ctx.click);
     		},
 
@@ -528,7 +474,7 @@ var app = (function () {
     				set_data_dev(t, ctx.title);
     			}
 
-    			if ((changed.klass) && button_class_value !== (button_class_value = "" + null_to_empty(ctx.klass) + " svelte-hrvg8g")) {
+    			if ((changed.klass) && button_class_value !== (button_class_value = "" + null_to_empty(ctx.klass) + " svelte-1qjpvcz")) {
     				attr_dev(button, "class", button_class_value);
     			}
 
@@ -656,9 +602,9 @@ var app = (function () {
     			t5 = text(" hist:[");
     			t6 = text(t6_value);
     			t7 = text("]");
-    			attr_dev(button, "class", "col1");
-    			add_location(button, file$1, 13, 0, 318);
-    			dispose = listen_dev(button, "click", ctx.fixState);
+    			attr_dev(button, "class", "col1 svelte-1138hho");
+    			add_location(button, file$1, 10, 0, 162);
+    			dispose = listen_dev(button, "click", ctx.click_handler);
     		},
 
     		l: function claim(nodes) {
@@ -712,15 +658,14 @@ var app = (function () {
 
     function instance$1($$self, $$props, $$invalidate) {
     	
-    	const dispatch = createEventDispatcher();
     	let { state } = $$props;
-    	// console.log('State',state)
-    	const fixState = () => dispatch('fixstate',state);
 
     	const writable_props = ['state'];
     	Object.keys($$props).forEach(key => {
     		if (!writable_props.includes(key) && !key.startsWith('$$')) console.warn(`<State> was created with unknown prop '${key}'`);
     	});
+
+    	const click_handler = () => store.set(state.store);
 
     	$$self.$set = $$props => {
     		if ('state' in $$props) $$invalidate('state', state = $$props.state);
@@ -734,7 +679,7 @@ var app = (function () {
     		if ('state' in $$props) $$invalidate('state', state = $$props.state);
     	};
 
-    	return { state, fixState };
+    	return { state, click_handler };
     }
 
     class State extends SvelteComponentDev {
@@ -769,7 +714,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (10:1) {#each states as state}
+    // (7:1) {#each states as state}
     function create_each_block(ctx) {
     	var current;
 
@@ -777,7 +722,6 @@ var app = (function () {
     		props: { state: ctx.state },
     		$$inline: true
     	});
-    	state.$on("fixstate", ctx.fixstate_handler);
 
     	const block = {
     		c: function create() {
@@ -811,7 +755,7 @@ var app = (function () {
     			destroy_component(state, detaching);
     		}
     	};
-    	dispatch_dev("SvelteRegisterBlock", { block, id: create_each_block.name, type: "each", source: "(10:1) {#each states as state}", ctx });
+    	dispatch_dev("SvelteRegisterBlock", { block, id: create_each_block.name, type: "each", source: "(7:1) {#each states as state}", ctx });
     	return block;
     }
 
@@ -837,7 +781,7 @@ var app = (function () {
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
     			}
-    			add_location(div, file$2, 8, 0, 190);
+    			add_location(div, file$2, 5, 0, 80);
     		},
 
     		l: function claim(nodes) {
@@ -912,48 +856,38 @@ var app = (function () {
     }
 
     function instance$2($$self, $$props, $$invalidate) {
-    	
-    	let { states, touch } = $$props;
+    	let { states } = $$props;
 
-    	const writable_props = ['states', 'touch'];
+    	const writable_props = ['states'];
     	Object.keys($$props).forEach(key => {
     		if (!writable_props.includes(key) && !key.startsWith('$$')) console.warn(`<TimeMachine> was created with unknown prop '${key}'`);
     	});
 
-    	function fixstate_handler(event) {
-    		bubble($$self, event);
-    	}
-
     	$$self.$set = $$props => {
     		if ('states' in $$props) $$invalidate('states', states = $$props.states);
-    		if ('touch' in $$props) $$invalidate('touch', touch = $$props.touch);
     	};
 
     	$$self.$capture_state = () => {
-    		return { states, touch };
+    		return { states };
     	};
 
     	$$self.$inject_state = $$props => {
     		if ('states' in $$props) $$invalidate('states', states = $$props.states);
-    		if ('touch' in $$props) $$invalidate('touch', touch = $$props.touch);
     	};
 
-    	return { states, touch, fixstate_handler };
+    	return { states };
     }
 
     class TimeMachine extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$2, create_fragment$2, safe_not_equal, ["states", "touch"]);
+    		init(this, options, instance$2, create_fragment$2, safe_not_equal, ["states"]);
     		dispatch_dev("SvelteRegisterComponent", { component: this, tagName: "TimeMachine", options, id: create_fragment$2.name });
 
     		const { ctx } = this.$$;
     		const props = options.props || {};
     		if (ctx.states === undefined && !('states' in props)) {
     			console.warn("<TimeMachine> was created without expected prop 'states'");
-    		}
-    		if (ctx.touch === undefined && !('touch' in props)) {
-    			console.warn("<TimeMachine> was created without expected prop 'touch'");
     		}
     	}
 
@@ -964,32 +898,20 @@ var app = (function () {
     	set states(value) {
     		throw new Error("<TimeMachine>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
     	}
-
-    	get touch() {
-    		throw new Error("<TimeMachine>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
-    	}
-
-    	set touch(value) {
-    		throw new Error("<TimeMachine>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
-    	}
     }
 
     /* src\App.svelte generated by Svelte v3.12.1 */
 
     const file$3 = "src\\App.svelte";
 
-    // (112:0) {#if USE_TIME_MACHINE}
+    // (93:0) {#if USE_TIME_MACHINE}
     function create_if_block(ctx) {
     	var current;
 
     	var timemachine = new TimeMachine({
-    		props: {
-    		touch: ctx.touch,
-    		states: ctx.states
-    	},
+    		props: { states: ctx.states },
     		$$inline: true
     	});
-    	timemachine.$on("fixstate", ctx.fixState);
 
     	const block = {
     		c: function create() {
@@ -1023,7 +945,7 @@ var app = (function () {
     			destroy_component(timemachine, detaching);
     		}
     	};
-    	dispatch_dev("SvelteRegisterBlock", { block, id: create_if_block.name, type: "if", source: "(112:0) {#if USE_TIME_MACHINE}", ctx });
+    	dispatch_dev("SvelteRegisterBlock", { block, id: create_if_block.name, type: "if", source: "(93:0) {#if USE_TIME_MACHINE}", ctx });
     	return block;
     }
 
@@ -1035,7 +957,7 @@ var app = (function () {
     		klass: col3,
     		title: "+2",
     		click: ctx.func,
-    		disabled: ctx.$store.a==ctx.$store.b
+    		disabled: ctx.done
     	},
     		$$inline: true
     	});
@@ -1045,7 +967,7 @@ var app = (function () {
     		klass: col3,
     		title: "*2",
     		click: ctx.func_1,
-    		disabled: ctx.$store.a==ctx.$store.b
+    		disabled: ctx.done
     	},
     		$$inline: true
     	});
@@ -1055,7 +977,7 @@ var app = (function () {
     		klass: col3,
     		title: "/2",
     		click: ctx.func_2,
-    		disabled: ctx.$store.a==ctx.$store.b
+    		disabled: ctx.done
     	},
     		$$inline: true
     	});
@@ -1065,7 +987,7 @@ var app = (function () {
     		klass: col2,
     		title: "New",
     		click: ctx.func_3,
-    		disabled: ctx.$store.a!=ctx.$store.b
+    		disabled: !ctx.done
     	},
     		$$inline: true
     	});
@@ -1105,11 +1027,11 @@ var app = (function () {
     			attr_dev(h10, "class", "" + col2 + " svelte-1of37l2");
     			set_style(h10, "font-size", "60px");
     			set_style(h10, "color", "red");
-    			add_location(h10, file$3, 103, 0, 2043);
+    			add_location(h10, file$3, 84, 0, 1562);
     			attr_dev(h11, "class", "" + col2 + " svelte-1of37l2");
     			set_style(h11, "font-size", "60px");
     			set_style(h11, "color", "green");
-    			add_location(h11, file$3, 104, 0, 2112);
+    			add_location(h11, file$3, 85, 0, 1631);
     		},
 
     		l: function claim(nodes) {
@@ -1148,19 +1070,19 @@ var app = (function () {
     			}
 
     			var button0_changes = {};
-    			if (changed.$store) button0_changes.disabled = ctx.$store.a==ctx.$store.b;
+    			if (changed.done) button0_changes.disabled = ctx.done;
     			button0.$set(button0_changes);
 
     			var button1_changes = {};
-    			if (changed.$store) button1_changes.disabled = ctx.$store.a==ctx.$store.b;
+    			if (changed.done) button1_changes.disabled = ctx.done;
     			button1.$set(button1_changes);
 
     			var button2_changes = {};
-    			if (changed.$store) button2_changes.disabled = ctx.$store.a==ctx.$store.b;
+    			if (changed.done) button2_changes.disabled = ctx.done;
     			button2.$set(button2_changes);
 
     			var button3_changes = {};
-    			if (changed.$store) button3_changes.disabled = ctx.$store.a!=ctx.$store.b;
+    			if (changed.done) button3_changes.disabled = !ctx.done;
     			button3.$set(button3_changes);
 
     			var button4_changes = {};
@@ -1258,44 +1180,31 @@ var app = (function () {
     function instance$3($$self, $$props, $$invalidate) {
     	let $store;
 
-    	validate_store(store$1, 'store');
-    	component_subscribe($$self, store$1, $$value => { $store = $$value; $$invalidate('$store', $store); });
+    	validate_store(store, 'store');
+    	component_subscribe($$self, store, $$value => { $store = $$value; $$invalidate('$store', $store); });
 
     	
 
-    	console.log('store',store$1);
-
     	let states = [];
-
-    	const touch = () => {
-    		$$invalidate('states', states);
-    		console.log('touch',states.length);
-    	};
     	
     	const random = (a,b) => a+Math.floor((b-a+1)*Math.random());
 
     	const resetState = () => {
     		if ( states.length > 0) {
     			let state = states[states.length-1];
-    			console.log('reset',state.store);
-    			store$1.set(state.store); //.slice()
+    			let st = state.store;
+    			store.set({a:st.a, b:st.b, hist:st.hist.slice()}); 
     		}
     	};
 
     	const saveState = (action) => {
     		{
-    			const obj = Object.assign({}, get_store_value(store$1));
-    			console.log('saveState',obj,states);
-    			let state = {action:action,store:obj}; //.slice()
-    			states.push(state);
+    			states.push({action:action,store:$store});
     			$$invalidate('states', states);
-    			// dispatch('fixstate')
     		}
     	};
 
     	const operation = (st,action) => {
-    		resetState();
-    		console.log('operation',st);
     		let a = st.a;
     		let b = st.b;
     		let hist = st.hist;
@@ -1322,17 +1231,14 @@ var app = (function () {
     		} else {
     			console.log('Missing action: ' + action);
     		}
-    		store$1.set({a:a, b:b, hist:hist.slice()});
+    		store.set({a:a, b:b, hist:hist.slice()});
     		saveState(action);
     		return {a:a, b:b, hist:hist}
     	}; 
 
-    	const op = (action) => store$1.update( st => operation(st,action) );
-    		
-    	const fixState = (event) => {
-    		let st = event.detail.store;
-    		console.log('fixState',st); //.a,event.detail.b,event.detail.hist)
-    		store$1.set({a:st.a, b:st.b, hist:st.hist});
+    	const op = (action) => {
+    		resetState();
+    		store.update(st => operation(st,action) );
     	};
 
     	op(NEW);
@@ -1353,14 +1259,20 @@ var app = (function () {
 
     	$$self.$inject_state = $$props => {
     		if ('states' in $$props) $$invalidate('states', states = $$props.states);
-    		if ('$store' in $$props) store$1.set($store);
+    		if ('done' in $$props) $$invalidate('done', done = $$props.done);
+    		if ('$store' in $$props) store.set($store);
+    	};
+
+    	let done;
+
+    	$$self.$$.update = ($$dirty = { $store: 1 }) => {
+    		if ($$dirty.$store) { $$invalidate('done', done = $store.a == $store.b); }
     	};
 
     	return {
     		states,
-    		touch,
     		op,
-    		fixState,
+    		done,
     		$store,
     		func,
     		func_1,

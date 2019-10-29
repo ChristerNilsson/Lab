@@ -1,16 +1,13 @@
 <script>
 	import store from './store.js'
-	import { col1,col2,col3 } from '../styles.js'
-	import {createEventDispatcher} from 'svelte'
-	const dispatch = createEventDispatcher()
-	export let state
-	// console.log('State',state)
-	const fixState = () => dispatch('fixstate',state)
+	import { col1 } from '../styles.js'
+	export let state	
 </script>
 
 <style>
+	button {text-align:left}
 </style>
 
-<button class=col1 on:click={fixState}>
+<button class=col1 on:click={() => store.set(state.store)}>
 	{state.action} a:{state.store.a} b:{state.store.b} hist:[{state.store.hist}]
 </button>

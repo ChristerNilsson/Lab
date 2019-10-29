@@ -10,9 +10,7 @@
 </script>
 
 <style>
-	button {
-		font-size: 30px;
-	}
+	button {font-size: 30px;}
 </style>
 
 <button class={klass} on:click={click} disabled={disabled}>{title}</button>
