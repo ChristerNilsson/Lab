@@ -1,40 +1,60 @@
-<script>	
+<script>	 
+	import store  from './store.js'
+	import {get} from 'svelte/store'
 	import { col1,col2,col3 } from '../styles.js'
 	import Button from './Button.svelte'
 	import TimeMachine from './TimeMachine.svelte'
 
+	console.log('store',store)
 	const USE_TIME_MACHINE = true
 
-	let a = null
-	let b = null
-	let hist = []
+	let states = []
+
+	const touch = () => {
+		states = states
+		console.log('touch',states.length)
+	}
+
+	// touch()
+
+	// let a = null
+	// let b = null
+	// let hist = []
 
 	const ADD = 'ADD'
-	const MUL = 'MUL'
+	const MUL = 'MUL' 
 	const DIV = 'DIV'
 	const NEW = 'NEW'
 	const UNDO = 'UNDO'
-	let states = []
+	
+	const random = (a,b) => a+Math.floor((b-a+1)*Math.random())
 
 	const resetState = () => {
 		if (USE_TIME_MACHINE && states.length > 0) {
 			let state = states[states.length-1]
-			a = state.a
-			b = state.b
-			hist = state.hist.slice()
+			console.log('reset',state.store)
+			store.set(state.store) //.slice()
 		}
 	}
 
 	const saveState = (action) => {
 		if (USE_TIME_MACHINE) {
-			let state = {action,a,b,hist:hist.slice()}
+			const obj = Object.assign({}, get(store))
+			console.log('saveState',obj,states)
+			let state = {action:action,store:obj} //.slice()
 			states.push(state)
 			states = states
+			// dispatch('fixstate')
 		}
 	}
 
-	const op = (action) => {
+	const operation = (st,action) => {
 		resetState()
+		console.log('operation',st)
+		let a = st.a
+		let b = st.b
+		let hist = st.hist
+
 		if (action == ADD) {
 			hist.push(a)
 			hist=hist
@@ -57,19 +77,20 @@
 		} else {
 			console.log('Missing action: ' + action)
 		}
+		store.set({a:a, b:b, hist:hist.slice()})
 		saveState(action)
-	}
+		return {a:a, b:b, hist:hist}
+	} 
 
-	const random = (a,b) => a+Math.floor((b-a+1)*Math.random())
+	const op = (action) => store.update( st => operation(st,action) )
+		
+	const fixState = (event) => {
+		let st = event.detail.store
+		console.log('fixState',st) //.a,event.detail.b,event.detail.hist)
+		store.set({a:st.a, b:st.b, hist:st.hist})
+	}
 
 	op(NEW)
-
-	const fixState = (event) => {
-		console.log('fixState',event.detail)
-		a = event.detail.a
-		b = event.detail.b
-		hist = event.detail.hist.slice()
-	}
 
 </script> 
  
@@ -80,14 +101,14 @@
 	}
 </style>
 
-<h1 class={col2} style='font-size: 60px; color:red;'>{a}</h1>
-<h1 class={col2} style='font-size: 60px; color:green;'>{b}</h1>
-<Button klass={col3} title='+2'   click = {() => op(ADD)}  disabled = {a==b} />
-<Button klass={col3} title='*2'   click = {() => op(MUL)}  disabled = {a==b} />
-<Button klass={col3} title='/2'   click = {() => op(DIV)}  disabled = {a==b} />
-<Button klass={col2} title='New'  click = {() => op(NEW)}  disabled = {a!=b} />
-<Button klass={col2} title='Undo' click = {() => op(UNDO)} disabled = {hist.length==0} /> 
+<h1 class={col2} style='font-size: 60px; color:red;'>{$store.a}</h1>
+<h1 class={col2} style='font-size: 60px; color:green;'>{$store.b}</h1>
+<Button klass={col3} title='+2'   click = {() => op(ADD)}  disabled = {$store.a==$store.b} />
+<Button klass={col3} title='*2'   click = {() => op(MUL)}  disabled = {$store.a==$store.b} />
+<Button klass={col3} title='/2'   click = {() => op(DIV)}  disabled = {$store.a==$store.b} />
+<Button klass={col2} title='New'  click = {() => op(NEW)}  disabled = {$store.a!=$store.b} />
+<Button klass={col2} title='Undo' click = {() => op(UNDO)} disabled = {$store.hist.length==0} /> 
 
 {#if USE_TIME_MACHINE}
-	<TimeMachine on:fixstate = {fixState} states={states} />
+	<TimeMachine on:fixstate={fixState} touch={touch} states={states} />  
 {/if}

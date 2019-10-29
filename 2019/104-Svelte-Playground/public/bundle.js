@@ -24,6 +24,23 @@ var app = (function () {
     function safe_not_equal(a, b) {
         return a != a ? b == b : a !== b || ((a && typeof a === 'object') || typeof a === 'function');
     }
+    function validate_store(store, name) {
+        if (!store || typeof store.subscribe !== 'function') {
+            throw new Error(`'${name}' is not a store with a 'subscribe' method`);
+        }
+    }
+    function subscribe(store, callback) {
+        const unsub = store.subscribe(callback);
+        return unsub.unsubscribe ? () => unsub.unsubscribe() : unsub;
+    }
+    function get_store_value(store) {
+        let value;
+        subscribe(store, _ => value = _)();
+        return value;
+    }
+    function component_subscribe(component, store, callback) {
+        component.$$.on_destroy.push(subscribe(store, callback));
+    }
     function null_to_empty(value) {
         return value == null ? '' : value;
     }
@@ -366,6 +383,86 @@ var app = (function () {
         }
     }
 
+    const subscriber_queue = [];
+    /**
+     * Create a `Writable` store that allows both updating and reading by subscription.
+     * @param {*=}value initial value
+     * @param {StartStopNotifier=}start start and stop notifications for subscriptions
+     */
+    function writable(value, start = noop) {
+        let stop;
+        const subscribers = [];
+        function set(new_value) {
+            if (safe_not_equal(value, new_value)) {
+                value = new_value;
+                if (stop) { // store is ready
+                    const run_queue = !subscriber_queue.length;
+                    for (let i = 0; i < subscribers.length; i += 1) {
+                        const s = subscribers[i];
+                        s[1]();
+                        subscriber_queue.push(s, value);
+                    }
+                    if (run_queue) {
+                        for (let i = 0; i < subscriber_queue.length; i += 2) {
+                            subscriber_queue[i][0](subscriber_queue[i + 1]);
+                        }
+                        subscriber_queue.length = 0;
+                    }
+                }
+            }
+        }
+        function update(fn) {
+            set(fn(value));
+        }
+        function subscribe(run, invalidate = noop) {
+            const subscriber = [run, invalidate];
+            subscribers.push(subscriber);
+            if (subscribers.length === 1) {
+                stop = start(set) || noop;
+            }
+            run(value);
+            return () => {
+                const index = subscribers.indexOf(subscriber);
+                if (index !== -1) {
+                    subscribers.splice(index, 1);
+                }
+                if (subscribers.length === 0) {
+                    stop();
+                    stop = null;
+                }
+            };
+        }
+        return { set, update, subscribe };
+    }
+
+    // import {createEventDispatcher} from 'svelte'
+    // const dispatch = createEventDispatcher()
+
+    // const ADD = 'ADD'
+    // const MUL = 'MUL'
+    // const DIV = 'DIV'
+    // const NEW = 'NEW'
+    // const UNDO = 'UNDO'
+    // const USE_TIME_MACHINE = true
+
+    // let states
+
+    const store = writable({a:17,b:1,hist:[]});
+    // console.log(store)
+
+    // let operation = () => {}
+    // const register = (oper) => {
+    // 	operation = oper
+    // }
+
+    var store$1 = {  
+    	subscribe : store.subscribe,
+    	// register : register,
+    	update : store.update,
+    	set: store.set,
+    	// states : states
+    };
+
     var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
 
     function unwrapExports (x) {
@@ -546,7 +643,7 @@ var app = (function () {
     const file$1 = "src\\State.svelte";
 
     function create_fragment$1(ctx) {
-    	var button, t0_value = ctx.state.action + "", t0, t1, t2_value = ctx.state.a + "", t2, t3, t4_value = ctx.state.b + "", t4, t5, t6_value = ctx.state.hist + "", t6, t7, dispose;
+    	var button, t0_value = ctx.state.action + "", t0, t1, t2_value = ctx.state.store.a + "", t2, t3, t4_value = ctx.state.store.b + "", t4, t5, t6_value = ctx.state.store.hist + "", t6, t7, dispose;
 
     	const block = {
     		c: function create() {
@@ -560,7 +657,7 @@ var app = (function () {
     			t6 = text(t6_value);
     			t7 = text("]");
     			attr_dev(button, "class", "col1");
-    			add_location(button, file$1, 11, 0, 253);
+    			add_location(button, file$1, 13, 0, 318);
     			dispose = listen_dev(button, "click", ctx.fixState);
     		},
 
@@ -585,15 +682,15 @@ var app = (function () {
     				set_data_dev(t0, t0_value);
     			}
 
-    			if ((changed.state) && t2_value !== (t2_value = ctx.state.a + "")) {
+    			if ((changed.state) && t2_value !== (t2_value = ctx.state.store.a + "")) {
     				set_data_dev(t2, t2_value);
     			}
 
-    			if ((changed.state) && t4_value !== (t4_value = ctx.state.b + "")) {
+    			if ((changed.state) && t4_value !== (t4_value = ctx.state.store.b + "")) {
     				set_data_dev(t4, t4_value);
     			}
 
-    			if ((changed.state) && t6_value !== (t6_value = ctx.state.hist + "")) {
+    			if ((changed.state) && t6_value !== (t6_value = ctx.state.store.hist + "")) {
     				set_data_dev(t6, t6_value);
     			}
     		},
@@ -617,6 +714,7 @@ var app = (function () {
     	
     	const dispatch = createEventDispatcher();
     	let { state } = $$props;
+    	// console.log('State',state)
     	const fixState = () => dispatch('fixstate',state);
 
     	const writable_props = ['state'];
@@ -671,7 +769,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (7:1) {#each states as state}
+    // (10:1) {#each states as state}
     function create_each_block(ctx) {
     	var current;
 
@@ -713,7 +811,7 @@ var app = (function () {
     			destroy_component(state, detaching);
     		}
     	};
-    	dispatch_dev("SvelteRegisterBlock", { block, id: create_each_block.name, type: "each", source: "(7:1) {#each states as state}", ctx });
+    	dispatch_dev("SvelteRegisterBlock", { block, id: create_each_block.name, type: "each", source: "(10:1) {#each states as state}", ctx });
     	return block;
     }
 
@@ -739,7 +837,7 @@ var app = (function () {
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
     			}
-    			add_location(div, file$2, 5, 0, 80);
+    			add_location(div, file$2, 8, 0, 190);
     		},
 
     		l: function claim(nodes) {
@@ -814,9 +912,10 @@ var app = (function () {
     }
 
     function instance$2($$self, $$props, $$invalidate) {
-    	let { states } = $$props;
+    	
+    	let { states, touch } = $$props;
 
-    	const writable_props = ['states'];
+    	const writable_props = ['states', 'touch'];
     	Object.keys($$props).forEach(key => {
     		if (!writable_props.includes(key) && !key.startsWith('$$')) console.warn(`<TimeMachine> was created with unknown prop '${key}'`);
     	});
@@ -827,29 +926,34 @@ var app = (function () {
 
     	$$self.$set = $$props => {
     		if ('states' in $$props) $$invalidate('states', states = $$props.states);
+    		if ('touch' in $$props) $$invalidate('touch', touch = $$props.touch);
     	};
 
     	$$self.$capture_state = () => {
-    		return { states };
+    		return { states, touch };
     	};
 
     	$$self.$inject_state = $$props => {
     		if ('states' in $$props) $$invalidate('states', states = $$props.states);
+    		if ('touch' in $$props) $$invalidate('touch', touch = $$props.touch);
     	};
 
-    	return { states, fixstate_handler };
+    	return { states, touch, fixstate_handler };
     }
 
     class TimeMachine extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$2, create_fragment$2, safe_not_equal, ["states"]);
+    		init(this, options, instance$2, create_fragment$2, safe_not_equal, ["states", "touch"]);
     		dispatch_dev("SvelteRegisterComponent", { component: this, tagName: "TimeMachine", options, id: create_fragment$2.name });
 
     		const { ctx } = this.$$;
     		const props = options.props || {};
     		if (ctx.states === undefined && !('states' in props)) {
     			console.warn("<TimeMachine> was created without expected prop 'states'");
+    		}
+    		if (ctx.touch === undefined && !('touch' in props)) {
+    			console.warn("<TimeMachine> was created without expected prop 'touch'");
     		}
     	}
 
@@ -860,18 +964,29 @@ var app = (function () {
     	set states(value) {
     		throw new Error("<TimeMachine>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
     	}
+
+    	get touch() {
+    		throw new Error("<TimeMachine>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set touch(value) {
+    		throw new Error("<TimeMachine>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
     }
 
     /* src\App.svelte generated by Svelte v3.12.1 */
 
     const file$3 = "src\\App.svelte";
 
-    // (91:0) {#if USE_TIME_MACHINE}
+    // (112:0) {#if USE_TIME_MACHINE}
     function create_if_block(ctx) {
     	var current;
 
     	var timemachine = new TimeMachine({
-    		props: { states: ctx.states },
+    		props: {
+    		touch: ctx.touch,
+    		states: ctx.states
+    	},
     		$$inline: true
     	});
     	timemachine.$on("fixstate", ctx.fixState);
@@ -908,19 +1023,19 @@ var app = (function () {
     			destroy_component(timemachine, detaching);
     		}
     	};
-    	dispatch_dev("SvelteRegisterBlock", { block, id: create_if_block.name, type: "if", source: "(91:0) {#if USE_TIME_MACHINE}", ctx });
+    	dispatch_dev("SvelteRegisterBlock", { block, id: create_if_block.name, type: "if", source: "(112:0) {#if USE_TIME_MACHINE}", ctx });
     	return block;
     }
 
     function create_fragment$3(ctx) {
-    	var h10, t0, t1, h11, t2, t3, t4, t5, t6, t7, t8, if_block_anchor, current;
+    	var h10, t0_value = ctx.$store.a + "", t0, t1, h11, t2_value = ctx.$store.b + "", t2, t3, t4, t5, t6, t7, t8, if_block_anchor, current;
 
     	var button0 = new Button({
     		props: {
     		klass: col3,
     		title: "+2",
     		click: ctx.func,
-    		disabled: ctx.a==ctx.b
+    		disabled: ctx.$store.a==ctx.$store.b
     	},
     		$$inline: true
     	});
@@ -930,7 +1045,7 @@ var app = (function () {
     		klass: col3,
     		title: "*2",
     		click: ctx.func_1,
-    		disabled: ctx.a==ctx.b
+    		disabled: ctx.$store.a==ctx.$store.b
     	},
     		$$inline: true
     	});
@@ -940,7 +1055,7 @@ var app = (function () {
     		klass: col3,
     		title: "/2",
     		click: ctx.func_2,
-    		disabled: ctx.a==ctx.b
+    		disabled: ctx.$store.a==ctx.$store.b
     	},
     		$$inline: true
     	});
@@ -950,7 +1065,7 @@ var app = (function () {
     		klass: col2,
     		title: "New",
     		click: ctx.func_3,
-    		disabled: ctx.a!=ctx.b
+    		disabled: ctx.$store.a!=ctx.$store.b
     	},
     		$$inline: true
     	});
@@ -960,7 +1075,7 @@ var app = (function () {
     		klass: col2,
     		title: "Undo",
     		click: ctx.func_4,
-    		disabled: ctx.hist.length==0
+    		disabled: ctx.$store.hist.length==0
     	},
     		$$inline: true
     	});
@@ -970,10 +1085,10 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			h10 = element("h1");
-    			t0 = text(ctx.a);
+    			t0 = text(t0_value);
     			t1 = space();
     			h11 = element("h1");
-    			t2 = text(ctx.b);
+    			t2 = text(t2_value);
     			t3 = space();
     			button0.$$.fragment.c();
     			t4 = space();
@@ -990,11 +1105,11 @@ var app = (function () {
     			attr_dev(h10, "class", "" + col2 + " svelte-1of37l2");
     			set_style(h10, "font-size", "60px");
     			set_style(h10, "color", "red");
-    			add_location(h10, file$3, 82, 0, 1446);
+    			add_location(h10, file$3, 103, 0, 2043);
     			attr_dev(h11, "class", "" + col2 + " svelte-1of37l2");
     			set_style(h11, "font-size", "60px");
     			set_style(h11, "color", "green");
-    			add_location(h11, file$3, 83, 0, 1508);
+    			add_location(h11, file$3, 104, 0, 2112);
     		},
 
     		l: function claim(nodes) {
@@ -1024,32 +1139,32 @@ var app = (function () {
     		},
 
     		p: function update(changed, ctx) {
-    			if (!current || changed.a) {
-    				set_data_dev(t0, ctx.a);
+    			if ((!current || changed.$store) && t0_value !== (t0_value = ctx.$store.a + "")) {
+    				set_data_dev(t0, t0_value);
     			}
 
-    			if (!current || changed.b) {
-    				set_data_dev(t2, ctx.b);
+    			if ((!current || changed.$store) && t2_value !== (t2_value = ctx.$store.b + "")) {
+    				set_data_dev(t2, t2_value);
     			}
 
     			var button0_changes = {};
-    			if (changed.a || changed.b) button0_changes.disabled = ctx.a==ctx.b;
+    			if (changed.$store) button0_changes.disabled = ctx.$store.a==ctx.$store.b;
     			button0.$set(button0_changes);
 
     			var button1_changes = {};
-    			if (changed.a || changed.b) button1_changes.disabled = ctx.a==ctx.b;
+    			if (changed.$store) button1_changes.disabled = ctx.$store.a==ctx.$store.b;
     			button1.$set(button1_changes);
 
     			var button2_changes = {};
-    			if (changed.a || changed.b) button2_changes.disabled = ctx.a==ctx.b;
+    			if (changed.$store) button2_changes.disabled = ctx.$store.a==ctx.$store.b;
     			button2.$set(button2_changes);
 
     			var button3_changes = {};
-    			if (changed.a || changed.b) button3_changes.disabled = ctx.a!=ctx.b;
+    			if (changed.$store) button3_changes.disabled = ctx.$store.a!=ctx.$store.b;
     			button3.$set(button3_changes);
 
     			var button4_changes = {};
-    			if (changed.hist) button4_changes.disabled = ctx.hist.length==0;
+    			if (changed.$store) button4_changes.disabled = ctx.$store.hist.length==0;
     			button4.$set(button4_changes);
 
     			if_block.p(changed, ctx);
@@ -1141,67 +1256,86 @@ var app = (function () {
     const UNDO = 'UNDO';
 
     function instance$3($$self, $$props, $$invalidate) {
+    	let $store;
+
+    	validate_store(store$1, 'store');
+    	component_subscribe($$self, store$1, $$value => { $store = $$value; $$invalidate('$store', $store); });
+
     	
 
-    	let a = null;
-    	let b = null;
-    	let hist = [];
+    	console.log('store',store$1);
+
     	let states = [];
+
+    	const touch = () => {
+    		$$invalidate('states', states);
+    		console.log('touch',states.length);
+    	};
+    	
+    	const random = (a,b) => a+Math.floor((b-a+1)*Math.random());
 
     	const resetState = () => {
     		if ( states.length > 0) {
     			let state = states[states.length-1];
-    			$$invalidate('a', a = state.a);
-    			$$invalidate('b', b = state.b);
-    			$$invalidate('hist', hist = state.hist.slice());
+    			console.log('reset',state.store);
+    			store$1.set(state.store); //.slice()
     		}
     	};
 
     	const saveState = (action) => {
     		{
-    			let state = {action,a,b,hist:hist.slice()};
+    			const obj = Object.assign({}, get_store_value(store$1));
+    			console.log('saveState',obj,states);
+    			let state = {action:action,store:obj}; //.slice()
     			states.push(state);
     			$$invalidate('states', states);
+    			// dispatch('fixstate')
     		}
     	};
 
-    	const op = (action) => {
+    	const operation = (st,action) => {
     		resetState();
+    		console.log('operation',st);
+    		let a = st.a;
+    		let b = st.b;
+    		let hist = st.hist;
+
     		if (action == ADD) {
     			hist.push(a);
-    			$$invalidate('hist', hist);
-    			$$invalidate('a', a += 2);
+    			hist=hist;
+    			a += 2;
     		} else if (action == MUL) {
     			hist.push(a);
-    			$$invalidate('hist', hist);
-    			$$invalidate('a', a *= 2);
+    			hist=hist;
+    			a *= 2;
     		} else if (action == DIV) {
     			hist.push(a);
-    			$$invalidate('hist', hist);
-    			$$invalidate('a', a /= 2);
+    			hist=hist;
+    			a /= 2;
     		} else if (action == NEW) {
-    			$$invalidate('a', a = random(1,20));
-    			$$invalidate('b', b = random(1,20));
-    			$$invalidate('hist', hist = []);
+    			a = random(1,20);
+    			b = random(1,20);
+    			hist = [];
     		} else if (action == UNDO) {
-    			$$invalidate('a', a = hist.pop());
-    			$$invalidate('hist', hist); 
+    			a = hist.pop();
+    			hist = hist; 
     		} else {
     			console.log('Missing action: ' + action);
     		}
+    		store$1.set({a:a, b:b, hist:hist.slice()});
     		saveState(action);
-    	};
+    		return {a:a, b:b, hist:hist}
+    	}; 
 
-    	const random = (a,b) => a+Math.floor((b-a+1)*Math.random());
+    	const op = (action) => store$1.update( st => operation(st,action) );
+    		
+    	const fixState = (event) => {
+    		let st = event.detail.store;
+    		console.log('fixState',st); //.a,event.detail.b,event.detail.hist)
+    		store$1.set({a:st.a, b:st.b, hist:st.hist});
+    	};
 
     	op(NEW);
-
-    	const fixState = (event) => {
-    		console.log('fixState',event.detail);
-    		$$invalidate('a', a = event.detail.a);
-    		$$invalidate('b', b = event.detail.b);
-    		$$invalidate('hist', hist = event.detail.hist.slice());
-    	};
 
     	const func = () => op(ADD);
 
@@ -1218,19 +1352,16 @@ var app = (function () {
     	};
 
     	$$self.$inject_state = $$props => {
-    		if ('a' in $$props) $$invalidate('a', a = $$props.a);
-    		if ('b' in $$props) $$invalidate('b', b = $$props.b);
-    		if ('hist' in $$props) $$invalidate('hist', hist = $$props.hist);
     		if ('states' in $$props) $$invalidate('states', states = $$props.states);
+    		if ('$store' in $$props) store$1.set($store);
     	};
 
     	return {
-    		a,
-    		b,
-    		hist,
     		states,
+    		touch,
     		op,
     		fixState,
+    		$store,
     		func,
     		func_1,
     		func_2,
