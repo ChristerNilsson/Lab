@@ -904,7 +904,7 @@ var app = (function () {
 
     const file$3 = "src\\App.svelte";
 
-    // (93:0) {#if USE_TIME_MACHINE}
+    // (82:0) {#if USE_TIME_MACHINE}
     function create_if_block(ctx) {
     	var current;
 
@@ -945,12 +945,12 @@ var app = (function () {
     			destroy_component(timemachine, detaching);
     		}
     	};
-    	dispatch_dev("SvelteRegisterBlock", { block, id: create_if_block.name, type: "if", source: "(93:0) {#if USE_TIME_MACHINE}", ctx });
+    	dispatch_dev("SvelteRegisterBlock", { block, id: create_if_block.name, type: "if", source: "(82:0) {#if USE_TIME_MACHINE}", ctx });
     	return block;
     }
 
     function create_fragment$3(ctx) {
-    	var h10, t0_value = ctx.$store.a + "", t0, t1, h11, t2_value = ctx.$store.b + "", t2, t3, t4, t5, t6, t7, t8, if_block_anchor, current;
+    	var h10, t0_value = ctx.$store.a + "", t0, t1, h11, t2_value = ctx.$store.b + "", t2, t3, t4, t5, t6, t7, t8, hr, t9, if_block_anchor, current;
 
     	var button0 = new Button({
     		props: {
@@ -1002,7 +1002,7 @@ var app = (function () {
     		$$inline: true
     	});
 
-    	var if_block =  create_if_block(ctx);
+    	var if_block = (USE_TIME_MACHINE) && create_if_block(ctx);
 
     	const block = {
     		c: function create() {
@@ -1022,16 +1022,18 @@ var app = (function () {
     			t7 = space();
     			button4.$$.fragment.c();
     			t8 = space();
-    			if (if_block) if_block.c();
+    			hr = element("hr");
+    			t9 = space();
     			if_block_anchor = empty();
     			attr_dev(h10, "class", "" + col2 + " svelte-1of37l2");
     			set_style(h10, "font-size", "60px");
     			set_style(h10, "color", "red");
-    			add_location(h10, file$3, 84, 0, 1562);
+    			add_location(h10, file$3, 73, 0, 1386);
     			attr_dev(h11, "class", "" + col2 + " svelte-1of37l2");
     			set_style(h11, "font-size", "60px");
     			set_style(h11, "color", "green");
-    			add_location(h11, file$3, 85, 0, 1631);
+    			add_location(h11, file$3, 74, 0, 1455);
+    			add_location(hr, file$3, 80, 0, 1979);
     		},
 
     		l: function claim(nodes) {
@@ -1055,7 +1057,8 @@ var app = (function () {
     			insert_dev(target, t7, anchor);
     			mount_component(button4, target, anchor);
     			insert_dev(target, t8, anchor);
-    			if (if_block) if_block.m(target, anchor);
+    			insert_dev(target, hr, anchor);
+    			insert_dev(target, t9, anchor);
     			insert_dev(target, if_block_anchor, anchor);
     			current = true;
     		},
@@ -1088,8 +1091,6 @@ var app = (function () {
     			var button4_changes = {};
     			if (changed.$store) button4_changes.disabled = ctx.$store.hist.length==0;
     			button4.$set(button4_changes);
-
-    			if_block.p(changed, ctx);
     		},
 
     		i: function intro(local) {
@@ -1154,9 +1155,9 @@ var app = (function () {
 
     			if (detaching) {
     				detach_dev(t8);
+    				detach_dev(hr);
+    				detach_dev(t9);
     			}
-
-    			if (if_block) if_block.d(detaching);
 
     			if (detaching) {
     				detach_dev(if_block_anchor);
@@ -1166,6 +1167,8 @@ var app = (function () {
     	dispatch_dev("SvelteRegisterBlock", { block, id: create_fragment$3.name, type: "component", source: "", ctx });
     	return block;
     }
+
+    const USE_TIME_MACHINE = false;
 
     const ADD = 'ADD';
 
@@ -1186,72 +1189,45 @@ var app = (function () {
     	
 
     	let states = [];
-    	
-    	const random = (a,b) => a+Math.floor((b-a+1)*Math.random());
 
-    	const resetState = () => {
-    		if ( states.length > 0) {
-    			let state = states[states.length-1];
-    			let st = state.store;
-    			store.set({a:st.a, b:st.b, hist:st.hist.slice()}); 
-    		}
-    	};
-
-    	const saveState = (action) => {
-    		{
-    			states.push({action:action,store:$store});
-    			$$invalidate('states', states);
-    		}
-    	};
-
-    	const operation = (st,action) => {
-    		let a = st.a;
-    		let b = st.b;
-    		let hist = st.hist;
+    	const operation = (action) => {
+    		let a = $store.a;
+    		let b = $store.b;
+    		let hist = $store.hist;
 
     		if (action == ADD) {
     			hist.push(a);
-    			hist=hist;
     			a += 2;
     		} else if (action == MUL) {
     			hist.push(a);
-    			hist=hist;
     			a *= 2;
     		} else if (action == DIV) {
     			hist.push(a);
-    			hist=hist;
     			a /= 2;
     		} else if (action == NEW) {
+    			const random = (a,b) => a+Math.floor((b-a+1)*Math.random());
     			a = random(1,20);
     			b = random(1,20);
     			hist = [];
     		} else if (action == UNDO) {
     			a = hist.pop();
-    			hist = hist; 
     		} else {
     			console.log('Missing action: ' + action);
     		}
     		store.set({a:a, b:b, hist:hist.slice()});
-    		saveState(action);
-    		return {a:a, b:b, hist:hist}
     	}; 
 
-    	const op = (action) => {
-    		resetState();
-    		store.update(st => operation(st,action) );
-    	};
+    	operation(NEW);
 
-    	op(NEW);
+    	const func = () => operation(ADD);
 
-    	const func = () => op(ADD);
+    	const func_1 = () => operation(MUL);
 
-    	const func_1 = () => op(MUL);
+    	const func_2 = () => operation(DIV);
 
-    	const func_2 = () => op(DIV);
+    	const func_3 = () => operation(NEW);
 
-    	const func_3 = () => op(NEW);
-
-    	const func_4 = () => op(UNDO);
+    	const func_4 = () => operation(UNDO);
 
     	$$self.$capture_state = () => {
     		return {};
@@ -1271,7 +1247,7 @@ var app = (function () {
 
     	return {
     		states,
-    		op,
+    		operation,
     		done,
     		$store,
     		func,
