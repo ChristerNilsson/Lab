@@ -1,20 +1,18 @@
-class TestShortcut extends TestReducer
-	constructor : () ->
-		super()
+stack = []
 
-		@reducers =
-			ADD: (state) => @op state, state.a+2
-			MUL: (state) => @op state, state.a*2
-			DIV: (state) => @op state, state.a/2
-			NEW: (state) => {b:@stack.pop(), a:@stack.pop(), hist:[]}
-			UNDO:(state) =>
-				[...hist,a] = state.hist
-				{...state, a, hist}	
+reducers =
+	ADD: (state) => op state, state.a+2
+	MUL: (state) => op state, state.a*2
+	DIV: (state) => op state, state.a/2
+	NEW: (state) => {b:stack.pop(), a:stack.pop(), hist:[]}
+	UNDO:(state) =>
+		[...hist,a] = state.hist
+		{...state, a, hist}	
 
-	op : (state, value) ->
-		hist = [...state.hist, state.a]
-		a = value
-		{...state, a, hist}
+op = (state, value) ->
+	hist = [...state.hist, state.a]
+	a = value
+	{...state, a, hist}
 
 script = """
 {"a":17,"b":1,"hist":[]}
@@ -34,9 +32,9 @@ script = """
 {"a":9,"b":8,"hist":[18]}
 	A 9 B 8
 """
-tester = new TestShortcut()
+
 start = new Date()
-for i in range 10000
-	tester.run script
+for i in range 1
+	run script
 console.log new Date()-start
 console.log 'Ready!'
