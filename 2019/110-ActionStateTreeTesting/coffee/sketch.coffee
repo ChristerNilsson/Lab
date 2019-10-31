@@ -1,13 +1,13 @@
-stack = []
+mystack = []
 
-reducers =
-	ADD: (state) => op state, state.a+2
-	MUL: (state) => op state, state.a*2
-	DIV: (state) => op state, state.a/2
-	NEW: (state) => {b:stack.pop(), a:stack.pop(), hist:[]}
-	UNDO:(state) =>
+reducers = 
+	ADD: (state) -> op state, state.a+2
+	MUL: (state) -> op state, state.a*2
+	DIV: (state) -> op state, state.a/2
+	NEW: (state) -> {b:mystack.pop(), a:mystack.pop(), hist:[]}
+	UNDO:(state) ->
 		[...hist,a] = state.hist
-		{...state, a, hist}	
+		{...state, a, hist}
 
 op = (state, value) ->
 	hist = [...state.hist, state.a]
@@ -33,8 +33,7 @@ script = """
 	A 9 B 8
 """
 
-start = new Date()
-for i in range 1
-	run script
-console.log new Date()-start
+tester = testReducer script,reducers,mystack
+tester.run()
+
 console.log 'Ready!'

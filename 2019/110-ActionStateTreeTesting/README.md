@@ -59,7 +59,7 @@ reducers =
 ## Sample test script
 
 * No spaces are allowed in the JSONs
-* Indentation matters
+* Indentation matters and uses tabs
 * Each line might contain zero or more reducers
 * Each line might contain zero or more comparison pairs
 
