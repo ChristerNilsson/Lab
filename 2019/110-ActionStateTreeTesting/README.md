@@ -10,34 +10,67 @@
 
 # Varje rad tömmer stacken. Är stacken ej tom, ska det finnas exakt jämnt antal som testas med ==
 
-# Shortcut Operationer med Signaturer:
+# Shortcut Game:
 
-# INIT (-2 0) (konsumerar 2 producerar 0)
-# ADD (0 0)
-# MUL (0 0)
-# DIV (0 0)
-# STATE (0 1)
-# A (0 1)
-# B (0 1)
-# HIST (0 1)
+## Application Code
 
-# INIT och STATE är obligatoriska kommandon
+```
+op = (state, value) ->
+	hist = [...state.hist, state.a]
+	a = value
+	{...state, a, hist}
 
-0 17 1 INIT A 17 B 1
-	1 ADD STATE {a:19,b:1,hist:[17]}
-	1 ADD A 19
-	1 ADD B 1
-	1 ADD HIST [17]
-	1 ADD A 19 B 1
-	1 ADD A 19 B 1 HIST [17]
-	1 MUL STATE {a:34,b:1,hist:[17]}
-		2 ADD STATE {a:36,b:1,hist:[17,34]}
-	1 MUL ADD DIV A 18
+reducers = 
+	ADD: (state) -> op state, state.a+2
+	MUL: (state) -> op state, state.a*2
+	DIV: (state) -> op state, state.a/2
+	NEW: (state) -> {b:stack.pop(), a:stack.pop(), hist:[]}
+	UNDO:(state) ->
+		[...hist,a] = state.hist
+		{...state, a, hist}	
+```
 
-# Exempel på Felmeddelanden
+# Reducing commands
+* NEW (-2 0) (consumes produces)
+* ADD (0 0)
+* MUL (0 0)
+* DIV (0 0)
 
-Line 17: Orphan element found on the stack
-Line 18: Expected 17, got 19
-Line 19: Stack underflow
-Line 20: Illegal State Level
-Line 21: Expected {a:19,b:1,hist:[17]}, got {a:19,b:1,hist:[]}
+# Other commands
+* STATE (0 1)
+* A (0 1)
+* B (0 1)
+* HIST (0 1)
+
+# Sample test script
+
+* First line contains state 0
+* Indentation is not mandatory
+* First number is the state level
+* State 1 is based on state 0
+* No spaces are allowed in the JSONs
+
+```
+{"a":17,"b":1,"hist":[]}
+0 A 17 B 1
+0 ADD 
+	1 STATE {"a":19,"b":1,"hist":[17]}
+	1 A 19
+	1 B 1
+	1 HIST [17] 
+	1 A 19 B 1
+	1 A 19 B 1 HIST [17]
+0 MUL STATE {"a":34,"b":1,"hist":[17]}
+	1 ADD STATE {"a":36,"b":1,"hist":[17,34]}
+		2 UNDO STATE {"a":34,"b":1,"hist":[17]}
+0 MUL ADD DIV A 18
+	1 INIT STATE {"a":17,"b":1,"hist":[]}
+```
+
+# Sample Error Messages
+
+* Line 17: Orphan element found on the stack
+* Line 18: Expected 17, got 19
+* Line 19: Stack underflow
+* Line 20: Illegal State Level
+* Line 21: Expected {a:19,b:1,hist:[17]}, got {a:19,b:1,hist:[]}
