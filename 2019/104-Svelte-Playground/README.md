@@ -110,3 +110,7 @@ Increases the size of bundle.js
 
 * @import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css)
 * [HackerThemes Cheat Sheet](https://hackerthemes.com/bootstrap-cheatsheet/)
+
+## Problem
+
+Tvingades installera has, nice-try samt debug av någon anledning

@@ -1,16 +1,8 @@
 {
   "version": 3,
   "file": "bundle.css",
-  "sources": [
-    "..\\src\\App.svelte",
-    "..\\src\\Button.svelte",
-    "..\\src\\State.svelte"
-  ],
-  "sourcesContent": [
-    "<script>\t \n\timport store  from './store.js'\n\timport { col1,col2,col3 } from '../styles.js'\n\timport Button from './Button.svelte'\n\timport TimeMachine from './TimeMachine.svelte'\n\n\tconst USE_TIME_MACHINE = true\n\n\tlet states = []\n\n\tconst ADD = 'ADD'\n\tconst MUL = 'MUL' \n\tconst DIV = 'DIV'\n\tconst NEW = 'NEW'\n\tconst UNDO = 'UNDO'\n\n\t$: done = $store.a == $store.b\n\t\n\tconst resetState = () => {\n\t\tif (USE_TIME_MACHINE && states.length > 0) {\n\t\t\tlet state = states[states.length-1]\n\t\t\tlet st = state.store\n\t\t\tstore.set({a:st.a, b:st.b, hist:st.hist.slice()}) \n\t\t}\n\t}\n\n\tconst saveState = (action) => {\n\t\tif (USE_TIME_MACHINE) {\n\t\t\tstates.push({action:action,store:$store})\n\t\t\tstates = states\n\t\t}\n\t}\n\n\tconst operation = (action) => {\n\t\tresetState()\n\t\tlet a = $store.a\n\t\tlet b = $store.b\n\t\tlet hist = $store.hist\n\n\t\tif (action == ADD) {\n\t\t\thist.push(a)\n\t\t\ta += 2\n\t\t} else if (action == MUL) {\n\t\t\thist.push(a)\n\t\t\ta *= 2\n\t\t} else if (action == DIV) {\n\t\t\thist.push(a)\n\t\t\ta /= 2\n\t\t} else if (action == NEW) {\n\t\t\tconst random = (a,b) => a+Math.floor((b-a+1)*Math.random())\n\t\t\ta = random(1,20)\n\t\t\tb = random(1,20)\n\t\t\thist = []\n\t\t} else if (action == UNDO) {\n\t\t\ta = hist.pop()\n\t\t} else {\n\t\t\tconsole.log('Missing action: ' + action)\n\t\t}\n\t\tstore.set({a:a, b:b, hist:hist.slice()})\n\t\tsaveState(action)\n\t} \n\n\toperation(NEW)\n\n</script> \n \n<style>\n\th1 {\n\t\tfont-size: 30px;\n\t\ttext-align: center;\n\t}\n</style>\n\n<h1 class={col2} style='font-size: 60px; color:red;'>{$store.a}</h1>\n<h1 class={col2} style='font-size: 60px; color:green;'>{$store.b}</h1>\n<Button klass={col3} title='+2'   click = {() => operation(ADD)}  disabled = {done} />\n<Button klass={col3} title='*2'   click = {() => operation(MUL)}  disabled = {done} />\n<Button klass={col3} title='/2'   click = {() => operation(DIV)}  disabled = {done} />\n<Button klass={col2} title='New'  click = {() => operation(NEW)}  disabled = {!done} />\n<Button klass={col2} title='Undo' click = {() => operation(UNDO)} disabled = {$store.hist.length==0} />\n<hr/>\n{#if USE_TIME_MACHINE}\n\t<TimeMachine states={states} />\n{/if}\n",
-    "<script>\r\n\timport { col1,col2,col3 } from '../styles.js'\r\n\texport let click\r\n\texport let disabled\r\n\texport let title\r\n\texport let klass\r\n\r\n\tif (window.innerWidth < 600) klass=col1\r\n\t\t\r\n</script>\r\n\r\n<style>\r\n\tbutton {font-size: 30px;}\r\n</style>\r\n\r\n<button class={klass} on:click={click} disabled={disabled}>{title}</button>",
-    "<script>\r\n\timport store from './store.js'\r\n\timport { col1 } from '../styles.js'\r\n\texport let state\t\r\n</script>\r\n\r\n<style>\r\n\tbutton {text-align:left}\r\n</style>\r\n\r\n<button class=col1 on:click={() => store.set(state.store)}>\r\n\t{state.action} a:{state.store.a} b:{state.store.b} hist:[{state.store.hist}]\r\n</button>\r\n"
-  ],
+  "sources": [],
+  "sourcesContent": [],
   "names": [],
-  "mappings": "AAmEC,EAAE,eAAC,CAAC,AACH,SAAS,CAAE,IAAI,CACf,UAAU,CAAE,MAAM,AACnB,CAAC;AC1DD,MAAM,eAAC,CAAC,SAAS,CAAE,IAAI,AAAC,CAAC;ACLzB,MAAM,eAAC,CAAC,WAAW,IAAI,CAAC"
+  "mappings": ""
 }

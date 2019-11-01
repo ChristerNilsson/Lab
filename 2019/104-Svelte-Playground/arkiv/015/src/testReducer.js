@@ -10,10 +10,11 @@ const testReducer = function(script, reducers, stack) {
 	run = function() {
 		var i, len, line, nr, ref, results;
 		ref = script.split('\n');
+		// console.log(ref)
 		results = [];
 		for (nr = i = 0, len = ref.length; i < len; nr = ++i) {
 			line = ref[nr];
-			console.log(line)
+			// console.log(line)
 			results.push(runTest(line, nr));
 		}
 		return errors;
@@ -23,7 +24,7 @@ const testReducer = function(script, reducers, stack) {
 		index = countTabs(line);
 		line = line.trim();
 		if (index === 0) {
-			console.log(line)
+			// console.log(line)
 			return states = [JSON.parse(line)];
 		}
 		stack.length = 0;

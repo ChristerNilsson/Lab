@@ -11,15 +11,18 @@
     "rollup-plugin-svelte": "^5.0.3",
     "rollup-plugin-terser": "^4.0.4",
     "stylus": "^0.54.7",
-    "svelte": "^3.0.0",
+    "svelte": "^3.12.1",
     "svelte-preprocess": "^3.1.2"
   },
   "dependencies": {
     "@datorama/akita": "^4.10.9",
     "d3-scale": "^3.2.0",
+    "debug": "^4.1.1",
     "emotion": "^10.0.17",
     "fs-extra": "^8.1.0",
+    "has": "^1.0.3",
     "lodash": "^4.17.15",
+    "nice-try": "^2.0.0",
     "pug": "^2.0.4",
     "sirv-cli": "^0.4.4",
     "svelte-routing": "^1.4.0"

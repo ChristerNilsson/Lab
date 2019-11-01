@@ -254,7 +254,7 @@ var app = (function () {
     		c: function create() {
     			h1 = element("h1");
     			h1.textContent = "src000";
-    			add_location(h1, file, 3, 0, 21);
+    			add_location(h1, file, 3, 0, 24);
     		},
 
     		l: function claim(nodes) {
