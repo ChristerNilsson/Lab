@@ -1,9 +1,9 @@
 @echo off
 rem .\get 001
 
-move arkiv\%1\src\*.* src > nul
-move arkiv\%1\public\*.* public > nul
+node xmove arkiv\%1\src src
+node xmove arkiv\%1\public public
 
-ren arkiv arkiv%1 > nul
+ren arkiv arkiv%1
 
-call npm run dev
+rem call npm run dev
