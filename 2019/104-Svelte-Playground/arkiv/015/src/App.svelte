@@ -65,7 +65,7 @@ div {
 }
 </style>
 
-<div style='position: absolute;left: 10px;top: 10px;'>
+<div style='position:absolute; left:1050px; top:10px;'>
 	<h2>Action State Tree Testing</h2>
 	<div>This is a compact format for making tests</div>
 	<div>Each line contains zero or more actions</div>
