@@ -3,20 +3,22 @@
 
 const assert = chai.assert.deepEqual;
 
-const testReducer = function(script, reducers, stack) {
+const testReducer = function(reducers, stack) {
 	var countTabs, rpn, run, runTest, states;
 	var errors = []
 	states = [];
-	run = function() {
+	run = function(script) {
 		var i, len, line, nr, ref, results;
 		ref = script.split('\n');
 		// console.log(ref)
 		results = [];
+		errors = []
 		for (nr = i = 0, len = ref.length; i < len; nr = ++i) {
 			line = ref[nr];
 			// console.log(line)
 			results.push(runTest(line, nr));
 		}
+		console.log(errors)
 		return errors;
 	};
 	runTest = function(line, nr) {
