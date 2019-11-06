@@ -1,9 +1,9 @@
 <script>
-	export let pair
 	export let score
 	export let undos
-	export let stopp
 	export let ready
+	export let stopp
+	export let pair
 	
 	let a = pair[0]
 	let b = pair[1]
@@ -11,16 +11,17 @@
 	const orig = `${a} to ${b}`
 	let hist = []
 	$: done = a==b
-	$: score = hist.length
 	$: bgcolor = done ? 'green' : 'grey'
 	const op = (value) => {
 		hist.push(a)
 		hist=hist
 		a = value
-		if (a==b) ready=1
+		score += 1
+		if (a==b) ready+=1
 		stopp = new Date()
 	}
 	const undo = () => {
+		score -= 1
 		undos += 1
 		a=hist.pop()
 		hist=hist

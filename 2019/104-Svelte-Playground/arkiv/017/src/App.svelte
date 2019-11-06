@@ -1,13 +1,16 @@
-<script>
+<script> 
 	import Shortcut from './Shortcut.svelte'
 	import Statistics from './Statistics.svelte'
 	import range from 'lodash.range'
 	import shuffle from 'lodash.shuffle'
+	import {solve} from './solve.js' 
+
 	const N = 24
 
-	const score = range(N).map(() => 0)
-	const undos = range(N).map(() => 0)
-	const ready = range(N).map(() => 0)
+	let score = 0
+	let undos = 0
+	let ready = 0
+
 	const start = new Date()
 	let stopp = new Date()
 
@@ -18,20 +21,30 @@
 		}
 	}
 	cand = shuffle(cand)
+
+	let optimum = 0
+	for (const i in range(N)) {
+		const pair = cand[i]
+		optimum += solve(pair[0], pair[1])
+	}
+
 </script>
 
 {#each range(N) as i}
 	<Shortcut
-	bind:ready = {ready[i]}
+	bind:score = {score}
+	bind:undos = {undos}
+	bind:ready = {ready}
 	bind:stopp = {stopp}
 	pair = {cand[i]}
-	bind:score = {score[i]}
-	bind:undos = {undos[i]}/>
+	/>
 {/each}
 
 <Statistics
-	ready = {ready.reduce((a,b) => a+b)}
+	score = {score}
+	undos = {undos}
+	ready = {ready}
 	start = {start}
 	stopp = {stopp}
-	score = {score.reduce((a,b) => a+b)}
-	undos = {undos.reduce((a,b) => a+b)}/>
+	optimum = {optimum}
+/>
