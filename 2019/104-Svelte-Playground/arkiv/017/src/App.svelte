@@ -25,7 +25,9 @@
 	let optimum = 0
 	for (const i in range(N)) {
 		const pair = cand[i]
+		const pathLength = solve(pair[0], pair[1])
 		optimum += solve(pair[0], pair[1])
+		//console.log(pair[0],pair[1],pathLength)
 	}
 
 </script>

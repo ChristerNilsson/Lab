@@ -5,7 +5,7 @@ const solve = (a,b) => {
 		if (cands0.includes(b)) return counter
 		const cands1 = []
 		const op = (value) => {
-			if (1 <= value && value <= 40) cands1.push(value)
+			if (value <= 40 && !cands1.includes(value)) cands1.push(value)
 		}
 		for (const cand of cands0) {
 			op(cand+2)
