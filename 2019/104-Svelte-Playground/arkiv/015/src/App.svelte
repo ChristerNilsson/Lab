@@ -1,4 +1,4 @@
-<script>	 
+<script>
 import testReducer from './testReducer.js'
 import Info from './Info.svelte'
 
@@ -39,11 +39,11 @@ let script = `
 	MUL ADD DIV ADD DIV ADD DIV ADD DIV DIV DIV @a @b
 `
 const editor = CodeMirror(document.body, {
-	lineNumbers: true, 
+	lineNumbers: true,
 	tabSize:2,
 	indentWithTabs: true,
 	theme : 'dracula'
-}); 
+})
 editor.setSize(1000,600)
 editor.setValue(script.trim())
 editor.on("change", () => {
@@ -53,12 +53,12 @@ editor.on("change", () => {
 const viewer = CodeMirror(document.body, {
 	readOnly:true,
 	tabSize:2,
-});
+})
 viewer.setSize(1000,300)
 
-const reducer = testReducer(reducers, stack) 
+const reducer = testReducer(reducers, stack)
 viewer.setValue(reducer.run(editor.getValue()).join('\n'))
 
-</script> 
+</script>
 
 <Info />

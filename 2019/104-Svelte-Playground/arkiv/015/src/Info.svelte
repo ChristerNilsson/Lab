@@ -47,7 +47,7 @@ test('adds 1 + 2 to equal 3', () => {'{'}
 		<li>@b : Target number</li>
 		<li>@hist : List for Undo</li>
 	</ul>
-	<div>&nbsp;</div>
+	
 	Known bugs:
 	<ul>
 		<li>Spaces are not allowed in expressions</li>
