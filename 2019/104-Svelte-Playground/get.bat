@@ -1,8 +1,8 @@
 @echo off
 rem .\get 001
 
-node xmove arkiv\%1\src src
-node xmove arkiv\%1\public public
+move arkiv\%1\src src
+move arkiv\%1\public public
 
 ren arkiv arkiv%1
 
