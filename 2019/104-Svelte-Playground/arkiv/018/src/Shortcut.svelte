@@ -9,7 +9,8 @@
 	let a = pair.a
 	let b = pair.b
 
-	const orig = `${a} to ${b}`
+	const origa = a.toString()
+	const origb = b.toString()
 	let hist = []
 	$: done = a.eq(b)
 	$: bgcolor = done ? 'green' : 'grey'
@@ -41,10 +42,12 @@
 
 <div class="w100 fs marg br row row left {bgcolor} lighten-1 black-text center-align" >
 	{#if done}
-		<div>{orig}</div>
+		<div>{origa}</div>
+		<div>{origb}</div>
 		{hist.length} steps
 	{:else}
-		<div>{a} to {b}</div>
+		<div>{a}</div>
+		<div>{b}</div>
 		<button on:click={() => op('+1')} disabled={done}>+1</button>
 		<button on:click={() => op('*2')} disabled={done}>*2</button>
 		<button on:click={() => op('*i')} disabled={done}>*i</button>

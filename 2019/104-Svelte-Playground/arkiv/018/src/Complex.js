@@ -14,6 +14,7 @@ class Complex {
 		if (im == 1) ims = '+i'
 		if (im == -1) ims = '-i'
 		let result = res + ims
+		if (result[0] == '+') result=result.slice(1)
 		if (result=='') result = '0'
 		return result
 	}
