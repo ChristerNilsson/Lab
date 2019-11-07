@@ -8,6 +8,7 @@
 	import sample from 'lodash.sample'
 
 	const N = 24
+	const M = 3
 
 	let score = 0
 	let undos = 0
@@ -35,15 +36,15 @@
 		visited[a.toString()] = 0
 		memory[a.toString()] = a
 
-		for (const level of range(n)) {
+		for (const lvl of range(n)) {
 			const cands1 = [] 
-			const op = (a) => {
-				if (Math.abs(a.re) <= 10 && Math.abs(a.im) <= 10) {
-					const key = a.toString()
-					if (!(key in visited)) {
-						cands1.push(a)
-						visited[key] = level
-						memory[key] = a
+			const op = (p) => {
+				if (Math.abs(p.re) <= 10 && Math.abs(p.im) <= 10) {
+					const key = p.toString()
+					if (!(key in memory)) {
+						cands1.push(p)
+						visited[key] = lvl+1
+						memory[key] = p
 					}
 				}
 			}
@@ -68,9 +69,9 @@
 	}
 
 	let candidates = []
-	for (const i in range(6)) {
-		for (const j in range(4)) {
-			candidates.push(createCandidates(i+1))
+	for (const level of range(M)) {
+		for (const j of range(24/M)) {
+			candidates.push(createCandidates(level+1))
 		}
 	}
 	candidates = shuffle(candidates)
