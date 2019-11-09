@@ -7,9 +7,9 @@
 </style>
 
 <div class="w100 fs marg br ff row left yellow black-text" >
-	<div>Info: p = x + iy</div>
-	<div>+1 p+1 (translate)</div>
-	<div>*2 p*2 (scale)</div>
-	<div>*i p*i (rotate)</div>
-	<div>{'m x <=> y'}</div>
+	<div>p=x+iy info i*i=-1</div>
+	<div>+1 p+1   translate</div>
+	<div>*2 p*2       scale</div>
+	<div>*i p*i      rotate</div>
+	<div>{'m x <=> y  mirror'}</div>
 </div>
