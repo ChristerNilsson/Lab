@@ -40,7 +40,7 @@
 	.br {border-radius:5px}
 </style>
 
-<div class="w100 fs marg br row row left {bgcolor} lighten-1 black-text center-align" >
+<div class="w100 fs marg br row left {bgcolor} lighten-1 black-text center-align" >
 	{#if done}
 		<div>{origa}</div>
 		<div>{origb}</div>

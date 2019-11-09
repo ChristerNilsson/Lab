@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "..\\src\\App.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\r\n\t\r\n\tconst colors = 'red pink purple deep-purple indigo blue light-blue cyan teal green light-green lime yellow amber orange deep-orange brown grey blue-grey black white transparent'.split(' ')\r\n\tconst palettes = 'lighten-5 lighten-4 lighten-3 lighten-2 lighten-1 darken-1 darken-2 darken-3 darken-4 accent-1 accent-2 accent-3 accent-4'.split(' ')\r\n\t\r\n\tlet color='blue'\r\n\tlet palette='lighten-1'\r\n\tlet colorText='yellow-text'\r\n\tlet textPalette='text-lighten-1'\r\n\r\n\t$: class1 = `${color} ${colorText}`\r\n\t$: class2 = `${color} ${palette} ${colorText} ${textPalette}`\r\n\t\r\n\t// Makes Materialize handle select\r\n\tdocument.addEventListener('DOMContentLoaded', function() {\r\n\t\tconst elems = document.querySelectorAll('select')\r\n\t\tconst instances = M.FormSelect.init(elems, {})\r\n\t})\r\n\r\n\tconst combinations = colors.length * (palettes.length+1) * colors.length * (palettes.length+1)\r\n\r\n</script> \r\n\r\n<style>\r\n\t.width {width:200px}\r\n</style>\r\n\r\nMaterialize: {combinations} color combinations\r\n\r\n<div class=\"row\">\r\n\t<div class={class1}>{class1}</div>\r\n\t<div class={class2}>{class2}</div>\r\n</div>\r\n\r\n<div class='row col left'>\r\n\r\n\t<div class=\"input-field col s6\">\r\n\t\t<select bind:value={color}>\r\n\t\t\t{#each colors as color}\r\n\t\t\t\t<option value={color}>{color}</option>\r\n\t\t\t{/each}\r\n\t\t</select>\r\n\t</div>\r\n\r\n\t<div class=\"input-field col s6\">\r\n\t\t<select bind:value={palette}>\r\n\t\t\t{#each palettes as palette}\r\n\t\t\t\t<option value={palette}>{palette}</option>\r\n\t\t\t{/each}\r\n\t\t</select>\r\n\t</div>\r\n\r\n\t<div class=\"input-field col s6\">\r\n\t\t<select bind:value={colorText}>\r\n\t\t\t{#each colors as color}\r\n\t\t\t\t<option value=\"{color}-text\">{color}-text</option>\r\n\t\t\t{/each}\r\n\t\t</select>\r\n\t</div>\r\n\r\n\t<div class=\"input-field col s6\">\r\n\t\t<select bind:value={textPalette}>\r\n\t\t\t{#each palettes as palette}\r\n\t\t\t\t<option value=\"text-{palette}\">text-{palette}</option>\r\n\t\t\t{/each}\r\n\t\t</select>\r\n\t</div>\r\n\r\n</div>\r\n\r\n"
+  ],
+  "names": [],
+  "mappings": "AAwBC,MAAM,eAAC,CAAC,MAAM,KAAK,CAAC"
+}
