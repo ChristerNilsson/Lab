@@ -33,7 +33,7 @@
 
 	<text style='fill:{textfill}' class=city y=25>{city.name}</text>
 	<line class='{halfday} hour'   y1=6 y2=-32 transform = rotate({30 * (h + m / 60)}) />
-	<line class='{halfday} minute' y1=6 y2=-45 transform = rotate({6 * (m + s / 60)}) />
+	<line class='{halfday} minute' y1=6 y2=-45 transform = rotate({6 * m}) />
 	<line class=second y1=10 y2=-34 transform = rotate({6 * s}) />
 	<g transform = rotate({6 * s})>
 		<circle class=second x=0 y=0 r=3 transform = translate(0,-34) />
