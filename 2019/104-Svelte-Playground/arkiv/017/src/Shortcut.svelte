@@ -4,6 +4,10 @@
 	import Statistics from 	'./Statistics.svelte'
 	import Indicator from 	'./Indicator.svelte'
 
+	export let ADD
+	export let MUL
+	export let DIV
+	export let SUB
 	export let index
 	export let score
 	export let undos
@@ -15,9 +19,12 @@
 	export let cand
 	export let undo
 	export let op
+	export let N
+	export let mm
 
 	$: hist = cand[index].hist
 	$: bgcolor = a==b ? 'green' : 'grey'
+
 </script>
 
 <style>
@@ -29,12 +36,10 @@
 </style>
 
 <div class="w row s12 br fs marg {bgcolor} lighten-1 black-text center-align" >
-
-	<Navigation {cand} bind:index={index} />
-	<Commands {cand} {index} {undo} {op} />
-	<Statistics {score} {undos} {start} {stopp} {optimum} />
-	<Indicator {cand} {index} />
-
+	<Navigation {cand} bind:index={index} {N} {mm} />
+	<Commands {cand} {ADD} {MUL} {DIV} {SUB} {index} {undo} {op} {mm} />
+	<Statistics {score} {undos} {start} {stopp} {optimum} {mm} />
+	<Indicator {cand} bind:index={index} {N} {mm} />
 </div>
 
 
