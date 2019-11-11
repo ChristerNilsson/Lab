@@ -1,23 +1,21 @@
 <script>
-	export let score=0
-	export let undos=0
-	export let ready=0
-	export let start=0
-	export let stopp=0
-	export let optimum = 0
+	export let score
+	export let undos
+
+	export let optimum
+	export let stopp
+	export let start
 </script>
 
 <style>
-	.w100 {width:200px}
-	.fs {font-size:20px}
-	.marg {margin: 1px}
-	.br {border-radius:5px}
+	.fs {font-size:1.5em}
+	.marg {margin: 0px}
 </style>
 
-<div class="w100 fs marg br row left green center-align" >
-	<div>Score: {score}</div>
-	<div>Optimum: {optimum}</div>
-	<div>Ready: {ready}</div>
-	<div>Undos: {undos}</div>
-	<div>	Time: {(stopp - start)/1000}</div>
+<div class="row s12" >
+	<div class="left col s6 fs marg green yellow-text left-align">{score}</div>
+	<div class="left col s6 fs marg green right-align">{undos} undos</div>
+
+	<div class="left col s6 fs marg green left-align">{optimum}</div>
+	<div class="left col s6 fs marg green right-align">{(stopp - start)/1000}s</div>
 </div>
