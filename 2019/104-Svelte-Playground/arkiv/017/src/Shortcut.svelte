@@ -4,26 +4,9 @@
 	import Statistics from 	'./Statistics.svelte'
 	import Indicator from 	'./Indicator.svelte'
 
-	export let ADD
-	export let MUL
-	export let DIV
-	export let SUB
-	export let index
-	export let score
-	export let undos
-	export let stopp
-	export let a
-	export let b
-	export let start
-	export let optimum
-	export let cand
-	export let undo
-	export let op
-	export let N
-	export let mm
+	export let data,curr,index
 
-	$: hist = cand[index].hist
-	$: bgcolor = a==b ? 'green' : 'grey'
+	$: bgcolor = curr.a==curr.b ? 'green' : 'grey'
 
 </script>
 
@@ -36,10 +19,8 @@
 </style>
 
 <div class="w row s12 br fs marg {bgcolor} lighten-1 black-text center-align" >
-	<Navigation {cand} bind:index={index} {N} {mm} />
-	<Commands {cand} {ADD} {MUL} {DIV} {SUB} {index} {undo} {op} {mm} />
-	<Statistics {score} {undos} {start} {stopp} {optimum} {mm} />
-	<Indicator {cand} bind:index={index} {N} {mm} />
+	<Navigation bind:data={data} bind:curr={curr} bind:index={index} />
+	<Commands   bind:data={data} bind:curr={curr} bind:index={index} />
+	<Statistics bind:data={data} bind:curr={curr} bind:index={index} />
+	<Indicator  bind:data={data} bind:curr={curr} bind:index={index} />
 </div>
-
-

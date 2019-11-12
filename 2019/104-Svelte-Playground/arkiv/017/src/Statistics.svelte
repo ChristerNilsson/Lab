@@ -1,11 +1,5 @@
 <script>
-	export let score
-	export let undos
-
-	export let optimum
-	export let stopp
-	export let start
-	export let mm
+	export let data,curr,index
 </script>
 
 <style>
@@ -14,9 +8,9 @@
 </style>
 
 <div class="row s12" >
-	<div on:mousemove={() => mm('score')} class="left col s6 fs marg green yellow-text left-align">{score}</div>
-	<div on:mousemove={() => mm('undos')} class="left col s6 fs marg green right-align">{undos} undos</div>
+	<div on:mousemove={() => data.mm('score')} class="left col s6 fs marg green yellow-text left-align">{data.score}</div>
+	<div on:mousemove={() => data.mm('undos')} class="left col s6 fs marg green right-align">{data.undos} undos</div>
 
-	<div on:mousemove={() => mm('optimum')} class="left col s6 fs marg green left-align">{optimum}</div>
-	<div on:mousemove={() => mm('time')} class="left col s6 fs marg green right-align">{(stopp - start)/1000}</div>
+	<div on:mousemove={() => data.mm('optimum')} class="left col s6 fs marg green left-align">{data.optimum}</div>
+	<div on:mousemove={() => data.mm('time')} class="left col s6 fs marg green right-align">{(data.stopp - data.start)/1000}</div>
 </div>

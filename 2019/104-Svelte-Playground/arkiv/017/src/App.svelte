@@ -9,28 +9,31 @@
 	const url = new URL(window.location.href)
 	const getParam = (name,value) => parseInt(url.searchParams.get(name) || value)
 
-	const M = getParam('M',3) // MAX level
-	const N = getParam('N',24) // exercises
-	const MAX = getParam('MAX',20) // MAX number
-	const SHUFFLE = getParam('SHUFFLE',1) 
-	const ADD = getParam('ADD',2)
-	const MUL = getParam('MUL',2)
-	const DIV = getParam('DIV',2)
-	const SUB = getParam('SUB',0)
-
-	console.log(M,N,MAX,SHUFFLE)
-
-	let score = 0
-	let undos = 0
+	let data = {}
 	let index = 0
+	let curr = null
 
-	let start = new Date()
-	let stopp = new Date()
+	data.M = getParam('M',3) // MAX level
+	data.N = getParam('N',24) // exercises
+	data.MAX = getParam('MAX',20) // MAX number
+	data.SHUFFLE = getParam('SHUFFLE',1) 
+	data.ADD = getParam('ADD',2)
+	data.MUL = getParam('MUL',2)
+	data.DIV = getParam('DIV',2)
+	data.SUB = getParam('SUB',0)
 
-	let optimum = 0 
+	data.score = 0
+	data.undos = 0
+
+	data.start = new Date()
+	data.stopp = new Date()
+
+	data.optimum = 0 
+
+	$: curr = data.cand[index]
 
 	const createCandidates = (n) => {
-		const a = random(1,MAX)
+		let a = random(1,data.MAX)
 
 		let cands0 = [a]
 		const visited = {}
@@ -41,7 +44,7 @@
 		for (const lvl of range(n)) {
 			const cands1 = [] 
 			const op = (p) => {
-				if (p <= MUL*MAX) {
+				if (p <= data.MUL*data.MAX) {
 					const key = p.toString()
 					if (!(key in memory)) {
 						cands1.push(p)
@@ -51,16 +54,17 @@
 				}
 			}
 			for (const cand of cands0) {
-				op(cand + ADD)
-				op(cand * MUL)
-				if (cand % DIV==0) op(cand / DIV)
+				op(cand + data.ADD)
+				op(cand - data.SUB)
+				op(cand * data.MUL)
+				if (cand % data.DIV==0) op(cand / data.DIV)
 			}
 			cands0 = cands1
 		}
 		if (cands0.length > 0) {
 			const target = sample(cands0)
 			const key = target.toString()
-			optimum += visited[key]
+			data.optimum += visited[key]
 			return {a:a, b:target, hist:[], orig:a}
 		} else {
 			const key = sample(Object.keys(visited))
@@ -70,39 +74,31 @@
 	}
 
 	let candidates = []
-	for (const level of range(M)) {
-		for (const j of range(N/M)) {
+	for (const level of range(data.M)) {
+		for (const j of range(data.N/data.M)) {
 			candidates.push(createCandidates(level+1))
 		}
 	}
 
-	let cand = SHUFFLE==1 ? shuffle(candidates) : candidates
+	data.cand = data.SHUFFLE==1 ? shuffle(candidates) : candidates
 
-	$: a = cand[index].a
-	$: b = cand[index].b
-	$: hist = cand[index].hist
-
-	const op = (value) => {
-		hist.push(a)
-		index=index
-		hist=hist
-		cand=cand
-		cand[index].a = value
-		score++
-		stopp = new Date()
+	data.op = (value) => {
+		curr.hist.push(curr.a)
+		curr.a = value
+		data.score++
+		data.stopp = new Date()
 	}
-	const undo = () => {
-		score--
-		undos++
-		cand[index].a=hist.pop()
-		hist=hist
+	data.undo = () => {
+		data.score--
+		data.undos++
+		curr.a = curr.hist.pop()
 	}
 
-	const reset = () => {
-		start = new Date()
-		stopp = new Date()
-		score = 0
-		undos = 0
+	data.reset = () => {
+		data.start = new Date()
+		data.stopp = new Date()
+		data.score = 0
+		data.undos = 0
 		index = 0
 
 		for (const c of cand) {
@@ -111,25 +107,28 @@
 		}
 	}
 
+	data.click = (i) => index = i
+	data.incr = (delta) => index += delta
+
 	const handleKeyDown = (event) => {
 		event.preventDefault()
 		if (event.key=='ArrowLeft' && index > 0) index--
-		if (event.key=='ArrowRight' && index < N-1) index++
-		if (event.key==' ') index = (index+1) % N
+		if (event.key=='ArrowRight' && index < data.N-1) index++
+		if (event.key==' ') index = (index+1) % data.N
 		if (event.key=='Home') index=0
-		if (event.key=='End') index=(N-1)
-		if (event.key=='a' && a!=b) op(a + ADD)
-		if (event.key=='s' && a!=b) op(a - SUB)
-		if ((event.key=='m' || event.key=='w') && a!=b) op(a * MUL)
-		if (event.key=='d' && a!=b && a % DIV==0) op(a / DIV)
-		if (event.key=='z' && hist.length > 0) undo()
+		if (event.key=='End') index=(data.N-1)
+		if (event.key=='a' && curr.a!=curr.b) op(curr.a + data.ADD)
+		if (event.key=='s' && curr.a!=curr.b) op(curr.a - data.SUB)
+		if ((event.key=='m' || event.key=='w') && curr.a!=curr.b) op(curr.a * data.MUL)
+		if (event.key=='d' && curr.a!=curr.b && curr.a % data.DIV==0) op(curr.a / data.DIV)
+		if (event.key=='z' && curr.hist.length > 0) undo()
 		if (event.key=='r') reset()
-		if (event.key=='?') alert(` a = ADD {ADD}\n s = SUB {SUB}\n w = MUL {MUL}\n d = DIV {DIV}\n z = undo\n space = next\n left = prev\n right = next\n home = #0\n end = #${N-1}`)
 	}
 
 	let message = ''
 
-	$: mm = (name,detail='') => {
+	data.mm = (name,detail='') => {
+		if (name=='info') message = 'click for info about how to use and customize Shortcut'
 		if (name=='score') message = 'number of operations you have used. Minimize!'
 		if (name=='optimum') message = 'the minimum number of operations necessary'
 		if (name=='undos') message = 'number of undoes. Minimize'
@@ -150,20 +149,15 @@
 
 <style>
 	.w {width:100%}
+	a {text-decoration: none;color: #000}
 </style>
 
 <svelte:window on:keydown={handleKeyDown} />
-<h3 class='center-align'>Shortcut</h3>
+<a href="https://github.com/ChristerNilsson/Lab/wiki/Shortcut" 
+	class='center-align' 
+	on:mousemove={() => data.mm('info')}
+	target="_blank"><h1>Shortcut</h1></a>
 <div style="width:90%; margin:auto">
-	<Shortcut
-	bind:index = {index}
-	bind:score = {score}
-	bind:undos = {undos}
-	bind:stopp = {stopp}
-	bind:a = {cand[index].a}
-	bind:b = {cand[index].b}
-	{start} {optimum} {cand} {op} {undo} {mm} {N} {ADD} {MUL} {DIV} {SUB}
-	/>
+	<Shortcut {data} {index} {curr}/>
 </div>
 <div class='w center-align'>{message}</div>
-

@@ -1,12 +1,5 @@
 <script>
-
-	export let index
-	export let cand
-	export let N
-	export let mm
-
-	$: curr = cand[index]
-
+	export let data,curr,index
 </script>
 
 <style>
@@ -14,19 +7,19 @@
 </style>
 
 <div class='col s3 fs left-align' >
-	<button on:mousemove={() => mm('prev')} on:click={() => index--} disabled={index==0}>Prev</button>
+	<button on:mousemove={() => data.mm('prev')} on:click={() => data.incr(-1)} disabled={index==0}>Prev</button>
 </div>
 
 <div class='col s6 fs center-align' >
 	{#if curr.a==curr.b}
 		{curr.orig} to {curr.b}
 	{:else}
-		<span on:mousemove={() => mm('left')}>{curr.a}</span>
+		<span on:mousemove={() => data.mm('left')}>{curr.a}</span>
 		to 
-		<span on:mousemove={() => mm('right')}>{curr.b}</span>
+		<span on:mousemove={() => data.mm('right')}>{curr.b}</span>
 	{/if}
 </div>
 
 <div class='col s3 fs right-align' >
-	<button on:mousemove={() => mm('next')} on:click={() => index++} disabled={index==N-1}>Next</button>
+	<button on:mousemove={() => data.mm('next')} on:click={() => data.incr(+1)} disabled={index==data.N-1}>Next</button>
 </div>
