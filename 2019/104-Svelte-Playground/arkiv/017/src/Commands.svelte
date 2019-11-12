@@ -30,7 +30,7 @@
 			{/if}
 		</div>
 		<div class="left col s3 fs marg right-align">
-			<button on:mousemove={(evt) => data.mm('undo')} on:click={data.undo} disabled={curr.hist.length==0}>Undo</button>
+			<button on:mousemove={(evt) => data.mm('undo')} class=br on:click={data.undo} disabled={curr.hist.length==0}>Undo</button>
 		</div>
 	{/if}
 </div>

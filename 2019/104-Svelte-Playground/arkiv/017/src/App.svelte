@@ -152,6 +152,7 @@
 <style>
 	.w {width:100%}
 	a {text-decoration: none;color: #000}
+	.fs {font-size:1.5em}
 </style>
 
 <svelte:window on:keydown={handleKeyDown} />
@@ -162,4 +163,4 @@
 <div style="width:90%; margin:auto">
 	<Shortcut {data} {index} {curr}/>
 </div>
-<div class='w center-align'>{message}</div>
+<div class='w fs center-align'>{message}</div>
