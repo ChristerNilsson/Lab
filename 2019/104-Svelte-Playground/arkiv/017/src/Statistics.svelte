@@ -1,5 +1,5 @@
 <script>
-	export let data,curr,index
+	export let data
 </script>
 
 <style>

@@ -83,11 +83,13 @@
 	data.cand = data.SHUFFLE==1 ? shuffle(candidates) : candidates
 
 	data.op = (value) => {
+		if (curr.a==value) return
 		curr.hist.push(curr.a)
 		curr.a = value
 		data.score++
 		data.stopp = new Date()
 	}
+
 	data.undo = () => {
 		data.score--
 		data.undos++
@@ -101,7 +103,7 @@
 		data.undos = 0
 		index = 0
 
-		for (const c of cand) {
+		for (const c of data.cand) {
 			c.a = c.orig
 			c.hist = []
 		}
@@ -115,14 +117,14 @@
 		if (event.key=='ArrowLeft' && index > 0) index--
 		if (event.key=='ArrowRight' && index < data.N-1) index++
 		if (event.key==' ') index = (index+1) % data.N
-		if (event.key=='Home') index=0
+		if (event.key=='Home') index = 0
 		if (event.key=='End') index=(data.N-1)
-		if (event.key=='a' && curr.a!=curr.b) op(curr.a + data.ADD)
-		if (event.key=='s' && curr.a!=curr.b) op(curr.a - data.SUB)
-		if ((event.key=='m' || event.key=='w') && curr.a!=curr.b) op(curr.a * data.MUL)
-		if (event.key=='d' && curr.a!=curr.b && curr.a % data.DIV==0) op(curr.a / data.DIV)
-		if (event.key=='z' && curr.hist.length > 0) undo()
-		if (event.key=='r') reset()
+		if (event.key=='a' && curr.a!=curr.b) data.op(curr.a + data.ADD)
+		if (event.key=='s' && curr.a!=curr.b) data.op(curr.a - data.SUB)
+		if ((event.key=='m' || event.key=='w') && curr.a!=curr.b) data.op(curr.a * data.MUL)
+		if (event.key=='d' && curr.a!=curr.b && curr.a % data.DIV==0) data.op(curr.a / data.DIV)
+		if (event.key=='z' && curr.hist.length > 0) data.undo()
+		if (event.key=='r') data.reset()
 	}
 
 	let message = ''

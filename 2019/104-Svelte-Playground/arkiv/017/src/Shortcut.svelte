@@ -20,7 +20,7 @@
 
 <div class="w row s12 br fs marg {bgcolor} lighten-1 black-text center-align" >
 	<Navigation bind:data={data} bind:curr={curr} bind:index={index} />
-	<Commands   bind:data={data} bind:curr={curr} bind:index={index} />
-	<Statistics bind:data={data} bind:curr={curr} bind:index={index} />
-	<Indicator  bind:data={data} bind:curr={curr} bind:index={index} />
+	<Commands   bind:data={data} bind:curr={curr} />
+	<Statistics bind:data={data} />
+	<Indicator  bind:data={data} bind:index={index} />
 </div>

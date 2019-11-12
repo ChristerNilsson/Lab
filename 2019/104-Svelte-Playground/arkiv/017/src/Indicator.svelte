@@ -1,6 +1,6 @@
 <script>
 	import range from 'lodash.range'
-	export let data,curr,index
+	export let data,index
 </script>
 
 <svg viewBox='-50 -2 100 4' style='width:{100}%; height:{100}%;' >
