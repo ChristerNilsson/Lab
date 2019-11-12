@@ -1,10 +1,10 @@
-<script> 
+<script>
 	import Shortcut from './Shortcut.svelte'
 	import range from 'lodash.range'
 	import random from 'lodash.random'
 	import sample from 'lodash.sample'
 	import shuffle from 'lodash.shuffle'
-	import {solve} from './solve.js' 
+	import {solve} from './solve.js'
 
 	const url = new URL(window.location.href)
 	const getParam = (name,value) => parseInt(url.searchParams.get(name) || value)
@@ -16,7 +16,7 @@
 	data.M = getParam('M',3) // MAX level
 	data.N = getParam('N',24) // exercises
 	data.MAX = getParam('MAX',20) // MAX number
-	data.SHUFFLE = getParam('SHUFFLE',1) 
+	data.SHUFFLE = getParam('SHUFFLE',0) // 1
 	data.ADD = getParam('ADD',2)
 	data.MUL = getParam('MUL',2)
 	data.DIV = getParam('DIV',2)
@@ -28,7 +28,7 @@
 	data.start = new Date()
 	data.stopp = new Date()
 
-	data.optimum = 0 
+	data.optimum = 0
 
 	$: curr = data.cand[index]
 
@@ -42,7 +42,7 @@
 		memory[a.toString()] = a
 
 		for (const lvl of range(n)) {
-			const cands1 = [] 
+			const cands1 = []
 			const op = (p) => {
 				if (p <= data.MUL*data.MAX) {
 					const key = p.toString()
@@ -68,7 +68,7 @@
 			return {a:a, b:target, hist:[], orig:a}
 		} else {
 			const key = sample(Object.keys(visited))
-			optimum += visited[key]
+			data.optimum += visited[key]
 			return {a:a, b:memory[key], hist:[], orig:a}
 		}
 	}
@@ -155,8 +155,8 @@
 </style>
 
 <svelte:window on:keydown={handleKeyDown} />
-<a href="https://github.com/ChristerNilsson/Lab/wiki/Shortcut" 
-	class='center-align' 
+<a href="https://github.com/ChristerNilsson/Lab/wiki/Shortcut"
+	class='center-align'
 	on:mousemove={() => data.mm('info')}
 	target="_blank"><h1>Shortcut</h1></a>
 <div style="width:90%; margin:auto">
