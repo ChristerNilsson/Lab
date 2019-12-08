@@ -1,20 +1,8 @@
 Number of colors possible:
 
-* 000000 to 0000FF
-* 000000 to 00FF00
-* 000000 to 00FFFF
-* 000000 to FF0000
-* 000000 to FF00FF
-* 000000 to FFFF00
-* 000000 to FFFFFF
+* Eight corners.
+* 12 edges (254)
+* 12 short diagonals (254)
+* 4 long diagonals (254)
 
-* 0000FF to 00FF00
-* 0000FF to 00FFFF
-* 0000FF to FF0000
-* 0000FF to FF00FF
-* 0000FF to FFFF00
-* 0000FF to FFFFFF
-
-28 * 256 = 7168 colors
-
-
+Total = 8 + 28 * 254 = 7120
