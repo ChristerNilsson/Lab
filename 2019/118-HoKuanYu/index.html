@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kalaha</title>
+	</head>
+	<script type="text/javascript" src="minMaxNormal.js"></script>
+	<script type="text/javascript" src="minMaxAlphaBetaPurning.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<body>
+		<div id="app" class="fullHeight">
+			<div class="contaniner">
+				<br>
+				<div class="row justify-content-center">
+					<div class="col-md-6">
+						<dir class="card nopadding">
+							<div class="card-header" style="font-size: 200%; text-align-last: center;">Kalaha</div>
+
+							<div id="gametable" class="card-body" style="display: none;">
+								<div id="title" style="text-align: center; font-size: 200%; font-weight: bold;"></div><br>
+								<table class="table table-bordered">
+									<tbody>
+										<tr>
+											<th style="border-left-style: hidden; border-top-style: hidden;"></th>
+											<th>#12</th>
+											<th>#11</th>
+											<th>#10</th>
+											<th>#9</th>
+											<th>#8</th>
+											<th>#7</th>
+											<th style="border-right-style: hidden; border-top-style: hidden;"></th>
+										</tr>
+										<tr>
+											<td rowspan="2" id="house13" style="vertical-align: middle; font-size: 160%;">0</td>
+											<td><button id="house12" class="btn btn-outline-info" onclick="HouseOnClick(12)">6</button></td>
+											<td><button id="house11" class="btn btn-outline-info" onclick="HouseOnClick(11)">6</button></td>
+											<td><button id="house10" class="btn btn-outline-info" onclick="HouseOnClick(10)">6</button></td>
+											<td><button id="house9" class="btn btn-outline-info" onclick="HouseOnClick(9)">6</button></td>
+											<td><button id="house8" class="btn btn-outline-info" onclick="HouseOnClick(8)">6</button></td>
+											<td><button id="house7" class="btn btn-outline-info" onclick="HouseOnClick(7)">6</button></td>
+											<td rowspan="2" id="house6" style="vertical-align: middle; font-size: 160%;">0</td>
+										</tr>
+										<tr>
+											<td><button id="house0" class="btn btn-outline-info" onclick="HouseOnClick(0)">6</button></td>
+											<td><button id="house1" class="btn btn-outline-info" onclick="HouseOnClick(1)">6</button></td>
+											<td><button id="house2" class="btn btn-outline-info" onclick="HouseOnClick(2)">6</button></td>
+											<td><button id="house3" class="btn btn-outline-info" onclick="HouseOnClick(3)">6</button></td>
+											<td><button id="house4" class="btn btn-outline-info" onclick="HouseOnClick(4)">6</button></td>
+											<td><button id="house5" class="btn btn-outline-info" onclick="HouseOnClick(5)">6</button></td>
+										</tr>
+										<tr>
+											<th style="border-left-style: hidden; border-bottom-style: hidden;"></th>
+											<th>#0</th>
+											<th>#1</th>
+											<th>#2</th>
+											<th>#3</th>
+											<th>#4</th>
+											<th>#5</th>
+											<th style="border-right-style: hidden; border-bottom-style: hidden;"></th>
+										</tr>
+									</tbody>
+								</table><br>
+
+								<div class="row justify-content-center nopadding">
+									<button id="back" class="col-4 btn btn-outline-secondary" style="display: none;" onclick="Back()">返回</button>
+								</div>
+							</div>
+
+							<div id="main" class="card-body">
+								<div class="row">
+									<label class="col-lg-4 col-form-label text-lg-right">模式 :</label>
+
+									<div class="col-lg-6 input-group">
+										<select id="mode" onClick="modeSelectOnChange()" class="col-lg-10" style="text-align-last: center;">
+											<option value="0">玩家 vs 玩家</option>
+											<option value="1">玩家(先攻) vs 電腦(後攻)</option>
+											<option value="2">電腦(先攻) vs 玩家(後攻)</option>
+											<option value="3">電腦 vs 電腦</option>
+										</select>
+									</div>
+								</div><br>
+
+								<div class="row">
+									<label class="col-lg-4 col-form-label text-lg-right">玩家1 :</label>
+
+									<div class="col-lg-6 input-group">
+										<input id="player1" class="col-lg-10" type="text" value="玩家1" style="text-align-last: center;">
+									</div>
+								</div><br>
+
+								<div class="row">
+									<label class="col-lg-4 col-form-label text-lg-right">玩家2 :</label>
+
+									<div class="col-lg-6 input-group">
+										<input id="player2" class="col-lg-10" type="text" value="玩家2" style="text-align-last: center;">
+									</div>
+								</div><br>
+
+								<div class="row">
+									<label class="col-lg-4 col-form-label text-lg-right">方法1 :</label>
+
+									<div class="col-lg-6 input-group">
+										<select id="method1" onClick="modeSelectOnChange()" class="col-lg-10" style="text-align-last: center;" disabled="disabled">
+											<option value="0">Alpha Beta Pruning</option>
+											<option value="1">Normal</option>
+										</select>
+									</div>
+								</div><br>
+
+								<div class="row">
+									<label class="col-lg-4 col-form-label text-lg-right">方法2 :</label>
+
+									<div class="col-lg-6 input-group">
+										<select id="method2" onClick="modeSelectOnChange()" class="col-lg-10" style="text-align-last: center;" disabled="disabled">
+											<option value="0">Alpha Beta Pruning</option>
+											<option value="1">Normal</option>
+										</select>
+									</div>
+								</div><br>
+
+								<div class="row">
+									<label class="col-lg-4 col-form-label text-lg-right">深度1(>=1) :</label>
+
+									<div class="col-lg-6 input-group">
+										<input id="depth1" class="col-lg-10" type="number" min="1" value="8" style="text-align-last: center;" disabled="disabled">
+									</div>
+								</div><br>
+
+								<div class="row">
+									<label class="col-lg-4 col-form-label text-lg-right">深度2(>=1) :</label>
+
+									<div class="col-lg-6 input-group">
+										<input id="depth2" class="col-lg-10" type="number" min="1" value="8" style="text-align-last: center;" disabled="disabled">
+									</div>
+								</div><br>
+
+								<div class="row">
+									<label class="col-lg-4 col-form-label text-lg-right">豆子數量(>=1) :</label>
+
+									<div class="col-lg-6 input-group">
+										<input id="seeds" class="col-lg-10" type="number" min="1" value="6" style="text-align-last: center;">
+									</div>
+								</div><br>
+
+								<div class="row justify-content-center nopadding">
+									<button class="col-4 btn btn-outline-secondary" onclick="Start()">開始</button>
+								</div>
+							</div>
+
+						<div>
+					</div>
+				</div>
+
+			</div><br>
+
+			<div class="row justify-content-center">
+				<div id="info" class="col-md-6" style="display: none;">
+					<dir class="card nopadding">
+						<div class="card-header" style="font-size: 200%; text-align-last: center;">Info</div>
+
+						<div id="infobox" class="card-body" style="height:50vh; overflow:auto; font-size: 130%;">
+						</div>
+					</dir>
+				</div>
+			</div>
+
+		</div>
+	</body>
+</html>
