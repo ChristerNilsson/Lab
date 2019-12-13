@@ -3,7 +3,7 @@ playerComputer = [false,true]
 player = 0 # 0 or 1
 beans = 6
 depth = 1
-buttons = []
+buttons  = [] 
 
 messages = {}
 messages.depth = depth
