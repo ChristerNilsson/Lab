@@ -6,9 +6,9 @@ Click on the lower six houses.
 * Last stone in own accumulator => extra move
 * Last stone in own empty house => capture opposite stones
 
-Space = new game 
+Space = new game with same number of beans
 
-1..9 = New game with this number of beans.
+1..9 = New game with other number of beans.
 
 The houses are named like this:
 ```

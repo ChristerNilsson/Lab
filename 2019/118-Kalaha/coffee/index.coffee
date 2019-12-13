@@ -1,10 +1,16 @@
 playerTitle = ['Human','Computer']
 playerComputer = [false,true]
 player = 0 # 0 or 1
-beans = 4
+beans = 6
 depth = 1
 buttons = []
-messages = ['','','','']
+
+messages = {}
+messages.depth = depth
+messages.time = 0
+messages.result = ''
+messages.letters = ''
+messages.moves = 0
 
 class Button
 	constructor : (@x,@y,@value,@littera='',@click=->) -> @radie=40
@@ -40,17 +46,18 @@ xdraw = ->
 	for button in buttons
 		button.draw()
 	fc 1,1,0
-	textAlign CENTER,CENTER
-	text messages[0],2*20,2*20
-	text messages[1],width-2*40,2*20
 	textAlign LEFT,CENTER
-	text messages[2],2*20,2*130
+	text 'Level: '+messages.depth,2*10,2*20
 	textAlign CENTER,CENTER
-	text messages[3],width/2,2*20
+	text messages.result,width/2,2*135
+	text messages.letters,width/2,2*20
+	textAlign RIGHT,CENTER
+	text messages.time+' ms',width-2*10,2*20
+	text messages.moves,width-2*10,2*135
 
 mousePressed = () ->
-	messages[3] = ''
-	messages[1] = ''
+	if messages.result != '' then return reset 0
+	messages.letters = ''
 	for button in buttons
 		if button.inside mouseX,mouseY then button.click()
 
@@ -61,14 +68,15 @@ reset = (b) ->
 	buttons[6].value = 0
 	buttons[13].value = 0
 	if depth < 1 then depth = 1
-	messages[0] = depth
-	messages[1] = ''
-	messages[2] = ''
-	messages[3] = ''
+	messages.depth = depth
+	messages.time = 0
+	messages.result = ''
+	messages.letters = ''
+	messages.moves = 0
 	xdraw()
 
 keyPressed = -> 
-	if messages[2]=='' then return
+	if messages.result == '' then return
 	index = " 1234567890".indexOf key
 	if index >= 0 then reset index
 
@@ -76,20 +84,23 @@ ActiveComputerHouse = () ->
 	start = new Date()
 	result = alphaBeta depth, player 
 	#result = minimax depth, player
-	messages[1] = (new Date() - start) + ' ms'
+	messages.time += new Date() - start
+
 	HouseOnClick result
 
 HouseButtonActive = () -> if playerComputer[player] then ActiveComputerHouse() 
 
 HouseOnClick = (pickedHouse) ->
-	messages[3] += 'abcdef ABCDEF'[pickedHouse]
+	messages.letters += 'abcdef ABCDEF'[pickedHouse]
 	if buttons[pickedHouse].value == 0 then return 
 	house = buttons.map (button) -> button.value
 	again = Relocation(house, pickedHouse)
 	for i in range 14
 		buttons[i].value = house[i]
 	if again == false
-		if player==1 then console.log messages[3]
+		if player==1
+			console.log messages.letters
+			messages.moves++
 		player = 1 - player
 	if HasSuccessors(house)
 		HouseButtonActive()
@@ -99,12 +110,12 @@ HouseOnClick = (pickedHouse) ->
 			buttons[i].value = house[i]
 
 		if house[13] > house[6]
-			messages[2] = playerTitle[1] + " Wins"
+			messages.result = playerTitle[1] + " Wins"
 			depth--
 		else if house[13] == house[6]
-			messages[2] = "Tie"
+			messages.result = "Tie"
 		else
-			messages[2] = playerTitle[0] + " Wins"
+			messages.result = playerTitle[0] + " Wins"
 			depth++
 		console.log ''
 	xdraw()
