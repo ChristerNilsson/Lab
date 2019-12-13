@@ -7,43 +7,46 @@ buttons = []
 messages = ['','','','']
 
 class Button
-	constructor : (@x,@y,@value,@littera='',@click=->) -> @radie=20
+	constructor : (@x,@y,@value,@littera='',@click=->) -> @radie=40
 	draw : ->
+		fc 1,0,0
 		circle @x,@y,@radie
 		textAlign CENTER,CENTER
 		if @value > 0 
+			fc 1
 			text @value,@x,@y
 		else
 			push()
-			fc 0.8
+			fc 0.8,0,0
 			text @littera,@x,@y
 			pop()
 	inside : (x,y) -> @radie > dist x,y,@x,@y
 
 setup = ->
-	createCanvas 450,150
+	createCanvas 2*450,2*150
 	textAlign CENTER,CENTER
-	textSize 20
+	textSize 40
 	for littera,i in 'abcdef'
 		do (i) ->
-			buttons.push new Button 100+50*i,100,beans,'',() -> HouseOnClick i
-	buttons.push new Button 400,75,0
+			buttons.push new Button 2*100+2*50*i,2*100,beans,'',() -> HouseOnClick i
+	buttons.push new Button 2*400,2*75,0
 	for littera,i in 'ABCDEF'
-		buttons.push new Button 100+50*(5-i),50,beans,littera
-	buttons.push new Button 50,75,0
+		buttons.push new Button 2*100+2*50*(5-i),2*50,beans,littera
+	buttons.push new Button 2*50,2*75,0
 	reset beans
 
 xdraw = ->
-	bg 0.5
+	bg 0
 	for button in buttons
 		button.draw()
+	fc 1,1,0
 	textAlign CENTER,CENTER
-	text messages[0],20,20
-	text messages[1],width-40,20
+	text messages[0],2*20,2*20
+	text messages[1],width-2*40,2*20
 	textAlign LEFT,CENTER
-	text messages[2],20,130
+	text messages[2],2*20,2*130
 	textAlign CENTER,CENTER
-	text messages[3],width/2,20
+	text messages[3],width/2,2*20
 
 mousePressed = () ->
 	messages[3] = ''
