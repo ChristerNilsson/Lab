@@ -77,12 +77,12 @@ HouseOnClick = (pickedHouse) ->
 			buttons[i].value = house[i]
 
 		if house[13] > house[6]
-			messages[2] = playerTitle[1] + " Win"
+			messages[2] = playerTitle[1] + " Wins"
 			depth--
 		else if house[13] == house[6]
-			messages[2] " Tie"
+			messages[2] = "Tie"
 		else
-			messages[2] = playerTitle[0] + " Win"
+			messages[2] = playerTitle[0] + " Wins"
 			depth++
 	messages[1] = new Date() - start
 	xdraw()
@@ -104,10 +104,8 @@ Relocation = (house, pickedHouse) ->
 	if index == playerShop then return true
 
 	if house[index] == 1 and house[12 - index] != 0 and index >= (playerShop - 6) and index < playerShop
-		house[playerShop] += house[12 - index]
-		house[playerShop]++
-		house[index] = 0
-		house[12 - index] = 0
+		house[playerShop] += house[12 - index] + 1
+		house[index] = house[12 - index] = 0
 	false
 
 FinalScoring = (house) ->
