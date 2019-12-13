@@ -1,16 +1,10 @@
 MinMaxDecisionAlphaBetaPruning = (depthMax, player) ->
 	alpha = -1000
 	beta = 1000
-
-	house = []
-
-	for i in range 14
-		house[i] = parseInt(document.getElementById("house" + i.toString()).innerHTML)
-
+	house = buttons.map (button) -> button.value
 	playerShop = 6
 	if player == 1 then playerShop = 13
-
-	return MaxValueAlphaBetaPruning(house, depthMax, 0, alpha, beta, playerShop)
+	MaxValueAlphaBetaPruning(house, depthMax, 0, alpha, beta, playerShop)
 
 MaxValueAlphaBetaPruning = (house, depthMax, depth, alpha, beta, playerShop) ->
 	if HasSuccessors(house) == false
@@ -23,10 +17,8 @@ MaxValueAlphaBetaPruning = (house, depthMax, depth, alpha, beta, playerShop) ->
 		for i in range playerShop - 6, playerShop
 			if house[i] == 0 then continue
 
-			tempHouse = []
+			tempHouse = house.slice()
 			tempValue = null
-			for j in range 14
-				tempHouse[j] = house[j]
 
 			if Relocation(tempHouse, i)
 				tempValue = MaxValueAlphaBetaPruning(tempHouse, depthMax, depth + 2, alpha, beta, playerShop)
@@ -39,10 +31,7 @@ MaxValueAlphaBetaPruning = (house, depthMax, depth, alpha, beta, playerShop) ->
 
 			if alpha >= beta then break
 
-		if depth == 0
-			return action
-		else
-			return alpha
+		return if depth == 0 then action else alpha
 
 MinValueAlphaBetaPruning = (house, depthMax, depth, alpha, beta, playerShop) ->
 	if HasSuccessors(house) == false
@@ -55,10 +44,8 @@ MinValueAlphaBetaPruning = (house, depthMax, depth, alpha, beta, playerShop) ->
 		for i in range opponentShop - 6, opponentShop
 			if house[i] == 0 then continue
 
-			tempHouse = []
+			tempHouse = house.slice()
 			tempValue = null
-			for j in range 14
-				tempHouse[j] = house[j]
 			
 			if Relocation(tempHouse, i)
 				tempValue = MinValueAlphaBetaPruning(tempHouse, depthMax, depth + 2, alpha, beta, playerShop)
