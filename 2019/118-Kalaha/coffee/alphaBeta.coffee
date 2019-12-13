@@ -1,12 +1,12 @@
-MinMaxDecisionAlphaBetaPruning = (depthMax, player) ->
+alphaBeta = (depthMax, player) ->
 	alpha = -1000
 	beta = 1000
 	house = buttons.map (button) -> button.value
 	playerShop = 6
 	if player == 1 then playerShop = 13
-	MaxValueAlphaBetaPruning(house, depthMax, 0, alpha, beta, playerShop)
+	maxAlphaBeta(house, depthMax, 0, alpha, beta, playerShop)
 
-MaxValueAlphaBetaPruning = (house, depthMax, depth, alpha, beta, playerShop) ->
+maxAlphaBeta = (house, depthMax, depth, alpha, beta, playerShop) ->
 	if HasSuccessors(house) == false
 		FinalScoring(house)
 		return Evaluate(house, playerShop, (playerShop + 7) % 14)
@@ -21,9 +21,9 @@ MaxValueAlphaBetaPruning = (house, depthMax, depth, alpha, beta, playerShop) ->
 			tempValue = null
 
 			if Relocation(tempHouse, i)
-				tempValue = MaxValueAlphaBetaPruning(tempHouse, depthMax, depth + 2, alpha, beta, playerShop)
+				tempValue = maxAlphaBeta(tempHouse, depthMax, depth + 2, alpha, beta, playerShop)
 			else
-				tempValue = MinValueAlphaBetaPruning(tempHouse, depthMax, depth + 1, alpha, beta, playerShop)
+				tempValue = minAlphaBeta(tempHouse, depthMax, depth + 1, alpha, beta, playerShop)
 
 			if alpha < tempValue
 				alpha = tempValue
@@ -33,7 +33,7 @@ MaxValueAlphaBetaPruning = (house, depthMax, depth, alpha, beta, playerShop) ->
 
 		return if depth == 0 then action else alpha
 
-MinValueAlphaBetaPruning = (house, depthMax, depth, alpha, beta, playerShop) ->
+minAlphaBeta = (house, depthMax, depth, alpha, beta, playerShop) ->
 	if HasSuccessors(house) == false
 		FinalScoring(house)
 		return Evaluate(house, playerShop, (playerShop + 7) % 14)
@@ -48,9 +48,9 @@ MinValueAlphaBetaPruning = (house, depthMax, depth, alpha, beta, playerShop) ->
 			tempValue = null
 			
 			if Relocation(tempHouse, i)
-				tempValue = MinValueAlphaBetaPruning(tempHouse, depthMax, depth + 2, alpha, beta, playerShop)
+				tempValue = minAlphaBeta(tempHouse, depthMax, depth + 2, alpha, beta, playerShop)
 			else
-				tempValue = MaxValueAlphaBetaPruning(tempHouse, depthMax, depth + 1, alpha, beta, playerShop)
+				tempValue = maxAlphaBeta(tempHouse, depthMax, depth + 1, alpha, beta, playerShop)
 
 			if beta > tempValue then beta = tempValue
 

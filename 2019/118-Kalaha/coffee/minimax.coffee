@@ -1,4 +1,4 @@
-MinMaxDecisionNormal = (depthMax, player) ->
+minimax = (depthMax, player) ->
 	house = buttons.map (button) -> button.value
 	playerShop = 6
 	if player == 1 then playerShop = 13
