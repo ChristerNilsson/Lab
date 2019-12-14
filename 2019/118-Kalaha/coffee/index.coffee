@@ -1,7 +1,7 @@
 playerTitle = ['Human','Computer']
 playerComputer = [false,true]
 player = 0 # 0 or 1
-beans = 6
+beans = 4
 depth = 1
 buttons  = [] 
 
@@ -73,6 +73,10 @@ reset = (b) ->
 	messages.result = ''
 	messages.letters = ''
 	messages.moves = 0
+
+	player = _.random 0,1
+	if player == 1 then ActiveComputerHouse()
+	console.log player
 	xdraw()
 
 keyPressed = -> 
@@ -85,7 +89,6 @@ ActiveComputerHouse = () ->
 	result = alphaBeta depth, player 
 	#result = minimax depth, player
 	messages.time += new Date() - start
-
 	HouseOnClick result
 
 HouseButtonActive = () -> if playerComputer[player] then ActiveComputerHouse() 
@@ -128,11 +131,13 @@ Relocation = (house, pickedHouse) ->
 		opponentShop = 6
 
 	index = pickedHouse
-	while house[pickedHouse] > 0 
+	seeds = house[pickedHouse]
+	house[index] = 0 
+	while seeds > 0 
 		index = (index + 1) % 14
 		if index == opponentShop then continue
 		house[index]++
-		house[pickedHouse]--
+		seeds--
 
 	if index == playerShop then return true
 
