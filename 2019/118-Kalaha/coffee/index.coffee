@@ -3,13 +3,14 @@ playerComputer = [false,true]
 player = 0 # 0 or 1
 beans = 4
 depth = 1
-buttons  = [] 
+buttons  = []
 
 messages = {}
 messages.depth = depth
 messages.time = 0
 messages.result = ''
-messages.letters = ''
+messages.computerLetters = ''
+messages.humanLetters = ''
 messages.moves = 0
 
 class Button
@@ -48,16 +49,18 @@ xdraw = ->
 	fc 1,1,0
 	textAlign LEFT,CENTER
 	text 'Level: '+messages.depth,2*10,2*20
+	text messages.result,2+10,2*135
 	textAlign CENTER,CENTER
-	text messages.result,width/2,2*135
-	text messages.letters,width/2,2*20
+	text messages.computerLetters,width/2,2*20
+	text messages.humanLetters,width/2,2*135
 	textAlign RIGHT,CENTER
-	text messages.time+' ms',width-2*10,2*20
+	text Math.round(10*messages.time)/10 + ' ms',width-2*10,2*20
 	text messages.moves,width-2*10,2*135
 
 mousePressed = () ->
 	if messages.result != '' then return reset 0
-	messages.letters = ''
+	messages.computerLetters = ''
+	#messages.humanLetters = ''
 	for button in buttons
 		if button.inside mouseX,mouseY then button.click()
 
@@ -71,7 +74,8 @@ reset = (b) ->
 	messages.depth = depth
 	messages.time = 0
 	messages.result = ''
-	messages.letters = ''
+	messages.computerLetters = ''
+	#messages.humanLetters = ''
 	messages.moves = 0
 
 	player = _.random 0,1
@@ -79,36 +83,44 @@ reset = (b) ->
 	console.log player
 	xdraw()
 
-keyPressed = -> 
+keyPressed = ->
 	if messages.result == '' then return
 	index = " 1234567890".indexOf key
 	if index >= 0 then reset index
 
-ActiveComputerHouse = () -> 
-	start = new Date()
-	result = alphaBeta depth, player 
+ActiveComputerHouse = () ->
+	start = window.performance.now()
+	result = alphaBeta depth, player
 	#result = minimax depth, player
-	messages.time += new Date() - start
+	stopp = window.performance.now()
+	messages.time += stopp - start
 	HouseOnClick result
 
 HouseButtonActive = () -> if playerComputer[player] then ActiveComputerHouse() 
 
 HouseOnClick = (pickedHouse) ->
-	messages.letters += 'abcdef ABCDEF'[pickedHouse]
+	if pickedHouse >= 7
+		messages.computerLetters += 'abcdef ABCDEF'[pickedHouse]
+	else
+		messages.humanLetters += 'abcdef ABCDEF'[pickedHouse]
+	xdraw()
 	if buttons[pickedHouse].value == 0 then return 
 	house = buttons.map (button) -> button.value
-	again = Relocation(house, pickedHouse)
+	again = Relocation house, pickedHouse
 	for i in range 14
 		buttons[i].value = house[i]
-	if again == false
+	if again 
+	else
 		if player==1
-			console.log messages.letters
+			console.log messages.computerLetters
+			console.log messages.humanLetters
 			messages.moves++
 		player = 1 - player
-	if HasSuccessors(house)
+	if HasSuccessors house
+		if player==1 then messages.humanLetters = ''
 		HouseButtonActive()
 	else 
-		FinalScoring(house)
+		FinalScoring house
 		for i in range 14
 			buttons[i].value = house[i]
 
