@@ -70,7 +70,7 @@ draw = ->
 	text 'Go from A to H',350,550
 	text 'Jump in order:',350,600
 	text 'red, blue, red, blue...',350,650
-	text 'Tekniska Muséet',900,550
+	text 'Tekniska Museet',900,550
 
 	if curr=='H' then text 'Excellent!',900,650
 
