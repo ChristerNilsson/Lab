@@ -1,13 +1,15 @@
+SZ = 100
+OFF = SZ/2
+TH = 20
+
 class Button
 	constructor : (@title,@x,@y,@click) -> @r=35
 	draw : ->
-		fc 1
-		if @title == curr then fc 0
-		circle @x,@y,35
-		fc 0
-		if @title == curr then fc 1
+		fc if @title == curr then 0 else 1
+		circle @x,@y,@r
+		fc if @title == curr then 1 else 0
 		text @title,@x,@y
-	inside : (mx,my)-> @x-@r < mx < @x+@r and @y-@r < my < @y+@r
+	inside : (mx,my)-> @r > dist @x, @y, mx, my
 
 maze = """
 	 C !     | 
@@ -24,8 +26,8 @@ currColor = 1
 buttons = []
 
 moves = []
-moves.push {A:"B", B:"AF", C:"D", D:"CEG", E:"DF", F:"BE", G:"D", H:""}
 moves.push {A:"", B:"CF", C:"BF", D:"D", E:"F", F:"BCEGH", G:"F", H:"F"}
+moves.push {A:"B", B:"AF", C:"D", D:"CEG", E:"DF", F:"BE", G:"D", H:""}
 
 setup = ->
 	createCanvas 1100,700
@@ -36,13 +38,12 @@ setup = ->
 	sc()
 	for line,j in maze
 		for ch,i in line
-			x = 50 + 100*i
-			y = 50 + 100*j
 			if ch in "ABCDEFGH"
+				x = OFF + SZ*i
+				y = OFF + SZ*j
 				do (ch) ->
 					buttons.push new Button ch,x,y, () ->
-						console.log ch
-						if ch in moves[1-currColor][curr]
+						if ch in moves[currColor][curr]
 							curr = ch
 							currColor = 1 - currColor
 
@@ -50,18 +51,18 @@ draw = ->
 	bg 0.5
 	for line,j in maze
 		for ch,i in line
-			x = 50 + 100*i
-			y = 50 + 100*j
+			x = OFF + SZ*i
+			y = OFF + SZ*j
 			if ch in '|-' then fc 0,0,1 # Blue
-			if ch=='|' then rect x,y,20,100
-			if ch=='-' then rect x,y,100,20
+			if ch=='|' then rect x,y,TH,SZ
+			if ch=='-' then rect x,y,SZ,TH
 
 			if ch in '!=' then fc 1,0,0 # Red
-			if ch=='!' then rect x,y,20,100
-			if ch=='=' then rect x,y,100,20
+			if ch=='!' then rect x,y,TH,SZ
+			if ch=='=' then rect x,y,SZ,TH
 
 			if ch=='#' then fc 1,1,0 # Yellow
-			if ch=='#' then rect x,y,100,100
+			if ch=='#' then rect x,y,SZ,SZ
 
 	for button in buttons
 		button.draw()
