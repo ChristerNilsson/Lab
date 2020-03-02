@@ -38,3 +38,4 @@
 * [Youtube](https://www.youtube.com/watch?v=x2UG0YzT2UA)
 * [Wikipedia](https://en.wikipedia.org/wiki/Lattice_multiplication)
 * [Sheet for printing](lattice.bmp)
+![Lattice](lattice.bmp)
