@@ -19,8 +19,10 @@
 * Draw 8
 * 1*8 = 8
 * 9*8 = 72
-* The sum of the last stripe is 2. Go left and down
-* The middle stripe is 15. 1 goes to the next stripe
+* The last stripe is 2
+* The middle stripe is 15
+	* 1 goes to the next stripe as carry
+	* 5 goes to this stripe
 * The first stripe is 1
 * The result of 19 x 8 is 80 + 72 = 152
 
@@ -40,4 +42,6 @@
 * [Sheet for printing](lattice.bmp)
 	* Download
 	* Ctrl-p
+
+### Sheet
 ![Lattice](lattice.bmp)
