@@ -125,4 +125,9 @@ block = (s,i,j) ->
 		text s[1], i*S+S4, j*S+S4+2
 		sc 0
 		if DIAG then line i*S-S2, j*S+S2, i*S+S2, j*S-S2
+	if s.length==3
+		text s.substring(0,2), i*S-S4, j*S-S4+2
+		text s[2], i*S+S4, j*S+S4+2
+		sc 0
+		if DIAG then line i*S-S2, j*S+S2, i*S+S2, j*S-S2
 	pop()

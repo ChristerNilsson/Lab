@@ -45,3 +45,7 @@
 
 ### Sheet
 ![Lattice](lattice.bmp)
+
+### Extreme cases
+For large numbers, like 1234567891234 x 1234567891234, some sums might be larger than 99. In these cases, the carry will be larger than 9.
+The program supports sums up to 999 maximum.
