@@ -118,16 +118,17 @@ block = (s,i,j) ->
 			line i*S-S2,j*S+S2, i*S+S2,j*S-S2
 
 	sc()
-	if s.length==1
+	n = s.length
+	if n == 1
 		text s[0], i*S, j*S+2
-	if s.length==2
+	if n == 2
 		if s[0] != '0' then text s[0], i*S-S4, j*S-S4+2
 		text s[1], i*S+S4, j*S+S4+2
 		sc 0
 		if DIAG then line i*S-S2, j*S+S2, i*S+S2, j*S-S2
-	if s.length==3
-		text s.substring(0,2), i*S-S4, j*S-S4+2
-		text s[2], i*S+S4, j*S+S4+2
+	if n > 2
+		text s.substring(0,n-1), i*S-S4, j*S-S4+2
+		text s[n-1], i*S+S4, j*S+S4+2
 		sc 0
 		if DIAG then line i*S-S2, j*S+S2, i*S+S2, j*S-S2
 	pop()

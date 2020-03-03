@@ -1,12 +1,13 @@
 ### Lattice Multiplication
 
 * Draw the rectangle
-* Draw the factors
+* Draw the multiplicands
 * Calculate all digit * digit values inside the rectangle
 * Tens goes to the upper left corner of each cell
-* Ones goes to the lower right corner
+* Units goes to the lower right corner
 * Sum the diagonals, start with lower right corner
 * The bottom line will contain the result
+* The line above the bottom line contains the carries
 
 #### Example 19 x 8
 
@@ -47,5 +48,6 @@
 ![Lattice](lattice.bmp)
 
 ### Extreme cases
-For large numbers, like 1234567891234 x 1234567891234, some sums might be larger than 99. In these cases, the carry will be larger than 9.
-The program supports sums up to 999 maximum.
+For large numbers, like 77777777 x 77777777, some sums might be larger than 99. In these cases, the carry will be larger than 9.
+
+![77777777x77777777](77777777x77777777.bmp)
