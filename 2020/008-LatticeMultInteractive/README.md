@@ -1,5 +1,17 @@
 ### Lattice Multiplication
 
+#### Benefits
+
+* Easier than long multiplication as it uses smaller steps
+* Good training of the multiplication table
+* Good training of writing readable digits
+* Good algorithmic training
+* Even young kids can handle big numbers
+* Easy handling of decimal numbers
+* Similar methods can be used to multiply polynomials and complex numbers
+
+#### Simple Steps
+
 * Draw the rectangle
 * Draw the multiplicands
 * Calculate all digit * digit values inside the rectangle
@@ -20,11 +32,11 @@
 * Draw 8
 * 1*8 = 8
 * 9*8 = 72
-* The last stripe is 2
-* The middle stripe is 15
-	* 1 goes to the next stripe as carry
-	* 5 goes to this stripe
-* The first stripe is 1
+* The last diagonal is 2
+* The middle diagonal is 7 + 8 = 15
+	* 1 goes to the first diagonal as carry
+	* 5 goes to the middle diagonal
+* The first diagonal is 1
 * The result of 19 x 8 is 80 + 72 = 152
 
 ### Example 345 x 67 = 23115
@@ -38,8 +50,11 @@
 
 ### Links
 
+* [The Benefits of Lattice Multiplication](https://www.youtube.com/watch?v=8vai4uo6N5E)
 * [Youtube](https://www.youtube.com/watch?v=x2UG0YzT2UA)
 * [Wikipedia](https://en.wikipedia.org/wiki/Lattice_multiplication)
+* [Background](https://prezi.com/qubrraxzdgqj/lattice-multiplication/)
+* [Multiplying Polynomials](https://www.maa.org/sites/default/files/0746834254823.di020785.02p0462x.pdf)
 * [Sheet for printing](lattice.bmp)
 	* Download
 	* Ctrl-p
@@ -48,6 +63,7 @@
 ![Lattice](lattice.bmp)
 
 ### Extreme cases
-For large numbers, like 77777777 x 77777777, some sums might be larger than 99. In these cases, the carry will be larger than 9.
+For large numbers, like 77777777 x 77777777, some diagonal sums might be larger than 99. In these cases, the carry will be larger than 9.
+9 + 9 + 4 + 9 + 4 + 9 + 4 + 9 + 4 + 9 + 4 + 9 + 4 + 9 + 4 + 9 = 109
 
 ![77777777x77777777](77777777x77777777.bmp)

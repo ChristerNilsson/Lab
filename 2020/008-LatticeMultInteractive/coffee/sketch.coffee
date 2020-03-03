@@ -31,18 +31,15 @@ drawRect = ->
 	pop()
 
 recalculate = ->
-	carries = []
-	results = []
 	F1 = factors[0].value()
 	F2 = factors[1].value()
 	W = F1.length
 	H = F2.length
-	x0 = H+1+1
+	x0 = H+2
 	canvas = createCanvas (x0+W)*S+1,(H+2)*S+1
 
-	for i in range W+H
-		carries.push 0
-		results.push 0
+	carries = range(W+H).map -> 0
+	results = range(W+H).map -> 0
 
 	bg 1
 	sc 0
@@ -54,7 +51,7 @@ recalculate = ->
 	rectMode CENTER
 
 	for j in range H+2
-		for i in range x0+W+1-1
+		for i in range x0+W
 			block "",i,j
 
 	for digit,i in F1
@@ -68,10 +65,10 @@ recalculate = ->
 		for i in range W
 			int0 = parseInt F1[i]
 			prod = int0 * int1
-			tiotal = floor prod / 10
-			ental  = prod % 10
-			results[W+H-i-j-1] += tiotal
-			results[W+H-i-j-2] += ental
+			tens = floor prod / 10
+			ones  = prod % 10
+			results[W+H-i-j-1] += tens
+			results[W+H-i-j-2] += ones
 			prod = str int0 * int1
 			if prod.length==1 then prod='0'+prod
 			block prod,x0+i-1,j+1
