@@ -6,7 +6,7 @@
 * Good training of the multiplication table
 * Good training of writing readable digits
 * Good algorithmic training
-* Even young kids can handle big numbers
+* Even young kids can multiply big numbers
 * Easy handling of decimal numbers
 * Similar methods can be used to multiply polynomials and complex numbers
 
@@ -16,7 +16,7 @@
 * Draw the multiplicands
 * Calculate all digit * digit values inside the rectangle
 * Tens goes to the upper left corner of each cell
-* Units goes to the lower right corner
+* Ones goes to the lower right corner
 * Sum the diagonals, start with lower right corner
 * The bottom line will contain the result
 * The line above the bottom line contains the carries
@@ -55,6 +55,7 @@
 * [Wikipedia](https://en.wikipedia.org/wiki/Lattice_multiplication)
 * [Background](https://prezi.com/qubrraxzdgqj/lattice-multiplication/)
 * [Multiplying Polynomials](https://www.maa.org/sites/default/files/0746834254823.di020785.02p0462x.pdf)
+* [Multiplying Complex Numbers](complex.PNG)
 * [Sheet for printing](lattice.bmp)
 	* Download
 	* Ctrl-p
