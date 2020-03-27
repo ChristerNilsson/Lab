@@ -8,13 +8,8 @@
 import numpy as np
 import copy
 import time
-import operator
 
 name = "ECB_data/Valid_cellBC_ECB_ham2_clean_RG"
-
-def hamming(a,b): return sum(map(operator.ne, a, b))
-assert hamming('AAAA','ACCB') == 3
-assert hamming('AAAA','AAAA') == 0
 
 def convertForw(str16): return ['ACGT'.index(ch) for ch in str16]
 assert convertForw('ACGT') == [0,1,2,3]
@@ -41,10 +36,10 @@ def make_BCdic():
 			if key not in result: result[key] = "0"
 		return result
 
-def hamming(bc,bc10x): # 'ACTGTGCACACTGT', list of list
+def hamming(bc,bc10x): # 'ACTGTGCACACTGTAC', list of list
 	bc = convertForw(bc)
 	bc = np.ndarray((16), buffer=np.array(bc), dtype = np.int)
-	diff = bc-bc10x
+	diff = bc - bc10x
 	return np.count_nonzero(diff, axis=1)
 
 def countOnes(arr): return np.count_nonzero(arr == 1)
@@ -57,6 +52,7 @@ bc10x = np.ndarray((len(bc10x),16), buffer=np.array(bc10x), dtype=np.int)
 BCdic = make_BCdic()
 
 hamAssociated = copy.deepcopy(BCdic)
+# hamAssociated = {} # saves 10% exec time. Not sure result will always be ok.
 
 for bc in BCdic: # {}
 	arrHamming = hamming(bc,bc10x)
@@ -65,23 +61,17 @@ for bc in BCdic: # {}
 	b = convertBack(bc10x[mindex])
 	if minHam == 0:
 		hamAssociated[bc] = b
-	if minHam == 1:
+	elif minHam == 1:
 		if countOnes(arrHamming) == 1:
 			hamAssociated[bc] = b  # if unique
 		else:
 			hamAssociated[bc] = "Remove_multham1"
-	if minHam > 1:
+	elif minHam > 1:
 		hamAssociated[bc] = "Remove_Minham"
 
 with open(name + "_compared_10X_barcodes_1.txt", "w") as fout:
-	fout.write("ECB_barcode")
-	fout.write("\t")
-	fout.write("Associated_10X_barcode")
-	fout.write("\n")
+	fout.write("ECB_barcode\tAssociated_10X_barcode\n")
 	for h in hamAssociated:
-		fout.write(h)
-		fout.write("\t")
-		fout.write(hamAssociated[h])
-		fout.write("\n")
+		fout.write(f"{h}\t{hamAssociated[h]}\n")
 
 print(time.time()-start)
