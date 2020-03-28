@@ -3,10 +3,8 @@
 ### Remove barcodes from ECB defined barcodes if they are:
 # ham 1 from more than 1 10X defined cell barcode
 # more than 1 ham from any 10X defined barcode
-# BCdic_copy = copy.deepcopy(BCdic)
 
 import numpy as np
-import copy
 import time
 
 name = "ECB_data/Valid_cellBC_ECB_ham2_clean_RG"
@@ -30,12 +28,11 @@ def make_BCdic():
 	### Get all ECB cell barcodes
 	result = {}
 	with open(name + ".txt", "r") as fd:
-		for line in fd.readlines(): result[line[0:16]] = "0" ### 10X cell barcode
+		for line in fd.readlines(): result[line[0:16]] = 0 ### 10X cell barcode
 	return result
 
 def hamming(bc,bc10x): # 'ACTGTGCACACTGTAC', list of list
 	bc = convertForw(bc)
-	#bc = np.ndarray((16), buffer=np.array(bc), dtype = np.int32)
 	bc = np.array(bc)
 	diff = bc - bc10x
 	return np.count_nonzero(diff, axis=1)
@@ -45,13 +42,11 @@ def countOnes(arr): return np.count_nonzero(arr == 1)
 start = time.time()
 
 bc10x = make_bc10x()
-#bc10x = np.ndarray((len(bc10x),16), buffer=np.array(bc10x), dtype=np.int32)
 bc10x = np.array(bc10x)
 
 BCdic = make_BCdic()
 
-hamAssociated = copy.deepcopy(BCdic)
-# hamAssociated = {} # saves 10% exec time. Not sure result will always be ok.
+hamAssociated = BCdic # copy.deepcopy(BCdic)
 
 for bc in BCdic: # {}
 	arrHamming = hamming(bc,bc10x)
