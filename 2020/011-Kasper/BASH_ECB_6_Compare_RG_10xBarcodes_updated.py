@@ -28,17 +28,15 @@ def make_bc10x():
 
 def make_BCdic():
 	### Get all ECB cell barcodes
+	result = {}
 	with open(name + ".txt", "r") as fd:
-		result = {}
-		for line in fd.readlines():
-			arr = line.split() ### 10X cell barcode
-			key = arr[0]
-			if key not in result: result[key] = "0"
-		return result
+		for line in fd.readlines(): result[line[0:16]] = "0" ### 10X cell barcode
+	return result
 
 def hamming(bc,bc10x): # 'ACTGTGCACACTGTAC', list of list
 	bc = convertForw(bc)
-	bc = np.ndarray((16), buffer=np.array(bc), dtype = np.int)
+	#bc = np.ndarray((16), buffer=np.array(bc), dtype = np.int32)
+	bc = np.array(bc)
 	diff = bc - bc10x
 	return np.count_nonzero(diff, axis=1)
 
@@ -47,7 +45,8 @@ def countOnes(arr): return np.count_nonzero(arr == 1)
 start = time.time()
 
 bc10x = make_bc10x()
-bc10x = np.ndarray((len(bc10x),16), buffer=np.array(bc10x), dtype=np.int)
+#bc10x = np.ndarray((len(bc10x),16), buffer=np.array(bc10x), dtype=np.int32)
+bc10x = np.array(bc10x)
 
 BCdic = make_BCdic()
 
@@ -66,7 +65,7 @@ for bc in BCdic: # {}
 			hamAssociated[bc] = b  # if unique
 		else:
 			hamAssociated[bc] = "Remove_multham1"
-	elif minHam > 1:
+	else:
 		hamAssociated[bc] = "Remove_Minham"
 
 with open(name + "_compared_10X_barcodes_1.txt", "w") as fout:

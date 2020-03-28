@@ -8,8 +8,8 @@ The hamming function takes 90% of the time
 
 ### Moving to numpy
 * Very quick C routines for arrays
-* Exec time 5.5 secs.
-* (24 times faster)
+* Exec time 4.8 secs.
+* (27 times faster)
 
 ### Implementation
 * Changed 'ACGT' to [0,1,2,3] 
