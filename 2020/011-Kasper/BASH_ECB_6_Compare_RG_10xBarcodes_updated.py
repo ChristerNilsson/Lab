@@ -6,6 +6,13 @@
 
 import numpy as np
 import time
+import os
+import sys
+
+print('python version:',sys.version)
+print('numpy version:',np.version.version)
+
+os.chdir('.')
 
 name = "ECB_data/Valid_cellBC_ECB_ham2_clean_RG"
 
