@@ -39,6 +39,34 @@ def hamming(bc,bc10x): # 'ACTGTGCACACTGTAC', list of list
 
 def countOnes(arr): return np.count_nonzero(arr == 1)
 
+def testHamming(a,b,expected):
+	b = [convertForw(item) for item in b]
+	result = hamming(a,b)
+	for i in range(len(a)):
+		if expected[i] != result[i]: return False
+	return True
+assert testHamming('ACGT',['ACGT','AAGT','AAAT','AAAA','TGCA'],[0,1,2,3,4])
+
+def handleOne(bc,bc10x):
+	arrHamming = hamming(bc,bc10x)
+	mindex = np.argmin(arrHamming)
+	minHam = arrHamming[mindex]
+	b = convertBack(bc10x[mindex])
+	if minHam == 0: return b
+	if minHam == 1:
+		if countOnes(arrHamming) == 1: return b  # if unique
+		return "Remove_multham1"
+	return "Remove_Minham"
+
+def testHandleOne(a,b):
+	b = [convertForw(item) for item in b]
+	return handleOne(a,b)
+assert testHandleOne('ACGT',['ACGT','AAGT','AAAT','AAAA','TGCA']) == 'ACGT'
+assert testHandleOne('ACGT',['ACGT','ACGT']) == 'ACGT'
+assert testHandleOne('ACGT',['AAGT','AAAT','AAAA','TGCA']) == 'AAGT'
+assert testHandleOne('ACGT',['AAAT','AAAA','TGCA']) == "Remove_Minham"
+assert testHandleOne('ACGT',['AAGT','CCGT','AAAA','TGCA']) == "Remove_multham1"
+
 start = time.time()
 
 bc10x = make_bc10x()
@@ -49,19 +77,7 @@ BCdic = make_BCdic()
 hamAssociated = BCdic # copy.deepcopy(BCdic)
 
 for bc in BCdic: # {}
-	arrHamming = hamming(bc,bc10x)
-	mindex = np.argmin(arrHamming)
-	minHam = arrHamming[mindex]
-	b = convertBack(bc10x[mindex])
-	if minHam == 0:
-		hamAssociated[bc] = b
-	elif minHam == 1:
-		if countOnes(arrHamming) == 1:
-			hamAssociated[bc] = b  # if unique
-		else:
-			hamAssociated[bc] = "Remove_multham1"
-	else:
-		hamAssociated[bc] = "Remove_Minham"
+	hamAssociated[bc] = handleOne(bc,bc10x)
 
 with open(name + "_compared_10X_barcodes_1.txt", "w") as fout:
 	fout.write("ECB_barcode\tAssociated_10X_barcode\n")
