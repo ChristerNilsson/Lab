@@ -67,6 +67,8 @@ assert testHandleOne('ACGT',['AAGT','AAAT','AAAA','TGCA']) == 'AAGT'
 assert testHandleOne('ACGT',['AAAT','AAAA','TGCA']) == "Remove_Minham"
 assert testHandleOne('ACGT',['AAGT','CCGT','AAAA','TGCA']) == "Remove_multham1"
 
+assert testHandleOne('ACGT',['AAGT','AAGT']) == "Remove_multham1"
+
 start = time.time()
 
 bc10x = make_bc10x()
