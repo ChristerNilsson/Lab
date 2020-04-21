@@ -2,23 +2,23 @@
   "name": "svelte-app",
   "version": "1.0.0",
   "devDependencies": {
-    "coffeescript": "^2.4.1",
+    "coffeescript": "^2.5.1",
     "npm-run-all": "^4.1.5",
-    "rollup": "^1.12.0",
+    "rollup": "^1.32.1",
     "rollup-plugin-commonjs": "^10.0.0",
-    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-livereload": "^1.2.0",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-svelte": "^5.2.1",
     "rollup-plugin-terser": "^4.0.4",
     "stylus": "^0.54.7",
-    "svelte": "^3.12.1",
-    "svelte-preprocess": "^3.1.2"
+    "svelte": "^3.20.1",
+    "svelte-preprocess": "^3.7.1"
   },
   "dependencies": {
-    "@datorama/akita": "^4.10.9",
-    "d3-scale": "^3.2.0",
+    "@datorama/akita": "^4.23.0",
+    "d3-scale": "^3.2.1",
     "debug": "^4.1.1",
-    "emotion": "^10.0.17",
+    "emotion": "^10.0.27",
     "fs-extra": "^8.1.0",
     "has": "^1.0.3",
     "lodash": "^4.17.15",
@@ -26,10 +26,10 @@
     "lodash.range": "^3.2.0",
     "lodash.sample": "^4.2.1",
     "lodash.shuffle": "^4.2.0",
-    "nice-try": "^2.0.0",
+    "nice-try": "^2.0.1",
     "pug": "^2.0.4",
-    "sirv-cli": "^0.4.4",
-    "svelte-routing": "^1.4.0"
+    "sirv-cli": "^0.4.5",
+    "svelte-routing": "^1.4.2"
   },
   "scripts": {
     "build": "rollup -c",
