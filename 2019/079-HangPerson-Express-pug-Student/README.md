@@ -16,4 +16,4 @@ Install in the directory where your directory node_modules is
 
 ## Start
 
-node index
+nodemon js
