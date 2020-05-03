@@ -4,7 +4,7 @@ bakgrund = '#888'
 
 setup = ->
 	createCanvas windowWidth,windowHeight/2
-	logga "Hej Häpp 21!"
+	logga "Hej Häpp 22!"
 
 draw = ->
 	background bakgrund
@@ -14,7 +14,7 @@ enableLog = -> loggaEvents = not loggaEvents
 logga = (name, printTargetIds=false) ->
 	if not loggaEvents then return
 	o = document.getElementsByTagName('output')[0]
-	o.innerHTML += "#{name}: touches = #{touches.length} <BR>" +  # + "  ; targetTouches = " + ev.targetTouches.length + " ; changedTouches = " + ev.changedTouches.length
+	o.innerHTML += "#{name}: touches = #{touches.length} <br>" +  # + "  ; targetTouches = " + ev.targetTouches.length + " ; changedTouches = " + ev.changedTouches.length
 
 	if printTargetIds
 		s = ""
@@ -33,14 +33,11 @@ update_background = (ev) ->
 	else if n==2 then bakgrund = "pink"
 	else bakgrund = "lightblue"
 
-# This is a very basic 2-touch move/pinch/zoom handler that does not include
-# error handling, only handles horizontal moves, etc.
 handle_pinch_zoom = (ev) ->
 	try
 		logga "HPZ"
-		if touches.length == 2 # and ev.changedTouches.length == 2
-			# Check if the two target touches are the same ones that started
-			# the 2-touch
+		if touches.length == 2
+			# Check if the two target touches are the same ones that started the 2-touch
 			point1 = -1
 			point2 = -1
 			for i in range tpCache.length
@@ -62,14 +59,8 @@ handle_pinch_zoom = (ev) ->
 
 touchStarted = (ev) ->
 	try
-		logga ev.type, true
-		# If the user makes simultaneious touches, the browser will fire a
-		# separate touchstart event for each touch point. Thus if there are
-		# three simultaneous touches, the first touchstart event will have
-		# targetTouches length of one, the second event will have a length
-		# of two, and so on.
+		logga 'touchStarted', true
 		ev.preventDefault()
-		# Cache the touch points for later processing of 2-touch pinch/zoom
 		if touches.length == 2
 			for t in touches
 				tpCache.push t
@@ -79,33 +70,17 @@ touchStarted = (ev) ->
 
 touchMoved = (ev) ->
 	try
-		logga ev.type
-		# Note: if the user makes more than one "simultaneous" touches, most browsers
-		# fire at least one touchmove event and some will fire several touchmoves.
-		# Consequently, an application might want to "ignore" some touchmoves.
-		#
-		# This function sets the target element's outline to "dashed" to visualy
-		# indicate the target received a move event.
-		#
+		logga 'touchMoved'
 		ev.preventDefault()
-
-		# To avoid too much color flashing many touchmove events are started,
-		# don't update the background if two touch points are active
-		if not touches.length == 2 # and ev.targetTouches.length == 2)
-			update_background ev
-
-		# Set the target element's outline to dashed to give a clear visual
-		# indication the element received a move event.
+		if not touches.length == 2 then update_background ev
 		ev.target.style.outline = "dashed"
-
-		# Check this event for 2-touch Move/Pinch/Zoom gesture
 		handle_pinch_zoom ev
 	catch 
 		logga "error in Moved"
 
 touchEnded = (ev) ->
 	try	
-		logga ev.type
+		logga 'touchEnded'
 		ev.preventDefault()
 		if touches.length == 0
 			# Restore background and outline to original values
