@@ -4,7 +4,7 @@ bakgrund = '#888'
 
 setup = ->
 	createCanvas windowWidth,windowHeight/2
-	logga "Hej Häpp 26!"
+	logga "Hej Häpp 27!"
 
 draw = ->	background bakgrund
 
@@ -37,14 +37,17 @@ handle_pinch_zoom = (ev) ->
 			for i in range tpCache.length
 				if tpCache[i].id == touches[0].id then point1 = i
 				if tpCache[i].id == touches[1].id then point2 = i
+			logga "    point #{point1} #{point2}"
 			if point1 >=0 and point2 >= 0
 				# Calculate the difference between the start and move coordinates
-				diff1 = Math.abs(tpCache[point1].clientX - touches[0].clientX)
-				diff2 = Math.abs(tpCache[point2].clientX - touches[1].clientX)
+				diff1 = Math.abs(tpCache[point1].x - touches[0].x)
+				diff2 = Math.abs(tpCache[point2].x - touches[1].x)
 
 				# This threshold is device dependent as well as application specific
 				PINCH_THRESHHOLD = ev.target.clientWidth / 10
+				logga "    diff #{diff1} #{diff2} #{PINCH_THRESHHOLD}"
 				if diff1 >= PINCH_THRESHHOLD and diff2 >= PINCH_THRESHHOLD then bakgrund = "green"
+				logga "    bakgrund #{bakgrund}"
 			else
 				tpCache = []
 	catch e
