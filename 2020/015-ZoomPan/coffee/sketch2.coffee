@@ -1,10 +1,10 @@
-loggaEvents = true
+loggaEvents = false
 tpCache = []
 bakgrund = '#888'
 
 setup = ->
 	createCanvas windowWidth,windowHeight/2
-	logga "Hej Häpp 29!"
+	logga "Hej Häpp 30!"
 
 draw = ->	background bakgrund
 
@@ -22,9 +22,9 @@ clearLog = ->
 
 update_background = (ev) ->
 	n = touches.length
+	bakgrund = "lightblue"
 	if n==1 then bakgrund = "yellow"
-	else if n==2 then bakgrund = "pink"
-	else bakgrund = "lightblue"
+	if n==2 then bakgrund = "pink"
 	logga "update_background #{bakgrund}"
 
 handle_pinch_zoom = (ev) ->
@@ -32,21 +32,21 @@ handle_pinch_zoom = (ev) ->
 		logga "--HPZ #{tpCache.length} #{touches.length}"
 		if touches.length == 2
 			# Check if the two target touches are the same ones that started the 2-touch
-			point1 = -1
-			point2 = -1
+			index0 = -1
+			index1 = -1
 			for i in range tpCache.length
-				if tpCache[i].id == touches[0].id then point1 = i
-				if tpCache[i].id == touches[1].id then point2 = i
-			logga "----point #{point1} #{point2}"
-			if point1 >=0 and point2 >= 0
+				if tpCache[i].id == touches[0].id then index0 = i
+				if tpCache[i].id == touches[1].id then index1 = i
+			logga "----index #{index0} #{index1}"
+			if index0 >=0 and index1 >= 0
 				# Calculate the difference between the start and move coordinates
-				diff1 = int dist tpCache[point1].x, tpCache[point1].y, touches[0].x, touches[0].y
-				diff2 = int dist tpCache[point2].x, tpCache[point2].y, touches[1].x, touches[1].y
+				diff0 = int dist tpCache[index0].x, tpCache[index0].y, touches[0].x, touches[0].y
+				diff1 = int dist tpCache[index1].x, tpCache[index1].y, touches[1].x, touches[1].y
 
 				# This threshold is device dependent as well as application specific
 				PINCH_THRESHHOLD = ev.target.clientWidth / 10
-				logga "----diff #{diff1} #{diff2} #{PINCH_THRESHHOLD}"
-				if diff1 >= PINCH_THRESHHOLD and diff2 >= PINCH_THRESHHOLD then bakgrund = "green"
+				logga "----diff #{diff0} #{diff1} #{PINCH_THRESHHOLD}"
+				if diff0 >= PINCH_THRESHHOLD and diff1 >= PINCH_THRESHHOLD then bakgrund = "green"
 				logga "----bakgrund #{bakgrund}"
 			else
 				tpCache = []
