@@ -23,17 +23,22 @@
 				border: 1px solid black;
 			}
 		</style>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js" ></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/chai/4.2.0/chai.min.js"></script>
+		<script src="libraries/nilsson.js"></script>
 	</head>
 
-	<body onload="init();">
+	<body>
 		<script src="js/sketch2.js"></script>
 
 		<h1>Multi-touch interaction</h1>
 		<!-- Create some boxes to test various gestures. -->
-		<div id="target1"> Tap, Hold or Swipe me 1</div>
+		<!-- <div id="target1"> Tap, Hold or Swipe me 1</div>
 		<div id="target2"> Tap, Hold or Swipe me 2</div>
 		<div id="target3"> Tap, Hold or Swipe me 3</div>
-		<div id="target4"> Tap, Hold or Swipe me 4</div>
+		<div id="target4"> Tap, Hold or Swipe me 4</div> -->
 		
 		<!-- UI for logging/debugging -->
 		<button id="log" onclick="enableLog(event);">Start/Stop event logging</button>
