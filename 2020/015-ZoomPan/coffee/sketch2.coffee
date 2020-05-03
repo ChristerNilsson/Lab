@@ -7,9 +7,9 @@ setup = ->
 
 draw = ->
 	background bakgrund
-	text '13',100,100
+	text '15',100,100
 
-enableLog = (ev) -> logEvents = not logEvents
+enableLog = -> logEvents = not logEvents
 
 log = (name, ev, printTargetIds=false) ->
 	o = document.getElementsByTagName('output')[0]
@@ -22,7 +22,7 @@ log = (name, ev, printTargetIds=false) ->
 			s += "... id = " + t.id + " <br>"
 		o.innerHTML += s
 
-clearLog = (event) ->
+clearLog = ->
 	o = document.getElementsByTagName('output')[0]
 	o.innerHTML = ""
 
@@ -54,11 +54,11 @@ handle_pinch_zoom = (ev) ->
 
 					# This threshold is device dependent as well as application specific
 					PINCH_THRESHHOLD = ev.target.clientWidth / 10
-					if diff1 >= PINCH_THRESHHOLD and diff2 >= PINCH_THRESHHOLD then ev.target.style.background = "green"
+					if diff1 >= PINCH_THRESHHOLD and diff2 >= PINCH_THRESHHOLD then bakgrund = "green"
 				else
 					tpCache = []
-	catch 
-		log "error in HPZ",ev
+	catch e
+		log "error in HPZ",e,ev
 
 touchStarted = (ev) ->
 	try
@@ -75,8 +75,8 @@ touchStarted = (ev) ->
 				tpCache.push t
 		if logEvents then log "touchStart", ev, true
 		update_background ev
-	catch 
-		log "error in Started",ev
+	catch e
+		log "error in Started",e,ev
 
 touchMoved = (ev) ->
 	try
@@ -114,8 +114,8 @@ touchEnded = (ev) ->
 			# Restore background and outline to original values
 			ev.target.style.background = "white"
 			ev.target.style.outline = "1px solid black"
-	catch 
-		log "error in Ended",ev
+	catch e
+		log "error in Ended",e,ev
 
 # set_handlers = (name) ->
 # 	# Install event handlers for the given element
