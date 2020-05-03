@@ -7,20 +7,21 @@ setup = ->
 
 draw = ->
 	background bakgrund
-	text '15',100,100
+	text '16',100,100
 
 enableLog = -> logEvents = not logEvents
 
 log = (name, ev, printTargetIds=false) ->
 	o = document.getElementsByTagName('output')[0]
-	s = name + ": touches = " + touches.length # + "  ; targetTouches = " + ev.targetTouches.length + " ; changedTouches = " + ev.changedTouches.length
-	o.innerHTML += s + " <br>"
+	o.innerHTML += name + "<br>"
+	#s = name + ": touches = " + touches.length # + "  ; targetTouches = " + ev.targetTouches.length + " ; changedTouches = " + ev.changedTouches.length
+	#o.innerHTML += s + " <br>"
 
-	if printTargetIds
-		s = ""
-		for t in touches
-			s += "... id = " + t.id + " <br>"
-		o.innerHTML += s
+	# if printTargetIds
+	# 	s = ""
+	# 	for t in touches
+	# 		s += "... id = " + t.id + " <br>"
+	# 	o.innerHTML += s
 
 clearLog = ->
 	o = document.getElementsByTagName('output')[0]
