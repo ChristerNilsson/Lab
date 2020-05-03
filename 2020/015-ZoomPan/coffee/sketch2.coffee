@@ -66,7 +66,7 @@ touchStarted = (ev) ->
 	ev.preventDefault()
 	# Cache the touch points for later processing of 2-touch pinch/zoom
 	if touches.length == 2
-		for t in tTouches
+		for t in touches
 			tpCache.push t
 	if logEvents then log "touchStart", ev, true
 	update_background ev
