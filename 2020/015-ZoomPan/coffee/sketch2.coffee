@@ -4,7 +4,7 @@ bakgrund = '#888'
 
 setup = ->
 	createCanvas windowWidth,windowHeight/2
-	logga "Hej Häpp 22!"
+	logga "Hej Häpp 23!"
 
 draw = ->
 	background bakgrund
@@ -19,7 +19,7 @@ logga = (name, printTargetIds=false) ->
 	if printTargetIds
 		s = ""
 		for t in touches
-			s += "... id = #{JSON.stringify t} <br>" # t.id
+			s += "... id = #{t.id} <br>" # t.id
 		o.innerHTML += s
 
 clearLog = ->
@@ -27,11 +27,11 @@ clearLog = ->
 	o.innerHTML = ""
 
 update_background = (ev) ->
-	logga 'update_background'
 	n = touches.length
 	if n==1 then bakgrund = "yellow"
 	else if n==2 then bakgrund = "pink"
 	else bakgrund = "lightblue"
+	logga "update_background #{bakgrund}"
 
 handle_pinch_zoom = (ev) ->
 	try
