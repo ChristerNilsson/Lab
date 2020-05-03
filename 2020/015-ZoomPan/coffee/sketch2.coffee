@@ -43,7 +43,6 @@ handle_pinch_zoom = (ev) ->
 			for i in range tpCache.length
 				if tpCache[i].id == touches[0].id then point1 = i
 				if tpCache[i].id == touches[1].id then point2 = i
-			}
 			if point1 >=0 and point2 >= 0
 				# Calculate the difference between the start and move coordinates
 				diff1 = Math.abs(tpCache[point1].clientX - touches[0].clientX)
