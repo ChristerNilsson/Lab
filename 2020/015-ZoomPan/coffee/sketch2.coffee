@@ -4,25 +4,25 @@ bakgrund = '#888'
 
 setup = ->
 	createCanvas windowWidth,windowHeight/2
-	logga "Hula Häpp!"
+	logga "Hej Häpp 20!"
 
 draw = ->
 	background bakgrund
-	text '19',100,100
 
 enableLog = -> loggaEvents = not loggaEvents
 
 logga = (name, printTargetIds=false) ->
+	if not loggaEvents then return
 	o = document.getElementsByTagName('output')[0]
 	o.innerHTML += name + "<br>"
-	#s = name + ": touches = " + touches.length # + "  ; targetTouches = " + ev.targetTouches.length + " ; changedTouches = " + ev.changedTouches.length
-	#o.innerHTML += s + " <br>"
+	s = name + ": touches = " + touches.length # + "  ; targetTouches = " + ev.targetTouches.length + " ; changedTouches = " + ev.changedTouches.length
+	o.innerHTML += s + " <br>"
 
-	# if printTargetIds
-	# 	s = ""
-	# 	for t in touches
-	# 		s += "... id = " + t.id + " <br>"
-	# 	o.innerHTML += s
+	if printTargetIds
+		s = ""
+		for t in touches
+			s += "... id = #{t} <br>" # t.id
+		o.innerHTML += s
 
 clearLog = ->
 	o = document.getElementsByTagName('output')[0]
@@ -40,7 +40,7 @@ update_background = (ev) ->
 handle_pinch_zoom = (ev) ->
 	try
 		console.log ev
-		if touches.length == 2 and ev.changedTouches.length == 2
+		if touches.length == 2 # and ev.changedTouches.length == 2
 			# Check if the two target touches are the same ones that started
 			# the 2-touch
 			point1 = -1
@@ -60,7 +60,7 @@ handle_pinch_zoom = (ev) ->
 				else
 					tpCache = []
 	catch e
-		logga "error in HPZ"
+		logga "error in HPZ #{e}"
 
 touchStarted = (ev) ->
 	try
@@ -75,7 +75,7 @@ touchStarted = (ev) ->
 		if touches.length == 2
 			for t in touches
 				tpCache.push t
-		if loggaEvents then logga "touchStart", true
+		logga ev.type, true
 		update_background ev
 	catch e
 		logga "error in Started"
@@ -91,7 +91,7 @@ touchMoved = (ev) ->
 		# indicate the target received a move event.
 		#
 		ev.preventDefault()
-		if loggaEvents then logga "touchMove"
+		logga ev.type
 
 		# To avoid too much color flashing many touchmove events are started,
 		# don't update the background if two touch points are active
@@ -111,7 +111,7 @@ touchEnded = (ev) ->
 	try	
 		console.log ev
 		ev.preventDefault()
-		if loggaEvents then logga ev.type
+		logga ev.type
 		if touches.length == 0
 			# Restore background and outline to original values
 			ev.target.style.background = "white"
