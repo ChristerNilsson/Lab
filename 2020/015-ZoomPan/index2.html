@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang=en>
+	<!--
+		This app demonstrates using the Touch Events touch event types (touchstart,
+		touchmove, touchcancel and touchend) for the following interaction:
+		1. Single touch
+		2. Two (simultaneous) touches
+		3. More than two simultaneous touches
+		4. 1-finger swipe
+		5. 2-finger move/pinch/swipe
+	-->
+	<head>
+		<title>Touch Events tutorial</title>
+		<meta name="viewport" content="width=device-width">
+		<style>
+			div {
+				margin: 0em;
+				padding: 2em;
+			}
+			
+			#target1, #target2, #target3, #target4  {
+				background: white;
+				border: 1px solid black;
+			}
+		</style>
+	</head>
+
+	<body onload="init();">
+		<script src="js/sketch2.js"></script>
+
+		<h1>Multi-touch interaction</h1>
+		<!-- Create some boxes to test various gestures. -->
+		<div id="target1"> Tap, Hold or Swipe me 1</div>
+		<div id="target2"> Tap, Hold or Swipe me 2</div>
+		<div id="target3"> Tap, Hold or Swipe me 3</div>
+		<div id="target4"> Tap, Hold or Swipe me 4</div>
+		
+		<!-- UI for logging/debugging -->
+		<button id="log" onclick="enableLog(event);">Start/Stop event logging</button>
+		<button id="clearlog" onclick="clearLog(event);">Clear the log</button>
+		<p></p>
+		<output></output>
+	</body>
+</html>
