@@ -8,9 +8,9 @@ setup = ->
 
 draw = ->
 	background bakgrund
-	text '18',100,100
+	text '19',100,100
 
-enablelog = -> loggaEvents = not loggaEvents
+enableLog = -> loggaEvents = not loggaEvents
 
 logga = (name, printTargetIds=false) ->
 	o = document.getElementsByTagName('output')[0]
@@ -24,12 +24,12 @@ logga = (name, printTargetIds=false) ->
 	# 		s += "... id = " + t.id + " <br>"
 	# 	o.innerHTML += s
 
-clearlog = ->
+clearLog = ->
 	o = document.getElementsByTagName('output')[0]
 	o.innerHTML = ""
 
 update_background = (ev) ->
-	logga 'update_background',ev
+	logga 'update_background'
 	n = touches.length
 	if n==1 then bakgrund = "yellow"
 	else if n==2 then bakgrund = "pink"
@@ -60,7 +60,7 @@ handle_pinch_zoom = (ev) ->
 				else
 					tpCache = []
 	catch e
-		logga "error in HPZ",e,ev
+		logga "error in HPZ"
 
 touchStarted = (ev) ->
 	try
@@ -75,10 +75,10 @@ touchStarted = (ev) ->
 		if touches.length == 2
 			for t in touches
 				tpCache.push t
-		if loggaEvents then logga "touchStart", ev, true
+		if loggaEvents then logga "touchStart", true
 		update_background ev
 	catch e
-		logga "error in Started",e,ev
+		logga "error in Started"
 
 touchMoved = (ev) ->
 	try
@@ -91,7 +91,7 @@ touchMoved = (ev) ->
 		# indicate the target received a move event.
 		#
 		ev.preventDefault()
-		if loggaEvents then logga "touchMove", ev, false
+		if loggaEvents then logga "touchMove"
 
 		# To avoid too much color flashing many touchmove events are started,
 		# don't update the background if two touch points are active
@@ -105,19 +105,19 @@ touchMoved = (ev) ->
 		# Check this event for 2-touch Move/Pinch/Zoom gesture
 		handle_pinch_zoom ev
 	catch 
-		logga "error in Moved",ev
+		logga "error in Moved"
 
 touchEnded = (ev) ->
 	try	
 		console.log ev
 		ev.preventDefault()
-		if loggaEvents then logga ev.type, ev, false
+		if loggaEvents then logga ev.type
 		if touches.length == 0
 			# Restore background and outline to original values
 			ev.target.style.background = "white"
 			ev.target.style.outline = "1px solid black"
 	catch e
-		logga "error in Ended",e,ev
+		logga "error in Ended"
 
 # set_handlers = (name) ->
 # 	# Install event handlers for the given element
