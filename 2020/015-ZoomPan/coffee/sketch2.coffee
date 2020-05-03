@@ -4,7 +4,7 @@ bakgrund = '#888'
 
 setup = ->
 	createCanvas windowWidth,windowHeight/2
-	logga "Hej Häpp 23!"
+	logga "Hej Häpp 24!"
 
 draw = ->
 	background bakgrund
@@ -14,7 +14,7 @@ enableLog = -> loggaEvents = not loggaEvents
 logga = (name, printTargetIds=false) ->
 	if not loggaEvents then return
 	o = document.getElementsByTagName('output')[0]
-	o.innerHTML += "#{name}: touches = #{touches.length} <br>" +  # + "  ; targetTouches = " + ev.targetTouches.length + " ; changedTouches = " + ev.changedTouches.length
+	o.innerHTML += "#{name}: touches = #{touches.length} <br>" # + "  ; targetTouches = " + ev.targetTouches.length + " ; changedTouches = " + ev.changedTouches.length
 
 	if printTargetIds
 		s = ""
