@@ -1,4 +1,4 @@
-logEvents = false
+logEvents = true
 tpCache = []
 bakgrund = '#888'
 
@@ -7,7 +7,7 @@ setup = ->
 
 draw = ->
 	background bakgrund
-	text '12',100,100
+	text '13',100,100
 
 enableLog = (ev) -> logEvents = not logEvents
 
@@ -27,7 +27,7 @@ clearLog = (event) ->
 	o.innerHTML = ""
 
 update_background = (ev) ->
-	console.log ev
+	log 'update_background',ev
 	n = touches.length
 	if n==1 then bakgrund = "yellow"
 	else if n==2 then bakgrund = "pink"
