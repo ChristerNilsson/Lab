@@ -4,16 +4,18 @@ bakgrund = '#888'
 
 setup = ->
 	createCanvas windowWidth,windowHeight/2
+	o = document.getElementsByTagName('output')[0]
+	o.innerHTML += "Häpp!"
 
 draw = ->
 	background bakgrund
-	text '16',100,100
+	text '17',100,100
 
 enableLog = -> logEvents = not logEvents
 
 log = (name, ev, printTargetIds=false) ->
-	o = document.getElementsByTagName('output')[0]
-	o.innerHTML += name + "<br>"
+	#o = document.getElementsByTagName('output')[0]
+	#o.innerHTML += name + "<br>"
 	#s = name + ": touches = " + touches.length # + "  ; targetTouches = " + ev.targetTouches.length + " ; changedTouches = " + ev.changedTouches.length
 	#o.innerHTML += s + " <br>"
 
