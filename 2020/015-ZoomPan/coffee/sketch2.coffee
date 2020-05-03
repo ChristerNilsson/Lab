@@ -1,10 +1,10 @@
-loggaEvents = true
+loggaEvents = false
 tpCache = []
 bakgrund = '#888'
 
 setup = ->
 	createCanvas windowWidth,windowHeight/2
-	logga "Hej Häpp 27!"
+	logga "Hej Häpp 28!"
 
 draw = ->	background bakgrund
 
