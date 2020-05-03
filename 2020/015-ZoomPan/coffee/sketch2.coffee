@@ -4,23 +4,17 @@ bakgrund = '#888'
 
 setup = ->
 	createCanvas windowWidth,windowHeight/2
-	logga "Hej Häpp 25!"
+	logga "Hej Häpp 26!"
 
-draw = ->
-	background bakgrund
+draw = ->	background bakgrund
 
 enableLog = -> loggaEvents = not loggaEvents
 
 logga = (name, printTargetIds=false) ->
 	if not loggaEvents then return
 	o = document.getElementsByTagName('output')[0]
-	o.innerHTML += "#{name}: touches = #{touches.length} <br>" # + "  ; targetTouches = " + ev.targetTouches.length + " ; changedTouches = " + ev.changedTouches.length
-
-	if printTargetIds
-		s = ""
-		for t in touches
-			s += "... id = #{t.id} <br>" # t.id
-		o.innerHTML += s
+	o.innerHTML += "#{name}: touches = #{touches.length} <br>"
+	if printTargetIds then o.innerHTML += ("... id = #{t.id} <br>" for t in touches).join '<br>'
 
 clearLog = ->
 	o = document.getElementsByTagName('output')[0]
@@ -35,7 +29,7 @@ update_background = (ev) ->
 
 handle_pinch_zoom = (ev) ->
 	try
-		logga "HPZ"
+		logga "  HPZ #{tpCache.length} #{touches.length}"
 		if touches.length == 2
 			# Check if the two target touches are the same ones that started the 2-touch
 			point1 = -1
