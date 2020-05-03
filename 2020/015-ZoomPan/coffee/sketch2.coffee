@@ -4,7 +4,7 @@ bakgrund = '#888'
 
 setup = ->
 	createCanvas windowWidth,windowHeight/2
-	logga "Hej Häpp 20!"
+	logga "Hej Häpp 21!"
 
 draw = ->
 	background bakgrund
@@ -14,14 +14,12 @@ enableLog = -> loggaEvents = not loggaEvents
 logga = (name, printTargetIds=false) ->
 	if not loggaEvents then return
 	o = document.getElementsByTagName('output')[0]
-	o.innerHTML += name + "<br>"
-	s = name + ": touches = " + touches.length # + "  ; targetTouches = " + ev.targetTouches.length + " ; changedTouches = " + ev.changedTouches.length
-	o.innerHTML += s + " <br>"
+	o.innerHTML += "#{name}: touches = #{touches.length} <BR>" +  # + "  ; targetTouches = " + ev.targetTouches.length + " ; changedTouches = " + ev.changedTouches.length
 
 	if printTargetIds
 		s = ""
 		for t in touches
-			s += "... id = #{t} <br>" # t.id
+			s += "... id = #{JSON.stringify t} <br>" # t.id
 		o.innerHTML += s
 
 clearLog = ->
@@ -39,7 +37,7 @@ update_background = (ev) ->
 # error handling, only handles horizontal moves, etc.
 handle_pinch_zoom = (ev) ->
 	try
-		console.log ev
+		logga "HPZ"
 		if touches.length == 2 # and ev.changedTouches.length == 2
 			# Check if the two target touches are the same ones that started
 			# the 2-touch
@@ -64,7 +62,7 @@ handle_pinch_zoom = (ev) ->
 
 touchStarted = (ev) ->
 	try
-		console.log ev
+		logga ev.type, true
 		# If the user makes simultaneious touches, the browser will fire a
 		# separate touchstart event for each touch point. Thus if there are
 		# three simultaneous touches, the first touchstart event will have
@@ -75,14 +73,13 @@ touchStarted = (ev) ->
 		if touches.length == 2
 			for t in touches
 				tpCache.push t
-		logga ev.type, true
 		update_background ev
 	catch e
 		logga "error in Started"
 
 touchMoved = (ev) ->
 	try
-		console.log ev
+		logga ev.type
 		# Note: if the user makes more than one "simultaneous" touches, most browsers
 		# fire at least one touchmove event and some will fire several touchmoves.
 		# Consequently, an application might want to "ignore" some touchmoves.
@@ -91,7 +88,6 @@ touchMoved = (ev) ->
 		# indicate the target received a move event.
 		#
 		ev.preventDefault()
-		logga ev.type
 
 		# To avoid too much color flashing many touchmove events are started,
 		# don't update the background if two touch points are active
@@ -109,27 +105,11 @@ touchMoved = (ev) ->
 
 touchEnded = (ev) ->
 	try	
-		console.log ev
-		ev.preventDefault()
 		logga ev.type
+		ev.preventDefault()
 		if touches.length == 0
 			# Restore background and outline to original values
 			ev.target.style.background = "white"
 			ev.target.style.outline = "1px solid black"
 	catch e
 		logga "error in Ended"
-
-# set_handlers = (name) ->
-# 	# Install event handlers for the given element
-# 	el = document.getElementById name
-# 	el.ontouchstart = start_handler
-# 	el.ontouchmove = move_handler
-# 	# Use same handler for touchcancel and touchend
-# 	el.ontouchcancel = end_handler
-# 	el.ontouchend = end_handler
-
-# init = ->
-# 	set_handlers "target1"
-# 	set_handlers "target2"
-# 	set_handlers "target3"
-# 	set_handlers "target4"
