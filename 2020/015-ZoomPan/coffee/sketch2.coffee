@@ -1,12 +1,13 @@
 logEvents = false
 tpCache = []
-bakgrund = '#000'
+bakgrund = '#888'
 
 setup = ->
 	createCanvas windowWidth,windowHeight/2
 
 draw = ->
 	background bakgrund
+	text '12',100,100
 
 enableLog = (ev) -> logEvents = not logEvents
 
@@ -115,6 +116,7 @@ touchEnded = (ev) ->
 			ev.target.style.outline = "1px solid black"
 	catch 
 		log "error in Ended",ev
+
 # set_handlers = (name) ->
 # 	# Install event handlers for the given element
 # 	el = document.getElementById name
