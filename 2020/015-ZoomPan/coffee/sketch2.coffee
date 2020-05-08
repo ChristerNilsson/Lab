@@ -1,4 +1,4 @@
-VERSION = 11
+VERSION = 12
 bakgrund = '#888'
 SCALE = 1
 cx = 0
@@ -23,8 +23,6 @@ setup = ->
 	textSize 50
 	cx = width/2
 	cy = height/2
-	buttons.push new Button '+',50,50, -> SCALE *= 1.5
-	buttons.push new Button '-',150,50, -> SCALE /= 1.5
 
 draw = ->
 	background bakgrund
@@ -33,7 +31,7 @@ draw = ->
 	scale SCALE
 	circle 0,0,100
 	pop()
-	for button in buttons 
+	for button in buttons
 		button.draw()
 	text msg0,width/2,height/2
 	text SCALE,width/2,height/2+100
@@ -43,15 +41,23 @@ touchStarted = (event) ->
 	event.preventDefault()
 	startX = mouseX
 	startY = mouseY
-	msg0 = "started #{SCALE}"
+	false
 
 touchEnded = (event) ->
 	event.preventDefault()
 	for button in buttons
 		if button.inside mouseX,mouseY then return button.click()
+	if startX==mouseX and startY==mouseY
+		buttons = []
+		buttons.push new Button '+',50,50, ->
+			SCALE *= 1.5
+			buttons = []
+		buttons.push new Button '-',150,50, ->
+			SCALE /= 1.5
+			buttons = []
 	cx += mouseX-startX
 	cy += mouseY-startY
 	startX = 0
 	startY = 0
-	msg2 = "ended #{SCALE}"
+	false
 
