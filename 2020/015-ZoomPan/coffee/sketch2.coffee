@@ -1,46 +1,22 @@
-VERSION = 1
-
+VERSION = 2
 bakgrund = '#888'
-
 SCALE = 1
-cx=0
-cy=0
-
+cx = 0
+cy = 0
 msg = VERSION
-
-BR = '<br>'
-
 buttons = []
 
 class Button
 	constructor : (@prompt,@x,@y,@click) -> @r=50
 	draw : ->
 		circle @x,@y,@r
-		textAlign CENTER,CENTER
-		textSize 50
 		text @prompt,@x,@y
 	inside : (x,y) -> @r > dist x,y,@x,@y
 
-# class Dump
-# 	constructor : ->
-# 		@data = []
-# 		@active = false
-# 	store : (msg) ->
-# 		if @active
-# 			console.log msg
-# 			@data.push msg
-# 	get : ->
-# 		result = @data.join BR
-# 		@data = []
-# 		result + BR + BR
-# dump = new Dump()
-    
-# sendMail = (subject) ->
-# 	mail.href = encodeURI "mailto:janchrister.nilsson@gmail.com?subject=#{subject}&body=#{dump.get()}"
-# 	mail.click()
-
 setup = ->
-	createCanvas 600,400
+	createCanvas windowWidth-20,windowHeight-20
+	textAlign CENTER,CENTER
+	textSize 50
 	cx = width/2
 	cy = height/2
 	buttons.push new Button '+',50,50, -> 
@@ -49,8 +25,6 @@ setup = ->
 	buttons.push new Button '-',150,50, ->
 		bakgrund = '#0f0'
 		SCALE /= 1.5
-	buttons.push new Button 'mail',600-50,50, ->
-		bakgrund = '#00f'
 
 draw = ->
 	background bakgrund
@@ -66,17 +40,21 @@ draw = ->
 mousePressed = ->
 	for button in buttons
 		if button.inside mouseX,mouseY then button.click()
+	false
+
+mouseReleased = ->
+
 
 mouseDragged = (e) ->
 	cx += e.movementX
 	cy += e.movementY
-	msg = _.keys(e).length
+	#msg = _.keys(e).length
 	# console.log e
 
 touchMoved = (e) ->
-	cx += e.movementX
-	cy += e.movementY
-	msg = JSON.stringify e
+	cx += 10
+	cy += 10
+	#msg = JSON.stringify e
 
 # touchStarted = (ev) ->
 # 	try
@@ -157,3 +135,22 @@ touchMoved = (e) ->
 # 				tpCache = []
 # 	catch e
 # 		dump.store "error in HPZ #{e}"
+
+# class Dump
+# 	constructor : ->
+# 		@data = []
+# 		@active = false
+# 	store : (msg) ->
+# 		if @active
+# 			console.log msg
+# 			@data.push msg
+# 	get : ->
+# 		result = @data.join BR
+# 		@data = []
+# 		result + BR + BR
+# dump = new Dump()
+    
+# sendMail = (subject) ->
+# 	mail.href = encodeURI "mailto:janchrister.nilsson@gmail.com?subject=#{subject}&body=#{dump.get()}"
+# 	mail.click()
+
