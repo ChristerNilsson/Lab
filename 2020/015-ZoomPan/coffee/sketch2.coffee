@@ -1,4 +1,4 @@
-VERSION = 5
+VERSION = 6
 bakgrund = '#888'
 SCALE = 1
 cx = 0
@@ -61,9 +61,6 @@ touchStarted = (e) ->
 	msg0 = "started #{mouseX} "
 	startX = mouseX
 	startY = mouseY
-	#cx += 10
-	#cy += 10
-	#msg = JSON.stringify e
 
 touchMoved = (e) ->
 	msg1 = "moved #{mouseX} "
@@ -74,9 +71,6 @@ touchMoved = (e) ->
 
 touchEnded = (e) ->
 	msg2 = "ended #{mouseX}"
-	#cx += 10
-	#cy += 10
-	#msg = JSON.stringify e
 
 # touchStarted = (ev) ->
 # 	try
