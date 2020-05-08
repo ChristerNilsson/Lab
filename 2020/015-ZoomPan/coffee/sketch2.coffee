@@ -1,4 +1,4 @@
-VERSION = 7
+VERSION = 8
 bakgrund = '#888'
 SCALE = 1
 cx = 0
@@ -48,18 +48,18 @@ touchStarted = (e) ->
 	startX = mouseX
 	startY = mouseY
 
-touchMoved = (e) ->
-	msg1 = "moved #{mouseX} "
-	cx += mouseX-startX
-	cy += mouseY-startY
-	startX = mouseX
-	startY = mouseY
+#touchMoved = (e) ->
 
 touchEnded = (e) ->
 	msg2 = "ended #{mouseX}"
 	if mouseX==startX and mouseY==startY
 		for button in buttons
 			if button.inside mouseX,mouseY then button.click()
+	else
+		cx += mouseX-startX
+		cy += mouseY-startY
+		#startX = mouseX
+		#startY = mouseY
 
 
 # touchStarted = (ev) ->
