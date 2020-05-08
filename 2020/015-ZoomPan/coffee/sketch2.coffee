@@ -1,10 +1,14 @@
-VERSION = 3
+VERSION = 5
 bakgrund = '#888'
 SCALE = 1
 cx = 0
 cy = 0
-msg = VERSION
+msg0 = VERSION
+msg1 = ""
+msg2 = ""
 buttons = []
+startX = 0
+startY = 0 
 
 class Button
 	constructor : (@prompt,@x,@y,@click) -> @r=50
@@ -35,26 +39,43 @@ draw = ->
 	pop()
 	for button in buttons 
 		button.draw()
-	text msg,width/2,height/2
+	text msg0,width/2,height/2
+	text msg1,width/2,height/2+100
+	text msg2,width/2,height/2+200
 
-mousePressed = ->
-	for button in buttons
-		if button.inside mouseX,mouseY then button.click()
-	false
+# mousePressed = ->
+# 	for button in buttons
+# 		if button.inside mouseX,mouseY then button.click()
+# 	false
 
-mouseReleased = ->
+#mouseReleased = ->
 
 
-mouseDragged = (e) ->
-	cx += e.movementX
-	cy += e.movementY
+# mouseDragged = (e) ->
+# 	cx += e.movementX
+# 	cy += e.movementY
 	#msg = _.keys(e).length
 	# console.log e
 
+touchStarted = (e) ->
+	msg0 = "started #{mouseX} "
+	startX = mouseX
+	startY = mouseY
+	#cx += 10
+	#cy += 10
+	#msg = JSON.stringify e
+
 touchMoved = (e) ->
-	msg = e.movementX
-	cx += 10
-	cy += 10
+	msg1 = "moved #{mouseX} "
+	cx += mouseX-startX
+	cy += mouseY-startY
+	startX = mouseX
+	startY = mouseY
+
+touchEnded = (e) ->
+	msg2 = "ended #{mouseX}"
+	#cx += 10
+	#cy += 10
 	#msg = JSON.stringify e
 
 # touchStarted = (ev) ->
