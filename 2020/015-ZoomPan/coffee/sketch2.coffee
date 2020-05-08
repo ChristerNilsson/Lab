@@ -1,4 +1,4 @@
-VERSION = 6
+VERSION = 7
 bakgrund = '#888'
 SCALE = 1
 cx = 0
@@ -43,20 +43,6 @@ draw = ->
 	text msg1,width/2,height/2+100
 	text msg2,width/2,height/2+200
 
-# mousePressed = ->
-# 	for button in buttons
-# 		if button.inside mouseX,mouseY then button.click()
-# 	false
-
-#mouseReleased = ->
-
-
-# mouseDragged = (e) ->
-# 	cx += e.movementX
-# 	cy += e.movementY
-	#msg = _.keys(e).length
-	# console.log e
-
 touchStarted = (e) ->
 	msg0 = "started #{mouseX} "
 	startX = mouseX
@@ -71,6 +57,10 @@ touchMoved = (e) ->
 
 touchEnded = (e) ->
 	msg2 = "ended #{mouseX}"
+	if mouseX==startX and mouseY==startY
+		for button in buttons
+			if button.inside mouseX,mouseY then button.click()
+
 
 # touchStarted = (ev) ->
 # 	try
