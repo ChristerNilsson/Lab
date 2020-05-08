@@ -1,4 +1,4 @@
-VERSION = 9
+VERSION = 10
 bakgrund = '#888'
 SCALE = 1
 cx = 0
@@ -36,20 +36,20 @@ draw = ->
 	for button in buttons 
 		button.draw()
 	text msg0,width/2,height/2
-	text msg1,width/2,height/2+100
+	text SCALE,width/2,height/2+100
 	text msg2,width/2,height/2+200
 
-touchStarted = (e) ->
-	msg0 = "started #{mouseX} "
+touchStarted = ->
 	startX = mouseX
 	startY = mouseY
+	msg0 = "started #{SCALE}"
 
-touchEnded = (e) ->
-	#if mouseX==startX and mouseY==startY
+touchEnded = ->
 	for button in buttons
 		if button.inside mouseX,mouseY then return button.click()
-	#else
 	cx += mouseX-startX
 	cy += mouseY-startY
+	startX = 0
+	startY = 0
 	msg2 = "ended #{SCALE}"
 
