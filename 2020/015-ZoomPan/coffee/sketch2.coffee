@@ -1,4 +1,4 @@
-VERSION = 2
+VERSION = 3
 bakgrund = '#888'
 SCALE = 1
 cx = 0
@@ -52,6 +52,7 @@ mouseDragged = (e) ->
 	# console.log e
 
 touchMoved = (e) ->
+	msg = e.movementX
 	cx += 10
 	cy += 10
 	#msg = JSON.stringify e
