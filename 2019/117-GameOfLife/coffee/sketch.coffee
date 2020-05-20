@@ -15,7 +15,7 @@ s = []
 setup = ->
 	createCanvas 200,200
 	frameRate 1
-	xdraw()
+	#xdraw()
 
 count = (i,j) ->
 	result = 0
@@ -25,15 +25,15 @@ count = (i,j) ->
 			if b1[(i+di) %% 8][(j+dj) %% 8] == '.' then result++
 	result
 
-xdraw = ->
-	s.push "# https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"
-	s.push "# https://github.com/ChristerNilsson/Lab/blob/master/2019/117-GameOfLife/coffee/sketch.coffee"
-	s.push 'a = Animation()'
+draw = ->
+	# s.push "# https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"
+	# s.push "# https://github.com/ChristerNilsson/Lab/blob/master/2019/117-GameOfLife/coffee/sketch.coffee"
+	# s.push 'a = Animation()'
 	b2 = []
 	for i in range 8
 		b2.push '        '.split ''
 	output b2,b1
-	for frame in range 30
+	for frame in range 1 # 30
 		b2 = []
 		for i in range 8
 			b2.push '        '.split ''
@@ -46,9 +46,9 @@ xdraw = ->
 				if cell == ' ' and c == 3 then b2[i][j] = '.' # born
 				fc if b2[i][j] == '.' then 0 else 1
 				rect 20*i,20*j,20,20
-		output b1,b2
+		# output b1,b2
 		b1 = b2
-	console.log s.join '\n'
+	#console.log s.join '\n'
 
 output = (b1,b2) ->
 	for i in range 8
