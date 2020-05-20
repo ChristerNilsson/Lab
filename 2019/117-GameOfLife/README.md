@@ -1,4 +1,8 @@
-# The eternal chess game
+# Game of Life (sketch.coffee)
+
+
+
+# The eternal chess game (sketch.py)
 
 Delivered to Imagilabs 2019-12-11
 
