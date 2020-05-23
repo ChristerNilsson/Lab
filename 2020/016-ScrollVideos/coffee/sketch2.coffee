@@ -1,8 +1,14 @@
+ts = 50
+
 setup = ->
-	createCanvas 200,200
+	createCanvas windowWidth,windowHeight
+	textAlign CENTER,CENTER
 
 draw = ->
 	bg 0.5
-	textSize 100
-	textAlign CENTER,CENTER
-	text round(frameRate()),100,100
+	fr = round frameRate()
+	textSize ts
+	text ts, width/2,0.50 * height
+	text fr, width/2,0.75 * height
+
+touchStarted = -> ts++
