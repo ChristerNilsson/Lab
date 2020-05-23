@@ -6,7 +6,7 @@ setup = ->
 	textAlign CENTER,CENTER
 
 draw = ->
-	bg 0,1,0
+	bg 0.5
 	fr = frameRate()
 	textSize ts
 	text round(ts), width/2,0.50 * height
