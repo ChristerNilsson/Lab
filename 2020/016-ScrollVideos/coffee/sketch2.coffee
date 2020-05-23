@@ -5,11 +5,11 @@ setup = ->
 	textAlign CENTER,CENTER
 
 draw = ->
-	bg 1
+	bg 1,1,0
 	fr = round frameRate()
 	textSize ts
 	text round(ts), width/2,0.50 * height
 	text fr, width/2,0.75 * height
-	ts += 0.1
+	#ts += 0.1
 
-# touchStarted = -> ts++
+touchStarted = -> ts++
