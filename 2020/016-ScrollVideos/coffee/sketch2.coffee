@@ -4,6 +4,7 @@ setup = ->
 	createCanvas windowWidth,windowHeight # 10 fps på Android
 	#createCanvas 100,100 # 60 fps
 	textAlign CENTER,CENTER
+	frameRate 1
 
 draw = ->
 	bg 0.5
