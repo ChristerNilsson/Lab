@@ -25,7 +25,7 @@ class Box
 		image = p.image "skarpnäck.png", 0, 0, 1636, 986
 		p.circle w/2,h/2,50
 
-		p.text 0.5*w, 50, '180 gr'
+		p.text 0.5*w, 50, '180º'
 			.attr stdText
 		p.text 0.95*w, 50, '345m'
 			.attr stdText
