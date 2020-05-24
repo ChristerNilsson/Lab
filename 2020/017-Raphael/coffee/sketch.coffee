@@ -12,6 +12,8 @@ class Box
 
 		Text = p.text x + w / 2, y + h / 2, name
 			.attr {font: '40px Arial', fill: '#000'}
+
+		image = p.image "skarpnäck.png", 0, 0, w,h
 				
 		#create the drag icon for this box
 		# SIZE = h*0.5
@@ -22,6 +24,7 @@ class Box
 		#move the boxes
 		Rect.drag @move_drag, @move_start, @move_up
 		Rect.boxtext = Text
+		Rect.image = image
 		
 		#resize the boxes
 		# Rect.resizer.drag @resize_drag, @resize_start, @resize_up
@@ -34,7 +37,7 @@ class Box
 		@ox = @attr 'x'
 		@oy = @attr 'y'
 		@attr {opacity: 0.5}
-		
+		 
 		#the resizer box
 		# @resizer.ox = @resizer.attr 'x'
 		# @resizer.oy = @resizer.attr 'y'
@@ -45,6 +48,10 @@ class Box
 		@boxtext.oy = @attr('y') + @attr('height') / 2
 		@boxtext.attr {opacity: 0.5}
 
+		@image.ox = @attr('x') + @attr('width') / 2
+		@image.oy = @attr('y') + @attr('height') / 2
+		#@boxtext.attr {opacity: 0.5}
+
 	#visually change the box when it is being moved
 	move_drag : (dx, dy) ->
 		#move will be called with dx and dy
@@ -52,6 +59,7 @@ class Box
 
 		# @resizer.attr {x: @resizer.ox + dx, y: @resizer.oy + dy}
 		@boxtext.attr {x: @boxtext.ox + dx, y: @boxtext.oy + dy}
+		@image.attr {x: @image.ox + dx, y: @image.oy + dy}
 
 	#when the user lets go of the mouse button, reset the square's properties
 	move_up : ->
@@ -87,7 +95,7 @@ startup = ->
 	p = Raphael 'canvasdiv', window.innerWidth, window.innerHeight
 	p.rect 0, 0, window.innerWidth, window.innerHeight
 		.attr {fill: '#ff0'}
-	boxes.push new Box 100, 100, 100, 100, 'A003'
-	boxes.push new Box 200, 200, 200, 200, 'B'
-	boxes.push new Box 400, 400, 300, 300, 'C'
-	boxes.push new Box 700, 700, 400, 400, 'D'
+	boxes.push new Box 100, 100, 1000, 1000, 'A004'
+	# boxes.push new Box 200, 200, 200, 200, 'B'
+	# boxes.push new Box 400, 400, 300, 300, 'C'
+	# boxes.push new Box 700, 700, 400, 400, 'D'
