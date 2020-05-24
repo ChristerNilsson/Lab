@@ -2,7 +2,6 @@ boxes = []
 
 #values that define the graphical properties of the page
 p = null 
-SIZE = 20
 
 class Box 
 	constructor : (x,y,w,h,name) ->
@@ -15,6 +14,7 @@ class Box
 			.attr {font: '12px Arial', fill: '#000'}
 				
 		#create the drag icon for this box
+		SIZE = h*0.5
 		Rect.resizer = p.rect x + w - SIZE, y + h - SIZE, SIZE, SIZE
 			.attr { fill: '#0ab', stroke: 'solid', opacity: 1}
 		
@@ -85,11 +85,11 @@ class Box
 		#here is where you would update the box's position externally
 		#...
 
-#the primary function of this page
 startup = ->
-	#initialize the main graphics object that is used to draw the box icons
 	p = Raphael 'canvasdiv', window.innerWidth, window.innerHeight
-	boxes.push new Box  10, 10, 70, 70, 'A'
-	boxes.push new Box 110, 10, 70, 70, 'B'
-	boxes.push new Box 210, 10, 80, 80, 'C'
-	boxes.push new Box 310, 10, 90, 90, 'D'
+	p.rect 0, 0, window.innerWidth, window.innerHeight
+		.attr {fill: '#ff0'}
+	boxes.push new Box 100, 100, 100, 100, 'A'
+	boxes.push new Box 200, 200, 200, 200, 'B'
+	boxes.push new Box 400, 400, 300, 300, 'C'
+	boxes.push new Box 700, 700, 400, 400, 'D'
