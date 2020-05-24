@@ -2,6 +2,17 @@ boxes = []
 
 #values that define the graphical properties of the page
 p = null 
+image = null
+
+stdText = {font: '40px Arial', fill: '#000'}
+
+button = (x,y,prompt,click) =>
+	p.circle x,y,50
+		.attr {fill: '#ff0', opacity: 0.25}
+		.click click
+	p.text x,y,prompt
+		.attr stdText
+		.click click
 
 class Box 
 	constructor : (x,y,w,h,name) ->
@@ -13,8 +24,22 @@ class Box
 		# Text = p.text x + w / 2, y + h / 2, name
 		# 	.attr {font: '40px Arial', fill: '#000'}
 
-		image = p.image "skarpnäck.png", 0, 0, w, h
-				
+		#width = myImg.width
+		#height = myImg.height
+
+		image = p.image "skarpnäck.png", 0, 0, 1636, 986
+		p.circle w/2,h/2,50
+
+		p.text 0.5*w, 50, '180 gr'
+			.attr stdText
+		p.text 0.95*w, 50, '345m'
+			.attr stdText
+
+		p.text 0.5*w, 0.95*h, '59.123456 18.123456'
+			.attr stdText
+		p.text 0.95*w, 0.95*h, '345'
+			.attr stdText
+
 		#create the drag icon for this box
 		# SIZE = h*0.5
 		# Rect.resizer = p.rect x + w - SIZE, y + h - SIZE, SIZE, SIZE
@@ -48,8 +73,8 @@ class Box
 		#@boxtext.oy = @attr('y') + @attr('height') / 2
 		#@boxtext.attr {opacity: 0.5}
 
-		@image.ox = @attr('x') 
-		@image.oy = @attr('y')
+		image.ox = @attr('x') 
+		image.oy = @attr('y')
 
 	#visually change the box when it is being moved
 	move_drag : (dx, dy) ->
@@ -58,7 +83,7 @@ class Box
 
 		# @resizer.attr {x: @resizer.ox + dx, y: @resizer.oy + dy}
 		#@boxtext.attr {x: @boxtext.ox + dx, y: @boxtext.oy + dy}
-		@image.attr {x: @image.ox + dx, y: @image.oy + dy}
+		image.attr {x: image.ox + dx, y: image.oy + dy}
 
 	#when the user lets go of the mouse button, reset the square's properties
 	move_up : ->
@@ -90,11 +115,16 @@ class Box
 	# 	#here is where you would update the box's position externally
 	# 	#...
 
+
 startup = ->
 	p = Raphael 'canvasdiv', window.innerWidth, window.innerHeight
 	p.rect 0, 0, window.innerWidth, window.innerHeight
 		.attr {fill: '#f00'}
-	boxes.push new Box 100, 100, 1639, 986, 'A'
-	# boxes.push new Box 200, 200, 200, 200, 'B'
-	# boxes.push new Box 400, 400, 300, 300, 'C'
-	# boxes.push new Box 700, 700, 400, 400, 'D'
+	boxes.push new Box 100, 100, window.innerWidth, window.innerHeight, 'A'
+
+	button 50, 50,'+', -> image.scale 3/2,3/2
+	button 50,150,'-', -> image.scale 2/3,2/3
+	button 50,250,'a'
+	button 50,350,'b'
+	button 50,450,'c'
+	button 50,550,'d'
