@@ -1,14 +1,11 @@
-boxes = []
-
 buttons = []
-
 p = null 
 image = null
 
 stdText = {font: '40px Arial', fill: '#000'}
 
 class Button	
-	constructor : (@x,@y,@prompt,@click) ->
+	constructor : (@x, @y, @prompt, @click = ->) ->
 		@circle = p.circle @x,@y,100
 			.attr {fill: '#ff0', opacity: 0.25}
 			.click @click
@@ -52,14 +49,15 @@ class Box
 startup = ->
 	p = Raphael 'canvasdiv', window.innerWidth, window.innerHeight
 	p.rect 0, 0, window.innerWidth, window.innerHeight
-		.attr {fill: '#f00'}
-	boxes.push new Box 100, 100, window.innerWidth, window.innerHeight, 'A'
+		.attr {fill: '#ff0'}
+	new Box 100, 100, window.innerWidth, window.innerHeight, 'A'
 	menu()
 
 clearMenu = ->
 	for button in buttons
 		button.remove()
 	buttons = []
+	image.scale 1,1
 
 menu = ->
 	new Button 100,window.innerHeight-100,'menu', -> 
@@ -70,8 +68,8 @@ menu = ->
 
 saveMenu = (prompt,click) ->
 	n = buttons.length
-	x = if n<4 then 100 else window.innerWidth-100
-	y = 200+200*(n%4)
+	x = if n < 4 then 100 else window.innerWidth-100
+	y = 200 + 200 * (n % 4)
 	buttons.push new Button x,y, prompt, click
 
 menu1 = ->
@@ -113,7 +111,7 @@ menu4 = ->
 
 menu5 = (letters) -> # ABCDE
 	clearMenu()
-	for letter,i in letters
+	for letter in letters
 		saveMenu letter, -> clearMenu()
 
 menu6 = ->
