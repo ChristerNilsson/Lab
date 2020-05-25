@@ -1,0 +1,12 @@
+{
+	"map" : "Nackareservatet.png",
+	"mail" : "janchrister.nilsson@gmail.com",
+	"ABC" :	[59.301078,18.140184, 59.301138,18.174216, 59.269494,18.168740], 
+	"drawControls": true,
+	"radius" : 30,
+	"scale" : 1,
+	"controls": {
+		"A": [313,50], "B": [800,48], "C": [722,934]
+	}
+}
+	
