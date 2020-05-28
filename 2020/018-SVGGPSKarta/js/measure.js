@@ -3,46 +3,36 @@
 //   1) kalibrera en ny karta och behöver tre koordinater
 //   2) placera ut kontroller
 // Avläs koordinaterna med F12
-var R, draw, img, mousePressed, points, preload, setup;
 
-img = null;
+// img = null
+// points = []
 
-points = [];
+// #############################
+// R = 44
+// preload = -> img = loadImage 'data/21A.png'
+// #############################
 
-//############################
-R = 44;
+// setup = ->
+// 	createCanvas img.width, img.height
+// 	fc()
+// 	sc 0
+// 	sw 2
+// 	textSize R
+// 	textAlign LEFT,TOP
 
-preload = function() {
-  return img = loadImage('data/21A.png');
-};
+// draw = ->
+// 	image img, 0,0
+// 	circle mouseX,mouseY,R
+// 	sc 1
+// 	point mouseX,mouseY
+// 	sc 0
+// 	text points.length+1,mouseX+0.7*R,mouseY+0.7*R
 
-//############################
-setup = function() {
-  createCanvas(img.width, img.height);
-  fc();
-  sc(0);
-  sw(2);
-  textSize(R);
-  return textAlign(LEFT, TOP);
-};
+// mousePressed = ->
+// 	points.push [round(mouseX), round(mouseY)]
+// 	arr = points.map (value,i) -> "\t\"#{i+1}\": [#{value}],"
+// 	console.log "\n" + arr.join "\n"
 
-draw = function() {
-  image(img, 0, 0);
-  circle(mouseX, mouseY, R);
-  sc(1);
-  point(mouseX, mouseY);
-  sc(0);
-  return text(points.length + 1, mouseX + 0.7 * R, mouseY + 0.7 * R);
-};
 
-mousePressed = function() {
-  var arr;
-  points.push([round(mouseX), round(mouseY)]);
-  arr = points.map(function(value, i) {
-    return `\t"${i + 1}": [${value}],`;
-  });
-  return console.log("\n" + arr.join("\n"));
-};
-
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWVhc3VyZS5qcyIsInNvdXJjZVJvb3QiOiIuLiIsInNvdXJjZXMiOlsiY29mZmVlXFxtZWFzdXJlLmNvZmZlZSJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQUE7Ozs7QUFBQSxJQUFBLENBQUEsRUFBQSxJQUFBLEVBQUEsR0FBQSxFQUFBLFlBQUEsRUFBQSxNQUFBLEVBQUEsT0FBQSxFQUFBOztBQUtBLEdBQUEsR0FBTTs7QUFDTixNQUFBLEdBQVMsR0FOVDs7O0FBU0EsQ0FBQSxHQUFJOztBQUNKLE9BQUEsR0FBVSxRQUFBLENBQUEsQ0FBQTtTQUFHLEdBQUEsR0FBTSxTQUFBLENBQVUsY0FBVjtBQUFULEVBVlY7OztBQWFBLEtBQUEsR0FBUSxRQUFBLENBQUEsQ0FBQTtFQUNQLFlBQUEsQ0FBYSxHQUFHLENBQUMsS0FBakIsRUFBd0IsR0FBRyxDQUFDLE1BQTVCO0VBQ0EsRUFBQSxDQUFBO0VBQ0EsRUFBQSxDQUFHLENBQUg7RUFDQSxFQUFBLENBQUcsQ0FBSDtFQUNBLFFBQUEsQ0FBUyxDQUFUO1NBQ0EsU0FBQSxDQUFVLElBQVYsRUFBZSxHQUFmO0FBTk87O0FBUVIsSUFBQSxHQUFPLFFBQUEsQ0FBQSxDQUFBO0VBQ04sS0FBQSxDQUFNLEdBQU4sRUFBVyxDQUFYLEVBQWEsQ0FBYjtFQUNBLE1BQUEsQ0FBTyxNQUFQLEVBQWMsTUFBZCxFQUFxQixDQUFyQjtFQUNBLEVBQUEsQ0FBRyxDQUFIO0VBQ0EsS0FBQSxDQUFNLE1BQU4sRUFBYSxNQUFiO0VBQ0EsRUFBQSxDQUFHLENBQUg7U0FDQSxJQUFBLENBQUssTUFBTSxDQUFDLE1BQVAsR0FBYyxDQUFuQixFQUFxQixNQUFBLEdBQU8sR0FBQSxHQUFJLENBQWhDLEVBQWtDLE1BQUEsR0FBTyxHQUFBLEdBQUksQ0FBN0M7QUFOTTs7QUFRUCxZQUFBLEdBQWUsUUFBQSxDQUFBLENBQUE7QUFDZCxNQUFBO0VBQUEsTUFBTSxDQUFDLElBQVAsQ0FBWSxDQUFDLEtBQUEsQ0FBTSxNQUFOLENBQUQsRUFBZ0IsS0FBQSxDQUFNLE1BQU4sQ0FBaEIsQ0FBWjtFQUNBLEdBQUEsR0FBTSxNQUFNLENBQUMsR0FBUCxDQUFXLFFBQUEsQ0FBQyxLQUFELEVBQU8sQ0FBUCxDQUFBO1dBQWEsQ0FBQSxHQUFBLENBQUEsQ0FBTyxDQUFBLEdBQUUsQ0FBVCxDQUFXLElBQVgsQ0FBQSxDQUFrQixLQUFsQixDQUF3QixFQUF4QjtFQUFiLENBQVg7U0FDTixPQUFPLENBQUMsR0FBUixDQUFZLElBQUEsR0FBTyxHQUFHLENBQUMsSUFBSixDQUFTLElBQVQsQ0FBbkI7QUFIYyIsInNvdXJjZXNDb250ZW50IjpbIiMgRGV0dGEgcHJvZ3JhbSBhbnbDpG5kZXMgbsOkciBtYW4gc2thXHJcbiMgICAxKSBrYWxpYnJlcmEgZW4gbnkga2FydGEgb2NoIGJlaMO2dmVyIHRyZSBrb29yZGluYXRlclxyXG4jICAgMikgcGxhY2VyYSB1dCBrb250cm9sbGVyXHJcbiMgQXZsw6RzIGtvb3JkaW5hdGVybmEgbWVkIEYxMlxyXG5cclxuaW1nID0gbnVsbFxyXG5wb2ludHMgPSBbXVxyXG5cclxuIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyNcclxuUiA9IDQ0XHJcbnByZWxvYWQgPSAtPiBpbWcgPSBsb2FkSW1hZ2UgJ2RhdGEvMjFBLnBuZydcclxuIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyNcclxuXHJcbnNldHVwID0gLT5cclxuXHRjcmVhdGVDYW52YXMgaW1nLndpZHRoLCBpbWcuaGVpZ2h0XHJcblx0ZmMoKVxyXG5cdHNjIDBcclxuXHRzdyAyXHJcblx0dGV4dFNpemUgUlxyXG5cdHRleHRBbGlnbiBMRUZULFRPUFxyXG5cclxuZHJhdyA9IC0+XHJcblx0aW1hZ2UgaW1nLCAwLDBcclxuXHRjaXJjbGUgbW91c2VYLG1vdXNlWSxSXHJcblx0c2MgMVxyXG5cdHBvaW50IG1vdXNlWCxtb3VzZVlcclxuXHRzYyAwXHJcblx0dGV4dCBwb2ludHMubGVuZ3RoKzEsbW91c2VYKzAuNypSLG1vdXNlWSswLjcqUlxyXG5cclxubW91c2VQcmVzc2VkID0gLT5cclxuXHRwb2ludHMucHVzaCBbcm91bmQobW91c2VYKSwgcm91bmQobW91c2VZKV1cclxuXHRhcnIgPSBwb2ludHMubWFwICh2YWx1ZSxpKSAtPiBcIlxcdFxcXCIje2krMX1cXFwiOiBbI3t2YWx1ZX1dLFwiXHJcblx0Y29uc29sZS5sb2cgXCJcXG5cIiArIGFyci5qb2luIFwiXFxuXCJcclxuIl19
-//# sourceURL=c:\github\gpsKarta\coffee\measure.coffee
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWVhc3VyZS5qcyIsInNvdXJjZVJvb3QiOiIuLiIsInNvdXJjZXMiOlsiY29mZmVlXFxtZWFzdXJlLmNvZmZlZSJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQUEiLCJzb3VyY2VzQ29udGVudCI6WyIjIERldHRhIHByb2dyYW0gYW52w6RuZGVzIG7DpHIgbWFuIHNrYVxyXG4jICAgMSkga2FsaWJyZXJhIGVuIG55IGthcnRhIG9jaCBiZWjDtnZlciB0cmUga29vcmRpbmF0ZXJcclxuIyAgIDIpIHBsYWNlcmEgdXQga29udHJvbGxlclxyXG4jIEF2bMOkcyBrb29yZGluYXRlcm5hIG1lZCBGMTJcclxuXHJcbiMgaW1nID0gbnVsbFxyXG4jIHBvaW50cyA9IFtdXHJcblxyXG4jICMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjXHJcbiMgUiA9IDQ0XHJcbiMgcHJlbG9hZCA9IC0+IGltZyA9IGxvYWRJbWFnZSAnZGF0YS8yMUEucG5nJ1xyXG4jICMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjXHJcblxyXG4jIHNldHVwID0gLT5cclxuIyBcdGNyZWF0ZUNhbnZhcyBpbWcud2lkdGgsIGltZy5oZWlnaHRcclxuIyBcdGZjKClcclxuIyBcdHNjIDBcclxuIyBcdHN3IDJcclxuIyBcdHRleHRTaXplIFJcclxuIyBcdHRleHRBbGlnbiBMRUZULFRPUFxyXG5cclxuIyBkcmF3ID0gLT5cclxuIyBcdGltYWdlIGltZywgMCwwXHJcbiMgXHRjaXJjbGUgbW91c2VYLG1vdXNlWSxSXHJcbiMgXHRzYyAxXHJcbiMgXHRwb2ludCBtb3VzZVgsbW91c2VZXHJcbiMgXHRzYyAwXHJcbiMgXHR0ZXh0IHBvaW50cy5sZW5ndGgrMSxtb3VzZVgrMC43KlIsbW91c2VZKzAuNypSXHJcblxyXG4jIG1vdXNlUHJlc3NlZCA9IC0+XHJcbiMgXHRwb2ludHMucHVzaCBbcm91bmQobW91c2VYKSwgcm91bmQobW91c2VZKV1cclxuIyBcdGFyciA9IHBvaW50cy5tYXAgKHZhbHVlLGkpIC0+IFwiXFx0XFxcIiN7aSsxfVxcXCI6IFsje3ZhbHVlfV0sXCJcclxuIyBcdGNvbnNvbGUubG9nIFwiXFxuXCIgKyBhcnIuam9pbiBcIlxcblwiXHJcbiJdfQ==
+//# sourceURL=c:\Lab\2020\018-SVGGPSKarta\coffee\measure.coffee

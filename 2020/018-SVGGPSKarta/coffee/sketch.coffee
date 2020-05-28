@@ -1,4 +1,4 @@
-VERSION = 212
+VERSION = 1
 DELAY = 100 # ms, delay between sounds
 DIST = 1 # meter. Movement less than DIST makes no sound 1=walk. 5=bike
 LIMIT = 20 # meter. Under this value is no bearing given.
@@ -23,6 +23,8 @@ surplus = 0
 pois = null
 speed = 1
 distbc = 0
+
+raphael = null
 
 start = new Date()
 
@@ -109,7 +111,7 @@ SCALE = 1
 
 gps = null
 TRACKED = 5 # circles shows the user position
-position = null # gps position [x,y] # [lon,lat,alt,hhmmss]
+position = [500,500] # gps position [x,y] # [lon,lat,alt,hhmmss]
 track = [] # five latest GPS positions (bitmap coordinates)
 
 speaker = null
@@ -118,7 +120,7 @@ soundUp = null
 soundDown = null
 soundQueue = 0 # integer neg=minskat avstånd pos=ökat avstånd
 
-messages = ['','','','','','']
+#messages = ['','','','','','']
 gpsCount = 0
 
 [gpsLat,gpsLon] = [0,0] # avgör om muntlig information ska ges
@@ -142,18 +144,58 @@ say = (m) ->
 	dump.store "say #{m} #{JSON.stringify voiceQueue}"
 	speechSynthesis.speak speaker
 
+# request = (jsonfile) => 
+# 	response = await fetch jsonfile
+# 	console.log response
+# 	response.json()
+
+# request = (name) ->
+# 	await fetch name
+# 		.then (response) -> await response.json()
+# 		.then (data) -> await return data
+
+request = (name) ->
+	await fetch name
+		.then (response) => response.json()
+
 preload = ->
 	params = getParameters()
-	mapName = params.map || "21A"
+	mapName = params.map || "Skarpnäck"
 	if params.debug then dump.active = params.debug == '1'
-	loadJSON "data/#{mapName}.json", (json) ->
-		data = json
-		for key,control of data.controls
-			control.push ""
-			control.push 0
-			control.push 0
-		img = loadImage "data/" + data.map
-	loadJSON "data/poi.json", (json) -> pois = json
+
+	data = await request "data/#{mapName}.json"
+	console.log data
+	for key,control of data.controls
+		control.push ""
+		control.push 0
+		control.push 0
+
+	pois = await request "data/poi.json"
+	console.log pois
+
+	# Replace ./data.json with your JSON feed
+	# fetch "data/#{mapName}.json"
+	# 	.then (response) => 
+	# 		data = response.json()
+	# 		#img = loadImage "data/" + data.map
+	# 		return data
+	# 	.then (data) => 
+	# 		console.log data
+	# 		startup2()
+	# 	.catch (err) => 
+	# 		console.log 'Error',err
+
+	# fetch "data/poi.json"
+	# 	.then (response) => 
+	# 		pois = response.json()
+	# 		return pois
+	# 	.then (data) =>
+	# 		console.log 'pois',data
+	# 	.catch (err) => 
+	# 		console.log 'Error',err
+
+#	loadJSON "data/#{mapName}.json", (json) ->
+#	loadJSON "data/poi.json", (json) -> pois = json
 
 sayDistance = (a,b) -> # a is newer (meter)
 	# if a border is crossed, produce speech
@@ -274,12 +316,13 @@ decreaseQueue = ->
 		say msg.replace ':',' and '
 
 locationUpdate = (p) ->
+	console.log 'locationUpdate',p.coords
 	pLat = myRound p.coords.latitude,6
 	pLon = myRound p.coords.longitude,6
 	if storage.trail.length == 0
 		gpsLat = pLat
 		gpsLon = pLon
-	messages[5] = gpsCount++
+	messages[3].attrs.text = gpsCount++
 	decreaseQueue()
 	increaseQueue p # meters
 	uppdatera pLat, pLon
@@ -296,10 +339,11 @@ updateTrack = (pLat, pLon, x,y) -> # senaste fem positionerna
 	if track.length > TRACKED then track.shift()
 	t = _.last track
 	dump.store "T #{t[0]} #{t[1]}"
-	messages[4] = pLat + ' ' + pLon
+	messages[2].attrs.text = pLat + ' ' + pLon
 
 updateTrail = (pLat, pLon, x,y)->
 	position = [x,y]
+	console.log 'updateTrail',x,y
 	if storage.trail.length == 0
 		storage.trail.push position
 		return
@@ -364,13 +408,21 @@ getMeters = (w,skala) ->
 	# assert [425,200], getMeters 1920,1.5*1.5*1.5
 	#console.log "Ready!"
 
-setup = ->
-	canvas = createCanvas innerWidth-0.0, innerHeight #-0.5
-	canvas.position 0,0 # hides text field used for clipboard copy.
+startup = ->
+	await preload()
+
+	raphael = Raphael 'raphael', window.innerWidth, window.innerHeight
+	raphael.rect 0, 0, window.innerWidth, window.innerHeight
+		.attr {fill: '#00f'}
+	new Box 100, 100, window.innerWidth, window.innerHeight, mapName
+	menu()
+
+	#canvas = createCanvas innerWidth-0.0, innerHeight #-0.5
+	#canvas.position 0,0 # hides text field used for clipboard copy.
 
 	loadGeneral()
 
-	angleMode DEGREES
+	#angleMode DEGREES
 	SCALE = data.scale
 
 	dcs = data.controls
@@ -378,6 +430,7 @@ setup = ->
 	abc = data.ABC
 	wgs = [abc[1],abc[0],abc[3],abc[2],abc[5],abc[4]] # lat lon <=> lon lat
 
+	console.log 'startup2'
 	b2w = new Converter bmp,wgs,6
 	w2b = new Converter wgs,bmp,0
 
@@ -387,14 +440,16 @@ setup = ->
 
 	# myTest() Do not execute! Very dependent on .json file.
 
-	[cx,cy] = [img.width/2,img.height/2]
+	# [cx,cy] = [img.width/2,img.height/2]
+	[cx,cy] = [WIDTH/2,HEIGHT/2]
+	
 
-	navigator.geolocation.watchPosition locationUpdate, locationUpdateFail,
-		enableHighAccuracy: true
-		maximumAge: 30000
-		timeout: 27000
+	# navigator.geolocation.watchPosition locationUpdate, locationUpdateFail,
+	# 	enableHighAccuracy: true
+	# 	maximumAge: 30000
+	# 	timeout: 27000
 
-	menuButton = new MenuButton width-160
+#	menuButton = new MenuButton width-160
 
 info = () ->
 	[x,y] = position
@@ -406,8 +461,10 @@ info = () ->
 		"Version: #{VERSION}"
 		"TrailPoints: #{storage.trail.length}"
 		"GpsPoints: #{gpsCount}"
-		"Position: #{messages[4]}"
-		"Distance: #{messages[2]}"
+		"Bearing:  #{messages[0].attrs.text}"
+		"Distance: #{messages[1].attrs.text}"
+		"Position: #{messages[2].attrs.text}"
+		"GPSCount: #{messages[3].attrs.text}"
 		"PanSpeed: #{general.PANSPEED}"
 		"Sector: #{general.SECTOR}"
 		"Hear Coins: #{general.COINS}"
@@ -415,7 +472,6 @@ info = () ->
 		"See Trail: #{general.TRAIL}"
 		"Scale: #{SCALE}"
 		"Dump: #{dump.data.length}"
-		"frameRate: #{round frameRate()}"
 
 	]
 
@@ -495,9 +551,9 @@ drawControls = ->
 
 drawControl = ->
 	if gpsLat == 0 or gpsLon == 0
-		messages[0] = ""
-		messages[1] = ""
-		messages[2] = ""
+		messages[0].attrs.text = ""
+		messages[1].attrs.text = ""
+	#	messages[2].text = ""
 		return
 	if crossHair
 		[trgLon,trgLat] = b2w.convert crossHair[0],crossHair[1]
@@ -506,9 +562,9 @@ drawControl = ->
 	latLon2 = LatLon trgLat,trgLon
 	latLon1 = LatLon gpsLat,gpsLon
 	bearing = latLon1.bearingTo latLon2
-	messages[0] = ""
-	messages[1] = "#{int bearing}º"
-	messages[2] = "#{round(latLon1.distanceTo latLon2)} m"
+	#messages[0].text = ""
+	messages[0].attrs.text = "#{int bearing}º"
+	messages[1].attrs.text = "#{round(latLon1.distanceTo latLon2)} m"
 
 drawRuler = ->
 	[w1,w0] = getMeters width, SCALE
@@ -578,7 +634,7 @@ draw = ->
 
 		showDialogue()
 		menuButton.draw()
-		messages[3] = round frameRate()
+		#messages[3] = round frameRate()
 		return
 
 	if state == 2
@@ -620,95 +676,91 @@ aim = ->
 		crossHair = null
 	dialogues.clear()
 
-menu1 = -> # Main Menu
-	dialogue = new Dialogue()
-	dialogue.add 'Center', ->
-		[cx,cy] = position
-		dialogues.clear()
-	dialogue.add 'Out', ->
-		if SCALE > data.scale then SCALE /= 1.5
-		dialogues.clear()
-	dialogue.add 'Take...', -> menu4()
-	dialogue.add 'More...', -> menu6()
-	dialogue.add 'Setup...', -> menu2()
-	dialogue.add 'Aim', -> aim()
-	dialogue.add 'Save', -> savePosition()
-	dialogue.add 'In', -> 
-		SCALE *= 1.5
-		dialogues.clear()
-	dialogue.clock ' ',true
-	dialogue.textSize *= 1.5
+# menu1 = -> # Main Menu
+# 	dialogue = new Dialogue()
+# 	dialogue.add 'Center', ->
+# 		[cx,cy] = position
+# 		dialogues.clear()
+# 	dialogue.add 'Out', ->
+# 		if SCALE > data.scale then SCALE /= 1.5
+# 		dialogues.clear()
+# 	dialogue.add 'Take...', -> menu4()
+# 	dialogue.add 'More...', -> menu6()
+# 	dialogue.add 'Setup...', -> menu2()
+# 	dialogue.add 'Aim', -> aim()
+# 	dialogue.add 'Save', -> savePosition()
+# 	dialogue.add 'In', -> 
+# 		SCALE *= 1.5
+# 		dialogues.clear()
+# 	dialogue.clock ' ',true
+# 	dialogue.textSize *= 1.5
 
-menu2 = -> # Setup
-	dialogue = new Dialogue()
-	dialogue.add 'PanSpeed', -> 
-		general.PANSPEED = not general.PANSPEED
-		saveGeneral()
-		dialogues.clear()
-	dialogue.add 'Coins', -> 
-		general.COINS = not general.COINS
-		saveGeneral()
-		dialogues.clear()
-	dialogue.add 'Distance', -> 
-		general.DISTANCE = not general.DISTANCE
-		saveGeneral()
-		dialogues.clear()
-	dialogue.add 'Trail', -> 
-		general.TRAIL = not general.TRAIL
-		saveGeneral()
-		dialogues.clear()
-	dialogue.add 'Sector...', -> menu3()
-	dialogue.clock()
-	dialogue.textSize *= 1.5
+# menu2 = -> # Setup
+# 	dialogue = new Dialogue()
+# 	dialogue.add 'PanSpeed', -> 
+# 		general.PANSPEED = not general.PANSPEED
+# 		saveGeneral()
+# 		dialogues.clear()
+# 	dialogue.add 'Coins', -> 
+# 		general.COINS = not general.COINS
+# 		saveGeneral()
+# 		dialogues.clear()
+# 	dialogue.add 'Distance', -> 
+# 		general.DISTANCE = not general.DISTANCE
+# 		saveGeneral()
+# 		dialogues.clear()
+# 	dialogue.add 'Trail', -> 
+# 		general.TRAIL = not general.TRAIL
+# 		saveGeneral()
+# 		dialogues.clear()
+# 	dialogue.add 'Sector...', -> menu3()
+# 	dialogue.clock()
+# 	dialogue.textSize *= 1.5
 
-menu3 = -> # Sector
-	dialogue = new Dialogue()
-	dialogue.add '10', -> SetSector 10 # 36
-	dialogue.add '20', -> SetSector 20 # 18
-	dialogue.add '30', -> SetSector 30 # 12
-	dialogue.add '45', -> SetSector 45 # 8
-	dialogue.add '60', -> SetSector 60 # 6
-	dialogue.add '90', -> SetSector 90 # 4
-	dialogue.clock()
+# menu3 = -> # Sector
+# 	dialogue = new Dialogue()
+# 	dialogue.add '10', -> SetSector 10 # 36
+# 	dialogue.add '20', -> SetSector 20 # 18
+# 	dialogue.add '30', -> SetSector 30 # 12
+# 	dialogue.add '45', -> SetSector 45 # 8
+# 	dialogue.add '60', -> SetSector 60 # 6
+# 	dialogue.add '90', -> SetSector 90 # 4
+# 	dialogue.clock()
 
-menu4 = -> # Take
-	dialogue = new Dialogue()
-	dialogue.add 'ABCDE', -> menu5 'ABCDE'
-	dialogue.add 'KLMNO', -> menu5 'KLMNO'
-	dialogue.add 'UVWXYZ', -> menu5 'UVWXYZ'
-	dialogue.add 'Clear', -> update ' '
-	dialogue.add 'PQRST', -> menu5 'PQRST'
-	dialogue.add 'FGHIJ', -> menu5 'FGHIJ'
-	dialogue.clock()
+# menu4 = -> # Take
+# 	dialogue = new Dialogue()
+# 	dialogue.add 'ABCDE', -> menu5 'ABCDE'
+# 	dialogue.add 'KLMNO', -> menu5 'KLMNO'
+# 	dialogue.add 'UVWXYZ', -> menu5 'UVWXYZ'
+# 	dialogue.add 'Clear', -> update ' '
+# 	dialogue.add 'PQRST', -> menu5 'PQRST'
+# 	dialogue.add 'FGHIJ', -> menu5 'FGHIJ'
+# 	dialogue.clock()
 
-menu5 = (letters) -> # ABCDE
-	dialogue = new Dialogue()
-	for letter in letters
-		dialogue.add letter, -> update @title
-	dialogue.clock()
+# menu5 = (letters) -> # ABCDE
+# 	dialogue = new Dialogue()
+# 	for letter in letters
+# 		dialogue.add letter, -> update @title
+# 	dialogue.clock()
 
-menu6 = -> # More
-	dialogue = new Dialogue()
-	dialogue.add 'Init', -> initSpeaker()
-	dialogue.add 'Mail...', ->
-		executeMail()
-		dialogues.clear()
-	dialogue.add 'Delete', ->
-		storage.deleteControl()
-		dialogues.clear()
-	dialogue.add 'Clear', ->
-		storage.clear()
-		dialogues.clear()
-	dialogue.add 'Info...', -> 
-		state = 2
-		dialogues.clear()
-	dialogue.clock()
-	dialogue.textSize *= 1.5
+# menu6 = -> # More
+# 	dialogue = new Dialogue()
+# 	dialogue.add 'Init', -> initSpeaker()
+# 	dialogue.add 'Mail...', ->
+# 		executeMail()
+# 		dialogues.clear()
+# 	dialogue.add 'Delete', ->
+# 		storage.deleteControl()
+# 		dialogues.clear()
+# 	dialogue.add 'Clear', ->
+# 		storage.clear()
+# 		dialogues.clear()
+# 	dialogue.add 'Info...', -> 
+# 		state = 2
+# 		dialogues.clear()
+# 	dialogue.clock()
+# 	dialogue.textSize *= 1.5
 
-SetSector = (sector) ->
-	general.SECTOR = sector
-	saveGeneral()
-	dialogues.clear()
 
 update = (littera) ->
 	key = findKey()
@@ -773,9 +825,11 @@ touchEnded = (event) ->
 	false
 
 keyPressed = -> # Används för att avläsa ABC bitmapskoordinater
+	console.log key
 	if key == ' '
 		x = round cx + (mouseX - width/2) / SCALE  	# image koordinater
 		y = round cy + (mouseY - height/2) / SCALE
+		console.log x,y
 		letter = "ABC"[_.size measure]
 		measure[letter] = [x,y]
 		if letter == 'C' then console.log '"controls": ' + JSON.stringify measure
