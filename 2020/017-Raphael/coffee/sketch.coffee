@@ -30,9 +30,9 @@ move_drag = (dx, dy) ->
 	image.translate (dx-ox) / image._.sx, (dy-oy) / image._.sy
 	ox = dx
 	oy = dy 
-	info()
 
 move_up = ->
+	info()
 
 info = ->
 	{dx,dy,sx,sy} = image._
@@ -50,6 +50,8 @@ startup = ->
 	a = p.text(0.9*W, 200, '').attr stdText
 	b = p.text(0.9*W, 500, '').attr stdText
 	messages = [a,b]
+
+	console.dir image
 	
 	image.drag move_drag, move_start, move_up
 	info()
@@ -61,11 +63,14 @@ startup = ->
 	p.circle W/2,H/2,20 # crossHair
 	p.circle W/2,H/2,0.5 # crossHair
 
-	new Button 100,100,'left', -> info image.translate -10,0
-	new Button 100,300,'right', -> info image.translate 10,0
-	new Button 100,500,'in', -> info image.scale 2,2,cx,cy
-	new Button 100,700,'out', -> info image.scale 1/2,1/2,cx,cy
-	new Button 100,900,'center', -> 
-		# 990,216 Kaninparken
-		image.translate cx-990,cy-216
-		info() 
+	#new Button 100,100,'left', -> info image.translate -10,0
+	#new Button 100,300,'right', -> info image.translate 10,0
+	#new Button 100,500,'in', -> info image.scale 2,2,cx,cy
+	#new Button 100,700,'out', -> info image.scale 1/2,1/2,cx,cy
+	new Button 100,900,'center', -> 		
+		info image.translate cx-990,cy-216 # 990,216 Kaninparken
+
+	document.getElementById("canvasdiv").addEventListener "wheel", (event) -> 
+		if event.deltaY > 0 then image.scale 1.1,1.1,cx,cy
+		else image.scale 1/1.1,1/1.1,cx,cy
+		info()
