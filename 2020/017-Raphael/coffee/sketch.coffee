@@ -1,4 +1,4 @@
-VERSION = 1
+VERSION = 2
 
 p = null 
 image = null
@@ -24,16 +24,20 @@ class Button
 			.attr stdText
 			.click @click
 
-move_start = ->
+move_start = (x,y,event) ->
+	event.preventDefault()
 	ox = image.attrs.x
 	oy = image.attrs.y
 
-move_drag = (dx, dy) ->
+move_drag = (dx, dy, x, y, event) ->
+	event.preventDefault()
 	image.translate (dx-ox) / image._.sx, (dy-oy) / image._.sy
 	ox = dx
 	oy = dy 
 
-move_up = -> # info()
+move_up = (event) ->
+	event.preventDefault()
+	info()
 
 info = ->
 	{dx,dy,sx,sy} = image._
@@ -62,7 +66,7 @@ startup = ->
 
 	new Button 100,100,'in', -> info image.scale SQ2,SQ2,cx,cy
 	new Button 100,300,'out', -> info image.scale 1/SQ2,1/SQ2,cx,cy
-	new Button 100,500,'center', -> 		
+	new Button 100,500,'center', ->
 		info image.translate cx-990,cy-216 # 990,216 Kaninparken
 	#new Button 100,100,'left', -> info image.translate -10,0
 	#new Button 100,300,'right', -> info image.translate 10,0
