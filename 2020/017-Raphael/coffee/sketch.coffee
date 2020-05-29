@@ -4,7 +4,7 @@ image = null
 SQ2 = Math.sqrt 2
 messages = []
 
-[W,H] = [innerWidth,innerHeight] # screen
+[W,H] = [innerWidth-10,innerHeight-10] # screen
 [w,h] = [1639,986] # image
 [cx,cy] = [0,0]
 [ox,oy] = [0,0]
@@ -63,12 +63,12 @@ startup = ->
 	p.circle W/2,H/2,20 # crossHair
 	p.circle W/2,H/2,0.5 # crossHair
 
+	new Button 100,100,'in', -> info image.scale SQ2,SQ2,cx,cy
+	new Button 100,300,'out', -> info image.scale 1/SQ2,1/SQ2,cx,cy
+	new Button 100,500,'center', -> 		
+		info image.translate cx-990,cy-216 # 990,216 Kaninparken
 	#new Button 100,100,'left', -> info image.translate -10,0
 	#new Button 100,300,'right', -> info image.translate 10,0
-	new Button 100,500,'in', -> info image.scale SQ2,SQ2,cx,cy
-	new Button 100,700,'out', -> info image.scale 1/SQ2,1/SQ2,cx,cy
-	new Button 100,900,'center', -> 		
-		info image.translate cx-990,cy-216 # 990,216 Kaninparken
 
 	document.getElementById("canvasdiv").addEventListener "wheel", (event) -> 
 		if event.deltaY > 0 then image.scale 1.1,1.1,cx,cy
