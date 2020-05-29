@@ -1,4 +1,4 @@
-VERSION = 3
+VERSION = 4
 
 p = null 
 image = null
@@ -28,16 +28,18 @@ move_start = (x,y,event) ->
 	#event.preventDefault()
 	ox = image.attrs.x
 	oy = image.attrs.y
+	info()
 
 move_drag = (dx, dy, x, y, event) ->
 	#event.preventDefault()
 	image.translate (dx-ox) / image._.sx, (dy-oy) / image._.sy
 	ox = dx
-	oy = dy 
+	oy = dy
+	info()
 
 move_up = (event) ->
 	#event.preventDefault()
-	info()
+	#info()
 
 info = ->
 	{dx,dy,sx,sy} = image._
