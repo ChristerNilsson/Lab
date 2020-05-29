@@ -1,7 +1,7 @@
 p = null 
 image = null
 
-#SQ2 = Math.sqrt 2
+SQ2 = Math.sqrt 2
 messages = []
 
 [W,H] = [innerWidth,innerHeight] # screen
@@ -65,8 +65,8 @@ startup = ->
 
 	#new Button 100,100,'left', -> info image.translate -10,0
 	#new Button 100,300,'right', -> info image.translate 10,0
-	#new Button 100,500,'in', -> info image.scale 2,2,cx,cy
-	#new Button 100,700,'out', -> info image.scale 1/2,1/2,cx,cy
+	new Button 100,500,'in', -> info image.scale SQ2,SQ2,cx,cy
+	new Button 100,700,'out', -> info image.scale 1/SQ2,1/SQ2,cx,cy
 	new Button 100,900,'center', -> 		
 		info image.translate cx-990,cy-216 # 990,216 Kaninparken
 
