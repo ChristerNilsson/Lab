@@ -1,3 +1,5 @@
+VERSION = 1
+
 p = null 
 image = null
 
@@ -31,8 +33,7 @@ move_drag = (dx, dy) ->
 	ox = dx
 	oy = dy 
 
-move_up = ->
-	info()
+move_up = -> # info()
 
 info = ->
 	{dx,dy,sx,sy} = image._
@@ -47,18 +48,14 @@ startup = ->
 
 	image = p.image "skarpnäck.png", 0,0, w,h
 	image.translate (W-w)/2, (H-h)/2
-	a = p.text(0.9*W, 200, '').attr stdText
-	b = p.text(0.9*W, 500, '').attr stdText
+	a = p.text(0.9*W, 200, "").attr stdText
+	b = p.text(0.9*W, 500, "Ver:#{VERSION}").attr stdText
 	messages = [a,b]
 
-	console.dir image
+	#console.dir image
 	
 	image.drag move_drag, move_start, move_up
 	info()
-
-	image.mousemove (e) -> 
-		{dx,dy,sx,sy} = image._
-		messages[1].attr {text: "x=#{myRound (e.x - dx)/sx}\ny=#{myRound (e.y - dy)/sy}"}
 
 	p.circle W/2,H/2,20 # crossHair
 	p.circle W/2,H/2,0.5 # crossHair
@@ -70,7 +67,11 @@ startup = ->
 	#new Button 100,100,'left', -> info image.translate -10,0
 	#new Button 100,300,'right', -> info image.translate 10,0
 
-	document.getElementById("canvasdiv").addEventListener "wheel", (event) -> 
-		if event.deltaY > 0 then image.scale 1.1,1.1,cx,cy
-		else image.scale 1/1.1,1/1.1,cx,cy
-		info()
+	# document.getElementById("canvasdiv").addEventListener "wheel", (event) -> 
+	# 	if event.deltaY > 0 then image.scale 1.1,1.1,cx,cy
+	# 	else image.scale 1/1.1,1/1.1,cx,cy
+	# 	info()
+
+	# image.mousemove (e) -> 
+	# 	{dx,dy,sx,sy} = image._
+	# 	messages[1].attr {text: "x=#{myRound (e.x - dx)/sx}\ny=#{myRound (e.y - dy)/sy}"}
