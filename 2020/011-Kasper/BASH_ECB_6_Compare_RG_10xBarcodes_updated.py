@@ -44,7 +44,7 @@ def hamming(bc,bc10x): # 'ACTGTGCACACTGTAC', list of list
 	diff = bc - bc10x
 	return np.count_nonzero(diff, axis=1)
 
-def countOnes(arr): return np.count_nonzero(arr == 1)
+def count(arr,n): return np.count_nonzero(arr == n)
 
 def testHamming(a,b,expected):
 	b = [convertForw(item) for item in b]
@@ -61,8 +61,11 @@ def handleOne(bc,bc10x):
 	b = convertBack(bc10x[mindex])
 	if minHam == 0: return b
 	if minHam == 1:
-		if countOnes(arrHamming) == 1: return b  # if unique
+		if count(arrHamming,1) == 1: return b  # if unique with distance 1
 		return "Remove_multham1"
+	if minHam == 2:
+		if count(arrHamming,2) == 1: return b  # if unique with distance 2
+		return "Remove_multham2"
 	return "Remove_Minham"
 
 def testHandleOne(a,b):
@@ -71,10 +74,11 @@ def testHandleOne(a,b):
 assert testHandleOne('ACGT',['ACGT','AAGT','AAAT','AAAA','TGCA']) == 'ACGT'
 assert testHandleOne('ACGT',['ACGT','ACGT']) == 'ACGT'
 assert testHandleOne('ACGT',['AAGT','AAAT','AAAA','TGCA']) == 'AAGT'
-assert testHandleOne('ACGT',['AAAT','AAAA','TGCA']) == "Remove_Minham"
+assert testHandleOne('ACGT',['AAAT','AAAA','TGCA']) == "AAAT"
 assert testHandleOne('ACGT',['AAGT','CCGT','AAAA','TGCA']) == "Remove_multham1"
-
 assert testHandleOne('ACGT',['AAGT','AAGT']) == "Remove_multham1"
+assert testHandleOne('ACGT',['AGCT','TTTT','AAAA','TGCA']) == 'AGCT'
+assert testHandleOne('ACGT',['AGCT','CAGT','AAAA','TGCA']) == 'Remove_multham2'
 
 start = time.time()
 
