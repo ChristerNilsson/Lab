@@ -16,12 +16,12 @@ os.chdir('.')
 
 name = "ECB_data/Valid_cellBC_ECB_ham2_clean_RG"
 
-def convertForw(str16): return ['ACGT'.index(ch) for ch in str16]
+def convertForw(str16): return ['ACGTN'.index(ch) for ch in str16]
 assert convertForw('ACGT') == [0,1,2,3]
 assert convertForw('AAAA') == [0,0,0,0]
 assert convertForw('TTTT') == [3,3,3,3]
 
-def convertBack(lst):	return ''.join(['ACGT'[i] for i in lst])
+def convertBack(lst):	return ''.join(['ACGTN'[i] for i in lst])
 assert convertBack([0,1,2,3]) == 'ACGT'
 assert convertBack([0,0,0,0]) == 'AAAA'
 assert convertBack([3,3,3,3]) == 'TTTT'
