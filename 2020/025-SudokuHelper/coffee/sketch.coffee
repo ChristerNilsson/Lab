@@ -44,7 +44,7 @@ setup = ->
 		tabu.push 0
 
 	# Problem:
-	
+
 	# 8.. .1. 3..
 	# .1. 5.. 98.
 	# 3.9 ..4 .1.
@@ -98,15 +98,16 @@ draw = ->
 			y = SIZE*(3*j)
 			rect x+1,y+1,3*SIZE-2,3*SIZE-2
 
-	fill 0
+	fill 128
 	for i in range 4
 		rect SIZE*9*i,0,5,height-SIZE
 		rect 0,SIZE*9*i,width-SIZE,5
 
+	fill 0
 	textSize 20
 	for letter,i in 'ABCDEFGHI'
-		text letter, 3*SIZE*(i+0.5),SIZE*27.8
-		text 9-i, SIZE*27.7, 3*SIZE*(i+0.5)+2
+		text letter, 3*SIZE*(i+0.5),SIZE*27.7
+		text 9-i, SIZE*27.6, 3*SIZE*(i+0.5)
 
 	for i in range 9
 		for j in range 9
