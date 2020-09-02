@@ -1,7 +1,7 @@
 range = _.range
 
 N = 9
-SIZE = 30
+SIZE = 34
 COLOR = '#ccc #f00'.split ' '
 
 MAYBE = 0
@@ -129,8 +129,8 @@ setup = ->
 	digits = (UNKNOWN for digit in range N*N)
 	tabu = ([0,0,0,0,0,0,0,0,0] for i in range N*N)
 
-	#postnord()
-	expert()
+	postnord()
+	#expert()
 
 drawBackground = (i,j,color)->
 	fill color
