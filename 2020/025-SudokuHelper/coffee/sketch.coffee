@@ -1,58 +1,64 @@
 range = _.range
 
 N = 9
-SIZE = 20
+SIZE = 30
 COLOR = '#ccc #f00'.split ' '
 
-SUPPORT = 0 # no support
-#SUPPORT = 1 # show green digit
+MAYBE = 0
+NO = 1 # RED
+YES = 1 # GREEN
 
-digits = [] # 0..8 eller -1 length=81
-tabu = []   # [0,0,0,0,0,0,0,0,0] 0..1          length=81
-single = (-1 for i in range 81) # 0..8 eller -1 length=81
+UNKNOWN = -1
+
+#SUPPORT = 0 # no support
+SUPPORT = 1 # show green digit
+
+digits = [] # 0..8 or UNKNOWN length=81
+tabu = []   # [0,0,0,0,0,0,0,0,0] 0..1 length=81
+single = (UNKNOWN for i in range 81) # 0..8 or UNKNOWN length=81
 stack = [] # contains 0..80
 
-calcSingle = ->
-	if SUPPORT == 0 then return
-	single = (-1 for i in range 81)
-
-	for i in range N # cell
+calcCell = ->
+	for i in range N
 		for j in range N
-			if digits[i+N*j] == -1
+			if digits[i+N*j] == UNKNOWN
 				count = 0
 				index = -1
 				for k in range N
-					if tabu[i + N*j][k] == 0 # gray
+					if tabu[i + N*j][k] == MAYBE
 						count++
 						index = k
 				if count == 1
-					if tabu[i + N*j][index] == 0 then single[i + N*j] = index
+					if tabu[i + N*j][index] == MAYBE then single[i + N*j] = index
 
-	for j in range N # row
+calcRow = ->
+	for j in range N
 		for k in range N
 			count = 0
 			index = -1
 			for i in range N 
-				if digits[i+N*j] == -1 and tabu[i+N*j][k] == 0 # gray
+				if digits[i+N*j] == UNKNOWN and tabu[i+N*j][k] == MAYBE
 					count++
 					index = i
 			if count == 1
-				if tabu[index + N*j][k] == 0 then single[index + N*j] = k
+				if tabu[index + N*j][k] == MAYBE then single[index + N*j] = k
 
-	for i in range N # col
+calcCol = ->
+	for i in range N
 		for k in range N
 			count = 0
 			index = -1
 			for j in range N
-				if digits[i+N*j] == -1 and tabu[i + N*j][k] == 0 # gray
+				if digits[i+N*j] == UNKNOWN and tabu[i + N*j][k] == MAYBE
 					count++
 					index = j
 			if count == 1
-				if tabu[i + N*index][k] == 0 then single[i + N*index] = k
+				if tabu[i + N*index][k] == MAYBE then single[i + N*index] = k
 
-	for i in range N # 3 by 3
+calc3x3 = ->
+	for i in range N
 		for j in range N
-			if digits[i+N*j] == -1
+			if digits[i+N*j] == UNKNOWN
 				ioff = i - i % 3
 				joff = j - j % 3
 				for k in range N
@@ -61,35 +67,43 @@ calcSingle = ->
 					for i0 in range 3
 						for j0 in range 3
 							ix = (ioff+i0) + N*(joff+j0)
-							if digits[ix] == -1 
-								if tabu[ix][k] == 0 # gray
+							if digits[ix] == UNKNOWN
+								if tabu[ix][k] == MAYBE
 									count++
 									index = ix 
 					if count == 1
-						if tabu[index][k] == 0 then single[index] = k
+						if tabu[index][k] == MAYBE then single[index] = k
 
 calcTabu = ->
 	tabu = ([0,0,0,0,0,0,0,0,0] for i in range N*N)
 	for i in range N
 		for j in range N
-			k = digits[i+N*j]
-			if k == -1 then continue
+			digit = digits[i+N*j]
+			if digit == UNKNOWN then continue
 			for index in range N
-				tabu[i + N*j][index] = 1 # same cell
-				tabu[i + N*index][k] = 1 # col
-				tabu[index + N*j][k] = 1 # row
+				tabu[i + N*j][index] = NO # cell
+				tabu[i + N*index][digit] = NO # col
+				tabu[index + N*j][digit] = NO # row
 			
 			ioff = i - i % 3
 			joff = j - j % 3
 			for i0 in range 3
 				for j0 in range 3
-					tabu[(ioff+i0) + N*(joff+j0)][k] = 1
+					tabu[(ioff+i0) + N*(joff+j0)][digit] = NO
 
-			tabu[i + N*j][k] = 2
+			tabu[i + N*j][digit] = YES
 
-click = (index,k) -> # 0..8 0..8 0..8
-	stack.push index
-	digits[index] = k
+calcSingle = ->
+	if SUPPORT == 0 then return
+	single = (UNKNOWN for i in range 81)
+	calcCell()
+	calcRow()
+	calcCol()
+	calc3x3()
+
+click = (index,digit) -> 
+	stack.push index # 0..80
+	digits[index] = digit # 0..8
 	calcTabu()
 	calcSingle()
 
@@ -104,7 +118,7 @@ click = (index,k) -> # 0..8 0..8 0..8
 
 undo = ->
 	if stack.length == 0 then return
-	digits[stack.pop()] = -1
+	digits[stack.pop()] = UNKNOWN
 	calcTabu()
 	calcSingle()
 
@@ -112,54 +126,64 @@ setup = ->
 	createCanvas SIZE*28+2+2,SIZE*28+2+2
 	textAlign CENTER,CENTER
 	strokeWeight 0
-	digits = (-1 for digit in range N*N)
+	digits = (UNKNOWN for digit in range N*N)
 	tabu = ([0,0,0,0,0,0,0,0,0] for i in range N*N)
 
 	#postnord()
-	#expert()
+	expert()
 
-draw = ->
-	background 128
+drawBackground = (i,j,color)->
+	fill color
+	rect 3*SIZE*i+1, 3*SIZE*j+1, 3*SIZE-2, 3*SIZE-2
 
-	fill 255
-	for i in range N
-		for j in range N
-			x = SIZE*(3*i)
-			y = SIZE*(3*j)
-			rect x+1,y+1,3*SIZE-2,3*SIZE-2
-
+drawLittera = ->
 	fill 0
-	textSize 20
+	textSize 32
 	for letter,i in 'ABCDEFGHI'
 		text letter, 3*SIZE*(i+0.5),SIZE*27.7
 		text N-i, SIZE*27.6, 3*SIZE*(i+0.5)
 
-	for i in range N
-		for j in range N
-			if digits[i+N*j] == -1
-				textSize 12
-				if single[i+N*j] == -1 then fill '#fff' else fill '#ff0'
-				x = SIZE*(3*i)
-				y = SIZE*(3*j)
-				rect x+1,y+1,3*SIZE-2,3*SIZE-2
-				for k in range 9
-					x = 3*i+k % 3
-					y = 3*j+int(k / 3)
-					t = tabu[i + N*j][k]
-					if single[i + N*j] == k then fill '#0f0' else fill COLOR[t]
-					text k+1,SIZE*(x+0.5),SIZE*(y+0.5)+2
-			else
-				textSize 30
-				k = digits[i+N*j]
-				x = 3*i
-				y = 3*j
-				fill 0
-				text k+1,SIZE*(x+1.5),SIZE*(y+1.5)+2
+drawTabu = (i,j) ->
+	drawBackground i,j, if single[i+N*j] == UNKNOWN then '#fff' else '#ff0'
+	textSize 20
+	for k in range 9
+		x = 3*i+k % 3
+		y = 3*j+int(k / 3)
+		t = tabu[i + N*j][k]
+		fill if single[i + N*j] == k then '#0f0' else COLOR[t]
+		text k+1,SIZE*(x+0.5),SIZE*(y+0.5)+2
 
+drawDigit = (i,j) ->
+	drawBackground i,j,'#fff'
+	textSize 50
+	digit = digits[i+N*j]+1
+	fill 0
+	text digit,SIZE*(3*i+1.5),SIZE*(3*j+1.5)+2
+
+drawDividers = ->
 	fill 128
 	for i in range 4
 		rect SIZE*N*i,0,5,height-SIZE
 		rect 0,SIZE*N*i,width-SIZE,5
+
+drawUndo = ->
+	fill 0
+	textSize 32
+	text stack.length, SIZE*27.5, SIZE*27.6
+
+draw = ->
+	background 128
+	drawLittera()
+
+	for i in range N
+		for j in range N
+			if digits[i+N*j] == UNKNOWN
+				drawTabu i,j
+			else
+				drawDigit i,j
+
+	drawDividers()
+	drawUndo()
 
 mousePressed = ->
 	i = int mouseX / (SIZE*3)
@@ -171,18 +195,6 @@ mousePressed = ->
 	if index < N*N then click index,k else undo()
 
 postnord = ->
-	# 8.. .1. 3..
-	# .1. 5.. 98.
-	# 3.9 ..4 .1.
-
-	# 2.. ..6 .7.
-	# .7. ..3 1.9
-	# 1.. .8. ...
-
-	# 7.6 ... ..8
-	# 4.. ... 5..
-	# ... 32. 746
-
 	click 0,8-1
 	click 4,1-1
 	click 6,3-1

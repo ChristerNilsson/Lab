@@ -2,8 +2,12 @@ This is just an administrative help to solve Sudoku.
 
 The tactics has to be done by the user.
 
-Click on a small gray digit to choose a permanent digit.
+Click on a small gray or green digit to choose a permanent digit.
 
 Red digits are not possible to use.
 
-You can regret a choice by clicking again.
+Undo is located in lower right corner.
+
+Solves up to Hard.
+
+Expert sudokus needs guessing, which can be undone.
