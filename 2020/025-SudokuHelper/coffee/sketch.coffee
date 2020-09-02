@@ -3,13 +3,17 @@ range = _.range
 N = 9
 SIZE = 20
 COLOR = '#ccc #f00'.split ' '
+
+SUPPORT = 0 # no support
+#SUPPORT = 1 # show green digit
+
 digits = [] # 0..8 eller -1 length=81
 tabu = []   # [0,0,0,0,0,0,0,0,0] 0..1          length=81
 single = (-1 for i in range 81) # 0..8 eller -1 length=81
 stack = [] # contains 0..80
 
 calcSingle = ->
-	return
+	if SUPPORT == 0 then return
 	single = (-1 for i in range 81)
 
 	for i in range N # cell
@@ -53,13 +57,16 @@ calcSingle = ->
 				joff = j - j % 3
 				for k in range N
 					count = 0
+					index = -1
 					for i0 in range 3
 						for j0 in range 3
-							if digits[(ioff+i0) + N*(joff+j0)] == -1 
-								if tabu[(ioff+i0) + N*(joff+j0)][k] == 0 # gray
+							ix = (ioff+i0) + N*(joff+j0)
+							if digits[ix] == -1 
+								if tabu[ix][k] == 0 # gray
 									count++
+									index = ix 
 					if count == 1
-						if tabu[(ioff+i0) + N*(joff+j0)][k] == 0 then single[(ioff+i0) + N*(joff+j0)] = k
+						if tabu[index][k] == 0 then single[index] = k
 
 calcTabu = ->
 	tabu = ([0,0,0,0,0,0,0,0,0] for i in range N*N)
