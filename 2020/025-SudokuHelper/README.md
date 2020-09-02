@@ -11,3 +11,15 @@ Undo is located in lower right corner.
 Solves up to Hard.
 
 Expert sudokus needs guessing, which can be undone.
+
+# Keys
+
+* A = Auto (TBD)
+* B = 
+* C = Clear
+* D = 
+* E = Prev Example
+* F = Next Example
+* G = 
+* H = Help
+* I = 

@@ -8,26 +8,30 @@ MAYBE = 0
 NO = 1 # RED
 YES = 1 # GREEN
 
+#ERROR = -2
 UNKNOWN = -1
 
-#SUPPORT = 0 # no support
-SUPPORT = 1 # show green digit
+HELP = 0 # 0=no support 1=show green/yellow
 
 digits = [] # 0..8 or UNKNOWN length=81
 tabu = []   # [0,0,0,0,0,0,0,0,0] 0..1 length=81
 single = (UNKNOWN for i in range 81) # 0..8 or UNKNOWN length=81
 stack = [] # contains 0..80
 
+example = 0
+
 calcCell = ->
 	for i in range N
 		for j in range N
-			if digits[i+N*j] == UNKNOWN
+			#if digits[i+N*j] == UNKNOWN
+			if single[i+N*j] == UNKNOWN
 				count = 0
 				index = -1
 				for k in range N
 					if tabu[i + N*j][k] == MAYBE
 						count++
 						index = k
+				#if count == 0 then single[i + N*j] = ERROR
 				if count == 1
 					if tabu[i + N*j][index] == MAYBE then single[i + N*j] = index
 
@@ -94,8 +98,8 @@ calcTabu = ->
 			tabu[i + N*j][digit] = YES
 
 calcSingle = ->
-	if SUPPORT == 0 then return
 	single = (UNKNOWN for i in range 81)
+	if HELP == 0 then return
 	calcCell()
 	calcRow()
 	calcCol()
@@ -122,14 +126,21 @@ undo = ->
 	calcTabu()
 	calcSingle()
 
+clearAll = ->
+	digits = (UNKNOWN for digit in range N*N)
+	tabu = ([0,0,0,0,0,0,0,0,0] for i in range N*N)
+	#digits = [] # 0..8 or UNKNOWN length=81
+	#tabu = []   # [0,0,0,0,0,0,0,0,0] 0..1 length=81
+	single = (UNKNOWN for i in range 81) # 0..8 or UNKNOWN length=81
+	stack = [] # contains 0..80
+
 setup = ->
 	createCanvas SIZE*28+2+2,SIZE*28+2+2
 	textAlign CENTER,CENTER
 	strokeWeight 0
-	digits = (UNKNOWN for digit in range N*N)
-	tabu = ([0,0,0,0,0,0,0,0,0] for i in range N*N)
+	clearAll()
 
-	postnord()
+	#postnord()
 	#expert()
 
 drawBackground = (i,j,color)->
@@ -144,7 +155,9 @@ drawLittera = ->
 		text N-i, SIZE*27.6, 3*SIZE*(i+0.5)
 
 drawTabu = (i,j) ->
-	drawBackground i,j, if single[i+N*j] == UNKNOWN then '#fff' else '#ff0'
+	if single[i+N*j] == UNKNOWN then drawBackground i,j,'#fff'
+	#else if single[i+N*j] == ERROR then drawBackground i,j,'#f44'
+	else drawBackground i,j,'#ff0'
 	textSize 20
 	for k in range 9
 		x = 3*i+k % 3
@@ -192,61 +205,53 @@ mousePressed = ->
 	kx = (int mouseX / SIZE) % 3
 	ky = (int mouseY / SIZE) % 3
 	k = kx + 3 * ky
-	if index < N*N then click index,k else undo()
+	if i < 9 and j < 9 then click index,k
 
-postnord = ->
-	click 0,8-1
-	click 4,1-1
-	click 6,3-1
-	click 10,1-1
-	click 12,5-1
-	click 15,9-1
-	click 16,8-1
-	click 18,3-1
-	click 20,9-1
-	click 23,4-1
-	click 25,1-1
-	click 27,2-1
-	click 32,6-1
-	click 34,7-1
-	click 37,7-1
-	click 41,3-1
-	click 42,1-1
-	click 44,9-1
-	click 45,1-1
-	click 49,8-1
-	click 54,7-1
-	click 56,6-1
-	click 62,8-1
-	click 63,4-1
-	click 69,5-1
-	click 75,3-1
-	click 76,2-1
-	click 78,7-1
-	click 79,4-1
-	click 80,6-1
+	if index == 83 then	clearAll() # C
+	if index == 85 then setExample -1 # E
+	if index == 86 then	setExample 1 # F
+	if index == 88 then HELP = 1 - HELP # H
+	if index == 90 then undo()
 
-expert = ->
-	click 2,7-1
-	click 5,4-1
-	click 7,2-1
-	click 8,6-1
-	click 10,9-1
-	click 15,8-1
-	click 17,1-1
-	click 19,6-1
-	click 25,7-1
-	click 31,9-1
-	click 39,5-1
-	click 45,5-1
-	click 46,8-1
-	click 48,1-1
-	click 50,6-1
-	click 53,4-1
-	click 54,4-1
-	click 57,9-1
-	click 59,1-1
-	click 62,8-1
-	click 65,1-1
-	click 67,7-1
-	click 71,2-1
+	if 80 < index < 90
+		calcTabu()
+		calcSingle()
+
+spara = (rows) ->
+	console.log rows
+	index = 0
+	for row in rows
+		for char in row
+			if char != ' ' then click index,parseInt(char)-1
+			index++
+
+setExample = (delta) -> 
+	example = (example + delta) %% 3
+	clearAll()
+	if example == 1 # postnord
+		spara [
+			'8   1 3  '
+			' 1 5  98 '
+			'3 9  4 1 '
+			'2    6 7 '
+			' 7   31 9'
+			'1   8    '
+			'7 6     8'
+			'4     5  '
+			'   32 746'
+		]
+	if example == 2 # expert
+		spara [
+			'  7  4 26'
+			' 9    8 1'
+			' 6     7 '
+			'    9    '
+			'   5     '
+			'58 1 6  4'
+			'4  9 1  8'
+			'  1 7   2'
+			'         '
+		]
+
+	calcTabu()
+	calcSingle()
