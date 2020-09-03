@@ -18,6 +18,7 @@ tabu = []   # [0,0,0,0,0,0,0,0,0] 0..1 length=81
 single = (UNKNOWN for i in range 81) # 0..8 or UNKNOWN length=81
 stack = [] # contains 0..80
 
+examples = []
 example = 0
 
 calcCell = ->
@@ -139,9 +140,7 @@ setup = ->
 	textAlign CENTER,CENTER
 	strokeWeight 0
 	clearAll()
-
-	#postnord()
-	#expert()
+	saveExamples()
 
 drawBackground = (i,j,color)->
 	fill color
@@ -217,41 +216,73 @@ mousePressed = ->
 		calcTabu()
 		calcSingle()
 
-spara = (rows) ->
-	console.log rows
+loadExample = (rows) ->
 	index = 0
 	for row in rows
 		for char in row
 			if char != ' ' then click index,parseInt(char)-1
 			index++
 
-setExample = (delta) -> 
-	example = (example + delta) %% 3
-	clearAll()
-	if example == 1 # postnord
-		spara [
-			'8   1 3  '
-			' 1 5  98 '
-			'3 9  4 1 '
-			'2    6 7 '
-			' 7   31 9'
-			'1   8    '
-			'7 6     8'
-			'4     5  '
-			'   32 746'
-		]
-	if example == 2 # expert
-		spara [
-			'  7  4 26'
-			' 9    8 1'
-			' 6     7 '
-			'    9    '
-			'   5     '
-			'58 1 6  4'
-			'4  9 1  8'
-			'  1 7   2'
-			'         '
-		]
+saveExamples = ->
+	examples.push [ 
+		'         '
+		'         '
+		'         '
+		'         '
+		'         '
+		'         '
+		'         '
+		'         '
+		'         '
+	]
+	examples.push [ # postnord 20-07-30
+		' 8  1   5'
+		' 94 6  1 '
+		'5   8  9 '
+		'1  9768  '
+		' 49  8  7'
+		'        9'
+		'  1  7 42'
+		'   6   8 '
+		'65  42   '
+	]
+	examples.push [ # postnord 20-08-17
+		'         '
+		'25   3 18'
+		'3   84572'
+		' 3  41 9 '
+		' 7  9  3 '
+		'   3 8  4'
+		'  3 25 81'
+		'5 9      '
+		'  1    2 '
+	]
+	examples.push [ # postnord 20-08-31
+		'8   1 3  '
+		' 1 5  98 '
+		'3 9  4 1 '
+		'2    6 7 '
+		' 7   31 9'
+		'1   8    '
+		'7 6     8'
+		'4     5  '
+		'   32 746'
+	]
+	examples.push [ # expert
+		'  7  4 26'
+		' 9    8 1'
+		' 6     7 '
+		'    9    '
+		'   5     '
+		'58 1 6  4'
+		'4  9 1  8'
+		'  1 7   2'
+		'         '
+	]
 
+setExample = (delta) -> 
+	example = (example + delta) %% examples.length
+	clearAll()
+	loadExample examples[example]
 	calcTabu()
 	calcSingle()
