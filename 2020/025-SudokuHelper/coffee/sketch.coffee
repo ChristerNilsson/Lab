@@ -197,6 +197,15 @@ draw = ->
 	drawDividers()
 	drawUndo()
 
+auto = ->
+	lst = []
+	for index in range N*N
+		if digits[index] == UNKNOWN
+			if single[index] != UNKNOWN
+				lst.push [index,single[index]]
+	for [index,digit] in lst
+		click index,digit
+
 mousePressed = ->
 	i = int mouseX / (SIZE*3)
 	j = int mouseY / (SIZE*3)
@@ -206,9 +215,10 @@ mousePressed = ->
 	k = kx + 3 * ky
 	if i < 9 and j < 9 then click index,k
 
+	if index == 81 then	auto() # A
 	if index == 83 then	clearAll() # C
-	if index == 85 then setExample -1 # E
-	if index == 86 then	setExample 1 # F
+	if index == 84 then setExample -1 # D
+	if index == 85 then	setExample 1 # E
 	if index == 88 then HELP = 1 - HELP # H
 	if index == 90 then undo()
 

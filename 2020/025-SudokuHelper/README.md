@@ -14,12 +14,12 @@ Expert sudokus needs guessing, which can be undone.
 
 # Keys
 
-* A = Auto (TBD)
+* A = Auto (Clicks on one generation of green digits)
 * B = 
 * C = Clear
-* D = 
-* E = Prev Example
-* F = Next Example
+* D = Prev Example
+* E = Next Example
+* F = 
 * G = 
 * H = Help
 * I = 
