@@ -3,7 +3,6 @@
 # This adds about 25% to the exec time.
 
 # 'use strict';
-fs = require 'fs'
 
 BLOCK     = []
 BLOCK_NDX = []
@@ -210,6 +209,8 @@ class Sudoku
 # 	# 	s += if y % 3 < 2 || y == 8 then '\n' else '\n------+-------+------\n';
 # 	console.log c
 # 	console.log s
+
+fs = require 'fs'
 
 console.time 'Processing time'
 
