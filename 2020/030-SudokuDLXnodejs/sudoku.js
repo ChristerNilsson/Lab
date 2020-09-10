@@ -23,7 +23,7 @@ console.log("File '" + filename + "': " + len + " puzzles");
 puzzle.forEach((p, i) => {
 	let sol, res;
 	
-	if (i != 7) return
+	//if (i != 7) return
 
 	[ p, sol ] = p.split(',');
 	//console.log(p,i)
@@ -38,8 +38,8 @@ puzzle.forEach((p, i) => {
     if (sol && res != sol) {
       throw "Invalid solution for puzzle " + i;
 		}
-		//console.log(p)
-		//console.log(res)
+		console.log(p)
+		console.log(res)
     output += p + ',' + res + '\n';
   }
 });
@@ -85,7 +85,7 @@ function init() {
 
 // solver
 function solve(p) {
-	console.log('solve',p)
+	//console.log('solve',p)
 
   let ptr, x, y, v,
       count = 81,
@@ -123,15 +123,15 @@ function solve(p) {
 		m[p] = n;
 		
     stack.push(x << 8 | y << 4 | n);
-		console.log('play', prompt, stack.map((item) => item.toString(16)),x,y,n)
-		showGrid('m    ',m)
+		//console.log('play', prompt, stack.map((item) => item.toString(16)),x,y,n)
+		//showGrid('m    ',m)
 
     return true;
   }
 
   // helper function to undo all moves on the stack
   function undo(stack) {
-		console.log('undo',stack.map((item) => item.toString(16)))
+		//console.log('undo',stack.map((item) => item.toString(16)))
     stack.forEach(v => {
       let x = v >> 8,
           y = v >> 4 & 15,
@@ -145,7 +145,7 @@ function solve(p) {
       row[y] ^= vv;
       blk[b] ^= vv;
 			m[p] = -1;
-			showGrid('u    ',m)
+			//showGrid('u    ',m)
     });
   }
 
@@ -218,7 +218,7 @@ function solve(p) {
       }
 		}
 
-		console.log('best',best,max)
+		//console.log('best',best,max)
 
     // play all forced moves (unique candidates on a given column, row or block)
     // and make sure that it doesn't lead to any inconsistency
@@ -269,15 +269,15 @@ function solve(p) {
 
     // otherwise, try all moves on the cell with the fewest number of moves
     while((v = ZERO[best.msk]) < 0x200) {
-			console.log('v',v,BIT[v])
+			//console.log('v',v,BIT[v])
       col[best.x] ^= v;
       row[best.y] ^= v;
       blk[BLOCK[best.ptr]] ^= v;
 			m[best.ptr] = BIT[v];
 
-			console.log('guess',best.x, best.y,BIT[v])
-			showGrid('mm   ',m)
-			console.log('stack',stack.map((item) => item.toString(16)))
+			//console.log('guess',best.x, best.y,BIT[v])
+			//showGrid('mm   ',m)
+			//console.log('stack',stack.map((item) => item.toString(16)))
 
       count--;
 
