@@ -2,19 +2,19 @@
 # This code works, but I had to introduce a class to handle variable scopes
 # This adds about 25% to the exec time.
 
-# 'use strict';
+TRACE = false
 
-BLOCK     = []
-BLOCK_NDX = []
-N_BIT     = []
-ZERO      = []
-BIT       = []
+BLOCK     = [] # 81 digits
+BLOCK_NDX = [] # 81 digits
+N_BIT     = [] # 512 integers
+ZERO      = [] # 512 integers
+BIT       = [] # 512 integers
 
-count = null
-m = null
-col = null
-row = null
-blk = null
+count = 0
+m = [] # 81 digits
+col = [] # 9 bit patterns
+row = [] # 9 bit patterns
+blk = [] # 9 bit patternsnull
 
 range = (n) -> [0...n]
 
@@ -40,19 +40,19 @@ class Sudoku
 				BLOCK_NDX[ptr] = (y % 3) * 3 + x % 3
 
 	# helper function to check and play a move
-	play : (msg, stack, x, y, n) ->
+	play : (level, stack, x, y, n) ->
 		p = y * 9 + x
 
 		if ~m[p]
 			if m[p] == n then return true
-			@undo stack
+			@undo level,stack
 			return false
 		
 		msk = 1 << n
 		b = BLOCK[p]
 
 		if (col[x] | row[y] | blk[b]) & msk
-			@undo stack
+			@undo level,stack
 			return false
 		
 		count--
@@ -61,17 +61,18 @@ class Sudoku
 		blk[b] ^= msk
 		m[p] = n
 		stack.push x << 8 | y << 4 | n
-		# console.log 'play', msg, (item.toString(16) for item in stack), x, y, n
+		if TRACE then console.log 'play ' + ' '.repeat(level), 81-count, x, y, n
 		#showGrid 'm    ', m
 		return true
 
-	undo : (stack) -> # helper function to undo all moves on the stack
+	undo : (level,stack) -> # helper function to undo all moves on the stack
 		# console.log 'undo', (item.toString(16) for item in stack)
-		for v in stack
+		for v in stack.reverse()
 			x = v >> 8
 			y = v >> 4 & 15
 			index = y * 9 + x
 			b = BLOCK[index]
+			if TRACE then console.log 'undo '+' '.repeat(level), 81-count, x, y, v & 15
 
 			msk = 1 << (v & 15)
 
@@ -93,18 +94,18 @@ class Sudoku
 		for y in range 9
 			for x in range 9
 				index = 9 * y + x
-				if ~(v = p[index] - 1)
-					msk = 1 << v
+				if ~(digit = p[index] - 1)
+					msk = 1 << digit
 					col[x] |= msk
 					row[y] |= msk
 					blk[BLOCK[index]] |= msk
 					count--
-					m[index] = v
+					m[index] = digit
 
 		xres = @search()
 		return if xres then m.map((n) => n + 1).join('') else false
 
-	search : -> # main recursive search function
+	search : (level=0) -> # main recursive search function
 		if !count then return true
 
 		# Local variables
@@ -152,20 +153,20 @@ class Sudoku
 				ptr = k * 9 + n
 				if N_BIT[dCol[ptr]] == 1
 					i = BIT[dCol[ptr]]
-					if !@play('col',stack, k, i, n) then return false
+					if !@play(level,stack, k, i, n) then return false
 
 				if N_BIT[dRow[ptr]] == 1
 					i = BIT[dRow[ptr]];
-					if !@play('row',stack, i, k, n) then return false
+					if !@play(level,stack, i, k, n) then return false
 
 				if N_BIT[dBlk[ptr]] == 1
 					i = BIT[dBlk[ptr]]
-					if !@play('blk',stack, (k % 3) * 3 + i % 3, (k / 3 | 0) * 3 + (i / 3 | 0), n) then return false
+					if !@play(level,stack, (k % 3) * 3 + i % 3, (k / 3 | 0) * 3 + (i / 3 | 0), n) then return false
 
 		# if we've played at least one forced move, do a recursive call right away
 		if stack.length
-			if @search() then return true
-			@undo stack
+			if @search level+1 then return true
+			@undo level,stack
 			return false
 
 		# otherwise, try all moves on the cell with the fewest number of moves
@@ -177,11 +178,12 @@ class Sudoku
 			m[best.ptr] = BIT[msk]
 			count--
 
-			#console.log('guess',best.x, best.y, BIT[v])
 			#showGrid('mm   ',m)
 			#console.log('stack',stack.map((item) => item.toString(16)))
 
-			if @search() then return true
+			if TRACE then console.log('guess'+' '.repeat(level),81-count,best.x, best.y, BIT[msk])
+			if @search level+1 then return true
+			if TRACE then console.log('ungue'+' '.repeat(level),81-count,best.x, best.y, BIT[msk])
 			
 			count++
 			m[best.ptr] = -1
@@ -225,7 +227,7 @@ console.log "File '" + filename + "': " + len + " puzzles"
 
 # solve all puzzles
 for p,i in puzzles
-	#if i>100 then break
+	# if i>0 then break
 
 	#if i != 7 then continue
 
@@ -241,8 +243,8 @@ for p,i in puzzles
 		if sol && res != sol
 			throw "Invalid solution for puzzle " + i
 		
-		#console.log p
-		#console.log res
+		console.log p
+		console.log res
 		output += p + ',' + res + '\n'
 
 # results
