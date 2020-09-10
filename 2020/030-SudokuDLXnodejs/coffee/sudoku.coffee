@@ -11,6 +11,12 @@ N_BIT     = []
 ZERO      = []
 BIT       = []
 
+count = null
+m = null
+col = null
+row = null
+blk = null
+
 range = (n) -> [0...n]
 
 showGrid = (prompt,m) ->
@@ -38,26 +44,26 @@ class Sudoku
 	play : (msg, stack, x, y, n) ->
 		p = y * 9 + x
 
-		if ~@m[p]
-			if @m[p] == n then return true
+		if ~m[p]
+			if m[p] == n then return true
 			@undo stack
 			return false
 		
 		msk = 1 << n
 		b = BLOCK[p]
 
-		if (@col[x] | @row[y] | @blk[b]) & msk
+		if (col[x] | row[y] | blk[b]) & msk
 			@undo stack
 			return false
 		
-		@count--
-		@col[x] ^= msk
-		@row[y] ^= msk
-		@blk[b] ^= msk
-		@m[p] = n
+		count--
+		col[x] ^= msk
+		row[y] ^= msk
+		blk[b] ^= msk
+		m[p] = n
 		stack.push x << 8 | y << 4 | n
 		# console.log 'play', msg, (item.toString(16) for item in stack), x, y, n
-		#showGrid 'm    ', @m
+		#showGrid 'm    ', m
 		return true
 
 	undo : (stack) -> # helper function to undo all moves on the stack
@@ -70,19 +76,19 @@ class Sudoku
 
 			msk = 1 << (v & 15)
 
-			@count++
-			@col[x] ^= msk
-			@row[y] ^= msk
-			@blk[b] ^= msk
-			@m[index] = -1
-			# showGrid 'u    ',@m
+			count++
+			col[x] ^= msk
+			row[y] ^= msk
+			blk[b] ^= msk
+			m[index] = -1
+			# showGrid 'u    ',m
 
 	solve : (p) ->
-		@count = 81
-		@row = Array(9).fill 0
-		@col = Array(9).fill 0
-		@blk = Array(9).fill 0
-		@m = Array(81).fill -1
+		count = 81
+		row = Array(9).fill 0
+		col = Array(9).fill 0
+		blk = Array(9).fill 0
+		m = Array(81).fill -1
 
 		# convert the puzzle into our own format
 		for y in range 9
@@ -90,17 +96,17 @@ class Sudoku
 				index = 9 * y + x
 				if ~(v = p[index] - 1)
 					msk = 1 << v
-					@col[x] |= msk
-					@row[y] |= msk
-					@blk[BLOCK[index]] |= msk
-					@count--
-					@m[index] = v
+					col[x] |= msk
+					row[y] |= msk
+					blk[BLOCK[index]] |= msk
+					count--
+					m[index] = v
 
 		xres = @search()
-		return if xres then @m.map((n) => n + 1).join('') else false
+		return if xres then m.map((n) => n + 1).join('') else false
 
 	search : -> # main recursive search function
-		if !@count then return true
+		if !count then return true
 
 		# Local variables
 		max = 0
@@ -116,8 +122,8 @@ class Sudoku
 		for y in range 9
 			for x in range 9
 				ptr = 9 * y + x
-				if @m[ptr] == -1
-					v = @col[x] | @row[y] | @blk[BLOCK[ptr]]
+				if m[ptr] == -1
+					v = col[x] | row[y] | blk[BLOCK[ptr]]
 					n = N_BIT[v]
 					#abort if there's no legal move on this cell
 					if n == 9 then return false
@@ -166,23 +172,23 @@ class Sudoku
 		# otherwise, try all moves on the cell with the fewest number of moves
 		while (msk = ZERO[best.msk]) < 0x200
 			#console.log('v',v,BIT[v])
-			@col[best.x] ^= msk
-			@row[best.y] ^= msk
-			@blk[BLOCK[best.ptr]] ^= msk
-			@m[best.ptr] = BIT[msk]
-			@count--
+			col[best.x] ^= msk
+			row[best.y] ^= msk
+			blk[BLOCK[best.ptr]] ^= msk
+			m[best.ptr] = BIT[msk]
+			count--
 
 			#console.log('guess',best.x, best.y, BIT[v])
-			#showGrid('mm   ',@m)
+			#showGrid('mm   ',m)
 			#console.log('stack',stack.map((item) => item.toString(16)))
 
 			if @search() then return true
 			
-			@count++
-			@m[best.ptr] = -1
-			@col[best.x] ^= msk
-			@row[best.y] ^= msk
-			@blk[BLOCK[best.ptr]] ^= msk
+			count++
+			m[best.ptr] = -1
+			col[best.x] ^= msk
+			row[best.y] ^= msk
+			blk[BLOCK[best.ptr]] ^= msk
 
 			best.msk ^= msk
 		
@@ -234,8 +240,8 @@ for p,i in puzzles
 		if sol && res != sol
 			throw "Invalid solution for puzzle " + i
 		
-		console.log p
-		console.log res
+		#console.log p
+		#console.log res
 		output += p + ',' + res + '\n'
 
 # results

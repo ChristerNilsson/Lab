@@ -38,8 +38,10 @@ puzzle.forEach((p, i) => {
     if (sol && res != sol) {
       throw "Invalid solution for puzzle " + i;
 		}
-		console.log(p)
-		console.log(res)
+
+		//console.log(p)
+		//console.log(res)
+		
     output += p + ',' + res + '\n';
   }
 });
