@@ -20,6 +20,7 @@ stack = [] # contains 0..80
 
 examples = []
 example = 0
+sudoku = null
 
 calcDigits = (s) ->
 	res = 0
@@ -117,6 +118,7 @@ click = (index,digit) ->
 	digits[index] = digit # 0..8
 	calcTabu()
 	calcSingle()
+	sudoku = new Sudoku()
 
 # dump = ->
 # 	calcTabu()
@@ -148,7 +150,6 @@ solver = ->
 	for digit in digits
 		problem += digit+1
 	if calcDigits(problem) < 17 then return 'You need at least 17 digits!'
-	sudoku = new Sudoku()
 	start = performance.now()
 	solution = sudoku.solve problem #'020050700400100006800003000200008003040020500000600010002090000090000005704000900'
 	if !solution then return "No solution!"
@@ -349,6 +350,17 @@ saveExamples = ->
 		'..54....7'
 	]
 
+	examples.push [ 
+		' 7 25 4  '
+		'8     9 3'
+		'     3 7 '
+		'7    4 2 '
+		'1       7'
+		' 4 5    8'
+		' 9 6     '
+		'4 1     5'
+		'  7 82 3 '
+	]
 setExample = (delta) -> 
 	example = (example + delta) %% examples.length
 	clearAll()
