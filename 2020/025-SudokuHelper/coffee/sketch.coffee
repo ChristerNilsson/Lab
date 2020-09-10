@@ -21,6 +21,12 @@ stack = [] # contains 0..80
 examples = []
 example = 0
 
+calcDigits = (s) ->
+	res = 0
+	for ch in s 
+		if ch != '0' then res++
+	return res 
+
 calcCell = ->
 	for i in range N
 		for j in range N
@@ -135,6 +141,24 @@ clearAll = ->
 	single = (UNKNOWN for i in range 81) # 0..8 or UNKNOWN length=81
 	stack = [] # contains 0..80
 
+myRound = (x) -> round(1000*x)/1000
+
+solver = ->
+	problem = ''
+	for digit in digits
+		problem += digit+1
+	if calcDigits(problem) < 17 then return 'You need at least 17 digits!'
+	sudoku = new Sudoku()
+	start = performance.now()
+	solution = sudoku.solve problem #'020050700400100006800003000200008003040020500000600010002090000090000005704000900'
+	if !solution then return "No solution!"
+	duration = myRound(performance.now() - start) + ' ms'
+	console.log duration
+	res = ''
+	for ch in solution
+		if res.length % (4*9) ==  4 * (9-1) then res += ch + '  \n' else res += ch + '   '
+	return res.slice(0,res.length-1) + '   '  + duration
+
 setup = ->
 	createCanvas SIZE*28+2+2,SIZE*28+2+2
 	textAlign CENTER,CENTER
@@ -220,6 +244,7 @@ mousePressed = ->
 	if index == 84 then setExample -1 # D
 	if index == 85 then	setExample 1 # E
 	if index == 88 then HELP = 1 - HELP # H
+	if index == 89 then alert solver()
 	if index == 90 then undo()
 
 	if 80 < index < 90
@@ -230,7 +255,7 @@ loadExample = (rows) ->
 	index = 0
 	for row in rows
 		for char in row
-			if char != ' ' then click index,parseInt(char)-1
+			if char not in ' .' then click index,parseInt(char)-1
 			index++
 
 saveExamples = ->
@@ -288,6 +313,40 @@ saveExamples = ->
 		'4  9 1  8'
 		'  1 7   2'
 		'         '
+	]
+	examples.push [ # hardest ever
+		'     6   '
+		' 59     8'
+		'2    8   '
+		' 45      '
+		'  3      '
+		'  6  3 54'
+		'   325  6'
+		'         '
+		'         '
+		]
+	examples.push [ # Cracking the Cryptic
+		' 8  2 56 '
+		'   1    7'
+		'   5     '
+		' 5  9 4 8'
+		'  785   3'
+		' 9  1  5 '
+		'2 4  18  '
+		' 6  85   '
+		'   2  1  '
+		]
+
+	examples.push [ 
+		'....9..5.',
+		'.1.....3.',
+		'..23..7..',
+		'..45...7.',
+		'8.....2..',
+		'.....64..',
+		'.9..1....',
+		'.8..6....',
+		'..54....7'
 	]
 
 setExample = (delta) -> 
