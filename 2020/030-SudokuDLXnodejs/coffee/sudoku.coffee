@@ -1,6 +1,7 @@
 # https://codegolf.stackexchange.com/questions/190727/the-fastest-sudoku-solver
-# This code works, but I had to introduce a class to handle variable scopes
+# This code works, but I had to introduce a class to handle variable scopes in coffeescript
 # This adds about 25% to the exec time.
+# node js/sudoku tests/data/collections/all_17
 
 TRACE = false
 
@@ -108,6 +109,8 @@ class Sudoku
 	search : (level=0) -> # main recursive search function
 		if !count then return true
 
+		#console.log('search',level)
+
 		# Local variables
 		max = 0
 		best = null
@@ -169,6 +172,8 @@ class Sudoku
 			@undo level,stack
 			return false
 
+		#console.log 'best', best.msk.toString(16), N_BIT[best.msk]
+
 		# otherwise, try all moves on the cell with the fewest number of moves
 		while (msk = ZERO[best.msk]) < 0x200
 			#console.log('v',v,BIT[v])
@@ -195,26 +200,7 @@ class Sudoku
 		
 		return false
 
-# # debugging
-# dump = (m) ->
-# 	x = null
-# 	y = null
-# 	c = 81
-# 	s = ''
-
-# 	# for y in range 9 #(y = 0; y < 9; y++) {
-# 	# 	for x in range 9 #(x = 0; x < 9; x++) {
-# 	# 		s += (if ~m[y * 9 + x] 
-# 	# 			c--
-# 	# 			m[y * 9 + x] + 1 
-# 	# 		else '-') + (if x % 3 < 2 || x == 8 then ' ' else ' | ');
-# 	# 	s += if y % 3 < 2 || y == 8 then '\n' else '\n------+-------+------\n';
-# 	console.log c
-# 	console.log s
-
 fs = require 'fs'
-
-console.time 'Processing time'
 
 sudoku = new Sudoku()
 
@@ -225,27 +211,16 @@ output = len + '\n'
 
 console.log "File '" + filename + "': " + len + " puzzles"
 
+console.time 'Processing time'
+
 # solve all puzzles
-for p,i in puzzles
-	# if i>0 then break
-
-	#if i != 7 then continue
-
-	[p, sol] = p.split ','
-
-	if p.length == 81
-		if !(++i % 2000)
-			console.log (i * 100 / len).toFixed(1) + '%'
-		
-		if !(res = sudoku.solve p)
-			throw "Failed on puzzle " + i
-		
-		if sol && res != sol
-			throw "Invalid solution for puzzle " + i
-		
-		console.log p
-		console.log res
-		output += p + ',' + res + '\n'
+for puzzle,i in puzzles
+	if puzzle.length != 81 then continue
+	if !(++i % 2000) then console.log (i * 100 / len).toFixed(1) + '%'
+	#console.time 'start'
+	if !(res = sudoku.solve puzzle) then throw "Failed on puzzle " + i
+	#console.timeEnd 'start'
+	output += puzzle + ',' + res + '\n'
 
 # results
 console.timeEnd 'Processing time'
