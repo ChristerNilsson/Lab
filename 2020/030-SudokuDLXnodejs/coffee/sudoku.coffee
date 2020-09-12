@@ -3,7 +3,7 @@
 # This adds about 25% to the exec time.
 # node js/sudoku tests/data/collections/all_17
 
-TRACE = true
+TRACE = false
 
 BLOCK     = [] # 81 digits
 BLOCK_NDX = [] # 81 digits
@@ -22,6 +22,11 @@ perf = {}
 output = []
 
 range = (n) -> [0...n]
+
+trace = (prompt,level,s) ->
+	console.log prompt + ' '.repeat(level) + s
+	output.push prompt + ' '.repeat(level) + s
+	perf[prompt]++
 
 showGrid = (prompt,m) ->
 	counter = 0
@@ -67,9 +72,7 @@ class Sudoku
 		m[p] = n
 		stack.push x << 8 | y << 4 | n
 
-		#if TRACE then console.log 'play ' + ' '.repeat(level), 81-count, x, y, n
-		output.push 'play ' + ' '.repeat(level) + "#{81-count} #{x} #{y} #{n}"
-		perf.play++
+		if TRACE then trace 'play ',level, "#{81-count} #{x} #{y} #{n}"
 
 		#showGrid 'm    ', m
 		return true
@@ -82,9 +85,7 @@ class Sudoku
 			index = y * 9 + x
 			b = BLOCK[index]
 
-			#if TRACE then console.log 'undo '+' '.repeat(level), 81-count, x, y, v & 15
-			output.push 'undo '+' '.repeat(level) + "#{81-count} #{x} #{y} #{v & 15}"
-			perf.undo++
+			if TRACE then trace 'undo ', level, "#{81-count} #{x} #{y} #{v & 15}"
 
 			msk = 1 << (v & 15)
 
@@ -96,7 +97,7 @@ class Sudoku
 			# showGrid 'u    ',m
 
 	solve : (p) ->
-		perf = {play:0, undo:0, guess:0, ungue:0}
+		perf = {'play ':0, 'undo ':0, 'guess':0, 'ungue':0}
 		count = 81
 		row = Array(9).fill 0
 		col = Array(9).fill 0
@@ -121,8 +122,6 @@ class Sudoku
 	search : (level=0) -> # main recursive search function
 		if !count then return true
 
-		output.push "search #{level}"
-
 		# Local variables
 		max = 0
 		best = null
@@ -130,6 +129,7 @@ class Sudoku
 		dCol = Array(81).fill 0
 		dRow = Array(81).fill 0
 		dBlk = Array(81).fill 0
+		dCel = Array(81).fill 0 # saves 10% of exec time
 
 		# scan the grid:
 		# - keeping track of where each digit can go on a given column, row or block
@@ -152,10 +152,11 @@ class Sudoku
 						dBlk[BLOCK[ptr] * 9 + BIT[b]] |= 1 << BLOCK_NDX[ptr]
 						v0 ^= b
 						if !v0 then break 
+					dCel[ptr] = v
 					#console.log 'v0', v0
 					
 					# update the cell with the fewest number of moves
-					if n > max
+					if n > max and n != 1
 						best = {x: x, y: y, ptr: ptr, msk: v}
 						max = n
 				#ptr++
@@ -178,6 +179,10 @@ class Sudoku
 					i = BIT[dBlk[ptr]]
 					if !@play(level,stack, (k % 3) * 3 + i % 3, (k / 3 | 0) * 3 + (i / 3 | 0), n) then return false
 
+				if N_BIT[dCel[ptr]] == 8
+					i = BIT[ZERO[dCel[ptr]]]
+					if !@play(level,stack, n, k, i) then return false
+
 		# if we've played at least one forced move, do a recursive call right away
 		if stack.length
 			if @search level+1 then return true
@@ -188,7 +193,6 @@ class Sudoku
 
 		# otherwise, try all moves on the cell with the fewest number of moves
 		while (msk = ZERO[best.msk]) < 0x200
-			#console.log('v',v,BIT[v])
 			col[best.x] ^= msk
 			row[best.y] ^= msk
 			blk[BLOCK[best.ptr]] ^= msk
@@ -198,14 +202,9 @@ class Sudoku
 			#showGrid('mm   ',m)
 			#console.log('stack',stack.map((item) => item.toString(16)))
 
-			#if TRACE then console.log('guess'+' '.repeat(level),81-count,best.x, best.y, BIT[msk])
-			output.push 'guess'+' '.repeat(level) + "#{81-count} #{best.x} #{best.y} #{BIT[msk]}"
-			perf.guess++
-
+			if TRACE then trace 'guess', level, "#{81-count} #{best.x} #{best.y} #{BIT[msk]}"
 			if @search level+1 then return true
-			#if TRACE then console.log('ungue'+' '.repeat(level),81-count,best.x, best.y, BIT[msk])
-			output.push 'ungue'+' '.repeat(level) + "#{81-count} #{best.x} #{best.y} #{BIT[msk]}" 
-			perf.ungue++
+			if TRACE then trace 'ungue', level, "#{81-count} #{best.x} #{best.y} #{BIT[msk]}" 
 			
 			count++
 			m[best.ptr] = -1
@@ -227,22 +226,23 @@ len = puzzles.shift()
 output = [] #len + '\n'
 
 console.log "File '" + filename + "': " + len + " puzzles"
-
 console.time 'Processing time'
 
 # solve all puzzles
 for puzzle,i in puzzles
-	if i != 4 then continue
+	#if i != 4 then continue
 	if puzzle.length != 81 then continue
 	start = process.hrtime()
 	if !(res = sudoku.solve puzzle) then throw "Failed on puzzle " + i
 	duration = process.hrtime(start)[1]/1000000
-	if true or duration < 0.08 then console.log puzzle, i, duration.toFixed 3
-	console.log perf
+	#if true or duration < 0.08 then console.log puzzle, i, duration.toFixed 3
+	#console.log puzzle
+	#console.log res
+	if TRACE then console.log perf
 	if !(++i % 2000) then console.log (i * 100 / len).toFixed(1) + '%'
-	output.push puzzle + ',' + res
+	#output.push puzzle + ',' + res
 
 # results
 console.timeEnd 'Processing time'
 fs.writeFileSync 'sudoku.log', output.join '\n'
-#console.log "MD5 = " + require('crypto').createHash('md5').update(output).digest "hex"
+console.log "MD5 = " + require('crypto').createHash('md5').update(output.join '\n').digest "hex"
