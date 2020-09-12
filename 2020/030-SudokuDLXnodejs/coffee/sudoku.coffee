@@ -1,9 +1,10 @@
-# https://codegolf.stackexchange.com/questions/190727/the-fastest-sudoku-solver
 # This code works, but I had to introduce a class to handle variable scopes in coffeescript
 # This adds about 25% to the exec time.
 # node js/sudoku tests/data/collections/all_17
 
 TRACE = false
+
+DCEL = true
 
 BLOCK     = [] # 81 digits
 BLOCK_NDX = [] # 81 digits
@@ -129,7 +130,7 @@ class Sudoku
 		dCol = Array(81).fill 0
 		dRow = Array(81).fill 0
 		dBlk = Array(81).fill 0
-		dCel = Array(81).fill 0 # saves 10% of exec time
+		if DCEL then dCel = Array(81).fill 0 # saves 10% of exec time
 
 		# scan the grid:
 		# - keeping track of where each digit can go on a given column, row or block
@@ -152,13 +153,18 @@ class Sudoku
 						dBlk[BLOCK[ptr] * 9 + BIT[b]] |= 1 << BLOCK_NDX[ptr]
 						v0 ^= b
 						if !v0 then break 
-					dCel[ptr] = v
+					if DCEL then dCel[ptr] = v
 					#console.log 'v0', v0
 					
 					# update the cell with the fewest number of moves
-					if n > max and n != 1
-						best = {x: x, y: y, ptr: ptr, msk: v}
-						max = n
+					if DCEL
+						if n > max and n != 1
+							best = {x: x, y: y, ptr: ptr, msk: v}
+							max = n
+					else
+						if n > max
+							best = {x: x, y: y, ptr: ptr, msk: v}
+							max = n
 				#ptr++
 		#console.log('best',best,max)
 
@@ -179,9 +185,10 @@ class Sudoku
 					i = BIT[dBlk[ptr]]
 					if !@play(level,stack, (k % 3) * 3 + i % 3, (k / 3 | 0) * 3 + (i / 3 | 0), n) then return false
 
-				if N_BIT[dCel[ptr]] == 8
-					i = BIT[ZERO[dCel[ptr]]]
-					if !@play(level,stack, n, k, i) then return false
+				if DCEL 
+					if N_BIT[dCel[ptr]] == 8
+						i = BIT[ZERO[dCel[ptr]]]
+						if !@play(level,stack, n, k, i) then return false
 
 		# if we've played at least one forced move, do a recursive call right away
 		if stack.length
@@ -223,6 +230,7 @@ sudoku = new Sudoku()
 filename = process.argv[2]
 puzzles = fs.readFileSync(filename).toString().split '\n'
 len = puzzles.shift()
+console.log len
 output = [] #len + '\n'
 
 console.log "File '" + filename + "': " + len + " puzzles"
@@ -235,8 +243,7 @@ for puzzle,i in puzzles
 	start = process.hrtime()
 	if !(res = sudoku.solve puzzle) then throw "Failed on puzzle " + i
 	duration = process.hrtime(start)[1]/1000000
-	#if true or duration < 0.08 then console.log puzzle, i, duration.toFixed 3
-	#console.log puzzle
+	#console.log puzzle, i, duration.toFixed 3
 	#console.log res
 	if TRACE then console.log perf
 	if !(++i % 2000) then console.log (i * 100 / len).toFixed(1) + '%'
