@@ -374,6 +374,18 @@ saveExamples = ->
 		'7 4   9  '
 	]
 
+	examples.push [
+		'       12'
+		'  8 3    '
+		'       4 '
+		'12 5     '
+		'     47  '
+		' 6       '
+		'5 7   3  '
+		'   62    '
+		'   1     '
+		]
+		
 setExample = (delta) -> 
 	example = (example + delta) %% examples.length
 	clearAll()
