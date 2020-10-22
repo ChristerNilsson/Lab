@@ -4,28 +4,19 @@
 
 [Youtube](https://youtu.be/sBCz6atTRZk)
 
-Spelet går ut på att klicka på första bokstaven i ordet.
+Click on the first letter of the word
 
-Orden varierar mellan fyra och 15 bokstäver
-och kan läsas medurs eller moturs
+The words are varying in length from four to fifteen letters
 
-* Svarar man rätt ökar level med 1
-* Svarar man fel sjunker level med 10%, avrundat uppåt
+The words can be read clockwise or anti-clockwise
 
-Klick på övre hörn byter språk. Tar någon sekund.
-* Sker efter nästa klick
+* Correct answer increases the level
+* Incorrect answer decreases the level 
 
-Klicka på nedre hörn väljer längsta möjliga ord
-* Sker efter nästa klick
+Click upper corners to change language.
+* Changes after next click
 
-Klick på level förklarar ett ord. (Svenska enbart)
+Click lower corners to change the maximum length of the words
+* Changes after next click
 
-Level sparas lokalt:
-* per användare
-* per språk
-* per dator
-
-Rensas om man rensar internethistorik i Chrome med
-* _History_
-* _Clear browsing data_ 
-* _Cookies and other site data_
+Click on level explains a word (Swedish only)
