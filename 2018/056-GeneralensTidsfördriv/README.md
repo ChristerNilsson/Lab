@@ -2,115 +2,92 @@
 
 [Prova!](https://christernilsson.github.io/Lab/2018/056-GeneralensTidsf%C3%B6rdriv/index.html)
 
-* Livet är kort!
-* Det lär vara ett antal generaler som lägger denna patiens i fredstid för att hålla sina hjärnor i trim.
-* Denna patiens går ut på att bygga uppåt på Essen. Dvs Tvåor läggs på Essen osv upp till Kung.
-* På de övre åtta sekvenserna får man bygga både uppåt och neråt.
-* Blir en sekvens tom får man placera valfritt kort där.
-* De nedre åtta fria korten får man inte bygga på. Man får enbart plocka dessa.
-* Färg bibehålles alltid. Det finns fyra färger.
+* I've heard that a number of generals are playing this solitaire in peace time, to keep their brains alert.
+* The goal of this patience is to build upwards om the aces. Put twos on the aces all the way upto kings.
+* On the upper eight sequences it's ok to build upwards and downwards.
+* You can place any card on an empty slot.
+* The lower eight cards are not allowed to build on.
+* Always follow suit. Heart on heart and so on.
 
-# Menyn
-Menyn nås genom att klicka på den gröna bakgrunden eller något av essen.
+# The Menu
+Click on the green background to show the menu.
 
-* __Help__ Denna sida visas
-* __Undo__ Ångrar senaste drag. Draget indikeras med __From__ och __To__
-* __Hint__ Ger en ledtråd. Se röd/grön indikator
-  * Prova även att göra en Restart innan du klickar på Hint. Då slipper du utföra eventuella Undo
-* __Cycle Move__ Ibland placeras korten på en annan plats än du tänkt dig. Med detta kommando kan du välja mellan alternativa platser. Klicka på mittcirkeln då du är nöjd
+* __Help__ This page is shown
+* __Undo__ Undoes the latest move. It is indicated with __From__ and __To__
+* __Hint__ Shows a hint. See red/green indicator
+  * You may also try a Restart before clicking Hint.
+* __Cycle Move__ Sometimes the cards are placed in wrong place. With this command you may choose an alternative place.
 * __More...__
-  * __Restart__ Återställ korten för denna Nivå.
-  * __Total Restart__ Innebär att starta om från Nivå 0. Alla Nivåer måste ånyo lösas
-  * __Link__ Sparar en länk till aktuell patiens på klippbordet. Skicka till en vän!
-* __Next__ Gå till nästa nivå
-* Mittcirkeln används för att stänga en meny
+  * __Restart__ Resets the current patience.
+  * __Total Restart__ Start from the beginning level 0.
+  * __Link__ Saves a link for this patience on the clipboard. Send to a friend!
+* __Next__ Go to next level.
+* Click on the middle circle to close a menu.
 
-# Nivåer 
-_Classic_ innebär att sekvenserna är lika långa.
-Högre nivåer nås genom att använda så få drag som möjligt och utan att använda någon ledtråd.
+# Levels 
+_Classic_ All the sequences have the same length.
+Higher levels may be reached by using as few moves as possible and without using any hints.
 
-* 0 = Classic Ess till 3. _Lätt_ (Cards=8)
-* 1 = Ess till 4
-* 2 = Ess till 5
-* 3 = Classic Ess till 5
-* 4 = Ess till 6
-* 5 = Ess till 7
-* 6 = Classic Ess till 7
-* 7 = Ess till 8
-* 8 = Ess till 9
-* 9 = Classic Ess till 9
-* 10 = Ess till Tio
-* 11 = Ess till Knekt
-* 12 = Classic Ess till Knekt
-* 13 = Ess till Dam
-* 14 = Ess till Kung
-* 15 = Classic Ess till Kung. _Svår_ (Cards=48)
+* 0 = Classic Ace to 3. _Easy_ (Cards=8)
+* 1 = Ace to 4
+* 2 = Ace to 5
+* 3 = Classic Ace to 5
+* 4 = Ace to 6
+* 5 = Ace to 7
+* 6 = Classic Ace to 7
+* 7 = Ace to 8
+* 8 = Ace to 9
+* 9 = Classic Ace to 9
+* 10 = Ace to Ten
+* 11 = Ace to Jack
+* 12 = Classic Ace to Queen
+* 13 = Ace to Queen
+* 14 = Ace to King
+* 15 = Classic Ace to King. _Hard_ (Cards=48)
 
-# Ledtrådar
+# Hints
 
-* Klickar man på __Hint__ får man en ledtråd för att komma vidare mot lösningen
-* Inledningsvis kan __Hint__ ge en eller flera __Undo__ som indikeras med rött
-* Man måste själv utföra de föreslagna dragen
-* Använder man __Hint__ kan man inte avancera till nästa nivå
+* If you click on __Hint__ You will see a move to continue against the solution.
+* Initially an __Hint__ may show one or more __Undo__ indicated with red color
+* You must click on these hints
+* Using __Hint__ makes it impossible to reach next level
 
-# Indikatorer
+# Indicators
 
-* __From__ visar var draget börjar
-* __To__ visar var draget slutar
-* Rött är en hint bakåt. Klicka på __Undo__
-* Grönt är en hint framåt. Klicka på kortet för att utföra draget
-  * Om kortet hamnar på fel plats kan du korrigera detta med hjälp av __Cycle Move__
-* Gult visar vilken __Undo__ som precis utförts. Du behöver ej klicka på något
+* __From__ Shows where the move starts
+* __To__ Shows where the move ends
+* Red is a backward Hint. Click __Undo__
+* Green is a forward hint. Click on the card
+  * If the card goes to the wrong place, use __Cycle Move__
+* Yellow shows which __Undo__ was done. No need to click
 
-# Lösbarhet
+# Solvability
 
-De skapade patienserna är alltid lösbara. Det är med andra ord alltid för tidigt att ge upp.
+The created patiences are always solvable. In other words, it is always to early to give up.
 
-# Tävling
-Tävling kan ske mellan två eller flera personer. Man kan t ex bestämma sig för att hålla på en viss tid eller först uppnå en viss nivå.
+## Bonus
+If you are smarte than the computer, these moves are save to a higher level.
 
-## Tid
-Börja med att bestämma en viss tid, t ex fem minuter eller en halv timma. Den som har hunnit längst har vunnit.
-Ligger man lika fortsätter man tills någon når nästa nivå.
+# Literature
 
-## Nivå
-Bestäm antal nivåer som ska lösas, t ex 4, 8 eller 16. 
+_Att lägga patiens_. Swedish book published 1957.
+Level 15 with minor changes.
 
-## Allmänt
-Om man är smartare än datorn får man tillgodoräkna sig de dragen och använda dem på högre nivåer.
+# The picture
 
-# Tips
-
-* Maximera fönstret med __F11__
-* Refresha med __ctrl-R__
-
-# Litteratur
-
-_Att lägga patiens_. Bokförlaget Forum 1957.
-Motsvarar Nivå 15.
-
-## Avvikelser från originalpatiensen
-
-* Man måste bygga uppåt på essen.
-* Man kan ej använda något fängelse.
-
-# Bilden
-
-* Vi befinner oss 7 drag in i lösandet av en patiens på nivå 11
-* Datorn har redan löst problemet. Det går att lösa på 53 drag
-  * Dock händer det ganska ofta att kortare lösningar finns
-* Det senaste draget flyttade spader 9 från klöver 2 till spader 8
-  * Detta går att ångra med __Undo__
-  * Vill man istället placera spadera 9 på spader 10 kan det göras med __Cycle Move__
-* Nivå 11 innebär att 44 kort ska placeras.
-  * Av dessa har just nu fyra placerats på hjärter ess.
-* Normalt innebär ett drag att två kort kopplas ihop
-* Talet 9 (53-44) anger hur många drag som inte kopplar ihop två kort
-  * T ex genom att flytta ett kort eller en hög till ett hål
-* Av bilden framgår att spelaren har 5 (47-42) sparade drag sedan tidigare
-  * Det innebär att denna uppgift måste lösas med högst 58 (53+5) drag för uppflyttning till nästa nivå
-* Totaltiden som använts är 131 sekunder
-* Klockan stoppas då alla korten placerats på essen
-* Klockan startas igen då man klickar på __Next__
+* We are seven moves into solving a level 11 patience.
+* The computer has already solved it. It is possible to solve in 53 moves
+  * Sometimes you will find a shorter solution
+* The latest move moved Nine of Spades from Two of Clubs to Eight of Spades
+  * This can be undone with __Undo__
+  * If you prefer moving the Nine to Ten of Spades, use __Cycle Move__
+* Level 11 has 44 cards
+  * Four of these have been placed on Ace of Hearts
+* Normally one move connects two cards in a sequence
+* The number 9 (53-44) tells how many moves that does not connect two cards
+  * This can be done by moving a card or a sequence to an empty slot
+* The player has 5 (47-42) saved bonus moves
+  * The player can use maximum 58 (53+5) moves to reach the next level
+* Total used time is 131 seconds
 
 ![](bild0.jpg "GT")
