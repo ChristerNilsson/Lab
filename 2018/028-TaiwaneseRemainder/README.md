@@ -2,7 +2,7 @@
 
 [Try it!](https://christernilsson.github.io/Lab/2018/028-TaiwaneseRemainder/index.html)
 
-Use exactly the number och steps shown.
+Use exactly the number of steps shown.
 
 Make all hands point north (twelve o'clock)
 
@@ -14,7 +14,7 @@ Reset undoes all clicks
 
 Clicking ok produces a new challenge.
 
-Klicking "link" shows an url that can be copied.
+Clicking "link" shows an url that can be copied.
 
 A solution will be available after steps minutes.
 It shows the number of clicks per clock.
@@ -34,18 +34,26 @@ Use these functions
 * Go to [Wolfram Language](https://wolfr.am/wpl-eiwl)
 * File | New Notebook
 
+### Challenge
+
+Solve in two steps
+
+![237](237.png)
+
+[Try it](https://christernilsson.github.io/Lab/2018/028-TaiwaneseRemainder/index.html?level=5&ticks=2,3,7&rests=0,1,3)
+
 ### Phase 1
 
-* Paste ChineseRemainder[{5,7},{7,11}]
+* Paste ```ChineseRemainder[{0,1,3},{2,3,7}]```
 * shift-Enter
-* Now you will see the number 40
+* Now you will see the result ```10```
 
 ### Phase 2
 
-* Paste KnapsackSolve[{{7,1},{11,1}},{40,4}]
+* Paste ```KnapsackSolve[{{2,1},{3,1},{7,1}},{10,2}]```
 * shift-Enter
-* Now you will see the answer {1, 3} 
-* 1 * 7 + 3 * 11 = 40
+* Now you will see the answer ```{0, 1, 1}```
+* 0 * 2 + 1 * 3 + 1 * 7 = ```10```
 
 ## Programming Exercise
 
