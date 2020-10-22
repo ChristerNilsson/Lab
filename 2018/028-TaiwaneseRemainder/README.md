@@ -2,78 +2,56 @@
 
 [Try it!](https://christernilsson.github.io/Lab/2018/028-TaiwaneseRemainder/index.html)
 
-Använd exakt det antal steg som föreslås.
+Use exactly the number och steps shown.
 
-Se till att alla visarna står rakt upp.
+Make all hands point north (twelve o'clock)
 
-Klick på klocka tickar alla klockor de tick denna klocka har. 
+Clock on a clock ticks all clocks the number of ticks this clock has.
 
-Klick på andra kolumnen tar bort ett klick på denna klocka.
+Click on the number to the right undoes the click
 
-Klick på reset återställer.
+Reset undoes all clicks
 
-Klick på ok skapar ett nytt problem.
+Clicking ok produces a new challenge.
 
-Klick på link visar en url som kan kopieras för detta problem. 
+Klicking "link" shows an url that can be copied.
 
-Solution blir tillgänglig efter steps minuter.
-Den anger hur många	klick som ska göras per klocka.
+A solution will be available after steps minutes.
+It shows the number of clicks per clock.
 
-Combinations anger antal möjliga kombinationer.
-* Exempel:
-* Klockor: 2 och 3
-* Steg: 2
-* Kombinationer: 2+2=4, 2+3=5 och 3+3=6, dvs tre kombinationer
+Combinations shows the number of combinations.
+* Example:
+* Clocks: 2 and 3
+* Steps: 2
+* Combinations: 2+2=4, 2+3=5 and 3+3=6, that is three combinations.
 
-## Manuell lösning
+## Solution using Wolfram Language
 
-### Fas 1
-
-* Första kolumnen innehåller klockorna. (t ex 7,11)
-* Andra kolumnen innehåller initial vridning, räknat moturs från visaren till klockan tolv. (5,7)
-* Addera tills alla klockorna visar samma värde. (40,40)
-  * 7  | 5 12  19 26 33 40
-  * 11 |  7  18     29  40
-
-### Fas 2
-
-* Betrakta 7 och 11 som myntvalörer.
-* Använd det antal mynt som ges av stegantalet. Låt oss välja 4 i detta exempel.
-* Bilda summan 40.
-* Initialt kan man använda t ex 40 delat med 11, vilket blir 3.64, avrundat 4.
-  * 7 11 | 40
-  * 0  4 | Fyra elvor = 44. Flytta ett mynt från 11 till 7.
-  * 1  3 | En sjua + tre elvor = 40
-* Lösningen består alltså i att klicka på 7 en gång och 11 tre gånger.
-* Ordningen spelar ingen roll.
-
-## Lösning med hjälp av Wolfram Language
-
-Vi använder oss av dessa båda funktioner:
+Use these functions
 * [ChineseRemainder](https://reference.wolframcloud.com/cloudplatform/ref/ChineseRemainder.html)
 * [KnapsackSolve](https://reference.wolframcloud.com/cloudplatform/ref/KnapsackSolve.html)
 
-* Gå in på [Wolfram Language](https://wolfr.am/wpl-eiwl)
+* Go to [Wolfram Language](https://wolfr.am/wpl-eiwl)
 * File | New Notebook
 
-### Fas 1
+### Phase 1
 
-* Klistra in ChineseRemainder[{5,7},{7,11}]
+* Paste ChineseRemainder[{5,7},{7,11}]
 * shift-Enter
-* Nu ska du se svaret 40
+* Now you will see the number 40
 
-### Fas 2
+### Phase 2
 
-* Klistra in KnapsackSolve[{{7,1},{11,1}},{40,4}]
+* Paste KnapsackSolve[{{7,1},{11,1}},{40,4}]
 * shift-Enter
-* Nu ska du se svaret {1, 3} 
-* En sjua + tre elvor = 40
+* Now you will see the answer {1, 3} 
+* 1 * 7 + 3 * 11 = 40
 
-## Programmerad lösning
+## Programming Exercise
 
-### Fas 1
+### Phase 1
 
-När du behärskar den manuella lösningen: skriv funktionen solve som beräknar minsta möjliga total!
+Write the function solve. It calculates the minimal total!
 
 * assert 40, solve [7,11],[5,7]
 * assert 23, solve [3,5,7],[2,3,2]
@@ -91,11 +69,11 @@ När du behärskar den manuella lösningen: skriv funktionen solve som beräknar
 * assert 189, solve [5,7,13,19],[4,0,7,18] # 11
 * assert 178, solve [2,7,13,17],[0,3,9,8] # 12
 
-### Fas 2
+### Phase 2
 
-Skriv därefter en funktion som packar en kappsäck exakt.
+Write the function knapsack, packing a knapsack perfect.
 
-* assert [1,3], knapsack [7,11],40 # 4 steg 
+* assert [1,3], knapsack [7,11],40 # 4 steps
 * assert [3,0,2], knapsack [3,5,7],23 # 
 * assert [0,1], knapsack [3,11],11 # 1 step
 * assert [2,0], knapsack [2,13],4 # 2	
