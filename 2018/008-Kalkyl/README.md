@@ -11,6 +11,10 @@
 	* E-3 milli, E-6 mikro, E-9 nano, E-12 pico ...
 	* E3  kilo,  E6  mega,  E9  giga, E12  tera ...
 
+## Compare with pluto.jl
+
+[Pluto.jl](https://www.youtube.com/watch?v=IAF8DjrQSSk&ab_channel=TheJuliaProgrammingLanguage)
+
 ## Clear
 Clears the calculator
 
