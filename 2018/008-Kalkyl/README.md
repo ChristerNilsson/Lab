@@ -56,7 +56,7 @@ For example, write
 ```javascript
 distance = 12
 time = 5
-speed = distnace / time
+speed = distance / time
 ```
 
 Change distance to 20
@@ -126,11 +126,3 @@ fib = (x) -> if x<=0 then 1 else fib(x-1) + fib(x-2)
 13 == fib 5
 21 == fib 6
 ```
-
-## Todo
-
-För att kunna köra Javascript-kod måste man manuellt kommentera ut 'use strict' i sketch.js efter varje kompilering
-
-Notera den stora marginalen längst ner.
-Beror på problem med Android.
-https://stackoverflow.com/questions/10610743/android-browsers-screen-width-screen-height-window-innerwidth-window-inner
