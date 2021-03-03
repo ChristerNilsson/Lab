@@ -28,7 +28,7 @@
     "lodash.shuffle": "^4.2.0",
     "minimist": "^1.2.5",
     "nice-try": "^2.0.1",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "sirv-cli": "^0.4.5",
     "svelte-routing": "^1.4.2"
   },
