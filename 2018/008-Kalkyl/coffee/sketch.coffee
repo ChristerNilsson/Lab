@@ -76,6 +76,7 @@ encode = ->
 	s = encodeURI memory
 	s = s.replace /=/g,'%3D'
 	s = s.replace /\?/g,'%3F'
+	s = s.replace /#/g,'%23'
 	window.open '?content=' + s + '&config=' + encodeURI JSON.stringify config
 
 decode = ->
@@ -86,6 +87,7 @@ decode = ->
 			memory = decodeURI parameters.content
 			memory = memory.replace /%3D/g,'='
 			memory = memory.replace /%3F/g,'?'
+			memory = memory.replace /%23/g,'#' 
 		if parameters.config
 			config = JSON.parse decodeURI parameters.config
 
