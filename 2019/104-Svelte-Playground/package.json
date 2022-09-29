@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@datorama/akita": "^4.23.0",
-    "d3-scale": "^3.2.1",
+    "d3-scale": "^4.0.2",
     "debug": "^4.1.1",
     "emotion": "^10.0.27",
     "fs-extra": "^8.1.0",
