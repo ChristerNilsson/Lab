@@ -129,4 +129,7 @@ fib = (x) -> if x<=0 then 1 else fib(x-1) + fib(x-2)
 8 == fib 4
 13 == fib 5
 21 == fib 6
+
+# solve f,a,b
+Tries to find a root between a and b
 ```

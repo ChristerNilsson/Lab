@@ -17,6 +17,13 @@ assert = (a,b,msg='') =>
 	chai.assert.deepEqual a,b,msg
 	'ok'
 
+solve = (f,a,b) =>
+	for i in range 50
+		x = (a+b) / 2
+		if f(x) == 0 then return x
+		if f(a)*f(x) < 0 then b = x else a = x
+	[a,b]
+
 findLineNo = (e) =>
 	lines = e.stack.split '\n'
 	for line in lines
@@ -207,6 +214,8 @@ fib = (x) -> if x<=0 then 1 else fib(x-1) + fib(x-2)
 8 == fib 4
 13 == fib 5
 21 == fib 6
+
+f = (x) => 9**x - 6**x - 4**x
 
 """
 		else # Javascript
