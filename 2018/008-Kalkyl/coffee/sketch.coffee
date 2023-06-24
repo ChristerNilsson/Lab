@@ -282,6 +282,8 @@ fib = (x) => x<=0 ? 1 : fib(x-1) + fib(x-2)
 13 == fib(5)
 21 == fib(6)
 
+f = (x) => 9**x - 6**x - 4**x
+
 """
 		# storeAndGoto memory,page
 		encode()
