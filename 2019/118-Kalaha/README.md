@@ -1,5 +1,8 @@
 Thanks to https://github.com/HoKuanYu/kalaha
 
+[Try it!](https://christernilsson.github.io/2019/118-Kalaha)
+
+
 Click on the lower six pits.
 
 ### Rules
