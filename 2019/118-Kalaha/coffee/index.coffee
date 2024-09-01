@@ -2,7 +2,7 @@ playerTitle = ['Human','Computer']
 playerComputer = [false,true]
 player = 0 # 0 or 1
 beans = 4
-depth = 1
+depth = 10
 buttons  = []
 
 messages = {}
