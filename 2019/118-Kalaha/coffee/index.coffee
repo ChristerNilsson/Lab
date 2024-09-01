@@ -2,8 +2,9 @@ playerTitle = ['Human','Computer']
 playerComputer = [false,true]
 player = 0 # 0 or 1
 beans = 4
-depth = 10
+depth = 1
 buttons  = []
+myscale = 1
 
 messages = {}
 messages.depth = depth
@@ -14,7 +15,7 @@ messages.humanLetters = ''
 messages.moves = 0
 
 class Button
-	constructor : (@x,@y,@value,@littera='',@click=->) -> @radie=40
+	constructor : (@x,@y,@value,@littera='',@click=->) -> @radie=myscale*40
 	draw : ->
 		fc 1,0,0
 		circle @x,@y,@radie
@@ -30,16 +31,18 @@ class Button
 	inside : (x,y) -> @radie > dist x,y,@x,@y
 
 setup = ->
-	createCanvas 2*450,2*150
+	params = getURLParams()
+	if params.scale then myscale = params.scale
+	createCanvas myscale*2*450,myscale*2*150
 	textAlign CENTER,CENTER
-	textSize 40
+	textSize myscale * 40
 	for littera,i in 'abcdef'
 		do (i) ->
-			buttons.push new Button 2*100+2*50*i,2*100,beans,'',() -> HouseOnClick i
-	buttons.push new Button 2*400,2*75,0
+			buttons.push new Button myscale*2*100 + myscale*2*50*i, myscale*2*100,beans,'',() -> HouseOnClick i
+	buttons.push new Button myscale*2*400, myscale*2*75,0
 	for littera,i in 'ABCDEF'
-		buttons.push new Button 2*100+2*50*(5-i),2*50,beans,littera
-	buttons.push new Button 2*50,2*75,0
+		buttons.push new Button myscale*2*100 + myscale*2*50*(5-i), myscale*2*50, beans, littera
+	buttons.push new Button myscale*2*50, myscale*2*75,0
 	reset beans
 
 xdraw = ->
@@ -48,19 +51,19 @@ xdraw = ->
 		button.draw()
 	fc 1,1,0
 	textAlign LEFT,CENTER
-	text 'Level: '+messages.depth,2*10,2*20
-	text messages.result,2+10,2*135
+	text 'Level: '+messages.depth,myscale * 2*10, myscale * 2*20
+	text messages.result,myscale * 2+10, myscale * 2*135
 	textAlign CENTER,CENTER
-	text messages.computerLetters,width/2,2*20
-	text messages.humanLetters,width/2,2*135
+	text messages.computerLetters,width/2,myscale * 2*20
+	text messages.humanLetters,width/2,myscale * 2*135
 	textAlign RIGHT,CENTER
-	text Math.round(10*messages.time)/10 + ' ms',width-2*10,2*20
-	text messages.moves,width-2*10,2*135
+	text Math.round(10*messages.time)/10 + ' ms', (width-2*10),  myscale * 2*20
+	text messages.moves, (width-2*10), myscale * 2*135
 
 mousePressed = () ->
 	if messages.result != '' then return reset 0
 	messages.computerLetters = ''
-	#messages.humanLetters = ''
+	console.log mouseX,mouseY
 	for button in buttons
 		if button.inside mouseX,mouseY then button.click()
 
@@ -75,7 +78,6 @@ reset = (b) ->
 	messages.time = 0
 	messages.result = ''
 	messages.computerLetters = ''
-	#messages.humanLetters = ''
 	messages.moves = 0
 
 	player = _.random 0,1
@@ -91,7 +93,6 @@ keyPressed = ->
 ActiveComputerHouse = () ->
 	start = window.performance.now()
 	result = alphaBeta depth, player
-	#result = minimax depth, player
 	stopp = window.performance.now()
 	messages.time += stopp - start
 	HouseOnClick result
