@@ -21,7 +21,7 @@
     "emotion": "^10.0.27",
     "fs-extra": "^8.1.0",
     "has": "^1.0.3",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "lodash.random": "^3.2.0",
     "lodash.range": "^3.2.0",
     "lodash.sample": "^4.2.1",
