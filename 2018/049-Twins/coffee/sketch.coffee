@@ -76,7 +76,8 @@ class Button
 		text @txt,@x,@y
 
 newGame = (n) ->
-	if n in [0,maxLevel+1] then return 
+#	if n in [0,maxLevel+1] then return 
+	if n in [0,maxLevel+2] then return 
 	level = constrain n,2,maxLevel
 	makeGame()
 	showMoves()
